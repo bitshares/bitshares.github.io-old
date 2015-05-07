@@ -4,89 +4,63 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Rust, Rust programming language, rustlang, rust-lang, Mozilla Rust">
-    <meta name="description" content="A systems programming language that runs blazingly fast, prevents almost all crashes, and eliminates data races.">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
   </head>
 
   <body class="container">
-    <a href="https://github.com/rust-lang/rust">
-      <img class="ribbon" style="display: none" src="/logos/forkme.png" alt="Fork me on GitHub" width="298" height="298">
-    </a>
 
     <header>
-
     <ul class="row menu">
-      <li class="col-xs-12 col-md-4">
-        <a href="index.html">
-          <img class="img-responsive" src="logos/rust-logo-blk.svg" onerror="this.src='logos/rust-logo-256x256-blk.png'" height="128" width="128" alt="Rust logo" />
+      <li class="col-xs-12 col-md-2">
+        <a href="/">
+          <img class="img-responsive" src="/images/transparent_b.png" height="160" width="160" alt="BitShares logo" />
         </a>
       </li>
-      <li class="col-xs-4 col-md-2"><h2>Docs (Beta)</h2>
+      <li class="col-xs-4 col-md-2"><h2>About</h2>
         <ul>
-          <li><a href="http://doc.rust-lang.org/1.0.0-beta.4/book/">Book</a></li>
-          <li><a href="http://doc.rust-lang.org/1.0.0-beta.4/reference.html">Reference</a></li>
-          <li>
-            <a href="http://doc.rust-lang.org/1.0.0-beta.4/std/">API docs</a></li>
-            <li><a href="http://doc.rust-lang.org/1.0.0-beta.4/">All docs</a>
-          </li>
+          <li><a href="{% post_url 2015-06-08-bitshares-2.0 %}">Technology</a></li>
+          <li><a href="{% post_url 2015-06-07-bitshares-2-roadmap %}">Roadmap</a></li>
+          <li><a href="{{ site.posts.first.url }}">Blog</a></li>
+          <li><a href="https://www.stellar.org/contact/">Contact</a></li>
         </ul>
       </li>
-      <li class="col-xs-4 col-md-2"><h2>Docs (Nightly)</h2>
+      <li class="col-xs-4 col-md-2"><h2>Documentation</h2>
         <ul>
-          <li><a href="http://doc.rust-lang.org/nightly/book/">Book</a></li>
-          <li><a href="http://doc.rust-lang.org/nightly/reference.html">Reference</a></li>
-          <li>
-            <a href="http://doc.rust-lang.org/nightly/std/index.html">API docs</a></li>
-            <li><a href="http://doc.rust-lang.org/nightly/index.html">All docs</a>
-          </li>
+          <li><a href="{% post_url 2015-06-07-developer-documentation %}">Developers</a></li>
+          <li><a href="{% post_url 2015-06-07-affiliate-system %}">Affiliates</a></li>
+          <li><a href="{% post_url 2015-06-07-asset-exchange-rules %}">Traders</a></li>
+          <li><a href="{% post_url 2015-06-07-membership-structure %}">Members</a></li>
         </ul>
       </li>
-      <li class="col-xs-4 col-md-2"><h2>Community</h2>
+      <li class="col-xs-4 col-md-2"><h2>Get Involved</h2>
         <ul>
-          <li>
-            <a href="https://github.com/rust-lang/rust">GitHub</a>
-          </li>
-	  <li>
-	    <a href="http://users.rust-lang.org">User Forum</a>
-	  </li>
-          <li>
-            <a href="https://chat.mibbit.com/?server=irc.mozilla.org&amp;channel=%23rust">IRC</a>
-          </li>
-          <li>
-            <a href="https://reddit.com/r/rust">Reddit</a>
-          </li>
+          <li><a href="https://faucet.bitshares.org/">Sign Up</a> (free)</li>
+          <li><a href="https://bitshares.org/deposit-withdraw">Gateways</a></li>
+	      <li><a href="https://bitsharestalk.org/">Forum</a></li>
+          <li><a href="https://github.com/BitShares">GitHub</a></li>
         </ul>
       </li>
-      <li class="col-xs-4 col-md-2"><h2>&nbsp;</h2>
+      <li class="col-xs-4 col-md-2"><h2>Share</h2>
         <ul>
-          <li>
-            <a href="https://stackoverflow.com/questions/tagged/rust">Stack Overflow</a>
-          </li>
-          <li>
-	    <a href="https://twitter.com/rustlang">Twitter</a>
-          </li>
-          <li>
-            <a href="http://blog.rust-lang.org">Blog</a>
-          </li>
-          <li>
-            <a href="https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com">Calendar</a>
-          </li>
+          <li><a href="https://www.reddit.com/r/BitShares">Reddit</a></li>
+          <li><a href="https://twitter.com/_bitshares">Twitter</a></li>
+          <li><a href="https://www.facebook.com/officialbitshares">Facebook</a></li>
+          <li><a href="https://plus.google.com/+BitsharesOrg/posts">Google+</a></li>
+        </ul>
+      </li>
+      <li class="col-xs-4 col-md-2"><h2>News</h2>
+        <ul>
+          <li><a href="https://bitshares.org/newsletter/">Newsletter</a></li>
+	      <li><a href="http://bitshares.tv/">BitShares TV</a></li>
+	      <li><a href="http://www.aboutbts.com/">AboutBTS</a></li>
+	      <li><a href="http://www.bts.hk/">BTS.hk</a></li>
         </ul>
       </li>
     </ul>
   </header>
+
       {{ content }}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-58390457-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
   </body>
 </html>

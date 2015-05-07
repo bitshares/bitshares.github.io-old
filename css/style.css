@@ -28,7 +28,7 @@ body {
 	font-family: 'Fira Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	max-width: 820px;
+	max-width: 1100px;
 }
 p {
 	margin-top: 1.2em;
@@ -329,57 +329,4 @@ ul.laundry-list {
   padding: 10px;
   display: none;
   border-radius: 4px;
-}
-
-.ace-error-text, .ace-error-line, .ace-warning-text, .ace-warning-line {
-  position: absolute;
-}
-
-.ace-error-text {
-  background-color: #e9abab;
-}
-
-.ace-error-line {
-  background-color: #F6E2E2;
-}
-
-.ace-warning-text {
-  background-color: #FFEF00;
-}
-
-.ace-warning-line {
-  background-color: #FFFBCB;
-}
-
-.ace-chrome .ace_comment {
-	color: #565656;
-}
-
-.ace-chrome .ace-keyword {
-	color: #8959A8;
-}
-
-.ace-chrome .ace_entity.ace_name.ace_function {
-	color: #4271AE;
-}
-
-.ace-chrome .ace_constant.ace_numeric {
-	color: #718C00;
-}
-
-.ace-chrome .ace_keyword.ace_operator {
-	color: black;
-}
-
-.ace-chrome .ace_string {
-	color: #3E999F;
-}
-
-#active-code, #editor {
-	background-color: #FAFAFA;
-}
-
-.more-examples {
-	text-align: right;
-	margin: 5px 10px 0 0;
 }
