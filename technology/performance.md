@@ -80,3 +80,19 @@ Based upon the lessons we learn from LMAX we know that a virtual machine for a b
 ## Conclusion
 
 Designing high-performance blockchains isn’t rocket-science and doesn’t require complex, hard-to-understand protocols nor does it require dividing the processing among all the nodes on the network.  Instead all that is necessary to build a high-performance blockchain is to remove all calculations that are not part of the critical, order-dependent, evaluation from the core business logic and to design a protocol that facilitates these kinds of optimizations.
+
+# from elsewhere
+
+## Object Graph Database
+
+A unified database structure based around an in-memory object graph can provide fast, constant-time lookups of the data needed to process transactions.  This structure also lends itself to easy snapshots and restoring of database state.    This state should be significantly smaller than the complete transaction history of all objects.
+
+Everything in the graph database is an object that is allocated a sequential ID by the consensus process.  Anyone can create a object that contains arbitrary data and every object has a owner who is the only person able to change the data.  This owner can be transferred to someone else.  The core protocol does not need to support specifying the data, it must only support allocating and transferring ownership of IDs.   Higher level interpretations of custom data operations can then utilize the IDs allocated by the protocol.
+
+** Fees **
+
+Every single operation must specify and pay its fees.  All fees are set by the delegates which publish a fee schedule with a different fee for each operation type.  Once per day the fees adjust to the median of the delegate schedules.  A fee may be paid in any asset provided there is BTS in the fee pool for that asset and the issuer has published a price for extracting fees from the pool.   Anyone may contribute BTS to the fee pool for an asset.   In the case of BitAssets the fee pool can go negative and the network automatically sells the BitAssets accumulated when someone places an order to buy the BitAsset for BTS.
+
+** Should Objects have the ability to be listed for sale "on the blockchain"?  **
+
+Given that objects are transferrable, they could be sold "off chain".  All that would be necessary is for someone to construct a transaction with two operations: 1 transfer payment, and 1 transfer object and then have both parties "sign" the transaction.  This would be atomic and keep features "off chain". On the other hand, this requires both parties to be online and available to sign the transaction at about the same time.  The cost of implementing it "on chain" is to add an optional "sale price" to an object and a single operation that will buy it.
