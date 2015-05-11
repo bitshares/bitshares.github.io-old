@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Performance - BitShares
+title: Performance and Scalability - BitShares
 ---
 
-# Performance
+# Performance and Scalability
 
 Smart Chains - Scalable Blockchain Technology
 
