@@ -100,39 +100,6 @@ The only exception would be emergency fixes to address security issues or bugs t
 ## Conclusion
 DPOS 2.0 takes stakeholder governance to a new level and provides a consensus protocol that has the ability to adapt to changing market conditions and technologies while minimizing the scope of political infighting.
 
-# from elsewhere
-
-### Transactions as Proof of Stake
-Every transaction must include 4 bytes from a recent block hash that uniquely identifies the assumed state of the blockchain at the time the transaction was signed.  Transactions cannot be included in any chain that does not contain that block.  This means that every single transaction contributes to irreversibly confirming the public record.  Witnesses provide short-term ordering of transactions while every single user participates in confirming the long-term history.
-
-
-
-  DPOS has been upgraded and is now more flexible than ever.
-Consensus is the core of the platform and DPOS is the most efficient and flexible consensus algorithm.  There are several parameters that must be tuned with DPOS such as block interval and the number of delegates.  Based upon experience with BitShares we know that a 10 second block time is possible with near 100% reliability and an average latency of just 0.1 seconds.   The primary consideration when considering block interval is network propagation delay.  Any delayed block will cause the following delegate to miss it.   The network must be able to "stream" blocks at a fluid rate even at scale and therefore the "block interval" doesn't matter beyond the ability of delegates to sync their clocks.    You could have a 1MB block every second or a 10MB block every 10 seconds, the resulting network activity would be about the same.  With this knowledge in hand, **I believe a 5 second block interval should be the target**.
-
-### Benefits of 5 Second Blocks
-  With an average confirmation time of just 2.5 seconds the network will be able to reach complete consensus (all delegates signing) every 8 minutes. The rate of random number generation will be 2x as fast which makes a significant difference in game play.   If a delegate does miss a block it doesn't result in a 20 second pause.  In other words, with 50% delegate participation the performance will feel the same as BitShares with 100% participation.
-
-  The cons are a larger database of blocks that must be processed.  This can be largely mitigated by storing blocks sequentially in a flat file which can be easily streamed and avoid costly sorting of blocks by block hash.
-
-### Dynamic Block Interval
-  As time progresses experience will tell us if we need longer block intervals or shorter intervals.  A dynamic block interval would allow the delegates to "vote" on the desired interval and the network can adopt the median of the delegates.  This will allow the network to respond to changing demands and competition.
-
-  A dynamic block interval would change the security definition from the "longest chain" to highest delegate participation since last change in the block interval where delegate participation is measured as blocks produced / expected blocks.
-
-  To protect the network from abuse limits on the allowable range of block intervals should be hard coded.  I propose **1 second to 30 seconds to be the range**.  Below 1 second there is not enough time for a block to propagate around the world which takes 300 ms just to ping half way around the world.   Well connected, highly optimized delegates could probably do 1 second blocks.   There is also diminishing returns.
-
-### Dynamic Delegate Count
-  Fixing the number of delegates is inflexible and unresponsive to the needs of the shareholders and could potentially create a security issue.  The number of delegates should be dynamic such that the lowest approved delegate has at least 75% of the approval of the most approved delegate.   Under BitShares the most approved delegate has over 16% while the least approved delegate has about 8%, this situation shows the lowest approved delegate has 50% the approval of the most approved delegate.  Using the new rules BitShares would have 23 active delegates.
-
-  The "long tail" of delegate approval opens the network up to a 51% attack with far less stake than the new proposed rule.
-
-  There should probably be a minimum number of delegates (10?) regardless of approval.
-
-## Double Spend Attack
-
-Because transactions cannot migrate outside their valid window if an attacker knows there will be a short fork (just a few blocks) they can make a payment with a very short window.  This means that a single block confirmation is not fully secure and that you should wait for at least half a round (4 minutes).
-
 ##BitShares is a network
 
 Moving up a layer, **BitShares is a network**.  A network of computers owned by individuals all over the world run the BitShares software and keep their databases synchronized according to the rules defined by the software.  The BitShares network can survive as long as there are at least two computers that can communicate with each other over the internet.  This network of distributed computers ensures that the database is robust against failure.  Every single computer on the network maintains a full copy of the database which means no one can change the public record.  This immutable public record becomes the foundation of higher layers.
@@ -197,20 +164,6 @@ Consensus is the core of the platform and DPOS is the most efficient and flexibl
 ## Double Spend Attack
 
 Because transactions cannot migrate outside their valid window if an attacker knows there will be a short fork (just a few blocks) they can make a payment with a very short window.  This means that a single block confirmation is not fully secure and that you should wait for at least half a round (4 minutes).
-
-
-## more
-Under DPOS stakeholders elect individuals to produce blocks, configure blockchain parameters, and fund infrastructure.  Under DPOS 2.0 the roles of delegates and users have been divided into several different roles.
-
-1. **Customers** use the services provided by the blockchain and pay full transaction fees.  These users have no role in the governance of the network.
-2. **Members** are paid-for premium accounts which can use their stake to vote for elected positions.  Members get an 80% discount on transaction fees and are qualified to receive referral income from new users they sign up.
-3. **Witnesses** are an elected position that produce blocks and validate transactions.  They are paid a small percentage of transaction fees necessary to cover the cost of running the network.
-4. **Committee Members** are elected positions that have the power to propose changes to the blockchain parameters.  This position is not paid.
-5. **Infrastructure Members** are paid by the blockchain to perform needed development.  All infrastructure spending must be directly approved by the voting Members and has a hard-coded spending limit.
-
-New in DPOS 2.0 is the complete configurability of the blockchain.  Everything from transaction sizes, fees, block sizes, and block intervals are dynamic and can be adjusted by the Committee Members to account for changing technologies and load.  There are no hard-coded magic numbers in the blockchain which makes DPOS 2.0 adaptable and resilient.
-
-DPOS 1.0 hardcoded 101 delegates to produce blocks.  Some people felt this was too many, others too few.  One thing we knew for sure is that 101 is probably not the right number and so under DPOS 2.0 the stakeholders now have full control over how many block producers, committee members, and infrastructure members they wish to elect.
 
 ## DPOS 2.0 - Witness, Delegate, and Worker Roles
 A witness is simply a block producer and is paid a small percentage of transaction fees.   A set of delegates has multi-sig control over the "genesis" account which has the authority to change dozens of blockchain parameters including: block interval, fees, block sizes, etc.  
