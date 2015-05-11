@@ -1,17 +1,6 @@
-   <h2>Recent Posts</h2> 
+   <h2>Posts</h2>
    <ul style="list-style-type: none; margin: 0px;">
    {% for post in site.posts %}
-      {% capture count %}{{ count | plus: '4' }}{% endcapture %}
         <li style="margin-left: -30px;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a></li>
-   {% endfor %}
-   </ul>
-
-   <h2>Featured Posts</h2> 
-   <ul style="list-style-type: none; margin: 0px;">
-   {% for post in site.posts %}
-       {% if post.featured == true %}
-         {% capture count %}{{ count | plus: '4' }}{% endcapture %}
-           <li style="margin-left: -30px;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a></li>
-     {% endif %}
    {% endfor %}
    </ul>

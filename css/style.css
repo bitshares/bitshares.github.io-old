@@ -163,8 +163,9 @@ div.install {
 	text-decoration: none;
 }
 
-.install-row {
-	margin-bottom: 0em;
+.slogan {
+	text-align: center;
+    margin-bottom: 1em;
 }
 
 p.pitch {
@@ -174,11 +175,9 @@ p.pitch {
 }
 @media (min-width: 992px) {
 	p.pitch {
-		font-size: 25px;
-		margin-top: 2.7em;
+		font-size: 35px;
+		margin-top: 1em;
 		margin-bottom: 1em;
-		margin-right: 1em;
-		text-align: left;
 	}
 }
 

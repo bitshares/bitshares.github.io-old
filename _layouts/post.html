@@ -11,9 +11,8 @@ layout: default
 <td>
 
 <section class="posts wrapper">
-    <article class="post {% if page.featured == true %} featured {% endif %}">
         
-            <h1 id="posttitle"><a href="#">{{ page.title }}</a></h1>
+            <h1 id="posttitle">{{ page.title }}</h1>
             <span>
                 Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.author_name }}{% endif %}
                 on <i class="fa fa-clock-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>.
@@ -23,8 +22,6 @@ layout: default
         <section class="postbody">
             {{ content }}
         </section>
-
-    </article>
 
 </section>
 </td>
