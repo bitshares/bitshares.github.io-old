@@ -130,7 +130,7 @@ Under DPOS stakeholders elect individuals to produce blocks, configure blockchai
 4. **Committee Members** are elected positions that have the power to propose changes to the blockchain parameters.  This position is not paid.
 5. **Infrastructure Members** are paid by the blockchain to perform needed development.  All infrastructure spending must be directly approved by the voting Members and has a hard-coded spending limit.
 
-New in DPOS 2.0 is the complete configurability of the blockchain.  Everything from transaction sizes, fees, block sizes, and block intervals are dynamic and can be adjusted by the Committee Members to account for changing technologies and load.  There are no hard-coded magic numbers in the blockchain which makes DPOS 2.0 adaptable and resilient.
+New in DPOS 2.0 is the ability dynamically configure all properties of the blockchain.  Everything from transaction sizes, fees, block sizes, and block intervals are dynamic and can be adjusted by the Committee Members to account for changing technologies and load.  There are no hard-coded magic numbers in the blockchain which makes DPOS 2.0 adaptable and resilient.
 
 DPOS 1.0 hardcoded 101 delegates to produce blocks.  Some people felt this was too many, others too few.  One thing we knew for sure is that 101 is probably not the right number and so under DPOS 2.0 the stakeholders now have full control over how many block producers, committee members, and infrastructure members they wish to elect.
 
@@ -163,7 +163,9 @@ Consensus is the core of the platform and DPOS is the most efficient and flexibl
 
 ## Double Spend Attack
 
-Because transactions cannot migrate outside their valid window if an attacker knows there will be a short fork (just a few blocks) they can make a payment with a very short window.  This means that a single block confirmation is not fully secure and that you should wait for at least half a round (4 minutes).
+A double spend can occur anytime a blockchain reorganization excludes a transaction previously included.  This means that the witnesses had a communication break down caused by disruptions in the infrastructure of the Internet.  With DPOS the probability of a communication break down enabling a double spend attack is very low.  
+
+The network is able to monitor its own health and can immediately detect any loss in communication which shows up as witnesses failing to produce blocks on schedule.  When this occurs it may be necessary to wait until half of the witnesses have confirmed your transaction which could be a minute or two.  
 
 ## DPOS 2.0 - Witness, Delegate, and Worker Roles
 A witness is simply a block producer and is paid a small percentage of transaction fees.   A set of delegates has multi-sig control over the "genesis" account which has the authority to change dozens of blockchain parameters including: block interval, fees, block sizes, etc.  
