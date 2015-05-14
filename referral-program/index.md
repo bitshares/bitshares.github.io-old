@@ -1,16 +1,15 @@
 ---
-layout: technology
-title: Referral Rewards
-subtitle: Earn $80 or more for every member you sign up
-priority: 1
-summary: "
+layout: default
+title: Referral Program
+---
+
+# Referral Program
+
 BitShares is the first blockchain with a built in referral system designed to promote viral growth.
 Sign up a friend and collect 80% of their future transaction fees.
 Traditional payment companies expect to generate over $100 per user on average and many companies are
 willing to pay over $40 per user even without a clear monetization strategy.
 BitShares passes the vast majority of that revenue on to its members who sign up new users.
-"
----
 
 When you join BitShares as a lifetime member you get many benefits.  Among these benefits are 80% cash back on all
 transaction fees, bulk discounts, and an opportunity to collect 80% of the fees paid by every user you sign up.  We estimate
@@ -56,7 +55,7 @@ Moonstone ($40) and Sam ($40).
 
 ### Terms & Conditions
 
-Please see the [Referral Program - Terms & Conditions](/technology/referral-program-terms-and-conditions.html) for
+Please see the [Referral Program - Terms & Conditions](/referral-program/referral-program-terms-and-conditions.html) for
 more details.
 
 <hr/>
