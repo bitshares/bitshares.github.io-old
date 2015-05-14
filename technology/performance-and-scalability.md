@@ -96,3 +96,17 @@ Every single operation must specify and pay its fees.  All fees are set by the d
 ** Should Objects have the ability to be listed for sale "on the blockchain"?  **
 
 Given that objects are transferrable, they could be sold "off chain".  All that would be necessary is for someone to construct a transaction with two operations: 1 transfer payment, and 1 transfer object and then have both parties "sign" the transaction.  This would be atomic and keep features "off chain". On the other hand, this requires both parties to be online and available to sign the transaction at about the same time.  The cost of implementing it "on chain" is to add an optional "sale price" to an object and a single operation that will buy it.
+
+## Maintenance Blocks
+When producing blocks at speeds as fast as 1 block per second, the maximum time available to perform computationally intensive tasks is very small.
+From time to time there are expensive operations that may take a few seconds or a few minutes to perform that cannot be efficiently or practically amortized over many blocks.
+To accommodate periodic execution of more expensive operations, DPOS 2.0 introduces a Maintenance Block that has a longer interval between when it is produce and when the previous block was produced.
+
+An example of an expensive operation would be tallying the votes of all stakeholders.
+For this reason, DPOS 2.0 only updates vote tallies on maintenance blocks and recommends one maintenance block per day.
+Under DPOS 1.0, the real-time calculation and updating of votes accounted for a significant computational load on every individual transaction.
+Under DPOS 2.0, all modifications to balances are coalesced into one vote update per day which is significantly more efficient and less error prone.
+
+Other tasks that can be performed on a Maintenance Block would be the updating and refreshing of database indexes, calculating new blockchain parameters, sanity checking of the total supply, etc.
+The exact uses depend upon what kind of operations a blockchain is designed to support.
+

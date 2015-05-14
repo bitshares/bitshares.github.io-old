@@ -30,20 +30,7 @@ Compared to the settlement of normal financial contracts, this type of automatio
 - ease of use
 - profitable new business models
 
-After over a year of research and development, we decided that the best way for BitShares to provide the above services
-was to structure it as an open platform running on a public **blockchain** and using the **Delegated Proof-of-Stake** consensus protocol.
-
-Using such a design for BitShares provides the following benefits:
-
-- Reliability,
-- Maintainability,
-- Scalability.
-- Fault-Tolerance: the market should be resilient to bad actors
-- Immutability: the historical intent of all market participants should be preserved
-- Transparency: any actor can inspect the market to verify that it is operating correctly
-- Censorship Resistance: no actor can be kept from performing valid market operations
-
-The BitShares blockchain itself is run and maintained by the **BitShares community**--an open consortium of individuals and organizations committed to providing universal access to the power of smart contracts.
+The BitShares platform itself is run and maintained by the **BitShares community**--an open consortium of individuals and organizations committed to providing universal access to the power of smart contracts.
 
 Working together, this community has designed and developed the BitShares platform to include numerous innovative features which are not found elsewhere within the smart contract industry:
 
@@ -79,14 +66,8 @@ BitShares accounts can be tagged by other accounts to indicate who knows who. Th
 BitShares provides the highest performance decentralized exchange available that has all of the features you would expect in a trading platform. Orders are settled the second you submit them. Collateralized bonds provide opportunities for leverage and earning interest and options contracts allow you to hedge your position.
 
 #### <a href="/technology/delegated-proof-of-stake-consensus.html">Delegated Proof-of-Stake Consensus</a>
-BitShares is a software platform designed to help coordinate voluntary free market operations amongst a set of social actors.
-
-These social actors together maintain a replicated deterministic state machine which defines the state of a free market.
-This state machine unambigiously defines the ownership of resources amongst market participants, the rules by which resources are reallocated through market operations, and the history of all market operations.
-Social actors are free to voluntarily enter and exit the market as desired.
-
-Replicas of the state machine are kept consistent using the [Delegated Proof-of-Stake](http://wiki.bitshares.org/index.php/DPOS_or_Delegated_Proof_of_Stake) distributed consensus protocol, which depends on market operations by a special class of market participants colloquially known as shareholders.
-Resource ownership is secured using digital signatures and inputs to the state machine are shared amongst actors using a peer-to-peer mesh network.
+The BitShares platform is implemented using a public **blockchain** utilizing the innovative
+**Delegated Proof-of-Stake** distributed consensus protocol.
 
 #### <a href="/technology/stakeholder-approved-project-funding.html">Stakeholder-Approved Project Funding</a>
 Proper pricing is important for to ensure a sustainable business model. By charging fees that are appropriate and distributing the income in an effective manner BitShares powered networks can grow while while others struggle. Members pay fees similar to Bitcoin ($0.04) while users pay fees similar to Dwolla ($0.20) or centralized exchanges (0.2%).
@@ -96,4 +77,4 @@ workers
 --------------
 
 ### Learn More
-See our roadmap for future plans or come join or forum to participate in the discussions!
+See our roadmap for future plans or come join the discussions on our forum!

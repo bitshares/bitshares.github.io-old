@@ -1,175 +1,133 @@
 ---
 layout: default
-title: Delegated Proof-of-Stake - BitShares
+title: Delegated Proof-of-Stake Consensus - BitShares
 ---
 
-# Delegated Proof-of-Stake (2.0)
+# Delegated Proof-of-Stake Consensus
 
-## Abstract.
-A consensus system is critical to the success of decentralized organizations. This paper introduces a new approach to Delegated Proof of Stake that extends the consensus process from block production to all system parameters while increasing the level of control individual stakeholders have.   This updated consensus system incorporates legal research presented in the SWARM Working Paper, “Distributed Networks and the Law”.
+(whitepaper coming soon)
 
-## Overview.
+Financial smart contracts require the strongest of guarantees ensuring their security and integrity.
+The BitShares platform achieves these guarantees by executing all contracts on a public blockchain.
+The blockchain implements a replicated deterministic state machine which at all times
+unambiguously defines the current state of all contracts and the rules for their execution.
+Contract ownership is secured using digital signatures and new inputs to the state machine
+are disseminated using a peer-to-peer mesh network.
 
-Distributed ledgers such as Bitcoin and BitShares are required to come to consensus about many things, including (but not limited to):
+Replicas of the state machine are kept consistent using the Delegated Proof-of-Stake (DPOS) distributed consensus protocol.
+Developed over the course of more than a year of research and development,
+the DPOS protocol is at the center of the BitShares platform, and it provides the following benefits:
 
-Who should produce the next block?
-When the next block should be produced?
-How big can the block be?
-What transactions should be included in the block?
-What fees should be charged on those transactions?
-How much should the block producer be paid?
-Who should be issued new tokens and under what conditions?
-Should a new set of rules be adopted?
-When should the new set of rules take effect?
+- Transparent and auditable contract execution
+- Continuous platform uptime and availability
+- High-speed contract execution
+- Predictable fee schedules
+- Contracts have access to a random number generator
+- Stakeholders must approve all platform configuration changes
+- Valid contracts cannot be censored
+- Low platform infrastructure costs
 
-Delegated Proof of Stake operates under the principle that all control should ultimately rest in the stakeholders.     This paper will discuss the general process for how these and other decisions can be made but will not discuss any particular implementation of the concept.
+## Overview
 
-## DPOS 1.0 Review
-Under DPOS 1.0 the stakeholders would select 101 delegates by approval voting.  These delegates would take turns producing blocks every 10 seconds. Each delegate would get to set their own pay rate as a percent of the maximum.  Decisions about which fees to charge and hard-forks to adopt rested in the hands of delegates which acted individually.
+DPOS defines two special types of accounts which are responsible for maintaining consensus:
 
-This system worked reasonably well but over time some serious issues became apparent. Some of these issues include:
+- **Delegates** are responsible for configuring special parameters of both the consensus protocol as well as contract execution
+- **Witnesses** are responsible for choosing a canonical ordering of transactions by extending the blockchain
 
-Requiring stakeholders to select 101 delegates may be too much leading to most stakeholders voting for less than 101 or not carefully vetting the delegates they chose.
-Forcing all “employees” to run servers to get paid significantly complicated the hiring of people without those skills.
-There was no way to come to a consensus on what the fee structure should be.
-With a total budget of $50,000 per month of new issuance, each individual delegate had a maximum budget of $500 per month which is not enough to get someone’s full time attention.   It was politically unpopular to give one individual multiple delegate positions for fear of centralization.
-Delegates have too much control in a single position that opens them up to unnecessary legal liability.
+Delegates and witnesses are elected by the BitShares stakeholders. A BitShares stakeholder is anyone who owns
+a unit of the BitShares core token--known as BTS.
 
-## DPOS 2.0 Overview
+one token is one vote
 
-Under DPOS 2.0 the roles of delegates have been divided into 3 categories:
+ Because stake is limited, attacking a proof of stake system would require buying up a large stake in the network at great expense. 
 
-Witness - produces blocks and is paid a percentage of transaction fees.
-Worker - is paid a fixed number of tokens per day to perform a task
-Delegate - co-signer on a dynamic multi-sig account with permissions to change blockchain parameters.
+Each of these roles is filled by approval voting.
+The number of Witnesses and Delegates is directly voted upon by the stakeholders.
+Each stakeholder must vote for at least as many Witnesses and Delegates as they believe the system should have.
+The number of witnesses/delegates is defined such that at least 50% of voting shareholders believe there is sufficient decentralization.
 
-Each of these roles is filled by approval voting.  The number of Witnesses and Delegates is directly voted upon by the stakeholders.    Each stakeholder must vote for at least as many Witnesses and Delegates as they believe the system should have.   The number of witnesses/delegates is defined such that at least 50% of voting shareholders believe there is sufficient decentralization.  The number of workers is determined by how many workers the available daily budget will cover when paid out to workers from most approved to least approved.
-
-## Delegates
-
-The delegates have multi-sig control over a special account dubbed the “genesis account”.  This multi-sig account can do anything any other account can do with a 2 week delay.  If enough (TODO: what does this mean here?) delegates are voted out within two weeks of jointly approving a transaction then the transaction will fail to go through.
-
-The “genesis account” has the unique privilege of changing critical parameters such as: Block Interval, Block Size, Witness Pay Rate, Burn Rate, and even the review period for their own transactions.
-
-Delegates are not paid positions and are therefore honorary and held by individuals who have a vested interest negotiating changes to the network parameters.
-
-Legally the delegates have no direct power other than to propose changes for the stakeholders to reject.   This means delegate positions are safe from regulation and power truly rests in the hands of the stakeholders.
-
-Unlike DPOS 1.0 where each delegate operates independently, under DPOS 2.0 delegates are forced to reach consensus (TODO: may make sense to clarify exactly how they must go about reaching consensus... especially when using the word "forced", readers will likely want to know how this must be done.) directly before any change can be proposed.
-
-## Witnesses
-
-A witness is paid a percentage of transaction fees as defined by the delegates and approved by the stakeholders.   Their job is merely to include transactions and produce blocks and their pay is designed to be only enough to cover their time and materials cost.   The witness role is designed to be politically neutral with no power over fees or policy.   In effect they represent a group of notaries that are merely reporting what transactions they saw and in what order.
-
-It is critical that the block producers are as separated as possible from any potentially regulated activity.   Without block producers the network cannot include the transactions necessary to reach consensus on the other roles such as delegates and workers.
-
-It is critical that the block producers are not paid via dilution and ultimately have no control so they can easily operate without any licensing.  The regulatory frameworks have indicated that “miners” may fall under some regulations (TODO: this is the first time any mention of mining has been brought up in this paper. you should provide more context as to what mining (BTC) entails and how it compares to the action that witnesses perform.).  It is also for this reason that witnesses do not have any power over their own pay or other parameters lest they get classified (TODO: by regulators?) as administrators which is a potentially regulated position.
-
-## Workers
-A worker is an elected position that gets paid via dilution to fund new blockchain infrastructure.  Their employment “smart contract” specifies a start date, an end date, a daily pay rate, and a vesting period. (TODO: i would expand on this. how much do they get paid (% wise) each day vs. how much vests. if collecting early, what's the penalty. etc.)   They get paid each day between the start and end date that a worker is voted high enough in the approval queue to get funding.  Their pay vests linearly from the time they receive it until the end of the vesting period.
-
-Each worker can receive positive and negative approval.    This means that to get funded a worker must have a lot of positive support and minimal negative approval.  It also means that they can get fired very quickly by having a vote switch from being for to being against.
-
-## Delegated Voting
-
-Voter apathy or laziness can be a significant vulnerability in a system that depends upon attentive voters to police delegates, workers, and witnesses.   Most people do not have the time to review the performance of more than a handful of people and even if they had the time they wouldn’t necessarily have the skills to evaluate it.
-
-Under DPOS 2.0 each account can nominate someone else to vote their stake on their behalf. (TODO: can they rescind their nomination at any time? should add detail on how this works.)  This creates a web of trust that ultimately puts most votes under the control of attentive accounts and dramatically increases the security of the network.
-
-## Maintenance Blocks
-When producing blocks at speeds as fast as 1 block per second, the maximum time available to perform computationally intensive tasks is very small.  From time to time there are expensive operations that may take a few seconds or a few minutes to perform that cannot be efficiently or practically amortized over many blocks.   To accommodate periodic execution of more expensive operations, DPOS 2.0 introduces a Maintenance Block that has a longer interval between when it is produce and when the previous block was produced.
-
-An example of an expensive operation would be tallying the votes of all stakeholders.  For this reason, DPOS 2.0 only updates vote tallies on maintenance blocks and recommends one maintenance block per day.   Under DPOS 1.0, the real-time calculation and updating of votes accounted for a significant computational load on every individual transaction.   Under DPOS 2.0, all modifications to balances are coalesced into one vote update per day which is significantly more efficient and less error prone.
-
-Other tasks that can be performed on a Maintenance Block would be the updating and refreshing of database indexes, calculating new blockchain parameters, sanity checking of the total supply, etc.   The exact uses depend upon what kind of operations a blockchain is designed to support.
-
-## Decentralization
-DPOS 2.0 takes the stance that it is optimally decentralized because each stakeholder has influence directly proportional to their stake and it is flexible enough to accommodate as many delegates, workers, and witnesses as the stakeholders feel is appropriate and they are prepared to manage.
-
-In many alternative proof of stake systems, small stakeholders are unable to exercise their influence because the cost of participating exceeds the value of the influence gained for anyone without a large amount of stake.
-
-DPOS 2.0 addresses criticism that DPOS was too centralized with its 101 delegates because now there is no limit to the number of delegates.   In addition to decentralizing the number of delegates, we have also separated powers which provides an additional type of decentralization not found elsewhere.
-
-## Hard Forks
-When the core developers are ready with a new hard-fork, the witnesses must first approve of the code and update their nodes to be able to handle the hard fork.  Witnesses should be selected based upon their commitment to never adopt new code that would apply new rules without first obtaining stakeholder approval.   Therefore, when a witness upgrades they do not control when or if a hard-fork happens, instead the stakeholders must first vote to approve the change.
-
-It is not technically possible to enforce this rule; however, it is extremely likely that any group of witnesses that attempt to adopt a hard-fork that does not depend upon stakeholder approval will get voted out.
-
-The only exception would be emergency fixes to address security issues or bugs that violate the documented / intended behavior of a prior release.
-
-## Conclusion
-DPOS 2.0 takes stakeholder governance to a new level and provides a consensus protocol that has the ability to adapt to changing market conditions and technologies while minimizing the scope of political infighting.
-
-##BitShares is a network
-
-Moving up a layer, **BitShares is a network**.  A network of computers owned by individuals all over the world run the BitShares software and keep their databases synchronized according to the rules defined by the software.  The BitShares network can survive as long as there are at least two computers that can communicate with each other over the internet.  This network of distributed computers ensures that the database is robust against failure.  Every single computer on the network maintains a full copy of the database which means no one can change the public record.  This immutable public record becomes the foundation of higher layers.
-
-Delegated Proof of Stake 2.0 (DPOS 2.0)
-Under DPOS stakeholders elect individuals to produce blocks, configure blockchain parameters, and fund infrastructure. Under DPOS 2.0 the roles of delegates and users have been divided into several different roles.
-
-Customers use the services provided by the blockchain and pay full transaction fees. These users have no role in the governance of the network.
-Members are paid-for premium accounts which can use their stake to vote for elected positions. Members get an 80% discount on transaction fees and are qualified to receive referral income from new users they sign up.
-Witnesses are an elected position that produce blocks and validate transactions. They are paid a small percentage of transaction fees necessary to cover the cost of running the network.
-Committee Members are elected positions that have the power to propose changes to the blockchain parameters. This position is not paid.
-Infrastructure Members are paid by the blockchain to perform needed development. All infrastructure spending must be directly approved by the voting Members and has a hard-coded spending limit.
-New in DPOS 2.0 is the complete configurability of the blockchain. Everything from transaction sizes, fees, block sizes, and block intervals are dynamic and can be adjusted by the Committee Members to account for changing technologies and load. There are no hard-coded magic numbers in the blockchain which makes DPOS 2.0 adaptable and resilient.
-
-DPOS 1.0 hardcoded 101 delegates to produce blocks. Some people felt this was too many, others too few. One thing we knew for sure is that 101 is probably not the right number and so under DPOS 2.0 the stakeholders now have full control over how many block producers, committee members, and infrastructure members they wish to elect.
-
-Transactions as Proof of Stake
-Every transaction must include 4 bytes from a recent block hash that uniquely identifies the assumed state of the blockchain at the time the transaction was signed. Transactions cannot be included in any chain that does not contain that block. This means that every single transaction contributes to irreversibly confirming the public record. Witnesses provide short-term ordering of transactions while every single user participates in confirming the long-term history.
-
-
-## Delegated Proof of Stake 2.0 (DPOS 2.0)
-
-Under DPOS stakeholders elect individuals to produce blocks, configure blockchain parameters, and fund infrastructure.  Under DPOS 2.0 the roles of delegates and users have been divided into several different roles.
-
-1. **Customers** use the services provided by the blockchain and pay full transaction fees.  These users have no role in the governance of the network.
-2. **Members** are paid-for premium accounts which can use their stake to vote for elected positions.  Members get an 80% discount on transaction fees and are qualified to receive referral income from new users they sign up.
-3. **Witnesses** are an elected position that produce blocks and validate transactions.  They are paid a small percentage of transaction fees necessary to cover the cost of running the network.
-4. **Committee Members** are elected positions that have the power to propose changes to the blockchain parameters.  This position is not paid.
-5. **Infrastructure Members** are paid by the blockchain to perform needed development.  All infrastructure spending must be directly approved by the voting Members and has a hard-coded spending limit.
-
-New in DPOS 2.0 is the ability dynamically configure all properties of the blockchain.  Everything from transaction sizes, fees, block sizes, and block intervals are dynamic and can be adjusted by the Committee Members to account for changing technologies and load.  There are no hard-coded magic numbers in the blockchain which makes DPOS 2.0 adaptable and resilient.
-
-DPOS 1.0 hardcoded 101 delegates to produce blocks.  Some people felt this was too many, others too few.  One thing we knew for sure is that 101 is probably not the right number and so under DPOS 2.0 the stakeholders now have full control over how many block producers, committee members, and infrastructure members they wish to elect.
-
-### Transactions as Proof of Stake
-Every transaction must include 4 bytes from a recent block hash that uniquely identifies the assumed state of the blockchain at the time the transaction was signed.  Transactions cannot be included in any chain that does not contain that block.  This means that every single transaction contributes to irreversibly confirming the public record.  Witnesses provide short-term ordering of transactions while every single user participates in confirming the long-term history.
-
-
-
-  DPOS has been upgraded and is now more flexible than ever.
-Consensus is the core of the platform and DPOS is the most efficient and flexible consensus algorithm.  There are several parameters that must be tuned with DPOS such as block interval and the number of delegates.  Based upon experience with BitShares we know that a 10 second block time is possible with near 100% reliability and an average latency of just 0.1 seconds.   The primary consideration when considering block interval is network propagation delay.  Any delayed block will cause the following delegate to miss it.   The network must be able to "stream" blocks at a fluid rate even at scale and therefore the "block interval" doesn't matter beyond the ability of delegates to sync their clocks.    You could have a 1MB block every second or a 10MB block every 10 seconds, the resulting network activity would be about the same.  With this knowledge in hand, **I believe a 5 second block interval should be the target**.
-
-### Benefits of 5 Second Blocks
-  With an average confirmation time of just 2.5 seconds the network will be able to reach complete consensus (all delegates signing) every 8 minutes. The rate of random number generation will be 2x as fast which makes a significant difference in game play.   If a delegate does miss a block it doesn't result in a 20 second pause.  In other words, with 50% delegate participation the performance will feel the same as BitShares with 100% participation.
-
-  The cons are a larger database of blocks that must be processed.  This can be largely mitigated by storing blocks sequentially in a flat file which can be easily streamed and avoid costly sorting of blocks by block hash.
-
-### Dynamic Block Interval
-  As time progresses experience will tell us if we need longer block intervals or shorter intervals.  A dynamic block interval would allow the delegates to "vote" on the desired interval and the network can adopt the median of the delegates.  This will allow the network to respond to changing demands and competition.
-
-  A dynamic block interval would change the security definition from the "longest chain" to highest delegate participation since last change in the block interval where delegate participation is measured as blocks produced / expected blocks.
-
-  To protect the network from abuse limits on the allowable range of block intervals should be hard coded.  I propose **1 second to 30 seconds to be the range**.  Below 1 second there is not enough time for a block to propagate around the world which takes 300 ms just to ping half way around the world.   Well connected, highly optimized delegates could probably do 1 second blocks.   There is also diminishing returns.
-
-### Dynamic Delegate Count
-  Fixing the number of delegates is inflexible and unresponsive to the needs of the shareholders and could potentially create a security issue.  The number of delegates should be dynamic such that the lowest approved delegate has at least 75% of the approval of the most approved delegate.   Under BitShares the most approved delegate has over 16% while the least approved delegate has about 8%, this situation shows the lowest approved delegate has 50% the approval of the most approved delegate.  Using the new rules BitShares would have 23 active delegates.
+  Fixing the number of delegates is inflexible and unresponsive to the needs of the shareholders and could potentially create a security issue
+  .  The number of delegates should be dynamic such that the lowest approved delegate has at least 75% of the approval of the most approved delegate
+  .   Under BitShares the most approved delegate has over 16% while the least approved delegate has about 8%, this situation shows the lowest approved delegate has
+  50% the approval of the most approved delegate.  Using the new rules BitShares would have 23 active delegates.
 
   The "long tail" of delegate approval opens the network up to a 51% attack with far less stake than the new proposed rule.
 
   There should probably be a minimum number of delegates (10?) regardless of approval.
 
+Under DPOS 2.0 each account can nominate someone else to vote their stake on their behalf.
+(TODO: can they rescind their nomination at any time? should add detail on how this works.)
+    This creates a web of trust that ultimately puts most votes under the control of attentive accounts and dramatically increases the security of the network.
+
+DPOS 2.0 takes the stance that it is optimally decentralized because each stakeholder has influence directly proportional to their stake and it is
+flexible enough to accommodate as many delegates, workers, and witnesses as the stakeholders feel is appropriate and they are prepared to manage.
+
+In many alternative proof of stake systems, small stakeholders are unable to exercise their influence because the
+cost of participating exceeds the value of the influence gained for anyone without a large amount of stake.
+
+## Delegates
+
+The delegates configure special blockchain parameters such as the maximum block size and the block interval.
+They also configure special contract execution parameters such as the contract fee schedule.
+Making these parameters explicitly configurable ensures that the platform can remain robust and adaptable in the face of
+changing market conditions.
+
+All parameter reconfigurations must first be jointly approved by a quorum of delegates,
+and then pass through a stakeholder review period. During the review period, stakeholders can elect
+a new set of delegates if they disagree with the proposed changes. If, at the end of the review period, a quorum of delegates
+still approves of the proposed changes, then they will take effect as the new rules of the platform.
+
+Note that the duration of the proposal review period is itself a configurable parameter.
+
+## Witnesses
+
+The witnesses order new transactions by bundling them into blocks which extend the blockchain.
+
+Their job is merely to include transactions and produce blocks and their pay is designed to be only enough to cover their time and materials cost.
+A witness is paid a percentage of transaction fees as defined by the delegates and approved by the stakeholders.
+
+A witness is simply a block producer and is paid a small percentage of transaction fees.
+
+Without block producers the network cannot include the transactions necessary to reach consensus on the other roles such as delegates and workers.
+
+round shuffling
+NTP
+
+  A dynamic block interval would change the security definition from the "longest chain" to highest delegate participation since last change in the block interval where delegate participation is measured as blocks produced / expected blocks.
+  To protect the network from abuse limits on the allowable range of block intervals should be hard coded
+  .  I propose **1 second to 30 seconds to be the range**
+  .  Below 1 second there is not enough time for a block to propagate around the world which takes 300 ms just to ping half way around the world
+  .   Well connected, highly optimized delegates could probably do 1 second blocks
+  .   There is also diminishing returns.
+
+The primary consideration when considering block interval is network propagation delay
+.  Any delayed block will cause the following delegate to miss it
+.   The network must be able to "stream" blocks at a fluid rate even at scale and therefore the "block interval" doesn't matter beyond the ability of delegates to sync their clocks
+.    You could have a 1MB block every second or a 10MB block every 10 seconds, the resulting network activity would be about the same
+.  With this knowledge in hand, **I believe a 5 second block interval should be the target**.
+
+## Hard Forks
+When the core developers are ready with a new hard-fork, the witnesses must first approve of the code and update their nodes to be able to handle the hard fork.
+Witnesses should be selected based upon their commitment to never adopt new code that would apply new rules without first obtaining stakeholder approval.
+Therefore, when a witness upgrades they do not control when or if a hard-fork happens, instead the stakeholders must first vote to approve the change.
+
+It is not technically possible to enforce this rule; however, it is extremely likely that any group of witnesses that attempt to adopt a hard-fork that does not depend upon stakeholder approval will get voted out.
+
+The only exception would be emergency fixes to address security issues or bugs that violate the documented / intended behavior of a prior release.
+
 ## Double Spend Attack
 
-A double spend can occur anytime a blockchain reorganization excludes a transaction previously included.  This means that the witnesses had a communication break down caused by disruptions in the infrastructure of the Internet.  With DPOS the probability of a communication break down enabling a double spend attack is very low.  
+A double spend can occur anytime a blockchain reorganization excludes a transaction previously included.
+This means that the witnesses had a communication break down caused by disruptions in the infrastructure of the Internet.
+With DPOS the probability of a communication break down enabling a double spend attack is very low.
 
-The network is able to monitor its own health and can immediately detect any loss in communication which shows up as witnesses failing to produce blocks on schedule.  When this occurs it may be necessary to wait until half of the witnesses have confirmed your transaction which could be a minute or two.  
+The network is able to monitor its own health and can immediately detect any loss in communication which shows up as witnesses failing to produce blocks on schedule.
+When this occurs it may be necessary to wait until half of the witnesses have confirmed your transaction which could be a minute or two.
 
-## DPOS 2.0 - Witness, Delegate, and Worker Roles
-A witness is simply a block producer and is paid a small percentage of transaction fees.   A set of delegates has multi-sig control over the "genesis" account which has the authority to change dozens of blockchain parameters including: block interval, fees, block sizes, etc.  
-All changes have a review period during which a delegate may be voted out to prevent the proposed change from taking effect.  Delegates are unpaid positions.   Lastly, workers are for funded projects, where each project can define a budget, a manager (multi-sig), a pay schedule, and a vesting period.   
-Projects can be canceled at any time and the total funding for all projects shall not exceed the maximum dilution rate allows by BTS (50 BTS every 10 seconds halving every 4 years).
+## Transactions as Proof of Stake
+Every transaction must include 4 bytes from a recent block hash that uniquely identifies the assumed state of the blockchain at the time the transaction was signed
+.  Transactions cannot be included in any chain that does not contain that block
+.  This means that every single transaction contributes to irreversibly confirming the public record
+.  Witnesses provide short-term ordering of transactions while every single user participates in confirming the long-term history.
 
-A witness is simply a block producer and is paid a small percentage of transaction fees.   A set of delegates has multi-sig control over the "genesis" account which has the authority to change dozens of blockchain parameters including: block interval, fees, block sizes, etc.  All changes have a review period during which a delegate may be voted out to prevent the proposed change from taking effect.  Delegates are unpaid positions.    Lastly workers are for funded projects where each project can define a budget, a manager (multi-sig), a pay schedule, and a vesting period.   Projects can be canceled at any time and the total funding for all projects shall not exceed the maximum dilution rate allows by BTS (50 BTS every 10 seconds halving every 4 years).
+## Random Number Generation
