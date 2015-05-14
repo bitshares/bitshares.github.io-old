@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Technology - BitShares
+title: Technology
 ---
 
 # Technology
