@@ -1,3 +1,10 @@
 collections:
     technology:
         output: true
+
+defaults:
+    - scope:
+          type: technology
+      values:
+          layout: technology
+          priority: 100

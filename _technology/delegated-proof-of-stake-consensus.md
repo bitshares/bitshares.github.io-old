@@ -1,5 +1,4 @@
 ---
-layout: technology
 title: Delegated Proof-of-Stake Consensus
 subtitle: A robust and flexible consensus protocol
 priority: 7

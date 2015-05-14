@@ -1,5 +1,4 @@
 ---
-layout: technology
 title: Decentralized Asset Exchange
 subtitle: subtitle
 priority: 6

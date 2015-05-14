@@ -1,5 +1,4 @@
 ---
-layout: technology
 title: Custom Assets with Identity Management
 subtitle: subtitle
 priority: 5

@@ -1,5 +1,4 @@
 ---
-layout: technology
 title: Collateralized Bond Market
 subtitle: subtitle
 priority: 9

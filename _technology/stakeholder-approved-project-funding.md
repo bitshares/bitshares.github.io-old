@@ -1,5 +1,4 @@
 ---
-layout: technology
 title: Stakeholder-Approved Project Funding
 subtitle: A self-sustaining funding model
 priority: 8

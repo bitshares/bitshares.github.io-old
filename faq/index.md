@@ -5,6 +5,9 @@ title: FAQ
 
 # FAQ
 
+* TOC
+{:toc}
+
 <center> <img src="/images/cashflow.png"/> </center>
 
 ### Terms 

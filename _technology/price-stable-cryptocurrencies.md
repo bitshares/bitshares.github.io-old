@@ -1,5 +1,4 @@
 ---
-layout: technology
 title: Price-Stable Cryptocurrencies
 subtitle: The freedom of cryptocurrency with the stability of the dollar
 priority: 2

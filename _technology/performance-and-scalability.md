@@ -1,5 +1,4 @@
 ---
-layout: technology
 title: High Performance and Scalability
 subtitle: Over 100,000 transactions per second
 priority: 0

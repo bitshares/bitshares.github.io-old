@@ -21,7 +21,7 @@ financial contracts, but with one important difference: they are automated!
 
 Compared to the settlement of normal financial contracts, this type of automation provides the following benefits:
 
-- freedom, accountability, security (identity theft)
+- we want freedom, accountability, security (identity theft)
 - Smart contracts aim to provide security superior to traditional contract law and to reduce other transaction costs associated with contracting
 - lowering costs
 - level playing field
@@ -40,8 +40,3 @@ Working together, this community has designed and developed the BitShares platfo
 ### <a href="{{ technology.url }}">{{ technology.title }}</a> - {{ technology.subtitle }}
 {{ technology.summary }}
 {% endfor %}
-
---------------
-
-### Learn More
-See our roadmap for future plans or come join the discussions on our forum!
