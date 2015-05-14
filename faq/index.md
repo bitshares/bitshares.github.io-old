@@ -36,6 +36,13 @@ title: FAQ
 20. Contract for Difference
 21. Price Feed
 21. Force Settlement Price
+22. Corporate Account 
+22. Account
+22. Key
+22. Signature 
+22. Authority
+22. Withdraw Permission
+    Escrow
 
 ### Fee Schedule
 
