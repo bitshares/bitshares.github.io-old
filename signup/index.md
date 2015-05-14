@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sign Up - BitShares
+title: Sign Up
 ---
 
 # Sign Up

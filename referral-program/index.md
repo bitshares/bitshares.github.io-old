@@ -43,8 +43,8 @@ fees. When he upgrades, he pays a $100 fee which is divided between the BitShare
 and Moonstone (80%).
 
 At this point Moonstone notifies Sam that he can participate in their affiliate program. Anytime
-a user referred to Moonstone by Sam creates an account, Moonstone will share the referral income
-with Sam.  The amount that Moonstone shares with its affiliates is entirely at the discretion of
+a new user referred by Sam creates an account, Moonstone will share the referral income
+with Sam. The amount that Moonstone shares with its affiliates is entirely at the discretion of
 Moonstone, but for this example we will assume a 50/50 split.
 
 Sam likes the deal and refers Moonstone to his friend Alice. Alice creates an account with

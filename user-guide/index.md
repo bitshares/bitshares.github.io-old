@@ -1,6 +1,6 @@
 ---
 layout: default
-title: User Guide - BitShares
+title: User Guide
 ---
 
 # User Guide

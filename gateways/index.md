@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Deposit & Withdraw - BitShares
+title: Gateways
 ---
 
-# Deposit & Withdraw
+# Gateways
 There are many ways to move funds into or out of BitShares.
 
 ## Gateways

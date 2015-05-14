@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Developers - BitShares
+title: Developers
 ---
 
 # Developers

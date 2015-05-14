@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact - BitShares
+title: Contact
 ---
 
 # Contact
