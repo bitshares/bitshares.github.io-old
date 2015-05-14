@@ -28,7 +28,7 @@ its own referrer it gets 80% cash back on every transaction fee it pays.
 ### Example 
 Lets look at an example of how this system works in practice. Sam learns about BitShares after a 
 Google search for “decentralized exchange” and decides to create an account. He chooses a hosted 
-wallet provider such as moonstone.io to create an account. Moonstone has already become a lifetime 
+wallet provider such as [moonstone.io](http://moonstone.io) to create an account. Moonstone has already become a lifetime 
 member, so when Moonstone creates an account for Sam it sets the registrar and referrer to 
 moonstone’s account.
 
@@ -38,8 +38,9 @@ fees. When he upgrades, he pays a $100 fee which is divided between the BitShare
 and Moonstone (80%).
 
 At this point Moonstone notifies Sam that he can participate in their affiliate program. Anytime 
-a user referred to Moonstone by Sam creates an account, Moonstone will split the referral income 
-with Sam.
+a user referred to Moonstone by Sam creates an account, Moonstone will share the referral income 
+with Sam.  The amount that Moonstone shares with its affiliates is entirely at the discretion of
+Moonstone, but for this example we will assume a 50/50 split. 
 
 Sam likes the deal and refers Moonstone to his friend Alice. Alice creates an account with 
 Moonstone and Moonstone is set as the registrar while Sam is set as the referrer earning 40% 
