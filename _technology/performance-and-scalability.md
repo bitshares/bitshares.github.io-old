@@ -1,17 +1,29 @@
 ---
 layout: technology
 title: High Performance and Scalability
-subtitle: 100,000 transactions per second
+subtitle: Over 100,000 transactions per second
 priority: 0
 summary: "
 High performance blockchain technology is necessary for crypto-currencies and smart contract platforms to provide a 
-viable alternative to existing financial platforms on a global scale.
-This paper presents an approach that can potentially achieve millions of transactions per second using commodity hardware.
-This is a level that can meet the needs of current payment networks like VISA.
-BitShares can process over 10 thousand transactions per second and transactions clear in less than 10 seconds.
-It can also scale to more than 10 million user accounts.
+viable alternative to existing financial platforms.  BitShares is designed from the ground up to
+process more transactions every second than VISA and MasterCard combined.  With Delegated Proof of Stake the BitShares
+network can confirm transactions in average of just 1 second, limited only by the speed of light.  
 "
 ---
+
+## Overview
+
+To achieve this industry leading performance, BitShares has borrowed [lessons learned from the LMAX Exchange](http://martinfowler.com/articles/lmax.html) which is able to process 6 million transactions per second.  Among these lessons are the following key points:
+
+1. Keep Everything in Memory 
+2. Keep the Core Business Logic in a Single Thread
+3. Keep cryptographic operations (hashes and signatures) out of the Core Business Logic 
+4. Divide Validation into State Independent and State Dependent checks 
+5. Use an Object Oriented Data Model
+
+By following these simple rules BitShares is able to process 100,000 transactions per second without any significant effort devoted to optimization.  Future optimizations should allow BitShares to reach performance levels similar to LMAX.  
+
+It should be noted that the performance achieved by BitShares is highly dependent upon having a compatible transaction protocol.  It would not be possible to achieve the same level of performance in a protocol where the Core Business Logic is run in a virtual machine that performs crypto-graphic operations and references all objects with hash identifiers.  Blockchains are inherently single-threaded and the performance of a single core of a CPU is the most limited and least scalable resource of them all.   BitShares is designed to get the most out of this single thread of execution.
 
 ## Background
 
@@ -80,36 +92,12 @@ When transactions are defined at such a low level it means that most of the stat
 
 Based upon the lessons we learn from LMAX we know that a virtual machine for a blockchain should be designed with single-threaded performance in mind.  This means it should be optimized for Just-In-Time compilation from the beginning and that the most frequently used smart contracts should be supported natively by the blockchain leaving only the rarely used custom contracts to run in a virtual machine.  These custom contracts should be designed around performance which means the Virtual Machine should limit the addressable memory to something that will fit within the CPU cache.
 
+## Object Oriented Data Model
+
+One of the benefits of keeping everything in memory is that the software can be designed to mimic the real-world relationships of data.  This means that when the Business Logic Processor can quickly follow in-memory pointers to the data it needs rather than being forced to perform expensive database queries.  It means that data can be accessed without copying it and it can be modified in-place.  This single optimization offers an order of magnitude performance gain over using any database-based approach.
+
+
 ## Conclusion
 
-Designing high-performance blockchains isn’t rocket-science and doesn’t require complex, hard-to-understand protocols nor does it require dividing the processing among all the nodes on the network.  Instead all that is necessary to build a high-performance blockchain is to remove all calculations that are not part of the critical, order-dependent, evaluation from the core business logic and to design a protocol that facilitates these kinds of optimizations.
-
-# from elsewhere
-
-## Object Graph Database
-
-A unified database structure based around an in-memory object graph can provide fast, constant-time lookups of the data needed to process transactions.  This structure also lends itself to easy snapshots and restoring of database state.    This state should be significantly smaller than the complete transaction history of all objects.
-
-Everything in the graph database is an object that is allocated a sequential ID by the consensus process.  Anyone can create a object that contains arbitrary data and every object has a owner who is the only person able to change the data.  This owner can be transferred to someone else.  The core protocol does not need to support specifying the data, it must only support allocating and transferring ownership of IDs.   Higher level interpretations of custom data operations can then utilize the IDs allocated by the protocol.
-
-** Fees **
-
-Every single operation must specify and pay its fees.  All fees are set by the delegates which publish a fee schedule with a different fee for each operation type.  Once per day the fees adjust to the median of the delegate schedules.  A fee may be paid in any asset provided there is BTS in the fee pool for that asset and the issuer has published a price for extracting fees from the pool.   Anyone may contribute BTS to the fee pool for an asset.   In the case of BitAssets the fee pool can go negative and the network automatically sells the BitAssets accumulated when someone places an order to buy the BitAsset for BTS.
-
-** Should Objects have the ability to be listed for sale "on the blockchain"?  **
-
-Given that objects are transferrable, they could be sold "off chain".  All that would be necessary is for someone to construct a transaction with two operations: 1 transfer payment, and 1 transfer object and then have both parties "sign" the transaction.  This would be atomic and keep features "off chain". On the other hand, this requires both parties to be online and available to sign the transaction at about the same time.  The cost of implementing it "on chain" is to add an optional "sale price" to an object and a single operation that will buy it.
-
-## Maintenance Blocks
-When producing blocks at speeds as fast as 1 block per second, the maximum time available to perform computationally intensive tasks is very small.
-From time to time there are expensive operations that may take a few seconds or a few minutes to perform that cannot be efficiently or practically amortized over many blocks.
-To accommodate periodic execution of more expensive operations, DPOS 2.0 introduces a Maintenance Block that has a longer interval between when it is produce and when the previous block was produced.
-
-An example of an expensive operation would be tallying the votes of all stakeholders.
-For this reason, DPOS 2.0 only updates vote tallies on maintenance blocks and recommends one maintenance block per day.
-Under DPOS 1.0, the real-time calculation and updating of votes accounted for a significant computational load on every individual transaction.
-Under DPOS 2.0, all modifications to balances are coalesced into one vote update per day which is significantly more efficient and less error prone.
-
-Other tasks that can be performed on a Maintenance Block would be the updating and refreshing of database indexes, calculating new blockchain parameters, sanity checking of the total supply, etc.
-The exact uses depend upon what kind of operations a blockchain is designed to support.
+Designing high-performance blockchains isn’t rocket-science and doesn’t require complex, hard-to-understand protocols nor does it require dividing the processing among all the nodes on the network.  Instead all that is necessary to build a high-performance blockchain is to remove all calculations that are not part of the critical, order-dependent, evaluation from the core business logic and to design a protocol that facilitates these kinds of optimizations.   This is what BitShares has done.
 

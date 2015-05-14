@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: technology
 title: Viral Referral Program 
----
-
-# Viral Referral Program 
-
-## Rapidly grow network effect by incentive mass adoption 
-
+subtitle: Rapidly grow network effect by incentivising mass adoption 
+summary: "
 BitShares has an advanced [referral program](/technology/referral-program.html) built into the software.  Financial networks derive their value mostly from [Network Effect](http://en.wikipedia.org/wiki/Network_effect).  
 The more people that use the same network the more value that network has to the users.   BitShares rewards those who sign up new users that actually use the network and does so in a fully transparent and automated way.  You can [earn $80 or more for every Member you sign up](/technology/referral-program.html).
+"
+---
 
 ### Promoting Infrastructure Development
 
@@ -36,7 +34,7 @@ BitShares recognizes that a sustainable system must be able to cover all operati
 
 A well balanced business model must have a cost of user acquisition that is much lower than the businesses ability to monetize its customers. 
 
-<center> <img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2009/12/image_thumb3.png"/></center>
+<center> <img src="/images/wellbalanced.png"/></center>
 
 In the case of BitShares this means setting transaction fees that are high enough to cover all costs, including the cost of customer acquisition, while still being low enough to compete against real competitors.  Most crypto-currency networks barely charge enough in transaction fees to cover the cost of running the network.  They attempt to attract users with low fees.  While low fees are important, undervaluing the service provided is counter productive.  For this reason BitShares charges a price that is much higher than competing crypto-currencies but much lower than traditional exchanges and payment networks like Dwolla or PayPal. 
 
