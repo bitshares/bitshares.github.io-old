@@ -1,14 +1,22 @@
 ---
-layout: default
-title: Corporate Accounts - BitShares
+layout: technology
+title: Corporate Accounts
+subtitle: Fully customizable account permission management
+priority: 3
+summary: "
+A user-centric design greatly enhances usability and security over the key-centric approaches taken by other blockchain technologies.
+This means that a company account can require approval of its board of directors and each board member may in turn 
+require 2 factor authentication.
+The result is a new concept which we call hierarchical threshold multi-sig.
+With corporate accounts board members can change their personal keys without having to change the 
+permissions associated with the company.
+Permissions can be nested arbitrarily deep with funds being jointly managed by several companies each of which is 
+managed by their own board each member of which utilizes 2 factor authentication while all accounts have a cold-storage backup key.
+Managing permissions on a block chain has historically been based upon either a single private key, or an explicit set of private keys through what is known as N-of-M multi-sig.  This paper introduces a new, more-flexible approach to managing blockchain permissions that is user-centric rather than key-centric.    Under this approach permissions are less fragile, easier to manage, and better reflect how people think about who has permission.
+"
 ---
 
-# Corporate Accounts
-
-Dynamic Hierarchical Threshold Multi-Signature Accounts
-
-## Abstract.
-Managing permissions on a block chain has historically been based upon either a single private key, or an explicit set of private keys through what is known as N-of-M multi-sig.  This paper introduces a new, more-flexible approach to managing blockchain permissions that is user-centric rather than key-centric.    Under this approach permissions are less fragile, easier to manage, and better reflect how people think about who has permission.
+## Dynamic Hierarchical Threshold Multi-Signature Accounts
 
 ## Background
 Bitcoin first introduced the concept of N-of-M multi-signature accounts.  Under this scheme, a user wishing to spend funds must produce a transaction signed by N keys belonging to a set of M keys.   The process of gathering these signatures occurs prior to broadcasting the transaction to the blockchain.  Under this system each key in theory represents a different person, but often it is used where one person is given two keys and another person is given one key.  One of the two keys is kept off line where it cannot be compromised by attackers, and the other two keys are used by each person to approve transactions.   In this nominal use case all of the funds are owned by one person and multi-signature permissions defined by the account holder are merely used to implement 2-factor authentication.

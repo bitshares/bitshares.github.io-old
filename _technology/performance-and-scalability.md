@@ -1,14 +1,17 @@
 ---
-layout: default
-title: Performance and Scalability - BitShares
+layout: technology
+title: High Performance and Scalability
+subtitle: 100,000 transactions per second
+priority: 0
+summary: "
+High performance blockchain technology is necessary for crypto-currencies and smart contract platforms to provide a 
+viable alternative to existing financial platforms on a global scale.
+This paper presents an approach that can potentially achieve millions of transactions per second using commodity hardware.
+This is a level that can meet the needs of current payment networks like VISA.
+BitShares can process over 10 thousand transactions per second and transactions clear in less than 10 seconds.
+It can also scale to more than 10 million user accounts.
+"
 ---
-
-# Performance and Scalability
-
-Smart Chains - Scalable Blockchain Technology
-
-## Abstract.
-High performance blockchain technology is necessary for crypto-currencies and smart contract platforms to provide a viable alternative to existing financial platforms on a global scale.  This paper presents an approach that can potentially achieve millions of transactions per second using commodity hardware.  This is a level that can meet the needs of current payment networks like VISA.
 
 ## Background
 

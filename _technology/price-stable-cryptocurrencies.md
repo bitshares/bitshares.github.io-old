@@ -1,12 +1,14 @@
 ---
-layout: default
-title: BitAssets - BitShares
----
-
-# BitAssets (2.0)
-
-## Abstract.
+layout: technology
+title: Price-Stable Cryptocurrencies
+subtitle: The freedom of cryptocurrency with the stability of the dollar
+priority: 2
+summary: "
+BitAssets are the core feature of BitShares and represent a stable crypto-currency with minimal counterparty risk.
+Under this system, BitAssets are assured to be worth *AT LEAST* their face value and perhaps more if there is little demand for shorting.
 A stable, minimal-trust, crypto-currency tied to a national currency that is generally accepted at face value has proven to be difficult.  This paper presents a new approach to achieving a stable crypto-currency tied to the value of a dollar that we will call BitUSD.   In practice the approach used in this paper could be used to create a currency whose value is almost always worth at least the value of another asset.
+"
+---
 
 ## Background
 Crypto currencies are unique in that they are the only digital currency that is not someone else’s liability.  They are fungible, decentralized, and as valuable as the network of users that support them.    Unfortunately they suffer from very high volatility because the free market does not know how to value them precisely, its perception of value is constantly changing as users enter or leave the ecosystem.
