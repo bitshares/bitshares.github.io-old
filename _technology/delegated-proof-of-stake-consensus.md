@@ -1,9 +1,12 @@
 ---
-layout: default
-title: Delegated Proof-of-Stake Consensus - BitShares
+layout: technology
+title: Delegated Proof-of-Stake Consensus
+subtitle: A robust and flexible consensus protocol
+priority: 7
+summary: "
+summary
+"
 ---
-
-# Delegated Proof-of-Stake Consensus
 
 (whitepaper coming soon)
 

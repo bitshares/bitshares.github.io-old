@@ -23,16 +23,10 @@ title: BitShares
   <div class="col-md-4">
   <h2>Featuring</h2>
   <ul class="laundry-list">
-    <li><a href="/technology/performance-and-scalability.html">industry-leading performance and scalability</a></li>
-    <li><a href="/technology/referral-rewards.html">a built-in affiliate rewards program</a></li>
-    <li><a href="/technology/price-stable-cryptocurrencies.html">price-stable cryptocurrency contracts</a></li>
-    <li><a href="/technology/customizable-account-permissions.html">fully customizable account permission management</a></li>
-    <li><a href="/technology/transaction-proposals.html">a user-friendly contract proposal system</a></li>
-    <li><a href="/technology/custom-assets-with-identity-management.html">custom user-issued tokens with verified identity management tools</a></li>
-    <li><a href="/technology/decentralized-asset-exchange.html">a decentralized asset exchange</a></li>
-    <li><a href="/technology/delegated-proof-of-stake-consensus.html">a robust and flexible consensus protocol</a></li>
-    <li><a href="/technology/stakeholder-approved-project-funding.html">a self-sustaining funding model</a></li>
-    <li><a href="/technology/">...and more!</a></li>
+    {% assign technologies = (site.technology | sort: 'priority') %}
+    {% for technology in technologies  %}
+    <li><a href="{{ technology.url }}">{{ technology.title }}</a></li>
+    {% endfor %}
   </ul>
   </div>
 
