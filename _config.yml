@@ -8,3 +8,7 @@ defaults:
       values:
           layout: technology
           priority: 100
+    - scope:
+          type: posts
+      values:
+          layout: post

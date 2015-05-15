@@ -7,6 +7,8 @@ title: User Guide
 
 ## Getting Started
 
+## Account Price Structure
+
 ## Membership Structure
 
 Under DPOS stakeholders elect individuals to produce blocks, configure blockchain parameters, and fund infrastructure.  Under DPOS 2.0 the roles of delegates and users have been divided into several different roles.
