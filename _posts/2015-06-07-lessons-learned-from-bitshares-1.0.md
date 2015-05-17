@@ -181,7 +181,7 @@ finer grain control over how funds are allocated means dilution is reserved for 
 as funding a core team with a single position.
 
 Separating block producers and parameter setters from workers keeps “money” out of the politics of running the network,
-           and keeps it far more focused on the viability of a much smaller list of funded initiatives.
+and keeps it far more focused on the viability of a much smaller list of funded initiatives.
 
 ### Lesson 9 - Fear of Dilution is Worse than Dilution
 
@@ -193,6 +193,7 @@ others to sell.
 Under Graphene, projects funded by dilution can specify a vesting period which guarantees that the diluted stake cannot
 be sold for years and thus alleviate any fears that selling of newly created tokens is the cause of short-term price
 movements.
+(xeroc: Aren't vesting funds paid out linearily over time?)
 
 ### Lesson 10 - Embrace the Single Threaded Reality of Blockchains
 
@@ -253,7 +254,7 @@ revenue.
 Under Graphene, we charge prices that are competitive with successful real world businesses providing similar services.
 These real world businesses have real world costs for user acquisition and charge far more than it costs them to merely
 update their database balances.   We need to be cheaper than PayPal, Dwolla, and centralized exchanges.   We do not need
-to be "as cheap as possible" because that will undermine our product.
+to be "as cheap as possible" because that will undermine the goal of a profitable organization.
 
 ### Lesson 13 - BitAsset's need a *floor* not a *perfect peg*
 
@@ -291,8 +292,7 @@ allowed users to increase their collateral put extra risk on shorts and did noth
 relaxing this restriction, shorts face less risk and can gain higher leverage which will enable them to sell closer to
 the floor.
 
-### Lesson 14 - Unnecessary Collateral Restrictions
-
+### Lesson 15 - Socialized Yield is Broken
 
 Under BitShares, the BitAsset holders received a yield simply by holding BitUSD.  This yield was between 1% and 5% APR
 on average.  Unfortunately, yield harvesting can happen at any time by someone shorting to themselves to gain a very low
@@ -306,7 +306,7 @@ yield, and nothing was left over to cover network expenses.
 Charging shorts interest seemed like a good idea when there was surplus demand to short below $1.00, but in a bear
 market all interest is effectively 0.  Even in a bull market where there was interest paid, it did not help increase
 liquidity, because the benefits of buying the high interest short were shared with all BitUSD holders.  Ultimately,
-    interest will not be paid in most circumstances, and when it is paid, it complicates the market.
+interest will not be paid in most circumstances, and when it is paid, it complicates the market.
 
 Attempting to boost the value of BitUSD with yield is counterproductive once Lesson 13 is internalized, and shorts know
 they can be force settled at the price feed at any time.  Under these rules, BitUSD already has a floor, and paying
@@ -317,7 +317,7 @@ bonds enable arbitrary shorting between any two assets, guaranteed interest, and
 system privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In
 effect, BitUSD becomes cash and a collateralized bond becomes a Certificate of Deposit.
 
-### Lesson 15 - You Get What you Ask for Orders were a Bad Idea
+### Lesson 16 - *You Get What you Ask for* (YGWYAF) Orders were a Bad Idea
 
 BitShares went to great effort to avoid market manipulation and eliminate the supposed evil of "front running".  To stop
 front running, all orders were matched at the exact price specified in the order.  Any overlap in the market was
@@ -330,7 +330,7 @@ matches orders on a first-come, first-serve basis and gives the buyer the best p
 than charging "unpredictable fees" from market overlap, the network charges a defined fee based upon the size of the
 order matched and the assets involved.   Each asset issuer gets an opportunity to configure their fees.
 
-### Lesson 16 - Design for Hosted Wallet First (blockchain.info style)
+### Lesson 17 - Design for Hosted Wallet First (blockchain.info style)
 
 With the ultimate goal of achieving VISA level transaction volumes, the end user is ultimately going to be forced to use
 a light wallet solution.  Hosted wallets are easier to use, require no setup time, and can acquire users much easier
@@ -346,6 +346,11 @@ Under Graphene, a new websocket-based API eliminates polling and provides a far 
 thousands of users to a single server.
 
 ## Lessons Learned
+
+> ####################################
+> xeroc: What is the purpose of the following content? Should it be 'texted' or will those points stay in list-form?
+>        Why are some lessons duplciates?
+> ####################################
 
 ### Lesson 15 - Socialized Yield is Broken
 
@@ -370,7 +375,7 @@ on BitUSD would only serve to raise BitUSD above the floor and break the peg.
 While Socialized Yield is broken, Graphene offers a far better alternative:  Collateralized Bonds.  Collateralized Bonds
 enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
 privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
-           BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
+BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
 
 ### Lesson 11 - Multi-platform Native Desktop Client is Prohibitively Costly and Unprofitable
 - **Extremely** costly maintaining multi-platform support (Windows, Linux, Mac)

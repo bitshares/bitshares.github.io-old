@@ -8,11 +8,11 @@ title: Announcing BitShares 2.0
 - A brand new BitShares codebase has been developed from scratch
 - This codebase has been designed to solve the largest technical and economic problems with BitShares today
 - New competitive features have been added that will allow BitShares to grow and succeed as an industry-leader
-- BitShares will be upgraded and **the stake distribution will not be changed**
+- BitShares will be upgraded and **the established stake distribution and supply rules will not be changed**
 
 --------
 
-Today, we are proud to make the biggest BitShares announcement since launching one year ago: the upgrade to BitShares 2.0.
+Today, we are proud to make the biggest BitShares announcement since launching one year ago: the upgrade to BitShares 2.0 (code name: *Graphene*).
 This upgrade represents a new focus and direction for BitShares, and incorporates all the
 feedback and lessons learned from the BitShares stakeholders, partners, developers, marketers, and community leaders,
 After more than a year of research and development, this upgrade aims to ensure BitShares' success as a leader in
@@ -34,11 +34,11 @@ the system back from its full potential:
 - Lack of flexibility of system parameters result in an inability to adapt to changing market conditions
 - Shortcomings and caveats in internal market rules and incentives result low liquidity and adoption
 
-We aim to address all of these issues all at once with BitShares 2.0. See *Lessons Learned Link* for more details.
+We aim to address all of these issues all at once with BitShares 2.0 (code name: *Graphene*). See *Lessons Learned Link* for more details.
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 
-BitShares 2.0 was designed to address all of the above lessons. By upgrading, the community will experience:
+BitShares 2.0 (code name *Graphene*) was designed to address all of the above lessons. By upgrading, the community will experience:
 
 - A new high-performance protocol and engine
 - A new developer-friendly and extensible codebase
@@ -46,7 +46,7 @@ BitShares 2.0 was designed to address all of the above lessons. By upgrading, th
 - Brand new features: list technology pages
 - A new set of tools for community feedback
 - A new growth model
-- **No changes to the stake allocation**
+- **No changes to the stake allocation or supply rules**
 
 See our technology page to learn more!
 
@@ -54,12 +54,13 @@ See our technology page to learn more!
 
 We will soon start a public beta testing period to gather community feedback on upgrading the platform.
 This will last until the community is satisfied with the new experience, after which an upgrade snapshot date will be
-announced with at least 30 days notice.
+announced with at least 30 days notice. This period allows market participants (e.g. shorters) to resolve their
+position prior to the upgrade to bitAssets 2.0 (link to bitasset2.0 proposal).
 
 See our public roadmap for the full timeline!
 
-At the snapshot, the current BitShares network will be shut down and BitShares 2.0 will be launched within hours.
-In general, all assets and accounts will be fully migrated to BitShares 2.0.
+At the snapshot, the current BitShares network will be shut down and Graphene will be launched within hours.
+In general, all assets, balances, and accounts will be fully migrated to Graphene.
 
 See the <a href="/migration/">migration</a> page for more details.
 
