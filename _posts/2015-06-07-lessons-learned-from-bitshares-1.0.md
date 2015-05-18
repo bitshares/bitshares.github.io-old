@@ -1,5 +1,5 @@
 ---
-title: Lessons Learned from BitShares 0.X
+title: Lessons Learned from BitShares 0.x
 ---
 
 
@@ -358,9 +358,6 @@ order matched and the assets involved.   Each asset issuer gets an opportunity t
 
 ## Usability Lessons
 
-- Design for Hosted Wallet First (blockchain.info style)
-- Keep Domain Name Pricing Simple
-
 ###  Multi-Sig is Difficult
 
 A user-centric design greatly enhances usability and security over the key-centric approaches taken by other blockchain
@@ -379,87 +376,18 @@ than a downloadable wallet.   When a network is evolving, the constant need to u
 prevents adoption.  The system needs to be designed to be secure for hosted wallets from day one, and it is an
 all-around better alternative to full desktop clients.
 
-There are many aspects to BitShares 1.0 that make implementing a hosted wallet difficult.  The API for querying the
+There are many aspects to BitShares 0.x that make implementing a hosted wallet difficult.  The API for querying the
 chain state required constant polling and the sheer number of queries and their relatively slow performance meant that a
 hosted wallet service required too many servers per active user to maintain responsiveness.
 
 Under BitShares 2.0, a new websocket-based API eliminates polling and provides a far more efficient way to synchronize
 thousands of users to a single server.
 
-## Lessons Learned
+###  Keep Domain Name Pricing Simple
 
+Early versions of BitShares DNS system had plans for a complex auction system for allocating domain names and
+eliminating squatting.  After many disucssions the conclusion is that the problem with domain names isn't the
+squatting, it is the complexity and non-standardization of purchasing quality names. 
 
-### Lesson 11 - Multi-platform Native Desktop Client is Prohibitively Costly and Unprofitable
-- **Extremely** costly maintaining multi-platform support (Windows, Linux, Mac)
-- Lower conversion rate than a website
-- Heavy machine resource usage
-- Releases quickly obsoleted by hardforks
-- Still used web frontend, thus throwing out the rich C++ type system and making it impossible to keep frontend in sync with backend
-
-### Lesson 12 - Nonexistent Technical Documentation
-- Required spin-up time of at least 1 month before a core dev could be productive
-- Made it immensely costly for any service/affiliate to attempt integration
-- No clear official whitepaper made us look like amateurs
-
-### Lesson 13 - Paid Workers (Delegates) are not enough for growth
-- Dilution pay is not sufficient for bootstrapping network effect
-- With the referral system, we have created explicit incentives to encourage a positive feedback loop for network growth
-
-### Lesson 14 - No clear public roadmap
-- Lack of this information in the market helps lead to shareholder fear, confusion, and apathy
-- Core dev team even did not have consensus on priorities; leading to extreme scope creep
-
-### Lesson 15 - Unclear leadership structure
-- Network de-jour controlled by elected delegates, but de-facto controlled by core dev team
-- Nearly impossible to gauge shareholder consensus on specific issues, and thus unable to prevent disasters like the Merger
-- Nearly impossible to achieve consensus on DAC business development tasks and priorities (marketing, public relations, etc.)
-
-### Lesson 16 - Lack of reliable development process and methodology
-- Poor/nonexistent documentation and testing strategy resulted in most resources being spent on fixing previous mistakes
-- Constant regressions
-- Both intentional and unintentional API changes imposing high costs on service providers
-
-### Lesson 17 - Poor documentation on core rules of the DAC
-- Highly complex, undocumented, and buggy market causing high risk and levels of fear
-- Unclear voting rights causing fear and confusion
-
-### Lesson 18 - Poor communication between community leaders
-- Disconnect between Western and Chinese communities
-
-# Lessons Learned
-
-This project will attempt to learn from the mistakes made on the development of BitShares and many of these mistakes are
-discussed here.
-
-## Lesson 3 - Performance Matters
-
-A system that has poor performance early on in its life gives many users a bad experience.  It must feel light early on
-or people will find that delays and bugs caused by low resources result in poor reviews and stability.
-
-## Lesson 4 - Privacy Doesn't Matter (on the blockchain)
-
-We all *want* privacy, but it is not cheaply attainable and greatly degrades user experience.  Ultimately a false sense
-of privacy will harm users more than no privacy at all.  If users know they have no privacy then they will conduct their
-online activity accordingly.   The proper way to achieve privacy is through the use of smart contracts implemented as
-multi-sig oracles.
-
-## Lesson 5 - Simple Transaction Structure
-
-Transactions should contain all of the data necessary to interpret them and not depend upon data implied by the current
-state of the block chain.  Any fees should be explicit and predictable.
-
-## Lesson 7 - Make Marketing Profitable
-
-The block chain should serve as a tool for other businesses to make money.  These other businesses will then have
-financial incentive to build on the platform and make money.
-
-## Lesson 9 - Keep things In Memory
-
-No database can efficiently process the shear volume of randomly accessed data required when processing transactions.
-Keeping things in memory means objects and polymorphism can be used directly and that the time it takes to lookup the
-necessary data to process a transaction is constant.
-
-## Lesson 10 - Don't Do Everything
-
-Creating a general purpose ledger will never scale to the performance needs of the financial sector and will result in
-never ending change. This means that the block chain must adopt a core set of features and focus on those.
+Under BitShares 2.0 accounts are transferrable and use a simple pricing structure that can be adjusted by
+stakeholders to account for changing market conditions.  
