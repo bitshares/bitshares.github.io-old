@@ -118,8 +118,8 @@ Under BitShares 2.0, every single operation has an explicit fee, a defined set o
 operation, a defined set of accounts that are impacted by the operation, and a defined set of balance changes that will
 result from the transaction.  An account balance can be entirely calculated with only the raw transactions that
 reference it.    This means transactions are slightly larger than theoretically necessary, but what they lose in size
-they gain in clarity which is critical for usability, reliability, and ultimately performance.  As we will explain in
-Lesson 4, we save more bytes in the transaction by using 48 bit identifiers (instead of 20-32 byte hashes/addresses)
+they gain in clarity which is critical for usability, reliability, and ultimately performance.  As we will explained earlier, 
+we save more bytes in the transaction by using 48 bit identifiers (instead of 20-32 byte hashes/addresses)
 than we lose by having slightly more verbose transactions.
 
 ### Use Rational/Ratio Prices rather than Fixed Point
@@ -244,31 +244,6 @@ witnesses should wait for the stakeholders to approve even the most minor change
 
 ## Economic Lessons
 
-###  Socialized Yield is Broken
-
-Under BitShares the BitAsset holders receive a yield simply by holding BitUSD.  This yield was between 1% and 5% APR on
-average.  Unfortunately, yield harvesting can happen at any time by someone shorting to themselves to gain a very low
-risk return and undermining goal of encouraging people to buy and hold BitUSD.   The yield was funded from transaction
-fees and by interest paid by shorts.
-
-As we stated in Lesson 12, under charging for transactions is bad for business and BitShares was effectively earning
-nothing for all transactions of BitUSD because 100% of the income generated from fees was paid out to BitUSD holders as
-yield and nothing was left over to cover network expenses.
-
-Charging shorts interest seemed like a good idea when there was surplus demand to short below $1.00, but in a bear
-market all interest is effectively 0.  Even in a bull market where there was interest paid it did not help increase
-liquidity because the benefits of buying the high interest short were shared with all BitUSD holders.  Ultimately
-interest will not be paid in most circumstances and when it is paid it complicates the market.
-
-Attempting to boost the value of BitUSD with yield is counter productive once Lesson 13 is internalized and shorts know
-they can be force settled at the price feed at any time.  Under these rules BitUSD already has a floor and paying yield
-on BitUSD would only serve to raise BitUSD above the floor and break the peg.
-
-While Socialized Yield is broken, BitShares 2.0 offers a far better alternative:  Collateralized Bonds.  Collateralized Bonds
-enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
-privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
-BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
-
 ### Underpricing is not Sustainable
 
 We have always maintained that a blockchain needs to be profitable to be sustainable and grow in value.  It doesn't
@@ -304,6 +279,32 @@ floor.
 
 Because USD holders can initiate settlement, there is no need for artificial forced covering every 30 days.   This
 relieves shorts of risk, helps increase short demand, and keeps the price of BitUSD near the floor.
+
+###  Socialized Yield is Broken
+
+Under BitShares the BitAsset holders receive a yield simply by holding BitUSD.  This yield was between 1% and 5% APR on
+average.  Unfortunately, yield harvesting can happen at any time by someone shorting to themselves to gain a very low
+risk return and undermining goal of encouraging people to buy and hold BitUSD.   The yield was funded from transaction
+fees and by interest paid by shorts.
+
+As we stated in previously, under charging for transactions is bad for business and BitShares was effectively earning
+nothing for all transactions of BitUSD because 100% of the income generated from fees was paid out to BitUSD holders as
+yield and nothing was left over to cover network expenses.
+
+Charging shorts interest seemed like a good idea when there was surplus demand to short below $1.00, but in a bear
+market all interest is effectively 0.  Even in a bull market where there was interest paid it did not help increase
+liquidity because the benefits of buying the high interest short were shared with all BitUSD holders.  Ultimately
+interest will not be paid in most circumstances and when it is paid it complicates the market.
+
+Attempting to boost the value of BitUSD with yield is counter productive once the new approach to BitAssets is internalized and shorts know
+they can be force settled at the price feed at any time.  Under these rules BitUSD already has a floor and paying yield
+on BitUSD would only serve to raise BitUSD above the floor and break the peg.
+
+While Socialized Yield is broken, BitShares 2.0 offers a far better alternative:  Collateralized Bonds.  Collateralized Bonds
+enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
+privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
+BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
+
 
 ### Unnecessary Collateral Restrictions
 
