@@ -20,7 +20,7 @@ BitShares 0.9.1 prior to the snapshot date and transfer 100% of every asset bala
 your balances under a single account.
 
 ## Account Name Migration
-Under Graphene, accounts are transferrable and have different prices based upon the quality of the account name so that
+Under BitShares 2.0, accounts are transferrable and have different prices based upon the quality of the account name so that
 they can double as DNS names.   All existing BTS account names will be migrated as "bts/${current_account_name}" to
 clear the main namespace.  For the first month after launch the only person who will be able to register
 ${current_account_name} will be "bts/${current_account_name}", but they must pay the fee appropriate for their name.
@@ -31,13 +31,13 @@ names cheaply on BTS.
 All open orders will be canceled prior to the snapshot and their funds returned to their owners.
 
 ## Wallet Migration
-The Graphene wallet architecture is vastly different than BitShares.  In BitShares, each account consists of dozens or
+The BitShares 2.0 wallet architecture is vastly different than BitShares.  In BitShares, each account consists of dozens or
 even thousands of keys, each of which is controlling a small portion of your balance and for TITAN users, none of the
-balances associated with your account use the same key as your account.  Under Graphene, all of these "balances" become
-unique accounts rather than a single logical account.    The Graphene wallet will have an "import" interface that will
+balances associated with your account use the same key as your account.  Under BitShares 2.0, all of these "balances" become
+unique accounts rather than a single logical account.    The BitShares 2.0 wallet will have an "import" interface that will
 allow you to specify a set of private keys and the name of an account that you would like to receive all of the funds
 associated with those keys.   Then it will generate a transaction that will spend the full balances from all accounts
-associated with those keys to your new unified Graphene account.    The BitShares wallet will provide a utility to dump
+associated with those keys to your new unified BitShares 2.0 account.    The BitShares wallet will provide a utility to dump
 all private keys associated with a given account to make the migration process easy.
 
 ## Transaction History Migration
