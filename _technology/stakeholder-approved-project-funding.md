@@ -1,7 +1,7 @@
 ---
 title: Stakeholder-Approved Project Funding
 subtitle: A self-sustaining funding model
-priority: 8
+priority: 10
 summary: "
 Proper pricing is important for to ensure a sustainable business model. By charging fees that are appropriate and
 distributing the income in an effective manner BitShares powered networks can grow while while others struggle.

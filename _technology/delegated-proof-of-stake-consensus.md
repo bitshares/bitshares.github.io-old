@@ -1,7 +1,7 @@
 ---
 title: Delegated Proof-of-Stake Consensus
 subtitle: A robust and flexible consensus protocol
-priority: 7
+priority: 9
 summary: "
 Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model
 available.  DPOS leverages the power

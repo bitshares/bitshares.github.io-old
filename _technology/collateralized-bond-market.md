@@ -1,7 +1,7 @@
 ---
 title: Collateralized Bond Market
 subtitle: subtitle
-priority: 9
+priority: 7
 summary: "
 summary
 "
