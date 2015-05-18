@@ -38,6 +38,34 @@ From the business side, Project Black Lizard has two goals:
 - Provide a platform layer with sufficient flexibility to enable many client applications.
 - Use the platform to develop app(s) to provide Vote functionality.
 
+Competitive Edge #1: Shared Network Effect Features
+--------------------
+
+As individual DACs, each of our developers would have had to duplicate the hardest parts of the job – growing network
+effect, generating critical mass, and building market depth. By combining onto one blockchain, we could share the fruits
+of our combined efforts. BitShares will integrate the following common services that would be much less effective if
+they weren’t common services:
+
+- A unified basket of stable, robust global currencies (BitAssets)
+- A unified set of well-compensated, best-of-breed delegates
+- A unified name system
+- A unified set of on and off ramps – portals to the fiat world.
+- A unified marketing umbrella – attracting attention to each other
+- A unified consensus-based governing system
+- A unified family of tools and wallets and interfaces
+- A unified way to attract and fund the best developers and marketing talent.
+- A unified way for newcomers to make instant friends with everyone already there.
+- A built-in venture capital system where you can compete for start-up funds – democratically.
+
+BitShares (BTS) moves our whole ecosystem into one DAC friendly free-trade zone with all the services that benefit from
+network effect already in place.
+
+It offers new developers instant network effect. Built in.
+
+While the BitShares Toolkit is open source software that anyone is free to adopt, the network effect doesn’t come with
+the Toolkit!  You get that by joining our community.  You still run your own business with its own custom storefront and
+Internet presence.  You just skipped a year or two of trying to get traffic to stop by!
+
 What is an app?
 ---------------
 
