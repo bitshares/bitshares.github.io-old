@@ -2,14 +2,13 @@
 title: Custom Assets with Identity Management
 subtitle: subtitle
 priority: 5
-summary: "
-The New York Stock exchange is a company that maintains a ledger to track ownership of stock and debt issued by other companies.
-It earns money from transaction fees and has its own stock as well.
-Like the New York Stock exchange, BitShares allows people to issue their stock or debt to be tracked and traded
-on its distributed ledger. BitShares accounts can be tagged by other accounts to indicate who knows who.
-This web of trust can be used by asset issuers to remain compliant with relevant regulations by
-restricting their securities to authorized individuals
-"
+summary: >
+    The New York Stock exchange is a company that maintains a ledger to track ownership of stock and debt issued by other companies.
+    It earns money from transaction fees and has its own stock as well.
+    Like the New York Stock exchange, BitShares allows people to issue their stock or debt to be tracked and traded
+    on its distributed ledger. BitShares accounts can be tagged by other accounts to indicate who knows who.
+    This web of trust can be used by asset issuers to remain compliant with relevant regulations by
+    restricting their securities to authorized individuals
 ---
 
 The BitShares platform provides a feature known as "user-issued assets", designed to help facilitate profitable business

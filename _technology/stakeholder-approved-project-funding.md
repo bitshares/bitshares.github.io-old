@@ -2,14 +2,13 @@
 title: Stakeholder-Approved Project Funding
 subtitle: A self-sustaining funding model
 priority: 10
-summary: "
-Proper pricing is important for to ensure a sustainable business model. By charging fees that are appropriate and
-distributing the income in an effective manner BitShares powered networks can grow while while others struggle.
-Members pay fees similar to Bitcoin ($0.04) while users pay fees similar to Dwolla ($0.20) or centralized exchanges (0.2%).
-workers
-In addition to performance, the built in fee structure and revenue sharing incentive structure should
-motivate adoption far more effectively than any other blockchain.
-"
+summary: >
+    Proper pricing is important for to ensure a sustainable business model. By charging fees that are appropriate and
+    distributing the income in an effective manner BitShares powered networks can grow while while others struggle.
+    Members pay fees similar to Bitcoin ($0.04) while users pay fees similar to Dwolla ($0.20) or centralized exchanges (0.2%).
+    workers
+    In addition to performance, the built in fee structure and revenue sharing incentive structure should
+    motivate adoption far more effectively than any other blockchain.
 ---
 
 ## Workers

@@ -2,11 +2,10 @@
 title: Decentralized Asset Exchange
 subtitle: subtitle
 priority: 6
-summary: "
-BitShares provides the highest performance decentralized exchange available that has all of the features
-you would expect in a trading platform. Orders are settled the second you submit them. Collateralized bonds
-provide opportunities for leverage and earning interest and options contracts allow you to hedge your position.
-"
+summary: >
+    BitShares provides the highest performance decentralized exchange available that has all of the features
+    you would expect in a trading platform. Orders are settled the second you submit them. Collateralized bonds
+    provide opportunities for leverage and earning interest and options contracts allow you to hedge your position.
 ---
 
 The centralized exchanges the world has known throughout history have proven unreliable and
@@ -92,8 +91,8 @@ and other asset will pay you a positive yield that could be quite significant if
 BitShares.
 
 ## Open Source and Fully Transparent
-The entire exchange is open source and backed by an extremely [open
-community](https://bitsharestalk.org).  No where else will you have the level of transparency that can be found with
+The entire exchange is open source and backed by an extremely open
+community.  No where else will you have the level of transparency that can be found with
 BitShares.
 
 ## Private
