@@ -7,8 +7,8 @@ There are many reasons for starting over from scratch and producing
 a new toolkit and this article hopes to shed some light on what we learned from BitShares 1.0 and the many advancements
 that BitShares 2.0 allows.
 
-The primary focus of BitShares 2.0 was on Performance, Reliability, Maintainability, and Scalability.  As a result, BitShares 2.0
-can process 1000 times more transactions per second than the BitShares Toolkit and is able to handle VISA level
+The primary focus of BitShares 2.0 is on Performance, Reliability, Maintainability, and Scalability.  As a result, BitShares 2.0
+can process 1000 times more transactions per second than the BitShares 1.0 Toolkit and is able to handle VISA level
 transaction volumes.  In addition to performance, the built-in fee structure and revenue sharing incentive structure
 should motivate adoption far more effectively than any other blockchain.
 
@@ -46,7 +46,7 @@ below what many people are spending for Bitcoin mining hardware and probably a f
 required.   This means the network could support 1 billion users while keeping all accounts in memory on "commodity"
 hardware.
 
-###  Assign IDs rather than using UUIDs
+### Assign IDs rather than using UUIDs
 
 Every crypto-currency I know of uses Addresses which are 160+ bit hashes to identify objects.  Large hashes are used
 because they are collision resistant and unambiguous.  Bitcoin uses them to reference outputs and keys.  BitShares uses
@@ -177,7 +177,7 @@ delegates is less than would be desired.
 To resolve this issue, BitShares 2.0 allows each account to "follow" another account’s voting preferences.  Users can thus
 delegate their voting decisions to a trusted party which can be more pro-active.
 
-###  Delegate Pay is Political and not tied to Performance
+### Delegate Pay is Political and not tied to Performance
 
 Delegates campaigning for "marketing" positions get paid regardless of their results and the stakeholders have no way to
 evaluate whether or not the funds were well spent.  The total budget available to BitShares is about $40,000 per month
@@ -190,7 +190,7 @@ finer grain control over how funds are allocated means dilution is reserved for 
 as funding a core team with a single position.
 
 Separating block producers and parameter setters from workers keeps “money” out of the politics of running the network,
-           and keeps it far more focused on the viability of a much smaller list of funded initiatives.
+and keeps it far more focused on the viability of a much smaller list of funded initiatives.
 
 ### Fear of Dilution is Worse than Dilution
 
@@ -210,8 +210,7 @@ killer chain scares off many investors.  The code must be open source, but not f
 This means others can still copy it, but no serious business will build upon a platform that is in violation of
 copyright.  This will help attract capital to BitShares and secure our competitive edge.
 
-
-### Changing the Rules  (aka Hard Forks)
+### Changing the Rules (aka Hard Forks)
 
 The BitShares developers have taken a lot of heat for changing the rules.  This leads to fears of centralization
 and regulatory risks for the developers themselves.   It would be nice if there existed one perfect set of rules;
@@ -219,7 +218,7 @@ however, experience has taught us that adaptability is key to survival of the fi
 Under [DPOS 2.0](/technology/delegated-proof-of-stake-consensus.html) there will be a new policy adhered to by the
 developers.  
 
-From time to time it is necessary to upgrade a network to add new features.  Under DPOS all changes must
+From time to time it is necessary to upgrade a network to add new features.  With DPOS 2.0, all changes must
 be triggered by active stakeholder approval.   While it is technically possible for the witnesses to collude to
 change their software unilaterally, it is not in their interest to do so.  Witnesses are selected based upon
 their commitment to remain neutral to block chain policy.   Remaining neutral protects witnesses against 
@@ -240,7 +239,6 @@ expected behavior of the code.
 
 In practice only security critical hard-forks should be implemented in such a manner. The developers and
 witnesses should wait for the stakeholders to approve even the most minor changes.   
-
 
 ## Economic Lessons
 
@@ -287,24 +285,23 @@ average.  Unfortunately, yield harvesting can happen at any time by someone shor
 risk return and undermining goal of encouraging people to buy and hold BitUSD.   The yield was funded from transaction
 fees and by interest paid by shorts.
 
-As we stated in previously, under charging for transactions is bad for business and BitShares was effectively earning
+As we stated previously, undercharging for transactions is bad for business and BitShares was effectively earning
 nothing for all transactions of BitUSD because 100% of the income generated from fees was paid out to BitUSD holders as
 yield and nothing was left over to cover network expenses.
 
 Charging shorts interest seemed like a good idea when there was surplus demand to short below $1.00, but in a bear
-market all interest is effectively 0.  Even in a bull market where there was interest paid it did not help increase
+market all interest is effectively 0%.  Even in a bull market where there was interest paid it did not help increase
 liquidity because the benefits of buying the high interest short were shared with all BitUSD holders.  Ultimately
 interest will not be paid in most circumstances and when it is paid it complicates the market.
 
-Attempting to boost the value of BitUSD with yield is counter productive once the new approach to BitAssets is internalized and shorts know
-they can be force settled at the price feed at any time.  Under these rules BitUSD already has a floor and paying yield
-on BitUSD would only serve to raise BitUSD above the floor and break the peg.
+Attempting to boost the value of BitUSD with yield is counter productive once the new approach to BitAssets is
+internalized and shorts know they can be force settled at the price feed at any time.  Under these rules BitUSD already
+has a floor and paying yield on BitUSD would only serve to raise BitUSD above the floor and break the peg.
 
 While Socialized Yield is broken, BitShares 2.0 offers a far better alternative:  Collateralized Bonds.  Collateralized Bonds
 enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
 privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
 BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
-
 
 ### Unnecessary Collateral Restrictions
 
@@ -320,29 +317,6 @@ allowed users to increase their collateral put extra risk on shorts and did noth
 relaxing this restriction, shorts face less risk and can gain higher leverage which will enable them to sell closer to
 the floor.
 
-Under BitShares, the BitAsset holders received a yield simply by holding BitUSD.  This yield was between 1% and 5% APR
-on average.  Unfortunately, yield harvesting can happen at any time by someone shorting to themselves to gain a very low
-risk return which undermines the goal of encouraging people to buy and hold BitUSD.   This yield was funded from
-transaction fees and by interest paid by shorts.
-
-As we stated in Lesson 12, undercharging for transactions is bad for business, and BitShares was effectively earning
-nothing for all transactions of BitUSD because 100% of the income generated from fees was paid out to BitUSD holders as
-yield, and nothing was left over to cover network expenses.
-
-Charging shorts interest seemed like a good idea when there was surplus demand to short below $1.00, but in a bear
-market all interest is effectively 0.  Even in a bull market where there was interest paid, it did not help increase
-liquidity, because the benefits of buying the high interest short were shared with all BitUSD holders.  Ultimately,
-interest will not be paid in most circumstances, and when it is paid, it complicates the market.
-
-Attempting to boost the value of BitUSD with yield is counterproductive once Lesson 13 is internalized, and shorts know
-they can be force settled at the price feed at any time.  Under these rules, BitUSD already has a floor, and paying
-yield on BitUSD would only serve to raise BitUSD above the floor and break the peg.
-
-While *socialized yield* is broken, BitShares 2.0 offers a far better alternative:  *collateralized bonds*.  Collateralized
-bonds enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This
-system privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In
-effect, BitUSD becomes cash and a collateralized bond becomes a Certificate of Deposit.
-
 ### You Get What you Ask for Orders were a Bad Idea
 
 BitShares went to great effort to avoid market manipulation and eliminate the supposed evil of "front running".  To stop
@@ -355,7 +329,6 @@ Experience has taught us that the lack of standard limit orders has harmed marke
 matches orders on a first-come, first-serve basis and gives the buyer the best price possible up to the limit.   Rather
 than charging "unpredictable fees" from market overlap, the network charges a defined fee based upon the size of the
 order matched and the assets involved.   Each asset issuer gets an opportunity to configure their fees.
-
 
 ## Usability Lessons
 

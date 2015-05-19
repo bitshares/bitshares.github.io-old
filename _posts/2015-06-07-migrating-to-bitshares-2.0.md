@@ -58,7 +58,7 @@ prevent anyone from attempting to sell assets on the BitShares 1.0 chain.
 
 ## migration
 * Account names including dotted (.) child accounts
-* Delegate employment contracts
+* Delegate employment contracts and unclaimed delegate pay
 * Vesting, escrow, multisig balances
 * User-issued assets
 * BitAssets
