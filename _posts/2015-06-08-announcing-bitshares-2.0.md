@@ -51,13 +51,13 @@ We aim to address all of these issues all at once with BitShares 2.0. See [Lesso
 
 BitShares 2.0 was designed to address all of the above lessons. By upgrading, the community will experience:
 
-- A new high-performance protocol and engine, capable of over 100,000 transactions per second.
-- A new developer-friendly and extensible codebase
+- A new high-performance protocol and engine, capable of handling over 100,000 transactions per second.
 - A new user-friendly hosted wallet interface
 - Brand new features
 - A new set of tools for community feedback
 - A new growth model
 - Robust testing infrastuture with over 120 tests covering 95% of the code. 
+- A new developer-friendly and extensible codebase
 - **No changes to the stake allocation**
 
 See our [technology](/technology) page to learn more!
