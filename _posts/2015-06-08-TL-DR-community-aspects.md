@@ -17,11 +17,12 @@ answered together with the announcement right away. Here we go:
 
 3. Will there be a referral system available at launch?
 
-   Yes. Absolutely. And you can earn up to $80\* per user (per lifetime) referred.
+   Yes. Absolutely. And you can earn up to $80 per user (per lifetime) referred.
 
 4. Are Turing complete scripts/applications on the roadmap?
 
-   ??????????????????????
+   We are considering turing complete models which are economically viable.  There are several ideas about this around
+   the office, and we definitely plan to try some of them out eventually.
 
 5. Will the separated Worker/Delegate/Signer proposal be implemented in time?
 
@@ -67,50 +68,40 @@ answered together with the announcement right away. Here we go:
 
 ---
 
-11. What are the core products and how do shareholders profit from it?
+11. Will we see relative orders in the decentralized exchange?
 
-* BitAssets
-* Bonds
-* Exchange
-* ...
+    There is no plan to add relative orders, as part of the effort to reduce dependence on the price feed long-term.
 
-12. Will we see relative orders in the decentralized exchange?
+12. Assuming there will not be two different bitUSD, how will the switch from bitasset 1.0 to bitasset 2.0 look like?
 
-    ?????????????????????
-
-13. Assuming there will not be two different bitUSD, how will the switch from bitasset 1.0 to bitasset 2.0 look like?
-
-14. Will I be able to use bitUSD as collateral to short a bitAssets?
+13. Will I be able to use bitUSD as collateral to short a bitAssets?
 
     Yes. BitShares 2.0 goes even further and offers a far better alternative: Collateralized Bonds. Collateralized Bonds
     enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
     privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
     BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
 
-15. Will we be able to close short orders using the collateral?
+14. Will we be able to close short orders using the collateral?
 
-    ?????????????????????
+    Users will be able to adjust their margin call price to trigger an early margin call, which will close out your
+    short position.
 
----
+15. How can KYC and AML be acknowledge in BitShares such that it does not affect BTS holders?
 
-16. How can KYC and AML be acknowledge in BitShares such that it does not affect BTS holders?
-
-    KYC and AML as well as CTF regulations do comply for regular businesses run ontop of BitShares, such as gateways and
-    merchants. For the use of BitAssets (e.g. bitUSD, bitGOLD) and other 3rd party UIA), please consult your local
-    authorities.
-
-17. Will there be any big exchanges/banks who issue their assets on the BitShares blockchain?
-
-    ?????????????????????
+    KYC/AML are supported for user-issued assets, but not BTS, thus it does not affect BTS holders, but only users who
+    wish to hold a restricted token. Hence, regular businesses that run ontop of BitShares, such as gateways and
+    merchants, will require to comply with their local KYC, AML and CTF regulations.
 
 ---
 
-18. What has been done to attract more 3rd party developers?
+16. What has been done to attract more 3rd party developers?
 
-    - gitlab.bitshares.org?
-    ?????????????????????
+    The API has been improved significantly to allow fast and reliable integration via websockets and push
+    notifications! Furthermore, alot of effort has been taken for proper documentation.
 
-20. What measures have been taken to ensure that newly written code does not introduced many bugs or reveal hidden
+17. What measures have been taken to ensure that newly written code does not introduced many bugs or reveal hidden
     design assumptions that are no longer valid?
 
-    ?????????????????????
+    While it's impossible to guarantee any code is bug-free, we have been writing unit tests, integration tests, and
+    regression tests with every new feature implemented. Our tests currently exercise around 90% of the code, and we're
+    going to be increasing that number before launch.
