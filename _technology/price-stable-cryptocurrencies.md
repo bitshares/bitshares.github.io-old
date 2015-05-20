@@ -2,13 +2,12 @@
 title: Price-Stable Cryptocurrencies
 subtitle: The freedom of cryptocurrency with the stability of the dollar
 priority: 2
-summary: "
-A BitAsset is a cryptocurrency whose value is pegged to that of another asset such as the US Dollar or Gold.  BitAssets
-have over 100% of their value backed by the BitShares currency, BTS, and can be converted to BTS at any time at an
-exchange rate set by a trustworthy price feed.   In all but the most extreme market conditions, BitAssets are assured to
-be worth <i>at least</i> their face value and perhaps more in some circumstances.  Like any other cryptocurrency,
-BitAssets are fungible, divisible, and free from any restrictions.
-"
+summary: >
+    A BitAsset is a cryptocurrency whose value is pegged to that of another asset such as the US Dollar or Gold.  BitAssets
+    have over 100% of their value backed by the BitShares currency, BTS, and can be converted to BTS at any time at an
+    exchange rate set by a trustworthy price feed.   In all but the most extreme market conditions, BitAssets are assured to
+    be worth <i>at least</i> their face value and perhaps more in some circumstances.  Like any other cryptocurrency,
+    BitAssets are fungible, divisible, and free from any restrictions.
 ---
 
 ## Background

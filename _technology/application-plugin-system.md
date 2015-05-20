@@ -2,9 +2,8 @@
 title: Application Plugin System
 subtitle: subtitle
 priority: 11
-summary: "
-summary
-"
+summary: >
+    summary
 ---
 
 Financial architecture of distributed applications

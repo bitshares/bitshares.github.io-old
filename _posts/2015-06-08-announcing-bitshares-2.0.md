@@ -41,11 +41,12 @@ the system back from its full potential:
 - Lack of flexibility of system parameters result in an inability to adapt to changing market conditions
 - Shortcomings and caveats in internal market rules and incentives result low liquidity and adoption
 - Many software bugs (some involving loss of funds) result in loss of faith by stakeholders
-- A poor testing framework made it difficult to specify tests and detect regressions 
+- A poor testing framework made it difficult to specify tests and detect regressions
 - Lack of public development roadmap results in confusing and uncertainty for stakeholders
 - Lack of third-party documentation prevents integration of services
 
-We aim to address all of these issues all at once with BitShares 2.0. See [Lessons Learned]({% post_url 2015-06-07-lessons-learned-from-bitshares-1.0 %}) for more details.
+We aim to address all of these issues all at once with BitShares 2.0.
+See [Lessons Learned]({% post_url 2015-06-07-lessons-learned-from-bitshares-1.0 %}) for more details.
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 
@@ -56,7 +57,7 @@ BitShares 2.0 was designed to address all of the above lessons. By upgrading, th
 - Brand new features
 - A new set of tools for community feedback
 - A new growth model
-- Robust testing infrastuture with over 120 tests covering 95% of the code. 
+- Robust testing infrastuture with over 120 tests covering 95% of the code.
 - A new developer-friendly and extensible codebase
 - **No changes to the stake allocation**
 
@@ -73,7 +74,7 @@ See our public roadmap for the full timeline!
 At the snapshot, the current BitShares network will be shut down and BitShares 2.0 will be launched within hours.
 In general, all assets and accounts will be fully migrated to BitShares 2.0.
 
-See the <a href="/migration/">migration</a> page for more details.
+See [Migrating to BitShares 2.0]({% post_url 2015-06-07-migrating-to-bitshares-2.0 %}) for more details.
 
 ## Where can I learn more?
 

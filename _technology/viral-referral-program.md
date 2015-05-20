@@ -2,18 +2,19 @@
 title: Viral Referral Program
 subtitle: Rapidly grow network effect by incentivising mass adoption
 priority: 1
-summary: "
-BitShares has an advanced [referral program](/technology/referral-program.html) built into the software.
-Financial networks derive their value mostly from [Network Effect](http://en.wikipedia.org/wiki/Network_effect).
-The more people that use the same network the more value that network has to the users.
-BitShares rewards those who sign up new users that actually use the network and does so in a fully transparent and automated way.
-You can [earn $80 or more for every Member you sign up](/technology/referral-program.html).
-"
+summary: >
+    BitShares has an advanced referral program built into the software.
+    Financial networks derive their value mostly from
+    <a href="http://en.wikipedia.org/wiki/Network_effect">Network Effect</a>
+    The more people that use the same network the more value that network has to the users.
+    BitShares rewards those who sign up new users that actually use the network and does so in a fully transparent and
+    automated way.
+    <a href="/referral-program">You can earn $80 or more for every Member you sign up</a>.
 ---
 
 ### Promoting Infrastructure Development
 
-The [BitShares Referral Program](/technology/referral-program.html) is designed to promote infrastructure development.
+The [BitShares Referral Program](/referral-program/) is designed to promote infrastructure development.
 All decentralized financial networks depend upon many business partners to build an ecosystem.  This means motivating
 entrepreneurs to build businesses such as Exchanges, Merchant Services, Host Wallets, Light Wight Wallets, and Block
 Explorers around the network.   With the BitShares referral program, merchants can now earn significantly more by
@@ -50,12 +51,14 @@ BitShares recognizes that a sustainable system must be able to cover all operati
 article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/), David
 Skok shared the lessons he learned after watching several hundred startups that had failed.
 
-> <i>However after closely watching several hundred startups that have failed, I observed that a very large number of these had solved the product/market fit problem, but still failed because they had not found a way to acquire customers at a low enough cost.</i>
+<i>However after closely watching several hundred startups that have failed, I observed that a very large number of
+these had solved the product/market fit problem, but still failed because they had not found a way to acquire customers
+at a low enough cost.</i>
 
 A well balanced business model must have a cost of user acquisition that is much lower than the businesses ability to
 monetize its customers.
 
-<center> <img src="/images/wellbalanced.png"/></center>
+<center><img src="/images/wellbalanced.png"/></center>
 
 In the case of BitShares this means setting transaction fees that are high enough to cover all costs, including the cost
 of customer acquisition, while still being low enough to compete against real competitors.  Most crypto-currency
@@ -76,4 +79,4 @@ PayPal did.
 
 BitShares is built for viral growth and has industry leading incentives that are game changing.
 
-[Learn More](/technology/referral-program.html)
+[Learn More](/referral-program/)

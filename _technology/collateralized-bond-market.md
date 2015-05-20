@@ -2,15 +2,14 @@
 title: Collateralized Bond Market
 subtitle: subtitle
 priority: 7
-summary: "
-summary
-"
+summary: >
+    summary
 ---
 
-The [Graphene](graphene) protocol includes native support for secured interest-bearing loans of [assets](assets).
-This support takes the form of a [smart contract](smart-contract) specifying the following terms:
+The BitShares protocol includes native support for secured interest-bearing loans of assets.
+This support takes the form of a smart contract specifying the following terms:
 
-1. Borrower [account](accounts)
+1. Borrower account
 2. Lender account
 3. Principle asset amount
 4. Collateral asset amount

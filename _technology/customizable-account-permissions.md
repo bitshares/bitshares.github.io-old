@@ -2,14 +2,13 @@
 title: Corporate Accounts with Workflow Management
 subtitle: Multi-signature transactions done right
 priority: 3
-summary: "
-We present a flexible and user-friendly approach to managing platform account permissions.
-This approach allows account permissions to be fully customized to require approval from arbitrary hierarchies of other accounts.
-Such a user-centric design greatly enhances usability and security over the key-centric approaches taken by other
-blockchain technologies.
-Individual account keys can be updated seamlessly, and transactions requiring multiple signatures can be approved with
-no out-of-band communication.
-"
+summary: >
+    We present a flexible and user-friendly approach to managing platform account permissions.
+    This approach allows account permissions to be fully customized to require approval from arbitrary hierarchies of other accounts.
+    Such a user-centric design greatly enhances usability and security over the key-centric approaches taken by other
+    blockchain technologies.
+    Individual account keys can be updated seamlessly, and transactions requiring multiple signatures can be approved with
+    no out-of-band communication.
 ---
 
 ## Background
