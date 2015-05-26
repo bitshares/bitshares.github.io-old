@@ -1,5 +1,5 @@
 ---
-title: TL;DR; -- Clarifying Some Aspects Raised by the Community
+title: Clarifying Some Aspects Raised by the Community
 ---
 
 Prior to the announcement the BitShares community has been asked to collect a set of their concerns that should be
@@ -8,7 +8,7 @@ answered together with the announcement right away. Here we go:
 1. How fast is BitShares 2.0 "really" (in TPS)?
 
    BitShares 2.0 will be capable of handling over 100.000 (100k) transaction per second on commodity hardware with
-   parallel architectural optimizations in mind.
+   parallel architectural optimizations in mind.  
 
 2. Will we see 'voted' hard forks?
 
