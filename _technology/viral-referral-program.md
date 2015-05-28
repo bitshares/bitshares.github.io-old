@@ -5,7 +5,7 @@ priority: 1
 summary: >
     BitShares has an advanced referral program built into the software.
     Financial networks derive their value mostly from
-    <a href="http://en.wikipedia.org/wiki/Network_effect">Network Effect</a>
+    <a href="http://en.wikipedia.org/wiki/Network_effect">Network Effect</a>.
     The more people that use the same network the more value that network has to the users.
     BitShares rewards those who sign up new users that actually use the network and does so in a fully transparent and
     automated way.
