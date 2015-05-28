@@ -16,9 +16,9 @@ summary: >
 
 The [BitShares Referral Program](/referral-program/) is designed to promote infrastructure development.
 All decentralized financial networks depend upon many business partners to build an ecosystem.  This means motivating
-entrepreneurs to build businesses such as Exchanges, Merchant Services, Host Wallets, Light Wight Wallets, and Block
+entrepreneurs to build businesses such as Exchanges, Merchant Services, Hosted Wallets, Light Weight Wallets, and Block
 Explorers around the network.   With the BitShares referral program, merchants can now earn significantly more by
-advertising their support for the BitShares platform.  Where as other platforms can only offer "lower fees", BitShares
+advertising their support for the BitShares platform.  Whereas other platforms can only offer "lower fees", BitShares
 offers merchants a revenue stream.
 
 Free market competition will result in many different hosted wallet providers competing to acquire new users.   Each of
