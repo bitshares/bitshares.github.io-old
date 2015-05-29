@@ -2,6 +2,8 @@
 title: Clarifying Some Aspects Raised by the Community
 ---
 
+--------
+
 Prior to the announcement the BitShares community has been asked to collect a set of their concerns that should be
 answered together with the announcement right away. Here we go:
 

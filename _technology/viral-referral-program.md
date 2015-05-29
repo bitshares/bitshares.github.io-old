@@ -12,6 +12,8 @@ summary: >
     <a href="/referral-program">You can earn $80 or more for every Member you sign up</a>.
 ---
 
+--------
+
 ### Promoting Infrastructure Development
 
 The [BitShares Referral Program](/referral-program/) is designed to promote infrastructure development.

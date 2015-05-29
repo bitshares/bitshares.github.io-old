@@ -8,9 +8,10 @@ summary: >
     provide opportunities for leverage and earning interest and options contracts allow you to hedge your position.
 ---
 
+--------
+
 The centralized exchanges the world has known throughout history have proven unreliable and
-untrustworthy time and again.  Whether it is [MF
-Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/),
+untrustworthy time and again.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/),
 [Mt. Gox](http://www.wired.com/2014/03/bitcoin-exchange/), or
 [BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/) we have seen
 all of the perils of allowing a 3rd party to hold your money. It doesn't matter how

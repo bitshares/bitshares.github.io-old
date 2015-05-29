@@ -12,3 +12,8 @@ defaults:
           type: posts
       values:
           layout: post
+
+
+
+# Theme Settings
+theme_reading_time: 		true

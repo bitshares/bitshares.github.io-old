@@ -6,6 +6,8 @@ summary: >
     summary
 ---
 
+--------
+
 The BitShares protocol includes native support for secured interest-bearing loans of assets.
 This support takes the form of a smart contract specifying the following terms:
 

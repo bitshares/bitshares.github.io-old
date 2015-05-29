@@ -1,6 +1,7 @@
 ---
 title: High Performance and Scalability
 subtitle: Over 100,000 transactions per second
+image: 
 priority: 0
 summary: >
     High performance blockchain technology is necessary for crypto-currencies and smart contract platforms to provide a
@@ -8,6 +9,8 @@ summary: >
     process more transactions every second than VISA and MasterCard combined.  With Delegated Proof of Stake the BitShares
     network can confirm transactions in average of just 1 second, limited only by the speed of light.
 ---
+
+--------
 
 ## Overview
 
