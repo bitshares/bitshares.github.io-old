@@ -6,6 +6,8 @@ summary: >
     summary
 ---
 
+--------
+
 Financial architecture of distributed applications
 --------------------------------------------------
 

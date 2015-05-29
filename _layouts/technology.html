@@ -2,10 +2,42 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
 
+
+<div class="container">
+
+
+<section class="posts wrapper">
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<h1 id="posttitle">{{ page.title }}</h1>
 <h4>{{ page.subtitle }}</h4>
 
-{{ page.summary }}
+</div>
 
-{{ page.content }}
+
+<div class="col-xs-12 col-md-9">
+
+<article class="postbody">
+    {{ content }}
+  
+    
+</article>
+</div>
+
+
+<div class="col-xs-12 col-md-3">
+
+<aside>
+{% include tech_sidebar.html %}
+</aside>
+
+</div>
+</div>
+</section>
+
+
+
+
+
+

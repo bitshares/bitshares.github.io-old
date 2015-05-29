@@ -1,6 +1,16 @@
 ---
-layout: default
+layout: index
 ---
+
+<section class="teaser">
+
+
+
+
+<!--<div id="particles-js">
+</div>
+<script src="../js/particles.js"></script>-->
+
 
 <div class="slogan">
 
@@ -11,28 +21,30 @@ layout: default
     Built using the latest in industry research, BitShares delivers the power of self-enforcing financial contracts
     to both businesses and individuals alike.
 
+<div class="install-box">
+   <br />
+   <center>Earn $80 or more for every<br/> Member you sign up!</center>
+   <a class="btn btn-primary" id="inst-link" href="/referral-program/">Learn More</a>
+ </div>
+
+
 </div>
 
-<div class="row code-row">
+</section>
 
-  <div class="col-md-2">
-  <h2>&nbsp;</h2>
-  </div>
 
-  <div class="col-md-4">
+<section>
+<div class="container">
+
+ 
+<div class="row" style="border: 0px solid #333; text-align: center;">
   <h2>Featuring</h2>
-  <ul class="laundry-list">
+  <ul class=" features">
     {% assign technologies = (site.technology | sort: 'priority') %}
     {% for technology in technologies  %}
-    <li><a href="{{ technology.url }}">{{ technology.title }}</a></li>
+    <li class="col-md-3"><a href="{{ technology.url }}">{{ technology.title }}</a></li>
     {% endfor %}
   </ul>
-  </div>
 
-  <div class="col-md-4 install-box">
-    <br />
-    <center>Earn $80 or more for every<br/> Member you sign up!</center>
-    <a class="btn btn-primary" id="inst-link" href="/referral-program/">Learn More</a>
-  </div>
 
 </div>

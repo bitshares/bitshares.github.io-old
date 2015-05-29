@@ -11,6 +11,8 @@ summary: >
     no out-of-band communication.
 ---
 
+--------
+
 ## Background
 
 The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the

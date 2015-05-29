@@ -1,0 +1,13 @@
+
+
+<div data-spy="affix" data-offset-top="200" id="subnav">
+   <h2>Technology</h2>
+   <ul style="list-style-type: none; margin: 0px;">
+   {% assign technologies = (site.technology | sort: 'priority') %}
+   {% for technology in technologies  %}
+        <li style="margin-left: -30px;"> <a href="{{ technology.url }}">{{ technology.title }}</a></li>
+        
+   {% endfor %}
+   </ul>
+</div>
+

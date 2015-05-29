@@ -11,6 +11,8 @@ summary: >
     restricting their securities to authorized individuals
 ---
 
+--------
+
 The BitShares platform provides a feature known as "user-issued assets", designed to help facilitate profitable business
 models for certain types of services that integrate with the platform.
 The term user-issued asset refers to a type of custom token registered on the platform, and which users can hold and

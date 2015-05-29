@@ -11,6 +11,8 @@ summary: >
     motivate adoption far more effectively than any other blockchain.
 ---
 
+--------
+
 ## Workers
 A worker is an elected position that gets paid via dilution to fund new blockchain infrastructure.  Their employment
 “smart contract” specifies a start date, an end date, a daily pay rate, and a vesting period. (TODO: i would expand on

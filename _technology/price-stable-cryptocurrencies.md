@@ -10,6 +10,8 @@ summary: >
     BitAssets are fungible, divisible, and free from any restrictions.
 ---
 
+--------
+
 ## Background
 Cryptocurrencies are unique in that they are the only digital currency that is not someone else’s liability.  They are
 fungible, decentralized, and as valuable as the network of users that support them.    Unfortunately they suffer from

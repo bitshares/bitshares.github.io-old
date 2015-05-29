@@ -2,6 +2,8 @@
 title: Migrating to BitShares 2.0
 ---
 
+--------
+
 ## Migration Path
 Unfortunately, upgrading to BitShares 2.0 is not just a "hard fork", it is what we would like to call "pitch-fork".  On
 an appointed date/time, a snapshot will be taken of all BitShares balances in all asset types.  The new chain will then

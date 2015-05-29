@@ -2,6 +2,8 @@
 title: Measuring Performance
 ---
 
+--------
+
 Great claims require great evidence and the claim that BitShares is capable of 100,000 transactions per second has
 probably raised a few eyebrows.   This post should help clarify how we measure the performance.  It should be noted
 that we are talking about the capability of an individual computer which is the ultimate bottleneck and *not* the 

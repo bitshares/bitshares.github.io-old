@@ -2,6 +2,7 @@
 title: Lessons Learned from BitShares 0.x
 ---
 
+--------
 
 There are many reasons for starting over from scratch and producing
 a new toolkit and this article hopes to shed some light on what we learned from BitShares 1.0 and the many advancements

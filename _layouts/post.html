@@ -1,34 +1,43 @@
 ---
 layout: default
 ---
+<div class="container">
 
-<center>
-<table border=0>
-<tr><td align="center">
-
-</td><td></td>
-<tr>
-<td>
 
 <section class="posts wrapper">
-        
-            <h1 id="posttitle">{{ page.title }}</h1>
-            <span>
-                <i class="fa fa-clock-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-            </span>
-        </header>
+<div class="row">
+<div class="col-xs-12 col-md-9">
+<h1 id="posttitle">{{ page.title }}</h1>
+<span class="meta">
+    <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time> | <i class="fa fa-clock-o"></i> {% include read_time.html %}
+    
+</span>
+</div>
 
-        <section class="postbody">
-            {{ content }}
-        </section>
 
+
+<div class="col-xs-12 col-md-9">
+
+<article class="postbody">
+    {{ content }}
+</article>
+</div>
+
+
+<div class="col-xs-12 col-md-3">
+
+<aside>
+{% include right_sidebar.html %}
+</aside>
+</div>
+</div>
 </section>
-</td>
-<td width=40px>&nbsp;</td>
-<td class="test" width="300px" valign="top" style="padding-top:70px;">
-    {% include right_sidebar.html %}
-</td>
-</tr>
-<tr>
-</tr>
-</table></center>
+
+
+        
+        
+
+
+
+
+

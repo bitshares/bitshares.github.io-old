@@ -8,6 +8,8 @@ summary: >
     convenient for anyone who likes to “set it and forget it” when it comes to their monthly bills and subscriptions.
 ---
 
+--------
+
 ## How it Works
 
 Recurring Payments are implemented as a set of withdraw permissions.  Each account can grant any number of withdraw
