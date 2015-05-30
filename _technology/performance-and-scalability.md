@@ -92,9 +92,9 @@ when they are not even processing 10 transactions per second.
 To build a high performance blockchain requires that we adopt the same techniques used by LMAX.   There are several key
 ingredients that must be met:
 
-Keep Everything in Memory
-Avoid Synchronization Primitives (locks, atomic operations)
-Minimize Unnecessary Computation in the Business Logic Processor
+* Keep Everything in Memory
+* Avoid Synchronization Primitives (locks, atomic operations)
+* Minimize Unnecessary Computation in the Business Logic Processor
 
 Memory is becoming cheaper every day because it is embarrassingly parallel in its design.   The amount of information
 that is required to track the account balance and permissions of every person on the Internet less than 1 Terabyte of

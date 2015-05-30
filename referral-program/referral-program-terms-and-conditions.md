@@ -12,9 +12,9 @@ document.
 
 ### Terms 
 
-1. User - any account that has **not paid** a lifetime membership fee 
-2. Member - any account that has paid a lifetime membership fee 
-3. Registrar - an existing account that pays transaction fee necessary to create new accounts
+1. User - any account that has **not paid** a lifetime membership fee. 
+2. Member - any account that has paid a lifetime membership fee.
+3. Registrar - an existing account that pays transaction fee necessary to create new accounts.
 4. Referrer -  A Member account defined by Member registrars that receives a percentage of referral fees. 
 
 ### Referral Process for Members

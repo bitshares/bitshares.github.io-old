@@ -5,7 +5,7 @@ priority: 1
 summary: >
     BitShares has an advanced referral program built into the software.
     Financial networks derive their value mostly from
-    <a href="http://en.wikipedia.org/wiki/Network_effect">Network Effect</a>
+    <a href="http://en.wikipedia.org/wiki/Network_effect">Network Effect</a>.
     The more people that use the same network the more value that network has to the users.
     BitShares rewards those who sign up new users that actually use the network and does so in a fully transparent and
     automated way.
@@ -18,9 +18,9 @@ summary: >
 
 The [BitShares Referral Program](/referral-program/) is designed to promote infrastructure development.
 All decentralized financial networks depend upon many business partners to build an ecosystem.  This means motivating
-entrepreneurs to build businesses such as Exchanges, Merchant Services, Host Wallets, Light Wight Wallets, and Block
+entrepreneurs to build businesses such as Exchanges, Merchant Services, Hosted Wallets, Light Weight Wallets, and Block
 Explorers around the network.   With the BitShares referral program, merchants can now earn significantly more by
-advertising their support for the BitShares platform.  Where as other platforms can only offer "lower fees", BitShares
+advertising their support for the BitShares platform.  Whereas other platforms can only offer "lower fees", BitShares
 offers merchants a revenue stream.
 
 Free market competition will result in many different hosted wallet providers competing to acquire new users.   Each of
