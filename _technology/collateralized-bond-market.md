@@ -1,9 +1,10 @@
 ---
 title: Collateralized Bond Market
-subtitle: Lend and Borrow anything on your terms
+subtitle: Lend or Borrow anything on your terms
 image: ../images/frontpage/icon-bonds.svg
 priority: 7
 summary: >
+   With the bond market you can earn interest on anything while allowing others to short any asset backed by any other asset.
 ---
 
 --------
