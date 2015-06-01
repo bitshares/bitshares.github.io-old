@@ -1,5 +1,29 @@
 
 
+//  Dynamic grid columns with Twitter Bootstrap
+
+
+$(document).on("ready", function() {
+  $.each(['xs', 'sm', 'md', 'lg'], function(idx, gridSize) {
+    $('.col-' + gridSize + '-auto:first').parent().each(function() {
+      //we count the number of childrens with class col-md-6
+      var numberOfCols = $(this).children('.col-' + gridSize + '-auto').length;
+      if (numberOfCols > 0 && numberOfCols < 13) {
+        minSpan = Math.floor(12 / numberOfCols);
+        remainder = (12 % numberOfCols);
+        $(this).children('.col-' + gridSize + '-auto').each(function(idx, col) {
+          var width = minSpan;
+          if (remainder > 0) {
+            width += 1;
+            remainder--;
+          }
+          $(this).addClass('col-' + gridSize + '-' + width);
+        });
+      }
+    });
+  });
+});
+
 
 
 // Affix Sub Nav - r-sidebar

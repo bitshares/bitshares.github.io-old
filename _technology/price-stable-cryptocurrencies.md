@@ -1,6 +1,7 @@
 ---
 title: Price-Stable Cryptocurrencies
 subtitle: The freedom of cryptocurrency with the stability of the dollar
+image: ../images/frontpage/icon-price-stable.svg
 priority: 2
 summary: >
     A BitAsset is a cryptocurrency whose value is pegged to that of another asset such as the US Dollar or Gold.  BitAssets

@@ -1,6 +1,7 @@
 ---
 title: Recurring & Scheduled Payments
 subtitle: subtitle
+image: ../images/frontpage/icon-rec-payments.svg
 priority: 8
 summary: >
     BitShares is the first smart contract platform with built in support for recurring payments and subscription payments.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="160px" viewBox="0 0 210 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSArtboardGroup">
+            <g id="icon-price-stable" sketch:type="MSLayerGroup" transform="translate(2.000000, 36.000000)">
+                <g id="Group" transform="translate(2.430052, 0.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-2407-Copy" stroke="#546979" stroke-linecap="round" stroke-linejoin="round" fill="#F6FAFC" x="40.8704663" y="0.602739726" width="117.803109" height="86.7945205" rx="2.4"></rect>
+                    <path d="M1.20207254,44.5 L188.569954,44.5" id="Line-Copy-17" stroke="#546979" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,4"></path>
+                    <path d="M12.5639703,25.5 L200.760604,25.5" id="Line-Copy-18" stroke="#546979" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,4"></path>
+                    <path d="M12,64.6986301 C12,64.6986301 117.216592,64.1285041 170.047101,64.1285041 C180.136793,64.1285041 200.760604,64.6986301 200.760604,64.6986301" id="Line-Copy-19" stroke="#546979" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,4"></path>
+                    <rect id="Rectangle-137" fill="#F6FAFC" x="63.7098446" y="19.2876712" width="72.1243523" height="55.4520548"></rect>
+                    <g id="Settingslist" transform="translate(69.518135, 21.904110)" stroke="#546979" stroke-linecap="round" stroke-linejoin="round">
+                        <rect id="Rectangle-2096" fill="#F7A696" x="12.0207254" y="0" width="38.4663212" height="7.23287671" rx="19.2"></rect>
+                        <path d="M55.2953368,3.5 L62.507772,3.5" id="Line"></path>
+                        <path d="M0,3.5 L7.21243523,3.5" id="Line"></path>
+                        <rect id="Rectangle-2097" fill="#73C9C9" x="12.0207254" y="19.2876712" width="38.4663212" height="7.23287671" rx="19.2"></rect>
+                        <rect id="Rectangle-2097" fill="#ACD7F7" x="12.0207254" y="38.5753425" width="38.4663212" height="7.23287671" rx="19.2"></rect>
+                        <path d="M55.2953368,22.5 L62.507772,22.5" id="Line-394"></path>
+                        <path d="M55.2953368,42.5 L62.507772,42.5" id="Line-394"></path>
+                        <path d="M0,22.5 L7.21243523,22.5" id="Line-395"></path>
+                        <path d="M0,42.5 L7.21243523,42.5" id="Line-395"></path>
+                    </g>
+                </g>
+                <text id="$-copy" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="14.4" font-weight="260" fill="#546979">
+                    <tspan x="197.38342" y="49.1643836">$</tspan>
+                </text>
+                <text id="€-copy" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="14.4" font-weight="260" fill="#546979">
+                    <tspan x="0" y="69.6575342">€</tspan>
+                </text>
+                <text id="¥-" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="14.4" font-weight="260" fill="#546979">
+                    <tspan x="1.20207254" y="28.8767123">¥ </tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,6 +1,7 @@
 ---
 title: Stakeholder-Approved Project Funding
 subtitle: A self-sustaining funding model
+image: ../images/frontpage/icon-funding.svg
 priority: 10
 summary: >
     Proper pricing is important for to ensure a sustainable business model. By charging fees that are appropriate and

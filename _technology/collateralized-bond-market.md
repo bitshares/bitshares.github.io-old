@@ -1,6 +1,7 @@
 ---
 title: Collateralized Bond Market
 subtitle: subtitle
+image: ../images/frontpage/icon-bonds.svg
 priority: 7
 summary: >
     summary

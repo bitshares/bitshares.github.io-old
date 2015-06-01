@@ -31,8 +31,29 @@ p {
 	margin-top: 1.2em;
 	margin-bottom: 1.2em;
 }
-.pitch b {
-	font-weight: 400;
+.pitch  {
+	font-weight: 500;
+	font-size: 42px;
+	color: #FFFFFF;
+	line-height: 50px;
+	text-shadow: 1px 0px 4px #000;
+	margin-top: 24px;
+}
+
+@media (max-width: 784px) {
+	.pitch  {
+		line-height: 32px;
+		margin-top: 48px;
+	}
+}
+
+
+.pitch-sub  {
+	font-weight: 100;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-shadow: 1px 0px 4px #000;
+	margin-top: -24px;
 }
 
 
@@ -163,18 +184,7 @@ div.install {
 	width: 15em;
 }
 
-.table-installers div.inst-button {
-	border: 1px solid #ccc;
-	text-align: center;
-	border-radius: 3px;
-	padding: 0.3em;
-}
 
-.table-installers div.inst-button:hover {
-	border-color: #428BCA;
-	color: white;
-	background-color: #428BCA;
-}
 
 .table-installers a {
 	text-decoration: none;
@@ -182,7 +192,7 @@ div.install {
 
 .slogan {
 	text-align: center;
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 p.pitch {
@@ -190,6 +200,7 @@ p.pitch {
 	font-weight: 300;
 	text-align: center;
 }
+
 @media (min-width: 992px) {
 	p.pitch {
 		font-size: 35px;
@@ -203,10 +214,13 @@ p.pitch a {
 }
 
 .install-box {
-	color: #777;
-	text-align: right;
-	font-size: 130%;
+	color: #FFF;
+	text-align: center;
+	font-size: 110%;
 	margin-top: 2em;
+	font-weight: 100;
+	text-shadow: 1px 0px 4px #000;
+	
 }
 
 .version-rec-box-inner {
@@ -349,6 +363,27 @@ ul.laundry-list {
 
 
 
+.btn {
+   font-family: 'proxima-nova';
+   font-weight: 100;
+   letter-spacing: 1px;
+}
+
+.btn-primary {
+  background: #35BAEB ;
+}
+
+.btn-primary:hover {
+  background: #15a6db;
+}
+
+
+a#inst-link {
+   font-size: 15px;
+   text-transform: uppercase;
+}
+
+
 .navbar {
   border-bottom: 1px dotted #b5b5b5;
   background-color: #f9f9f9;
@@ -424,9 +459,60 @@ ul.navbar-nav li {
 /*  Frontpage Teaser */
 
 .teaser {
-  padding: 80px 0;
-  background: #f5f5f5;
+  padding: 120px 0;
+  
+  color: #FFF;
   max-height: 520px;
+  background: #f5f5f5 url('../images/bg.jpg') no-repeat;
+  background-size: cover;
+  
+}
+
+@media (max-width: 784px) {
+   
+  .teaser {
+    padding: 80px 0;
+    line-height: 24px;
+    color: #FFF;
+    max-height: 520px;
+    background: #f5f5f5 url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+    
+  }
+}
+
+#features {
+    border: 0px solid #333;
+    padding-bottom: 80px;
+}
+
+
+.features li {
+  list-style: none;
+  text-align: center;
+}
+
+
+.feature-img {
+  border: 0px dotted #333;
+  display: block;
+  margin: 24px auto;
+  margin-bottom: 24px;
+  width: auto;
+}
+
+h2.feature-title {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 48px 0 48px 0 ;
+}
+
+
+.features {
+  margin-bottom: 40px;
 
 }
 

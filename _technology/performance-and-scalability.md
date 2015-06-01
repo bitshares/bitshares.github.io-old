@@ -1,7 +1,7 @@
 ---
 title: High Performance and Scalability
 subtitle: Over 100,000 transactions per second
-image: 
+image: ../images/frontpage/icon-performance.svg
 priority: 0
 summary: >
     High performance blockchain technology is necessary for crypto-currencies and smart contract platforms to provide a
@@ -13,6 +13,10 @@ summary: >
 --------
 
 ## Overview
+
+
+
+
 
 To achieve this industry leading performance, BitShares has borrowed [lessons learned from the LMAX
 Exchange](http://martinfowler.com/articles/lmax.html) which is able to process 6 million transactions per second.  Among

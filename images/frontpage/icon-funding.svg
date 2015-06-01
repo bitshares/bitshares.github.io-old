@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="160px" viewBox="0 0 210 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSArtboardGroup">
+            <g id="icon-funding-copy" sketch:type="MSLayerGroup" transform="translate(46.000000, 21.000000)">
+                <g id="icon-funding" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval-53" fill="#F8F7F5" cx="59.0890118" cy="58.5" rx="58.3917526" ry="58.5"></ellipse>
+                    <g id="Connexions-Copy" transform="translate(15.161680, 15.121528)" stroke="#546979" stroke-width="1.55848" stroke-linecap="round" stroke-linejoin="round">
+                        <g id="Group" transform="translate(13.701277, 0.000000)">
+                            <path d="M29.5931581,33.9140783 L29.5931581,9.46439394" id="Line"></path>
+                            <path d="M28.8172337,51.2654672 L28.8172337,75.7151515" id="Line"></path>
+                            <ellipse id="Oval-378" fill="#ACD7F7" cx="29.5931581" cy="4.73219697" rx="4.65554631" ry="4.73219697"></ellipse>
+                            <ellipse id="Oval-378" fill="#ACD7F7" transform="translate(29.593158, 82.024747) rotate(-180.000000) translate(-29.593158, -82.024747) " cx="29.5931581" cy="82.0247475" rx="4.65554631" ry="4.73219697"></ellipse>
+                            <g transform="translate(1.659880, 14.196591)">
+                                <ellipse id="Oval-378" fill="#F7A696" cx="54.314707" cy="3.31837022" rx="3.10369754" ry="3.15479798"></ellipse>
+                                <ellipse id="Oval-378" fill="#FDE699" cx="3.10369754" cy="55.0437729" rx="3.10369754" ry="3.15479798"></ellipse>
+                                <path d="M34.9165974,22.8722854 L51.2294734,6.290828" id="Line"></path>
+                                <path d="M5.4314707,52.8428662 L23.5928241,34.6478446" id="Line"></path>
+                            </g>
+                            <g id="Group-5" transform="translate(30.592238, 43.498651) rotate(-90.000000) translate(-30.592238, -43.498651) translate(0.788114, 13.639276)">
+                                <ellipse id="Oval-378" fill="#E9E7D1" cx="55.7397343" cy="3.60548341" rx="3.10369754" ry="3.15479798"></ellipse>
+                                <ellipse id="Oval-378" fill="#E9E7D1" cx="4.11004344" cy="55.6596501" rx="3.10369754" ry="3.15479798"></ellipse>
+                                <path d="M36.1330922,23.3229708 L52.4459683,6.74151343" id="Line"></path>
+                                <path d="M6.64796555,53.2935516 L24.4942264,35.1534632" id="Line"></path>
+                            </g>
+                        </g>
+                        <g id="Group-4" transform="translate(44.565969, 42.367613) rotate(-90.000000) translate(-44.565969, -42.367613) translate(39.699989, -1.507387)">
+                            <path d="M4.65554631,33.9140783 L4.65554631,9.46439394" id="Line"></path>
+                            <path d="M3.87962193,51.2654672 L3.87962193,75.7151515" id="Line"></path>
+                            <ellipse id="Oval-378" fill="#ACD7F7" cx="4.65554631" cy="4.73219697" rx="4.65554631" ry="4.73219697"></ellipse>
+                            <ellipse id="Oval-378" fill="#ACD7F7" transform="translate(4.655546, 82.024747) rotate(-180.000000) translate(-4.655546, -82.024747) " cx="4.65554631" cy="82.0247475" rx="4.65554631" ry="4.73219697"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <ellipse id="Oval-377" stroke="#546979" stroke-width="1.4812" stroke-linecap="round" stroke-linejoin="round" fill="#73C9C9" sketch:type="MSShapeGroup" cx="58" cy="58.5" rx="10" ry="10.5"></ellipse>
+                <path d="M57.9994679,63.9579278 C61.0057948,63.9579278 63.4417178,61.5145097 63.4417178,58.5 C63.4417178,55.4854903 61.0057948,53.0420722 57.9994679,53.0420722 C54.9942052,53.0420722 52.5582822,55.4854903 52.5582822,58.5 C52.5582822,61.5145097 54.9942052,63.9579278 57.9994679,63.9579278 L57.9994679,63.9579278 Z M56.0126317,58.145603 L57.1225782,59.2589647 L59.6042612,56.6159314 L59.9618279,56.2359153 L60.7227212,56.9575189 L60.3651545,57.3364676 L57.5131347,60.3680567 L57.1470545,60.7598148 L55.6465515,59.2546949 L55.2815355,58.8842859 L56.0126317,58.145603 Z" id="Fill-4-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

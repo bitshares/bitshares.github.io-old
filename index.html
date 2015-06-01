@@ -15,12 +15,12 @@ layout: index
 <div class="slogan">
 
     <p class="pitch">
-        <b>BitShares</b> is an industrial-grade financial smart contract platform.
+       BitShares is an industrial-grade financial smart contract platform.
     </p>
-
+   <p class="pitch-sub">
     Built using the latest in industry research, BitShares delivers the power of self-enforcing financial contracts
     to both businesses and individuals alike.
-
+</p>
 <div class="install-box">
    <br />
    <center>Earn $80 or more for every<br/> Member you sign up!</center>
@@ -33,18 +33,24 @@ layout: index
 </section>
 
 
-<section>
+<section id="features">
 <div class="container">
 
  
-<div class="row" style="border: 0px solid #333; text-align: center;">
-  <h2>Featuring</h2>
-  <ul class=" features">
+<div class="row">
+  <h2 class="feature-title">Featuring</h2>
+  <ul class="features">
     {% assign technologies = (site.technology | sort: 'priority') %}
     {% for technology in technologies  %}
-    <li class="col-md-3"><a href="{{ technology.url }}">{{ technology.title }}</a></li>
+    <li class="col-md-4 clear">
+    <a href="{{ technology.url }}">
+    <img class="feature-img" src="{{ BASE_PATH }}/{{ technology.image }}" />
+    {{ technology.title }}</a><br>{{ technology.summary | strip_html | truncatewords:20 }}</li>
     {% endfor %}
   </ul>
 
 
 </div>
+</div></section>
+
+
