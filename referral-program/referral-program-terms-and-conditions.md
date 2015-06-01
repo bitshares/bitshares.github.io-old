@@ -2,6 +2,7 @@
 layout: default
 title: Referral Program  Terms and Conditions
 ---
+
 # Referral Program - Terms & Conditions
 
 The BitShares Referral system does not constitute a contract between any two parties.  It's actual rules are
