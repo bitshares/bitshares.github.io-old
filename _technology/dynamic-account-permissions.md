@@ -1,18 +1,27 @@
 ---
-title: Corporate Accounts with Workflow Management
-subtitle: Multi-signature transactions done right
+title: Dynamic Account Permissions
+subtitle: One of the most revolutionary developments since the invention of the blockchain
 image: ../images/frontpage/icon-corporate-acc.svg
 priority: 3
 summary: >
-    We present a flexible and user-friendly approach to managing platform account permissions.
-    This approach allows account permissions to be fully customized to require approval from arbitrary hierarchies of other accounts.
-    Such a user-centric design greatly enhances usability and security over the key-centric approaches taken by other
-    blockchain technologies.
-    Individual account keys can be updated seamlessly, and transactions requiring multiple signatures can be approved with
-    no out-of-band communication.
+   Dynamic account permissions is one of the most revolutionary developments since the invention of the
+   blockchain.   BitShares designs permissions around people rather than around cryptography which means that
+   it is both easier to use and to understand.   Every account can be controlled by any weighted combination of
+   other accounts and private keys.   This creates a hierarchical structure that reflects how permissions are
+   organized in real life and makes multi-user control over funds easier than ever.  Multi-user control is
+   the single biggest contributor to security and when used properly can virtually eliminate the risk of theft
+   due to hacking.
 ---
 
 --------
+Dynamic account permissions is one of the most revolutionary developments since the invention of the
+blockchain.   BitShares designs permissions around people rather than around cryptography which means that
+it is both easier to use and to understand.   Every account can be controlled by any weighted combination of
+other accounts and private keys.   This creates a hierarchical structure that reflects how permissions are
+organized in real life and makes multi-user control over funds easier than ever.  Multi-user control is
+the single biggest contributor to security and when used properly can virtually eliminate the risk of theft
+due to hacking.
+
 
 ## Background
 
@@ -21,7 +30,7 @@ security of the platform.
 While a single secret key may be compromised, multiple keys distributed over multiple locations add redundant
 protections which result in a far more secure experience.
 
-Competing blockchain systems suffer from the following flaws:
+Competing blockchain systems suffer from the following shortcomings:
 
 - The N-of-M model cannot sufficiently reflect the management hierarchies of many real-life organizations
 - Equal weighting of M keys is not sufficient to express asymmetric ownership over an account
