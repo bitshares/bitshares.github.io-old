@@ -23,7 +23,7 @@ layout: index
 </p>
 <div class="install-box">
    <br />
-   <center>Earn $80 or more for every<br/> Member you sign up!</center>
+   <center>Earn <b>up to</b> $80 or more for every<br/> Member you sign up!</center>
    <a class="btn btn-primary" id="inst-link" href="/referral-program/">Learn More</a>
  </div>
 
@@ -36,21 +36,24 @@ layout: index
 <section id="features">
 <div class="container">
 
- 
-<div class="row">
+ <center>
+<div class="row row-eq-height">
   <h2 class="feature-title">Featuring</h2>
+  
   <ul class="features">
     {% assign technologies = (site.technology | sort: 'priority') %}
     {% for technology in technologies  %}
-    <li class="col-md-4 clear">
+    <li onclick="location.href='{{ technology.url }}';" class="col-xs-12 col-md-6 col-lg-4 state" >
     <a href="{{ technology.url }}">
     <img class="feature-img" src="{{ BASE_PATH }}/{{ technology.image }}" />
-    {{ technology.title }}</a><br>{{ technology.summary | strip_html | truncatewords:20 }}</li>
+    {{ technology.title }}</a><br>{{ technology.subtitle }}</li>
+    <!-- Add the extra clearfix for only the required viewport -->
+    
     {% endfor %}
   </ul>
 
-
 </div>
+</center>
 </div></section>
 
 
