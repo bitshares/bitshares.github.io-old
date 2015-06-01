@@ -1,6 +1,7 @@
 ---
 title: Viral Referral Program
 subtitle: Rapidly grow network effect by incentivising mass adoption
+image: ../images/frontpage/icon-referral.svg
 priority: 1
 summary: >
     BitShares has an advanced referral program built into the software.

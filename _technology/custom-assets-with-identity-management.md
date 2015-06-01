@@ -1,6 +1,7 @@
 ---
 title: Custom Assets with Identity Management
 subtitle: subtitle
+image: ../images/frontpage/icon-asset-ident.svg
 priority: 5
 summary: >
     The New York Stock exchange is a company that maintains a ledger to track ownership of stock and debt issued by other companies.

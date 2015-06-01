@@ -1,6 +1,7 @@
 ---
 title: Decentralized Asset Exchange
 subtitle: subtitle
+image: ../images/frontpage/icon-daex.svg
 priority: 6
 summary: >
     BitShares provides the highest performance decentralized exchange available that has all of the features

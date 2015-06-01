@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="160px" viewBox="0 0 210 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSArtboardGroup" stroke="#546979">
+            <g id="icon-asset-ident" sketch:type="MSLayerGroup" transform="translate(5.000000, 36.000000)">
+                <path d="M0.598802395,44.5 L199.415634,44.5" id="Line-Copy-20" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,4" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-2407-Copy-4" stroke-linecap="round" stroke-linejoin="round" fill="#F6FAFC" sketch:type="MSShapeGroup" x="38.0209581" y="0.5" width="117.365269" height="86" rx="2.4"></rect>
+                <g id="MaleOK" transform="translate(50.500000, 29.000000)" stroke-linecap="round" sketch:type="MSShapeGroup" stroke-linejoin="round">
+                    <path d="M15.5,0 C6.93958638,0 0,6.93958638 0,15.5 C0,24.0604136 6.93958638,31 15.5,31 C24.0604136,31 31,24.0604136 31,15.5" id="Oval-1812"></path>
+                    <path d="M10.2510695,10.3651692 C10.4718619,7.36537145 12.9826249,5 16.0343137,5 L21.8333333,5 L21.8333333,10.379249 L21.8333333,10.379249 C22.4979818,10.5083079 23,11.096268 23,11.7882065 L23,12.2117935 C23,12.916742 22.494068,13.5029875 21.8183367,13.6241147 C21.6027427,16.6289934 19.0896355,19 16.0343137,19 C12.9765452,19 10.4715328,16.629566 10.2510622,13.634533 C9.54497774,13.5407907 9,12.9327302 9,12.2117935 L9,11.7882065 C9,11.0593219 9.54087251,10.4573381 10.2510695,10.3651692 Z" id="Rectangle-2323" fill="#73C9C9"></path>
+                    <path d="M13,20 L11.9454296,22.2105263 L9.43484246,22.2105263 C8.1464462,22.2105263 7,23.3235361 7,24.6315789 L7,27 M24,27 L24,24.6136364 C24,23.2983659 22.9918735,22.2272727 21.7482865,22.2272727 L19.02,22.2272727 L18,20" id="Rectangle-2326"></path>
+                    <path d="M30,2 L27.6315789,7 L25,5.33333333" id="Line-404"></path>
+                </g>
+                <g id="Statistics" transform="translate(92.500000, 18.500000)" sketch:type="MSShapeGroup">
+                    <path d="M0.5,0.5 L0.5,51.6566238" id="Line" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0.84337616,26 L52,26" id="Line-148" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,5.5 L7,5.5" id="Line-148" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,10.5 L7,10.5" id="Line-149" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,15.5 L7,15.5" id="Line-149" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,20.5 L7,20.5" id="Line-149" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,30.5 L7,30.5" id="Line-153" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,35.5 L7,35.5" id="Line-150" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,40.5 L7,40.5" id="Line-151" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.84337616,45.5 L7,45.5" id="Line-152" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle-423" stroke-linecap="round" stroke-linejoin="round" fill="#ACD7F7" x="25" y="14" width="5" height="9" rx="1"></rect>
+                    <rect id="Rectangle-425" stroke-linecap="round" stroke-linejoin="round" fill="#F7A696" x="35" y="1" width="5" height="22" rx="1"></rect>
+                    <rect id="Rectangle-425" stroke-linecap="round" stroke-linejoin="round" fill="#ACD7F7" x="45" y="6" width="5" height="17" rx="1"></rect>
+                    <rect id="Rectangle-428" stroke-linecap="square" fill="#FDE699" x="16" y="29" width="5" height="6" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

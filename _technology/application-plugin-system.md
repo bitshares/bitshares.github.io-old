@@ -1,6 +1,7 @@
 ---
 title: Application Plugin System
 subtitle: subtitle
+image: ../images/frontpage/icon-app-plugin.svg
 priority: 11
 summary: >
     summary

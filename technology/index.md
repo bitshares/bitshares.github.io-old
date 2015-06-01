@@ -13,6 +13,7 @@ Working together, this community has designed and developed the BitShares platfo
 
 {% assign technologies = (site.technology | sort: 'priority') %}
 {% for technology in technologies  %}
+
 ### <a href="{{ technology.url }}">{{ technology.title }}</a> - {{ technology.subtitle }}
 {{ technology.summary }}
 {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: Corporate Accounts with Workflow Management
 subtitle: Multi-signature transactions done right
+image: ../images/frontpage/icon-corporate-acc.svg
 priority: 3
 summary: >
     We present a flexible and user-friendly approach to managing platform account permissions.
