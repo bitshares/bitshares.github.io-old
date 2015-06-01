@@ -27,7 +27,7 @@ padding: 8px 14px 9px;
  
 /* Colors ---------- */
 .blue.awesome {
-background-color: #2daebf;
+background-color: #00A9E0;
 }
 .red.awesome {
 background-color: #e33100;
@@ -35,7 +35,6 @@ background-color: #e33100;
 
 .gray.awesome {
 background-color: #E1E6E8;
-color: $primary-color;
 text-shadow: 0 -1px 1px rgba(255,255,255,0.5);
 
 }
@@ -49,12 +48,7 @@ background-color: #a9014b;
 .yellow.awesome {
 background-color: #ffb515;
 }     
-
-.green.awesome {
-
- background-color: $gradient-orange;
-
- }
+}
 
 /* @end */
 
@@ -71,6 +65,10 @@ body {
 	color: #3E4552;
 	line-height: 1.7em;
 	font-weight: 100;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /* Firefox only font tweak
@@ -214,17 +212,7 @@ h3 {
 	color:  #777;
 }
 
-.table-features {
-	width: 100%;
-	margin-bottom: 18px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	border-collapse: inherit;
-}
-.table-features td {
-	padding: 6px 12px;
-	border: none;
-}
+
 
 div.install {
 	margin-top: 2.5em;
@@ -356,9 +344,7 @@ ul.laundry-list {
     width: 149px;
     height: 149px;
 	}
-	ul.menu .col-xs-12 {
-		padding-left: 0;
-	}
+
 	.resp-block {
 		display: block;
 	}
@@ -544,7 +530,7 @@ ul.navbar-nav li {
 /*  Frontpage Teaser */
 
 .teaser {
-  padding: 120px 0;
+  padding: 120px 40px;
   font-family: 'Proxima Nova Th', "Helvetica Neue",Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #FFF;
@@ -557,7 +543,7 @@ ul.navbar-nav li {
 @media (max-width: 784px) {
    
   .teaser {
-    padding: 80px 0;
+    padding: 80px 20px;
     line-height: 24px;
     color: #FFF;
     max-height: 520px;
@@ -572,6 +558,12 @@ ul.navbar-nav li {
 #features {
     border: 0px solid #333;
     padding-bottom: 80px;
+    margin: 0;
+}
+
+#features ul {
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -579,12 +571,16 @@ ul.navbar-nav li {
   background: #f5f5f5;
 }
 
+
+
 .features li {
   list-style: none;
   text-align: center;
   padding: 20px;
   cursor: pointer;
+  margin: 0;
 }
+
 
 
 .feature-img {
