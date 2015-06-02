@@ -1,5 +1,5 @@
 ---
-title: Clarifying Some Aspects Raised by the Community
+title: Answers to Common Community Questions
 ---
 
 --------

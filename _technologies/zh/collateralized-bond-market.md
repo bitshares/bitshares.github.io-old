@@ -1,7 +1,9 @@
 ---
+permalink: /技术/collateralized-bond-market/
 title: Collateralized Bond Market
 subtitle: Lend or Borrow anything on your terms
 image: ../images/frontpage/icon-bonds.svg
+priority: 7
 summary: >
    With the bond market you can earn interest on anything while allowing others to short any asset
    backed by any other asset. The BitShares bond market is an investment marketplace accessible to

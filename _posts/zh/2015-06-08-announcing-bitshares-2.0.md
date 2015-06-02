@@ -1,4 +1,5 @@
 ---
+permalink: /博客/2015/06/08/announcing-bitshares-2.0/
 title: Announcing BitShares 2.0
 ---
 
@@ -14,7 +15,7 @@ the smart contract industry.
 - A brand new BitShares codebase has been developed from scratch featuring:
 
   <ul class="laundry-list">
-    {% assign technologies = (site.content | where: 'lang', page.lang | where: 'layout', 'technology' | sort: 'priority') %}
+    {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
     {% for technology in technologies  %}
     <li><a href="{{ technology.url }}">{{ technology.title }}</a></li>
     {% endfor %}
@@ -46,7 +47,7 @@ the system back from its full potential:
 - Lack of third-party documentation prevents integration of services
 
 We aim to address all of these issues all at once with BitShares 2.0.
-See [Lessons Learned]({% post_url 2015-06-07-lessons-learned-from-bitshares-1.0 %}) for more details.
+See [Lessons Learned]({% post_url en/2015-06-07-lessons-learned-from-bitshares-0.x %}) for more details.
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 
@@ -74,7 +75,7 @@ See our public roadmap for the full timeline!
 At the snapshot, the current BitShares network will be shut down and BitShares 2.0 will be launched within hours.
 In general, all assets and accounts will be fully migrated to BitShares 2.0.
 
-See [Migrating to BitShares 2.0]({% post_url 2015-06-07-migrating-to-bitshares-2.0 %}) for more details.
+See [Migrating to BitShares 2.0]({% post_url en/2015-06-07-migrating-to-bitshares-2.0 %}) for more details.
 
 ## Where can I learn more?
 

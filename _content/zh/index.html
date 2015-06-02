@@ -1,32 +1,37 @@
 ---
-permalink: /
+permalink: /zh/
 layout: index
 ---
 
 <section class="teaser">
 
+
+
+
 <!--<div id="particles-js">
 </div>
 <script src="../js/particles.js"></script>-->
 
+
 <div class="slogan">
 
     <p class="pitch">
-       BitShares is an industrial-grade financial smart contract platform.
+       BitShares是一个工业级的金融智能平台的合同。
     </p>
    <p class="pitch-sub">
-    Built using the latest in industry research, BitShares delivers the power of self-enforcing financial contracts
-    to both businesses and individuals alike.
+   采用最新的行业研究建，BitShares提供自我实施的金融合约，以企业和个人都的力量。
 </p>
 <div class="install-box">
    <br />
-   <center>Earn <b>up to</b> $80 or more for every<br/> member you sign up!</center>
+   <center>Earn <b>up to</b> $80 or more for every<br/> Member you sign up!</center>
    <a class="btn btn-primary" id="inst-link" href="/referral-program/">Learn More</a>
  </div>
+
 
 </div>
 
 </section>
+
 
 <section id="features">
 <div class="container">
@@ -34,7 +39,7 @@ layout: index
  <center>
 <div class="row row-eq-height">
   <h2 class="feature-title">Featuring</h2>
-
+  
   <ul class="features">
     {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
     {% for technology in technologies  %}
@@ -43,7 +48,7 @@ layout: index
     <img class="feature-img" src="{{ BASE_PATH }}/{{ technology.image }}" />
     {{ technology.title }}</a><br>{{ technology.subtitle }}</li>
     <!-- Add the extra clearfix for only the required viewport -->
-
+    
     {% endfor %}
   </ul>
 

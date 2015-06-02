@@ -1,5 +1,5 @@
 ---
-permalink: /technology/
+permalink: /zh/technology/
 layout: index_tech
 title: Technology
 ---
