@@ -1,4 +1,5 @@
 ---
+permalink: /technology/recurring-and-scheduled-payments/
 title: Recurring & Scheduled Payments
 subtitle: Give direct debit authority or limited withdraw permissions to anyone
 image: ../images/frontpage/icon-rec-payments.svg

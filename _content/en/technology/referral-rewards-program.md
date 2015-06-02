@@ -1,5 +1,6 @@
 ---
-title: Viral Referral Program
+permalink: /technology/referral-rewards-program/
+title: Referral Rewards Program
 subtitle: Rapidly grow network effect by incentivising mass adoption
 image: ../images/frontpage/icon-referral.svg
 priority: 1

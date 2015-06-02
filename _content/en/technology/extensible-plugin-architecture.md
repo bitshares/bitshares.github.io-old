@@ -1,5 +1,6 @@
 ---
-title: Application Plugin System
+permalink: /technology/extensible-plugin-architecture/
+title: Extensible Plugin Architecture
 subtitle: The most efficient decentralized applications platform
 image: ../images/frontpage/icon-app-plugin.svg
 priority: 11

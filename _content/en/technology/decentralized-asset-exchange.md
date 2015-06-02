@@ -1,4 +1,5 @@
 ---
+permalink: /technology/decentralized-asset-exchange/
 title: Decentralized Asset Exchange
 subtitle: As fast and flexible as any traditional centralized exchange
 image: ../images/frontpage/icon-daex.svg

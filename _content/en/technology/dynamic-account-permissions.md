@@ -1,4 +1,5 @@
 ---
+permalink: /technology/dynamic-account-permissions/
 title: Dynamic Account Permissions
 subtitle: One of the most revolutionary developments since the invention of the blockchain
 image: ../images/frontpage/icon-corporate-acc.svg
@@ -14,14 +15,6 @@ summary: >
 ---
 
 --------
-Dynamic account permissions is one of the most revolutionary developments since the invention of the
-blockchain.   BitShares designs permissions around people rather than around cryptography which means that
-it is both easier to use and to understand.   Every account can be controlled by any weighted combination of
-other accounts and private keys.   This creates a hierarchical structure that reflects how permissions are
-organized in real life and makes multi-user control over funds easier than ever.  Multi-user control is
-the single biggest contributor to security and when used properly can virtually eliminate the risk of theft
-due to hacking.
-
 
 ## Background
 

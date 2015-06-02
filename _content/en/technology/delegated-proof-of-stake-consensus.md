@@ -1,4 +1,5 @@
 ---
+permalink: /technology/delegated-proof-of-stake-consensus/
 title: Delegated Proof-of-Stake Consensus
 subtitle: A robust and flexible consensus protocol
 image: ../images/frontpage/icon-dpos.svg

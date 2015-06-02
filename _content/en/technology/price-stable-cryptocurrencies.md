@@ -1,4 +1,5 @@
 ---
+permalink: /technology/price-stable-cryptocurrencies/
 title: Price-Stable Cryptocurrencies
 subtitle: The freedom of cryptocurrency with the stability of the dollar
 image: ../images/frontpage/icon-price-stable.svg

@@ -1,5 +1,6 @@
 ---
-title: User Issued Assets 
+permalink: /technology/user-issued-assets/
+title: User-Issued Assets 
 subtitle: Issue stocks, bonds, or other tokens while being compatible with KYC and AML regulations
 image: ../images/frontpage/icon-asset-ident.svg
 priority: 5

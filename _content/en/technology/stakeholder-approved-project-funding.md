@@ -1,4 +1,5 @@
 ---
+permalink: /technology/stakeholder-approved-project-funding/
 title: Stakeholder-Approved Project Funding
 subtitle: A self-sustaining funding model
 image: ../images/frontpage/icon-funding.svg

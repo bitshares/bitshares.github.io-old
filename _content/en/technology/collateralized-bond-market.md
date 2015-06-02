@@ -1,4 +1,5 @@
 ---
+permalink: /technology/collateralized-bond-market/
 title: Collateralized Bond Market
 subtitle: Lend or Borrow anything on your terms
 image: ../images/frontpage/icon-bonds.svg
