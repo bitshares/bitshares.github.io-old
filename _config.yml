@@ -13,7 +13,9 @@ defaults:
       values:
           layout: post
 
-
+gems:
+    - jekyll-redirect-from
+    - jekyll-sitemap
 
 # Theme Settings
 theme_reading_time: 		true
