@@ -9,24 +9,22 @@ summary: >
 
 --------
 
-Financial architecture of distributed applications
---------------------------------------------------
+## Financial architecture of distributed applications
 
-This paper summarizes the organizational structure of Black Lizard, with a focus on how other DAC's ("apps") will use
-base services provided by the Black Lizard blockchain to enable unambiguous consensus (Byzantine generals problem),
-flexible ownership and monetization structures (completely centralized, completely decentralized, or many points in
-between), and effective operational integration with BitAssets.
+This paper summarizes the organizational structure of the distributed plugin system (code name: *Black Lizard*). We
+focus on how other DACs ("apps") will use base services provided by the Black Lizard blockchain to enable unambiguous
+consensus (Byzantine generals problem), flexible ownership and monetization structures (completely centralized,
+completely decentralized, or anywhere in between), and effective operational integration with BitAssets.
 
 This paper is an incomplete draft, more of a starting point for discussion than a final product.
 
-Black Lizard:  Be the platform, not the app
--------------------------------------------
+## Black Lizard:  Be the platform, not the app
 
-The new business direction will point us directly to competing with Ethereum as a platform for smart organizations and
-smart contracts.
+The new business direction will point us directly to competing with [Ethereum](http://ethereum.org) as a platform for
+smart organizations and smart contracts.
 
-Specifically, the architecture of the Ethereum blockchain as executing Turing-complete contracts is a weak point from a
-standpoint of scalability and flexibility:
+Specifically, we have identified scalability and flexibility weaknesses in the architecture of the Ethereum blockchain
+as executing Turing-complete contracts.
 
 - Scalability:  Patricia tries are (Dan claims) slow.
 - Scalability:  Every node must execute every contract.
@@ -34,19 +32,17 @@ standpoint of scalability and flexibility:
 version will be a *different* piece of code with no access to the old version's resources.
 
 Project Black Lizard involves a substantial rewrite of the BitShares blockchain database and transactions.
-
 From the business side, Project Black Lizard has two goals:
 
 - Provide a platform layer with sufficient flexibility to enable many client applications.
 - Use the platform to develop app(s) to provide Vote functionality.
 
-Competitive Edge #1: Shared Network Effect Features
---------------------
+## Competitive Edge #1: Shared Network Effect Features
 
 As individual DACs, each of our developers would have had to duplicate the hardest parts of the job – growing network
-effect, generating critical mass, and building market depth. By combining onto one blockchain, we could share the fruits
-of our combined efforts. BitShares will integrate the following common services that would be much less effective if
-they weren’t common services:
+effect, generating critical mass, and building market depth. By combining onto one blockchain, we can share the fruits
+of our combined efforts. Hence, BitShares will integrate the following common services that would be much less effective
+if they weren’t common services:
 
 - A unified basket of stable, robust global currencies (BitAssets)
 - A unified set of well-compensated, best-of-breed delegates
@@ -54,12 +50,12 @@ they weren’t common services:
 - A unified set of on and off ramps – portals to the fiat world.
 - A unified marketing umbrella – attracting attention to each other
 - A unified consensus-based governing system
-- A unified family of tools and wallets and interfaces
-- A unified way to attract and fund the best developers and marketing talent.
+- A unified family of tools, wallets and interfaces
+- A unified way to attract and fund the best developers and marketing talents.
 - A unified way for newcomers to make instant friends with everyone already there.
 - A built-in venture capital system where you can compete for start-up funds – democratically.
 
-BitShares (BTS) moves our whole ecosystem into one DAC friendly free-trade zone with all the services that benefit from
+BitShares (BTS) moves our whole ecosystem into one DAC, a friendly free-trade zone with all the services that benefit from
 network effect already in place.
 
 It offers new developers instant network effect. Built in.
@@ -68,8 +64,7 @@ While the BitShares Toolkit is open source software that anyone is free to adopt
 the Toolkit!  You get that by joining our community.  You still run your own business with its own custom storefront and
 Internet presence.  You just skipped a year or two of trying to get traffic to stop by!
 
-What is an app?
----------------
+## What is an app?
 
 A Black Lizard *app* is any DAC, other than Black Lizard itself, which is hosted on the Black Lizard blockchain.
 
@@ -77,8 +72,7 @@ Entities on the Black Lizard blockchain that do not belong to any app are *platf
 *core asset* (Black Lizard equivalent of BTS), BitAssets and UIA's unassociated with an app are considered *platform
 assets*.
 
-App ideas
----------
+## A collection of apps
 
 Here are some ideas for app use cases the platform should consider supporting.
 
@@ -96,25 +90,22 @@ Here are some ideas for app use cases the platform should consider supporting.
 - Sweepstakes
 - Market as an app?
 
-What are the hard problems?
----------------------------
+## What are the hard problems?
 
-- Hard Problem 1:  Platform asset interaction problem.  Apps must interact with platform assets.  Thus, the platform
-must support a notion of "platform assets controlled by an app".
-- Hard Problem 2:  State import problem.  Transactions may involve app-specific semantics (including arbitrary off-chain
-information).  Enough information about these arbitrary semantics must be "imported" to the blockchain to at
-least allow proper distribution of platform assets.
-- Hard Problem 3:  Proof-of-broadcast problem.  The platform can provide timestamping of hashes of arbitrary data.
-However, this is not sufficient.  Such a hash is meaningless without proof that some quorum of the app's validators have
-seen (and presumably archived) the data in question.  This is effectively providing a resource-efficient and
-sybil-resistant proof-of-broadcast.
-- Hard Problem 4:  Dead validator problem.  Any mechanism which solves Hard Problem 3 must be resilient against dead
-validators.
-- Hard Problem 5:  Monetization problem.  In order to incentivize development of apps, app developers need to have a
-mechanism to get paid.
+1) **Platform asset interaction problem**:  Apps must interact with platform assets.  Thus, the platform must support a
+   notion of "platform assets controlled by an app".
+2) **State import problem**:  Transactions may involve app-specific semantics (including arbitrary off-chain information).
+   Enough information about these arbitrary semantics must be "imported" to the blockchain to at least allow proper
+   distribution of platform assets.
+3) **Proof-of-broadcast problem**:  The platform can provide timestamping of hashes of arbitrary data.  However, this is
+   not sufficient.  Such a hash is meaningless without proof that some quorum of the app's validators have seen (and
+   presumably archived) the data in question.  This is effectively providing a resource-efficient and sybil-resistant
+   proof-of-broadcast.
+4) **Dead validator problem**:  Any mechanism which solves problem 3) must be resilient against dead validators.
+5) **Monetization problem**:  In order to incentivize development of apps, app developers need to have a mechanism to get
+   paid.
 
-Solution overview
------------------
+## Solution overview
 
 The solution to the hard problems is to give apps a similar DPOS structure to the platform itself.  Each app should have
 an equity asset representing ownership, which votes for up to 101 trusted validators ("app delegates").  After
@@ -122,60 +113,54 @@ transactions are published on the platform chain, app validators can ratify or v
 conditional transfer of platform assets dependent on app-specific off-chain conditions, requires a majority of app
 delegates to ratify what should actually happen before platform assets are transferred.
 
-This solves Hard Problem 1 (app's platform assets are controlled by a majority of app delegates), Hard Problem 2 (app
-delegates are responsible for importing all off-chain app state), Hard Problem 3 (app delegates don't ratify
-transactions that imply off-chain broadcasts unless a majority have seen and stored the data), Hard Problem
-4 (dead app delegates can be replaced by equity asset holders' votes), and Hard Problem 5 (app's platform assets
-can be transferred to equity asset holders to "pay a dividend").
+This solves :
 
-Oracle invocation
------------------
+* problem 1) because the app's platform assets are controlled by a majority of app delegates, 
+* problem 2) as app delegates are responsible for importing all off-chain app state,
+* problem 3) since app delegates don't ratify transactions that imply off-chain broadcasts unless a majority have seen and stored the data,
+* problem 4) because dead app delegates can be replaced by equity asset holders' votes, and
+* problem 5) due to the fact that an app's platform assets can be transferred to equity asset holders to "pay a dividend".
+
+## Oracle invocation
 
 App delegates can have three actions:  Ratify, veto, or fail to reach consensus.  The general behavior for a transaction
 is to specify an operation for each of these paths.  I.e. a transaction needs to be able to say:
 
-    switch( state )
-    {
-    case ratified:
-        op_pay_app_fee_to_implement_transaction;
-        op_transfer_resources_to_app;
-        op_transfer_resources_from_app;
-        break;
-
-    case vetoed:
-        op_pay_app_validation_fee;
-        break;
-
-    case fail_to_reach_consensus:
-        /* do nothing */
-        break;
-    }
+    switch( state ) :
+         case ratified:
+             op_pay_app_fee_to_implement_transaction;
+             op_transfer_resources_to_app;
+             op_transfer_resources_from_app;
+          
+         case vetoed:
+             op_pay_app_validation_fee;
+            
+         case fail_to_reach_consensus:
+             /* do nothing */
 
 It is clear then that such a transaction should be published, but its execution deferred until the app delegates have
 reached consensus (or a specified expiration time has been reached without consensus), in which case one of several
 paths are taken.
 
-Since Black Lizard ops maintain all chain invariants, I think we should allow `switch` in the *middle* of a transaction,
+Since Black Lizard ops maintain all chain invariants, we should allow `switch` in the *middle* of a transaction,
 as well as the beginning.  This will enable a decentralized altcoin bridge algorithm:
 
     op_lock_asset <alice> <m> <bitbtc>
-    state = op_invoke_oracle <bridge_app_id> <return 0 if <btc_txid> exists and sends <n> BTC from <btc_bob_addr> to <btc_alice_addr>, return 1 if <btc_txid> exists but doesn't do that, or any other transaction spends <btc_bob_addr> >
-    switch( state )
-    {
-    case 0:
-        /* bob sent bitcoins to alice */
-        op_pay_app_fee;
-        op_send_locked_asset <bob> <m> <bitbtc>
-        break;
+    state = op_invoke_oracle <bridge_app_id> <return 0 if <btc_txid> exists and sends <n> BTC from <btc_bob_addr> to <btc_alice_addr>, 
+                                              return 1 if <btc_txid> exists but doesn't do that, or any other transaction spends <btc_bob_addr> >
+    switch( state ) :
+         case 0:
+             /* bob sent bitcoins to alice */
+             op_pay_app_fee;
+             op_send_locked_asset <bob> <m> <bitbtc>
+             
+         case 1:
+             /* bob spent bitcoins elsewhere */
+             op_pay_app_fee;
+             op_send_locked_asset <alice> <m> <bitbtc>
 
-    case 1:
-        /* bob spent bitcoins elsewhere */
-        op_pay_app_fee;
-        op_send_locked_asset <alice> <m> <bitbtc>
-        break;
-    }
-
-This is basically an escrow system.  We can add an expiration time and a `fail_to_reach_consensus` case, however this
+This basically described an escrow system between Alice and Bob, e.g. for a transaction on the Bitcoin blockchain.  We
+can add an expiration time and a `fail_to_reach_consensus` case, however this
 doesn't quite work -- Alice can end up with both BTC and BitBTC if the Bitcoin network is too slow confirming Bob's
 transaction!  Instead, before Alice publishes the above Black Lizard transaction, she should require Bob to send her a
 *cancellation transaction* locked in the future (while Bitcoin doesn't have the ability to expire transactions, it
@@ -191,46 +176,41 @@ cancellation transaction to the Bitcoin network themselves.)
 
 N.b. the `op_invoke_oracle` is instructions to the *bridge app*, the platform does not need to know how to interpret it.
 All the platform "knows" is that the oracle now has the ability to create a transaction saying either "the result of the
-`op_invoke_asset` in block <height>, transaction <tx_index>, operation <op_index> is 0" or "the result is 1", which
+`op_invoke_asset` in block `<height>`, transaction `<tx_index>`, operation `<op_index>` is 0" or "the result is 1", which
 causes the platform to run the respective case.  The locked balance goes into a special account-like object belonging to
 this transaction, which is destroyed when the transaction finishes.  We should validate that if control reaches the end
 of the transaction, no locked assets remain (i.e. every control path results in spending all locked assets).  This is
 actually possible since operations establishing or disposing of locked balances always use literal amounts (i.e. you
 can't send an amount determined by a computation).
 
-Bond markets with oracles
--------------------------
+## Bond markets with oracles
 
 Alice lending Bob platform assets:
 
     op_lock_asset <bob> <collateral>
     op_transfer <alice> <bob> <debt>
     state = op_invoke_oracle <bond_app_id> <return 0 if <bob> sends <debt_plus_fee> to <alice>>
-    switch( state )
-    {
-    case 0:
-        /* loan repaid on time */
-        op_send_locked_asset <bob> <collateral>
-        break;
-
-    case fail_to_reach_consensus:
-        /* loan expired */
-        op_send_locked_asset <alice> <collateral>
-    }
-
-Oracle notes
-------------
+    switch( state ) :
+         case 0:
+             /* loan repaid on time */
+             op_send_locked_asset <bob> <collateral>
+         
+         case fail_to_reach_consensus:
+             /* loan expired */
+             op_send_locked_asset <alice> <collateral>
 
 Before the first `op_invoke_oracle` operation, the transaction can do any operations.  After `op_invoke_oracle`, it can
-only do ops that are guaranteed to be valid at any time in the future, i.e. only totally prefunded operations like
+only do operations that are guaranteed to be valid at any time in the future, i.e. only totally pre-funded operations like
 distributing locked assets are allowed.
 
+<!-- @Bytemaster: there seems to be something missing here! You started your sentence with:
+
 Since `op_oracle_result` can cause
+//-->
 
-App operational accounts
-------------------------
+## App operational accounts
 
-Each app has an `app_record`.  The `app_record` is similar to a user account structure, it has a name and controls
+Each app has an `app_record` that is similar to a user account structure, has a name, and controls
 balances (although withdrawing balances works differently from normal accounts).
 
 The `app_record` specifies an *equity asset* representing ownership in the DAC.  The equity asset is a normal UIA, it
@@ -246,19 +226,20 @@ equity the first time they sign an app state in a platform-level round.
 A platform-level transaction is said to *invoke* an app if it contains an `invoke_app` operation.  The `invoke_app`
 operation has three fields:
 
-    struct op_invoke_app
-    {
+    struct op_invoke_app {
         app_id app;
         pair<asset_id, amount> app_fee_immediate;
         pair<asset_id, amount> app_fee_on_accept;
     };
 
+<!-- @Bytemaster: there seems to be something missing here! You started your sentence with:
+
 The
+//-->
 
 An operational account has one or more *app delegates* which approve an *app state* using DPOS.
 
-Financial architecture of distributed applications
---------------------------------------------------
+## Financial architecture of distributed applications
 
 When an app is created, it is given an *app ID*, and an account-like record.  The app ID controls the operational funds.
 
@@ -305,19 +286,18 @@ a majority have passed on their opportunity to veto.
 Notes:
 
 - Transfers of app equity shares and updates of app delegate votes *are not* signed off by app delegate(s), thus equity
-holders retain the ability to fire app delegates even in the case where an app has a single delegate!
+  holders retain the ability to fire app delegates even in the case where an app has a single delegate!
 - The app state is the minimum amount of app semantics the platform needs to know about in order to distribute platform
-asset denominated operational funds.
+  asset denominated operational funds.
 - The app may have additional semantics that depend on other things in the Black Lizard blockchain, or indeed any
-external blockchain, or for that matter the actual world.  However, the platform need not know about these additional
-semantics to evaluate whether the app delegates have reached a consensus on how to distribute platform assets.
+  external blockchain, or for that matter the actual world.  However, the platform need not know about these additional
+  semantics to evaluate whether the app delegates have reached a consensus on how to distribute platform assets.
 - The signed set of a particular app delegate must be monotonically increasing.  Thus, an app delegate cannot include a
-transaction in a veto set if it was included in a previous signed set for that app delegate.
-- Transactions involving multiple apps need to be thoroughly specced and tested.
+  transaction in a veto set if it was included in a previous signed set for that app delegate.
+- Transactions involving multiple apps need to be thoroughly spec-ed and tested.
 - App delegates need not sign in any particular order; there is no "signing schedule."
 
-Signing efficiency concerns
----------------------------
+## Signing efficiency concerns
 
 A `sign_app_state` operation can include signatures from any number of app delegates; a transaction can include any
 number of `sign_app_state` operations; any number of `sign_app_state` transactions can be included in a block (within
@@ -335,10 +315,9 @@ history of that app.  So signing a particular txid would be something an app del
 do, because they can't know the tx won't become invalid between the time it's signed and the time it's included in a
 block.
 
-Allowing to sign a txid *and app history* is a viable approach, but seems overly complicated and limited scalability.
+Allowing to sign a txid *and app history* is a viable approach, but seems overly complicated and shows limited scalability.
 
-Distribution of app income
---------------------------
+## Distribution of app income
 
 App delegates should regularly send operational funds designated as profits to the app's equity UIA address.  The
 platform will then distribute these proportionally to the equity holders.  Profits may come from fees or other sources
