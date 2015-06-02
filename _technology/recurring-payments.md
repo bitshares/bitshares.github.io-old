@@ -1,6 +1,6 @@
 ---
 title: Recurring & Scheduled Payments
-subtitle: subtitle
+subtitle: Give direct debit authority or limited withdraw permissions to anyone
 image: ../images/frontpage/icon-rec-payments.svg
 priority: 8
 summary: >

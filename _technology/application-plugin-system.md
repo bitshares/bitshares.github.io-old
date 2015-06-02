@@ -1,6 +1,6 @@
 ---
 title: Application Plugin System
-subtitle: subtitle
+subtitle: The most efficient decentralized applications platform
 image: ../images/frontpage/icon-app-plugin.svg
 priority: 11
 summary: >
