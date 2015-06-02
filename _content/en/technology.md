@@ -1,4 +1,5 @@
 ---
+permalink: /technology/
 layout: index_tech
 title: Technology
 ---
@@ -11,7 +12,7 @@ Working together, this community has designed and developed the BitShares platfo
 
 
 
-{% assign technologies = (site.technology | sort: 'priority') %}
+{% assign technologies = (site.content | where: 'lang', page.lang | where: 'layout', 'technology' | sort: 'priority') %}
 {% for technology in technologies  %}
 
 ### <a href="{{ technology.url }}">{{ technology.title }}</a> - {{ technology.subtitle }}

@@ -1,4 +1,5 @@
 ---
+permalink: /gateways/
 layout: default
 title: Gateways
 ---

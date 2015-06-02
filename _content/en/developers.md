@@ -1,10 +1,21 @@
 ---
+permalink: /developers/
 layout: default
-title: Gateways
+title: Developers
 ---
 
-# Gateways
+# Developers
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis elit mauris, a vestibulum felis rutrum eget. Sed blandit diam id mi efficitur sollicitudin. In in fringilla lectus. Nulla facilisi. Cras scelerisque diam quam, id varius purus consectetur vel. Fusce et posuere ligula, in iaculis diam. Nullam eu mauris eros. Vestibulum at sapien felis.
 
+## Getting started
+* Source code
+* JSON-RPC API
+* Protocol
+* Engine
+* Examples
+* Tutorials
+
+## Gateways
 This guide will provide a brief overview of the business opportunities available for those who wish
 to become a BitShares Gateway.
 

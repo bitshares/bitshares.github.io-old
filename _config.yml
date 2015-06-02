@@ -1,17 +1,23 @@
 collections:
-    technology:
+    content:
         output: true
 
 defaults:
     - scope:
-          type: technology
-      values:
-          layout: technology
-          priority: 100
-    - scope:
           type: posts
       values:
           layout: post
+
+    - scope:
+          path: content/en
+      values:
+          lang: en
+
+    - scope:
+          path: content/en/technology
+      values:
+          layout: technology
+          priority: 100
 
 gems:
     - jekyll-redirect-from

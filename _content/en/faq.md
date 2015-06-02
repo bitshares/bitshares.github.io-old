@@ -1,4 +1,5 @@
 ---
+permalink: /faq/
 layout: default
 title: FAQ
 ---

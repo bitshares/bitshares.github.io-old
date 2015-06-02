@@ -1,4 +1,5 @@
 ---
+permalink: /user-guide/
 layout: default
 title: User Guide
 ---

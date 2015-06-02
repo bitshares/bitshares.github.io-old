@@ -1,4 +1,5 @@
 ---
+permalink: /referral-program/
 layout: default
 title: Referral Program
 ---

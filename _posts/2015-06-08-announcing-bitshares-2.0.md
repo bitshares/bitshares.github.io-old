@@ -14,7 +14,7 @@ the smart contract industry.
 - A brand new BitShares codebase has been developed from scratch featuring:
 
   <ul class="laundry-list">
-    {% assign technologies = (site.technology | sort: 'priority') %}
+    {% assign technologies = (site.content | where: 'lang', page.lang | where: 'layout', 'technology' | sort: 'priority') %}
     {% for technology in technologies  %}
     <li><a href="{{ technology.url }}">{{ technology.title }}</a></li>
     {% endfor %}

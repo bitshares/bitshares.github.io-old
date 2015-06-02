@@ -1,4 +1,5 @@
 ---
+permalink: /signup/
 layout: default
 title: Sign Up
 ---

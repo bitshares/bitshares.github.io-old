@@ -1,4 +1,5 @@
 ---
+permalink: /referral-program-terms-and-conditions/
 layout: default
 title: Referral Program  Terms and Conditions
 ---
