@@ -10,7 +10,6 @@ summary: >
    anyone with an internet connection.
 ---
 
---------
 The BitShares bond market allows for an interest rate market between any combination of assets
 tradeable on the BitShares blockchain.  The bond is a *smart contract* between a borrower and a
 lender.  The borrower borrows a certain amount of a specified asset from the lender and secures the
@@ -39,7 +38,7 @@ the other side of any bond contract may be taken with a transaction that accepts
 A BitShares bond offer defines the **amount and type of collateral** and the **type of borrowed
 asset**.  A **ratio** of borrowed asset to collateral is specified.  A bond offer can be partially
 filled at this ratio as long as it is above a specified minimum.  Bonds have a defined **loan period**,
-**minimum loan period**, and **interest rate**.  
+**minimum loan period**, and **interest rate**.
 
 ## Closing a Bond
 

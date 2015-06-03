@@ -8,8 +8,6 @@ summary: >
     summary
 ---
 
---------
-
 ## Financial architecture of distributed applications
 
 This paper summarizes the organizational structure of the distributed plugin system (code name: *Black Lizard*). We
@@ -116,7 +114,7 @@ delegates to ratify what should actually happen before platform assets are trans
 
 This solves :
 
-* problem 1) because the app's platform assets are controlled by a majority of app delegates, 
+* problem 1) because the app's platform assets are controlled by a majority of app delegates,
 * problem 2) as app delegates are responsible for importing all off-chain app state,
 * problem 3) since app delegates don't ratify transactions that imply off-chain broadcasts unless a majority have seen and stored the data,
 * problem 4) because dead app delegates can be replaced by equity asset holders' votes, and
@@ -132,10 +130,10 @@ is to specify an operation for each of these paths.  I.e. a transaction needs to
              op_pay_app_fee_to_implement_transaction;
              op_transfer_resources_to_app;
              op_transfer_resources_from_app;
-          
+
          case vetoed:
              op_pay_app_validation_fee;
-            
+
          case fail_to_reach_consensus:
              /* do nothing */
 
@@ -147,14 +145,14 @@ Since Black Lizard ops maintain all chain invariants, we should allow `switch` i
 as well as the beginning.  This will enable a decentralized altcoin bridge algorithm:
 
     op_lock_asset <alice> <m> <bitbtc>
-    state = op_invoke_oracle <bridge_app_id> <return 0 if <btc_txid> exists and sends <n> BTC from <btc_bob_addr> to <btc_alice_addr>, 
+    state = op_invoke_oracle <bridge_app_id> <return 0 if <btc_txid> exists and sends <n> BTC from <btc_bob_addr> to <btc_alice_addr>,
                                               return 1 if <btc_txid> exists but doesn't do that, or any other transaction spends <btc_bob_addr> >
     switch( state ) :
          case 0:
              /* bob sent bitcoins to alice */
              op_pay_app_fee;
              op_send_locked_asset <bob> <m> <bitbtc>
-             
+
          case 1:
              /* bob spent bitcoins elsewhere */
              op_pay_app_fee;
@@ -195,7 +193,7 @@ Alice lending Bob platform assets:
          case 0:
              /* loan repaid on time */
              op_send_locked_asset <bob> <collateral>
-         
+
          case fail_to_reach_consensus:
              /* loan expired */
              op_send_locked_asset <alice> <collateral>

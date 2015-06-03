@@ -11,13 +11,7 @@ summary: >
     network can confirm transactions in average of just 1 second, limited only by the speed of light.
 ---
 
---------
-
 ## Overview
-
-
-
-
 
 To achieve this industry leading performance, BitShares has borrowed [lessons learned from the LMAX
 Exchange](http://martinfowler.com/articles/lmax.html) which is able to process 6 million transactions per second.  Among

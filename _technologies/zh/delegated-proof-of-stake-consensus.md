@@ -15,8 +15,6 @@ summary: >
     interference.
 ---
 
---------
-
 BitShares is first and foremost a globally distributed database that is used as a ledger to track ownership of digital
 assets.  All updates to the ledger must be validated by and applied in the same order for the database to remain
 consistent and universally

@@ -6,17 +6,15 @@ image: ../images/frontpage/icon-daex.svg
 priority: 6
 summary: >
     BitShares provides the highest performance decentralized exchange available that has all of the features
-    you would expect in a trading platform. It can handle all of the trading volume of the NASDAQ while 
+    you would expect in a trading platform. It can handle all of the trading volume of the NASDAQ while
     settling orders the second you submit them.  With this kind of performance on a decentralized exchange,
     who needs risky centralized exchanges?
 ---
 
---------
-
 BitShares provides the highest performance decentralized exchange available that has all of the features
-you would expect in a trading platform. It can handle all of the trading volume of the NASDAQ while 
+you would expect in a trading platform. It can handle all of the trading volume of the NASDAQ while
 settling orders the second you submit them.  With this kind of performance on a decentralized exchange,
-who needs risky centralized exchanges? 
+who needs risky centralized exchanges?
 
 The centralized exchanges the world has known throughout history have proven unreliable and
 untrustworthy time and again.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/),
@@ -42,7 +40,7 @@ Within a given company there are many people whom have access to the funds.   Yo
 expression that 'Three Can Keep a Secret If Two Are Dead', well all exchanges end up
 depending upon multiple people who share the responsibility of guarding the secret key that controls the funds.
 If any one of them is compromised then everyones funds are at risk.  In this respect being individually responsible for
-maintaining your own secrets is the only option.  Multi-signature accounts can help exchanges secure their funds, but have historically been so difficult that few exchanges use it.  
+maintaining your own secrets is the only option.  Multi-signature accounts can help exchanges secure their funds, but have historically been so difficult that few exchanges use it.
 
 ## Fast, but not *too* fast
 With BitShares your trades execute in seconds, just like any centralized website interface.  Unlike centralized
@@ -137,7 +135,7 @@ where everyone can see it.
 
 Exchanges should become mere gateways that receive USD and issue GatewayUSD on the blockchain.  Later they receive
 GatewayUSD and then execute a wire transfer.   They will make their money entirely on transaction fees and not from a
-percentage of market fees.  
+percentage of market fees.
 
 The blockchain will allow users to trade BitstampUSD against BitfinexUSD in order to easily move funds from one gateway
 to another.  Users can even trade BitstampUSD against BitstampBTC or BitstampUSD vs BitfinexBTC.
