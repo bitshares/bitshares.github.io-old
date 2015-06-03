@@ -1,19 +1,56 @@
 collections:
-    technology:
+    content:
+        output: true
+    technologies:
         output: true
 
 defaults:
     - scope:
-          type: technology
+          path: content/en
+      values:
+          lang: en
+
+    - scope:
+          path: content/zh
+      values:
+          lang: zh
+
+    - scope:
+          type: technologies
       values:
           layout: technology
           priority: 100
+
+    - scope:
+          path: technologies/en
+      values:
+          lang: en
+
+    - scope:
+          path: technologies/zh
+      values:
+          lang: zh
+
     - scope:
           type: posts
       values:
           layout: post
 
+    - scope:
+          path: _posts/en
+      values:
+          lang: en
 
+    - scope:
+          path: _posts/zh
+      values:
+          lang: zh
+
+gems:
+    - jekyll-redirect-from
+    - jekyll-sitemap
+
+permalink: /blog/:year/:month/:day/:title/
 
 # Theme Settings
-theme_reading_time: 		true
+theme_reading_time: true

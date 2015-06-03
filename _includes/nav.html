@@ -18,7 +18,13 @@
          </ul>
                   
           <ul class="nav navbar-nav navbar-left">
-            <li style="margin-top: 12px; color: #5B6A72;margin-left: 12px;">24h Change <span style="color: #18BC9C;">+ 12.14 %</span></li>
+              <li style="color: #5B6A72;margin-left: 12px;">
+                  {% if page.lang != 'en' %}
+                      <a href="/">English</a>
+                  {% else %}
+                      <a href="/zh/">官话</a>
+                  {% endif %}
+              </li>
           </ul>
         </div>
       </div>
