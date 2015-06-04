@@ -35,19 +35,18 @@ issued by a bank, the digital IOUs issued by a gateway are far more flexible and
 The BitShares network allows anyone to issue digital assets known as User Issued Assets (UIA). These
 assets can be used to track shares in a company, deposits in a bank, and reward points among other
 uses. Once an asset has been issued it can be freely traded against all of the other asset types on
-the network including the fully collateralized market pegged assets known as BitAssets such as
-(BitUSD, BitBTC, etc.).
+the network including the fully collateralized market pegged assets known as BitAssets (BitUSD, BitBTC, etc.).
 
 ## Gateway vs. Exchange 
 
 Most people who have been around the crypto-currency space for a while are familiar with exchanges.
 Exchanges facilitate trade by accepting deposits in two asset classes and maintaining an order book
-to facilitate trade among the assets using the deposited funds.   A deposit at an exchange is just
+to enable trade among the assets using the deposited funds. A deposit at an exchange is just
 an IOU that is tracked on an private database maintained by the exchange.      
 
 A gateway performs only 1 out of the 3 functions performed by an exchange: accept deposits and issue
 an IOU.  Gateways do not need to maintain an internal database tracking account balances nor do they
-need to maintain an order book.   This greatly simplifies the job of a gateway and minimizes risks
+need to maintain an order book. This greatly simplifies the job of a gateway and minimizes risks
 to all parties involved.  
 
 Today when you want to trade bitcoin for US Dollars you must deposit both your dollars and your
@@ -58,7 +57,7 @@ all orders and bitshares would have remained on the block chain under the contro
 keys. 
 
 As you can see from the Mt. Gox example, a gateway has less than 50% the liability of an Exchange
-and users benefit from a global order book with no bitshare withdraw limits.
+and users benefit from a global order book with no bitshare withdrawal limits.
 
 <!--
 (xeroc: This part has obviously been removed to make things more easy for "average Joe" :) )
@@ -85,19 +84,19 @@ customers.
 
 Every single Bitcoin exchange is already performing a similar role to a gateway.  Users transfer
 funds to the exchange, the exchange tracks how much it owes each user, and when a user asks for a
-withdraw the exchange sends the funds back.    While the funds are on the exchange users can quickly
+withdrawal the exchange sends the funds back. While the funds are on the exchange users can quickly
 and safely perform trades with other users of the same exchange.
 
 A BitShares gateway does the exact same process, the only difference is that the database that
 tracks the users' deposits to the exchange is the BitShares block chain.   When a user transfers
 fiat dollars or bitcoin to a gateway, the gateway responds by transferring an IOU asset issued by
-the gateway back to the user.    When the user returns the IOU to the gateway the gateway sends fiat
+the gateway back to the user. When the user returns the IOU to the gateway the gateway sends fiat
 dollars or bitcoin back to the user.  
 
 The IOU asset is tremendously useful to users in the BitShares ecosystem because it serves as a very
-flexible multi-party escrow asset.   Users will use an IOU USD from your gateway to trade against
+flexible multi-party escrow asset.   Users will use an IOU USD from a gateway to trade against
 BitUSD and/or IOUs from other gateways.    Users will want to store value in BitUSD because it is
-mostly free of counter party risk, but when it comes time to convert BitUSD back to fiat USD they
+mostly free of counterparty risk, but when it comes time to convert BitUSD back to fiat USD they
 will do so through a gateway.   
 
 ## Legal Compliance 
@@ -148,7 +147,7 @@ the private keys that control the user issued asset.   For this reason all User 
 controlled by a N of M multi signature system with both cold and hot keys.  You can divide access
 control among  many different individuals within your gateway to ensure that no single individual or
 single compromised machine can compromise control over your User Issued Asset. This is comparable to
-the need to safe guard the private keys of the crypto currencies an exchange holds for his
+the need to safeguard the private keys of the crypto currencies an exchange holds for its
 customers.    It is critical that you guard these keys carefully and keep them in cold storage.
 
 Access to your User Issued Asset is divided between the owner keys which maintain absolute control
@@ -158,20 +157,22 @@ organization multiple levels of control and maximum flexibility.
 
 ## Unlimited Opportunity 
 
-The BitShares ecosystem is young and growing quickly.  Each and every day hundreds of thousands of
-dollars worth of BitShares are traded and one day that could grow to be millions of dollars.  The
+The BitShares ecosystem is young and growing quickly.  Each day hundreds of thousands of
+dollars worth of BitShares are traded and soon that could grow to be millions of dollars.  The
 early gateways that establish trust and provide reliable service will likely become the default
-go-to gateway and have an opportunity to maximize volume of transactions they can charge fees on.
-This early adoption will also result in added awareness of your company among our user base.  While
-you may start as a gateway you can also grow to provide other related services to the BitShares
-ecosystem such as hosted wallets or even becoming a delegate.
+go-to gateways, providing them with the opportunity to maximize the volume of transactions on which
+they can charge fees. Since BitShares users will likely trust and recognize these companies, they 
+might find it easy to expand into other related BitShares servcices such as hosted wallets or even 
+becoming a delegate.
 
 ## Become a Delegate 
-
+<!--
+(CryptoPrometheus: Market cap in following paragraph is incorrect)
+//-->
 The BitShares community elects 101 paid delegates to help maintain and support the network.  As a
-gateway you are already maintaining a full node and keeping up with the latest network upgrades.
-Their is almost no extra overhead to becoming a delegate.  Delegates earn over 50 BTS every 17
+gateway you are already maintaining a full node and keeping up with the latest network upgrades, so
+there is almost no extra overhead to becoming a delegate.  Delegates earn over 50 BTS every 17
 minutes or about $2500 per month at todays market cap of around $40M.  This delegate pay is already
 enough to pay for a part time position necessary to integrate BitShares with your companies database
 and website.   As the market cap grows it could potentially fund your business to expand the
-services it provides to the BitShares ecosystem.  
+services it provides to the BitShares ecosystem.
