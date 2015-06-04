@@ -11,19 +11,18 @@ summary: >
     who needs risky centralized exchanges?
 ---
 
-Centralized exchanges known throughout history have proven unreliable and
-untrustworthy time and again.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/),
+Throughout history, centralized exchanges have often proven unreliable and
+untrustworthy.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/),
 [Mt. Gox](http://www.wired.com/2014/03/bitcoin-exchange/), or
-[BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/), people have witnessed
-all of the perils of allowing a 3rd party to hold their money. It doesn't matter how
-big they are, or how many auditors, regulators, or insurers are involved every kind of fraud,
-abuse, and theft. These transgressions occur frequently throughout centralized banks and exchanges around the world. It is time for a change.
-Read on to learn about the benefits you get by using the world's first fully decentralized exchange, BitShares.
+[BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/), many people have been cheated because they allowed a 3rd party to hold their funds. It doesn't matter how
+big they are, or how many auditors, regulators or insurers are involved, every kind of fraud,
+abuse, and theft can occur. These transgressions happen frequently throughout centralized banks and exchanges around the world. It is time for a change.
+Keep reading to learn about the benefits you will get from using the world's first fully decentralized exchange, BitShares.
 
 ## Decentralized
 Decentralization gives BitShares robustness against failure.  When a centralized exchange is
-compromised millions of dollars and thousands of users are impacted all at once.  In a decentralized
-system any attack or failure impacts only a single user and their funds.   Users are in control
+compromised, millions of dollars and thousands of users are impacted all at once.  In a decentralized
+system, any attack or failure impacts only a single user and their funds.   Users are in control
 of their own security which can potentially be much better than any centralized entity.
 
 There is a fixed cost associated with attempting to hack an exchange or an individual user.  The difference
@@ -34,7 +33,7 @@ attacking your individual account.
 Within a given company there are many people whom have access to the funds.  You may have heard the
 expression that 'Three can keep a secret if two are dead'. Currently, all centralized exchanges end up
 depending upon multiple people who share the responsibility of guarding the secret key that controls the funds.
-If any one of them is compromised then everyones funds are at risk.  In this respect being individually responsible for
+If any one of them is compromised then everyone's funds are at risk.  Because of this, being individually responsible for
 maintaining your own secrets is the only option.  Multi-signature accounts can help centralized exchanges secure their funds, but have historically been so difficult that few exchanges use it.
 
 ## Fast, but not *too* fast
@@ -59,8 +58,8 @@ solvent in almost any market.  All of the reserves are kept as BTS held on the b
 be stolen because there are no private keys that can be compromised to steal the reserves.
 
 ## No Limits
-You can trade any amount, at any time, from anywhere without withdraw limits.  All other
-legally compliant exchanges have daily withdraw limits on the order of a couple thousand dollars.  If you wish to
+You can trade any amount, at any time, from anywhere without withdrawal limits.  All other
+legally compliant exchanges have daily withdrawal limits on the order of a couple thousand dollars.  If you wish to
 exceed those limits you must provide increasingly invasive levels of documentation.  Some exchanges, such as
 [Coinbase](http://coinbase.com),
 even [limit what you can do with your money after you have withdrawn
@@ -80,7 +79,7 @@ trade. It doesn't get any cheaper than BitShares.
 Trade in Gold, Sliver, Gas, and Oil in addition to all of your favorite national and crypto-currencies.  There are
 few limits on what can be traded on the BitShares exchange given enough interest.  The BitShares exchange can support
 assets that can track stocks, bonds, indexes, or inflation.  Companies can issue their own stock on the BitShares
-network and allow easy, low cost, trading with complete protection against naked shorting.  What other crypto-currency
+network and allow easy, low cost trading with complete protection against naked shorting.  What other crypto-currency
 exchange allows you to trade in gold and silver?  Learn more about how BitShares creates trust-free digital assets pegged to
 almost anything.
 
@@ -150,9 +149,9 @@ automatically buy back the BitUSD with a dollars worth of BTS.
 
 When you hold BitUSD the value of your holdings will remain pegged to the dollar so long as BitShares itself has
 reasonable volatility.  Reasonable volatility in this case means that it can handle greater volatility than Bitcoin has ever seen in
-its life time.   The price of BitShares would have to fall to less than 1/3 its starting price in less than 24 hours and
+its lifetime.   The price of BitShares would have to fall to less than 1/3 its starting price in less than 24 hours and
 then stay there.   No legitimate, widely adopted crypto-currency has ever seen that kind of price movement.  This means
-that BitUSD is secure against just about everything but an unfixable software bug in the BitShares protocol itself.
+that BitUSD is secure against just about everything but an un-fixable software bug in the BitShares protocol itself.
 By the time BitShares matures to the level Bitcoin is at today you could expect the probability of that kind of bug to
 be similar to Bitcoin having that kind of bug.
 
@@ -171,10 +170,10 @@ centralized exchanges would be much less appealing to high frequency traders.
 ## BitUSD to USD Gateways
 
 Many gateways will prefer the low risk approach of one-for-one redemption and will simply allow the GatewayUSD to float
-against BitUSD with a small, but variable, spread in the market. Users would end up paying a small variable conversion
+against BitUSD with a small but variable spread in the market. Users would end up paying a small variable conversion
 cost as they exit from BitUSD to fiat USD through GatewayUSD.
 
-On the other hand, many users will want a direct conversion from BitUSD to fiat USD.  In this mode of operation the
+On the other hand, many users will want a direct conversion from BitUSD to fiat USD.  In this mode of operation, the
 gateway takes care of providing all of the liquidity within a fixed percentage transaction fee.   The gateways will then
 compete on offering the lowest possible spread.
 

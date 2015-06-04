@@ -2,9 +2,11 @@
 permalink: /faq/
 layout: default
 title: FAQ
+redirect_from:
+    - /resources/distribution/
 ---
 
-# FAQ
+# FAQ (coming soon)
 
 * TOC
 {:toc}
@@ -12,6 +14,7 @@ title: FAQ
 <center> <img src="/images/cashflow.png"/> </center>
 
 ### Terms 
+(coming soon)
 
 1. BitAsset 
 2. Registrar
@@ -49,6 +52,7 @@ title: FAQ
     Escrow
 
 ### Fee Schedule
+(coming soon)
 
 ### Confirmation Time
 1 second on Average
@@ -57,3 +61,4 @@ title: FAQ
 3.7 Billion 
 
 ### Distribution
+(coming soon)

@@ -4,8 +4,8 @@ title: Answers to Common Community Questions
 
 --------
 
-Prior to the announcement the BitShares community has been asked to collect a set of their concerns that should be
-answered together with the announcement right away. Here we go:
+Prior to the announcement, the BitShares community was asked to collect a set of their concerns that they would like 
+answered together with the announcement. Here are the answers:
 
 1. How fast is BitShares 2.0 "really" (in TPS)?
 
@@ -15,22 +15,22 @@ answered together with the announcement right away. Here we go:
 2. Will we see 'voted' hard forks?
 
    Yes. In BitShares 2.0, not even the Core Developers will be able to modify the protocol at will. Hard forks will only
-   be accepted by the protocol on shareholder approval.
+   be accepted by the protocol with shareholder approval.
 
 3. Will there be a referral system available at launch?
 
-   Yes. Absolutely. And you can earn up to $80 per user (per lifetime) referred.
+   Yes. And you can earn up to $80 per user (per lifetime) referred.
 
 4. Are Turing complete scripts/applications on the roadmap?
 
    We are considering turing complete models which are economically viable.  There are several ideas about this around
-   the office, and we definitely plan to try some of them out eventually.
+   the office, and we plan to try some of them out in due course. 
 
 5. Will the separated Worker/Delegate/Signer proposal be implemented in time?
 
    Yes. In BitShares 2.0 we will see workers, who grow and development the ecosystem, block signers (called witnesses)
-   to ensure blockchain security, and delegates which define (after shareholder proposal), the variable settings of the
-   blockchain, such as, block interval, price feeds, and more.
+   to ensure blockchain security, and delegates which define (after shareholder proposal) the variable settings of the
+   blockchain, such as block interval, price feeds, and more.
 
 ---
 
@@ -54,7 +54,7 @@ answered together with the announcement right away. Here we go:
    blockchain.info (with private keys being stored locally only!). This also makes the access to the BitShares network
    TOR compatible if required.
 
-9. Have there been any ideas to increase voting participation (e.g. cold storage voting, simplified voting procedure)
+9. Have there been any ideas to increase voting participation (e.g. cold storage voting, simplified voting procedure)?
 
    Besides cold storage voting which will be available in BitShares 2.0 too, the blockchain supports transfer of voting
    power to someone else without risking funds. Furthermore, with BitShares 2.0 the BitShares funds do not need to be
@@ -64,9 +64,9 @@ answered together with the announcement right away. Here we go:
 
     Practically, BitShares in general is a company and not a democracy. The more BTS stake you own, the more shares of
     the company you own, and the more weights your vote has. This is similar to most traditional business and a
-    desireable feature. If an investors asks for more power in the voting process the only way to get them is to buy
-    shares or convince other people to hand over voting power. However, because the shares are well distributed among
-    thousands of network participants and early adopters such undertaking is very difficult.
+    desirable feature. If an investor asks for more power in the voting process, the only way to get it is to buy
+    shares or convince other people to hand over their voting power. However, because the shares are well distributed among
+    thousands of network participants and early adopters, such undertaking is very difficult.
 
 ---
 
@@ -74,34 +74,37 @@ answered together with the announcement right away. Here we go:
 
     There is no plan to add relative orders, as part of the effort to reduce dependence on the price feed long-term.
 
-12. Assuming there will not be two different bitUSD, how will the switch from bitasset 1.0 to bitasset 2.0 look like?
+<!--
+(CryptoPrometheus: The following question has been removed, because there is no answer given)
+12. Assuming there will not be two different bitUSD, what will the switch from bitasset 1.0 to bitasset 2.0 look like?
+//-->
 
-13. Will I be able to use bitUSD as collateral to short a bitAssets?
+12. Will I be able to use bitUSD as collateral to short a bitAssets?
 
     Yes. BitShares 2.0 goes even further and offers a far better alternative: Collateralized Bonds. Collateralized Bonds
     enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
     privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
     BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
 
-14. Will we be able to close short orders using the collateral?
+13. Will we be able to close short orders using the collateral?
 
     Users will be able to adjust their margin call price to trigger an early margin call, which will close out your
     short position.
 
-15. How can KYC and AML be acknowledge in BitShares such that it does not affect BTS holders?
+14. How can KYC and AML be acknowledged in BitShares such that it does not affect BTS holders?
 
     KYC/AML are supported for user-issued assets, but not BTS, thus it does not affect BTS holders, but only users who
-    wish to hold a restricted token. Hence, regular businesses that run ontop of BitShares, such as gateways and
-    merchants, will require to comply with their local KYC, AML and CTF regulations.
+    wish to hold a restricted token. Hence, regular businesses that run on top of BitShares, such as gateways and
+    merchants, will be required to comply with their local KYC, AML and CTF regulations.
 
 ---
 
-16. What has been done to attract more 3rd party developers?
+15. What has been done to attract more 3rd party developers?
 
     The API has been improved significantly to allow fast and reliable integration via websockets and push
-    notifications! Furthermore, alot of effort has been taken for proper documentation.
+    notifications! Furthermore, a lot of effort has been taken for proper documentation.
 
-17. What measures have been taken to ensure that newly written code does not introduced many bugs or reveal hidden
+16. What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden
     design assumptions that are no longer valid?
 
     While it's impossible to guarantee any code is bug-free, we have been writing unit tests, integration tests, and

@@ -7,8 +7,10 @@ title: User Guide
 # User Guide
 
 ## Getting Started
+(coming soon)
 
 ## Account Price Structure
+(coming soon)
 
 ## Membership Structure
 
@@ -21,9 +23,13 @@ Under DPOS stakeholders elect individuals to produce blocks, configure blockchai
 5. **Infrastructure Members** are paid by the blockchain to perform needed development.  All infrastructure spending must be directly approved by the voting Members and has a hard-coded spending limit.
 
 ## Fee Structure
+(coming soon)
 
 ## Voting
+(coming soon)
 
 ## Referrals
+(coming soon)
 
 ## Trading
+(coming soon)
