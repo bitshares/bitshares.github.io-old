@@ -5,10 +5,10 @@ subtitle: Over 100,000 transactions per second
 image: ../images/frontpage/icon-performance.svg
 priority: 0
 summary: >
-    High performance blockchain technology is necessary for crypto-currencies and smart contract platforms to provide a
+    High performance blockchain technology is necessary if crypto-currencies and smart contract platforms wish to provide a
     viable alternative to existing financial platforms.  BitShares is designed from the ground up to
-    process more transactions every second than VISA and MasterCard combined.  With Delegated Proof of Stake the BitShares
-    network can confirm transactions in average of just 1 second, limited only by the speed of light.
+    process more transactions every second than VISA and MasterCard combined.  With Delegated Proof of Stake, the BitShares
+    network can confirm transactions in average of just 1 second and limited only by the speed of light.
 ---
 
 ## Overview
@@ -23,13 +23,13 @@ these lessons are the following key points:
 4. Divide Validation into State Independent and State Dependent checks
 5. Use an Object Oriented Data Model
 
-By following these simple rules BitShares is able to process 100,000 transactions per second without any significant
+By following these simple rules, BitShares is able to process 100,000 transactions per second without any significant
 effort devoted to optimization.  Future optimizations should allow BitShares to reach performance levels similar to
 LMAX.
 
 It should be noted that the performance achieved by BitShares is highly dependent upon having a compatible transaction
 protocol.  It would not be possible to achieve the same level of performance in a protocol where the Core Business Logic
-is run in a virtual machine that performs crypto-graphic operations and references all objects with hash identifiers.
+is run in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
 Blockchains are inherently single-threaded and the performance of a single core of a CPU is the most limited and least
 scalable resource of them all.   BitShares is designed to get the most out of this single thread of execution.
 
@@ -41,7 +41,7 @@ withdraw money from your bank account until after your paycheck deposit has clea
 whether or not a transaction is valid until after all prior transactions that impact a particular account have been
 processed.
 
-In theory transactions for two unrelated accounts could be processed at the same time provided they do not share any
+In theory, transactions for two unrelated accounts could be processed at the same time provided they do not share any
 common dependency.  In practice, the cost of identifying which transactions are truly independent of each other on a
 ledger empowered by smart contracts with arbitrary conditions is intractable.   The only way to be sure that two
 transactions are truly independent is by maintaining completely separate ledgers and then periodically transferring
@@ -119,7 +119,7 @@ takes significantly more CPU time to lookup an account record by hash compared w
 the CPU cache and that more memory is required.   On modern operating systems infrequently accessed RAM is
 compressed, but hash identifiers are random data that is not compressible.
 
-Fortunately blockchains give us a means to globally assign unique IDs that do not conflict with one another and thus it
+Fortunately, blockchains give us a means to globally assign unique IDs that do not conflict with one another and thus it
 is possible to completely remove the need to use hash-based identifiers (Bitcoin addresses) to refer to an account,
 balance, or permission.
 

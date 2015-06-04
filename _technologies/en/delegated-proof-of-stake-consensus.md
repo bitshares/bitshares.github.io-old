@@ -8,7 +8,7 @@ summary: >
     Delegated Proof of Stake (DPOS) is the fastest, most efficient, most decentralized, and most flexible consensus model
     available.  DPOS leverages the power
     of stakeholder approval voting to resolve consensus issues in a fair and democratic way.  All network parameters from
-    fee schedules, to block intervals, and
+    fee schedules, to block intervals and
     transaction sizes can be tuned via elected delegates.  Deterministic selection of block producers allows transactions to
     be confirmed in an average of just 1 second.
     Perhaps most importantly, the consensus protocol is designed to protect all participants against unwanted regulatory
@@ -32,7 +32,7 @@ The questions that must be answered by any consensus process include, but are no
 5. How should competing transaction histories be resolved?
 
 The goal is to find answers to these questions that ensure the consensus process is robust against
-an attacker who wishes to gain control over the network.  In practice gaining control means acquiring
+an attacker who wishes to gain control over the network.  In practice, gaining control means acquiring
 the ability to unilaterally censor transactions.  The process should also be robust against an attacker
 wishing to take advantage of a temporary inconsistency in the database state on different computers.
 
@@ -54,7 +54,7 @@ she must also vote for at least that many witnesses.   A stakeholder cannot vote
 than witnesses they are actually voting for.
 
 Every time a witness produces a block they are paid for their services.  Their pay rate is set by the stakeholders
-via their elected delegates(to be discussed later).  If a witness fails to produce a block then they are not
+via their elected delegates (to be discussed later).  If a witness fails to produce a block then they are not
 paid and may be voted out.
 
 The slate of active witnesses are updated once every maintenance interval (1 day) when the votes are tallied. The witnesses are
@@ -65,8 +65,7 @@ slot is skipped and the next witness will produce a block.
 At any time observers can monitor network health by following the witness participation rate.  Historically BitShares has
 maintained 99% witness participation.   Any time witness participation falls below a certain level users of the
 network can allow more time for transactions to confirm and be extra vigilant about their network connectivity.  This
-property gives BitShares the unique advantage of being able to alert users to potential problems in a timely manner of
-less than 1 minute after problems begin.
+property gives BitShares the unique advantage of being able to alert users to potential problems less than 1 minute after problems begin.
 
 ## Parameter Changes by Elected Delegates
 
@@ -118,8 +117,8 @@ witnesses should wait for the stakeholders to approve even the most minor change
 ## Double Spend Attack
 
 A double spend can occur anytime a blockchain reorganization excludes a transaction previously included.
-This means that the witnesses had a communication break down caused by disruptions in the infrastructure of the Internet.
-With DPOS the probability of a communication break down enabling a double spend attack is very low.
+This means that the witnesses had a communication breakdown caused by disruptions in the infrastructure of the Internet.
+With DPOS the probability of a communication breakdown enabling a double spend attack is very low.
 
 The network is able to monitor its own health and can immediately detect any loss in communication which shows up as
 witnesses failing to produce blocks on schedule.
@@ -128,7 +127,7 @@ a minute or two.
 
 ## Transactions as Proof of Stake
 
-Each transaction on the network may optionally include the hash of a recent block.  If this is done the signer of the
+Each transaction on the network may optionally include the hash of a recent block.  If this is done, the signer of the
 transaction can rest assured that their
 transaction may not be applied to any block chain that does not include that block.  A side effect of this process is
 that over time all stakeholders end up
@@ -136,7 +135,7 @@ directly certifying the long-term integrity of the transaction history.
 
 ## Blockchain Reorganizations
 
-Because all witnesses are elected, highly accountable, and granted dedicated time slots to produce blocks there is
+Because all witnesses are elected, highly accountable, and granted dedicated time slots to produce blocks, there is
 rarely any situation where two competing chains can exist.  From time to time network latency will prevent one witness
 from
 receiving the prior block in time.  If this happens the next witness will resolve the issue by building on which ever
