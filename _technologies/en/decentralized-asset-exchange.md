@@ -11,19 +11,14 @@ summary: >
     who needs risky centralized exchanges?
 ---
 
-BitShares provides the highest performance decentralized exchange available that has all of the features
-you would expect in a trading platform. It can handle all of the trading volume of the NASDAQ while
-settling orders the second you submit them.  With this kind of performance on a decentralized exchange,
-who needs risky centralized exchanges?
-
-The centralized exchanges the world has known throughout history have proven unreliable and
+Centralized exchanges known throughout history have proven unreliable and
 untrustworthy time and again.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/),
 [Mt. Gox](http://www.wired.com/2014/03/bitcoin-exchange/), or
-[BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/) we have seen
-all of the perils of allowing a 3rd party to hold your money. It doesn't matter how
-big they are or how many auditors, regulators, or insurers are involved every kind of fraud,
-abuse, and theft occurs on a daily basis on centralized banks and exchanges around the world.  It is time for a change.
-Today I would like to introduce the benefits you get by using the worlds first fully decentralized exchange, BitShares.
+[BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/), people have witnessed
+all of the perils of allowing a 3rd party to hold their money. It doesn't matter how
+big they are, or how many auditors, regulators, or insurers are involved every kind of fraud,
+abuse, and theft. These transgressions occur frequently throughout centralized banks and exchanges around the world. It is time for a change.
+Read on to learn about the benefits you get by using the world's first fully decentralized exchange, BitShares.
 
 ## Decentralized
 Decentralization gives BitShares robustness against failure.  When a centralized exchange is
@@ -36,11 +31,11 @@ is the size of the reward.  If you place a multi-million dollar bounty on attack
 then you can expect a lot more effort to be put into compromising that exchange than would be put into
 attacking your individual account.
 
-Within a given company there are many people whom have access to the funds.   You may have heard the
-expression that 'Three Can Keep a Secret If Two Are Dead', well all exchanges end up
+Within a given company there are many people whom have access to the funds.  You may have heard the
+expression that 'Three can keep a secret if two are dead'. Currently, all centralized exchanges end up
 depending upon multiple people who share the responsibility of guarding the secret key that controls the funds.
 If any one of them is compromised then everyones funds are at risk.  In this respect being individually responsible for
-maintaining your own secrets is the only option.  Multi-signature accounts can help exchanges secure their funds, but have historically been so difficult that few exchanges use it.
+maintaining your own secrets is the only option.  Multi-signature accounts can help centralized exchanges secure their funds, but have historically been so difficult that few exchanges use it.
 
 ## Fast, but not *too* fast
 With BitShares your trades execute in seconds, just like any centralized website interface.  Unlike centralized
@@ -70,7 +65,7 @@ exceed those limits you must provide increasingly invasive levels of documentati
 [Coinbase](http://coinbase.com),
 even [limit what you can do with your money after you have withdrawn
 it](http://cointelegraph.com/news/112319/coinbase-case-demonstrate-the-pitfalls-of-regulatory-compliance).  Other
-exchanges demand documentation of how you earned your crypto currency.
+exchanges demand documentation of how you earned your crypto-currency.
 
 With BitShares there is no one that must approve your account.  You have complete financial freedom.
 
@@ -82,7 +77,7 @@ than $0.01 (Jan 2015) to make the same trade on the BitShares exchange.   The mo
 trade. It doesn't get any cheaper than BitShares.
 
 ## Trade Almost Anything
-Trade in Gold, Sliver, Gas, and Oil in addition to all of your favorite national and crypto currencies.  There are
+Trade in Gold, Sliver, Gas, and Oil in addition to all of your favorite national and crypto-currencies.  There are
 few limits on what can be traded on the BitShares exchange given enough interest.  The BitShares exchange can support
 assets that can track stocks, bonds, indexes, or inflation.  Companies can issue their own stock on the BitShares
 network and allow easy, low cost, trading with complete protection against naked shorting.  What other crypto-currency
@@ -91,17 +86,16 @@ almost anything.
 
 ## Roles of an Exchange
 
-Before diving into how crypto currency exchanges will work in the future, lets review the roles that traditional
-exchanges perform today.
+The roles that traditional exchanges perform today encompass:
 
-1. Receive crypto-currency and issue IOU
-2. Receive fiat and issue IOU
-3. Process an Order Book
-4. Redeem IOUs
+1. Receiving crypto-currency and issuing IOUs.
+2. Receiving fiat and issuing IOUs.
+3. Processing an order book.
+4. Redeeming IOUs.
 
-Each of these roles has a high degree of trust and direct counter-party risk because at all stages you are transacting
+Each of these roles has a high degree of trust and direct counterparty risk because at all stages you are transacting
 with an IOU from the exchange.   To get the best liquidity and lowest spreads requires a large and active order book and
-this means that most people gravitate toward a few core exchanges and everyone is exposed to the same Counterparty Risk.
+this means that most people gravitate toward a few core exchanges and everyone is exposed to the same counterparty risk.
 
 There is a large time delay associated with moving money into or out of an exchange, which means that traders must keep
 their funds on the exchange.   This magnifies the amount of risk to users of the exchange.   It also magnifies the risk
@@ -110,18 +104,18 @@ pressure from both the thief looking to cash in their loot and from regular user
 
 ## Centralization Compromises Privacy
 
-Crypto currencies depend upon a public ledger which makes privacy challenging because everyone can see every
+Crypto-currencies depend upon a public ledger which makes privacy challenging because everyone can see every
 transaction.   Bitcoin gives every user one or more account numbers, and that gives many people a false sense of
 security.   People assume that as long as no one knows your account number and you use a new account number with every
-transaction that no one can tie all of your Bitcoins to your real life identity.
+transaction that no one can tie all of your bitcoins to your real life identity.
 
 This is where the large centralized exchanges become a problem.   In order to comply with government regulations they
 must know everyone they do business with.  Since almost every other Bitcoin transaction flows through an exchange, the
 exchange learns who everyone is and can start to track who is doing business with whom.    [Coinbase is already closing
 accounts](https://www.cryptocoinsnews.com/coinbase-bringing-big-brother-bitcoin-accounts/) based upon who you do
-business with after withdrawing your Bitcoins.
+business with after withdrawing your bitcoins.
 
-If we want to have even the slightest bit of privacy we need to divide the exchange functionality among hundreds of
+In order to have even the slightest bit of privacy, the exchange functionality needs to be divided among hundreds of
 parties who are unlikely to collude to compromise identity.   This is not economically practical today because the
 exchange order book creates market incentives that naturally tend toward centralization in just a few exchanges with the
 vast majority of market share.
@@ -155,7 +149,7 @@ dollar worth of BTS.  If at any time the value of the collateral falls below a c
 automatically buy back the BitUSD with a dollars worth of BTS.
 
 When you hold BitUSD the value of your holdings will remain pegged to the dollar so long as BitShares itself has
-reasonable volatility.   When I say reasonable, I mean it can handle greater volatility than Bitcoin has ever seen in
+reasonable volatility.  Reasonable volatility in this case means that it can handle greater volatility than Bitcoin has ever seen in
 its life time.   The price of BitShares would have to fall to less than 1/3 its starting price in less than 24 hours and
 then stay there.   No legitimate, widely adopted crypto-currency has ever seen that kind of price movement.  This means
 that BitUSD is secure against just about everything but an unfixable software bug in the BitShares protocol itself.
