@@ -10,7 +10,7 @@ current P2P network.
 <!--more-->
 
 When designing a system to scale it is critical to understand where the real bottlenecks are and to design around
-maximizing the performance of that bottleneck.  We have identified Single-Threaded processing power as the bottleneck.
+maximizing the performance of those bottlenecks.  We have identified Single-Threaded processing power as the bottleneck. 
 Blockchains are inherently sequential because every transaction has the potential to change the global state in a
 way that might invalidate the next transaction.   This property is especially true of market transactions that interact
 with the global order book.
@@ -38,12 +38,12 @@ contain exactly one operation and that measuring operations per second is equiva
 
 ## The Benchmark
 
-We setup test blockchain where we created 200,000 accounts and then made 2 transfers and 1 asset issuance to each
+We setup a test blockchain where we created 200,000 accounts and then made 2 transfers and 1 asset issuance to each
 account.  This is involved a total of 1 million operations.  After creating the blockchain we timed how long it took
 to "reindex" or "replay" without signature verification.  On a two year old 3.4 Ghz Intel i5 CPU this could be performed at over
-180,000 operations per second.  On newer hardware singled threaded performance is 25% faster.
+180,000 operations per second.  On newer hardware single threaded performance is 25% faster.  
 
-Based upon these numbers we conclude that claiming 100,000 transactions per second is well within the capability of the
+Based upon these numbers we have concluded that claiming 100,000 transactions per second is well within the capability of the
 software.
 
 ## Real-Time Performance
@@ -53,7 +53,7 @@ to require anywhere near that performance for quite some time.   Even the [NASDA
 per second](http://www.nasdaq.com/services/homw.stm) and has only been tested to 60,000 TPS with eventual plans to upgrade to 100,000.
 
 We set up a benchmark to test real-time performance and found that we could easily process over 2000 transactions per second
-with signature verification on a single machine.   On release the transaction throughput will be artificially limited to just
+with signature verification on a single machine.   On release, the transaction throughput will be artificially limited to just
 1000 transactions-per-second.
 
 ## Unoptimized
