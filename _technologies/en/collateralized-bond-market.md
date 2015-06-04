@@ -56,3 +56,6 @@ The Bitshares bond market allows investors who wish to gain leverage in a partic
 competitive interest rates to those willing to commit capital for a specified time.  The
 implementation of a bond market on a blockchain consensus system efficiently reduces overhead and
 counterparty risk typically associated with such contracts. 
+<!--
+(CryptoPrometheus: Deleted the last sentence - line 58, because it's identical to the sentence in line 13)
+//-->
