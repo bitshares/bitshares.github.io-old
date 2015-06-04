@@ -3,10 +3,9 @@ permalink: /referral-program/
 layout: default
 title: Referral Program
 ---
-
 # Referral Program
 
-BitShares is the first blockchain with a built in referral system designed to promote viral growth.
+BitShares 2.0 is the first blockchain with a built in referral system designed to promote viral growth.
 Sign up a friend and collect 80% of their future transaction fees.
 Traditional payment companies expect to generate over $100 per user on average and many companies are
 willing to pay over $40 per user even without a clear monetization strategy.
@@ -18,7 +17,7 @@ that the average fees paid over the lifetime of each user will be in excess of $
 earn over $80 per user.  The cost to join BitShares as a lifetime Member is just $100 which should easily
 pay for itself through cashback and referral rewards.
 
-### How it Works
+## How it Works
 
 Every new account must be created by an existing account. This is a restriction enforced by the
 fact that account registration charges a transaction fee which requires an existing account to
@@ -31,7 +30,7 @@ member for about $100<sup>2</sup>. When an account is upgraded, the $100 upgrade
 among the registrar and referrer and the account *becomes its own referrer*. When an account is
 its own referrer it gets 80% cash back on every transaction fee it pays.
 
-### Example
+## Example
 Let's look at an example of how this system works in practice. Sam learns about BitShares after a
 Google search for “decentralized exchange” and decides to create an account. He chooses a hosted
 wallet provider such as [moonstone.io](http://moonstone.io) to create an account. Moonstone has already become a lifetime
@@ -54,9 +53,9 @@ of every transaction fee paid by Alice. If Alice ultimately decides to become a 
 herself, then her $100 upgrade fee would be divided among the BitShares network ($20),
 Moonstone ($40) and Sam ($40).
 
-### Terms & Conditions
+## Terms & Conditions
 
-Please see the [Referral Program - Terms & Conditions](/referral-program/referral-program-terms-and-conditions.html) for
+Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions) for
 more details.
 
 <hr/>
