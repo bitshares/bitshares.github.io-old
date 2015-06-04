@@ -22,7 +22,7 @@ the smart contract industry.
 
 - This codebase has been designed to solve the largest technical and economic problems with BitShares today
 - New competitive features have been added that will allow BitShares to grow and succeed as an industry-leader
-- BitShares will be upgraded and **the stake distribution will *not* be changed**
+- BitShares will be upgraded but **the stake distribution will *not* be changed**
 
 --------
 
@@ -34,12 +34,12 @@ the system back from its full potential:
 - Slow performance and high resource requirements result in poor user experience
 - Protocol object model does not match real-world usage
 - Achieving performance goals requires fundamental protocal changes
-- Non-Standard market matching algorithm discouraged traders
+- Non-Standard market matching algorithm discourages traders
 - Insufficient incentives for new stakeholders to help grow the network
 - Unpredictable cost structure unfeasible for business operations
-- Conflation of consensus protocol and project funding result in mismatched incentives and voter apathy
-- Lack of flexibility of system parameters result in an inability to adapt to changing market conditions
-- Shortcomings and caveats in internal market rules and incentives result low liquidity and adoption
+- Conflation of consensus protocol and project funding results in mismatched incentives and voter apathy
+- Lack of flexibility of system parameters results in an inability to adapt to changing market conditions
+- Shortcomings and caveats in internal market rules and incentives results in low liquidity and adoption
 - Many software bugs (some involving loss of funds) result in loss of faith by stakeholders
 - A poor testing framework made it difficult to specify tests and detect regressions
 - Lack of public development roadmap results in confusing and uncertainty for stakeholders
