@@ -2,6 +2,8 @@
 permalink: /technology/
 layout: index_tech
 title: Technology
+redirect_from:
+    - /how-it-works/
 ---
 
 # Technology

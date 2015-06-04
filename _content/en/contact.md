@@ -2,6 +2,8 @@
 permalink: /contact/
 layout: default
 title: Contact
+redirect_from:
+    - /mediakit/
 ---
 
 # Contact

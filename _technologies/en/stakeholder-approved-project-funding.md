@@ -10,6 +10,8 @@ summary: >
    automatically grows as transaction fees are collected and the share price rises.   Each day the blockchain is
    authorized to spend up to 432,000 BTS (about $77,000 per month); enough to hire a small team to maintain the
    network for years even with no price appriciation.
+redirect_from:
+    - /delegates/
 ---
 
 <center> <img width="800px" src="/images/cashflow.png"/></center>

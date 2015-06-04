@@ -2,6 +2,8 @@
 permalink: /faq/
 layout: default
 title: FAQ
+redirect_from:
+    - /resources/distribution/
 ---
 
 # FAQ

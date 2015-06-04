@@ -46,7 +46,10 @@ defaults:
       values:
           lang: zh
 
+excerpt_separator: <!--more-->
+
 gems:
+    - jekyll-feed
     - jekyll-redirect-from
     - jekyll-sitemap
 

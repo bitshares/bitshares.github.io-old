@@ -2,13 +2,13 @@
 title: Announcing BitShares 2.0
 ---
 
---------
-
 Today, we are proud to make the biggest BitShares announcement since launching one year ago: the upgrade to BitShares 2.0.
 This upgrade represents a new focus and direction for BitShares, and incorporates all the
 feedback and lessons learned from the BitShares stakeholders, partners, developers, marketers, and community leaders,
 After more than a year of research and development, this upgrade aims to ensure BitShares' success as a leader in
 the smart contract industry.
+
+<!--more-->
 
 ## Overview
 - A brand new BitShares codebase has been developed from scratch featuring:
@@ -46,7 +46,7 @@ the system back from its full potential:
 - Lack of third-party documentation prevents integration of services
 
 We aim to address all of these issues all at once with BitShares 2.0.
-See [Lessons Learned]({% post_url en/2015-06-07-lessons-learned-from-bitshares-0.x %}) for more details.
+In a future blog post, we will explain the lessons learned in detail and how we are addressing them.
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 

@@ -2,6 +2,8 @@
 permalink: /developers/
 layout: default
 title: Developers
+redirect_from:
+    - /resources/gateways/
 ---
 
 # Developers

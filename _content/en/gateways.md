@@ -2,6 +2,8 @@
 permalink: /gateways/
 layout: default
 title: Gateways
+redirect_from:
+    - /deposit-withdraw/
 ---
 
 # Gateways
