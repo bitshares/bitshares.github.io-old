@@ -6,7 +6,7 @@ redirect_from:
     - /resources/distribution/
 ---
 
-# FAQ
+# FAQ (coming soon)
 
 * TOC
 {:toc}
@@ -14,6 +14,7 @@ redirect_from:
 <center> <img src="/images/cashflow.png"/> </center>
 
 ### Terms 
+(coming soon)
 
 1. BitAsset 
 2. Registrar
@@ -51,6 +52,7 @@ redirect_from:
     Escrow
 
 ### Fee Schedule
+(coming soon)
 
 ### Confirmation Time
 1 second on Average
@@ -59,3 +61,4 @@ redirect_from:
 3.7 Billion 
 
 ### Distribution
+(coming soon)

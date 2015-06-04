@@ -57,7 +57,7 @@ Moonstone ($40) and Sam ($40).
 
 ### Terms & Conditions
 
-Please see the [Referral Program - Terms & Conditions](/referral-program/referral-program-terms-and-conditions.html) for
+Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/) for
 more details.
 
 <hr/>
