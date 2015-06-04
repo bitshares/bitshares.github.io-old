@@ -5,13 +5,12 @@ title: Migrating to BitShares 2.0
 --------
 
 ## Migration Path
+
 <!--
 (CryptoPrometheus: The first sentence was changed. For good PR, this sentence should not begin with the word "Unfortunately". Also, the "pitch fork" colloquialism, while perhaps it is cute, does not inspire confidence)
 //-->
-Upgrading to BitShares 2.0 will not just be a "hard fork". On an appointed date/time, a snapshot will be taken of all BitShares balances in all asset types.  The new chain will then launch within 24 hrs of the snapshot that discards all transaction history.  This snapshot will not be announced until we are 100% confident that the migration can occur in 
-a timely manner.
 
-<!--more-->
+Upgrading to BitShares 2.0 will not just be a "hard fork". On an appointed date/time, a snapshot will be taken of all BitShares balances in all asset types.  The new chain will then launch within 24 hrs of the snapshot that discards all transaction history.  This snapshot will not be announced until we are 100% confident that the migration can occur in a timely manner.
 
 ## User Interface Migration
 The new BitShares UI will be an entirely hosted wallet with private keys maintained in the browser and hosted at
