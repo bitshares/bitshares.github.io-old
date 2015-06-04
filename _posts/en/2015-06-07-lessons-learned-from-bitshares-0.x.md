@@ -2,11 +2,11 @@
 title: Lessons Learned from BitShares 0.x
 ---
 
---------
-
 There are many reasons for starting over from scratch and producing
 a new toolkit and this article hopes to shed some light on what we learned from BitShares 1.0 and the many advancements
 that BitShares 2.0 allows.
+
+<!--more-->
 
 The primary focus of BitShares 2.0 is on Performance, Reliability, Maintainability, and Scalability.  As a result, BitShares 2.0
 can process 1000 times more transactions per second than the BitShares 1.0 Toolkit and is able to handle VISA level

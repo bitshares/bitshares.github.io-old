@@ -2,10 +2,10 @@
 title: Answers to Common Community Questions
 ---
 
---------
-
 Prior to the announcement the BitShares community has been asked to collect a set of their concerns that should be
-answered together with the announcement right away. Here we go:
+answered together with the announcement right away.
+
+<!--more-->
 
 1. How fast is BitShares 2.0 "really" (in TPS)?
 
