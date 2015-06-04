@@ -104,7 +104,6 @@ answered together with the announcement. Here are the answers:
     The API has been improved significantly to allow fast and reliable integration via websockets and push
     notifications! Furthermore, a lot of effort has been taken for proper documentation.
 
-<<<<<<< HEAD
 16. What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden
     design assumptions that are no longer valid?
 
