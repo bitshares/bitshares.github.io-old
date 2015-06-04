@@ -5,9 +5,9 @@ subtitle: Lend or Borrow anything on your terms
 image: ../images/frontpage/icon-bonds.svg
 priority: 7
 summary: >
-   With the bond market you can earn interest on anything while allowing others to short any asset
-   backed by any other asset. The BitShares bond market is an investment marketplace accessible to
-   anyone with an internet connection.
+The BitShares bond market is an investment marketplace accessible to anyone with an internet connection.
+With the bond market you can earn interest on anything while allowing others to short any asset
+backed by any other asset. 
 ---
 
 The BitShares bond market allows for an interest rate market between any combination of assets
@@ -55,5 +55,4 @@ to the borrower based on the collateral ratio of the bond.
 The Bitshares bond market allows investors who wish to gain leverage in a particular asset to offer
 competitive interest rates to those willing to commit capital for a specified time.  The
 implementation of a bond market on a blockchain consensus system efficiently reduces overhead and
-counterparty risk typically associated with such contracts.  The BitShares bond market is an
-investment marketplace accessible to anyone with an internet connection.
+counterparty risk typically associated with such contracts. 
