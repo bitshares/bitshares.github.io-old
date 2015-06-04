@@ -74,21 +74,24 @@ answered together with the announcement. Here are the answers:
 
     There is no plan to add relative orders, as part of the effort to reduce dependence on the price feed long-term.
 
+<!--
+(CryptoPrometheus: The following question has been removed, because there is no answer given)
 12. Assuming there will not be two different bitUSD, what will the switch from bitasset 1.0 to bitasset 2.0 look like?
+//-->
 
-13. Will I be able to use bitUSD as collateral to short a bitAssets?
+12. Will I be able to use bitUSD as collateral to short a bitAssets?
 
     Yes. BitShares 2.0 goes even further and offers a far better alternative: Collateralized Bonds. Collateralized Bonds
     enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
     privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
     BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
 
-14. Will we be able to close short orders using the collateral?
+13. Will we be able to close short orders using the collateral?
 
     Users will be able to adjust their margin call price to trigger an early margin call, which will close out your
     short position.
 
-15. How can KYC and AML be acknowledged in BitShares such that it does not affect BTS holders?
+14. How can KYC and AML be acknowledged in BitShares such that it does not affect BTS holders?
 
     KYC/AML are supported for user-issued assets, but not BTS, thus it does not affect BTS holders, but only users who
     wish to hold a restricted token. Hence, regular businesses that run on top of BitShares, such as gateways and
@@ -96,12 +99,12 @@ answered together with the announcement. Here are the answers:
 
 ---
 
-16. What has been done to attract more 3rd party developers?
+15. What has been done to attract more 3rd party developers?
 
     The API has been improved significantly to allow fast and reliable integration via websockets and push
     notifications! Furthermore, a lot of effort has been taken for proper documentation.
 
-17. What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden
+16. What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden
     design assumptions that are no longer valid?
 
     While it's impossible to guarantee any code is bug-free, we have been writing unit tests, integration tests, and
