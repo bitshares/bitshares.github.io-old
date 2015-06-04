@@ -69,3 +69,4 @@ as part of the same transaction prior to the snapshot the vesting balances may b
 * Asset description information is no longer part of the blockchain state
 * Account Public Data is deprecated and is no longer part of the blockchain state
 * Asset Public Data is deprecated and is no longer part of the blockchain state
+* BitShares URL scheme: bts://... will be deprecated due to migration to hosted wallets

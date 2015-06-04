@@ -16,8 +16,7 @@ summary: >
 
 ## Background
 
-The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the
-security of the platform.
+The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the security of the platform.
 While a single secret key may be compromised, multiple keys distributed over multiple locations add redundant
 protections which result in a far more secure experience.
 
@@ -153,3 +152,9 @@ cycle in the *owner authority* and the *active authority* then the accounts invo
 Dynamic hierarchical threshold multi-signature permissions enables people and organizations to have a more natural way
 to express ownership and control policies
 This more natural approach will make the system easier to use and ultimately more secure than existing solutions.
+
+## Credits 
+
+The Ripple wiki has a documented, but unimplemented, proposal for a [similar Multisign feature](https://wiki.ripple.com/Multisign#Transaction_Proposal) that
+was discovered independently.  
+

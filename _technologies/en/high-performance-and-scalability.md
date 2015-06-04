@@ -170,6 +170,22 @@ data it needs rather than being forced to perform expensive database queries.  I
 without copying it and it can be modified in-place.  This single optimization offers an order of magnitude performance
 gain over using any database-based approach.
 
+## Transaction Sizes 
+
+A blockchain that is processing 100,000 transactions every second is generating a lot of data.  The average size of
+transactions on competing networks such as Ripple and Bitcoin is about 250 bytes.  Similar transactions on BitShares
+average just 100 bytes.  In other words, competing systems require 2.5 times the bandwidth to propagate the
+same number of transactions.  Assuming a gigabit connection to the internet, it would take about 0.1 seconds just to
+transfer a block containing 100,000 transactions.   Competing networks would require 0.25 seconds.  After latency and
+multiple hops on a P2P network are factored in it becomes clear that transaction size directly impacts the block interval
+and therefore confirmation latency.    
+
+Transaction sizes are often an indication of the amount of data the CPU must process in its critical path and therefore
+serve as an indication of how soon the single threaded performance of a CPU will be hit.
+
+Some optimizations are possible in all protocols if they assume that all nodes have prior knowledge of all broadcast transactions
+and only require the ordered list of transaction IDs to broadcast every block.  This would be an implementation detail.
+
 ## Conclusion
 
 Designing high-performance blockchains isn’t rocket-science and doesn’t require complex, hard-to-understand protocols
@@ -177,3 +193,7 @@ nor does it require dividing the processing among all the nodes on the network. 
 a high-performance blockchain is to remove all calculations that are not part of the critical, order-dependent,
 evaluation from the core business logic and to design a protocol that facilitates these kinds of optimizations.   This
 is what BitShares has done.
+
+
+
+
