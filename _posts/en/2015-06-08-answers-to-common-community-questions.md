@@ -2,10 +2,10 @@
 title: Answers to Common Community Questions
 ---
 
---------
-
 Prior to the announcement, the BitShares community was asked to collect a set of their concerns that they would like 
-answered together with the announcement. Here are the answers:
+answered together with the announcement.
+
+<!--more-->
 
 1. How fast is BitShares 2.0 "really" (in TPS)?
 
@@ -43,7 +43,7 @@ answered together with the announcement. Here are the answers:
 
 7. Can we expect a fast, professional GUI experience within this year?
 
-   Absolutely! With the move to react.js, websockets, and google material the user interface will be much more
+   Absolutely! With the move to react.js and websockets, the user interface will be much more
    responsive, stable and professional looking.
 
 8. Will the new client be more resource efficient?

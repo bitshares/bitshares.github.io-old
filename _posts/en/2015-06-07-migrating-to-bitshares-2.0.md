@@ -2,16 +2,10 @@
 title: Migrating to BitShares 2.0
 ---
 
---------
-
-## Migration Path
-
-<!--
-(CryptoPrometheus: The first sentence was changed. For good PR, this sentence should not begin with the word "Unfortunately". Also, the "pitch fork" colloquialism, while perhaps it is cute, does not inspire confidence)
-//-->
-
-Upgrading to BitShares 2.0 will not just be a "hard fork". On an appointed date/time, a snapshot will be taken of all BitShares balances in all asset types.  The new chain will then launch within 24 hrs of the snapshot that discards all transaction history.  This snapshot will not be announced until we are 100% confident that the migration can occur in a timely manner.
-
+Upgrading to BitShares 2.0 will require some network downtime. On an appointed date/time, a snapshot will be taken of
+all BitShares balances in all asset types.  The new chain will then launch within 24 hrs of the snapshot that discards
+all transaction history.  This snapshot will not be announced until we are 100% confident that the migration can occur
+in a timely manner.
 
 ## User Interface Migration
 The new BitShares UI will be an entirely hosted wallet with private keys maintained in the browser and hosted at
@@ -27,7 +21,7 @@ your balances under a single account.
 
 ## Account Name Migration
 Under BitShares 2.0, accounts are transferable and have different prices based upon the quality of the account name so that
-they can double as DNS names.  Starting immediately, all BitShares delegates will only allow users to register non-premium names 
+they can double as DNS names.  Starting immediately, all BitShares delegates will only allow users to register non-premium names
 until BitShares 2.0 is released and can set the proper pricing.
 
 ## Open Order Migration
@@ -51,7 +45,7 @@ BitShares 0.9.x wallet.
 All delegates will be migrated to a pair of witness and workers and maintain votes for both.  There should be no change
 in income unless your worker and/or delegate get voted out.  Initially all witnesses will be assigned private keys that
 are a shared secret between Invictus and the current delegates.  At any time the delegates can recover the private key
-that allows them to change their block signing key and take control of their witness. 
+that allows them to change their block signing key and take control of their witness.
 
 ## Exchange Migration
 All exchanges will have at least 30 days to prepare for the new API which is significantly different from BitShares.  We
@@ -59,8 +53,8 @@ will encourage all exchanges to migrate as a Gateway.
 
 ## End of Life of BitShares 0.9.x
 One the appointed snapshot date, BitShares 1.0 will shut down and all delegates will stop producing blocks.  This is to
-prevent anyone from attempting to sell assets on the BitShares 1.0 chain.  It will be up to the individual delegates 
-whether or not to continue BitShares 0.9.x and for the stakeholders to vote in new delegates to continue the chain. 
+prevent anyone from attempting to sell assets on the BitShares 1.0 chain.  It will be up to the individual delegates
+whether or not to continue BitShares 0.9.x and for the stakeholders to vote in new delegates to continue the chain.
 
 ## Other Details
 
@@ -68,7 +62,7 @@ whether or not to continue BitShares 0.9.x and for the stakeholders to vote in n
 as part of the same transaction prior to the snapshot the vesting balances may be merged into a single balance.
 
 ## Deprecated Features
-* Wall Messages will not be migrated as the feature is now deprecated 
+* Wall Messages will not be migrated as the feature is now deprecated
 * Asset description information is no longer part of the blockchain state
 * Account Public Data is deprecated and is no longer part of the blockchain state
 * Asset Public Data is deprecated and is no longer part of the blockchain state
