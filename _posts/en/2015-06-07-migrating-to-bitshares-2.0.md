@@ -7,7 +7,8 @@ title: Migrating to BitShares 2.0
 ## Migration Path
 Unfortunately, upgrading to BitShares 2.0 is not just a "hard fork", it is what we would like to call "pitch-fork".  On
 an appointed date/time, a snapshot will be taken of all BitShares balances in all asset types.  The new chain will then
-launch within an hour of the snapshot that discards all transaction history.
+launch within 24 hrs of the snapshot that discards all transaction history.  This snapshot will not be announced until
+we are 100% confident that the migration can occur in a timely manner.
 
 ## User Interface Migration
 The new BitShares UI will be an entirely hosted wallet with private keys maintained in the browser and hosted at
@@ -23,11 +24,8 @@ your balances under a single account.
 
 ## Account Name Migration
 Under BitShares 2.0, accounts are transferrable and have different prices based upon the quality of the account name so that
-they can double as DNS names.   All existing BTS account names will be migrated as "bts/${current_account_name}" to
-clear the main namespace.  For the first month after launch the only person who will be able to register
-${current_account_name} will be "bts/${current_account_name}", but they must pay the fee appropriate for their name.
-The reason we did not simply migrate all account names is to prevent squatters from profiting by getting the account
-names cheaply on BTS.
+they can double as DNS names.  Starting immediately all BitShares delegates will only allow users to register non-premium names 
+until BitShares 2.0 is released and can set the proper pricing.
 
 ## Open Order Migration
 All open orders will be canceled prior to the snapshot and their funds returned to their owners.
@@ -39,30 +37,35 @@ balances associated with your account use the same key as your account.  Under B
 unique accounts rather than a single logical account.    The BitShares 2.0 wallet will have an "import" interface that will
 allow you to specify a set of private keys and the name of an account that you would like to receive all of the funds
 associated with those keys.   Then it will generate a transaction that will spend the full balances from all accounts
-associated with those keys to your new unified BitShares 2.0 account.    The BitShares wallet will provide a utility to dump
+associated with those keys to your new unified BitShares 2.0 account.    The BitShares 0.9.x wallet will provide a utility to dump
 all private keys associated with a given account to make the migration process easy.
 
 ## Transaction History Migration
 All transaction history will be abandoned.  If you need your transaction history you will have to reference your
-BitShares wallet.
+BitShares 0.9.x wallet.
 
 ## Delegate Migration
 All delegates will be migrated to a pair of witness and workers and maintain votes for both.  There should be no change
-in income unless your worker and/or delegate get voted out.
+in income unless your worker and/or delegate get voted out.  Initially all witnesses will be assigned private keys that
+are a shared secret between Invictus and the current delegates.  At any time the delegates can recover the private key
+that allows them to change their block signing key and take control of their witness. 
 
 ## Exchange Migration
 All exchanges will have at least 30 days to prepare for the new API which is significantly different from BitShares.  We
 will encourage all exchanges to migrate as a Gateway.
 
-## End of Life of BitShares 1.0
+## End of Life of BitShares 0.9.x
 One the appointed snapshot date, BitShares 1.0 will shut down and all delegates will stop producing blocks.  This is to
-prevent anyone from attempting to sell assets on the BitShares 1.0 chain.
+prevent anyone from attempting to sell assets on the BitShares 1.0 chain.  It will be up to the individual delegates 
+whether or not to continue BitShares 0.9.x and for the stakeholders to vote in new delegates to continue the chain. 
 
-## migration
-* Account names including dotted (.) child accounts
-* Delegate employment contracts and unclaimed delegate pay
-* Vesting, escrow, multisig balances
-* User-issued assets
-* BitAssets
-* Justify any reallocations or other deviations from BitShares 1
-* What is now deprecated?
+## Other Details
+
+* Vesting balances will migrate under the existing terms, if two or more vesting balances were partially claimed
+as part of the same transaction prior to the snapshot the vesting balances may be merged into a single balance.
+
+## Deprecated Features
+* Wall Messages will not be migrated as the feature is now deprecated 
+* Asset description information is no longer part of the blockchain state
+* Account Public Data is deprecated and is no longer part of the blockchain state
+* Asset Public Data is deprecated and is no longer part of the blockchain state
