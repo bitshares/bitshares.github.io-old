@@ -2,9 +2,14 @@
 title: Migrating to BitShares 2.0
 ---
 
-On an appointed date/time, a snapshot will be taken of all BitShares balances in all asset types.  The new chain will then
-launch within 24 hrs of the snapshot that discards all transaction history.  This snapshot will not be announced until
-we are 100% confident that the migration can occur in a timely manner.
+--------
+
+## Migration Path
+<!--
+(CryptoPrometheus: The first sentence was changed. For good PR, this sentence should not begin with the word "Unfortunately". Also, the "pitch fork" colloquialism, while perhaps it is cute, does not inspire confidence)
+//-->
+Upgrading to BitShares 2.0 will not just be a "hard fork". On an appointed date/time, a snapshot will be taken of all BitShares balances in all asset types.  The new chain will then launch within 24 hrs of the snapshot that discards all transaction history.  This snapshot will not be announced until we are 100% confident that the migration can occur in 
+a timely manner.
 
 <!--more-->
 
@@ -21,8 +26,8 @@ BitShares 0.9.1 prior to the snapshot date and transfer 100% of every asset bala
 your balances under a single account.
 
 ## Account Name Migration
-Under BitShares 2.0, accounts are transferrable and have different prices based upon the quality of the account name so that
-they can double as DNS names.  Starting immediately all BitShares delegates will only allow users to register non-premium names 
+Under BitShares 2.0, accounts are transferable and have different prices based upon the quality of the account name so that
+they can double as DNS names.  Starting immediately, all BitShares delegates will only allow users to register non-premium names 
 until BitShares 2.0 is released and can set the proper pricing.
 
 ## Open Order Migration
