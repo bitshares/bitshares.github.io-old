@@ -12,18 +12,17 @@ would like answered together with the announcement.
 
    BitShares 2.0 will be capable of handling over 100.000 (100k) transaction per second on commodity hardware with
    parallel architectural optimizations in mind. You can find more about how the performance improvement has been
-   achieved in the corresponding [technology page]({% post_url /technology/en/high-performance-and-scalability %}). The measurement
-   parameters and a discussion is given in a separated [blog post]({% post_url 2015-06-08-measuring-performance %}).
+   achieved in the corresponding technology page. The measurement parameters and a discussion is given in a separated
+   blog post.
 
 2. **Will we see approval voting for hard forks?**
 
    Yes. In BitShares 2.0, not even the Core Developers will be able to modify the protocol at will. Hard forks will only
-   be accepted by the protocol with [shareholder approval]({% post_url /technology/en/delegated-proof-of-stake-consensus %}#changing-the-rules--aka-hard-forks).
+   be accepted by the protocol with shareholder approval.
 
 3. **Will there be a referral system available at launch?**
 
-   [Yes]({% post_url /technology/en/referral-rewards-program %}). And you can earn up to $80 per user (per lifetime)
-   referred.
+   Yes. And you can earn up to $80 per user (per lifetime) referred.
 
 4. **Are Turing complete scripts/applications on the roadmap?**
 
