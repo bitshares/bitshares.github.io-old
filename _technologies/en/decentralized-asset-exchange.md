@@ -46,7 +46,7 @@ their trading bots are making decisions so fast that the speed of light becomes 
 decentralized exchange is location neutral and gives everyone equal opportunity.
 
 ## Secure
-Every [Dollar, Euro, bitcoin and ounce of gold held as a BitAsset](/technology/price-stable-cryptocurrencies.html) on the BitShares exchange is backed by up to twice the
+Every [Dollar, Euro, bitcoin and ounce of gold held as a BitAsset](/technology/price-stable-cryptocurrencies) on the BitShares exchange is backed by up to twice the
 reserves of traditional centralized exchanges.  The traditional banking system has long practiced what
 I like to call *fictional* reserve banking, more commonly known as fractional reserve banking.  In the
 Bitcoin ecosystem we demand at least 100% reserve. A single hack, mistake, or theft can quickly turn a
