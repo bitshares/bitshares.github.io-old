@@ -1,7 +1,7 @@
 ---
-permalink: /sign-up/
+permalink: /register/
 layout: default
-title: Sign Up
+title: Register
 redirect_from:
     - /get-started/
 ---

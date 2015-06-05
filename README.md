@@ -2,10 +2,8 @@ Installation
 ==============
 
     cd bitshares.github.io
-    gem install jekyll
     gem install bundler
-    bundler install
-    gem install github-pages
+    bundle install
 
 Building
 =================

@@ -1,10 +1,9 @@
 ---
-permalink: /zh/sign-up/
+permalink: /zh/register/
 layout: default
-title: Sign Up
+title: Register
 ---
 
-# Sign Up
 Getting started with BitShares is easy!
 This tutorial will walk you through the process of getting a fully functional registered account on the BitShares blockchain.
 
