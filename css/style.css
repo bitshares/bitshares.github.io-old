@@ -4,7 +4,7 @@
 
 /* @group Awesome Styles */
 
-
+      
 .awesome {
 -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -24,7 +24,7 @@ font-size: 13px;
 font-size: 14px;
 padding: 8px 14px 9px;
 }
-
+ 
 /* Colors ---------- */
 .blue.awesome {
 background-color: #00A9E0;
@@ -47,7 +47,7 @@ background-color: #a9014b;
 }
 .yellow.awesome {
 background-color: #ffb515;
-}
+}     
 }
 
 /* @end */
@@ -72,7 +72,7 @@ body {
 }
 
 /* Firefox only font tweak
-@-moz-document url-prefix() {
+@-moz-document url-prefix() { 
  body {
  	font-family: 'Proxima Nova Lg', "Helvetica Neue",Helvetica, Arial, sans-serif;
  	font-weight: 300;
@@ -95,7 +95,7 @@ p {
 }
 
 h2.pitch  {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 42px;
 	color: #FFFFFF;
 	line-height: 50px;
@@ -111,7 +111,7 @@ h2.pitch  {
 	.pitch-sub {
 	  marign-top:24px;
 	}
-
+	
 }
 
 
@@ -139,7 +139,7 @@ h1 {
 	margin-bottom: 0.5em;
 	color: #5B6A72;
 	font-family: 'Proxima Nova Lg', "Helvetica Neue",Helvetica, Arial, sans-serif;
-
+	
 }
 
 ul {
@@ -158,7 +158,7 @@ ul.menu li {
 }
 ul.menu h2 {
 	font-size: 15.4px;
-	font-weight: bold;
+	font-weight: 500;
 	margin: .8em 0;
 }
 ul.menu li>ul {
@@ -185,25 +185,25 @@ h1#posttitle {
   	color: #5B6A72;
   	letter-spacing: 1px;
   	font-family: 'Proxima Nova Lg', "Helvetica Neue",Helvetica, Arial, sans-serif;
-
+  	
 }
 
 h2 {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 18.5px; /* gridfit */
-	color: rgb(62, 69, 82);
+	color: #5B6A72
 }
 
 
 h3 {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 17px;
-	color: #5B6A72
+	color: rgb(62, 69, 82);
 
 }
 
 .side-header h2 {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 18.5px;
 	line-height: 24px;
 	margin-top: 7px;
@@ -266,7 +266,7 @@ div.install {
 
 h2.pitch {
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 400;
   line-height: normal;
 }
 
@@ -280,17 +280,17 @@ h2.pitch {
 	.slogan {
     margin-top: 12px;
 	}
-
+	
 	h2.pitch {
 	  font-size: 24px;
-	  font-weight: bold;
+	  font-weight: 400;
 	  line-height: normal;
 	}
-
+	
 	.pitch-sub {
 	  font-size: 16px;
 	}
-
+	
 }
 
 
@@ -319,7 +319,7 @@ p.pitch a {
 	margin-top: 2em;
 	font-weight: 100;
 	text-shadow: 1px 0px 4px #000;
-
+	
 }
 
 .version-rec-box-inner {
@@ -489,12 +489,12 @@ a#inst-link {
 
 ul.navbar-nav  {
   margin-top: 12px;
-
+  
 }
 
 ul.navbar-nav li {
   font-size: 90%;
-
+  
 }
 
 .logo {
@@ -504,7 +504,7 @@ ul.navbar-nav li {
 @media (max-width: 784px) {
   .logo {
     margin-top: 6px;
-  }
+  }  
 }
 
 
@@ -519,7 +519,7 @@ ul.navbar-nav li {
  font-size: 84%;
  margin: 0;
  padding: 0;
-
+ 
 }
 
 
@@ -527,7 +527,7 @@ ul.navbar-nav li {
 @media (max-width: 960px) {
     #subnav.affix {
         position: static;
-    }
+    }  
 }
 
 
@@ -562,7 +562,7 @@ ul.navbar-nav li {
 
 .postbody {
       text-align: justify;
-
+  
 }
 
 .content {
@@ -587,7 +587,7 @@ ul.navbar-nav li {
   color: #92A8B9;
   padding: 4px 8px;
     box-shadow: 12px 1px 2px #444;
-
+  
 }
 
 
@@ -602,7 +602,7 @@ ul.navbar-nav li {
 #mc_embed_signup .submit {
   border: 0px solid #FFF;
   margin: 12px auto;
-
+  
 }
 
 #mc_embed_signup input[type="email"] {
@@ -615,7 +615,7 @@ ul.navbar-nav li {
 }
 
 @media (max-width: 784px) {
-
+   
   .teaser {
     padding: 80px 20px;
     line-height: 24px;
@@ -666,7 +666,7 @@ ul.navbar-nav li {
 
 h2.feature-title {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
