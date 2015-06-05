@@ -7,13 +7,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>https://bitshares.org/get-started</loc>
-</url>
-<url>
   <loc>https://bitshares.org/resources/downloads</loc>
-</url>
-<url>
-  <loc>https://bitshares.org/newsletter/</loc>
 </url>
 <url>
   <loc>https://bitshares.org/blog/overstock-to-cryptostock/</loc>
@@ -47,15 +41,6 @@
 </url>
 <url>
   <loc>https://bitshares.org/blog/stans-thoughts-on-dpos-and-bitcoin/</loc>
-</url>
-<url>
-  <loc>https://bitshares.org/blog/page/2/</loc>
-</url>
-<url>
-  <loc>https://bitshares.org/blog/page/3/</loc>
-</url>
-<url>
-  <loc>https://bitshares.org/blog/page/4/</loc>
 </url>
 <url>
   <loc>https://bitshares.org/blog/the-value-proposition-of-bitsharesx-part-i-core-technology/</loc>
