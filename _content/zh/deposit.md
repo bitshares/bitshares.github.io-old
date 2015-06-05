@@ -1,7 +1,7 @@
 ---
-permalink: /zh/gateways/
+permalink: /zh/deposit/
 layout: default
-title: Gateways
+title: Deposit
 ---
 
 # Gateways

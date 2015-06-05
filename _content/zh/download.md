@@ -1,10 +1,10 @@
 ---
-permalink: /signup/
+permalink: /zh/download/
 layout: default
-title: Sign Up
+title: Download
 ---
 
-# Sign Up
+# Download
 Getting started with BitShares is easy!
 This tutorial will walk you through the process of getting a fully functional registered account on the BitShares blockchain.
 

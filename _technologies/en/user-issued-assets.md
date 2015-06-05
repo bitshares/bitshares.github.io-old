@@ -5,12 +5,20 @@ subtitle: Issue stocks, bonds, or other tokens while being compatible with KYC a
 image: ../images/frontpage/icon-asset-ident.svg
 priority: 5
 summary: >
+    The BitShares platform provides a feature known as "user-issued assets", designed to help facilitate profitable
+    business models for certain types of services that integrate with the platform. The term user-issued asset refers to
+    a type of custom token registered on the platform, and which users can hold and trade while obeying certain
+    specified restrictions. The creator of such an asset gets to publically name, describe, and distribute its tokens as
+    desired. In addition, the issuer can specify certain custom requirements for the asset: such as allowing only an
+    approved whitelist of user accounts to hold the tokens, or requiring users to pay certain fees when transferring or
+    trading the tokens.
 ---
 
 BitShares allows individuals and companies to issue their own tokens for anything they can imagine.  Common use cases
 are:
 
-* TOC {:toc}
+* TOC
+{:toc}
 
 The potential use case for user issued assets is innumerable and the regulations that apply to each kind of token vary
 widely and are often different in every jurisdiction.   BitShares provides the tools that allow you to remain compliant

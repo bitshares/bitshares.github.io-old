@@ -2,11 +2,10 @@
 title: Announcing BitShares 2.0
 ---
 
-Today, we are proud to make the biggest BitShares announcement since launching one year ago: the upgrade to BitShares 2.0.
-This upgrade represents a new focus and direction for BitShares, and incorporates all the
-feedback and lessons learned from the BitShares stakeholders, partners, developers, marketers, and community leaders,
-After more than a year of research and development, this upgrade aims to ensure BitShares' success as a leader in
-the smart contract industry.
+Today, we are proud to make the biggest BitShares announcement since launching one year ago: the upgrade to BitShares
+2.0.  This upgrade represents a new focus and direction for BitShares, and incorporates all the feedback and lessons
+learned from the BitShares stakeholders, partners, developers, marketers, and community leaders, After more than a year
+of research and development, this upgrade aims to ensure BitShares' success as a leader in the smart contract industry.
 
 <!--more-->
 
@@ -46,7 +45,7 @@ the system back from its full potential:
 - Lack of third-party documentation prevents integration of services
 
 We aim to address all of these issues all at once with BitShares 2.0.
-In a future blog post, we will explain the lessons learned in detail and how we are addressing them.
+See [Lessons Learned]({% post_url en/2015-06-08-lessons-learned-from-bitshares-0.x %}) for more details.
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 
@@ -65,16 +64,16 @@ See our [technology](/technology) page to learn more!
 
 ## What happens next?
 
-We will soon start a public beta testing period to gather community feedback on upgrading the platform.
-This will last until the community is satisfied with the new experience, after which an upgrade snapshot date will be
-announced with at least 30 days notice.
+We will soon start a public beta testing period to gather community feedback on upgrading the platform.  This will last
+until the community is satisfied with the new experience, after which an upgrade snapshot date will be announced with at
+least 30 days notice.
 
 See our public roadmap for the full timeline!
 
-At the snapshot, the current BitShares network will be shut down and BitShares 2.0 will be launched within hours.
-In general, all assets and accounts will be fully migrated to BitShares 2.0.
+At the snapshot, the current BitShares network will be shut down and BitShares 2.0 will be launched within hours.  In
+general, all assets and accounts will be fully migrated to BitShares 2.0.
 
-See [Migrating to BitShares 2.0]({% post_url en/2015-06-07-migrating-to-bitshares-2.0 %}) for more details.
+See [Migrating to BitShares 2.0]({% post_url en/2015-06-08-migrating-to-bitshares-2.0 %}) for more details.
 
 ## Where can I learn more?
 

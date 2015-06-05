@@ -1,10 +1,12 @@
 ---
-permalink: /gateways/
+permalink: /deposit/
 layout: default
-title: Gateways
+title: Deposit
 redirect_from:
     - /deposit-withdraw/
 ---
+
+# Deposit
 
 There are many ways to move funds into or out of the BitShares ecosystem.
 

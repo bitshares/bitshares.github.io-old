@@ -2,16 +2,15 @@
 title: Lessons Learned from BitShares 0.x
 ---
 
-There are many reasons for starting over from scratch and producing
-a new toolkit and this article hopes to shed some light on what we learned from BitShares 1.0 and the many advancements
-that BitShares 2.0 allows.
+There are many reasons for starting over from scratch and producing a new toolkit and this article hopes to shed some
+light on what we learned from BitShares 1.0 and the many advancements that BitShares 2.0 allows.
 
 <!--more-->
 
-The primary focus of BitShares 2.0 is on Performance, Reliability, Maintainability, and Scalability.  As a result, BitShares 2.0
-can process 1000 times more transactions per second than the BitShares 1.0 Toolkit and is able to handle VISA level
-transaction volumes.  In addition to performance, the built-in fee structure and revenue sharing incentive structure
-should motivate adoption far more effectively than any other blockchain.
+The primary focus of BitShares 2.0 is on Performance, Reliability, Maintainability, and Scalability.  As a result,
+    BitShares 2.0 can process 1000 times more transactions per second than the BitShares 1.0 Toolkit and is able to
+    handle VISA level transaction volumes.  In addition to performance, the built-in fee structure and revenue sharing
+    incentive structure should motivate adoption far more effectively than any other blockchain.
 
 * TOC
 {:toc}
@@ -91,9 +90,9 @@ network operations into the middle of the Business Logic Processor.   Ultimately
 on the state of things.  Ultimately, all orders must be matched in some order.
 
 A single processor and a fiber-optic connection to the Internet can easily process the Business Logic of the blockchain
-even at millions of transactions per second.  This reality should be embraced and used to guide architecture design.
-To this end, BitShares 2.0 takes great care to separate validation and constraint checking from actually applying the changes
-made by a transaction.  Reindexing a blockchain to rebuild the current world state can skip the validation and
+even at millions of transactions per second.  This reality should be embraced and used to guide architecture design.  To
+this end, BitShares 2.0 takes great care to separate validation and constraint checking from actually applying the
+changes made by a transaction.  Reindexing a blockchain to rebuild the current world state can skip the validation and
 constraint checking for blocks it has previously validated.
 
 ### Keep Transaction Interpretation Deterministic and Explicit
@@ -119,9 +118,9 @@ Under BitShares 2.0, every single operation has an explicit fee, a defined set o
 operation, a defined set of accounts that are impacted by the operation, and a defined set of balance changes that will
 result from the transaction.  An account balance can be entirely calculated with only the raw transactions that
 reference it.    This means transactions are slightly larger than theoretically necessary, but what they lose in size
-they gain in clarity which is critical for usability, reliability, and ultimately performance.  As we will explained earlier, 
-we save more bytes in the transaction by using 48 bit identifiers (instead of 20-32 byte hashes/addresses)
-than we lose by having slightly more verbose transactions.
+they gain in clarity which is critical for usability, reliability, and ultimately performance.  As we will explained
+earlier, we save more bytes in the transaction by using 48 bit identifiers (instead of 20-32 byte hashes/addresses) than
+we lose by having slightly more verbose transactions.
 
 ### Use Rational/Ratio Prices rather than Fixed Point
 
@@ -141,9 +140,10 @@ organization, and are effectively “managers and/or partners” in its success.
 financially incentivized. The paper concludes that such organizations are likely not to be considered securities.
 
 We have long used many metaphors to describe BitShares including a company, co-op, club, country and community.  With
-BitShares 2.0, we move one step closer to a more regulation immune architecture.  With DPOS 2.0 and the built-in referral
-model built around paid memberships, we have gone to great lengths to ensure that no one can be deemed an administrator
-and that the network is entirely run by its users, who are jointly "managers and/or partners" in its success.
+BitShares 2.0, we move one step closer to a more regulation immune architecture.  With DPOS 2.0 and the built-in
+referral model built around paid memberships, we have gone to great lengths to ensure that no one can be deemed an
+administrator and that the network is entirely run by its users, who are jointly "managers and/or partners" in its
+success.
 
 ### Anonymity is an Illusion
 
@@ -157,12 +157,12 @@ attempting to build in privacy was a lack of scalability and significant complex
 infrastructure.   Abandoning the requirement for anonymity opens up a wide range of design options that were denied to
 us before.
 
-Under BitShares 2.0, each named account has exactly one balance per asset type and everyone can see what that balance is and
-all transaction history except the private content contained in memos.  This significantly reduces memory consumption
-associated with maintaining many different balance records each containing a fraction of the account’s balance.   This
-also greatly simplifies voting which can now be done on a per-account basis rather than per-balance basis.
-White-listing and web-of-trust implementations are now much easier to implement and maintain.   Bottom line: the cost of
-maintaining the *illusion* of anonymity far outweighs its value which is practically zero.
+Under BitShares 2.0, each named account has exactly one balance per asset type and everyone can see what that balance is
+and all transaction history except the private content contained in memos.  This significantly reduces memory
+consumption associated with maintaining many different balance records each containing a fraction of the account’s
+balance.   This also greatly simplifies voting which can now be done on a per-account basis rather than per-balance
+basis.  White-listing and web-of-trust implementations are now much easier to implement and maintain.   Bottom line: the
+cost of maintaining the *illusion* of anonymity far outweighs its value which is practically zero.
 
 Users can still create many different accounts that never transact with one another, and thereby maintain a high level
 of privacy.  The difference is that users are aware of what is public, and have the ability to understand what is
@@ -175,8 +175,8 @@ suffer from having too many delegates and too little attention per delegate.  Th
 101 delegates means that voter turnout is low and their ability to quickly adjust their votes to handle non-performing
 delegates is less than would be desired.
 
-To resolve this issue, BitShares 2.0 allows each account to "follow" another account’s voting preferences.  Users can thus
-delegate their voting decisions to a trusted party which can be more pro-active.
+To resolve this issue, BitShares 2.0 allows each account to "follow" another account’s voting preferences.  Users can
+thus delegate their voting decisions to a trusted party which can be more pro-active.
 
 ### Delegate Pay is Political and not tied to Performance
 
@@ -200,9 +200,9 @@ dilution is less than 2% per year and the total value of daily dilution is just 
 Despite the reality that dilution has little direct impact on the price, its presence has been used as an excuse for
 others to sell.
 
-Under BitShares 2.0, projects funded by dilution can specify a vesting period which guarantees that the diluted stake cannot
-be sold for years and thus alleviate any fears that selling of newly created tokens is the cause of short-term price
-movements.
+Under BitShares 2.0, projects funded by dilution can specify a vesting period which guarantees that the diluted stake
+cannot be sold for years and thus alleviate any fears that selling of newly created tokens is the cause of short-term
+price movements.
 
 ### Copyright Reserved
 
@@ -213,33 +213,31 @@ copyright.  This will help attract capital to BitShares and secure our competiti
 
 ### Changing the Rules (aka Hard Forks)
 
-The BitShares developers have taken a lot of heat for changing the rules.  This leads to fears of centralization
-and regulatory risks for the developers themselves.   It would be nice if there existed one perfect set of rules;
-however, experience has taught us that adaptability is key to survival of the fittest.   
-Under [DPOS 2.0](/technology/delegated-proof-of-stake-consensus.html) there will be a new policy adhered to by the
-developers.  
+The BitShares developers have taken a lot of heat for changing the rules.  This leads to fears of centralization and
+regulatory risks for the developers themselves.   It would be nice if there existed one perfect set of rules; however,
+experience has taught us that adaptability is key to survival of the fittest.   Under [DPOS
+2.0](/technology/delegated-proof-of-stake-consensus.html) there will be a new policy adhered to by the
+developers.
 
-From time to time it is necessary to upgrade a network to add new features.  With DPOS 2.0, all changes must
-be triggered by active stakeholder approval.   While it is technically possible for the witnesses to collude to
-change their software unilaterally, it is not in their interest to do so.  Witnesses are selected based upon
-their commitment to remain neutral to block chain policy.   Remaining neutral protects witnesses against 
-allegations that they are the administrators/managers/owners/operators of the network.  A witness is merely
-an employee of the stakeholders.
+From time to time it is necessary to upgrade a network to add new features.  With DPOS 2.0, all changes must be
+triggered by active stakeholder approval.   While it is technically possible for the witnesses to collude to change
+their software unilaterally, it is not in their interest to do so.  Witnesses are selected based upon their commitment
+to remain neutral to block chain policy.   Remaining neutral protects witnesses against allegations that they are the
+administrators/managers/owners/operators of the network.  A witness is merely an employee of the stakeholders.
 
-Developers may implement whatever changes they deem appropriate so long as those changes are contingent upon
-stakeholder approval.  This policy protects the developers as much as it protects the stakeholders and 
-ensures that no one has unilateral control over the direction of the network.
+Developers may implement whatever changes they deem appropriate so long as those changes are contingent upon stakeholder
+approval.  This policy protects the developers as much as it protects the stakeholders and ensures that no one has
+unilateral control over the direction of the network.
 
-The threshold for changing the rules is the same as replacing 51% of the elected witnesses.  The more
-stakeholder participation in electing witnesses the harder it becomes to change the rules.  
+The threshold for changing the rules is the same as replacing 51% of the elected witnesses.  The more stakeholder
+participation in electing witnesses the harder it becomes to change the rules.
 
-Ultimately changing the rules depends upon everyone using the network upgrading their software and
-no block chain level protocol can enforce how rules are changed.  This means that hard-forking "bug fixes" can
-be rolled out without requiring a vote of the stakeholders so long as they remain true to the universally
-expected behavior of the code. 
+Ultimately changing the rules depends upon everyone using the network upgrading their software and no block chain level
+protocol can enforce how rules are changed.  This means that hard-forking "bug fixes" can be rolled out without
+requiring a vote of the stakeholders so long as they remain true to the universally expected behavior of the code.
 
-In practice only security critical hard-forks should be implemented in such a manner. The developers and
-witnesses should wait for the stakeholders to approve even the most minor changes.   
+In practice only security critical hard-forks should be implemented in such a manner. The developers and witnesses
+should wait for the stakeholders to approve even the most minor changes.
 
 ## Economic Lessons
 
@@ -252,10 +250,10 @@ user acquisition would be close to 0 and set our fees at $0.01 or less.  This is
 value for next to nothing and ultimately the business is not profitable because it has not funded user acquisition from
 revenue.
 
-Under BitShares 2.0, we charge prices that are competitive with successful real world businesses providing similar services.
-These real world businesses have real world costs for user acquisition and charge far more than it costs them to merely
-update their database balances.   We need to be cheaper than PayPal, Dwolla, and centralized exchanges.   We do not need
-to be "as cheap as possible" because that will undermine our product.
+Under BitShares 2.0, we charge prices that are competitive with successful real world businesses providing similar
+services.  These real world businesses have real world costs for user acquisition and charge far more than it costs them
+to merely update their database balances.   We need to be cheaper than PayPal, Dwolla, and centralized exchanges.   We
+do not need to be "as cheap as possible" because that will undermine our product.
 
 ### BitAsset's need a *floor* not a *perfect peg*
 
@@ -299,10 +297,10 @@ Attempting to boost the value of BitUSD with yield is counter productive once th
 internalized and shorts know they can be force settled at the price feed at any time.  Under these rules BitUSD already
 has a floor and paying yield on BitUSD would only serve to raise BitUSD above the floor and break the peg.
 
-While Socialized Yield is broken, BitShares 2.0 offers a far better alternative:  Collateralized Bonds.  Collateralized Bonds
-enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
-privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
-BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
+While Socialized Yield is broken, BitShares 2.0 offers a far better alternative:  Collateralized Bonds.  Collateralized
+Bonds enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This
+system privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In
+effect, BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
 
 ### Unnecessary Collateral Restrictions
 
@@ -357,12 +355,3 @@ hosted wallet service required too many servers per active user to maintain resp
 
 Under BitShares 2.0, a new websocket-based API eliminates polling and provides a far more efficient way to synchronize
 thousands of users to a single server.
-
-###  Keep Domain Name Pricing Simple
-
-Early versions of BitShares DNS system had plans for a complex auction system for allocating domain names and
-eliminating squatting.  After many disucssions the conclusion is that the problem with domain names isn't the
-squatting, it is the complexity and non-standardization of purchasing quality names. 
-
-Under BitShares 2.0 accounts are transferrable and use a simple pricing structure that can be adjusted by
-stakeholders to account for changing market conditions.  

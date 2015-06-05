@@ -1,8 +1,8 @@
 ---
-title: Answers to Common Community Questions
+title: Community Questions for the Development Team
 ---
 
-Prior to the announcement, the BitShares community was asked to collect a set of their concerns that they would like 
+Prior to the announcement, the BitShares community was asked to collect a set of their concerns that they would like
 answered together with the announcement.
 
 <!--more-->
@@ -29,10 +29,8 @@ answered together with the announcement.
 5. Will the separated Worker/Delegate/Signer proposal be implemented in time?
 
    Yes. In BitShares 2.0 we will see workers, who grow and development the ecosystem, block signers (called witnesses)
-   to ensure blockchain security, and delegates which define (after shareholder proposal) the variable settings of the
-   blockchain, such as block interval, price feeds, and more.
-
----
+    to ensure blockchain security, and delegates which define (after shareholder proposal) the variable settings of the
+    blockchain, such as block interval, price feeds, and more.
 
 6. What has been done to stabilize the user interface and make it user friendly/more responsive?
 
@@ -43,8 +41,8 @@ answered together with the announcement.
 
 7. Can we expect a fast, professional GUI experience within this year?
 
-   Absolutely! With the move to react.js and websockets, the user interface will be much more
-   responsive, stable and professional looking.
+   Absolutely! With the move to react.js and websockets, the user interface will be much more responsive, stable and
+   professional looking.
 
 8. Will the new client be more resource efficient?
 
@@ -64,27 +62,20 @@ answered together with the announcement.
 
     Practically, BitShares in general is a company and not a democracy. The more BTS stake you own, the more shares of
     the company you own, and the more weights your vote has. This is similar to most traditional business and a
-    desirable feature. If an investor asks for more power in the voting process, the only way to get it is to buy
-    shares or convince other people to hand over their voting power. However, because the shares are well distributed among
+    desirable feature. If an investor asks for more power in the voting process, the only way to get it is to buy shares
+    or convince other people to hand over their voting power. However, because the shares are well distributed among
     thousands of network participants and early adopters, such undertaking is very difficult.
-
----
 
 11. Will we see relative orders in the decentralized exchange?
 
     There is no plan to add relative orders, as part of the effort to reduce dependence on the price feed long-term.
 
-<!--
-(CryptoPrometheus: The following question has been removed, because there is no answer given)
-12. Assuming there will not be two different bitUSD, what will the switch from bitasset 1.0 to bitasset 2.0 look like?
-//-->
-
 12. Will I be able to use bitUSD as collateral to short a bitAssets?
 
     Yes. BitShares 2.0 goes even further and offers a far better alternative: Collateralized Bonds. Collateralized Bonds
-    enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This system
-    privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In effect,
-    BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
+    enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This
+    system privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In
+    effect, BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
 
 13. Will we be able to close short orders using the collateral?
 
@@ -97,15 +88,13 @@ answered together with the announcement.
     wish to hold a restricted token. Hence, regular businesses that run on top of BitShares, such as gateways and
     merchants, will be required to comply with their local KYC, AML and CTF regulations.
 
----
-
 15. What has been done to attract more 3rd party developers?
 
     The API has been improved significantly to allow fast and reliable integration via websockets and push
     notifications! Furthermore, a lot of effort has been taken for proper documentation.
 
-16. What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden
-    design assumptions that are no longer valid?
+16. What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden design
+    assumptions that are no longer valid?
 
     While it's impossible to guarantee any code is bug-free, we have been writing unit tests, integration tests, and
     regression tests with every new feature implemented. Our tests currently exercise around 90% of the code, and we're
