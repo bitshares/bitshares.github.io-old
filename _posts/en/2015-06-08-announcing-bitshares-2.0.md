@@ -15,12 +15,11 @@ Up until now, the core development team has closely controlled the development a
 BitShares reaching maturity at version 2.0, the team is ready to remove the training wheels, and let the direction of
 all future development be decided completely by stakeholder vote.
 
-To ensure the long-term success of BitShares, as well ensure that all blockchain technology continues to advance and
-proliferate, the BitShares core development team will be reorganizing into
-[Cryptonomex Inc.](http://www.cryptonomex.com/), an independent blockchain development company. Using the new worker
-contract voting system that will be included in BitShares 2.0, this company will continue to develop the BitShares
-software, but only as approved by the BitShares stakeholders. With this new structure, BitShares will be more robust,
-sustainable, and fair than ever.
+To help ensure the long-term success of BitShares technology, the core development team will be reorganizing into
+[Cryptonomex Inc.](http://www.cryptonomex.com/), an independent blockchain development company. By utilizing a new
+worker voting system that will be included in BitShares 2.0, this company will continue to help develop BitShares in
+whatever direction is approved by its stakeholders. With this new structure, BitShares will be more robust, sustainable,
+and fair than ever.
 
 ## Overview
 - A brand new BitShares codebase has been developed from scratch with the following features:
