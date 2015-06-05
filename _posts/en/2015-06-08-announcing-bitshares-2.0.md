@@ -45,7 +45,7 @@ the system back from its full potential:
 - Lack of third-party documentation prevents integration of services
 
 We aim to address all of these issues all at once with BitShares 2.0.
-See [Lessons Learned]({% post_url en/2015-06-08-lessons-learned-from-bitshares-0.x %}) for more details.
+See [Lessons Learned](/blog/2015/06/08/lessons-learned-from-bitshares-0.x/) for more details.
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 
@@ -73,7 +73,7 @@ See our public roadmap for the full timeline!
 At the snapshot, the current BitShares network will be shut down and BitShares 2.0 will be launched within hours.  In
 general, all assets and accounts will be fully migrated to BitShares 2.0.
 
-See [Migrating to BitShares 2.0]({% post_url en/2015-06-08-migrating-to-bitshares-2.0 %}) for more details.
+See [Migrating to BitShares 2.0](/blog/2015/06/08/migrating-to-bitshares-2.0/) for more details.
 
 ## Where can I learn more?
 
