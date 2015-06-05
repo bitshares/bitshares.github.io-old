@@ -63,8 +63,6 @@ redirect_from:
 
  <center>
 <div class="row row-eq-height">
-  <h2 class="feature-title">Featuring</h2>
-
   <ul class="features">
     {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
     {% for technology in technologies  %}
