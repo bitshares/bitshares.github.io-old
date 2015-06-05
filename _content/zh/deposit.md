@@ -4,28 +4,32 @@ layout: default
 title: Deposit
 ---
 
-# Gateways
+# Deposit
 
 There are many ways to move funds into or out of the BitShares ecosystem.
 
 ## Gateways
 
-Gateways are the recommended method of moving funds into or out of the network. They offer
-fiat<->bitAsset pairs such that you can trade bitUSD:USD.
+Gateways are the recommended method of moving funds into or out of the network.
+They allow to buy bitAssets (e.g. bitUSD) with the corresponding asset (eg. USD).
+Some services are:
 
-- BlockTrades
-- CCEDK.com
+- [CCEDK](https://www.ccedk.com/)
+- [Coinomat](https://coinomat.com)
 
 ## Bridges
 
 Bridges simplify the process of moving funds from one blockchain-based crypto currency to another.
-For instance, you can buy bitUSD with Bitcoin at (close to) market rates quickly. Most trusted
-services are:
+For instance, you can buy bitUSD with Bitcoin at (close to) market rates quickly.
+Some services are:
 
-- MetaExchange.info
-- BlockTrades.us
-- Shapeshift.io
-- TradeBTS.com
+- [BlockTrades](https://blocktrades.us/)
+- [MetaExchange](https://metaexchange.info/)
+- [ShapeShift](https://shapeshift.io/)
+- [BTSBots](https://www.btsbots.com/)
+- [X-Chain](http://xchain.info/)
+- [CryptoMate](https://cryptomate.co.uk/)
+- [AltQuick](https://www.altquick.co/)
 
 ## Exchanges
 
@@ -33,7 +37,12 @@ Most crypto-currency exchanges offer a wide variety of different crypto currency
 contrast to bridges not only allow for instant trades at market price, but also offer to put a
 buy/sell order at a desired price.
 
-- BTC38.com
-- Yunbi.com
-- BTER.com
-- Poloniex.com
+- [BTC38](http://www.btc38.com/)
+- [CCEDK](https://www.ccedk.com/)
+- [Yunbi](https://yunbi.com/)
+- [Bter](https://bter.com/)
+- [Poloniex](https://www.poloniex.com/)
+- [Bittrex](https://bittrex.com/)
+- [Bitcoin Indonesia](https://vip.bitcoin.co.id/)
+- [TradeBTS](http://www.tradebts.com/)
+- [Coinport](https://exchange.coinport.com/)
