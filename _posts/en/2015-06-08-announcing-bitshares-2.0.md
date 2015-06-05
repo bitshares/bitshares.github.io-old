@@ -2,26 +2,36 @@
 title: Announcing BitShares 2.0
 ---
 
-Today, we are proud to make the biggest BitShares announcement since launching one year ago: the upgrade to BitShares
-2.0.  This upgrade represents a new focus and direction for BitShares, and incorporates all the feedback and lessons
-learned from the BitShares stakeholders, partners, developers, marketers, and community leaders, After more than a year
-of research and development, this upgrade aims to ensure BitShares' success as a leader in the smart contract industry.
+The BitShares development team is proud to make their biggest announcement since launching one year ago: the upgrade to
+BitShares 2.0.
+
+This is the next step in the evolution of BitShares, and incorporates all of the feedback and lessons learned from the
+BitShares stakeholders, partners, developers, marketers, and other community leaders throughout this past year of
+research and development.
 
 <!--more-->
 
-## Overview
-- A brand new BitShares codebase has been developed from scratch featuring:
+Up until now, the core development team has closely controlled the development and direction of BitShares. With
+BitShares reaching maturity at version 2.0, the team is ready to remove the training wheels, and let the direction of
+all future development be decided completely by stakeholder vote.
 
-  <ul class="laundry-list">
-    {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
-    {% for technology in technologies  %}
-    <li><a href="{{ technology.url }}">{{ technology.title }}</a></li>
-    {% endfor %}
-  </ul>
+To ensure the long-term success of BitShares, as well ensure that all blockchain technology continues to advance and
+proliferate, the BitShares core development team will be reorganizing into
+[Cryptonomex Inc.](http://www.cryptonomex.com/), an independent blockchain development company. Using the new worker
+contract voting system that will be included in BitShares 2.0, this company will continue to develop the BitShares
+software, but only as approved by the BitShares stakeholders. With this new structure, BitShares will be more robust,
+sustainable, and fair than ever.
+
+## Overview
+- A brand new BitShares codebase has been developed from scratch with the following features:
+{% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
+{% for technology in technologies  %}
+  - [{{ technology.title }}]({{ technology.url }})
+{% endfor %}
 
 - This codebase has been designed to solve the largest technical and economic problems with BitShares today
 - New competitive features have been added that will allow BitShares to grow and succeed as an industry-leader
-- BitShares will be upgraded but **the stake distribution will *not* be changed**
+- BitShares will be upgraded and **the stake distribution will *not* be changed**
 
 --------
 
@@ -32,8 +42,8 @@ the system back from its full potential:
 
 - Slow performance and high resource requirements result in poor user experience
 - Protocol object model does not match real-world usage
-- Achieving performance goals requires fundamental protocal changes
-- Non-Standard market matching algorithm discourages traders
+- Achieving performance goals requires fundamental protocol changes
+- Non-standard market matching algorithm discourages traders
 - Insufficient incentives for new stakeholders to help grow the network
 - Unpredictable cost structure unfeasible for business operations
 - Conflation of consensus protocol and project funding results in mismatched incentives and voter apathy
@@ -41,42 +51,39 @@ the system back from its full potential:
 - Shortcomings and caveats in internal market rules and incentives results in low liquidity and adoption
 - Many software bugs (some involving loss of funds) result in loss of faith by stakeholders
 - A poor testing framework made it difficult to specify tests and detect regressions
-- Lack of public development roadmap results in confusing and uncertainty for stakeholders
-- Lack of third-party documentation prevents integration of services
-
-We aim to address all of these issues all at once with BitShares 2.0.
-See [Lessons Learned](/blog/2015/06/08/lessons-learned-from-bitshares-0.x/) for more details.
+- Lack of public development roadmap results in confusion and uncertainty for stakeholders
+- Lack of sufficient documentation prevents integration of third-party services
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 
-BitShares 2.0 was designed to address all of the above lessons. By upgrading, the community will experience:
+BitShares 2.0 was designed to address all of the above issues. By upgrading, the community will experience:
 
 - A new high-performance protocol and engine, capable of handling over 100,000 transactions per second.
 - A new user-friendly hosted wallet interface
-- Brand new features
+- Brand new financial smart contract features
 - A new set of tools for community feedback
-- A new growth model
-- Robust testing infrastuture with over 120 tests covering 95% of the code.
+- A new viral growth model
+- Robust testing infrastructure designed to prevent bugs and regressions
 - A new developer-friendly and extensible codebase
 - **No changes to the stake allocation**
 
-See our [technology](/technology) page to learn more!
+See our [Technology](/technology) page to learn more!
 
 ## What happens next?
 
-We will soon start a public beta testing period to gather community feedback on upgrading the platform.  This will last
-until the community is satisfied with the new experience, after which an upgrade snapshot date will be announced with at
-least 30 days notice.
+As soon as the software is ready, it will enter a public testing period for gathering community feedback. This testing
+period will last until the community is satisfied with the new system, after which an upgrade snapshot date will be
+announced with at least 30 days notice.
 
-See our public roadmap for the full timeline!
-
-At the snapshot, the current BitShares network will be shut down and BitShares 2.0 will be launched within hours.  In
-general, all assets and accounts will be fully migrated to BitShares 2.0.
+At the snapshot, the current BitShares network will stop producing blocks and BitShares 2.0 will be launched within
+hours. All accounts and balances will be fully migrated to BitShares 2.0.
 
 See [Migrating to BitShares 2.0](/blog/2015/06/08/migrating-to-bitshares-2.0/) for more details.
 
 ## Where can I learn more?
 
-Join the discussion on the forums.
+Explore the links at the bottom of this page.
 
-Also explore the links at the top of this page.
+Also join the [discussion on the forums](https://bitsharestalk.org/index.php/board,5.0.html).
+
+Developers can also explore [latest source code](https://github.com/cryptonomex/graphene).
