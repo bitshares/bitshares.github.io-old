@@ -12,8 +12,16 @@ There are many ways to move funds into or out of the BitShares ecosystem.
 
 ## Gateways
 
-Gateways/bridges are the recommended method of moving funds into or out of the network.
-They simplify the process of moving funds from one blockchain-based crypto currency to another.
+Gateways are the recommended method of moving funds into or out of the network.
+They allow to buy bitAssets (e.g. bitUSD) with the corresponding asset (eg. USD).
+Some services are:
+
+- [CCEDK](https://www.ccedk.com/)
+- [Coinomat](https://coinomat.com)
+
+## Bridges
+
+Bridges simplify the process of moving funds from one blockchain-based crypto currency to another.
 For instance, you can buy bitUSD with Bitcoin at (close to) market rates quickly.
 Some services are:
 
