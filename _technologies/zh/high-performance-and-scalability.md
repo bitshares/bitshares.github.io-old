@@ -1,5 +1,5 @@
 ---
-permalink: /技术/high-performance-and-scalability/
+permalink: /zh/technology/high-performance-and-scalability/
 title: High Performance and Scalability
 subtitle: Over 100,000 transactions per second
 image: ../images/frontpage/icon-performance.svg
@@ -23,13 +23,13 @@ these lessons are the following key points:
 4. Divide Validation into State Independent and State Dependent checks
 5. Use an Object Oriented Data Model
 
-By following these simple rules BitShares is able to process 100,000 transactions per second without any significant
+By following these simple rules, BitShares is able to process 100,000 transactions per second without any significant
 effort devoted to optimization.  Future optimizations should allow BitShares to reach performance levels similar to
 LMAX.
 
 It should be noted that the performance achieved by BitShares is highly dependent upon having a compatible transaction
 protocol.  It would not be possible to achieve the same level of performance in a protocol where the Core Business Logic
-is run in a virtual machine that performs crypto-graphic operations and references all objects with hash identifiers.
+is run in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
 Blockchains are inherently single-threaded and the performance of a single core of a CPU is the most limited and least
 scalable resource of them all.   BitShares is designed to get the most out of this single thread of execution.
 
@@ -41,7 +41,7 @@ withdraw money from your bank account until after your paycheck deposit has clea
 whether or not a transaction is valid until after all prior transactions that impact a particular account have been
 processed.
 
-In theory transactions for two unrelated accounts could be processed at the same time provided they do not share any
+In theory, transactions for two unrelated accounts could be processed at the same time provided they do not share any
 common dependency.  In practice, the cost of identifying which transactions are truly independent of each other on a
 ledger empowered by smart contracts with arbitrary conditions is intractable.   The only way to be sure that two
 transactions are truly independent is by maintaining completely separate ledgers and then periodically transferring
@@ -119,7 +119,7 @@ takes significantly more CPU time to lookup an account record by hash compared w
 the CPU cache and that more memory is required.   On modern operating systems infrequently accessed RAM is
 compressed, but hash identifiers are random data that is not compressible.
 
-Fortunately blockchains give us a means to globally assign unique IDs that do not conflict with one another and thus it
+Fortunately, blockchains give us a means to globally assign unique IDs that do not conflict with one another and thus it
 is possible to completely remove the need to use hash-based identifiers (Bitcoin addresses) to refer to an account,
 balance, or permission.
 
@@ -169,6 +169,22 @@ relationships of data.  This means that when the Business Logic Processor can qu
 data it needs rather than being forced to perform expensive database queries.  It means that data can be accessed
 without copying it and it can be modified in-place.  This single optimization offers an order of magnitude performance
 gain over using any database-based approach.
+
+## Transaction Sizes
+
+A blockchain that is processing 100,000 transactions every second is generating a lot of data.  The average size of
+transactions on competing networks such as Ripple and Bitcoin is about 250 bytes.  Similar transactions on BitShares
+average just 100 bytes.  In other words, competing systems require 2.5 times the bandwidth to propagate the
+same number of transactions.  Assuming a gigabit connection to the internet, it would take about 0.1 seconds just to
+transfer a block containing 100,000 transactions.   Competing networks would require 0.25 seconds.  After latency and
+multiple hops on a P2P network are factored in it becomes clear that transaction size directly impacts the block interval
+and therefore confirmation latency.
+
+Transaction sizes are often an indication of the amount of data the CPU must process in its critical path and therefore
+serve as an indication of how soon the single threaded performance of a CPU will be hit.
+
+Some optimizations are possible in all protocols if they assume that all nodes have prior knowledge of all broadcast transactions
+and only require the ordered list of transaction IDs to broadcast every block.  This would be an implementation detail.
 
 ## Conclusion
 

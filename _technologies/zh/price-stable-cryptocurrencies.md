@@ -1,5 +1,5 @@
 ---
-permalink: /技术/price-stable-cryptocurrencies/
+permalink: /zh/technology/price-stable-cryptocurrencies/
 title: Price-Stable Cryptocurrencies
 subtitle: The freedom of cryptocurrency with the stability of the dollar
 image: ../images/frontpage/icon-price-stable.svg
@@ -27,7 +27,7 @@ More recent approaches have used a cryptocurrency as collateral in a [contract f
 difference](http://www.investopedia.com/terms/c/contractfordifferences.asp).  Under this approach, two parties can take
 opposite sides of a trade where one party is guaranteed price stability and the other party is granted leverage.    This
 approach works well as long as there is sufficient collateral and the contract can be settled by an honest 3rd party
-with a price feed.  Unfortunately a contract for difference is not fungible and has a explicit settlement date which
+with a price feed.  Unfortunately, a contract for difference is not fungible and has a explicit settlement date which
 means they are not useful as a currency.
 
 ## Introducing BitAssets
@@ -48,16 +48,16 @@ To achieve this BitAssets use the following set of market rules:
 A simple metric for testing the validity of our claim that 1.00 BitUSD is always worth *at least* $1.00 is to
 demonstrate that if you can find someone willing to sell 1.00 BitUSD for $1.00 that it would be the cheapest option for
 buying BTS.   This means that 100% of the buying demand for BTS would be available to give liquidity to BitUSD holders
-as a priority over BTS holders.   In the following sections I will attempt to prove this condition is met.
+as a priority over BTS holders.   In the following sections I will attempt to prove that this condition is met.
 
 While the rules are simple, the consequences are less obvious.   Let's analyze this from the perspective of the various
 players.
 
 ## The Shorter
 When deciding a price at which to enter a short order, a trader must consider the risk of forced settlement.   In this
-case no trader will attempt to short at or below the price feed because they could be forced to settle at the price
+case, no trader will attempt to short at or below the price feed because they could be forced to settle at the price
 feed.   In fact, a smart trader would allow enough of a spread to account for the risk of being forced to settle at a
-feed price that was off by a small amount.    In practice the risk posed by the feed error is balanced equally between
+feed price that was off by a small amount.    In practice, the risk posed by the feed error is balanced equally between
 being in the favor of the short and in the favor of the long leaving only the risk of being forced out of their position
 at an inopportune time.
 
@@ -66,8 +66,7 @@ collateralized positions and thus very unlikely to be forced to settle at the fe
 
 In practice the only way new BitUSD will enter circulation is if there is someone willing to pay enough of a premium to
 convince a short to provide guaranteed liquidity at the price feed on demand while also covering the cost of exchange
-rate risk.  In a bear market for the backing cryptocurrency the premium will be higher, in a bull market it will be
-lower.
+rate risk.  The premium will be higher for the backing cryptocurrency in a bear market, and will be lower in a bull market. 
 
 Someone who is short has only one way to exit their position: buy BitUSD off the market.  This means that a short must
 also factor in the risk that the premium may change.  If a short position is entered in a bull market with a 0.1%
@@ -91,9 +90,9 @@ be relatively stable and predictable.
 
 
 ## The BTS Buyer
-As someone with dollars who is looking to buy BTS I know that 1 BitUSD can be used to buy $1 worth of BTS plus what ever
+As someone with dollars who is looking to buy BTS, I know that 1 BitUSD can be used to buy $1 worth of BTS plus what ever
 the current premium is.   I also know that this premium can never be negative because of the option to force-settle at
-the price feed.    In this situation I can know with certainty that if I can convince someone with BitUSD to sell it to
+the price feed.    In this situation, I can know with certainty that if I can convince someone with BitUSD to sell it to
 me for $1.00 that I can buy more BTS than if I simply buy BTS with my dollars directly.    The higher the premium the
 more incentive there is for me to buy BitUSD for $1.00.
 
@@ -112,12 +111,12 @@ the price minimizing any profits to be made by attempted manipulation.
 ## The Merchant
 
 As a merchant I want to know that if I price things in BitUSD that I can actually realize real USD in my bank account in
-a reasonable time with minimal risk.   In this case I as a merchant would be the one placing my BitUSD on the market at
+a reasonable time with minimal risk.   In this case, as a merchant I would be the one placing my BitUSD on the market at
 $1 per BitUSD.  As we already discussed, all of the BTS buyers would be fighting for the opportunity to buy BitUSD at
 that price.
 
 A smart merchant would recognize that 1 BitUSD can actually fetch $1 plus a variable premium and start preferring
-customers to pay them in BitUSD at face value.   An even smarter merchant would offer a discount to customers that pay
+that customers pay them in BitUSD at face value.   An even smarter merchant would offer a discount to customers that pay
 in BitUSD.
 
 Any way you slice it, merchants have financial incentive to advertise BitUSD as the preferred payment mechanism because
@@ -125,7 +124,7 @@ they know that $1.00 is the lower bound on what BitUSD is worth.
 
 ## The Customer
 
-As a customer looking to buy goods and services with BitUSD I find myself having to pay a premium to acquire BitUSD from
+As a customer looking to buy goods and services with BitUSD, I find myself having to pay a premium to acquire BitUSD from
 the market in the first place.   This means I will prefer merchants that offer me a discount equal to the premium I
 paid.   On the other hand, if I was a customer that earned BitUSD at a nominal value of $1.00 then the premium is a
 wash.   In fact the only people to whom the premium matters are those who are looking to enter or exit the ecosystem.

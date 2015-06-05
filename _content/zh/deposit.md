@@ -4,22 +4,12 @@ layout: default
 title: Deposit
 ---
 
-# Deposit
-
 There are many ways to move funds into or out of the BitShares ecosystem.
 
-## Gateways
+## Bridges/Gateways
 
-Gateways are the recommended method of moving funds into or out of the network.
-They allow to buy bitAssets (e.g. bitUSD) with the corresponding asset (eg. USD).
-Some services are:
-
-- [CCEDK](https://www.ccedk.com/)
-- [Coinomat](https://coinomat.com)
-
-## Bridges
-
-Bridges simplify the process of moving funds from one blockchain-based crypto currency to another.
+Bridges/gateways are the recommended method of moving funds into or out of the network.
+They simplify the process of moving funds from one blockchain-based crypto currency to another.
 For instance, you can buy bitUSD with Bitcoin at (close to) market rates quickly.
 Some services are:
 
@@ -37,9 +27,9 @@ Most crypto-currency exchanges offer a wide variety of different crypto currency
 contrast to bridges not only allow for instant trades at market price, but also offer to put a
 buy/sell order at a desired price.
 
-- [BTC38](http://www.btc38.com/)
+- [BTC38](http://www.btc38.com/trade_en.html)
 - [CCEDK](https://www.ccedk.com/)
-- [Yunbi](https://yunbi.com/)
+- [Yunbi](https://yunbi.com/?lang=en)
 - [Bter](https://bter.com/)
 - [Poloniex](https://www.poloniex.com/)
 - [Bittrex](https://bittrex.com/)

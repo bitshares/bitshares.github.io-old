@@ -1,16 +1,24 @@
 ---
-permalink: /技术/user-issued-assets/
+permalink: /zh/technology/user-issued-assets/
 title: User-Issued Assets
 subtitle: Issue stocks, bonds, or other tokens while being compatible with KYC and AML regulations
 image: ../images/frontpage/icon-asset-ident.svg
 priority: 5
 summary: >
+    The BitShares platform provides a feature known as "user-issued assets", designed to help facilitate profitable
+    business models for certain types of services that integrate with the platform. The term user-issued asset refers to
+    a type of custom token registered on the platform, and which users can hold and trade while obeying certain
+    specified restrictions. The creator of such an asset gets to publically name, describe, and distribute its tokens as
+    desired. In addition, the issuer can specify certain custom requirements for the asset: such as allowing only an
+    approved whitelist of user accounts to hold the tokens, or requiring users to pay certain fees when transferring or
+    trading the tokens.
 ---
 
 BitShares allows individuals and companies to issue their own tokens for anything they can imagine.  Common use cases
 are:
 
-* TOC {:toc}
+* TOC
+{:toc}
 
 The potential use case for user issued assets is innumerable and the regulations that apply to each kind of token vary
 widely and are often different in every jurisdiction.   BitShares provides the tools that allow you to remain compliant
@@ -22,7 +30,7 @@ Sometimes an example is the easiest way to explain a feature.
 
 Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these
 assets among their depositors.   Companies like Dwolla and Paypal are essentially issuing deposit receipts and then
-offering cheaper transfers among their users than between banks.  With BitShares it is now possible to move these
+offering cheaper transfers among their users than between banks.  With BitShares, it is now possible to move these
 internal databases onto the blockchain where the deposits can be used with other smart contracts such as the internal
 markets, escrow, or bonds.
 
@@ -36,7 +44,7 @@ blacklists.  Rather than requiring every issuer to whitelist every customer sepa
 identity verifiers that they trust to do this job.   This allows issuers to benefit from the network effect of validated
 users without having to do any direct identity verification themselves.
 
-When an asset enables whitelists no account may send or receive that asset without being on an authorized whitelist.  An
+When an asset enables whitelists, no account may send or receive that asset without being on an authorized whitelist.  An
 accounts funds can be frozen by removing them from the whitelist.
 
 ### 2. Asset Seizing
@@ -100,7 +108,7 @@ Software and music licenses can be made transferable by issuing them as a digita
 check to make sure that the user has control of a token before running.  Software implementing such a licensing scheme
 can remain functional even if the company that produced the license goes out of business.
 
-Trading cards can be simulated by created many limited issue assets.   Online games can use these assets to represent
+Trading cards can be simulated by creating many limited issue assets.   Online games can use these assets to represent
 game items.
 
 ## Privatized BitAssets (Stable Crypto Currencies)

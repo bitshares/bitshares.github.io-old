@@ -1,7 +1,7 @@
 ---
 permalink: /technology/collateralized-bond-market/
 title: Collateralized Bond Market
-subtitle: Lend or Borrow anything on your terms
+subtitle: Lend or borrow anything on your terms
 image: ../images/frontpage/icon-bonds.svg
 priority: 7
 summary: >
@@ -55,6 +55,3 @@ The Bitshares bond market allows investors who wish to gain leverage in a partic
 competitive interest rates to those willing to commit capital for a specified time.  The
 implementation of a bond market on a blockchain consensus system efficiently reduces overhead and
 counterparty risk typically associated with such contracts.
-<!--
-(CryptoPrometheus: Deleted the last sentence - line 58, because it's identical to the sentence in line 13)
-//-->

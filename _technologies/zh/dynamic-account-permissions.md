@@ -1,23 +1,20 @@
 ---
-permalink: /技术/dynamic-account-permissions/
+permalink: /zh/technology/dynamic-account-permissions/
 title: Dynamic Account Permissions
-subtitle: One of the most revolutionary developments since the invention of the blockchain
+subtitle: Permission handling for the corporate environment
 image: ../images/frontpage/icon-corporate-acc.svg
 priority: 3
 summary: >
-   Dynamic account permissions is one of the most revolutionary developments since the invention of the
-   blockchain.   BitShares designs permissions around people rather than around cryptography which means that
-   it is both easier to use and to understand.   Every account can be controlled by any weighted combination of
-   other accounts and private keys.   This creates a hierarchical structure that reflects how permissions are
-   organized in real life and makes multi-user control over funds easier than ever.  Multi-user control is
-   the single biggest contributor to security and when used properly can virtually eliminate the risk of theft
-   due to hacking.
+   BitShares designs permissions around people rather than around cryptography which means that it is both easier to use
+   and to understand. Every account can be controlled by any weighted combination of other accounts and private keys.
+   This creates a hierarchical structure that reflects how permissions are organized in real life and makes multi-user
+   control over funds easier than ever.  Multi-user control is the single biggest contributor to security and when used
+   properly it can virtually eliminate the risk of theft due to hacking.
 ---
 
 ## Background
 
-The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the
-security of the platform.
+The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the security of the platform.
 While a single secret key may be compromised, multiple keys distributed over multiple locations add redundant
 protections which result in a far more secure experience.
 
@@ -78,7 +75,7 @@ change the *owner authority*.
 - The motivating use case is a 2-factor authentication provider being co-signer on the *active authority* but not on the
 *owner authority*.
 
-With this approach a user can remain confident that their account will always be in their control and yet that control can be kept in cold storage where no one can hack it.
+With this approach, a user can remain confident that their account will always be in their control and yet that control can be kept in cold storage where no one can hack it.
 This means that a company account can require approval of its board of directors and each board member may in turn
 require 2 factor authentication.
 
@@ -86,7 +83,7 @@ Anyone can rotate keys frequently without having to disturb the permissions on t
 
 ## Gathering Signatures
 
-One of the challenges that has made Multi Signature approaches difficult to use in the past is the act of gathering the
+One of the challenges that has made Multi-Signature approaches difficult to use in the past is that the act of gathering the
 required signatures was entirely manual or required specialized infrastructure.
 Once you sign a transaction there is no ability to retract your signature and the last party to sign gains a slight
 advantage over the other parties.
@@ -94,7 +91,7 @@ Gathering signatures gets even more complex the deeper the hierarchy.
 
 To simplify this process a block chain should manage the signature gathering process by tracking the state of partially
 approved proposed transactions.
-Under this process each account can add (or remove) their permission to a transaction atomically without having to rely
+Under this process, each account can add (or remove) their permission to a transaction atomically without having to rely
 upon an outside system to circulate the transaction.
 This becomes especially critical for hierarchies that could become arbitrarily deep.
 
@@ -105,7 +102,7 @@ When the first proposal (transaction) is approved, permission will be added to t
 
 **insert cass diagram here**
 
-Under this approach each individual pays a single transaction fee each time they approve an action and every action
+Under this approach, each individual pays a single transaction fee each time they approve an action and every action
 involves at most 1 signature verification by the network.
 
 This process allows arbitrarily deep hierarchies to be formed without exposing the permission system to vulnerability of
@@ -113,7 +110,7 @@ unbounded computation.
 
 ## Scalability
 
-In theory accounts could form a hierarchy that is arbitrarily deep and evaluating that hierarchy could take an arbitrary
+In theory, accounts could form a hierarchy that is arbitrarily deep and evaluating that hierarchy could take an arbitrary
 amount of time.
 In practice it is unlikely that a single transaction would have signatures more than 2 levels deep which keeps the
 computation bounded.
@@ -153,3 +150,9 @@ cycle in the *owner authority* and the *active authority* then the accounts invo
 Dynamic hierarchical threshold multi-signature permissions enables people and organizations to have a more natural way
 to express ownership and control policies
 This more natural approach will make the system easier to use and ultimately more secure than existing solutions.
+
+## Credits 
+
+The Ripple wiki has a documented, but unimplemented, proposal for a [similar Multisign feature](https://wiki.ripple.com/Multisign#Transaction_Proposal) that
+was discovered independently.  
+
