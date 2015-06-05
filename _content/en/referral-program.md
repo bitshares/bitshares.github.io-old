@@ -4,8 +4,6 @@ layout: default
 title: Referral Program
 ---
 
-# Referral Program
-
 BitShares is the first blockchain with a built in referral system designed to promote viral growth.
 Sign up a friend and collect 80% of their future transaction fees.
 Traditional payment companies expect to generate over $100 per user on average and many companies are

@@ -4,4 +4,4 @@ layout: default
 title: Download
 ---
 
-# Download
+{% include download.html %}

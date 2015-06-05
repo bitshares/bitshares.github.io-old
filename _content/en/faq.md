@@ -6,8 +6,6 @@ redirect_from:
     - /resources/distribution/
 ---
 
-# FAQ
-
 * TOC
 {:toc}
 

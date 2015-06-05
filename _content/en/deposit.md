@@ -6,8 +6,6 @@ redirect_from:
     - /deposit-withdraw/
 ---
 
-# Deposit
-
 There are many ways to move funds into or out of the BitShares ecosystem.
 
 ## Bridges/Gateways

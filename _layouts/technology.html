@@ -2,14 +2,10 @@
 layout: default
 ---
 
-<div class="container">
-
 <section class="posts wrapper">
 <div class="row">
 <div class="col-xs-12 col-md-12">
-<img style="float: right;margin-right: 42px;" class="hidden-xs"  src="{{ BASE_PATH }}/{{ page.image }}" />
 
-<h1 id="posttitle">{{ page.title }}</h1>
 <h4>{{ page.subtitle }}</h4>
 
 </div>
@@ -17,6 +13,7 @@ layout: default
 <div class="col-xs-12 col-md-9">
 
 <article class="postbody">
+<img style="float: right;" class="hidden-xs" src="{{ BASE_PATH }}/{{ page.image }}" />
     {{ page.summary }}
 
     <hr />
@@ -37,6 +34,5 @@ layout: default
 {% include tech_sidebar.html %}
 </aside>
 
-</div>
 </div>
 </section>

@@ -4,7 +4,6 @@ layout: default
 title: Roadmap
 ---
 
-# Roadmap
 This is the high-level roadmap for the BitShares core development team. Detailed development discussion can be found at
 the [official GitHub page](https://github.com/BitShares).
 

@@ -6,8 +6,6 @@ redirect_from:
     - /get-started/
 ---
 
-# Sign Up
-
 This tutorial will walk you through the process of getting a fully functional registered account on the BitShares blockchain.
 
 * TOC

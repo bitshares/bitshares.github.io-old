@@ -2,12 +2,9 @@
 layout: default
 ---
 
-<div class="container">
-
 <section class="posts wrapper">
 <div class="row">
 <div class="col-xs-12 col-md-9">
-<h1 id="posttitle">{{ page.title }}</h1>
 <span class="meta">
     <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time> | <i class="fa fa-clock-o"></i> {% include read_time.html %}
 
@@ -33,6 +30,5 @@ layout: default
 <aside>
 {% include right_sidebar.html %}
 </aside>
-</div>
 </div>
 </section>
