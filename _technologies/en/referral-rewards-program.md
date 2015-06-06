@@ -14,7 +14,7 @@ summary: >
     <a href="/referral-program">You can earn $80 or more for every Member you sign up</a>.
 ---
 
-### Promoting Infrastructure Development
+## Promoting Infrastructure Development
 
 The [BitShares Referral Program](/referral-program/){:target="_blank"} is designed to promote infrastructure development.
 All decentralized financial networks depend upon many business partners to build an ecosystem.  This means motivating
@@ -46,7 +46,7 @@ To overcome this problem we looked at what companies like PayPal did to reach cr
 
 Giving people money is both expensive and potentially unsustainable, but it has been proven to work.
 
-### Cost of Customer Acquisition vs Lifetime Value of Customer
+## Cost of Customer Acquisition vs Lifetime Value of Customer
 
 BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow.  In the
 article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/){:target="_blank"}, David
@@ -76,7 +76,7 @@ dollars if they go through an affiliate.  This value is realized over time based
 Even if a customer thinks we are over estimating by a factor of 4, BitShares is still offering a larger incentive than
 PayPal did.
 
-### Conclusion
+## Conclusion
 
 BitShares is built for viral growth and has industry leading incentives that are game changing.
 

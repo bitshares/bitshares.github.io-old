@@ -33,7 +33,7 @@ its own referrer it gets 80% cash back on every transaction fee it pays.
 
 Let's look at an example of how this system works in practice. Sam learns about BitShares after a
 Google search for "decentralized exchange" and decides to create an account. He chooses a hosted
-wallet provider such as [moonstone.io](http://moonstone.io) to create an account. Moonstone has already become a lifetime
+wallet provider such as [moonstone.io](http://moonstone.io){:target="_blank"} to create an account. Moonstone has already become a lifetime
 member, so when Moonstone creates an account for Sam it sets the registrar and referrer to
 Moonstone's account.
 
@@ -59,8 +59,8 @@ Please see the [Referral Program - Terms & Conditions](/referral-program-terms-a
 more details.
 
 <hr/>
-<sup>1.</sup> Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
-assumption that a user will perform 500 transactions in their life.
+<sup>1.</sup> <small>Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
+assumption that a user will perform 500 transactions in their life.</small>
 
-<sup>2.</sup> Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt to
-adjust the BTS registration fee to be approximately $100.
+<sup>2.</sup> <small>Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt to
+adjust the BTS registration fee to be approximately $100.</small>

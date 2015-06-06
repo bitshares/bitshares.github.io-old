@@ -106,7 +106,7 @@ future. Just be sure you don’t forget your wallet password from the first step
 At this point, the BitShares application will ask you for a location to save your wallet file. Select the location
 of your choosing, click Save, and you are done!
 
-<img class="img-responsive" src="/images/get-started/12_save_backup.png" width="800px" />
+<img class="img-responsive" src="/images/get-started/12_save_backup.png" width="432px" />
 
 **NOTE: While you only have to do this once to recover your balances, we recommend that you do this periodically to
 avoid losing your transaction history.**
