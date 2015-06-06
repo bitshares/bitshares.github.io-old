@@ -7,7 +7,7 @@ priority: 1
 summary: >
     BitShares has an advanced referral program built into the software.
     Financial networks derive their value mostly from
-    <a href="http://en.wikipedia.org/wiki/Network_effect">Network Effect</a>.
+    <a target="_blank" href="http://en.wikipedia.org/wiki/Network_effect">Network Effect</a>.
     The more people that use the same network the more value that network has to the users.
     BitShares rewards those who sign up new users that actually use the network and does so in a fully transparent and
     automated way.
@@ -16,7 +16,7 @@ summary: >
 
 ### Promoting Infrastructure Development
 
-The [BitShares Referral Program](/referral-program/) is designed to promote infrastructure development.
+The [BitShares Referral Program](/referral-program/){:target="_blank"} is designed to promote infrastructure development.
 All decentralized financial networks depend upon many business partners to build an ecosystem.  This means motivating
 entrepreneurs to build businesses such as Exchanges, Merchant Services, Hosted Wallets, Light Weight Wallets, and Block
 Explorers around the network.   With the BitShares referral program, merchants can now earn significantly more by
@@ -29,8 +29,7 @@ in increasing network effect for BitShares.
 
 ### Background - PayPal's Referral System
 
-Bootstrapping a new financial network is very hard and is often a [chicken or the
-egg](http://en.wikipedia.org/wiki/Chicken_or_the_egg) problem.  It is difficult to attract new users because new users
+Bootstrapping a new financial network is very hard and is often a [chicken or the egg](http://en.wikipedia.org/wiki/Chicken_or_the_egg){:target="_blank"}  problem.  It is difficult to attract new users because new users
 will only join if there are existing users.
 
 To overcome this problem we looked at what companies like PayPal did to reach critical mass.
@@ -50,7 +49,7 @@ Giving people money is both expensive and potentially unsustainable, but it has 
 ### Cost of Customer Acquisition vs Lifetime Value of Customer
 
 BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow.  In the
-article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/), David
+article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/){:target="_blank"}, David
 Skok shared the lessons he learned after watching several hundred startups that had failed.
 
 <i>However after closely watching several hundred startups that have failed, I observed that a very large number of
@@ -60,7 +59,7 @@ at a low enough cost.</i>
 A well balanced business model must have a cost of user acquisition that is much lower than the businesses ability to
 monetize its customers.
 
-<center><img src="/images/wellbalanced.png"/></center>
+<center><img class="img-responsive img-thumbnail" src="/images/wellbalanced.svg"/></center>
 
 In the case of BitShares this means setting transaction fees that are high enough to cover all costs, including the cost
 of customer acquisition, while still being low enough to compete against real competitors.  Most crypto-currency
@@ -81,4 +80,4 @@ PayPal did.
 
 BitShares is built for viral growth and has industry leading incentives that are game changing.
 
-[Learn More](/referral-program/)
+<button class="btn">[Learn More](/referral-program/)</button>

@@ -12,8 +12,6 @@ $('#subnav').affix({
 });
 
 
-
-
 // Autohiding Top Nav 
 
 

@@ -47,7 +47,7 @@ serve a similar role of validating signatures and timestamping transactions by i
 
 Under DPOS the stakeholders can elect any number of witnesses to generate blocks.  A block is a group of
 transactions which update the state of the database.   Each account is allowed one vote per share per witness, a
-process known as [approval voting](http://en.wikipedia.org/wiki/Approval_voting).  The top N witnesses by total
+process known as [approval voting](http://en.wikipedia.org/wiki/Approval_voting){:target="_blank"}.  The top N witnesses by total
 approval are selected.  The number (N) of witnesses is defined such that at least 50% of voting stakeholders
 believe there is sufficient decentralization.   When a stakeholder expresses their desired number of witnesses,
 she must also vote for at least that many witnesses.   A stakeholder cannot vote for more decentralization

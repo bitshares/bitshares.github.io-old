@@ -72,7 +72,7 @@ assets.
 ## Company Shares
 
 Corporate shares are heavily regulated by the SEC, but none of those regulations prevent them from being issued or
-traded on an [alternative trading system](http://en.wikipedia.org/wiki/Alternative_trading_system).  The regulations in
+traded on an [alternative trading system](http://en.wikipedia.org/wiki/Alternative_trading_system){:target="_blank"}.  The regulations in
 many jurisdictions require all shares to be registered (aka held by known identities).   With BitShares your corporate
 shares can be used as collateral for a bond or be used in any number of smart contracts.
 
@@ -113,7 +113,7 @@ game items.
 
 ## Privatized BitAssets (Stable Crypto Currencies)
 
-[Price-stable crypto-currencies](/technology/price-stable-cryptocurrencies.html) (aka BitAssets) were the inspiration
+[Price-stable crypto-currencies](/technology/price-stable-cryptocurrencies.html){:target="_blank"} (aka BitAssets) were the inspiration
 for BitShares.  Now users can create their own price stable assets with custom parameters designed to track the value of
 any asset they can imagine.  The benefit of price-stable crypto-currencies are that they are fully collateralized and
 the issuer only needs to be trusted to appoint an honest set of independent (non collusive) feed producers.   Unlike
@@ -135,7 +135,7 @@ Arbitrary financial indexes can be used for the price feed to mimic all manner o
 
 ## Information/Prediction Markets
 
-A [prediction market](http://en.wikipedia.org/wiki/Prediction_market) is a specialization of BitAssets where there is no
+A [prediction market](http://en.wikipedia.org/wiki/Prediction_market){:target="_blank"} is a specialization of BitAssets where there is no
 need for margin calls or forced settlement because all positions are fully collateralized at any price.   A prediction
 market has a price between 0 and 1 and the issuer settles all positions after the event occurs and the final price is
 known.   These prediction markets can be very secure if the issuer is a multi-sig account with may independent and

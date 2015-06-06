@@ -14,7 +14,7 @@ redirect_from:
     - /delegates/
 ---
 
-<center> <img width="800px" src="/images/cashflow.png"/></center>
+<img class="img-responsive img-thumbnail" src="/images/cashflow.png"/>
 
 ## Income
 
