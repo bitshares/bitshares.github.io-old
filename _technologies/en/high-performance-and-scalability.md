@@ -193,3 +193,5 @@ nor does it require dividing the processing among all the nodes on the network. 
 a high-performance blockchain is to remove all calculations that are not part of the critical, order-dependent,
 evaluation from the core business logic and to design a protocol that facilitates these kinds of optimizations.   This
 is what BitShares has done.
+
+[Measuring Performance & Scalability](/blog/2015/06/08/measuring-performance/)
