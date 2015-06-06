@@ -11,7 +11,7 @@ summary: >
     automated way.
 ---
 
-### Promoting Infrastructure Development
+## Promoting Infrastructure Development
 
 The [BitShares Referral Program](/referral-program/) is designed to promote infrastructure development.
 All decentralized financial networks depend upon many business partners to build an ecosystem.  This means motivating
@@ -24,7 +24,7 @@ Free market competition will result in many different hosted wallet providers co
 these providers will have financial incentive to advertise their wallets by traditional means which in turn will result
 in increasing network effect for BitShares.
 
-### Background - PayPal's Referral System
+## Background - PayPal's Referral System
 
 Bootstrapping a new financial network is very hard and is often a [chicken or the
 egg](http://en.wikipedia.org/wiki/Chicken_or_the_egg) problem.  It is difficult to attract new users because new users
@@ -44,7 +44,7 @@ To overcome this problem we looked at what companies like PayPal did to reach cr
 
 Giving people money is both expensive and potentially unsustainable, but it has been proven to work.
 
-### Cost of Customer Acquisition vs Lifetime Value of Customer
+## Cost of Customer Acquisition vs Lifetime Value of Customer
 
 BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow.  In the
 article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/), David
@@ -74,7 +74,7 @@ dollars if they go through an affiliate.  This value is realized over time based
 Even if a customer thinks we are over estimating by a factor of 4, BitShares is still offering a larger incentive than
 PayPal did.
 
-### Conclusion
+## Conclusion
 
 BitShares is built for viral growth and has industry leading incentives that are game changing.
 
