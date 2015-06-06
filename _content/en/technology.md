@@ -17,9 +17,20 @@ features which are not found elsewhere within the smart contract industry:
 
 {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
 {% for technology in technologies  %}
+<div class="row tech-toc">
+  <div class="col-xs-12 ">
 
-### <a href="{{ technology.url }}">{{ technology.title }}</a> - {{ technology.subtitle }}
-{{ technology.summary }}
+    <h3 class="tech-title"><a href="{{ technology.url }}">{{ technology.title }}</a> - {{ technology.subtitle }}</h3>
+</div>
+
+  <div class="col-xs-12 col-md-2 ">
+    <img class=" tech-toc" src="{{ BASE_PATH }}/{{ technology.image }}" />
+  </div>
+  <div class="col-xs-12 col-md-10 ">
+    {{ technology.summary }}
+  </div>
+ 
+</div>
 {% endfor %}
 
 ---

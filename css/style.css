@@ -48,7 +48,7 @@ background-color: #a9014b;
 .yellow.awesome {
 background-color: #ffb515;
 }     
-}
+
 
 /* @end */
 
@@ -79,6 +79,12 @@ body {
  }
 }*/
 
+.icon-bar{
+  color: #2e2e2e;
+  border-color: #2e2e2e;
+  background-color: #2e2e2e;
+  border-radius: 4px;
+}
 
 .p-top {
   padding-top: 80px;
@@ -196,8 +202,8 @@ h2 {
 
 
 h3 {
-	font-weight: 500;
-	font-size: 17px;
+	font-weight: 400;
+	font-size: 18px;
 	color: rgb(62, 69, 82);
 
 }
@@ -331,6 +337,12 @@ p.pitch a {
 hr {
 	margin-top: 2em;
 	margin-bottom: 3em;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 .asterisk {
@@ -586,11 +598,16 @@ ul.navbar-nav li {
 #mc_embed_signup input {
   color: #92A8B9;
   padding: 4px 8px;
-    box-shadow: 12px 1px 2px #444;
-  
+  box-shadow: 12px 1px 2px #444;
+  ext-align: left;
 }
 
-
+#mc_embed_signup input[placeholder] {
+      text-align: center;
+    }
+    
+    
+    
 #mc_embed_signup {
   max-width: 600px;
   border: 0px solid #FFF;
@@ -711,3 +728,20 @@ canvas {
 }
 
 
+/* @group Pages */
+
+/* Download */
+
+.download {
+  list-style: none;
+}
+
+.toc {
+  border: 1px solid #333;
+}
+
+img.tech-toc {
+  float: left;
+}
+
+/* @end */

@@ -13,7 +13,11 @@ The primary focus of BitShares 2.0 is on Performance, Reliability, Maintainabili
     incentive structure should motivate adoption far more effectively than any other blockchain.
 
 * TOC
+<div class="toc" data-spy="affix" data-offset-top="200" id="subnav">
 {:toc}
+</div>
+
+
 
 ## Technology Lessons
 
