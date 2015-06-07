@@ -77,4 +77,4 @@ PayPal did.
 
 BitShares is built for viral growth and has industry leading incentives that are game changing.
 
-<button class="btn">[Learn More](/referral-program/)</button>
+<button class="btn btn-more">[Learn More](/referral-program/)</button>

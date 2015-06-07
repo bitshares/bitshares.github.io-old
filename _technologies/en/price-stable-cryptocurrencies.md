@@ -24,7 +24,7 @@ issuer.   This can work well for transactions and as currency, but less well as 
 time and again that issuers often go bankrupt due to fraud, incompetence, or government intervention.
 
 More recent approaches have used a cryptocurrency as collateral in a [contract for
-difference](http://www.investopedia.com/terms/c/contractfordifferences.asp).  Under this approach, two parties can take
+difference](http://www.investopedia.com/terms/c/contractfordifferences.asp){:target="_blank"} .  Under this approach, two parties can take
 opposite sides of a trade where one party is guaranteed price stability and the other party is granted leverage.    This
 approach works well as long as there is sufficient collateral and the contract can be settled by an honest 3rd party
 with a price feed.  Unfortunately, a contract for difference is not fungible and has a explicit settlement date which
@@ -169,7 +169,7 @@ collateralized short position.  An analogy can be made to an insolvent bank conv
 
 Not every short seller will be happy with the rules offer by BitAssets.  They may want to borrow for a period of time
 with higher leverage and no risk of being force settled early.  BitShares offers these speculators the option to borrow
-BitUSD on the [bond market](technology/collateralized-bond-market.html){:target="_blank"} at interest.   The Bond Market allows speculators to leverage anything against anything else
+BitUSD on the [bond market](technology/collateralized-bond-market.html) at interest.   The Bond Market allows speculators to leverage anything against anything else
 while others earn interest on collateralized loans.   A Bond market is the perfect way for the market to establish a
 yield curve on BitAssets and free both sides of the market from dependency on the Price Feed.
 
