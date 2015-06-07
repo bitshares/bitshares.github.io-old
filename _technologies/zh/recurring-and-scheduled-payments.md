@@ -1,7 +1,7 @@
 ---
 permalink: /zh/technology/recurring-and-scheduled-payments/
 title: Recurring & Scheduled Payments
-subtitle: Managed debit authority and withdraw permissions for anyone
+subtitle: Integrated withdrawal permissions
 image: ../images/frontpage/icon-rec-payments.svg
 priority: 8
 summary: >
