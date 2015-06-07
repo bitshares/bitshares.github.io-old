@@ -62,7 +62,7 @@ body {
 	font-family: 'Proxima Nova Rg', "Helvetica Neue",Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
 	font-size: 16px;
-	color: #3E4552;
+	color: #2e2e2e;
 	line-height: 1.7em;
 	font-weight: 100;
 	margin: 0;
@@ -78,6 +78,17 @@ body {
  	font-weight: 300;
  }
 }*/
+
+
+a {
+color: #00A9E0;
+}
+
+
+a:hover {
+  text-decoration: none;
+  border-radius: 2px;
+}
 
 .icon-bar{
   color: #2e2e2e;
@@ -139,12 +150,12 @@ li {
 	margin-bottom: .5em;
 }
 h1 {
-	font-size: 2em;
-	font-weight: 300;
+	font-size: 24px;
 	margin-top: 1.2em;
 	margin-bottom: 0.5em;
 	color: #5B6A72;
-	font-family: 'Proxima Nova Lg', "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-weight: 100;
 	
 }
 
@@ -190,14 +201,14 @@ ul.menu li>ul {
 h1#posttitle {
   	color: #5B6A72;
   	letter-spacing: 1px;
-  	font-family: 'Proxima Nova Lg', "Helvetica Neue",Helvetica, Arial, sans-serif;
+  	font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
   	
 }
 
 h2 {
 	font-weight: 500;
-	font-size: 18.5px; /* gridfit */
-	color: #5B6A72
+	font-size: 24px; /* gridfit */
+	color: #5B6A72;
 }
 
 
@@ -205,6 +216,8 @@ h3 {
 	font-weight: 400;
 	font-size: 18px;
 	color: rgb(62, 69, 82);
+	font-family: 'Proxima Nova Lt';
+	
 
 }
 
@@ -486,6 +499,18 @@ ul.laundry-list {
 }
 
 
+.btn-more {
+  border: 1px solid #ACD7F7;
+  background: #fefefe;
+  color: #00A9E0;
+}
+
+.btn-more a {
+  text-decoration: none;
+  color: #ACD7F7;
+}
+
+
 a#inst-link {
    font-size: 15px;
    text-transform: uppercase;
@@ -580,6 +605,14 @@ ul.navbar-nav li {
       text-align: justify;
   
 }
+
+.postbody h2 {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 42px 0 0 0;
+    font-family: 'Proxima Nova Th';
+}
+
 
 .content {
     text-align: justify;
@@ -687,11 +720,12 @@ ul.navbar-nav li {
 
 h2.feature-title {
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 100;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 48px 0 48px 0 ;
+  font-family: 'Proxima Nova Th';
 }
 
 
