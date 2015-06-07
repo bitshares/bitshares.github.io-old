@@ -53,7 +53,7 @@ of the software.
 
 While we are convinced that the architecture is capable of 100,000 transactions per second, real world usage is unlikely
 to require anywhere near that performance for quite some time.
-Even the [NASDAQ only processes 35,000 messages (aka operations) per second](http://www.nasdaq.com/services/homw.stm)
+Even the [NASDAQ only processes 35,000 messages (aka operations) per second](http://www.nasdaq.com/services/homw.stm){:target="_blank"}
 and has only been tested to 60,000 TPS with eventual plans to upgrade to 100,000.
 
 We set up a benchmark to test real-time performance and found that we could easily process over 2000 transactions per

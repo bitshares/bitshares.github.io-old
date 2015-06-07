@@ -43,7 +43,7 @@ Under DPOS 2.0 the roles of delegates and users have been divided into several d
 ## Trading
 (coming soon)
 
-<center> <img src="/images/cashflow.png"/> </center>
+<center> <img class="img-responsive img-thumbnail" src="/images/cashflow.png"/> </center>
 
 ## Glossary (coming soon)
 

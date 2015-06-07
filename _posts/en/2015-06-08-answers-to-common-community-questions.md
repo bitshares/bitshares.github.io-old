@@ -2,9 +2,8 @@
 title: Community Questions for the Development Team
 ---
 
-Prior to the announcement, the BitShares community 
-was asked to collect a set of their concerns that they
-would like answered together with the announcement.
+Prior to the announcement, the BitShares community was asked to collect a set of their concerns that they would like
+answered together with the announcement.
 
 <!--more-->
 
@@ -27,7 +26,7 @@ would like answered together with the announcement.
 4. **Are Turing complete scripts/applications on the roadmap?**
 
    We are considering Turing complete models which are economically viable.  There are several ideas about this around
-   the office, and we plan to try some of them out in due course. 
+   the office, and we plan to try some of them out in due course.
 
 5. **Will the separated Worker/Delegate/Signer proposal be implemented in time?**
 

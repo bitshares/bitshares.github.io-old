@@ -38,6 +38,11 @@ Alice opts to use a service provider that performs 2-factor authentication on ev
 This protects both Alice and the company and the company does not need to change its permission structure to accommodate
 Alice's choice of 2-factor authentication provider.
 
+
+<img class="img-responsive img-thumbnail" src="/images/dynamic-accounts.png"/>
+
+
+
 ## Solution
 
 We introduce a new approach to permissions based upon accounts which are assigned globally unique IDs.
@@ -153,6 +158,6 @@ This more natural approach will make the system easier to use and ultimately mor
 
 ## Credits 
 
-The Ripple wiki has a documented, but unimplemented, proposal for a [similar Multisign feature](https://wiki.ripple.com/Multisign#Transaction_Proposal) that
+The Ripple wiki has a documented, but unimplemented, proposal for a [similar Multisign feature](https://wiki.ripple.com/Multisign#Transaction_Proposal){:target="_blank"} that
 was discovered independently.  
 

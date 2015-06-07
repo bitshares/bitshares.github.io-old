@@ -47,8 +47,8 @@ Member and $20 goes to the Network.  Annual Members do not qualify for a 50% Cas
 
 Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/) for more details.
 
-<hr/> <sup>1.</sup> Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt
-to adjust the BTS registration fee to be approximately $100.
+<hr/> <sup>1.</sup><small>Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt
+to adjust the BTS registration fee to be approximately $100.</small>
 
-<sup>2.</sup> Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
-assumption that a user will perform 500 transactions in their life.
+<sup>2.</sup><small>Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
+assumption that a user will perform 500 transactions in their life.</small>

@@ -14,7 +14,7 @@ summary: >
    maintain the network for years, even with no price appriciation.
 ---
 
-<center> <img width="800px" src="/images/cashflow.png"/></center>
+<img class="img-responsive img-thumbnail" src="/images/cashflow.png"/>
 
 ## Income
 

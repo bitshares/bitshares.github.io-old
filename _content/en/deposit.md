@@ -15,13 +15,13 @@ They simplify the process of moving funds from one blockchain-based crypto curre
 For instance, you can buy bitUSD with Bitcoin at (close to) market rates quickly.
 Some services are:
 
-- [BlockTrades](https://blocktrades.us/)
-- [MetaExchange](https://metaexchange.info/)
-- [ShapeShift](https://shapeshift.io/)
-- [BTSBots](https://www.btsbots.com/)
-- [X-Chain](http://xchain.info/)
-- [CryptoMate](https://cryptomate.co.uk/)
-- [AltQuick](https://www.altquick.co/)
+- [BlockTrades](https://blocktrades.us/){:target="_blank"} 
+- [MetaExchange](https://metaexchange.info/){:target="_blank"} 
+- [ShapeShift](https://shapeshift.io/){:target="_blank"} 
+- [BTSBots](https://www.btsbots.com/){:target="_blank"} 
+- [X-Chain](http://xchain.info/){:target="_blank"} 
+- [CryptoMate](https://cryptomate.co.uk/){:target="_blank"} 
+- [AltQuick](https://www.altquick.co/){:target="_blank"} 
 
 ## Exchanges
 
@@ -29,12 +29,12 @@ Most crypto-currency exchanges offer a wide variety of different crypto currency
 contrast to bridges not only allow for instant trades at market price, but also offer to put a
 buy/sell order at a desired price.
 
-- [BTC38](http://www.btc38.com/trade_en.html)
-- [CCEDK](https://www.ccedk.com/)
-- [Yunbi](https://yunbi.com/?lang=en)
-- [Bter](https://bter.com/)
-- [Poloniex](https://www.poloniex.com/)
-- [Bittrex](https://bittrex.com/)
-- [Bitcoin Indonesia](https://vip.bitcoin.co.id/)
-- [TradeBTS](http://www.tradebts.com/)
-- [Coinport](https://exchange.coinport.com/)
+- [BTC38](http://www.btc38.com/trade_en.html){:target="_blank"} 
+- [CCEDK](https://www.ccedk.com/){:target="_blank"} 
+- [Yunbi](https://yunbi.com/?lang=en){:target="_blank"} 
+- [Bter](https://bter.com/){:target="_blank"} 
+- [Poloniex](https://www.poloniex.com/){:target="_blank"} 
+- [Bittrex](https://bittrex.com/){:target="_blank"} 
+- [Bitcoin Indonesia](https://vip.bitcoin.co.id/){:target="_blank"} 
+- [TradeBTS](http://www.tradebts.com/){:target="_blank"} 
+- [Coinport](https://exchange.coinport.com/){:target="_blank"} 

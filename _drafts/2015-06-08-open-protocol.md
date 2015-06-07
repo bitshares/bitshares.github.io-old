@@ -4,7 +4,7 @@ title: Open Protocol, Transparent Code
 
 BitShares is first and foremost a protocol based upon a public ledger.  Anyone may provide and distribute an alternative
 implementation of the protocol and use the protocol for any other blockchain.  The [Graphene Toolkit produced by
-Cryptonomex, Inc](http://cryptonomex.com) is only one possible implementation of the protocol.
+Cryptonomex, Inc](http://cryptonomex.com){:target="_blank"} is only one possible implementation of the protocol.
 
 <!--more-->
 

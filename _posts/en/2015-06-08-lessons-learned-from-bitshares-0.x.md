@@ -12,8 +12,14 @@ The primary focus of BitShares 2.0 is on Performance, Reliability, Maintainabili
     handle VISA level transaction volumes.  In addition to performance, the built-in fee structure and revenue sharing
     incentive structure should motivate adoption far more effectively than any other blockchain.
 
+
+
 * TOC
 {:toc}
+
+
+
+
 
 ## Technology Lessons
 
@@ -133,7 +139,7 @@ without any loss in precision.
 
 ### Membership Organization, not Decentralized Company
 
-A [working paper](http://www.scribd.com/doc/255347578/SWARM-Working-Paper-Distributed-Networks-and-the-Law), summarizing
+A [working paper](http://www.scribd.com/doc/255347578/SWARM-Working-Paper-Distributed-Networks-and-the-Law){:target="_blank"}, summarizing
 the takeaways from the aforementioned workshop and published by CoinDesk, says that tokens for a Decentralized
 Collaborative Organization represent “membership” in it. Holders of such tokens are granted unique rights in the
 organization, and are effectively “managers and/or partners” in its success. The membership may or may not be

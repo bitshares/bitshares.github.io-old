@@ -12,9 +12,9 @@ summary: >
 ---
 
 Throughout history, centralized exchanges have often proven unreliable and
-untrustworthy.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/),
-[Mt. Gox](http://www.wired.com/2014/03/bitcoin-exchange/), or
-[BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/), many people have been cheated because they allowed a 3rd party to hold their funds. It doesn't matter how
+untrustworthy.  Whether it is [MF Global](http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/){:target="_blank"},
+[Mt. Gox](http://www.wired.com/2014/03/bitcoin-exchange/){:target="_blank"}, or
+[BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/){:target="_blank"}, many people have been cheated because they allowed a 3rd party to hold their funds. It doesn't matter how
 big they are, or how many auditors, regulators or insurers are involved, every kind of fraud,
 abuse, and theft can occur. These transgressions happen frequently throughout centralized banks and exchanges around the world. It is time for a change.
 Keep reading to learn about the benefits you will get from using the world's first fully decentralized exchange, BitShares.
@@ -46,7 +46,7 @@ their trading bots are making decisions so fast that the speed of light becomes 
 decentralized exchange is location neutral and gives everyone equal opportunity.
 
 ## Secure
-Every [Dollar, Euro, bitcoin and ounce of gold held as a BitAsset](/technology/price-stable-cryptocurrencies) on the BitShares exchange is backed by up to twice the
+Every [Dollar, Euro, bitcoin and ounce of gold held as a BitAsset](/technology/price-stable-cryptocurrencies){:target="_blank"} on the BitShares exchange is backed by up to twice the
 reserves of traditional centralized exchanges.  The traditional banking system has long practiced what
 I like to call *fictional* reserve banking, more commonly known as fractional reserve banking.  In the
 Bitcoin ecosystem we demand at least 100% reserve. A single hack, mistake, or theft can quickly turn a
@@ -61,7 +61,7 @@ be stolen because there are no private keys that can be compromised to steal the
 You can trade any amount, at any time, from anywhere without withdrawal limits.  All other
 legally compliant exchanges have daily withdrawal limits on the order of a couple thousand dollars.  If you wish to
 exceed those limits you must provide increasingly invasive levels of documentation.  Some exchanges, such as
-[Coinbase](http://coinbase.com),
+[Coinbase](http://coinbase.com){:target="_blank"},
 even [limit what you can do with your money after you have withdrawn
 it](http://cointelegraph.com/news/112319/coinbase-case-demonstrate-the-pitfalls-of-regulatory-compliance).  Other
 exchanges demand documentation of how you earned your crypto-currency.
@@ -70,9 +70,9 @@ With BitShares there is no one that must approve your account.  You have complet
 
 ## Low Fees
 At just a few cents per trade, BitShares is the cheapest exchange around.  Other exchanges charge a
-percentage of your transaction volume.  For a $1000 trade on [BitStamp](https://bitstamp.net) you will pay $5 vs less
+percentage of your transaction volume.  For a $1000 trade on [BitStamp](https://bitstamp.net){:target="_blank"} you will pay $5 vs less
 than $0.01 (Jan 2015) to make the same trade on the BitShares exchange.   The more traditional exchanges like
-[etrade](https://etrade.com) or [Scottrade](https://scottrade.com) charge over $5 per
+[etrade](https://etrade.com){:target="_blank"} or [Scottrade](https://scottrade.com){:target="_blank"} charge over $5 per
 trade. It doesn't get any cheaper than BitShares.
 
 ## Trade Almost Anything

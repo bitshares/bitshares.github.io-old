@@ -48,7 +48,7 @@ background-color: #a9014b;
 .yellow.awesome {
 background-color: #ffb515;
 }     
-}
+
 
 /* @end */
 
@@ -79,6 +79,12 @@ body {
  }
 }*/
 
+.icon-bar{
+  color: #2e2e2e;
+  border-color: #2e2e2e;
+  background-color: #2e2e2e;
+  border-radius: 4px;
+}
 
 .p-top {
   padding-top: 80px;
@@ -196,8 +202,8 @@ h2 {
 
 
 h3 {
-	font-weight: 500;
-	font-size: 17px;
+	font-weight: 400;
+	font-size: 18px;
 	color: rgb(62, 69, 82);
 
 }
@@ -333,6 +339,12 @@ hr {
 	margin-bottom: 3em;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 .asterisk {
 	margin-left: 0px;
 	color: #428BCA;
@@ -461,7 +473,6 @@ ul.laundry-list {
 
 
 .btn {
-   font-family: 'Proxima Nova Th';
    font-weight: 100;
    letter-spacing: 1px;
 }
@@ -497,6 +508,11 @@ ul.navbar-nav li {
   
 }
 
+.navbar-nav .btn-primary {
+ padding: 4px 12px;
+ margin: 10px 0 0 8px;
+}
+
 .logo {
   margin-top: 14px;
 }
@@ -508,7 +524,7 @@ ul.navbar-nav li {
 }
 
 
-#subnav.affix {
+#subnav.affix, #toc.affix {
     top: 20px;
     width: 260px;
 }
@@ -525,13 +541,13 @@ ul.navbar-nav li {
 
 
 @media (max-width: 960px) {
-    #subnav.affix {
+    #subnav.affix, #toc.affix {
         position: static;
     }  
 }
 
 
-#subnav ul li {
+#subnav ul li, #toc ul li {
   padding: 0;
   margin: 0;
   font-size: 90%;
@@ -586,11 +602,16 @@ ul.navbar-nav li {
 #mc_embed_signup input {
   color: #92A8B9;
   padding: 4px 8px;
-    box-shadow: 12px 1px 2px #444;
-  
+  box-shadow: 12px 1px 2px #444;
+  ext-align: left;
 }
 
-
+#mc_embed_signup input[placeholder] {
+      text-align: center;
+    }
+    
+    
+    
 #mc_embed_signup {
   max-width: 600px;
   border: 0px solid #FFF;
@@ -709,5 +730,38 @@ canvas {
   font-size: 80%;
 /*  background-color: #EAEDEF;*/
 }
+
+
+/* @group Pages */
+
+/* Download */
+
+.download {
+  list-style: none;
+}
+
+h3.toc  {
+  border-bottom: 1px solid #fefefe;
+}
+
+.toc ul  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.tech-toc-img {
+  text-align: center;
+ 
+}
+
+img.tech-toc {
+  width: 140px;
+  height: auto;
+}
+
+/* @end */
+
 
 

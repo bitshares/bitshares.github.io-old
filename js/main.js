@@ -11,8 +11,12 @@ $('#subnav').affix({
 
 });
 
+$('#toc').affix({
+  offset: {
+          top: 240
+        }
 
-
+});
 
 // Autohiding Top Nav 
 
