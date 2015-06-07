@@ -1,8 +1,5 @@
 ---
 permalink: /zh/technology/stakeholder-approved-project-funding/
-
-redirect_from:
-    - /delegates/
 title: Stakeholder-Approved Project Funding
 subtitle: A self-sustaining funding model
 image: ../images/frontpage/icon-funding.svg

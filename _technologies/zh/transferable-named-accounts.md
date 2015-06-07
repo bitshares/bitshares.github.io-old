@@ -1,5 +1,5 @@
 ---
-permalink: /technology/transferable-named-accounts/
+permalink: /zh/technology/transferable-named-accounts/
 title: Transferable Named Accounts
 subtitle: Make transfers easy, secure, and fun!
 image: ../images/frontpage/icon-corporate-acc.svg

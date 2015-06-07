@@ -1,7 +1,5 @@
 ---
 permalink: /zh/technology/high-performance-and-scalability/
----
-permalink: /technology/high-performance-and-scalability/
 title: High Performance and Scalability
 subtitle: Over 100,000 transactions per second
 image: ../images/frontpage/icon-performance.svg

@@ -3,64 +3,52 @@ permalink: /zh/referral-program/
 layout: default
 title: Referral Program
 ---
+Earn $80 or more for every lifetime member you sign up.
 
-BitShares is the first blockchain with a built in referral system designed to promote viral growth.
-Sign up a friend and collect 80% of their future transaction fees.
-Traditional payment companies expect to generate over $100 per user on average and many companies are
-willing to pay over $40 per user even without a clear monetization strategy.
-BitShares passes the vast majority of that revenue on to its members who sign up new users.
+BitShares™ has several different kinds of accounts: Basic Account, Annual Member, and Lifetime Member.
 
-When you join BitShares as a lifetime member you get many benefits.  Among these benefits are 80% cash back on all
-transaction fees, bulk discounts, and an opportunity to collect 80% of the fees paid by every user you sign up.  We estimate
-that the average fees paid over the lifetime of each user will be in excess of $100<sup>1</sup> which means you could
-earn over $80 per user.  The cost to join BitShares as a lifetime Member is just $100 which should easily
-pay for itself through cashback and referral rewards.
+**Basic Accounts** are free, but do not qualify for the referral program, nor any cash back on transaction fees.
 
-### How it Works
+**Annual Members** pay a subscription fee of $20<sup>1</sup>/year and earn 50% cash back on every fee they pay. They
+also qualify for up to 50% of the fees paid by anyone they refer to the network until their subscription expires.
 
-Every new account must be created by an existing account. This is a restriction enforced by the
-fact that account registration charges a transaction fee which requires an existing account to
-pay. The person who pays this transaction fee is known as the registrar. Generally speaking, the
-registrar is likely to be the wallet provider. If the registrar is a paid lifetime member then
-they have permission to divide the referral income between themselves and an optional referrer.
-If the registrar is not a paid lifetime member, the new account will inherit the referral
-allocation of the registrar's account. At any time, an account can upgrade to a paid lifetime
-member for about $100<sup>2</sup>. When an account is upgraded, the $100 upgrade fee is divided
-among the registrar and referrer and the account *becomes its own referrer*. When an account is
-its own referrer it gets 80% cash back on every transaction fee it pays.
+**Lifetime Members** pay  $100<sup>1</sup> and earn 80% cash back on every fee they pay. They also qualify for 80% of
+the fees paid by Basic Accounts they refer to the network.  Additionally, they qualify for 30% of every fee paid by any
+Annual Member they have referred.  In the event of a subscription expiration, the referral income falls back to the
+nearest Lifetime Member in the referral history.
 
-### Example
 
-Let's look at an example of how this system works in practice. Sam learns about BitShares after a
-Google search for "decentralized exchange" and decides to create an account. He chooses a hosted
-wallet provider such as [moonstone.io](http://moonstone.io) to create an account. Moonstone has already become a lifetime
-member, so when Moonstone creates an account for Sam it sets the registrar and referrer to
-Moonstone's account.
+These cashback referral rates, 50% and 80%, can be adjusted by the consensus of the BitShares Stakeholders at any time.
+Annual Accounts have their rates locked in for one year, while Lifetime Accounts have their rates locked in for life.
 
-After trying out BitShares, Sam decides that he likes it and would probably save money in the
-long-run by becoming a lifetime member and collecting 80% cash back on all of his transaction
-fees. When he upgrades, he pays a $100 upgrade fee which is divided between the BitShares network (20%)
-and Moonstone (80%).
+We estimate that the average fees paid over the lifetime of each Account will be in excess of $100<sup>2</sup>, which
+means that a membership could earn over $80 per referred user. Of course, it is your own responsibility to estimate how
+often you, and those you refer, will use the network. Keep in mind that the BitShares stakeholders have the ability to
+change transaction fees, which could impact future earnings.
 
-At this point Moonstone notifies Sam that he can participate in their affiliate program. Anytime
-a new user referred by Sam creates an account, Moonstone will share the referral income
-with Sam. The amount that Moonstone shares with its affiliates is entirely at the discretion of
-Moonstone, but for this example we will assume a 50/50 split.
+# Examples
 
-Sam likes the deal and refers Moonstone to his friend Alice. Alice creates an account with
-Moonstone and Moonstone is set as the registrar while Sam is set as the referrer earning 40%
-of every transaction fee paid by Alice. If Alice ultimately decides to become a lifetime member
-herself, then her $100 upgrade fee would be divided among the BitShares network ($20),
-Moonstone ($40) and Sam ($40).
 
-### Terms & Conditions
+When a user pays a $20 annual subscription fee to become an Annual Member, $10 is paid to their Referrer, $6 is paid to
+the nearest Lifetime Member, and $4 is paid to the Network.  The Annual Member becomes its own Referrer for one year.
+In one year, the renewal fee is divided in a similar manner to the original annual subscription.
 
-Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/) for
-more details.
+When an Basic Account pays $100 to become a Lifetime Member, $50 is paid to their Referrer, $30 is paid to the nearest
+Lifetime Member, and $20 is paid to the Network.   After this point the Lifetime Member becomes its own referrer and
+nearest Lifetime Member and its prior Referrers no longer get any revenue from this user.
 
-<hr/>
-<sup>1.</sup> Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
+If an account’s Referrer is an Annual Member whose subscription has expired, then the Referrer fee goes to the nearest
+Lifetime Member.
+
+If an Annual Member decides to upgrade to a Lifetime Member then $50 goes to his Referrer, $30 to the nearest Lifetime
+Member and $20 goes to the Network.  Annual Members do not qualify for a 50% Cashback Referral on the upgrade fee.
+
+# Terms & Conditions
+
+Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/) for more details.
+
+<hr/> <sup>1.</sup> Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt
+to adjust the BTS registration fee to be approximately $100.
+
+<sup>2.</sup> Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
 assumption that a user will perform 500 transactions in their life.
-
-<sup>2.</sup> Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt to
-adjust the BTS registration fee to be approximately $100.
