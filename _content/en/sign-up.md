@@ -6,12 +6,20 @@ redirect_from:
     - /get-started/
 ---
 
+
+
+<div class="row">
+
+
+
+<div class="col-xs-12 col-md-9 " markdown="1">
+--------
 This tutorial will walk you through the process of getting a fully functional registered account on the BitShares blockchain.
 
-* TOC
-{:toc}
 
------
+
+
+
 
 ## Step 1 - Download Software
 The first step is to download and install the BitShares client.
@@ -21,7 +29,7 @@ The first step is to download and install the BitShares client.
 After you have downloaded the latest version for your computer and installed the BitShares application, start it up and
 accept the license. You should then be presented with a screen asking you to set your wallet password.
 
-<img class="img-responsive" src="/images/get-started/1_welcome_page.jpg" width="800px" />
+<img class="img-responsive" src="/images/get-started/1_welcome_page.jpg" width="800" />
 
 Your password is used to protect your wallet, which contains your private keys while they are stored on your computer.
 Be sure to use a reasonably strong password and that your password is not used anywhere else.
@@ -33,7 +41,7 @@ because it has BitShares installed. We will walk you through the process of back
 The next step is to create an account where you should be presented with a screen similar to
 the screen shown below:
 
-<img class="img-responsive" src="/images/get-started/2_create_account.png" width="800px" />
+<img class="img-responsive" src="/images/get-started/2_create_account.png" width="800" />
 
 Once you have chosen an account name that you are happy with, click the Create New Account button.
 
@@ -110,3 +118,17 @@ of your choosing, click Save, and you are done!
 
 **NOTE: While you only have to do this once to recover your balances, we recommend that you do this periodically to
 avoid losing your transaction history.**
+
+</div><!-- /.col-9 -->
+<div class="col-xs-12 col-xs-pull col-md-3" markdown="1">
+<div class="toc" markdown="1">
+<div data-spy="affix" data-offset-top="200" id="toc" markdown="1">
+<h3>Table of Contents</h3>
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div>
+</div>
+
+</div><!-- /.row -->

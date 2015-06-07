@@ -524,7 +524,7 @@ ul.navbar-nav li {
 }
 
 
-#subnav.affix {
+#subnav.affix, #toc.affix {
     top: 20px;
     width: 260px;
 }
@@ -541,13 +541,13 @@ ul.navbar-nav li {
 
 
 @media (max-width: 960px) {
-    #subnav.affix {
+    #subnav.affix, #toc.affix {
         position: static;
     }  
 }
 
 
-#subnav ul li {
+#subnav ul li, #toc ul li {
   padding: 0;
   margin: 0;
   font-size: 90%;
@@ -740,8 +740,14 @@ canvas {
   list-style: none;
 }
 
-.toc {
-  border: 1px solid #333;
+h3.toc  {
+  border-bottom: 1px solid #fefefe;
+}
+
+.toc ul  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -757,48 +763,5 @@ img.tech-toc {
 
 /* @end */
 
-
-
-
-
-#toc, .toc, .mw-warning {
-    background-color: #F9F9F9;
-    border: 1px solid #AAAAAA;
-    font-size: 95%;
-    padding: 5px;
-}
-#toc h2, .toc h2 {
-    border: medium none;
-    display: inline;
-    font-size: 100%;
-    font-weight: bold;
-    padding: 0;
-}
-#toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
-    text-align: center;
-}
-#toc ul, .toc ul {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    text-align: left;
-}
-#toc ul ul, .toc ul ul {
-    margin: 0 0 0 2em;
-}
-#toc .toctoggle, .toc .toctoggle {
-    font-size: 94%;
-}
-
-#toc ul li {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-#toc-container {
-	margin-bottom: 10px;
-}
 
 

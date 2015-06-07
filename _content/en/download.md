@@ -14,7 +14,7 @@ Please see the [Sign Up page](/sign-up/) if you are a new user.
 - SSD
 
 ## Technical Support
-Technical support is available in the community [Technical Support subforum](https://bitsharestalk.org/index.php/board,45.0.html) {:target="_blank"}.
+Technical support is available in the community [Technical Support subforum](https://bitsharestalk.org/index.php/board,45.0.html){:target="_blank"}.
 
 ## Experimental
 
