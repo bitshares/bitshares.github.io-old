@@ -3,7 +3,7 @@ title: Community Questions for the Development Team
 ---
 
 Prior to the announcement, the BitShares community 
-[was asked](https://bitsharestalk.org/index.php/topic,16382.0/all.html) to collect a set of their concerns that they
+was asked to collect a set of their concerns that they
 would like answered together with the announcement.
 
 <!--more-->
