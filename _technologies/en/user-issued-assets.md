@@ -1,7 +1,7 @@
 ---
 permalink: /technology/user-issued-assets/
 title: User-Issued Assets
-subtitle: Regulation-compatible stock and bond issuance
+subtitle: Regulation-compatible cryptoasset issuance.
 image: ../images/frontpage/icon-asset-ident.svg
 priority: 5
 summary: >
@@ -10,7 +10,6 @@ summary: >
     a type of custom token registered on the platform, which users can hold and trade within certain
     restrictions. The creator of such an asset publically names, describes, and distributes its tokens, and can specify customized requirements, such as an approved whitelist of accounts permitted to hold the tokens, or the associated trading and transfer fees.
 ---
-
 BitShares allows individuals and companies to issue their own tokens for anything they can imagine.  Common use cases
 include:
 
@@ -28,7 +27,7 @@ Following are a few example use cases for user-issued assets.
 Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these
 assets among their depositors.   Companies like Dwolla and Paypal essentially issue deposit receipts, and then
 offer cheaper transfers among their users than between banks.  With BitShares, it is now possible to move these
-internal databases onto the blockchain where the deposits can be used with other smart contracts such as the internal
+internal databases onto the block chain where the deposits can be used with other smart contracts such as the internal
 markets, escrow, or bonds.
 
 In talking to many different banks and exchanges, we have learned a lot about what the law requires of those who wish
@@ -55,7 +54,7 @@ can determine whether or not they wish to revoke this privilege, but it may be a
 An issuer who offers both USD and EUR deposits may need to restrict direct trading between their USD and EUR assets to
 avoid being subject to foreign currency exchange regulations.  Some cryptocurrency exchanges allow trading between fiat and
 cryptocurrencies, but not between two fiat currencies.   Without this feature, many exchanges would be unable to
-issue their assets on the BitShares blockchain.
+issue their assets on the BitShares block chain.
 
 ### 4. Transfer Restrictions
 
@@ -105,9 +104,10 @@ can remain functional even if the company that produced the license goes out of 
 Trading cards can be simulated by creating many limited issue assets.   Online games can use these assets to represent
 game items.
 
-## Privatized BitAssets (Stable Crypto Currencies)
+## Privatized BitAssets (Stable Cryptocurrencies)
 
-[Price-stable crypto-currencies](/technology/price-stable-cryptocurrencies.html){:target="_blank"} (aka BitAssets) were the inspiration
+<<<<<<< HEAD
+[Price-stable cryptocurrencies](/technology/price-stable-cryptocurrencies.html){:target="_blank"} (aka BitAssets) were the inspiration
 for BitShares.  Now, users can create their own price-stable assets with custom parameters designed to track the value of
 any asset they can imagine.  The benefit of price-stable cryptocurrencies is that they are fully collateralized, and
 the issuer only needs to be trusted to appoint an honest set of independent (non-collusive) feed producers.   Unlike
@@ -123,8 +123,9 @@ restrictions, the issuer of a private BitAsset has control over:
 5. Price Feed Update Rate
 6. Global Forced Settlement
 
-With these tools, it is possible to emulate a pure contract-for-difference with periodic global forced settlement (ie:
-        monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30-day delay on forced settlement.
+With these tools it is possible to emulate a pure contract for difference with periodic global forced settlement (ie:
+        monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30 day delay on forced settlement.
+
 Arbitrary financial indexes can be used for the price feed to mimic all manner of exotic assets.
 
 ## Information/Prediction Markets

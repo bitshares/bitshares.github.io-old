@@ -1,7 +1,7 @@
 ---
 permalink: /technology/referral-rewards-program/
 title: Referral Rewards Program
-subtitle: Network growth through adoption rewards
+subtitle: Network growth through adoption rewards.
 image: ../images/frontpage/icon-referral.svg
 priority: 1
 summary: >
@@ -52,10 +52,10 @@ monetize its customers.
 <center><img class="img-responsive img-thumbnail" src="/images/wellbalanced.svg"/></center>
 
 In the case of BitShares, this means setting transaction fees that are high enough to cover all costs, including the cost
-of customer acquisition, while still being low enough to compete against real competitors.  Most crypto-currency
+of customer acquisition, while still being low enough to compete against real competitors.  Most cryptocurrency
 networks barely charge enough in transaction fees to cover the cost of running the network.  They attempt to attract
 users with low fees.  While low fees are important, undervaluing the service provided is counter productive.  For this
-reason, BitShares charges a price that is much higher than competing crypto-currencies but much lower than traditional
+reason, BitShares charges a price that is much higher than competing cryptocurrencies but much lower than traditional
 exchanges and payment networks like Dwolla or PayPal.
 
 To ensure the cost of customer acquisition is sustainable, the BitShares referral system is designed to always pay out a
