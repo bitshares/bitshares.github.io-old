@@ -16,8 +16,8 @@ untrustworthy.  Whether it is [MF Global](http://www.forbes.com/sites/francinemc
 [Mt. Gox](http://www.wired.com/2014/03/bitcoin-exchange/){:target="_blank"}, or
 [BitStamp](http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/){:target="_blank"}, many people have been cheated because they allowed a 3rd party to hold their funds. It doesn't matter how
 big they are, or how many auditors, regulators or insurers are involved, every kind of fraud,
-abuse, and theft can still occur. These transgressions happen frequently throughout centralized banks and exchanges around the world. It is time for a change.
-Keep reading to learn about the benefits of using the world's first fully-decentralized exchange, BitShares.
+abuse, and theft can occur. In the modern financial system, these transgressions happen all too frequently within centralized banks and exchanges operating across the world. It is time for a change.
+Keep reading to learn about the benefits of using the world's first fully decentralized exchange, BitShares.
 
 ## Decentralized
 Decentralization gives BitShares robustness against failure.  When a centralized exchange is
@@ -53,7 +53,7 @@ Bitcoin ecosystem, we demand at least 100% reserve. A single hack, mistake, or t
 100% reserve system into a fractional reserve system, or worse, a no reserve system.  Without any
 reserves, it is unlikely that an exchange can give you the funds it owes you.
 
-By always maintaining reserves, you can rest assured that BitShares is solvent in almost any market.  All of the reserves are kept as BTS held on the blockchain, and they cannot
+By always maintaining reserves, you can rest assured that BitShares is solvent in almost any market.  All of the reserves are kept as BTS held on the block chain, and they cannot
 be stolen, because there are no private keys that can be compromised to steal the reserves.
 
 ## No Limits
@@ -62,8 +62,8 @@ legally compliant exchanges have daily withdrawal limits.  Those who wish to
 exceed standard limits must provide increasingly invasive levels of documentation.  Some exchanges, such as
 [Coinbase](http://coinbase.com){:target="_blank"},
 even [limit what you can do with your money after you have withdrawn
-it](http://cointelegraph.com/news/112319/coinbase-case-demonstrate-the-pitfalls-of-regulatory-compliance).  Other
-exchanges demand documentation of how you earned your cryptocurrency.
+it](http://cointelegraph.com/news/112319/coinbase-case-demonstrate-the-pitfalls-of-regulatory-compliance){:target="_blank"}.
+Other exchanges demand documentation of how you earned your cryptocurrency.
 
 With BitShares, no one must approve your account.  You have complete financial freedom.
 
@@ -71,22 +71,22 @@ With BitShares, no one must approve your account.  You have complete financial f
 (TODO: is this paragraph still true?) 
 At just a few cents per trade, BitShares is one of the cheapest exchanges around.  Other exchanges charge a
 percentage of your transaction volume.  For a $1000 trade on [BitStamp](https://bitstamp.net){:target="_blank"} you will pay $5 vs less
-than $0.01 (Jan 2015) to make the same trade on the BitShares exchange. The more traditional exchanges like
-[etrade](https://etrade.com){:target="_blank"} or [Scottrade](https://scottrade.com){:target="_blank"} charge over $5 per
-trade. It doesn't get any cheaper than BitShares.
+<<<<<<< HEAD
+than $0.01 (Jan 2015) to make the same trade on the BitShares exchange.   The more traditional exchanges like
+[E-Trade](https://etrade.com){:target="_blank"} or [Scottrade](https://scottrade.com){:target="_blank"} charge over $5 per
+trade. Taking these price comparisons into consideration, clearly it doesn't get any cheaper than BitShares.
 
 ## Trade Almost Anything
 Trade in Gold, Sliver, Gas, and Oil in addition to your national currency and cryptocurrencies.  Few limits exists on what can be traded on the BitShares exchange, given enough interest.  The BitShares exchange can support
 assets that can track stocks, bonds, indexes, or inflation.  Companies can issue their own stock on the BitShares
 network and allow easy, low-cost trading with complete protection against naked shorting.  What other cryptocurrency
-exchange allows you to trade in gold and silver?  [Learn more](/technology/price-stable-cryptocurrencies/){:target="_blank"} about how BitShares creates trust-free digital assets pegged to
-almost anything.
+exchange allows you to trade in gold and silver?  [Learn more](/technology/price-stable-cryptocurrencies/){:target="_blank"} about how BitShares creates trust-free digital assets pegged to almost anything.
 
 ## Roles of an Exchange
 
 The roles that traditional exchanges perform today encompass:
 
-1. Receiving crypto-currency and issuing IOUs.
+1. Receiving cryptocurrency and issuing IOUs.
 2. Receiving fiat and issuing IOUs.
 3. Processing an order book.
 4. Redeeming IOUs.
@@ -101,7 +101,7 @@ pressure, from both the thief looking to cash in their loot, and from regular us
 
 ## Centralization Compromises Privacy
 
-Crypto-currencies depend upon a public ledger, which makes privacy challenging, because everyone can see every
+Cryptocurrencies depend upon a public ledger ,which makes privacy challenging, because everyone can see every
 transaction.   Bitcoin gives every user one or more account numbers, and that gives many people a false sense of
 security.   People assume that as long as no one knows your account number and you use a new account number with every
 transaction that no one can tie all of your bitcoins to your real life identity.
@@ -121,27 +121,26 @@ vast majority of market share.
 
 There is no reason why the same entity needs to be responsible for issuing IOUs and for processing the order book.  It
 is only because these two roles are combined that we have a tendency toward centralization in the Bitcoin exchange
-space.  If we want to create a decentralized exchange then the first step is to move the order book on to the blockchain
+space.  If we want to create a decentralized exchange then the first step is to move the order book on to the block chain
 where everyone can see it.
 
-In this model, exchanges merely become gateways that receive USD and issue GatewayUSD on the blockchain.  Later, they receive
-GatewayUSD and then execute a wire transfer.   They will make their money entirely on transaction fees and not from a
-percentage of market fees.
+In this model, exchanges merely become gateways that receive USD and issue GatewayUSD on the block chain.  Later, they receive GatewayUSD and then execute a wire transfer.   
+They will make their money entirely on transaction fees and not from a percentage of market fees.
 
 The blockchain allows users to trade, for example, BitstampUSD against BitfinexUSD, in order to easily move funds from one gateway to another.  Users could even trade BitstampUSD against BitstampBTC or BitstampUSD vs BitfinexBTC.
 
-Unfortunately, simply moving the order book to the blockchain is not enough, because the market will naturally centralize
+Unfortunately, simply moving the order book to the block chain is not enough, because the market will naturally centralize
 around a few gateway IOUs and the markets for them.  BitstampUSD is not fungible with BitfinexUSD because they have
 different trust profiles and regulatory considerations.   Any of these IOUs are subject to default just like the IOUs
 that currently exist on the exchanges' internal databases.   What we need to do is move the trust from individual
-issuers to the blockchain itself.
+issuers to the block chain itself.
 
-## Collateralized Blockchain IOUs
+## Collateralized Block Chain IOUs
 
 The heart of BitShares is the BitAsset system which
 enables the creation of 200% collateralized IOUs from the BitShares network.   A BitUSD has all of the properties of
 Bitcoin combined with the price stability of the US dollar.  At any point in time you can sell a BitUSD for at least 1
-dollar worth of BTS.  If at any time the value of the collateral falls below a certain point the blockchain will
+dollar worth of BTS.  If at any time the value of the collateral falls below a certain point the block chain will
 automatically buy back the BitUSD with a dollars worth of BTS.
 
 When you hold BitUSD the value of your holdings will remain pegged to the dollar so long as BitShares itself has
@@ -151,6 +150,7 @@ then stay there.   No legitimate, widely adopted cryptocurrency has ever seen th
 that BitUSD is secure against just about everything but an unfixable software bug in the BitShares protocol itself.
 By the time BitShares matures to the level Bitcoin is at today, we expect the probability of that kind of bug to
 be similar to that of Bitcoin having such an event.
+
 
 ## Global Unified Order Book
 

@@ -1,7 +1,7 @@
 ---
 permalink: /technology/dynamic-account-permissions/
 title: Dynamic Account Permissions
-subtitle: Management for the corporate environment
+subtitle: Management for the corporate environment.
 image: ../images/frontpage/icon-corporate-acc.svg
 priority: 3
 summary: >
@@ -14,17 +14,17 @@ summary: >
 
 ## Background
 
-The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the security of the platform.
+The ability to require multiple digital signatures for sensitive operations on the block chain is integral to the security of the platform.
 While a single secret key may be compromised, multiple keys distributed over multiple locations add redundant
 protections, which result in a far more secure experience.
 
-Competing blockchain systems suffer from the following shortcomings:
+Competing block chain systems suffer from the following shortcomings:
 
-- The N-of-M model cannot sufficiently reflect the management hierarchies of many real-life organizations
-- Equal weighting of M keys is not sufficient to express asymmetric ownership over an account
-- Coordination and signing must be done completely out-of-band
-- Keys cannot be changed without coordinating with all other parties
-- Signatures cannot be retracted while waiting on other parties
+- The M-of-N model cannot sufficiently reflect the management hierarchies of many real-life organizations.
+- Equal weighting of M keys is not sufficient to express asymmetric ownership over an account.
+- Coordination and signing must be done completely out-of-band.
+- Keys cannot be changed without coordinating with all other parties.
+- Signatures cannot be retracted while waiting on other parties.
 
 ## Use Case
 
@@ -87,8 +87,7 @@ Anyone can rotate keys frequently without having to disturb the permissions on t
 
 One of the challenges that has made multi-signature approaches difficult to use in the past is that the act of gathering the
 required signatures was entirely manual, or required specialized infrastructure.
-Once a transaction is signed, there is no ability to retract your signature, so the last party to sign gains a slight
-advantage over the other parties.
+Once a transaction is signed, there is no ability to retract your signature, so the last party to sign gains a slight advantage over the other parties.
 With deeper hierarchies, gathering signatures becomes even more complex.
 
 To simplify this process, a block chain should manage the signature gathering process by tracking the state of partially
@@ -102,7 +101,7 @@ If more than two layers of hierarchy are present, then an account will have to p
 approve a proposal (the other transaction).
 When the first proposal (transaction) is approved, permission is then added to the second proposal (transaction).
 
-*TODO: insert cass diagram here*
+<!--*TODO: insert cass diagram here*-->
 
 Under this approach, each individual pays a single transaction fee each time they approve an action, and every action
 involves at most 1 signature verification by the network. This process allows arbitrarily deep hierarchies to be formed without exposing the permission system to vulnerability of
@@ -114,8 +113,8 @@ In theory, accounts can form a hierarchy that is arbitrarily deep, and evaluatin
 amount of time. In practice, it is unlikely that a single transaction will have signatures more than 2 levels deep, which keeps them computation bounded.
 Anything that requires more than 2 levels is likely to involve many people, and would not be signed all at once. Instead, it would use the built-in proposed transaction infrastructure, which tracks partially approved transactions.
 
-- With this approach, a board member can propose that his company approve a transaction
-- This can be extended logically to propose, and account propose, to approve a transaction
+- With this approach, a board member can propose that his company approve a transaction.
+- This can be extended logically to propose, and account propose, to approve a transaction.
 - This process would collect transaction fees as all of the layers in the hierarchy gradually add their permissions, and
 at no time requires an unbounded calculation.
 
@@ -130,16 +129,16 @@ The graph looks like this:
        A -> X <-> Y
        B -> Y <-> X
 
-A proposes that X spend 1 BTS and waits for approval from Y
-B proposes that Y approve the proposal from A and waits for approval from X
+A proposes that X spend 1 BTS and waits  for approval from Y.
+B proposes that Y approve the proposal from A and waits for approval from X.
 
-There is no way to resolve this problem with a single approval from any party:
+There is no way to resolve this problem with a single approval from any party due to the following reasons:
 
-- Neither account can act without the other and thus nothing can be accomplished.
-- Cycles don't have to be direct, as in this case. They can involve arbitrarily long sequences and thus be non-obvious.
-- If users create an approval cycle in the *active authority*, then the *owner authority* can be used to break the cycle;
-however, if they construct a cycle in the *owner authority* and the *active authority*, then the accounts involved in the cycle become locked out.
-- Therefore, client software must detect cycles and prevent them from being formed.
+1. Neither account can act without the other and thus nothing can be accomplished.
+2. Cycles don't have to be direct as in this case, they can involve arbitrarily long sequences and thus be non-obvious.
+3. If users create an approval cycle in the *active authority* then the *owner authority* can be used to break the cycle;
+however, if they construct a cycle in the *owner authority* and the *active authority* then the accounts involved in the cycle would be locked out.
+4. In practice client software can detect cycles and prevent them from being formed.
 
 ## Conclusion
 

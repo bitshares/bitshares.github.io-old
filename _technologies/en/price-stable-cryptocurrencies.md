@@ -1,7 +1,7 @@
 ---
 permalink: /technology/price-stable-cryptocurrencies/
 title: Price-Stable Cryptocurrencies
-subtitle: The freedom of cryptocurrency with the stability of the dollar
+subtitle: The freedom of cryptocurrency with the stability of the dollar.
 image: ../images/frontpage/icon-price-stable.svg
 priority: 2
 summary: >
@@ -27,7 +27,7 @@ means it is not useful as a currency.
 
 ## Introducing BitAssets
 
-BitAssets take the concept of a Contract for Difference, and make the long side fungible.  For the purpose of this
+BitAssets take the concept of a contract for difference, and make the long side fungible.  For the purpose of this
 discussion, we will assume that the long side of the contract is BitUSD and that the backing collateral is BTS
 (the BitShares core asset). To achieve this, BitAssets use the following set of market rules:
 
@@ -94,7 +94,7 @@ be unable to find anyone willing to sell for exactly $1.00.
 
 If a buyer is looking to purchase a large quantity of BTS without moving the price, he can start by buying up BitUSD with dollars.   This will slowly raise the BitUSD:USD price, which is a signal to other market participants. A careful buyer might be able to avoid signaling the market.   Then, after acquiring the position in BitUSD, the buyer can request forced-settlement all at once and get the price feed on the entire purchase.
 
-Because all positions and trades are visible on the blockchain, all of this trading activity can be factored into
+Because all positions and trades are visible on the block chain, all of this trading activity can be factored into
 the price, minimizing any potential profits to be made by attempted manipulation.
 
 ## The Merchant
@@ -155,22 +155,22 @@ collateralized short position.  This is similar to an insolvent bank converting 
 
 Not every short seller will be happy with the rules offer by BitAssets.  Some may want to borrow for a fixed period of time,
 with higher leverage, and with no risk of being force-settled.  BitShares offers these speculators the option to borrow
-BitUSD on the [bond market](technology/collateralized-bond-market.html) at interest.   The bond market allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A Bond market is the perfect way for the market to establish a yield curve on BitAssets and free both sides of the market from dependency on the price feed.
+BitUSD on the [bond market](technology/collateralized-bond-market.html){:target="_blank"} at interest.   The bond market allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A Bond market is the perfect way for the market to establish a yield curve on BitAssets and free both sides of the market from dependency on the price feed.
 
 ## Privatized BitAssets
 
 BitShares offers entrepreneurs an opportunity to create their own BitAssets with custom parameters and price feeds.
-These entrepreneurs can experiment with different parameters, such as collateral requirements, price feeds, force-settlement delays and force-settlement fees.   The issuer of a user-issued BitAsset earns its associated trading
-fees, and therefore has financial incentive to market and promote the asset on the network.   The entrepreneur who can
-discover and market the best set of parameters may earn a significant profit.   The set of parameters that can be
-tweaked by entrepreneurs is broad enough that BitAssets can be used to implement a fully functional prediction market
-with a guaranteed global settlement at a fair price and no forced settlement before that date.
 
-Some entrepreneurs may wish to experiment with BitAssets that always trade at exactly $1.00, rather than strictly more
-than $1.00.   They can do this by manipulating the forced settlement fee continuously, such that the average trading
+User-issued BitAsset managers can experiment with different parameters such as collateral requirements, price feeds, force
+settlement delays and forced settlement fees.  They also earn the trading
+fees from transactions the issued asset is involved in, and therefore have a financial incentive to market and promote it on the network.   The entrepreneur who can discover and market the best set of parameters can earn a significant profit.   The set of parameters that can be tweaked by entrepreneurs is broad enough that BitAssets can be used to implement a fully functional prediction market with a guaranteed global settlement at a fair price, and no forced settlement before the resolution date.
+
+Some entrepreneurs may want to experiment with BitAssets that always trade at exactly $1.00 rather than strictly more
+than $1.00.   They can do this by manipulating the forced settlement fee continuously such that the average trading
 price stays at about $1.00.   By default, BitShares prefers fees set by the market, and thus opts to let the price float
 above $1.00, rather than fixing the price by directly manipulating the forced settlement fee.
 
 ## Conclusion
 
-BitAssets are a powerful tool for everyone, from speculators, to merchants, to savers. BitShares provides entrepreneurs with a platform upon which the market can discover exactly what it needs.
+BitAssets are a powerful tool for everyone from speculators and savers, to traders and entrepreneurs. The BitShares
+platform provides a toolset with which innovators can experiment to find optimal currency solutions using free market discovery.

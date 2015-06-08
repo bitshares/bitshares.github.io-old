@@ -62,7 +62,9 @@ can recover the private key that allows them to change their block signing key a
 All exchanges will have at least 30 days to prepare for the new API which is significantly
 different from BitShares.  We will encourage all exchanges to migrate as a Gateway.
 
-## End of Life of BitShares 0.9.x One the appointed snapshot date, BitShares 1.0 will shut down and all delegates will
+## End of Life of BitShares 0.9.x 
+
+On the appointed snapshot date, BitShares 1.0 will shut down and all delegates will
 stop producing blocks.  This is to prevent anyone from attempting to sell assets on the BitShares 1.0 chain.  It will be
 up to the individual delegates whether or not to continue BitShares 0.9.x and for the stakeholders to vote in new
 delegates to continue the chain.
@@ -74,8 +76,8 @@ of the same transaction prior to the snapshot the vesting balances may be merged
 
 ## Deprecated Features
 
-* Wall Messages will not be migrated as the feature is now deprecated
-* Asset description information is no longer part of the blockchain state
-* Account Public Data is deprecated and is no longer part of the blockchain state
-* Asset Public Data is deprecated and is no longer part of the blockchain state
-* BitShares URL scheme: bts://... will be deprecated due to migration to hosted wallets
+* Wall Messages will not be migrated as the feature is now deprecated.
+* Asset description information is no longer part of the block chain state.
+* Account Public Data is deprecated and is no longer part of the block chain state.
+* Asset Public Data is deprecated and is no longer part of the block chain state.
+* BitShares URL scheme: bts://... will be deprecated due to migration to hosted wallets.

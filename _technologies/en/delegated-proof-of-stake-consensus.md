@@ -1,7 +1,7 @@
 ---
 permalink: /technology/delegated-proof-of-stake-consensus/
 title: Delegated Proof-of-Stake Consensus
-subtitle: A robust and flexible consensus protocol
+subtitle: A robust and flexible consensus protocol.
 image: ../images/frontpage/icon-dpos.svg
 priority: 9
 summary: >
@@ -38,7 +38,7 @@ wishing to take advantage of a temporary inconsistency in the database state on 
 
 The term witness was chosen because it is a legally neutral word that is free from regulation.  Traditional contracts
 often have a place for witnesses to sign.  For extremely important contracts, a [public
-notary](http://en.wikipedia.org/wiki/Notary_public)
+notary](http://en.wikipedia.org/wiki/Notary_public){:target="_blank"}
 is sometimes used.   Neither witnesses nor notaries are party to the contract, but they serve a very important role
 of certifying that the contract was signed by the specified individuals at the specified time.   In BitShares, witnesses
 serve a similar role of validating signatures and timestamping transactions by including them in blocks.
@@ -76,7 +76,7 @@ delegates and nullify the proposed changes.
 
 This design was chosen to ensure that delegates technically have no direct power and that all changes to the
 network parameters are ultimately approved by the stakeholders.  This is done to protect the delegates against
-regulations that may apply to managers or administrators of crypto-currencies.   Under DPOS, we can truly say that the
+regulations that may apply to managers or administrators of cryptocurrencies.   Under DPOS, we can truly say that the
 administrative authority rests in the hands of the users, rather than either the delegates or witnesses.
 
 Unlike witnesses, delegates are not paid positions. However, these parameters are not expected to change often.
@@ -113,7 +113,7 @@ witnesses should wait for the stakeholders to approve even the most minor change
 
 ## Double Spend Attack
 
-A double spend can occur anytime a blockchain reorganization excludes a transaction previously included.
+A double spend can occur anytime a block chain reorganization excludes a transaction previously included.
 This means that the witnesses had a communication breakdown caused by disruptions in the infrastructure of the Internet.
 With DPOS, the probability of a communication breakdown enabling a double spend attack is very low.
 
@@ -126,7 +126,7 @@ When this occurs, it may be necessary for users to wait until half of the witnes
 Each transaction on the network may optionally include the hash of a recent block.  If this is done, the signer of the
 transaction can be confident that their transaction may not be applied to any block chain that does not include that block.  A side effect of this process is that, over time, all stakeholders end up directly certifying the long-term integrity of the transaction history.
 
-## Blockchain Reorganizations
+## Block Chain Reorganizations
 
 Because all witnesses are elected, highly accountable, and granted dedicated time slots to produce blocks, there is
 rarely any situation where two competing chains can exist.  From time to time, network latency will prevent one witness
@@ -136,10 +136,10 @@ single witness.
 
 While the system is robust against *natural* chain reorganization events, there is still some potential for software
 bugs, network interruptions, or incompetent or malicious witnesses to create multiple competing histories that are
-longer than a block or two.  The software always selects the blockchain with the highest witness participation rate.  A
+longer than a block or two.  The software always selects the block chain with the highest witness participation rate.  A
 witness operating on their own can only produce one block per round and will always have a lower participation rate than the majority.
 There is nothing that any witness (or minority group of witnesses)
-can do to produce a blockchain with a higher participation rate.    The participation rate is calculated by comparing
+can do to produce a block chain with a higher participation rate.    The participation rate is calculated by comparing
 the expected number of blocks produced vs the actual number of blocks produced.
 
 ## Maximally Decentralized

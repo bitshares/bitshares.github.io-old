@@ -1,7 +1,7 @@
 ---
 permalink: /technology/transferable-named-accounts/
 title: Transferable Named Accounts
-subtitle: Easy and secure transactions
+subtitle: Easy and secure transactions.
 image: ../images/frontpage/icon-corporate-acc.svg
 priority: 9
 summary: >
@@ -12,14 +12,13 @@ summary: >
 
 Every BitShares account is assigned a globally unique name that can be selected by its creator.  There are many
 potential uses for account names beyond simply being an alias to a set of
-[dynamic account permissions](/technology/dynamic-account-permissions).
+[dynamic account permissions](/technology/dynamic-account-permissions){:target="_blank"}.
 They can be used as user logins or mapped to domain names.
 These names are transferable, which means that they are valuable in their own right.
 
 The BitShares blockchain defines a simple algorithm to determine the fee it charges to reserve a new account name.
 Names that contain a number, are longer than 8 characters, or contain no vowels are essentially free.  Otherwise the
-name is priced according to its length.   [Delegates](/technology/delegated-proof-of-stake-consensus) can propose a
-different fee for each length which gives BitShares the power to adapt to market demands.
+name is priced according to its length.[Delegates](/technology/delegated-proof-of-stake-consensus){:target="_blank"} can propose a different fee for each length which gives BitShares the power to adapt to market demands.
 
 ## Transferring Names
 

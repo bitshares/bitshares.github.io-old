@@ -1,7 +1,7 @@
 ---
 permalink: /technology/recurring-and-scheduled-payments/
 title: Recurring & Scheduled Payments
-subtitle: Flexible withdrawal permissions
+subtitle: Flexible withdrawal permissions.
 image: ../images/frontpage/icon-rec-payments.svg
 priority: 8
 summary: >
@@ -17,7 +17,7 @@ permissions to other accounts.   A withdrawal permission includes following prop
 1. Start Date
 2. End Date
 3. Withdrawal Limit per Period
-4. Period Length  (ie: 1 month)
+4. Period Length (i.e. 1 month)
 
 Any asset type can be used in the withdrawal limit.
 
@@ -25,7 +25,7 @@ After a user grants the withdrawal permissions, the authorized account is allowe
 amount up to the limit.   If there is insufficient funds then the withdrawal will fail.  Withdrawal permissions are designed
 to be a convenience for merchants and users, as they do not represent a commitment to pay.
 
-It is up to each merchant to initiate each withdrawal.  The BitShares system does not automatically transfer funds.
+It is up to each merchant to initiate each withdrawal.  The BitShares platform does not automatically authorize the transfer of funds unless sufficient signing authority has been reached.
 
 ## Daily Withdrawal Limits
 
@@ -46,4 +46,4 @@ properly signed by authorities) at the specified time, then it will automaticall
 
 A merchant can use this feature, combined with withdrawal permissions, to implement automatic payments after a
 one-time setup fee.   In practice, it may be cheaper for merchants to maintain their own scheduler to automate
-billing, since the blockchain charges a fee to propose a transaction separately from the transaction’s own fees.
+billing, since the block chain charges a fee to propose a transaction separately from the transaction’s own fees.

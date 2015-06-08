@@ -45,7 +45,7 @@ Member and $20 goes to the Network.  Annual Members do not qualify for a 50% Cas
 
 # Terms & Conditions
 
-Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/) for more details.
+Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/){:target="_blank"}  for more details.
 
 <hr/> <sup>1.</sup><small>Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt
 to adjust the BTS registration fee to be approximately $100.</small>
