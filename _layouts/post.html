@@ -5,8 +5,9 @@ layout: default
 <section class="posts wrapper">
 <div class="row">
 <div class="col-xs-12 col-md-9">
-<span class="meta">
-    <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time> | <i class="fa fa-clock-o"></i> {% include read_time.html %}
+<span class="meta" style="color: #78ACB8;">
+<!-- Output author details if some exist. -->
+   <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time> | <i class="fa fa-clock-o"></i> {% include read_time.html %} {% if page.author %}| <span >{{ page.author }}{% endif %}</span>
 
 </span>
 </div>

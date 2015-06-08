@@ -55,11 +55,11 @@ background-color: #ffb515;
 html, body {
 	margin:0;
 	padding: 0;
-	 height: 100%;
+	height: 100%;
 }
 
 body {
-	font-family: 'Proxima Nova Rg', "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
 	font-size: 16px;
 	color: #2e2e2e;
@@ -160,7 +160,7 @@ h1 {
 }
 
 ul {
-	padding-left: 30px;
+margin: 0;
 }
 ul.menu {
 	font-size: 1em;
@@ -769,6 +769,15 @@ canvas {
 /*  background-color: #EAEDEF;*/
 }
 
+/*
+footer h2 {
+  font-family: 'Proxima Nova Rg';
+
+}*/
+
+
+
+
 
 /* @group Pages */
 
@@ -801,5 +810,19 @@ img.tech-toc {
 
 /* @end */
 
+/* @group deposit page */
 
+.deposit ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.deposit ul li i {
+ color: #73C9C9;
+ font-style: normal;
+ white-space: nowrap;
+}
+
+/* @end */
 
