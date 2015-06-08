@@ -16,7 +16,7 @@ BitShares reaching maturity at version 2.0, the team is ready to remove the trai
 all future development be decided completely by stakeholder vote.
 
 To help ensure the long-term success of BitShares technology, the core development team will be reorganizing into
-[Cryptonomex Inc.](http://www.cryptonomex.com/){:target="_blank"}, an independent block chain development company. By utilizing a new
+[Cryptonomex Inc.](http://www.cryptonomex.com/){:target="_blank"}, an independent blockchain development company. By utilizing a new
 worker voting system that will be included in BitShares 2.0, this company will continue to help develop BitShares in
 whatever direction is approved by its stakeholders. With this new structure, BitShares will be more robust, sustainable,
 and fair than ever.
@@ -29,7 +29,7 @@ and fair than ever.
 {% endfor %}
 
 - This codebase has been designed to solve the largest technical and economic problems with BitShares today.
-- New competitive features have been added that will allow BitShares to grow and succeed as an industry-leader.
+- New competitive features have been added that will allow BitShares to grow and succeed as an industry leader.
 - BitShares will be upgraded and **the stake distribution will *not* be changed**.
 
 --------
@@ -48,10 +48,6 @@ the system back from its full potential:
 - Conflation of consensus protocol and project funding results in mismatched incentives and voter apathy.
 - Lack of flexibility of system parameters results in an inability to adapt to changing market conditions.
 - Shortcomings and caveats in internal market rules and incentives results in low liquidity and adoption.
-- Many software bugs (some involving loss of funds) result in loss of faith by stakeholders.
-- A poor testing framework made it difficult to specify tests and detect regressions.
-- Lack of public development roadmap results in confusion and uncertainty for stakeholders.
-- Lack of sufficient documentation prevents integration of third-party services.
 
 ## How will BitShares 2.0 solve the problems with BitShares today?
 
@@ -64,7 +60,6 @@ BitShares 2.0 was designed to address all of the above issues. By upgrading, the
 - A new viral growth model.
 - Robust testing infrastructure designed to prevent bugs and regressions.
 - A new developer-friendly and extensible codebase.
-- **No changes to the stake allocation.**
 
 See our [Technology](/technology){:target="_blank"} page to learn more!
 
@@ -79,10 +74,21 @@ hours. All accounts and balances will be fully migrated to BitShares 2.0.
 
 See [Migrating to BitShares 2.0](/blog/2015/06/08/migrating-to-bitshares-2.0/){:target="_blank"} for more details.
 
+## Where is the code?
+
+BitShares 2.0 is based upon the [Graphene Toolkit](https://github.com/cryptonomex/graphene){:target="_blank"}.
+
+BitShares is first and foremost a protocol based upon a public ledger.  Anyone may provide and distribute an alternative
+implementation of the protocol and use the protocol for any other blockchain.  The Graphene Toolkit produced by
+[Cryptonomex Inc.](http://cryptonomex.com){:target="_blank"} is only one possible implementation of the protocol.
+
+Cryptonomex will license the Graphene Toolkit for use with the BitShares (BTS) blockchain.  The terms of
+the license will allow the Graphene Toolkit and any derivatives thereof to be used with the BitShares blockchain without any
+restrictions.  Cryptonomex, Inc retains all rights to the Graphene Toolkit and any derivatives thereof for any other
+use.  The BitShares blockchain is defined as exactly one global ledger.
+
 ## Where can I learn more?
 
-Explore the links at the bottom of this page.
+You can join the [discussion on the forums](https://bitsharestalk.org/index.php/board,5.0.html){:target="_blank"}.
 
-Also join the [discussion on the forums](https://bitsharestalk.org/index.php/board,5.0.html){:target="_blank"}.
-
-Developers can also explore [latest source code](https://github.com/cryptonomex/graphene){:target="_blank"}.
+Also explore the links at the bottom of this page.
