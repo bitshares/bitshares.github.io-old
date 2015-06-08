@@ -4,7 +4,12 @@ layout: index_tech
 title: Technology
 ---
 
+--------
+
 # Technology
+
+--------
+
 
 The BitShares platform itself is run and maintained by the **BitShares community**--an open consortium of individuals
 and organizations committed to providing universal access to the power of smart contracts.

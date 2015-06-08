@@ -6,6 +6,8 @@ title: Download
 
 Please see the [registration tutorial](/register/){:target="_blank"} if you are a new user.
 
+--------
+
 {% include download.html %}
 
 ## Recommended System Requirements

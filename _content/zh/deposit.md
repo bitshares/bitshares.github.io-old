@@ -6,6 +6,8 @@ title: Deposit
 
 There are many ways to move funds into or out of the BitShares ecosystem.
 
+--------
+
 ## Bridges/Gateways
 
 Bridges/gateways are the recommended method of moving funds into or out of the network.

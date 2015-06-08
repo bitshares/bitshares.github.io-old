@@ -7,9 +7,7 @@ redirect_from:
 ---
 
 
-
 <div class="row" markdown="1">
-
 
 
 <div class="col-xs-12 col-md-9 " markdown="1">

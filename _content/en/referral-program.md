@@ -3,6 +3,9 @@ permalink: /referral-program/
 layout: default
 title: Referral Program
 ---
+
+--------
+
 Earn $80 or more for every lifetime member you sign up.
 
 BitShares™ has several different kinds of accounts: Basic Account, Annual Member, and Lifetime Member.

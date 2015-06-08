@@ -4,6 +4,8 @@ layout: default
 title: Download
 ---
 
+--------
+
 Please see the [Sign Up page](/sign-up/) if you are a new user.
 
 {% include download.html %}
