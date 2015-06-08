@@ -89,6 +89,6 @@ use.  The BitShares blockchain is defined as exactly one global ledger.
 
 ## Where can I learn more?
 
-You can join the [discussion on the forums](https://bitsharestalk.org/index.php/board,5.0.html){:target="_blank"}.
+You can join the [discussion on the forums](https://bitsharestalk.org/index.php/board,91.0.html){:target="_blank"}.
 
 Also explore the links at the bottom of this page.
