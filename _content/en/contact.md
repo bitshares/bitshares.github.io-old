@@ -6,6 +6,8 @@ redirect_from:
     - /mediakit/
 ---
 
+--------
+
 All specific inquiries can be sent to:
 
 `contact@bitshares.org`

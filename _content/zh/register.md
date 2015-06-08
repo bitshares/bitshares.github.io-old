@@ -4,6 +4,7 @@ layout: default
 title: Register
 ---
 
+
 This tutorial will walk you through the process of getting a fully functional registered account on the BitShares blockchain.
 
 * TOC
