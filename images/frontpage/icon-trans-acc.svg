@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="160px" viewBox="0 0 210 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icons" sketch:type="MSArtboardGroup">
+            <g id="icon-trans-acc" sketch:type="MSLayerGroup" transform="translate(46.000000, 12.500000)">
+                <g id="icon-asset-ident-copy-2" transform="translate(0.000000, 22.000000)">
+                    <rect id="Rectangle-2407-Copy-4" stroke="#546979" stroke-linecap="round" stroke-linejoin="round" fill="#F6FAFC" sketch:type="MSShapeGroup" x="0.0209580838" y="0.5" width="117.365269" height="86" rx="2.4"></rect>
+                    <g id="MaleOK" transform="translate(12.500000, 29.000000)" stroke="#546979" stroke-linecap="round" sketch:type="MSShapeGroup" stroke-linejoin="round">
+                        <path d="M15.5,0 C6.93958638,0 0,6.93958638 0,15.5 C0,24.0604136 6.93958638,31 15.5,31 C24.0604136,31 31,24.0604136 31,15.5" id="Oval-1812"></path>
+                        <path d="M10.2510695,10.3651692 C10.4718619,7.36537145 12.9826249,5 16.0343137,5 L21.8333333,5 L21.8333333,10.379249 L21.8333333,10.379249 C22.4979818,10.5083079 23,11.096268 23,11.7882065 L23,12.2117935 C23,12.916742 22.494068,13.5029875 21.8183367,13.6241147 C21.6027427,16.6289934 19.0896355,19 16.0343137,19 C12.9765452,19 10.4715328,16.629566 10.2510622,13.634533 C9.54497774,13.5407907 9,12.9327302 9,12.2117935 L9,11.7882065 C9,11.0593219 9.54087251,10.4573381 10.2510695,10.3651692 Z" id="Rectangle-2323" fill="#73C9C9"></path>
+                        <path d="M13,20 L11.9454296,22.2105263 L9.43484246,22.2105263 C8.1464462,22.2105263 7,23.3235361 7,24.6315789 L7,27 M24,27 L24,24.6136364 C24,23.2983659 22.9918735,22.2272727 21.7482865,22.2272727 L19.02,22.2272727 L18,20" id="Rectangle-2326"></path>
+                        <path d="M30,2 L27.6315789,7 L25,5.33333333" id="Line-404"></path>
+                    </g>
+                    <g id="Statistics" transform="translate(57.500000, 63.500000)"></g>
+                </g>
+                <g id="Line-Copy-25-+-Group-Copy" transform="translate(57.000000, 0.000000)" stroke="#546979" sketch:type="MSShapeGroup">
+                    <path d="M0.5,0.908415794 L0.5,134.908417" id="Line-Copy-25" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,4"></path>
+                    <g id="Group-Copy" transform="translate(15.000000, 50.000000)" stroke-width="0.855">
+                        <path d="M3.88235294,31.68 C12.1016495,31.68 18.7647059,24.8836825 18.7647059,16.5 C18.7647059,8.1163175 12.1016495,1.32 3.88235294,1.32" id="Oval-230"></path>
+                        <path d="M3.88235294,27.06 C9.60012447,27.06 14.2352941,22.332127 14.2352941,16.5 C14.2352941,10.667873 9.60012447,5.94 3.88235294,5.94 L3.88235294,27.06 Z" id="Oval-229" fill="#FDE699"></path>
+                        <path d="M7.76470588,16.5 L32.3529412,16.5" id="Line"></path>
+                        <path d="M6.47058824,13.2 L23.9411765,1.32" id="Line"></path>
+                        <path d="M26.5294118,19.14 L26.5294118,13.86 L31.7058824,13.86" id="Rectangle-123" stroke-linecap="round" transform="translate(29.117647, 16.500000) rotate(-225.000000) translate(-29.117647, -16.500000) "></path>
+                        <path d="M18.1176471,5.94 L18.1176471,0.66 L23.2941176,0.66" id="Rectangle-123" stroke-linecap="round" transform="translate(20.705882, 3.300000) rotate(-256.000000) translate(-20.705882, -3.300000) "></path>
+                        <g id="Line-+-Rectangle-123" transform="translate(15.355204, 26.230769) scale(1, -1) translate(-15.355204, -26.230769) translate(6.470588, 19.461538)">
+                            <path d="M0,13.2 L17.4705882,1.32" id="Line"></path>
+                            <path d="M11.6470588,5.94 L11.6470588,0.66 L16.8235294,0.66" id="Rectangle-123" stroke-linecap="round" transform="translate(14.235294, 3.300000) rotate(-256.000000) translate(-14.235294, -3.300000) "></path>
+                        </g>
+                        <ellipse id="Oval-228" fill="#73C9C9" cx="3.88235294" cy="16.5" rx="3.88235294" ry="3.96"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
