@@ -17,7 +17,7 @@ answered together with the announcement.
 2. **Will we see approval voting for hard forks?**
 
    Yes. In BitShares 2.0, not even the core developers will be able to modify the protocol at will. Hard forks will only
-   be accepted by the protocol with shareholder approval.
+   be accepted by the protocol with BTS holder approval.
 
 3. **Will there be a referral system available at launch?**
 
@@ -31,8 +31,9 @@ answered together with the announcement.
 5. **Will the separated Worker/Delegate/Signer proposal be implemented in time?**
 
    Yes. In BitShares 2.0 we will see workers, who grow and development the ecosystem, block signers (called witnesses)
-   to ensure block chain security, and delegates which define (after shareholder proposal) the variable settings of the
-   block chain, such as block interval, price feeds, and more.
+   to ensure block chain security, and delegates which define the variable settings of the
+   block chain, such as block interval, price feeds, and more.  Any changes to the variable settings have an
+   approval period, ensuring that BTS holders have the final say in the chain parameters.
 
 6. **What has been done to stabilize the user interface and make it user friendly/more responsive?**
 
@@ -60,42 +61,35 @@ answered together with the announcement.
    power to someone else without risking funds. Furthermore, with BitShares 2.0 the BitShares funds do not need to be
    moved entirely to vote with your full stake, which simplifies the voting process to a single "Apply" button press.
 
-10. **What can be done to against whales dominating the voting process?**
-
-    Practically, BitShares in general is a company and not a democracy. The more BTS stake you own, the more shares of
-    the company you own, and the more weights your vote has. This is similar to most traditional business and a
-    desirable feature. If an investor asks for more power in the voting process, the only way to get it is to buy shares
-    or convince other people to hand over their voting power. However, because the shares are well distributed among
-    thousands of network participants and early adopters, such undertaking is very difficult.
-
-11. **Will we see relative orders in the decentralized exchange?**
+10. **Will we see relative orders in the decentralized exchange?**
 
     There is no plan to add relative orders, as part of the effort to reduce dependence on the price feed long-term.
 
-12. **Will I be able to use bitUSD as collateral to short a bitAssets?**
+11. **Will I be able to use bitUSD as collateral to short a bitAssets?**
 
     Yes. BitShares 2.0 goes even further and offers a far better alternative: Collateralized Bonds. Collateralized Bonds
     enable arbitrary shorting between any two assets, guaranteed interest, and no risk of being force settled.   This
     system privatizes the yield to individual bonds and the terms and leverage available can be far more flexible.  In
     effect, BitUSD becomes cash and a Bond becomes a Certificate of Deposit.
 
-13. **Will we be able to close short orders using the collateral?**
+12. **Will we be able to close short orders using the collateral?**
 
     Users will be able to adjust their margin call price to trigger an early margin call, which will close out your
     short position.
 
-14. **How can KYC and AML be acknowledged in BitShares such that it does not affect BTS holders?**
+13. **How can KYC and AML be acknowledged in BitShares such that it does not affect BTS holders?**
 
     KYC/AML are supported for user-issued assets, but not BTS, thus it does not affect BTS holders, but only users who
-    wish to hold a restricted token. Hence, regular businesses that run on top of BitShares, such as gateways and
-    merchants, will be required to comply with their local KYC, AML and CTF regulations.
+    wish to hold a restricted token.  Businesses that run on top of BitShares and issue their own UIA (user issued asset),
+    such as gateways and merchants, will have tools to help their UIA comply with their local KYC, AML and CTF regulations.
+    These tools will only affect users who own such UIA's.
 
-15. **What has been done to attract more 3rd party developers?**
+14. **What has been done to attract more 3rd party developers?**
 
     The API has been improved significantly to allow fast and reliable integration via websockets and push
     notifications! Furthermore, a lot of effort has been taken for proper documentation.
 
-16. **What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden design assumptions that are no longer valid?**
+15. **What measures have been taken to ensure that newly written code does not introduce many bugs or reveal hidden design assumptions that are no longer valid?**
 
     While it's impossible to guarantee any code is bug-free, we have been writing unit tests, integration tests, and
     regression tests with every new feature implemented. Our tests currently exercise around 90% of the code, and we're
