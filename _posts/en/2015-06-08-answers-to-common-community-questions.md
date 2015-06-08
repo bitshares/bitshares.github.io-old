@@ -11,12 +11,12 @@ answered together with the announcement.
 
    BitShares 2.0 will be capable of handling over 100.000 (100k) transaction per second on commodity hardware with
    parallel architectural optimizations in mind. You can find more about how the performance improvement has been
-   achieved in the corresponding technology page. The measurement parameters and a discussion is given in a separated
-   blog post.
+   achieved in the corresponding [technology page](/technology/high-performance-and-scalability){:target="_blank"}. The measurement parameters and a discussion is given in a separate
+   [blog post](/blog/2015/06/08/measuring-performance/){:target="_blank"}.
 
 2. **Will we see approval voting for hard forks?**
 
-   Yes. In BitShares 2.0, not even the Core Developers will be able to modify the protocol at will. Hard forks will only
+   Yes. In BitShares 2.0, not even the core developers will be able to modify the protocol at will. Hard forks will only
    be accepted by the protocol with shareholder approval.
 
 3. **Will there be a referral system available at launch?**
@@ -31,13 +31,13 @@ answered together with the announcement.
 5. **Will the separated Worker/Delegate/Signer proposal be implemented in time?**
 
    Yes. In BitShares 2.0 we will see workers, who grow and development the ecosystem, block signers (called witnesses)
-   to ensure blockchain security, and delegates which define (after shareholder proposal) the variable settings of the
-   blockchain, such as block interval, price feeds, and more.
+   to ensure block chain security, and delegates which define (after shareholder proposal) the variable settings of the
+   block chain, such as block interval, price feeds, and more.
 
 6. **What has been done to stabilize the user interface and make it user friendly/more responsive?**
 
    A lot has been done to this regard. Mainly, the full client has been separated into a lightweight client which
-   connects to a set of trusted servers, and an optional core client that handles the full blockchain and P2P
+   connects to a set of trusted servers, and an optional core client that handles the full block chain and P2P
    networking. Furthermore, the lightweight client has been rewritten to employ next generation web technologies
    (websockets, react.js,...) to ensure a highly responsive interface.
 
@@ -56,7 +56,7 @@ answered together with the announcement.
 
 9. **Have there been any ideas to increase voting participation (e.g. cold storage voting, simplified voting procedure)?**
 
-   Besides cold storage voting which will be available in BitShares 2.0 too, the blockchain supports transfer of voting
+   Besides cold storage voting which will be available in BitShares 2.0 too, the block chain supports transfer of voting
    power to someone else without risking funds. Furthermore, with BitShares 2.0 the BitShares funds do not need to be
    moved entirely to vote with your full stake, which simplifies the voting process to a single "Apply" button press.
 

@@ -11,7 +11,7 @@ network.
 
 When designing a system to scale it is critical to understand where the real bottlenecks are and to design around
 maximizing the performance of those bottlenecks.  We have identified Single-Threaded processing power as the bottleneck.
-Blockchains are inherently sequential because every transaction has the potential to change the global state in a way
+Block chains are inherently sequential because every transaction has the potential to change the global state in a way
 that might invalidate the next transaction.   This property is especially true of market transactions that interact with
 the global order book.
 
@@ -20,13 +20,13 @@ and that disks are capable of recording this stream.   We make the assumption th
 in parallel using as many computers as necessary to minimize the latency.  A single core of a 2.6 Ghz i7 is able to
 validate 10,000 signatures per second.   Todays high-end servers with 36 cores (72 with hyper-threading) could easily
 validate 100,000 transactions per second.   All of these steps have been designed to be embarrassingly parallel and 
-to be independent of blockchain state.
+to be independent of block chain state.
 
 The average size of a transaction is just 100 bytes which equates to about 10 Megabytes per second to stream 100,000
 transactions per second.  This is well within the capacity of most data centers and therefore not considered part of the
 bottleneck.
 
-What remains is how quickly 100,000 transactions can be applied to the blockchain state consisting of millions of
+What remains is how quickly 100,000 transactions can be applied to the block chain state consisting of millions of
 accounts while validating all state-dependent pre-conditions.  This is the work that must be performed by *witnesses* in
 a timely manner so they can keep up with blocks in real time.  There is no trivial means of accelerating this task and
 introducing multiple threads will result in synchronization points and other overhead that experience has taught us
@@ -41,8 +41,8 @@ transactions per second.
 
 ## The Benchmark
 
-We setup a test blockchain where we created 200,000 accounts and then made 2 transfers and 1 asset issuance to each
-account.  This is involved a total of 1 million operations.  After creating the blockchain we timed how long it took to
+We setup a test block chain where we created 200,000 accounts and then made 2 transfers and 1 asset issuance to each
+account.  This is involved a total of 1 million operations.  After creating the block chain we timed how long it took to
 "reindex" or "replay" without signature verification.  On a two year old 3.4 Ghz Intel i5 CPU this could be performed at
 over 180,000 operations per second.  On newer hardware single threaded performance is 25% faster.
 
@@ -62,7 +62,7 @@ limited to just 1000 transactions-per-second.
 
 ## Unoptimized
 
-While we have spent a lot of time discussing the performance of the blockchain, very little has been done to optimize
+While we have spent a lot of time discussing the performance of the block chain, very little has been done to optimize
 the software at this point in time.  We believe that with the proper optimizations that performance could easily be
 doubled or tripled.
 
