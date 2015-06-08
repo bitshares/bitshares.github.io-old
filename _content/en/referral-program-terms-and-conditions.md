@@ -54,7 +54,8 @@ vest under their original terms.
 
 Some asset issuers may charge their own trading fees.   These fees are not part of the referral program.
 
-# Disclaimer: This information provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN,
+# Disclaimer
+This information provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN,
 MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.
 
 This document is for informational purposes only and does not constitute an offer or solicitation to sell shares or

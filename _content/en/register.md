@@ -6,20 +6,11 @@ redirect_from:
     - /get-started/
 ---
 
-
-
 <div class="row" markdown="1">
 
-
-
 <div class="col-xs-12 col-md-9 " markdown="1">
---------
+
 This tutorial will walk you through the process of getting a fully functional registered account on the BitShares block chain.
-
-
-
-
-
 
 ## Step 1 - Download Software
 The first step is to download and install the BitShares client.
