@@ -2,7 +2,7 @@
 permalink: /technology/transferable-named-accounts/
 title: Transferable Named Accounts
 subtitle: Easy and secure transactions.
-image: ../images/frontpage/icon-corporate-acc.svg
+image: ../images/frontpage/icon-trans-acc.svg
 priority: 9
 summary: >
    Named accounts enable users to easily remember and communicate their account information.  We don't use IP addresses
