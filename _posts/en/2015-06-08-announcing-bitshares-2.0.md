@@ -22,7 +22,7 @@ whatever direction is approved by its stakeholders. With this new structure, Bit
 and fair than ever.
 
 ## Overview
-- A brand new BitShares codebase has been developed from scratch with the following features:
+- A brand new BitShares codebase has been rebuilt from the ground up with the following features:
 {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
 {% for technology in technologies  %}
   - [{{ technology.title }}]({{ technology.url }})
