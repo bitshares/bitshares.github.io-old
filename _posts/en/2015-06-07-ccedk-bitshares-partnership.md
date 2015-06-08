@@ -12,7 +12,7 @@ For more than 25 years, Ronny Boesing distributed and published CDs, DVDs, games
  
  
  
-##Chapter 2, book of life part two
+## Book of life - Part II
  
 When the music stopped making money from one day to the other, business as well as family changed and it was time to close the book of life and to open a new one. It was time to start all over again introducing an exciting new way of looking at things, a wonderful support by wife and kids, combined with the settling down on the coast side in the north of Denmark.
  
