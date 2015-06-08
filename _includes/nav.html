@@ -16,16 +16,6 @@
             {% assign posts = (site.posts | where: 'lang', page.lang) %}
             <li><a href="/blog/">Blog</a></li>
          </ul>
-
-          <ul class="nav navbar-nav navbar-left">
-              <li style="color: #e2e2e2;margin-left: 12px;">
-                  {% if page.lang != 'en' %}
-                      <a href="/">EN</a>
-                  {% else %}
-                      <a href="/zh/">官话</a>
-                  {% endif %}
-              </li>
-          </ul>
         </div>
       </div>
     </div>
