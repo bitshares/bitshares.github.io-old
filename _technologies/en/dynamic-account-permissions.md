@@ -133,7 +133,8 @@ The graph looks like this:
 A proposes that X spend 1 BTS and waits for approval from Y
 B proposes that Y approve the proposal from A and waits for approval from X
 
-There is no way to resolve this problem with a single approval from any party.
+There is no way to resolve this problem with a single approval from any party:
+
 - Neither account can act without the other and thus nothing can be accomplished.
 - Cycles don't have to be direct, as in this case. They can involve arbitrarily long sequences and thus be non-obvious.
 - If users create an approval cycle in the *active authority*, then the *owner authority* can be used to break the cycle;
