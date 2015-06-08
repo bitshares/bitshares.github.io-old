@@ -106,7 +106,6 @@ game items.
 
 ## Privatized BitAssets (Stable Cryptocurrencies)
 
-<<<<<<< HEAD
 [Price-stable cryptocurrencies](/technology/price-stable-cryptocurrencies.html){:target="_blank"} (aka BitAssets) were the inspiration
 for BitShares.  Now, users can create their own price-stable assets with custom parameters designed to track the value of
 any asset they can imagine.  The benefit of price-stable cryptocurrencies is that they are fully collateralized, and
@@ -147,7 +146,8 @@ minimum and maximum fee.  The combination of these three parameters give issuers
 
 Issuers may optionally maintain a Fee Pool.  The Fee Pool is a pool of BTS and an exchange rate at which the issued
 asset may be converted into BTS.   When a user wishes to pay a network fee with the asset, the fee pool will step in to
-convert the asset into BTS at the rate that the issuer has specified.  This means that issuers may charge a premium every time users opt to use their asset to pay network fees rather than paying them directly with BTS.
+convert the asset into BTS at the rate that the issuer has specified.  This means that issuers may charge a premium
+every time users opt to use their asset to pay network fees rather than paying them directly with BTS.
 
 The purpose of the fee pool is to provide a convenience to users that would like to use an asset without concerning
 themselves with the details of acquiring BTS.  Anyone may fund the fee pool, but only the issuer may specify the

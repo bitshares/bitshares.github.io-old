@@ -68,13 +68,15 @@ Other exchanges demand documentation of how you earned your cryptocurrency.
 With BitShares, no one must approve your account.  You have complete financial freedom.
 
 ## Low Fees
-(TODO: is this paragraph still true?) 
-At just a few cents per trade, BitShares is one of the cheapest exchanges around.  Other exchanges charge a
+<!-- (TODO: is this paragraph still true?) //-->
+At just a few cents per trade\*, BitShares is one of the cheapest exchanges around.  Other exchanges charge a
 percentage of your transaction volume.  For a $1000 trade on [BitStamp](https://bitstamp.net){:target="_blank"} you will pay $5 vs less
-<<<<<<< HEAD
 than $0.01 (Jan 2015) to make the same trade on the BitShares exchange.   The more traditional exchanges like
 [E-Trade](https://etrade.com){:target="_blank"} or [Scottrade](https://scottrade.com){:target="_blank"} charge over $5 per
 trade. Taking these price comparisons into consideration, clearly it doesn't get any cheaper than BitShares.
+
+\* on BitAsset pairs. Trading fees for User-issued assets may vary
+<!-- (TODO: Is this about correct?) //-->
 
 ## Trade Almost Anything
 Trade in Gold, Sliver, Gas, and Oil in addition to your national currency and cryptocurrencies.  Few limits exists on what can be traded on the BitShares exchange, given enough interest.  The BitShares exchange can support
