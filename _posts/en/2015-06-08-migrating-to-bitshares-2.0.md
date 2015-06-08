@@ -25,8 +25,8 @@ to yourself.  This will consolidate your balances under a single account.
 ## Account Name Migration
 
 Under BitShares 2.0, accounts are transferable and have different prices based upon the
-quality of the account name so that they can double as DNS names.  Starting immediately, all BitShares delegates will
-only allow users to register non-premium names until BitShares 2.0 is released and can set the proper pricing.
+quality of the account name so that they can double as DNS names. Any premium names registered on or after June 8, 2015
+will be given the prefix "bts-" after the migration.
 
 ## Open Order Migration
 
