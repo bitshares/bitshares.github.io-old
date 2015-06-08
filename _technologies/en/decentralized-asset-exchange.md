@@ -1,7 +1,7 @@
 ---
 permalink: /technology/decentralized-asset-exchange/
 title: Decentralized Asset Exchange
-subtitle: As fast and flexible as traditional exchanges
+subtitle: A fast and fluid trading platform
 image: ../images/frontpage/icon-daex.svg
 priority: 6
 summary: >

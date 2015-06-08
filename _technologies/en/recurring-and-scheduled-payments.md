@@ -1,7 +1,7 @@
 ---
 permalink: /technology/recurring-and-scheduled-payments/
 title: Recurring & Scheduled Payments
-subtitle: Integrated withdrawal permissions
+subtitle: Flexible withdrawal permissions
 image: ../images/frontpage/icon-rec-payments.svg
 priority: 8
 summary: >

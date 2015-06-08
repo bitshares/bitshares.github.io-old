@@ -1,7 +1,7 @@
 ---
 permalink: /technology/dynamic-account-permissions/
 title: Dynamic Account Permissions
-subtitle: Permission handling for the corporate environment
+subtitle: Permissions management for the corporate environment
 image: ../images/frontpage/icon-corporate-acc.svg
 priority: 3
 summary: >

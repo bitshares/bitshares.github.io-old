@@ -1,7 +1,7 @@
 ---
 permalink: /technology/collateralized-bond-market/
 title: Collateralized Bond Market
-subtitle: Lend or borrow anything on your terms
+subtitle: Integrated peer-to-peer lending
 image: ../images/frontpage/icon-bonds.svg
 priority: 7
 summary: >
