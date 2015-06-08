@@ -11,8 +11,7 @@ in a timely manner.
 
 ## User Interface Migration
 
-The new BitShares UI will be an entirely hosted wallet with private keys maintained in the
-browser and hosted at bitshares.org.  Initially the only full client wallet will be command line and geared toward
+The new BitShares UI will be an entirely browser-based wallet hosted at bitshares.org, with private keys maintained in the browser.  Initially the only full client wallet will be command line and geared toward
 exchanges and servers.  Eventually a downloadable GUI wallet will be produced.
 
 ## BitAsset / User Issued Asset Migration
