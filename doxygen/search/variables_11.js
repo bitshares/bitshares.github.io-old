@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['random',['random',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a4a4db1274cfe660203bf86c9203cf7fc',1,'graphene::chain::dynamic_global_property_object']]],
+  ['receives',['receives',['../structgraphene_1_1chain_1_1fill__order__operation.html#aa7f5da310116f935bdf47e0003b6eef7',1,'graphene::chain::fill_order_operation']]],
+  ['ref_5fblock_5fnum',['ref_block_num',['../structgraphene_1_1chain_1_1transaction.html#a3c3667e1bb02ad8f694f41206436e9cf',1,'graphene::chain::transaction']]],
+  ['ref_5fblock_5fprefix',['ref_block_prefix',['../structgraphene_1_1chain_1_1transaction.html#afcebf54b05d6254e6ea53aecdd075975',1,'graphene::chain::transaction']]],
+  ['referrer',['referrer',['../classgraphene_1_1chain_1_1account__object.html#a6ff595cad0456a433b37e30b966e9200',1,'graphene::chain::account_object::referrer()'],['../structgraphene_1_1chain_1_1account__create__operation.html#a897d01721e20b7e1fd028395b38b4b06',1,'graphene::chain::account_create_operation::referrer()']]],
+  ['referrer_5fpercent',['referrer_percent',['../classgraphene_1_1chain_1_1account__object.html#aa7ef3c8cdbc14f35843332683fbff273',1,'graphene::chain::account_object::referrer_percent()'],['../structgraphene_1_1chain_1_1account__create__operation.html#a9c0684a1e6d902702a6a60de23f56158',1,'graphene::chain::account_create_operation::referrer_percent()']]],
+  ['refund',['refund',['../structgraphene_1_1chain_1_1bond__cancel__offer__operation.html#a2f882066b535181b4934f16002a72d5d',1,'graphene::chain::bond_cancel_offer_operation']]],
+  ['registrar',['registrar',['../classgraphene_1_1chain_1_1account__object.html#ae3e5ea3b236ea984eeaa49e9304361ce',1,'graphene::chain::account_object::registrar()'],['../structgraphene_1_1chain_1_1account__create__operation.html#a597a18603a7f81bd4aa983391aea3fd8',1,'graphene::chain::account_create_operation::registrar()']]],
+  ['relative_5fexpiration',['relative_expiration',['../structgraphene_1_1chain_1_1transaction.html#acc71760ef93e3fd2044d59bc006a28d6',1,'graphene::chain::transaction']]],
+  ['required_5factive_5fapprovals',['required_active_approvals',['../classgraphene_1_1chain_1_1proposal__object.html#abb764a31f14a6f02d27cbb759b663c42',1,'graphene::chain::proposal_object']]],
+  ['required_5fauths',['required_auths',['../structgraphene_1_1chain_1_1custom__operation.html#a729a0de38636ba0875dbe3d5b8244e91',1,'graphene::chain::custom_operation']]],
+  ['required_5finitial_5fcollateral',['required_initial_collateral',['../structgraphene_1_1chain_1_1price__feed.html#aae9ff5b53bdfef744c957c2978529a26',1,'graphene::chain::price_feed']]],
+  ['required_5fmaintenance_5fcollateral',['required_maintenance_collateral',['../structgraphene_1_1chain_1_1price__feed.html#a6aef4a7cce9e805150736898a0ad0f9c',1,'graphene::chain::price_feed']]],
+  ['required_5fowner_5fapprovals',['required_owner_approvals',['../classgraphene_1_1chain_1_1proposal__object.html#a720ae65a9704e4813116565c6affc733',1,'graphene::chain::proposal_object']]],
+  ['result',['result',['../classgraphene_1_1chain_1_1operation__history__object.html#a3a8cf9058797fda8b539ee4fb40e8797',1,'graphene::chain::operation_history_object::result()'],['../structgraphene_1_1chain_1_1applied__operation.html#abab3df1b2c7166074e0855d01bfdf54b',1,'graphene::chain::applied_operation::result()']]],
+  ['review_5fperiod_5fseconds',['review_period_seconds',['../structgraphene_1_1chain_1_1proposal__create__operation.html#af2fc94e217169c77500111593a89403f',1,'graphene::chain::proposal_create_operation']]],
+  ['review_5fperiod_5ftime',['review_period_time',['../classgraphene_1_1chain_1_1proposal__object.html#a51a2a94347b83a82b042465d2db19949',1,'graphene::chain::proposal_object']]],
+  ['rng_5fseed',['rng_seed',['../classgraphene_1_1chain_1_1witness__schedule__object.html#acde64e413e99dfab729bbe30109127d1',1,'graphene::chain::witness_schedule_object']]]
+];

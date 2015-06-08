@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['register_5faccount',['register_account',['../classgraphene_1_1wallet_1_1wallet__api.html#abacf0448b5c3970f1f374b2016c10c01',1,'graphene::wallet::wallet_api::register_account()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a4ccbfcb598ee01dd5cfcaa0559030708',1,'graphene::wallet::detail::wallet_api_impl::register_account()']]],
+  ['register_5fevaluation_5fobserver',['register_evaluation_observer',['../classgraphene_1_1chain_1_1database.html#a199c4745cf983cccee6ef2ee10222cb9',1,'graphene::chain::database']]],
+  ['register_5fevaluator',['register_evaluator',['../classgraphene_1_1chain_1_1database.html#a116eef07a5b0af2512e1c55c724c6a60',1,'graphene::chain::database']]],
+  ['register_5fplugin',['register_plugin',['../classgraphene_1_1app_1_1application.html#a5a679b8f7deeb4a53d59557b9ad45ac3',1,'graphene::app::application']]],
+  ['reindex',['reindex',['../classgraphene_1_1chain_1_1database.html#a83d91b6a902ffc47b07234476ac5df6e',1,'graphene::chain::database']]],
+  ['relax',['relax',['../classgraphene_1_1chain_1_1generic__witness__scheduler.html#acda1639cc27858182c464b6baf2ec508',1,'graphene::chain::generic_witness_scheduler']]],
+  ['remove',['remove',['../classgraphene_1_1chain_1_1fork__database.html#ae06cc1d56ea2e8fc46b39c44201dde8a',1,'graphene::chain::fork_database']]],
+  ['remove_5fall',['remove_all',['../classgraphene_1_1chain_1_1generic__witness__scheduler.html#ae5396a588409547473fd7b327bc2dbb4',1,'graphene::chain::generic_witness_scheduler']]],
+  ['remove_5fbuilder_5ftransaction',['remove_builder_transaction',['../classgraphene_1_1wallet_1_1wallet__api.html#a92c1c80c0f7b7176d35a5a910ed7e7f5',1,'graphene::wallet::wallet_api::remove_builder_transaction()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#ade3f2e4cbc4240542192612b6f9665cb',1,'graphene::wallet::detail::wallet_api_impl::remove_builder_transaction()']]],
+  ['replace_5foperation_5fin_5fbuilder_5ftransaction',['replace_operation_in_builder_transaction',['../classgraphene_1_1wallet_1_1wallet__api.html#ab28f65906fe8eb7da08c90630fd8e587',1,'graphene::wallet::wallet_api::replace_operation_in_builder_transaction()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a73b03f0467ed423529f63ddf6e850313',1,'graphene::wallet::detail::wallet_api_impl::replace_operation_in_builder_transaction()']]],
+  ['reset',['reset',['../classgraphene_1_1chain_1_1fork__database.html#a7120c86cf8c9e8f86f52be52d4be3b3c',1,'graphene::chain::fork_database']]],
+  ['reset_5fp2p_5fnode',['reset_p2p_node',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a05f6b598c146b0707f86c2e46ccdeb58',1,'graphene::app::detail::application_impl']]],
+  ['reset_5fwebsocket_5fserver',['reset_websocket_server',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#aa0951d21a6e4640c78c8dba4dd53b6a8',1,'graphene::app::detail::application_impl']]],
+  ['reset_5fwebsocket_5ftls_5fserver',['reset_websocket_tls_server',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a56d7b546e3625b57e88a6b414ea6abe1',1,'graphene::app::detail::application_impl']]],
+  ['resolve_5frelative_5fids',['resolve_relative_ids',['../classgraphene_1_1chain_1_1generic__evaluator.html#a3fcc2dfff11481f5d733901624051338',1,'graphene::chain::generic_evaluator']]],
+  ['reverse',['reverse',['../namespacegraphene_1_1chain.html#ae9c854c40dfab2d63221ac1a315edd98',1,'graphene::chain']]]
+];
