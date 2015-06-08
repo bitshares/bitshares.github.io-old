@@ -155,7 +155,7 @@ collateralized short position.  This is similar to an insolvent bank converting 
 
 Not every short seller will be happy with the rules offer by BitAssets.  Some may want to borrow for a fixed period of time,
 with higher leverage, and with no risk of being force-settled.  BitShares offers these speculators the option to borrow
-BitUSD on the [bond market](technology/collateralized-bond-market.html){:target="_blank"} at interest.   The bond market allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A Bond market is the perfect way for the market to establish a yield curve on BitAssets and free both sides of the market from dependency on the price feed.
+BitUSD on the [bond market](/technology/collateralized-bond-market){:target="_blank"} at interest.   The bond market allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A Bond market is the perfect way for the market to establish a yield curve on BitAssets and free both sides of the market from dependency on the price feed.
 
 ## Privatized BitAssets
 
