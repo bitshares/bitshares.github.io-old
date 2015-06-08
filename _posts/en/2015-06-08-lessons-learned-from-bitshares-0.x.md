@@ -124,7 +124,7 @@ Under BitShares 2.0, every single operation has an explicit fee, a defined set o
 operation, a defined set of accounts that are impacted by the operation, and a defined set of balance changes that will
 result from the transaction.  An account balance can be entirely calculated with only the raw transactions that
 reference it.    This means transactions are slightly larger than theoretically necessary, but what they lose in size
-they gain in clarity which is critical for usability, reliability, and ultimately performance.  As we will explained
+they gain in clarity which is critical for usability, reliability, and ultimately performance.  As explained
 earlier, we save more bytes in the transaction by using 48 bit identifiers (instead of 20-32 byte hashes/addresses) than
 we lose by having slightly more verbose transactions.
 
