@@ -83,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_a5619b7334405548ba72680a9517868d.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7018d756e3f9f87d63c7ffbf9c6c2ef9.html">chain</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_fcab9eaa36da2840ee6da858ebdfa9d3.html">libraries</a></li><li class="navelem"><a class="el" href="dir_e8db6ae1d4065f4770f4f7b1401c1e7e.html">chain</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -132,7 +132,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;   <span class="comment">//</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;   <span class="comment">// dynamic global properties updating</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;   <span class="comment">//</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;   modify( _dgp, [&amp;]( dynamic_global_property_object&amp; dgp ){</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;   <a class="code" href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">modify</a>( _dgp, [&amp;]( dynamic_global_property_object&amp; dgp ){</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      secret_hash_type::encoder enc;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      fc::raw::pack( enc, dgp.random );</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      fc::raw::pack( enc, b.previous_secret );</div>
@@ -151,12 +151,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;   <a class="code" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> witness_pay = std::min( gpo.parameters.witness_pay_per_block, dpo.witness_budget );</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;   modify( dpo, [&amp;]( dynamic_global_property_object&amp; _dpo )</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;   <a class="code" href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">modify</a>( dpo, [&amp;]( dynamic_global_property_object&amp; _dpo )</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;   {</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      _dpo.witness_budget -= witness_pay;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;   } );</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;   modify( signing_witness, [&amp;]( witness_object&amp; _wit )</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;   <a class="code" href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">modify</a>( signing_witness, [&amp;]( witness_object&amp; _wit )</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;   {</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      _wit.last_secret = new_block.previous_secret;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      _wit.next_secret = new_block.next_secret_hash;</div>
@@ -178,7 +178,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;   <span class="comment">//Look for expired transactions in the deduplication list, and remove them.</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;   <span class="comment">//Transactions must have expired by at least two forking windows in order to be removed.</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;   <span class="keyword">auto</span>&amp; transaction_idx = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacegraphene_1_1chain.html#ab3e5b06d71ab8f619e7141c2ffad1536">transaction_index</a>&amp;<span class="keyword">&gt;</span>(get_mutable_index(<a class="code" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">implementation_ids</a>, <a class="code" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a368561f04146a9649902faa8b016b5aa">impl_transaction_object_type</a>));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;   <span class="keyword">auto</span>&amp; transaction_idx = <span class="keyword">static_cast&lt;</span><a class="code" href="namespacegraphene_1_1chain.html#ab3e5b06d71ab8f619e7141c2ffad1536">transaction_index</a>&amp;<span class="keyword">&gt;</span>(<a class="code" href="classgraphene_1_1db_1_1object__database.html#ae74125300ed2da8d46e3c7436fbfc0d2">get_mutable_index</a>(<a class="code" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">implementation_ids</a>, <a class="code" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a368561f04146a9649902faa8b016b5aa">impl_transaction_object_type</a>));</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;   <span class="keyword">const</span> <span class="keyword">auto</span>&amp; dedupe_index = transaction_idx.indices().get&lt;by_expiration&gt;();</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;   <span class="keyword">const</span> <span class="keyword">auto</span>&amp; global_parameters = <a class="code" href="classgraphene_1_1chain_1_1database.html#a56a82fc403b74a8a2c62d3b8be8b82b1">get_global_properties</a>().<a class="code" href="classgraphene_1_1chain_1_1global__property__object.html#aea41cf6b9f20046f119e51ca3c2cee7e">parameters</a>;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;   <span class="keyword">auto</span> forking_window_time = global_parameters.<a class="code" href="structgraphene_1_1chain_1_1chain__parameters.html#a18a3d58e721dc7db4f61be6da4080d18">maximum_undo_history</a> * global_parameters.block_interval;</div>
@@ -299,7 +299,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;         <span class="keyword">auto</span>&amp; call_index = get_index_type&lt;call_order_index&gt;().indices().get&lt;by_collateral&gt;();</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;         asset settled = mia_object.amount(mia.force_settled_volume);</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;         <span class="comment">// Match against the least collateralized short until the settlement is finished or we reach max settlements</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;         <span class="keywordflow">while</span>( settled &lt; max_settlement_volume &amp;&amp; find_object(order_id) )</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;         <span class="keywordflow">while</span>( settled &lt; max_settlement_volume &amp;&amp; <a class="code" href="classgraphene_1_1db_1_1object__database.html#a06b70038be1e63b578ffd83d327343da">find_object</a>(order_id) )</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;         {</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="keyword">auto</span> itr = call_index.lower_bound(boost::make_tuple(<a class="code" href="structgraphene_1_1chain_1_1price.html#ad7010ba2dece84268335763c82cc0b2b">price::min</a>(mia_object.bitasset_data(*this).options.short_backing_asset,</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                                                                           mia_object.get_id())));</div>
@@ -308,7 +308,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            asset max_settlement = max_settlement_volume - settled;</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            settled += <a class="code" href="classgraphene_1_1chain_1_1database.html#ad458cba38d580698095e7c9afcffd3be">match</a>(*itr, order, settlement_price, max_settlement);</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;         }</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;         modify(mia, [settled](asset_bitasset_data_object&amp; b) {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;         <a class="code" href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">modify</a>(mia, [settled](asset_bitasset_data_object&amp; b) {</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            b.force_settled_volume = settled.amount;</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;         });</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      }</div>
@@ -320,7 +320,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;   <span class="keyword">auto</span>&amp; asset_idx = get_index_type&lt;asset_bitasset_data_index&gt;();</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;   <span class="keywordflow">for</span>( <span class="keyword">const</span> asset_bitasset_data_object* b : asset_idx )</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="keywordflow">if</span>( b-&gt;feed_is_expired(<a class="code" href="classgraphene_1_1chain_1_1database.html#ac19cb5f8d72ac937e735da5a93135a71">head_block_time</a>()) )</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;         modify(*b, [<span class="keyword">this</span>](asset_bitasset_data_object&amp; a) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;         <a class="code" href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">modify</a>(*b, [<span class="keyword">this</span>](asset_bitasset_data_object&amp; a) {</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            a.update_median_feeds(<a class="code" href="classgraphene_1_1chain_1_1database.html#ac19cb5f8d72ac937e735da5a93135a71">head_block_time</a>());</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;         });</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;}</div>
@@ -333,16 +333,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;}</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;} }</div>
+<div class="ttc" id="classgraphene_1_1db_1_1object__database_html_a88949a42022fae3668dabba8b1cccd40"><div class="ttname"><a href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">graphene::db::object_database::modify</a></div><div class="ttdeci">void modify(const T &amp;obj, const Lambda &amp;m)</div><div class="ttdef"><b>Definition:</b> <a href="object__database_8hpp_source.html#l00087">object_database.hpp:87</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1global__property__object_html_aea41cf6b9f20046f119e51ca3c2cee7e"><div class="ttname"><a href="classgraphene_1_1chain_1_1global__property__object.html#aea41cf6b9f20046f119e51ca3c2cee7e">graphene::chain::global_property_object::parameters</a></div><div class="ttdeci">chain_parameters parameters</div><div class="ttdef"><b>Definition:</b> <a href="global__property__object_8hpp_source.html#l00040">global_property_object.hpp:40</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_ad3bef2f100b722a6c30fada38f6dcd73a368561f04146a9649902faa8b016b5aa"><div class="ttname"><a href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a368561f04146a9649902faa8b016b5aa">graphene::chain::impl_transaction_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00180">types.hpp:180</a></div></div>
 <div class="ttc" id="structgraphene_1_1chain_1_1block__header_html_a245f55d0853dfcb3ff539b6597d7eecd"><div class="ttname"><a href="structgraphene_1_1chain_1_1block__header.html#a245f55d0853dfcb3ff539b6597d7eecd">graphene::chain::block_header::timestamp</a></div><div class="ttdeci">fc::time_point_sec timestamp</div><div class="ttdef"><b>Definition:</b> <a href="block_8hpp_source.html#l00032">block.hpp:32</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1database_html_a9f22e6c9b952fb833a6c34c0388c827a"><div class="ttname"><a href="classgraphene_1_1chain_1_1database.html#a9f22e6c9b952fb833a6c34c0388c827a">graphene::chain::database::push_transaction</a></div><div class="ttdeci">processed_transaction push_transaction(const signed_transaction &amp;trx, uint32_t skip=skip_nothing)</div><div class="ttdef"><b>Definition:</b> <a href="db__block_8cpp_source.html#l00191">db_block.cpp:191</a></div></div>
 <div class="ttc" id="transaction__object_8hpp_html"><div class="ttname"><a href="transaction__object_8hpp.html">transaction_object.hpp</a></div></div>
+<div class="ttc" id="classgraphene_1_1db_1_1object__database_html_a06b70038be1e63b578ffd83d327343da"><div class="ttname"><a href="classgraphene_1_1db_1_1object__database.html#a06b70038be1e63b578ffd83d327343da">graphene::db::object_database::find_object</a></div><div class="ttdeci">const object * find_object(object_id_type id) const </div><div class="ttdef"><b>Definition:</b> <a href="object__database_8cpp_source.html#l00046">object_database.cpp:46</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aeb9c564c3992569cb603c0a6de821d3e"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aeb9c564c3992569cb603c0a6de821d3e">graphene::chain::dynamic_global_property_id_type</a></div><div class="ttdeci">object_id&lt; implementation_ids, impl_dynamic_global_property_object_type, dynamic_global_property_object &gt; dynamic_global_property_id_type</div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00251">types.hpp:251</a></div></div>
 <div class="ttc" id="namespacegraphene_html"><div class="ttname"><a href="namespacegraphene.html">graphene</a></div><div class="ttdef"><b>Definition:</b> <a href="account__evaluator_8cpp_source.html#l00023">account_evaluator.cpp:23</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1database_html_ab5abeddad5156d1bcad2e97256d54fa0"><div class="ttname"><a href="classgraphene_1_1chain_1_1database.html#ab5abeddad5156d1bcad2e97256d54fa0">graphene::chain::database::push_proposal</a></div><div class="ttdeci">processed_transaction push_proposal(const proposal_object &amp;proposal)</div><div class="ttdef"><b>Definition:</b> <a href="db__block_8cpp_source.html#l00209">db_block.cpp:209</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1database_html_a2af7487dee89ad2c24d15a8cf205f5ea"><div class="ttname"><a href="classgraphene_1_1chain_1_1database.html#a2af7487dee89ad2c24d15a8cf205f5ea">graphene::chain::database::get_dynamic_global_properties</a></div><div class="ttdeci">const dynamic_global_property_object &amp; get_dynamic_global_properties() const </div><div class="ttdef"><b>Definition:</b> <a href="db__getter_8cpp_source.html#l00036">db_getter.cpp:36</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7"><div class="ttname"><a href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">graphene::chain::implementation_ids</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00085">types.hpp:85</a></div></div>
+<div class="ttc" id="classgraphene_1_1db_1_1object__database_html_ae74125300ed2da8d46e3c7436fbfc0d2"><div class="ttname"><a href="classgraphene_1_1db_1_1object__database.html#ae74125300ed2da8d46e3c7436fbfc0d2">graphene::db::object_database::get_mutable_index</a></div><div class="ttdeci">index &amp; get_mutable_index()</div><div class="ttdef"><b>Definition:</b> <a href="object__database_8hpp_source.html#l00139">object_database.hpp:139</a></div></div>
 <div class="ttc" id="global__property__object_8hpp_html"><div class="ttname"><a href="global__property__object_8hpp.html">global_property_object.hpp</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_ab3e5b06d71ab8f619e7141c2ffad1536"><div class="ttname"><a href="namespacegraphene_1_1chain.html#ab3e5b06d71ab8f619e7141c2ffad1536">graphene::chain::transaction_index</a></div><div class="ttdeci">generic_index&lt; transaction_object, transaction_multi_index_type &gt; transaction_index</div><div class="ttdef"><b>Definition:</b> <a href="transaction__object_8hpp_source.html#l00068">transaction_object.hpp:68</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1database_html_a56a82fc403b74a8a2c62d3b8be8b82b1"><div class="ttname"><a href="classgraphene_1_1chain_1_1database.html#a56a82fc403b74a8a2c62d3b8be8b82b1">graphene::chain::database::get_global_properties</a></div><div class="ttdeci">const global_property_object &amp; get_global_properties() const </div><div class="ttdef"><b>Definition:</b> <a href="db__getter_8cpp_source.html#l00031">db_getter.cpp:31</a></div></div>
@@ -366,7 +369,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 8 2015 13:26:16 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 8 2015 13:49:44 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

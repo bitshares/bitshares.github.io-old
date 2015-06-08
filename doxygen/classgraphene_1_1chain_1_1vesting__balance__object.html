@@ -106,6 +106,8 @@ Inheritance diagram for graphene::chain::vesting_balance_object:</div>
  <div class="center">
   <img src="classgraphene_1_1chain_1_1vesting__balance__object.png" usemap="#graphene::chain::vesting_balance_object_map" alt=""/>
   <map id="graphene::chain::vesting_balance_object_map" name="graphene::chain::vesting_balance_object_map">
+<area href="classgraphene_1_1db_1_1abstract__object.html" alt="graphene::db::abstract_object&lt; vesting_balance_object &gt;" shape="rect" coords="0,56,335,80"/>
+<area href="classgraphene_1_1db_1_1object.html" title="base for all database objects " alt="graphene::db::object" shape="rect" coords="0,0,335,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -121,6 +123,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a132a8aeae6d15ca91bcd6a78966f4919"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac29393d0a39d5cb6436d07a3c479d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1vesting__balance__object.html#a7ac29393d0a39d5cb6436d07a3c479d9">is_withdraw_allowed</a> (const fc::time_point_sec &amp;now, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;amount) const </td></tr>
 <tr class="separator:a7ac29393d0a39d5cb6436d07a3c479d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classgraphene_1_1db_1_1abstract__object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgraphene_1_1db_1_1abstract__object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgraphene_1_1db_1_1abstract__object.html">graphene::db::abstract_object&lt; vesting_balance_object &gt;</a></td></tr>
+<tr class="memitem:ac88be3ec7e745113b522a77fda236415 inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memItemLeft" align="right" valign="top">virtual unique_ptr&lt; <a class="el" href="classgraphene_1_1db_1_1object.html">object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1abstract__object.html#ac88be3ec7e745113b522a77fda236415">clone</a> () const</td></tr>
+<tr class="memdesc:ac88be3ec7e745113b522a77fda236415 inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="mdescLeft">&#160;</td><td class="mdescRight">these methods are implemented for derived classes by inheriting abstract_object&lt;DerivedClass&gt;  <a href="#ac88be3ec7e745113b522a77fda236415">More...</a><br /></td></tr>
+<tr class="separator:ac88be3ec7e745113b522a77fda236415 inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7329292e8fa9035cf2596d72c4868b5 inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1abstract__object.html#ad7329292e8fa9035cf2596d72c4868b5">move_from</a> (<a class="el" href="classgraphene_1_1db_1_1object.html">object</a> &amp;obj)</td></tr>
+<tr class="separator:ad7329292e8fa9035cf2596d72c4868b5 inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c952ac795604b0d1da988e88b8bb0fb inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memItemLeft" align="right" valign="top">virtual variant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1abstract__object.html#a8c952ac795604b0d1da988e88b8bb0fb">to_variant</a> () const</td></tr>
+<tr class="separator:a8c952ac795604b0d1da988e88b8bb0fb inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4ac2d1b3162ff0ce00d050fd4184433 inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memItemLeft" align="right" valign="top">virtual vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1abstract__object.html#ac4ac2d1b3162ff0ce00d050fd4184433">pack</a> () const</td></tr>
+<tr class="separator:ac4ac2d1b3162ff0ce00d050fd4184433 inherit pub_methods_classgraphene_1_1db_1_1abstract__object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classgraphene_1_1db_1_1object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgraphene_1_1db_1_1object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgraphene_1_1db_1_1object.html">graphene::db::object</a></td></tr>
+<tr class="memitem:a64864992a46d9d52836afe1a52a2e394 inherit pub_methods_classgraphene_1_1db_1_1object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1object.html#a64864992a46d9d52836afe1a52a2e394">object</a> ()</td></tr>
+<tr class="separator:a64864992a46d9d52836afe1a52a2e394 inherit pub_methods_classgraphene_1_1db_1_1object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac457a859418c22014c07a3bcdc67ed04 inherit pub_methods_classgraphene_1_1db_1_1object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1object.html#ac457a859418c22014c07a3bcdc67ed04">~object</a> ()</td></tr>
+<tr class="separator:ac457a859418c22014c07a3bcdc67ed04 inherit pub_methods_classgraphene_1_1db_1_1object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -130,6 +147,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad0a453c90b0555f470fe04692400a770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c40157fb6d2fb86c6f158437aece76d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a53807c77a8d2a7efb30e13b772e99b3a">vesting_policy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1vesting__balance__object.html#a9c40157fb6d2fb86c6f158437aece76d">policy</a></td></tr>
 <tr class="separator:a9c40157fb6d2fb86c6f158437aece76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classgraphene_1_1db_1_1object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classgraphene_1_1db_1_1object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classgraphene_1_1db_1_1object.html">graphene::db::object</a></td></tr>
+<tr class="memitem:a2ce812569d565a45dda1420cfbdf79ad inherit pub_attribs_classgraphene_1_1db_1_1object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1db_1_1object__id__type.html">object_id_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1object.html#a2ce812569d565a45dda1420cfbdf79ad">id</a></td></tr>
+<tr class="separator:a2ce812569d565a45dda1420cfbdf79ad inherit pub_attribs_classgraphene_1_1db_1_1object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -137,6 +157,11 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:ab999fcca9be4d932dbb2586b9a7d339d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ed5e43ebf715f6eb711139e035255c7"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1vesting__balance__object.html#a5ed5e43ebf715f6eb711139e035255c7">type_id</a> = <a class="el" href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da910ef1b8a52e0047fb3692cdaee9f9ee">vesting_balance_object_type</a></td></tr>
 <tr class="separator:a5ed5e43ebf715f6eb711139e035255c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classgraphene_1_1db_1_1object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classgraphene_1_1db_1_1object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classgraphene_1_1db_1_1object.html">graphene::db::object</a></td></tr>
+<tr class="memitem:af4fa36c46acc14681746e93adbc812f8 inherit pub_static_attribs_classgraphene_1_1db_1_1object"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1object.html#af4fa36c46acc14681746e93adbc812f8">space_id</a> = 0</td></tr>
+<tr class="separator:af4fa36c46acc14681746e93adbc812f8 inherit pub_static_attribs_classgraphene_1_1db_1_1object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b608265ad59cb1acdff271b9aa2ac5 inherit pub_static_attribs_classgraphene_1_1db_1_1object"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1db_1_1object.html#ac4b608265ad59cb1acdff271b9aa2ac5">type_id</a> = 0</td></tr>
+<tr class="separator:ac4b608265ad59cb1acdff271b9aa2ac5 inherit pub_static_attribs_classgraphene_1_1db_1_1object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Timelocked balance object is a balance that is locked by the blockchain for a period of time. </p>
@@ -378,7 +403,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 8 2015 13:26:18 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 8 2015 13:49:46 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

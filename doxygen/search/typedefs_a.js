@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['object_5ftype',['object_type',['../classgraphene_1_1db_1_1flat__index.html#affe4ff7f9b3cd236463a567fe8557c36',1,'graphene::db::flat_index::object_type()'],['../classgraphene_1_1chain_1_1generic__index.html#a16fcc4ef40cfba714e360f073cb00ef1',1,'graphene::chain::generic_index::object_type()'],['../classgraphene_1_1db_1_1primary__index.html#a12db5f2e55e1221c511cd0ad1259f4e1',1,'graphene::db::primary_index::object_type()'],['../classgraphene_1_1db_1_1simple__index.html#a6e0f6654e0c80f678e104299ce329977',1,'graphene::db::simple_index::object_type()']]],
   ['operation',['operation',['../group__operations.html#ga224b9305c3c912e8c9b83ff0c106b0d7',1,'graphene::chain']]],
   ['operation_5fhistory_5fid_5ftype',['operation_history_id_type',['../namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4',1,'graphene::chain']]],
   ['operation_5fresult',['operation_result',['../namespacegraphene_1_1chain.html#af121d5f218e142d53acffc833cae929a',1,'graphene::chain']]],

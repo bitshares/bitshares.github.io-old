@@ -83,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_a5619b7334405548ba72680a9517868d.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7018d756e3f9f87d63c7ffbf9c6c2ef9.html">chain</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_fcab9eaa36da2840ee6da858ebdfa9d3.html">libraries</a></li><li class="navelem"><a class="el" href="dir_e8db6ae1d4065f4770f4f7b1401c1e7e.html">chain</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -127,7 +127,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;   <span class="keyword">const</span> <a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html">witness_schedule_object</a>&amp; wso = <a class="code" href="namespacegraphene_1_1chain.html#a9bbe447d9ba29245f2db2653273129f7">witness_schedule_id_type</a>()(*this);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;   <span class="comment">// ask the near scheduler who goes in the given slot</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;   <a class="code" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> wid;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;   <a class="code" href="structgraphene_1_1db_1_1object__id.html">witness_id_type</a> wid;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;   <span class="keywordtype">bool</span> slot_is_near = wso.scheduler.get_slot(slot_num, wid);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;   <span class="keywordflow">if</span>( ! slot_is_near )</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;   {</div>
@@ -178,7 +178,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;   vector&lt;witness_id_type&gt; result;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;   result.reserve(wso.<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html#ab73215c676c983f277320a70e9bd8f7d">scheduler</a>.<a class="code" href="classgraphene_1_1chain_1_1generic__witness__scheduler.html#ad9c15a3abd3fa1a8309fc65fd78e9efc">size</a>());</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;   uint32_t slot_num = 1;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;   <a class="code" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> wid;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;   <a class="code" href="structgraphene_1_1db_1_1object__id.html">witness_id_type</a> wid;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;   <span class="keywordflow">while</span>( wso.<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html#ab73215c676c983f277320a70e9bd8f7d">scheduler</a>.<a class="code" href="classgraphene_1_1chain_1_1generic__witness__scheduler.html#adcfa65eec98bbcea550b64ce6b95e854">get_slot</a>(slot_num++, wid) )</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      result.emplace_back(wid);</div>
@@ -200,13 +200,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;   assert( schedule_slot &gt; 0 );</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;   <a class="code" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> wit;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;   <a class="code" href="structgraphene_1_1db_1_1object__id.html">witness_id_type</a> wit;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;   <span class="keyword">const</span> <a class="code" href="classgraphene_1_1chain_1_1dynamic__global__property__object.html">dynamic_global_property_object</a>&amp; dpo = <a class="code" href="classgraphene_1_1chain_1_1database.html#a2af7487dee89ad2c24d15a8cf205f5ea">get_dynamic_global_properties</a>();</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;   assert( dpo.<a class="code" href="classgraphene_1_1chain_1_1dynamic__global__property__object.html#a4a4db1274cfe660203bf86c9203cf7fc">random</a>.data_size() == <a class="code" href="classgraphene_1_1chain_1_1hash__ctr__rng.html#ab17234a2e3fc9cd52aa22a574167ba6b">witness_scheduler_rng::seed_length</a> );</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;   assert( <a class="code" href="classgraphene_1_1chain_1_1hash__ctr__rng.html#ab17234a2e3fc9cd52aa22a574167ba6b">witness_scheduler_rng::seed_length</a> == wso.<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html#acde64e413e99dfab729bbe30109127d1">rng_seed</a>.size() );</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;   modify(wso, [&amp;](<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html">witness_schedule_object</a>&amp; _wso)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;   <a class="code" href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">modify</a>(wso, [&amp;](<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html">witness_schedule_object</a>&amp; _wso)</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;   {</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      _wso.<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html#a23cf48d1d252db20bb80ecbc92ed75de">slots_since_genesis</a> += schedule_slot;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <a class="code" href="classgraphene_1_1chain_1_1hash__ctr__rng.html">witness_scheduler_rng</a> rng(wso.<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html#acde64e413e99dfab729bbe30109127d1">rng_seed</a>.data, _wso.<a class="code" href="classgraphene_1_1chain_1_1witness__schedule__object.html#a23cf48d1d252db20bb80ecbc92ed75de">slots_since_genesis</a>);</div>
@@ -231,6 +231,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;} }</div>
 <div class="ttc" id="classgraphene_1_1chain_1_1generic__far__future__witness__scheduler_html"><div class="ttname"><a href="classgraphene_1_1chain_1_1generic__far__future__witness__scheduler.html">graphene::chain::generic_far_future_witness_scheduler</a></div><div class="ttdef"><b>Definition:</b> <a href="witness__scheduler_8hpp_source.html#l00338">witness_scheduler.hpp:338</a></div></div>
 <div class="ttc" id="witness__schedule__object_8hpp_html"><div class="ttname"><a href="witness__schedule__object_8hpp.html">witness_schedule_object.hpp</a></div></div>
+<div class="ttc" id="structgraphene_1_1db_1_1object__id_html"><div class="ttname"><a href="structgraphene_1_1db_1_1object__id.html">graphene::db::object_id&lt; protocol_ids, witness_object_type, witness_object &gt;</a></div></div>
+<div class="ttc" id="classgraphene_1_1db_1_1object__database_html_a88949a42022fae3668dabba8b1cccd40"><div class="ttname"><a href="classgraphene_1_1db_1_1object__database.html#a88949a42022fae3668dabba8b1cccd40">graphene::db::object_database::modify</a></div><div class="ttdeci">void modify(const T &amp;obj, const Lambda &amp;m)</div><div class="ttdef"><b>Definition:</b> <a href="object__database_8hpp_source.html#l00087">object_database.hpp:87</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1witness__schedule__object_html_acde64e413e99dfab729bbe30109127d1"><div class="ttname"><a href="classgraphene_1_1chain_1_1witness__schedule__object.html#acde64e413e99dfab729bbe30109127d1">graphene::chain::witness_schedule_object::rng_seed</a></div><div class="ttdeci">fc::array&lt; char, GRAPHENE_RNG_SEED_LENGTH &gt; rng_seed</div><div class="ttdef"><b>Definition:</b> <a href="witness__schedule__object_8hpp_source.html#l00059">witness_schedule_object.hpp:59</a></div></div>
 <div class="ttc" id="structgraphene_1_1chain_1_1block__header_html_a245f55d0853dfcb3ff539b6597d7eecd"><div class="ttname"><a href="structgraphene_1_1chain_1_1block__header.html#a245f55d0853dfcb3ff539b6597d7eecd">graphene::chain::block_header::timestamp</a></div><div class="ttdeci">fc::time_point_sec timestamp</div><div class="ttdef"><b>Definition:</b> <a href="block_8hpp_source.html#l00032">block.hpp:32</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1dynamic__global__property__object_html"><div class="ttname"><a href="classgraphene_1_1chain_1_1dynamic__global__property__object.html">graphene::chain::dynamic_global_property_object</a></div><div class="ttdoc">Maintains global state information (delegate list, current fees)This is an implementation detail...</div><div class="ttdef"><b>Definition:</b> <a href="global__property__object_8hpp_source.html#l00065">global_property_object.hpp:65</a></div></div>
@@ -270,7 +272,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 8 2015 13:26:16 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 8 2015 13:49:44 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

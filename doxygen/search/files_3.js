@@ -13,5 +13,6 @@ var searchData=
   ['db_5fwitness_5fschedule_2ecpp',['db_witness_schedule.cpp',['../db__witness__schedule_8cpp.html',1,'']]],
   ['delegate_5fevaluator_2ecpp',['delegate_evaluator.cpp',['../delegate__evaluator_8cpp.html',1,'']]],
   ['delegate_5fevaluator_2ehpp',['delegate_evaluator.hpp',['../delegate__evaluator_8hpp.html',1,'']]],
-  ['delegate_5fobject_2ehpp',['delegate_object.hpp',['../delegate__object_8hpp.html',1,'']]]
+  ['delegate_5fobject_2ehpp',['delegate_object.hpp',['../delegate__object_8hpp.html',1,'']]],
+  ['domains_2ecpp',['domains.cpp',['../domains_8cpp.html',1,'']]]
 ];

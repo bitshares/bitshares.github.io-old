@@ -7,6 +7,7 @@ var searchData=
   ['graphene_5fblockchain_5fprecision_5fdigits',['GRAPHENE_BLOCKCHAIN_PRECISION_DIGITS',['../config_8hpp.html#a030523db8d8ffb33bf76540e079af095',1,'config.hpp']]],
   ['graphene_5fcore_5fasset_5fcycle_5frate',['GRAPHENE_CORE_ASSET_CYCLE_RATE',['../config_8hpp.html#ac6d3a4f85e91602bbd24cba75ee29fc0',1,'config.hpp']]],
   ['graphene_5fcore_5fasset_5fcycle_5frate_5fbits',['GRAPHENE_CORE_ASSET_CYCLE_RATE_BITS',['../config_8hpp.html#a1e58900cc22f1e4c344e51e86abbef92',1,'config.hpp']]],
+  ['graphene_5fdb_5fmax_5finstance_5fid',['GRAPHENE_DB_MAX_INSTANCE_ID',['../object__id_8hpp.html#a9c0db8449cccb10b529dc8009bbbe9cd',1,'object_id.hpp']]],
   ['graphene_5fdefault_5fblock_5finterval',['GRAPHENE_DEFAULT_BLOCK_INTERVAL',['../config_8hpp.html#ab47b1de8de7ee3105ff3b61c450d1dfc',1,'config.hpp']]],
   ['graphene_5fdefault_5fbulk_5fdiscount_5fthreshold_5fmax',['GRAPHENE_DEFAULT_BULK_DISCOUNT_THRESHOLD_MAX',['../config_8hpp.html#a99d9d0fe4c9885c094057dc66fbc8083',1,'config.hpp']]],
   ['graphene_5fdefault_5fbulk_5fdiscount_5fthreshold_5fmin',['GRAPHENE_DEFAULT_BULK_DISCOUNT_THRESHOLD_MIN',['../config_8hpp.html#a6d2a986956fbb1495218a4c63404e139',1,'config.hpp']]],

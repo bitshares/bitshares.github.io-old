@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6bdb9d22c74429b469716c418b33e585"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a6bdb9d22c74429b469716c418b33e585">is_locked</a> () const </td></tr>
 <tr class="separator:a6bdb9d22c74429b469716c418b33e585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63c73a72618931416a796913b2ffbded"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a63c73a72618931416a796913b2ffbded"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a63c73a72618931416a796913b2ffbded">get_object</a> (object_id&lt; T::space_id, T::type_id, T &gt; id) const </td></tr>
+<tr class="memitem:a63c73a72618931416a796913b2ffbded"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a63c73a72618931416a796913b2ffbded">get_object</a> (<a class="el" href="structgraphene_1_1db_1_1object__id.html">object_id</a>&lt; T::space_id, T::type_id, T &gt; id) const </td></tr>
 <tr class="separator:a63c73a72618931416a796913b2ffbded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e76674b51f00fcd6b1dafada7117803"><td class="memItemLeft" align="right" valign="top">variant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a8e76674b51f00fcd6b1dafada7117803">info</a> () const </td></tr>
 <tr class="separator:a8e76674b51f00fcd6b1dafada7117803"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,7 +179,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab8136d37177f8d25c6f425065d12abdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af248dcdfbfe40ab7edaa068617d617ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#af248dcdfbfe40ab7edaa068617d617ce">short_sell_asset</a> (string seller_name, string amount_to_sell, string asset_symbol, string amount_of_collateral, bool broadcast=false)</td></tr>
 <tr class="separator:af248dcdfbfe40ab7edaa068617d617ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a61c45860bbbebc66a62a4cb0fade70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a2a61c45860bbbebc66a62a4cb0fade70">cancel_order</a> (object_id_type order_id, bool broadcast=false)</td></tr>
+<tr class="memitem:a2a61c45860bbbebc66a62a4cb0fade70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a2a61c45860bbbebc66a62a4cb0fade70">cancel_order</a> (<a class="el" href="structgraphene_1_1db_1_1object__id__type.html">object_id_type</a> order_id, bool broadcast=false)</td></tr>
 <tr class="separator:a2a61c45860bbbebc66a62a4cb0fade70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6a4a05a1af2471c2f0d55827c1c1e64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#af6a4a05a1af2471c2f0d55827c1c1e64">transfer</a> (string from, string to, string amount, string asset_symbol, string memo, bool broadcast=false)</td></tr>
 <tr class="separator:af6a4a05a1af2471c2f0d55827c1c1e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,7 +356,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> graphene::wallet::detail::wallet_api_impl::cancel_order </td>
           <td>(</td>
-          <td class="paramtype">object_id_type&#160;</td>
+          <td class="paramtype"><a class="el" href="structgraphene_1_1db_1_1object__id__type.html">object_id_type</a>&#160;</td>
           <td class="paramname"><em>order_id</em>, </td>
         </tr>
         <tr>
@@ -985,7 +985,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">T graphene::wallet::detail::wallet_api_impl::get_object </td>
           <td>(</td>
-          <td class="paramtype">object_id&lt; T::space_id, T::type_id, T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="structgraphene_1_1db_1_1object__id.html">object_id</a>&lt; T::space_id, T::type_id, T &gt;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2002,7 +2002,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 8 2015 13:26:18 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 8 2015 13:49:46 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

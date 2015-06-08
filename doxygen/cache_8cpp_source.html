@@ -83,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_a5619b7334405548ba72680a9517868d.html">libraries</a></li><li class="navelem"><a class="el" href="dir_76f73324b01ea9e23904b72b4bf45282.html">wallet</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_fcab9eaa36da2840ee6da858ebdfa9d3.html">libraries</a></li><li class="navelem"><a class="el" href="dir_25c4e119608bcbb9c3619b496e787410.html">wallet</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -135,16 +135,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="namespacegraphene_1_1wallet.html#ad1fde1924da02a2ed9e35fdd9dc7452c">   42</a></span>&#160;<span class="keywordtype">object</span>* <a class="code" href="namespacegraphene_1_1wallet.html#ad1fde1924da02a2ed9e35fdd9dc7452c">create_object</a>( <span class="keyword">const</span> variant&amp; v )</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;   <span class="keyword">const</span> variant_object&amp; obj = v.get_object();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;   object_id_type obj_id = obj[<span class="stringliteral">&quot;id&quot;</span>].as&lt; object_id_type &gt;();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;   <a class="code" href="structgraphene_1_1db_1_1object__id__type.html">object_id_type</a> obj_id = obj[<span class="stringliteral">&quot;id&quot;</span>].as&lt; <a class="code" href="structgraphene_1_1db_1_1object__id__type.html">object_id_type</a> &gt;();</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;   FC_ASSERT( obj_id.type() == <a class="code" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a9dadbbe526b5096091138116c13d612d">protocol_ids</a> );</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;   FC_ASSERT( obj_id.<a class="code" href="structgraphene_1_1db_1_1object__id__type.html#a29d6a9313f4a5ecc604b7f9f263e0503">type</a>() == <a class="code" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a9dadbbe526b5096091138116c13d612d">protocol_ids</a> );</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;   <span class="comment">//</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;   <span class="comment">// Sufficiently clever template metaprogramming might</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;   <span class="comment">// be able to convince the compiler to emit this switch</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;   <span class="comment">// instead of creating it explicitly.</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;   <span class="comment">//</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;   <span class="keywordflow">switch</span>( obj_id.space() )</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;   <span class="keywordflow">switch</span>( obj_id.<a class="code" href="structgraphene_1_1db_1_1object__id__type.html#a486dc4e2462aafab867b6ad4e697df47">space</a>() )</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;   {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="comment">/*</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">      case null_object_type:</span></div>
@@ -202,6 +202,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633da3016c2ee306ae07ba695f2ba94c23a1d"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da3016c2ee306ae07ba695f2ba94c23a1d">graphene::chain::withdraw_permission_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00160">types.hpp:160</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633dad00554e6d348a95ddeaafc3bd14d851e"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633dad00554e6d348a95ddeaafc3bd14d851e">graphene::chain::key_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00148">types.hpp:148</a></div></div>
 <div class="ttc" id="delegate__object_8hpp_html"><div class="ttname"><a href="delegate__object_8hpp.html">delegate_object.hpp</a></div></div>
+<div class="ttc" id="structgraphene_1_1db_1_1object__id__type_html"><div class="ttname"><a href="structgraphene_1_1db_1_1object__id__type.html">graphene::db::object_id_type</a></div><div class="ttdef"><b>Definition:</b> <a href="object__id_8hpp_source.html#l00033">object_id.hpp:33</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633da7a6833972e5e0e7ef4607a5d31b58c47"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da7a6833972e5e0e7ef4607a5d31b58c47">graphene::chain::force_settlement_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00151">types.hpp:151</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633da890c9fa15df9768e291236294ade6862"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da890c9fa15df9768e291236294ade6862">graphene::chain::witness_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00153">types.hpp:153</a></div></div>
 <div class="ttc" id="account__object_8hpp_html"><div class="ttname"><a href="account__object_8hpp.html">account_object.hpp</a></div></div>
@@ -209,8 +210,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="proposal__object_8hpp_html"><div class="ttname"><a href="proposal__object_8hpp.html">proposal_object.hpp</a></div></div>
 <div class="ttc" id="withdraw__permission__object_8hpp_html"><div class="ttname"><a href="withdraw__permission__object_8hpp.html">withdraw_permission_object.hpp</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633da57ab9805df6108570f8928ea9b366a28"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da57ab9805df6108570f8928ea9b366a28">graphene::chain::call_order_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00156">types.hpp:156</a></div></div>
+<div class="ttc" id="structgraphene_1_1db_1_1object__id__type_html_a29d6a9313f4a5ecc604b7f9f263e0503"><div class="ttname"><a href="structgraphene_1_1db_1_1object__id__type.html#a29d6a9313f4a5ecc604b7f9f263e0503">graphene::db::object_id_type::type</a></div><div class="ttdeci">uint8_t type() const </div><div class="ttdef"><b>Definition:</b> <a href="object__id_8hpp_source.html#l00044">object_id.hpp:44</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633da55707138e920c65f0d3daacec261c2c2"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da55707138e920c65f0d3daacec261c2c2">graphene::chain::bond_offer_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00161">types.hpp:161</a></div></div>
 <div class="ttc" id="asset__object_8hpp_html"><div class="ttname"><a href="asset__object_8hpp.html">asset_object.hpp</a></div></div>
+<div class="ttc" id="structgraphene_1_1db_1_1object__id__type_html_a486dc4e2462aafab867b6ad4e697df47"><div class="ttname"><a href="structgraphene_1_1db_1_1object__id__type.html#a486dc4e2462aafab867b6ad4e697df47">graphene::db::object_id_type::space</a></div><div class="ttdeci">uint8_t space() const </div><div class="ttdef"><b>Definition:</b> <a href="object__id_8hpp_source.html#l00043">object_id.hpp:43</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633da73d5f9d5fe8289ffcf39020fe2eb60b1"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da73d5f9d5fe8289ffcf39020fe2eb60b1">graphene::chain::proposal_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00158">types.hpp:158</a></div></div>
 <div class="ttc" id="namespacegraphene_1_1chain_html_aa6e32c79e2b22c998deddedcb696633da43893adce4b622dcc95bcd89485c5600"><div class="ttname"><a href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da43893adce4b622dcc95bcd89485c5600">graphene::chain::operation_history_object_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00159">types.hpp:159</a></div></div>
 <div class="ttc" id="bond__object_8hpp_html"><div class="ttname"><a href="bond__object_8hpp.html">bond_object.hpp</a></div></div>
@@ -225,7 +228,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 8 2015 13:26:16 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 8 2015 13:49:44 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

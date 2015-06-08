@@ -219,8 +219,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>clear_pending()
 : <a class="el" href="classgraphene_1_1chain_1_1database.html#af1c4e067598a0318e728b1d28df7a598">graphene::chain::database</a>
 </li>
+<li>clone()
+: <a class="el" href="classgraphene_1_1db_1_1abstract__object.html#ac88be3ec7e745113b522a77fda236415">graphene::db::abstract_object&lt; DerivedClass &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1object.html#a9bb81d095c87d1512465b5e5262c14ce">graphene::db::object</a>
+</li>
 <li>close()
 : <a class="el" href="classgraphene_1_1chain_1_1database.html#aea780b2e3fbe90987d2d4b4892ba4362">graphene::chain::database</a>
+, <a class="el" href="classgraphene_1_1db_1_1cached__level__map.html#abe9f7a1f7549846c130bbfaefa75f292">graphene::db::cached_level_map&lt; Key, Value, CacheType &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1fast__level__map.html#a1601aa9df58cdfa1fd51d8850b0b43d8">graphene::db::fast_level_map&lt; K, V &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1level__map.html#a9e8da8c120518ee455d6bda590c650a7">graphene::db::level_map&lt; Key, Value &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1level__pod__map.html#a69b9e712fcfee41ff7e90a2952a47dd5">graphene::db::level_pod_map&lt; Key, Value &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1object__database.html#a076e75fbe95c3cbd0bf637c258973533">graphene::db::object_database</a>
 </li>
 <li>collateral_type()
 : <a class="el" href="classgraphene_1_1chain_1_1bond__object.html#afdf670ff1f5ae31300c8627838b19d49">graphene::chain::bond_object</a>
@@ -228,11 +237,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>collateralization()
 : <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a1ad714b1a86ccd8098286d14abdc70e5">graphene::chain::call_order_object</a>
 </li>
+<li>commit()
+: <a class="el" href="classgraphene_1_1db_1_1level__map_1_1write__batch.html#aef218ac92918cc9158356bbe875e3054">graphene::db::level_map&lt; Key, Value &gt;::write_batch</a>
+, <a class="el" href="classgraphene_1_1db_1_1undo__database_1_1session.html#a2255e2a2b9bc6fe2f337b7ea74151b32">graphene::db::undo_database::session</a>
+</li>
 <li>compute_coin_seconds_earned()
 : <a class="el" href="structgraphene_1_1chain_1_1cdd__vesting__policy.html#ac0e58b68ec3fd81ddc93d44eaea6572e">graphene::chain::cdd_vesting_policy</a>
 </li>
 <li>connection_count_changed()
 : <a class="el" href="classgraphene_1_1app_1_1detail_1_1application__impl.html#ae940c6904889b507b4a594350856d7e6">graphene::app::detail::application_impl</a>
+</li>
+<li>const_iterator()
+: <a class="el" href="classgraphene_1_1db_1_1flat__index_1_1const__iterator.html#a4d2ba4b63f47c54c80ae2a77bd13f6c3">graphene::db::flat_index&lt; T &gt;::const_iterator</a>
+, <a class="el" href="classgraphene_1_1db_1_1simple__index_1_1const__iterator.html#ad8887bb52d95da40e56b5dac520c14d6">graphene::db::simple_index&lt; T &gt;::const_iterator</a>
 </li>
 <li>consume_schedule()
 : <a class="el" href="classgraphene_1_1chain_1_1generic__witness__scheduler.html#abe5b6ebb94a96136ce9d20c099a308a7">graphene::chain::generic_witness_scheduler&lt; WitnessID, RNG, CountType, OffsetType, debug &gt;</a>
@@ -243,6 +260,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>copy_wallet_file()
 : <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#ae0964b39f0b10a9a34408c1fd026fa09">graphene::wallet::detail::wallet_api_impl</a>
 , <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a3b0edcbb6c620a617dbd0368eaba258a">graphene::wallet::wallet_api</a>
+</li>
+<li>count()
+: <a class="el" href="classgraphene_1_1db_1_1fast__level__map.html#acaa2b8c9a0fef9daad74b164678506dc">graphene::db::fast_level_map&lt; K, V &gt;</a>
+</li>
+<li>create()
+: <a class="el" href="classgraphene_1_1chain_1_1generic__index.html#a2bec5e2023935b1972f8d70672850c78">graphene::chain::generic_index&lt; ObjectType, MultiIndexType &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1flat__index.html#a141890c8cb010b1a8cb2bb5a77d10e25">graphene::db::flat_index&lt; T &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1index.html#a5498269afc8b822043d4d1e0b7b5a75e">graphene::db::index</a>
+, <a class="el" href="classgraphene_1_1db_1_1object__database.html#a8ab509742fb251702ee056ee234d94fa">graphene::db::object_database</a>
+, <a class="el" href="classgraphene_1_1db_1_1primary__index.html#a98405ef8bdfd22a66564d7b4f576bec7">graphene::db::primary_index&lt; DerivedIndex &gt;</a>
+, <a class="el" href="classgraphene_1_1db_1_1simple__index.html#aa25decba8c3502467dfe170fcbe9a590">graphene::db::simple_index&lt; T &gt;</a>
 </li>
 <li>create_account_with_brain_key()
 : <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#aae1161d355f1b94e32ffd628d42603ba">graphene::wallet::detail::wallet_api_impl</a>
@@ -255,6 +283,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a6427b7993da64d55d077d9e698cbd2f8">graphene::wallet::detail::wallet_api_impl</a>
 , <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ad58d6ede0bf348eeec67f87e9239d791">graphene::wallet::wallet_api</a>
 </li>
+<li>create_batch()
+: <a class="el" href="classgraphene_1_1db_1_1level__map.html#a173bd422e26518bcad884874db043e0a">graphene::db::level_map&lt; Key, Value &gt;</a>
+</li>
 <li>current_fee_schedule()
 : <a class="el" href="classgraphene_1_1chain_1_1database.html#adf2fd9a70677725b053318a63cfa00d1">graphene::chain::database</a>
 </li>
@@ -262,7 +293,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 8 2015 13:26:18 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 8 2015 13:49:46 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

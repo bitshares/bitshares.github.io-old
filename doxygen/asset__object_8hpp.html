@@ -83,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_a5619b7334405548ba72680a9517868d.html">libraries</a></li><li class="navelem"><a class="el" href="dir_7018d756e3f9f87d63c7ffbf9c6c2ef9.html">chain</a></li><li class="navelem"><a class="el" href="dir_14329d454795d2ce8e6481fee0f89845.html">include</a></li><li class="navelem"><a class="el" href="dir_bfa06f1edb7f04d9ae5f69288c69aeab.html">graphene</a></li><li class="navelem"><a class="el" href="dir_a49442a45deb0b1de42c7eca4ec295bc.html">chain</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_fcab9eaa36da2840ee6da858ebdfa9d3.html">libraries</a></li><li class="navelem"><a class="el" href="dir_e8db6ae1d4065f4770f4f7b1401c1e7e.html">chain</a></li><li class="navelem"><a class="el" href="dir_a9bce205be7c3b16f665874ddb85530e.html">include</a></li><li class="navelem"><a class="el" href="dir_d68ac08b3122e8d49f89fbd16fc2a378.html">graphene</a></li><li class="navelem"><a class="el" href="dir_fa24b5c42b6b907e57dccb23af120257.html">chain</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -97,8 +97,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &lt;boost/multi_index/composite_key.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="asset_8hpp_source.html">graphene/chain/asset.hpp</a>&gt;</code><br />
-<code>#include &lt;graphene/db/flat_index.hpp&gt;</code><br />
-<code>#include &lt;graphene/db/generic_index.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="flat__index_8hpp_source.html">graphene/db/flat_index.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="generic__index_8hpp_source.html">graphene/db/generic_index.hpp</a>&gt;</code><br />
 </div>
 <p><a href="asset__object_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -129,11 +129,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ac63b144739c31892b22ece429301046a"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; asset_bitasset_data_object, indexed_by&lt; hashed_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type,&amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_feed_expiration &gt;, const_mem_fun&lt; asset_bitasset_data_object, time_point_sec,&amp;asset_bitasset_data_object::feed_expiration_time &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ac63b144739c31892b22ece429301046a">graphene::chain::asset_bitasset_data_object_multi_index_type</a></td></tr>
+<tr class="memitem:ac63b144739c31892b22ece429301046a"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; asset_bitasset_data_object, indexed_by&lt; hashed_unique&lt; tag&lt; by_id &gt;, member&lt; <a class="el" href="classgraphene_1_1db_1_1object.html">object</a>, <a class="el" href="structgraphene_1_1db_1_1object__id__type.html">object_id_type</a>,&amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_feed_expiration &gt;, const_mem_fun&lt; asset_bitasset_data_object, time_point_sec,&amp;asset_bitasset_data_object::feed_expiration_time &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ac63b144739c31892b22ece429301046a">graphene::chain::asset_bitasset_data_object_multi_index_type</a></td></tr>
 <tr class="separator:ac63b144739c31892b22ece429301046a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e602e25406859d8ab4dd63f6dd3b8b4"><td class="memItemLeft" align="right" valign="top">typedef flat_index&lt; asset_bitasset_data_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a8e602e25406859d8ab4dd63f6dd3b8b4">graphene::chain::asset_bitasset_data_index</a></td></tr>
+<tr class="memitem:a8e602e25406859d8ab4dd63f6dd3b8b4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classgraphene_1_1db_1_1flat__index.html">flat_index</a>&lt; asset_bitasset_data_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a8e602e25406859d8ab4dd63f6dd3b8b4">graphene::chain::asset_bitasset_data_index</a></td></tr>
 <tr class="separator:a8e602e25406859d8ab4dd63f6dd3b8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3f8912ba63ed65826670fb9c55532e2"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; asset_object, indexed_by&lt; hashed_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type,&amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_symbol &gt;, member&lt; asset_object, string,&amp;asset_object::symbol &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ac3f8912ba63ed65826670fb9c55532e2">graphene::chain::asset_object_multi_index_type</a></td></tr>
+<tr class="memitem:ac3f8912ba63ed65826670fb9c55532e2"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; asset_object, indexed_by&lt; hashed_unique&lt; tag&lt; by_id &gt;, member&lt; <a class="el" href="classgraphene_1_1db_1_1object.html">object</a>, <a class="el" href="structgraphene_1_1db_1_1object__id__type.html">object_id_type</a>,&amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_symbol &gt;, member&lt; asset_object, string,&amp;asset_object::symbol &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ac3f8912ba63ed65826670fb9c55532e2">graphene::chain::asset_object_multi_index_type</a></td></tr>
 <tr class="separator:ac3f8912ba63ed65826670fb9c55532e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac16131eb5f1afc10c20a6df72098ddf0"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; asset_object, asset_object_multi_index_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ac16131eb5f1afc10c20a6df72098ddf0">graphene::chain::asset_index</a></td></tr>
 <tr class="separator:ac16131eb5f1afc10c20a6df72098ddf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,7 +141,7 @@ Typedefs</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 8 2015 13:26:16 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 8 2015 13:49:44 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

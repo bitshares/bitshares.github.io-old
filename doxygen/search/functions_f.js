@@ -1,6 +1,7 @@
 var searchData=
 [
   ['p2p_5fnode',['p2p_node',['../classgraphene_1_1app_1_1application.html#ac6be3372ebe64a14abe6d5c6a26b0f0b',1,'graphene::app::application::p2p_node()'],['../classgraphene_1_1app_1_1plugin.html#a38f4af42d32e4df5c303d5376e416dd7',1,'graphene::app::plugin::p2p_node()']]],
+  ['pack',['pack',['../classgraphene_1_1db_1_1object.html#aaa925585e1ddd2f640b45b37a28edd4d',1,'graphene::db::object::pack()'],['../classgraphene_1_1db_1_1abstract__object.html#ac4ac2d1b3162ff0ce00d050fd4184433',1,'graphene::db::abstract_object::pack()']]],
   ['pay_5ffee',['pay_fee',['../classgraphene_1_1chain_1_1generic__evaluator.html#a832b9ba03e2d8b1dfb8e3e91d3ec49bc',1,'graphene::chain::generic_evaluator']]],
   ['pay_5fmarket_5ffees',['pay_market_fees',['../classgraphene_1_1chain_1_1database.html#a5a9971fa9b80be998c1ff8f33726996e',1,'graphene::chain::database']]],
   ['pay_5forder',['pay_order',['../classgraphene_1_1chain_1_1database.html#a98391f198bc95d206c91da61dc55373d',1,'graphene::chain::database']]],
@@ -13,12 +14,14 @@ var searchData=
   ['plugin_5fshutdown',['plugin_shutdown',['../classgraphene_1_1app_1_1abstract__plugin.html#a1e6f189580d394e16fa36e207cfe44b6',1,'graphene::app::abstract_plugin::plugin_shutdown()'],['../classgraphene_1_1app_1_1plugin.html#abe7030a505bb7fef8fc3d37f5b33e015',1,'graphene::app::plugin::plugin_shutdown()']]],
   ['plugin_5fstartup',['plugin_startup',['../classgraphene_1_1app_1_1abstract__plugin.html#ac60b3c2089daaf45a062ae34eb409b7e',1,'graphene::app::abstract_plugin::plugin_startup()'],['../classgraphene_1_1app_1_1plugin.html#a6dc55708298e55234f7e2e8e5781854f',1,'graphene::app::plugin::plugin_startup()']]],
   ['pop_5fblock',['pop_block',['../classgraphene_1_1chain_1_1database.html#a03253124ee8714af752c1d68b7cc206c',1,'graphene::chain::database::pop_block()'],['../classgraphene_1_1chain_1_1fork__database.html#a5a438cb36c9ea891bb47164c08c01c96',1,'graphene::chain::fork_database::pop_block()']]],
-  ['pop_5fundo',['pop_undo',['../classgraphene_1_1chain_1_1database.html#aea9d1ca437641003a9426718ebe05481',1,'graphene::chain::database']]],
+  ['pop_5fcommit',['pop_commit',['../classgraphene_1_1db_1_1undo__database.html#a7ee27819435f1fe3e11ed3c493bb557a',1,'graphene::db::undo_database']]],
+  ['pop_5fundo',['pop_undo',['../classgraphene_1_1chain_1_1database.html#aea9d1ca437641003a9426718ebe05481',1,'graphene::chain::database::pop_undo()'],['../classgraphene_1_1db_1_1object__database.html#a529568086dbb56423c6bc2f329f5fa8c',1,'graphene::db::object_database::pop_undo()']]],
   ['post_5fevaluate',['post_evaluate',['../classgraphene_1_1chain_1_1evaluation__observer.html#a27a2afb8954575028ab8384eb57fcaed',1,'graphene::chain::evaluation_observer']]],
   ['pre_5fevaluate',['pre_evaluate',['../classgraphene_1_1chain_1_1evaluation__observer.html#aee226fa62b542cf134d5191080b50e3f',1,'graphene::chain::evaluation_observer']]],
   ['prepare_5ffee',['prepare_fee',['../classgraphene_1_1chain_1_1generic__evaluator.html#a90ff8169dbff062373ea5fdc98e6c484',1,'graphene::chain::generic_evaluator']]],
   ['preview_5fbuilder_5ftransaction',['preview_builder_transaction',['../classgraphene_1_1wallet_1_1wallet__api.html#a52d1cc372fd10bc659402400d527d215',1,'graphene::wallet::wallet_api::preview_builder_transaction()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a22826e56c9b929ed6c620e13172059b9',1,'graphene::wallet::detail::wallet_api_impl::preview_builder_transaction()']]],
   ['price',['price',['../structgraphene_1_1chain_1_1price.html#a769be68e912de639fa565566c9cab263',1,'graphene::chain::price']]],
+  ['primary_5findex',['primary_index',['../classgraphene_1_1db_1_1primary__index.html#a380e79f2399e2584d875b228ac261383',1,'graphene::db::primary_index']]],
   ['processed_5ftransaction',['processed_transaction',['../structgraphene_1_1chain_1_1processed__transaction.html#a842a78049046ba07ad411831efea462f',1,'graphene::chain::processed_transaction']]],
   ['produce_5fschedule',['produce_schedule',['../classgraphene_1_1chain_1_1generic__witness__scheduler.html#a19ef050dad1b504e1adf80f3cf3a84fb',1,'graphene::chain::generic_witness_scheduler']]],
   ['propose_5fbuilder_5ftransaction',['propose_builder_transaction',['../classgraphene_1_1wallet_1_1wallet__api.html#acd0cbe740362f4b83f3b97f9192039f6',1,'graphene::wallet::wallet_api::propose_builder_transaction()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a084750c429ac65ba074ee63b1e339f3c',1,'graphene::wallet::detail::wallet_api_impl::propose_builder_transaction()']]],

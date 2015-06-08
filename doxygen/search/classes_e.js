@@ -4,6 +4,7 @@ var searchData=
   ['plugin',['plugin',['../classgraphene_1_1app_1_1plugin.html',1,'graphene::app']]],
   ['price',['price',['../structgraphene_1_1chain_1_1price.html',1,'graphene::chain']]],
   ['price_5ffeed',['price_feed',['../structgraphene_1_1chain_1_1price__feed.html',1,'graphene::chain']]],
+  ['primary_5findex',['primary_index',['../classgraphene_1_1db_1_1primary__index.html',1,'graphene::db']]],
   ['processed_5ftransaction',['processed_transaction',['../structgraphene_1_1chain_1_1processed__transaction.html',1,'graphene::chain']]],
   ['proposal_5fcreate_5fevaluator',['proposal_create_evaluator',['../classgraphene_1_1chain_1_1proposal__create__evaluator.html',1,'graphene::chain']]],
   ['proposal_5fcreate_5foperation',['proposal_create_operation',['../structgraphene_1_1chain_1_1proposal__create__operation.html',1,'graphene::chain']]],

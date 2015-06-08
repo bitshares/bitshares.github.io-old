@@ -9,6 +9,7 @@ var searchData=
   ['refund',['refund',['../structgraphene_1_1chain_1_1bond__cancel__offer__operation.html#a2f882066b535181b4934f16002a72d5d',1,'graphene::chain::bond_cancel_offer_operation']]],
   ['registrar',['registrar',['../classgraphene_1_1chain_1_1account__object.html#ae3e5ea3b236ea984eeaa49e9304361ce',1,'graphene::chain::account_object::registrar()'],['../structgraphene_1_1chain_1_1account__create__operation.html#a597a18603a7f81bd4aa983391aea3fd8',1,'graphene::chain::account_create_operation::registrar()']]],
   ['relative_5fexpiration',['relative_expiration',['../structgraphene_1_1chain_1_1transaction.html#acc71760ef93e3fd2044d59bc006a28d6',1,'graphene::chain::transaction']]],
+  ['removed',['removed',['../structgraphene_1_1db_1_1undo__state.html#a1c8d5c55907802f1c726f9f92295d9ce',1,'graphene::db::undo_state']]],
   ['required_5factive_5fapprovals',['required_active_approvals',['../classgraphene_1_1chain_1_1proposal__object.html#abb764a31f14a6f02d27cbb759b663c42',1,'graphene::chain::proposal_object']]],
   ['required_5fauths',['required_auths',['../structgraphene_1_1chain_1_1custom__operation.html#a729a0de38636ba0875dbe3d5b8244e91',1,'graphene::chain::custom_operation']]],
   ['required_5finitial_5fcollateral',['required_initial_collateral',['../structgraphene_1_1chain_1_1price__feed.html#aae9ff5b53bdfef744c957c2978529a26',1,'graphene::chain::price_feed']]],

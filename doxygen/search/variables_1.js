@@ -31,6 +31,7 @@ var searchData=
   ['amount_5fto_5fcover',['amount_to_cover',['../structgraphene_1_1chain_1_1call__order__update__operation.html#a88592386593f62a407cadc69cd819fb9',1,'graphene::chain::call_order_update_operation']]],
   ['amount_5fto_5fsell',['amount_to_sell',['../structgraphene_1_1chain_1_1limit__order__create__operation.html#a241da05893ee41b966a29ec8334aac80',1,'graphene::chain::limit_order_create_operation::amount_to_sell()'],['../structgraphene_1_1chain_1_1short__order__create__operation.html#a9e66e22e03f75ecd134e3674078e948c',1,'graphene::chain::short_order_create_operation::amount_to_sell()']]],
   ['amount_5fto_5fwithdraw',['amount_to_withdraw',['../structgraphene_1_1chain_1_1withdraw__permission__claim__operation.html#ab39c4153d52fc3f0c047d3c270c48cfa',1,'graphene::chain::withdraw_permission_claim_operation']]],
+  ['annotations',['annotations',['../classgraphene_1_1db_1_1annotated__object.html#ab1feb6b52a22a7a5d67d2b28791ea841',1,'graphene::db::annotated_object']]],
   ['applied_5fblock',['applied_block',['../classgraphene_1_1chain_1_1database.html#a3e6934dcd3926a0064ef136afc242c33',1,'graphene::chain::database']]],
   ['approved_5fby',['approved_by',['../classgraphene_1_1chain_1_1transaction__evaluation__state.html#a813878e5fe920ab66bb34b46c55356b0',1,'graphene::chain::transaction_evaluation_state']]],
   ['asset_5fcreate_5ffee',['asset_create_fee',['../structgraphene_1_1chain_1_1fee__schedule__type.html#a91b4f486392b60cb3561886abafd68c5',1,'graphene::chain::fee_schedule_type']]],
