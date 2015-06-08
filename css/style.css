@@ -150,7 +150,7 @@ li {
 	margin-bottom: .5em;
 }
 h1 {
-	font-size: 24px;
+	font-size: 32px;
 	margin-top: 1.2em;
 	margin-bottom: 0.5em;
 	color: #5B6A72;
@@ -608,9 +608,11 @@ ul.navbar-nav li {
 
 .postbody h2 {
     font-size: 24px;
-    font-weight: 100;
     margin: 42px 0 0 0;
-    font-family: 'Proxima Nova Th';
+    letter-spacing: 1px;
+    font-family: 'Proxima Nova Lt'; 
+   font-weight: 100;
+    
 }
 
 
@@ -633,23 +635,25 @@ ul.navbar-nav li {
 
 
 #mc_embed_signup input {
-  color: #92A8B9;
+  color: #000;
   padding: 4px 8px;
   box-shadow: 12px 1px 2px #444;
-  ext-align: left;
+  font-weight: 400;
+  font-family: 'Proxima Nova Rg', "Helvetica Neue",Helvetica, Arial, sans-serif;
 }
 
 #mc_embed_signup input[placeholder] {
       text-align: center;
+      color: #000;
     }
-    
-    
+
     
 #mc_embed_signup {
   max-width: 600px;
   border: 0px solid #FFF;
   margin: 24px auto;
   padding: 0;
+  color: #000;
 }
 
 
