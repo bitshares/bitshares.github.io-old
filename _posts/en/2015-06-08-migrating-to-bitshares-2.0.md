@@ -11,8 +11,9 @@ in a timely manner.
 
 ## User Interface Migration
 
-The new BitShares UI will be an entirely browser-based wallet, with private keys maintained in the browser.  Initially the only full client wallet will be command line and geared toward
-exchanges and servers.  Eventually a downloadable GUI wallet will be produced.
+The new BitShares UI will be an entirely browser-based wallet, with private keys maintained in the browser.  Initially
+the only full client wallet will be command line and geared toward exchanges and servers.  Eventually a downloadable GUI
+wallet will be produced.
 
 ## BitAsset / User Issued Asset Migration
 
@@ -63,10 +64,8 @@ different from BitShares.  We will encourage all exchanges to migrate as a Gatew
 
 ## End of Life of BitShares 0.9.x
 
-On the appointed snapshot date, BitShares 1.0 will shut down and all delegates will
-stop producing blocks.  This is to prevent anyone from attempting to sell assets on the BitShares 1.0 chain.  It will be
-up to the individual delegates whether or not to continue BitShares 0.9.x and for the stakeholders to vote in new
-delegates to continue the chain.
+On the appointed snapshot date, BitShares 0.9.x will halt and all delegates will
+stop producing blocks.
 
 ## Other Details
 
@@ -75,8 +74,7 @@ of the same transaction prior to the snapshot the vesting balances may be merged
 
 ## Deprecated Features
 
-* Wall Messages will not be migrated as the feature is now deprecated.
-* Asset description information is no longer part of the blockchain state.
-* Account Public Data is deprecated and is no longer part of the blockchain state.
-* Asset Public Data is deprecated and is no longer part of the blockchain state.
-* BitShares URL scheme: bts://... will be deprecated due to migration to hosted wallets.
+* Wall Messages will not be migrated as the feature is now deprecated
+* Asset name/description information is no longer part of the blockchain state
+* Account public data is deprecated and is no longer part of the blockchain state
+* BitShares URL scheme: bts://... will be deprecated due to migration to hosted wallets
