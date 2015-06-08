@@ -6,8 +6,8 @@
     <defs></defs>
     <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="icons" sketch:type="MSArtboardGroup">
-            <g id="icon-daex" sketch:type="MSLayerGroup" transform="translate(39.000000, 27.000000)">
-                <g id="Group" transform="translate(0.000000, 1.000000)" stroke="#546979" stroke-width="0.9" sketch:type="MSShapeGroup">
+            <g id="icon-daex" sketch:type="MSLayerGroup" transform="translate(39.000000, 28.000000)">
+                <g id="Group" stroke="#546979" stroke-width="0.9" sketch:type="MSShapeGroup">
                     <g id="Group-+-Path-374" transform="translate(4.851852, 3.669928)">
                         <g id="Group">
                             <path d="M91.034746,97.1878519 L103.708333,60.5538132 L72.7777778,49.544029" id="Path-375"></path>
@@ -31,16 +31,16 @@
                     <ellipse id="Oval-40-Copy-10" fill="#FDE699" cx="95.825659" cy="101.534677" rx="4.85185185" ry="4.89323743"></ellipse>
                     <ellipse id="Oval-40-Copy-11" fill="#FDE699" cx="107.953704" cy="64.8353959" rx="4.85185185" ry="4.89323743"></ellipse>
                 </g>
-                <path d="M97.1009636,91 L95,79 L107,82.3541256 L97.1009636,91 L97.1009636,91 Z" id="Triangle-1" stroke="#546979" fill="#546979" sketch:type="MSShapeGroup"></path>
-                <path d="M71.4493213,25 L80,34.6943606 L68,37 L71.4493213,25 L71.4493213,25 Z" id="Triangle-1-Copy" stroke="#546979" fill="#546979" sketch:type="MSShapeGroup"></path>
-                <path d="M41,66.7846097 L31.8355047,76 L29,64 L41,66.7846097 L41,66.7846097 Z" id="Triangle-1-Copy-2" stroke="#546979" fill="#546979" sketch:type="MSShapeGroup"></path>
+                <path d="M98.1009636,91 L96,79 L108,82.3541256 L98.1009636,91 L98.1009636,91 Z" id="Triangle-1" stroke="#546979" fill="#546979" sketch:type="MSShapeGroup" transform="translate(102.000000, 85.000000) rotate(63.000000) translate(-102.000000, -85.000000) "></path>
+                <path d="M31.1009636,77 L29,65 L41,68.3541256 L31.1009636,77 L31.1009636,77 Z" id="Triangle-1-Copy-2" stroke="#546979" fill="#546979" sketch:type="MSShapeGroup" transform="translate(35.000000, 71.000000) rotate(-3.000000) translate(-35.000000, -71.000000) "></path>
+                <path d="M72.4493213,24 L81,33.6943606 L69,36 L72.4493213,24 L72.4493213,24 Z" id="Triangle-1-Copy" stroke="#546979" fill="#546979" sketch:type="MSShapeGroup"></path>
                 <text id="$" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="14.5555556" font-weight="260" fill="#546979">
-                    <tspan x="109" y="97">$</tspan>
+                    <tspan x="109" y="96">$</tspan>
                 </text>
                 <text id="€" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="14.5555556" font-weight="260" fill="#546979">
-                    <tspan x="32" y="62">€</tspan>
+                    <tspan x="32" y="61">€</tspan>
                 </text>
-                <g id="Group" transform="translate(76.000000, 10.000000)">
+                <g id="Group" transform="translate(76.000000, 9.000000)">
                     <g id="B-+-Line-Copy" font-size="14.4" font-family="Proxima Nova" fill="#546979" sketch:type="MSTextLayer" font-weight="260">
                         <text id="B">
                             <tspan x="0" y="13">B</tspan>

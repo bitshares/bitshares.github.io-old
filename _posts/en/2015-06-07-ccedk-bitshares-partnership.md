@@ -8,11 +8,11 @@ For more than 25 years, Ronny Boesing distributed and published CDs, DVDs, games
 
 <!--more-->
  
- <center> <img style="padding: 20px;" class="img-responsive img-thumbnail" src="/images/blog/ccedk.png"/> </center>
  
  
  
-##Chapter 2, book of life part two
+##Book of life - Part II
+<img style="padding: 4px; width: 240px; margin:  0 0 12px 12px;" class="img-responsive img-thumbnail pull-right" src="/images/blog/r_boesing_portrait.jpg"/>
  
 When the music stopped making money from one day to the other, business as well as family changed and it was time to close the book of life and to open a new one. It was time to start all over again introducing an exciting new way of looking at things, a wonderful support by wife and kids, combined with the settling down on the coast side in the north of Denmark.
  
@@ -34,7 +34,10 @@ Although BitShares and its SmartCoins can be sent and traded just like Bitcoins,
  
 “At the moment, the path from BitShares to fiat can have many steps.  People trade from bitshares to yuan to bitcoin to USD, incurring fees at every step.  We would like to cut some steps here and make it possible to exchange directly with fiat via SmartCoins like BitUSD, BitEUR or BitCNY or BitShares itself, “ Boesing said. “ With the next two month’s campaign of no deposit fees on the three major currencies USD, CNY and EUR, we are happy to be part of creating a low cost fiat bridge to BitShares and its SmartCoins.” 
  
-Find out more about these innovative new products at ccedk.com and bitshares.org.
+Find out more about these innovative new products at ccedk.com.
+ 
+<center> <img style="padding: 20px;" class="img-responsive img-thumbnail" src="/images/blog/ccedk.png"/> </center>
+ 
  
 ##Introducing CCEDK
 
