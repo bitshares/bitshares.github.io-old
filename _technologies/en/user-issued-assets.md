@@ -5,36 +5,33 @@ subtitle: Regulation-compatible stock and bond issuance
 image: ../images/frontpage/icon-asset-ident.svg
 priority: 5
 summary: >
-    The BitShares platform provides a feature known as "user-issued assets", designed to help facilitate profitable
-    business models for certain types of services that integrate with the platform. The term refers to
-    a type of custom token registered on the platform, and which users can hold and trade within certain
-    specified restrictions. The creator of such an asset publically names, describes, and distributes its tokens as
-    desired. They can also specify certain customized requirements for the asset, such as allowing only an
-    approved whitelist of user accounts to hold the tokens, or requiring users to pay specified fees when transferring or
-    trading the tokens.
+    The BitShares platform provides a feature known as "user-issued assets" to help facilitate profitable
+    business models for certain types of services. The term refers to
+    a type of custom token registered on the platform, which users can hold and trade within certain
+    restrictions. The creator of such an asset publically names, describes, and distributes its tokens, and can specify customized requirements, such as an approved whitelist of accounts permitted to hold the tokens, or the associated trading and transfer fees.
 ---
 
 BitShares allows individuals and companies to issue their own tokens for anything they can imagine.  Common use cases
-are:
+include:
 
 * TOC
 {:toc}
 
-The potential use case for user issued assets is innumerable and the regulations that apply to each kind of token vary
-widely and are often different in every jurisdiction.   BitShares provides the tools that allow you to remain compliant
-with all of the regulations while issuing your assets.
+The potential use cases for user-issued assets are innumerable, and the regulations that apply to each kind of token vary
+widely, and are often different in every jurisdiction.   BitShares provides the tools to allow issuers to remain compliant
+with all applicable regulations when issuing assets.
 
-Sometimes an example is the easiest way to explain a feature.
+Following are a few example use cases for user-issued assets.
 
 ## Deposit Receipts
 
 Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these
-assets among their depositors.   Companies like Dwolla and Paypal are essentially issuing deposit receipts and then
-offering cheaper transfers among their users than between banks.  With BitShares, it is now possible to move these
+assets among their depositors.   Companies like Dwolla and Paypal essentially issue deposit receipts, and then
+offer cheaper transfers among their users than between banks.  With BitShares, it is now possible to move these
 internal databases onto the blockchain where the deposits can be used with other smart contracts such as the internal
 markets, escrow, or bonds.
 
-After talking to many different banks and exchanges we have learned a lot about what the law requires of those who wish
+In talking to many different banks and exchanges, we have learned a lot about what the law requires of those who wish
 to issue deposit receipts.
 
 ### 1. Know Your Customer
@@ -49,58 +46,55 @@ accounts funds can be frozen by removing them from the whitelist.
 
 ### 2. Asset Seizing
 
-From time to time an issuer may be required to seize funds as a result of a court order.  While this may be unappealing
-to those who are crypto-currency purists, when it comes to trust-based assets this is an unavoidable reality.  An issuer
-can determine whether or not they wish to revoke this privilege, but it may be a requirement for some jurisdictions.
+From time to time, an issuer may be required to seize funds as a result of a court order.  While this may be unappealing
+to cryptocurrency purists, it is an unavoidable reality of trust-based assets.  An issuer
+can determine whether or not they wish to revoke this privilege, but it may be a requirement in some jurisdictions.
 
 ### 3. Market Restriction
 
 An issuer who offers both USD and EUR deposits may need to restrict direct trading between their USD and EUR assets to
-avoid being subject to foreign exchange regulations.  Crypto currency exchanges can allow trading between fiat and
-cryptos but not allow trading between two fiat currencies.   Without this feature many exchanges would be unable to
+avoid being subject to foreign currency exchange regulations.  Some cryptocurrency exchanges allow trading between fiat and
+cryptocurrencies, but not between two fiat currencies.   Without this feature, many exchanges would be unable to
 issue their assets on the BitShares blockchain.
 
 ### 4. Transfer Restrictions
 
 A transfer-restricted asset allows the holders of the asset to trade it in the markets but not transfer it from person
-to person.   You may notice that few crypto-currency exchanges allow user-to-user transfer of funds outside the market.
-This particular activity is often subject to a different set of money transmission regulations.
+to person.   Only a few cryptocurrency exchanges allow user-to-user transfer of funds outside the market, because this particular activity is often subject to a different set of money transmission regulations.
 
-The deposit receipt example is probably one of the most important and yet most heavily regulated uses of user issued
+The deposit receipt example is probably one of the most important, and yet most heavily regulated, use cases of user-issued
 assets.
 
 ## Company Shares
 
 Corporate shares are heavily regulated by the SEC, but none of those regulations prevent them from being issued or
-traded on an [alternative trading system](http://en.wikipedia.org/wiki/Alternative_trading_system){:target="_blank"}.  The regulations in
-many jurisdictions require all shares to be registered (aka held by known identities).   With BitShares your corporate
+traded on an [alternative trading system](http://en.wikipedia.org/wiki/Alternative_trading_system){:target="_blank"}.  The regulations in many jurisdictions require all shares to be registered (aka held by known identities).   BitShares corporate
 shares can be used as collateral for a bond or be used in any number of smart contracts.
 
 ## Event Tickets
 
-Event tickets are a mostly unregulated use case for user issued assets.  Under this example tickets to a school play
-could be issued as digital tokens that are auctioned off to the highest bidder who would then resell them.  This ensures
-that the Drama department raises as much money as possible up front and transfers the risk of ticket sales on to
+Event tickets are a largely unregulated use case for user-issued assets.  Tickets to a school play
+could be issued as digital tokens that are auctioned off to the highest bidder, who would then resell them.  This ensures
+that the ticket issuer raises as much money as possible up front, while transferring the risk of ticket sales on to
 speculators.
 
-On the day of the play the issuer can freeze all trading of the asset and then allow users to cryptographically check
+On the day of the event, the issuer can freeze all trading of the asset and then allow users to cryptographically check
 in.
 
 ## Rewards Points
 
-Merchants everywhere are offering their customers points for spending with them.  These points are often accumulated to
-earn discounts on future purchases.  Often these systems are completely unregulated and are a prime example of how
-companies can add value to their rewards program by making them available to smart contracts.
+Merchants around the world offer rewards points for loyal customers.  These points are accumulated to
+earn discounts on future purchases.  Rewards systems are a prime opportunity to add value by making them available to Bitshares smart contracts.
 
 ## Individual or Corporate Debt
 
-Many businesses raise money by selling bonds.  With BitShares these bonds can be made tradeable and/or fungible which
-makes them much more interesting to investors and may help your business to raise more money at lower rates.
+Many businesses raise money by selling bonds.  With BitShares, these bonds can be made tradeable and/or fungible, which
+makes them more compelling to investors.
 
 ## Crowd Funding
 
-Whether being used as a transferable coupon for a pre-sale or doing an IPO on a small company, issuing an asset is one
-of the most effective means of raising money from the masses.
+Whether being used as a transferable coupon for a pre-sale, or doing an IPO on a small company, issuing an asset is one
+of the most effective means of raising money for a cause.
 
 ## Digital Property
 
@@ -114,13 +108,13 @@ game items.
 ## Privatized BitAssets (Stable Crypto Currencies)
 
 [Price-stable crypto-currencies](/technology/price-stable-cryptocurrencies.html){:target="_blank"} (aka BitAssets) were the inspiration
-for BitShares.  Now users can create their own price stable assets with custom parameters designed to track the value of
-any asset they can imagine.  The benefit of price-stable crypto-currencies are that they are fully collateralized and
-the issuer only needs to be trusted to appoint an honest set of independent (non collusive) feed producers.   Unlike
+for BitShares.  Now, users can create their own price-stable assets with custom parameters designed to track the value of
+any asset they can imagine.  The benefit of price-stable cryptocurrencies is that they are fully collateralized, and
+the issuer only needs to be trusted to appoint an honest set of independent (non-collusive) feed producers.   Unlike
 deposit receipts, the value of a Privatized BitAsset is secured even if the issuer disappears.
 
-There are many parameters that an issuer may tune.  In addition to white lists, market restrictions, transfer
-restrictions, the issuer of a private bitasset has control over:
+Bitshares provides many parameters that an issuer may tune.  In addition to account whitelists, market restrictions, and transfer
+restrictions, the issuer of a private BitAsset has control over:
 
 1. Collateral Type
 2. Initial Collateral Rate
@@ -129,8 +123,8 @@ restrictions, the issuer of a private bitasset has control over:
 5. Price Feed Update Rate
 6. Global Forced Settlement
 
-With these tools it is possible to emulate a pure contract-for-difference with periodic global forced settlement (ie:
-        monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30 day delay on forced settlement.
+With these tools, it is possible to emulate a pure contract-for-difference with periodic global forced settlement (ie:
+        monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30-day delay on forced settlement.
 Arbitrary financial indexes can be used for the price feed to mimic all manner of exotic assets.
 
 ## Information/Prediction Markets
@@ -138,7 +132,7 @@ Arbitrary financial indexes can be used for the price feed to mimic all manner o
 A [prediction market](http://en.wikipedia.org/wiki/Prediction_market){:target="_blank"} is a specialization of BitAssets where there is no
 need for margin calls or forced settlement because all positions are fully collateralized at any price.   A prediction
 market has a price between 0 and 1 and the issuer settles all positions after the event occurs and the final price is
-known.   These prediction markets can be very secure if the issuer is a multi-sig account with may independent and
+known.   These prediction markets can be very secure if the issuer is a multi-sig account with many independent and
 trustworthy parties involved.
 
 
@@ -150,11 +144,10 @@ minimum and maximum fee.  The combination of these three parameters give issuers
 
 ### Fee Pools
 
-As the issuer you may maintain a Fee Pool.  The Fee Pool is a pool of BTS and an exchange rate at which your issued
-asset may be converted into BTS.   When a user wishes to pay a network fee with your asset, the fee pool will be used to
-convert your asset into BTS at the rate you specify.  This means that you may charge a premium every time users opt to
-use your asset to pay network fees rather than paying them directly with BTS.
+Issuers may optionally maintain a Fee Pool.  The Fee Pool is a pool of BTS and an exchange rate at which the issued
+asset may be converted into BTS.   When a user wishes to pay a network fee with the asset, the fee pool will step in to
+convert the asset into BTS at the rate that the issuer has specified.  This means that issuers may charge a premium every time users opt to use their asset to pay network fees rather than paying them directly with BTS.
 
-The purpose of the fee pool is to provide a convenience to users that would like to use your asset without concerning
+The purpose of the fee pool is to provide a convenience to users that would like to use an asset without concerning
 themselves with the details of acquiring BTS.  Anyone may fund the fee pool, but only the issuer may specify the
 exchange rate.  This exchange rate is automatically set to the settlement price if the asset is collateralized by BTS.
