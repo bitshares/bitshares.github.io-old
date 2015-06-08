@@ -54,7 +54,7 @@ vest under their original terms.
 
 Some asset issuers may charge their own trading fees.   These fees are not part of the referral program.
 
-# Disclaimer This information provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN,
+# Disclaimer: This information provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN,
 MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.
 
 BitShares is a trademark of Invictus Innovations, Inc.  All other trademarks, servicemarks, registered trademarks, and
