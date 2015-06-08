@@ -106,7 +106,7 @@ game items.
 
 ## Privatized BitAssets (Stable Cryptocurrencies)
 
-[Price-stable cryptocurrencies](/technology/price-stable-cryptocurrencies.html){:target="_blank"} (aka BitAssets) were the inspiration
+[Price-stable cryptocurrencies](/technology/price-stable-cryptocurrencies){:target="_blank"} (aka BitAssets) were the inspiration
 for BitShares.  Now, users can create their own price-stable assets with custom parameters designed to track the value of
 any asset they can imagine.  The benefit of price-stable cryptocurrencies is that they are fully collateralized, and
 the issuer only needs to be trusted to appoint an honest set of independent (non-collusive) feed producers.   Unlike
