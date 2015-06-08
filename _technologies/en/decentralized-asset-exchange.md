@@ -1,12 +1,12 @@
 ---
 permalink: /technology/decentralized-asset-exchange/
 title: Decentralized Asset Exchange
-subtitle: As fast and flexible as any traditional centralized exchange
+subtitle: As fast and flexible as traditional exchanges
 image: ../images/frontpage/icon-daex.svg
 priority: 6
 summary: >
-    BitShares provides the highest performance decentralized exchange available that has all of the features
-    you would expect in a trading platform. It can handle all of the trading volume of the NASDAQ while
+    BitShares provides a high-performance decentralized exchange, with all the features
+    you would expect in a trading platform. It can handle the trading volume of the NASDAQ while
     settling orders the second you submit them.  With this kind of performance on a decentralized exchange,
     who needs risky centralized exchanges?
 ---
