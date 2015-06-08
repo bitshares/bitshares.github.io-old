@@ -10,16 +10,10 @@ light on what we learned from BitShares 1.0 and the many advancements that BitSh
 The primary focus of BitShares 2.0 is on Performance, Reliability, Maintainability, and Scalability.  As a result,
     BitShares 2.0 can process 1000 times more transactions per second than the BitShares 1.0 Toolkit and is able to
     handle VISA level transaction volumes.  In addition to performance, the built-in fee structure and revenue sharing
-    incentive structure should motivate adoption far more effectively than any other block chain.
-
-
+    incentive structure should motivate adoption far more effectively than any other blockchain.
 
 * TOC
 {:toc}
-
-
-
-
 
 ## Technology Lessons
 
@@ -61,15 +55,15 @@ to reference everything and Ripple uses hashes to identify accounts.
 
 The problem with hashes is that they take up a lot of space in indexes and are computationally slow to calculate,
 compare, and otherwise manipulate.  If only we had a way to allocate globally unique IDs without using a
-content-addressable hashing scheme!  Fortunately, that is exactly what a block chain does: achieve consensus about
-resource allocation.  This means that we can use the block chain to assign globally unique IDs to every account,
+content-addressable hashing scheme!  Fortunately, that is exactly what a blockchain does: achieve consensus about
+resource allocation.  This means that we can use the blockchain to assign globally unique IDs to every account,
 asset, order, key, or other concept.   These ids can easily be represented as a variant using just a couple of bytes
 rather than the 20 to 32 bytes used to represent a hash.  These IDs are not "random" and are thus far more
 compressible than the hashes used by other protocols.
 
-### Embrace the Single Threaded Reality of Block Chains
+### Embrace the Single Threaded Reality of Blockchains
 
-There has been a ton of research and development on how to achieve scalable block chains.  Most approaches assume that
+There has been a ton of research and development on how to achieve scalable blockchains.  Most approaches assume that
 the goal must be to divide the task among nodes rather than having all nodes do all processing.  This divide and conquer
 approach seems most intuitive, but it is fundamentally flawed because parallelism isn't free.   It is very common for
 developers to take a single threaded program, make it multi-threaded and have performance fall rather than climb.   Our
@@ -85,7 +79,7 @@ platform](http://martinfowler.com/articles/lmax.html){:target="_blank"}.
 
 Based upon the success of LMAX, we now have proof that a single core of a desktop processor is able to handle 6 million
 orders per second.  We also know that their architecture operates on the basis of a deterministic event processor that
-logs inputs rather than logging database state.   In many ways, LMAX can be thought of as a block chain where each event
+logs inputs rather than logging database state.   In many ways, LMAX can be thought of as a blockchain where each event
 is a transaction.   LMAX is a case study on why attempting to multi-thread an inherently sequential process is
 fundamentally flawed.  All they needed to do was get all inputs into an ordered sequence and then get everything out of
 the way of the core Business Logic Processor (BLP).   The most important aspect is that no blocking operations occur in
@@ -95,10 +89,10 @@ When you look at the approaches to solving scalability concerns presented by oth
 network operations into the middle of the Business Logic Processor.   Ultimately, every node needs to achieve consensus
 on the state of things.  Ultimately, all orders must be matched in some order.
 
-A single processor and a fiber-optic connection to the Internet can easily process the Business Logic of the block chain
+A single processor and a fiber-optic connection to the Internet can easily process the Business Logic of the blockchain
 even at millions of transactions per second.  This reality should be embraced and used to guide architecture design.  To
 this end, BitShares 2.0 takes great care to separate validation and constraint checking from actually applying the
-changes made by a transaction.  Reindexing a block chain to rebuild the current world state can skip the validation and
+changes made by a transaction.  Reindexing a blockchain to rebuild the current world state can skip the validation and
 constraint checking for blocks it has previously validated.
 
 ### Keep Transaction Interpretation Deterministic and Explicit
@@ -108,15 +102,15 @@ Most cryptocurrencies, including BitShares, have logical accounts that consist o
 keys.  Transactions consist of combining funds from several balances and distributing them to other balances.  The
 problem is that there is no way of accurately and consistently abstracting meaning from these transactions in a general
 purpose way.   Wallets end up using fuzzy logic to determine who sent money to whom and often depend upon a limited
-subset of the valid transactions.   This gets even worse with block chains that define everything in terms of scripts
+subset of the valid transactions.   This gets even worse with blockchains that define everything in terms of scripts
 (including Bitcoin).
 
 This becomes particularly problematic when attempting to convey to the user what a particular transaction will do prior
 to the user signing it.  Worse yet, it may not even be clear which combination of keys is required to sign it.  In
-BitShares there are cases where the meaning of the transaction depends upon block chain state information that is not
+BitShares there are cases where the meaning of the transaction depends upon blockchain state information that is not
 stated in the transaction itself and may not be available until the transaction is actually included in a block.   This
 "assumed information" complicates things for everyone involved.  In order to accurately display the impact of a
-transaction to a user, the block chain must capture and record all of this assumed information.  This creates significant
+transaction to a user, the blockchain must capture and record all of this assumed information.  This creates significant
 bloat with extra indices and is still unable to give the users absolute certainty about what the side effects of signing
 a particular transaction will be.
 
@@ -212,8 +206,8 @@ price movements.
 
 ### Copyright Reserved
 
-It takes a lot of time and money to build a block chain and the fear of people copying the code and starting a new
-killer chain scares off many investors.  The code must be open source, but not free to use for any other block chain.
+It takes a lot of time and money to build a blockchain and the fear of people copying the code and starting a new
+killer chain scares off many investors.  The code must be open source, but not free to use for any other blockchain.
 This means others can still copy it, but no serious business will build upon a platform that is in violation of
 copyright.  This will help attract capital to BitShares and secure our competitive edge.
 
@@ -228,7 +222,7 @@ developers.
 From time to time it is necessary to upgrade a network to add new features.  With DPOS 2.0, all changes must be
 triggered by active stakeholder approval.   While it is technically possible for the witnesses to collude to change
 their software unilaterally, it is not in their interest to do so.  Witnesses are selected based upon their commitment
-to remain neutral to block chain policy.   Remaining neutral protects witnesses against allegations that they are the
+to remain neutral to blockchain policy.   Remaining neutral protects witnesses against allegations that they are the
 administrators/managers/owners/operators of the network.  A witness is merely an employee of the stakeholders.
 
 Developers may implement whatever changes they deem appropriate so long as those changes are contingent upon stakeholder
@@ -238,7 +232,7 @@ unilateral control over the direction of the network.
 The threshold for changing the rules is the same as replacing 51% of the elected witnesses.  The more stakeholder
 participation in electing witnesses the harder it becomes to change the rules.
 
-Ultimately changing the rules depends upon everyone using the network upgrading their software and no block chain level
+Ultimately changing the rules depends upon everyone using the network upgrading their software and no blockchain level
 protocol can enforce how rules are changed.  This means that hard-forking "bug fixes" can be rolled out without
 requiring a vote of the stakeholders so long as they remain true to the universally expected behavior of the code.
 
@@ -249,7 +243,7 @@ should wait for the stakeholders to approve even the most minor changes.
 
 ### Underpricing is not Sustainable
 
-We have always maintained that a block chain needs to be profitable to be sustainable and grow in value.  It doesn't
+We have always maintained that a blockchain needs to be profitable to be sustainable and grow in value.  It doesn't
 matter how valuable your product is or how much demand you have, if you sell your product for less than the cost of
 production then you will go bankrupt and your business will fail.   In the case of BitShares, we assumed the cost of
 user acquisition would be close to 0 and set our fees at $0.01 or less.  This is giving away a great product with high
@@ -339,7 +333,7 @@ order matched and the assets involved.   Each asset issuer gets an opportunity t
 
 ###  Multi-Sig is Difficult
 
-A user-centric design greatly enhances usability and security over the key-centric approaches taken by other block chain
+A user-centric design greatly enhances usability and security over the key-centric approaches taken by other blockchain
 technologies. This means that a company account can require approval of its board of directors and each board member may
 in turn require 2 factor authentication. The result is a new concept which we call hierarchical threshold multi-sig.
 With corporate accounts, board members can change their personal keys without having to change the permissions

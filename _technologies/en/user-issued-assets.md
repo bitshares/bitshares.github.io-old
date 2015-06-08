@@ -5,10 +5,11 @@ subtitle: Regulation-compatible cryptoasset issuance.
 image: ../images/frontpage/icon-asset-ident.svg
 priority: 5
 summary: >
-    The BitShares platform provides a feature known as "user-issued assets" to help facilitate profitable
-    business models for certain types of services. The term refers to
-    a type of custom token registered on the platform, which users can hold and trade within certain
-    restrictions. The creator of such an asset publically names, describes, and distributes its tokens, and can specify customized requirements, such as an approved whitelist of accounts permitted to hold the tokens, or the associated trading and transfer fees.
+    The BitShares platform provides a feature known as "user-issued assets" to help facilitate profitable business
+    models for certain types of services. The term refers to a type of custom token registered on the platform, which
+    users can hold and trade within certain restrictions. The creator of such an asset publically names, describes, and
+    distributes its tokens, and can specify customized requirements, such as an approved whitelist of accounts permitted
+    to hold the tokens, or the associated trading and transfer fees.
 ---
 BitShares allows individuals and companies to issue their own tokens for anything they can imagine.  Common use cases
 include:
@@ -27,7 +28,7 @@ Following are a few example use cases for user-issued assets.
 Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these
 assets among their depositors.   Companies like Dwolla and Paypal essentially issue deposit receipts, and then
 offer cheaper transfers among their users than between banks.  With BitShares, it is now possible to move these
-internal databases onto the block chain where the deposits can be used with other smart contracts such as the internal
+internal databases onto the blockchain where the deposits can be used with other smart contracts such as the internal
 markets, escrow, or bonds.
 
 In talking to many different banks and exchanges, we have learned a lot about what the law requires of those who wish
@@ -54,20 +55,22 @@ can determine whether or not they wish to revoke this privilege, but it may be a
 An issuer who offers both USD and EUR deposits may need to restrict direct trading between their USD and EUR assets to
 avoid being subject to foreign currency exchange regulations.  Some cryptocurrency exchanges allow trading between fiat and
 cryptocurrencies, but not between two fiat currencies.   Without this feature, many exchanges would be unable to
-issue their assets on the BitShares block chain.
+issue their assets on the BitShares blockchain.
 
 ### 4. Transfer Restrictions
 
 A transfer-restricted asset allows the holders of the asset to trade it in the markets but not transfer it from person
-to person.   Only a few cryptocurrency exchanges allow user-to-user transfer of funds outside the market, because this particular activity is often subject to a different set of money transmission regulations.
+to person.   Only a few cryptocurrency exchanges allow user-to-user transfer of funds outside the market, because this
+particular activity is often subject to a different set of money transmission regulations.
 
-The deposit receipt example is probably one of the most important, and yet most heavily regulated, use cases of user-issued
-assets.
+The deposit receipt example is probably one of the most important, and yet most heavily regulated, use cases of
+user-issued assets.
 
 ## Company Shares
 
 Corporate shares are heavily regulated by the SEC, but none of those regulations prevent them from being issued or
-traded on an [alternative trading system](http://en.wikipedia.org/wiki/Alternative_trading_system){:target="_blank"}.  The regulations in many jurisdictions require all shares to be registered (aka held by known identities).   BitShares corporate
+traded on an [alternative trading system](http://en.wikipedia.org/wiki/Alternative_trading_system){:target="_blank"}.
+The regulations in many jurisdictions require all shares to be registered (aka held by known identities).   BitShares corporate
 shares can be used as collateral for a bond or be used in any number of smart contracts.
 
 ## Event Tickets

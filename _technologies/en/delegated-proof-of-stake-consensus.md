@@ -91,7 +91,7 @@ performing tasks that demand a high degree of trust and accountability.
 From time to time, it is necessary to upgrade a network to add new features.  Under DPOS, all changes must
 be triggered by active stakeholder approval.   While it is technically possible for the witnesses to collude and
 change their software unilaterally, it is not in their interest to do so.  Witnesses are selected based upon
-their commitment to remain neutral to block chain policy.   Remaining neutral protects witnesses against
+their commitment to remain neutral to blockchain policy.   Remaining neutral protects witnesses against
 allegations that they are the administrators/managers/owners/operators of the network.  A witness is merely
 an employee of the stakeholders.
 
@@ -103,7 +103,7 @@ The threshold for changing the rules is the same as replacing 51% of the elected
 stakeholder participation in electing witnesses, the harder it becomes to change the rules.
 
 Ultimately, changing the rules depends upon everyone on the network to upgrade their software, and
-no block chain level protocol can enforce how rules are changed.  This means that hard-forking "bug fixes" can
+no blockchain level protocol can enforce how rules are changed.  This means that hard-forking "bug fixes" can
 be rolled out without requiring a vote of the stakeholders, so long as they remain true to the universally
 expected behavior of the code.
 
@@ -113,20 +113,22 @@ witnesses should wait for the stakeholders to approve even the most minor change
 
 ## Double Spend Attack
 
-A double spend can occur anytime a block chain reorganization excludes a transaction previously included.
-This means that the witnesses had a communication breakdown caused by disruptions in the infrastructure of the Internet.
-With DPOS, the probability of a communication breakdown enabling a double spend attack is very low.
+A double spend can occur anytime a blockchain reorganization excludes a transaction previously included.  This means
+that the witnesses had a communication breakdown caused by disruptions in the infrastructure of the Internet.  With
+DPOS, the probability of a communication breakdown enabling a double spend attack is very low.
 
 The network is able to monitor its own health and can immediately detect any loss in communication which shows up as
-witnesses failing to produce blocks on schedule.
-When this occurs, it may be necessary for users to wait until half of the witnesses have confirmed their transactions, which could be up to a minute or two.
+witnesses failing to produce blocks on schedule.  When this occurs, it may be necessary for users to wait until half of
+the witnesses have confirmed their transactions, which could be up to a minute or two.
 
 ## Transactions as Proof of Stake
 
 Each transaction on the network may optionally include the hash of a recent block.  If this is done, the signer of the
-transaction can be confident that their transaction may not be applied to any block chain that does not include that block.  A side effect of this process is that, over time, all stakeholders end up directly certifying the long-term integrity of the transaction history.
+transaction can be confident that their transaction may not be applied to any blockchain that does not include that
+block.  A side effect of this process is that, over time, all stakeholders end up directly certifying the long-term
+integrity of the transaction history.
 
-## Block Chain Reorganizations
+## Blockchain Reorganizations
 
 Because all witnesses are elected, highly accountable, and granted dedicated time slots to produce blocks, there is
 rarely any situation where two competing chains can exist.  From time to time, network latency will prevent one witness
@@ -136,10 +138,10 @@ single witness.
 
 While the system is robust against *natural* chain reorganization events, there is still some potential for software
 bugs, network interruptions, or incompetent or malicious witnesses to create multiple competing histories that are
-longer than a block or two.  The software always selects the block chain with the highest witness participation rate.  A
+longer than a block or two.  The software always selects the blockchain with the highest witness participation rate.  A
 witness operating on their own can only produce one block per round and will always have a lower participation rate than the majority.
 There is nothing that any witness (or minority group of witnesses)
-can do to produce a block chain with a higher participation rate.    The participation rate is calculated by comparing
+can do to produce a blockchain with a higher participation rate.    The participation rate is calculated by comparing
 the expected number of blocks produced vs the actual number of blocks produced.
 
 ## Maximally Decentralized

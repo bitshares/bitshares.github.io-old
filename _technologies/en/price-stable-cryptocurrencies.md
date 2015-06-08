@@ -5,8 +5,12 @@ subtitle: The freedom of cryptocurrency with the stability of the dollar.
 image: ../images/frontpage/icon-price-stable.svg
 priority: 2
 summary: >
-    A BitAsset is a cryptocurrency whose value is pegged to that of another asset, such as the US Dollar or gold.  BitAssets
-    always have 100% or more of their value backed by the BitShares core currency, BTS, to which they can be converted at any time at an exchange rate set by a trustworthy price feed.   In all but the most extreme market conditions, BitAssets are guaranteed to be worth <i>at least</i> their face value (and perhaps more, in some circumstances).  Like any other cryptocurrency, BitAssets are fungible, divisible, and free from any restrictions.
+    A BitAsset is a cryptocurrency whose value is pegged to that of another asset, such as the US Dollar or gold.
+    BitAssets always have 100% or more of their value backed by the BitShares core currency, BTS, to which they can be
+    converted at any time at an exchange rate set by a trustworthy price feed.   In all but the most extreme market
+    conditions, BitAssets are guaranteed to be worth <i>at least</i> their face value (and perhaps more, in some
+            circumstances).  Like any other cryptocurrency, BitAssets are fungible, divisible, and free from any
+    restrictions.
 ---
 
 ## Background
@@ -20,10 +24,11 @@ issuer.   This can work well for transactions, but less well as a form of saving
 issuers eventually go bankrupt due to fraud, incompetence, or government intervention.
 
 More recent approaches have used a cryptocurrency as collateral in a [contract for
-difference](http://www.investopedia.com/terms/c/contractfordifferences.asp){:target="_blank"}.  Under this approach, two parties take opposite sides of a trade, where one party is guaranteed price stability, and the other party is granted leverage.    This
-approach works as long as sufficient collateral exists, and the contract can be settled by an honest 3rd party
-with a price feed.  Unfortunately, a contract for difference is not fungible, and has an explicit settlement date, which
-means it is not useful as a currency.
+difference](http://www.investopedia.com/terms/c/contractfordifferences.asp){:target="_blank"}.
+Under this approach, two parties take opposite sides of a trade, where one party is guaranteed price stability, and the
+other party is granted leverage.    This approach works as long as sufficient collateral exists, and the contract can be
+settled by an honest 3rd party with a price feed.  Unfortunately, a contract for difference is not fungible, and has an
+explicit settlement date, which means it is not useful as a currency.
 
 ## Introducing BitAssets
 
@@ -68,7 +73,8 @@ premium, it may be forced to exit during a bear market with a 5% premium.  In th
 both exchange rate of the dollar vs. BTS and the premium risk.   On the other hand, a short entered during a bear market
 with a 5% premium may get to cover during a bull market with a .1% premium.
 
-For all intents and purposes, the premium is expected to move in the same direction as the price, and thus speculators who only care about relative price changes can ignore the premium.
+For all intents and purposes, the premium is expected to move in the same direction as the price, and thus speculators
+who only care about relative price changes can ignore the premium.
 
 ## The Long (BitUSD holder)
 The very first buyer of BitUSD will have to pay the lowest premium set by the shorters.  For the sake of discussion,
@@ -81,21 +87,24 @@ As a trader only looking to trade back and forth between BitUSD and BTS, this pr
 to volatility in the premium, but that risk is limited to $0.05 in this example.  In practice, the premium is expected to
 be relatively stable and predictable.
 
-
 ## The BTS Buyer
-A buyer with dollars, looking to buy BTS, knows that 1 BitUSD can be used to buy $1 worth of BTS (plus
-the current premium).  He also knows that this premium can never be negative, because of the option to force-settle at
-the price feed.    In this situation, he can know with certainty that if he can convince someone with BitUSD to sell for $1.00, he can buy more BTS than if he simply buys BTS with his dollars directly.    The higher the premium, the
-more incentive exists to buy BitUSD for $1.00.
+A buyer with dollars, looking to buy BTS, knows that 1 BitUSD can be used to buy $1 worth of BTS (plus the current
+premium).  He also knows that this premium can never be negative, because of the option to force-settle at the
+price feed.    In this situation, he can know with certainty that if he can convince someone with BitUSD to sell for
+$1.00, he can buy more BTS than if he simply buys BTS with his dollars directly.    The higher the premium, the more
+incentive exists to buy BitUSD for $1.00.
 
-This means that, in a BTS bear market, the BitUSD price gives the highest premium of the BTS price, and BitUSD
-becomes the easiest to sell.  In practice, the BitUSD:USD market will reflect the premium, and traders will usually
-be unable to find anyone willing to sell for exactly $1.00.
+This means that, in a BTS bear market, the BitUSD price gives the highest premium of the BTS price, and BitUSD becomes
+the easiest to sell.  In practice, the BitUSD:USD market will reflect the premium, and traders will usually be unable to
+find anyone willing to sell for exactly $1.00.
 
-If a buyer is looking to purchase a large quantity of BTS without moving the price, he can start by buying up BitUSD with dollars.   This will slowly raise the BitUSD:USD price, which is a signal to other market participants. A careful buyer might be able to avoid signaling the market.   Then, after acquiring the position in BitUSD, the buyer can request forced-settlement all at once and get the price feed on the entire purchase.
+If a buyer is looking to purchase a large quantity of BTS without moving the price, he can start by buying up BitUSD
+with dollars.   This will slowly raise the BitUSD:USD price, which is a signal to other market participants. A careful
+buyer might be able to avoid signaling the market.   Then, after acquiring the position in BitUSD, the buyer can request
+forced-settlement all at once and get the price feed on the entire purchase.
 
-Because all positions and trades are visible on the block chain, all of this trading activity can be factored into
-the price, minimizing any potential profits to be made by attempted manipulation.
+Because all positions and trades are visible on the blockchain, all of this trading activity can be factored into the
+price, minimizing any potential profits to be made by attempted manipulation.
 
 ## The Merchant
 
@@ -113,35 +122,38 @@ they know that $1.00 is the lower bound on what BitUSD is worth.
 
 ## The Customer
 
-A customer looking to buy goods and services with BitUSD finds himself paying a premium to acquire BitUSD from
-the market.   This means that customers will prefer merchants that offer a discount equal to the premium
-paid.   On the other hand, the premium is a wash for a customer that earned BitUSD at a nominal value of $1.00. In fact, the only people to whom the premium matters are those who are looking to enter or exit the ecosystem.
-Once a customer or merchant is within the ecosystem, it is easy to simply trade BitUSD at parity, even if it is theoretically worth slightly more outside the ecosystem.
+A customer looking to buy goods and services with BitUSD finds himself paying a premium to acquire BitUSD from the
+market.   This means that customers will prefer merchants that offer a discount equal to the premium paid.   On the
+other hand, the premium is a wash for a customer that earned BitUSD at a nominal value of $1.00. In fact, the only
+people to whom the premium matters are those who are looking to enter or exit the ecosystem.  Once a customer or
+merchant is within the ecosystem, it is easy to simply trade BitUSD at parity, even if it is theoretically worth
+slightly more outside the ecosystem.
 
 Customers use BitUSD because it provides them the convenience and freedom of a cryptocurrency, and has the lowest
 transfer fees of any other payment platform.
 
-Merchants and customers are free to negotiate the best way to split the premium, and the free market will take care of the rest.
-In the mean time, all participants can rest assured that BitUSD is always worth at least $1, and can consider the premium for
-entering the ecosystem as a one-time fee.
+Merchants and customers are free to negotiate the best way to split the premium, and the free market will take care of
+the rest.  In the mean time, all participants can rest assured that BitUSD is always worth at least $1, and can consider
+the premium for entering the ecosystem as a one-time fee.
 
 ## Price Manipulation
 There is always concern of price manipulation.  Someone with a large amount of money on both sides of a trade can use
 their funds to manipulate the markets and thus the price feed.  If the amount of money they lose manipulating the
-markets is less than the amount of money they can gain by manipulating the price feed, then it will be profitable
-to manipulate the market at the expense of either the BitUSD longs or the shorts.   A low-collateralized short that sees a
+markets is less than the amount of money they can gain by manipulating the price feed, then it will be profitable to
+manipulate the market at the expense of either the BitUSD longs or the shorts.   A low-collateralized short that sees a
 large force-settlement order requested can attempt to manipulate the markets and thus the feed against the BitUSD
 holder.
 
-The risk of price manipulation is priced into the premium on BitUSD charged by the shorts, and thus should already
-be priced into the market.  If price manipulation became a serious problem that caused very high premiums, then it could be addressed by the price feed producers, who can adopt a moving average over wider time windows to increase the
-difficulty of short-term manipulation.   A variety of algorithms could be used to estimate a “fair price”
-that keeps BitUSD valued at least $1.00.
+The risk of price manipulation is priced into the premium on BitUSD charged by the shorts, and thus should already be
+priced into the market.  If price manipulation became a serious problem that caused very high premiums, then it could be
+addressed by the price feed producers, who can adopt a moving average over wider time windows to increase the difficulty
+of short-term manipulation.   A variety of algorithms could be used to estimate a “fair price” that keeps BitUSD valued
+at least $1.00.
 
-In practice, a feed producer can observe the BitUSD-to-USD market as an indicator on which way to adjust the
-feed.  Generally speaking, the strategy that the feed producers adopt for controlling the feed should be public
-knowledge, because the shorts will ultimately rely on it.  For the feed producers to change strategies in
-unpredictable ways could cause losses to both longs and shorts.
+In practice, a feed producer can observe the BitUSD-to-USD market as an indicator on which way to adjust the feed.
+Generally speaking, the strategy that the feed producers adopt for controlling the feed should be public knowledge,
+          because the shorts will ultimately rely on it.  For the feed producers to change strategies in unpredictable
+          ways could cause losses to both longs and shorts.
 
 ## Black Swans - Extreme Market Conditions
 
@@ -155,15 +167,22 @@ collateralized short position.  This is similar to an insolvent bank converting 
 
 Not every short seller will be happy with the rules offer by BitAssets.  Some may want to borrow for a fixed period of time,
 with higher leverage, and with no risk of being force-settled.  BitShares offers these speculators the option to borrow
-BitUSD on the [bond market](/technology/collateralized-bond-market){:target="_blank"} at interest.   The bond market allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A Bond market is the perfect way for the market to establish a yield curve on BitAssets and free both sides of the market from dependency on the price feed.
+BitUSD on the [bond market](/technology/collateralized-bond-market){:target="_blank"} at interest.   The bond market
+allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A
+Bond market is the perfect way for the market to establish a yield curve on BitAssets and free both sides of the market
+from dependency on the price feed.
 
 ## Privatized BitAssets
 
 BitShares offers entrepreneurs an opportunity to create their own BitAssets with custom parameters and price feeds.
 
-User-issued BitAsset managers can experiment with different parameters such as collateral requirements, price feeds, force
-settlement delays and forced settlement fees.  They also earn the trading
-fees from transactions the issued asset is involved in, and therefore have a financial incentive to market and promote it on the network.   The entrepreneur who can discover and market the best set of parameters can earn a significant profit.   The set of parameters that can be tweaked by entrepreneurs is broad enough that BitAssets can be used to implement a fully functional prediction market with a guaranteed global settlement at a fair price, and no forced settlement before the resolution date.
+User-issued BitAsset managers can experiment with different parameters such as collateral requirements, price feeds,
+force settlement delays and forced settlement fees.  They also earn the trading fees from transactions the issued
+asset is involved in, and therefore have a financial incentive to market and promote it on the network.   The
+entrepreneur who can discover and market the best set of parameters can earn a significant profit.   The set of
+parameters that can be tweaked by entrepreneurs is broad enough that BitAssets can be used to implement a fully
+functional prediction market with a guaranteed global settlement at a fair price, and no forced settlement before
+the resolution date.
 
 Some entrepreneurs may want to experiment with BitAssets that always trade at exactly $1.00 rather than strictly more
 than $1.00.   They can do this by manipulating the forced settlement fee continuously such that the average trading
@@ -173,4 +192,5 @@ above $1.00, rather than fixing the price by directly manipulating the forced se
 ## Conclusion
 
 BitAssets are a powerful tool for everyone from speculators and savers, to traders and entrepreneurs. The BitShares
-platform provides a toolset with which innovators can experiment to find optimal currency solutions using free market discovery.
+platform provides a toolset with which innovators can experiment to find optimal currency solutions using free market
+discovery.

@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="col-xs-12 col-md-9 " markdown="1">
 
-This tutorial will walk you through the process of getting a fully functional registered account on the BitShares block chain.
+This tutorial will walk you through the process of getting a fully functional registered account on the BitShares blockchain.
 
 ## Step 1 - Download Software
 The first step is to download and install the BitShares client.
@@ -79,14 +79,14 @@ friends, if you like:
 <img class="img-responsive" src="/images/get-started/8_faucet_complete.png"  width="800px"   />
 
 **NOTE: Regardless of whether or not you chose to share your new account, your account will automatically and instantly be
-registered on the block chain.**
+registered on the blockchain.**
 
 When you return to your wallet, your account should be shown as a Registered account:
 
 <img class="img-responsive" src="/images/get-started/10_account_registered_arrow.png"  width="800px"   />
 
-Welcome to the block chain! Reaching this step means you have successfully created and registered your account with the
-block chain and may now use it to receive funds. If you run into any problems following the steps above, there are very
+Welcome to the blockchain! Reaching this step means you have successfully created and registered your account with the
+blockchain and may now use it to receive funds. If you run into any problems following the steps above, there are very
 helpful people on the BitShares forum who will be more than willing to help!
 
 ## Step 4 - Backup Wallet

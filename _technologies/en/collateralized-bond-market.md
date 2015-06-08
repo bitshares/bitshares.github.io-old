@@ -10,7 +10,7 @@ summary: >
 ---
 
 The BitShares bond market allows for an interest rate market between any combination of assets
-tradeable on the BitShares block chain.  The bond is a *smart contract* between a borrower and a
+tradeable on the BitShares blockchain.  The bond is a *smart contract* between a borrower and a
 lender.  The borrower borrows a certain amount of a specified asset from the lender and secures the
 loan with collateral denominated in a different asset type.  Bonds are non-fungible and each can be
 considered a separate contract between the two participating parties.  The borrower may use the
@@ -53,5 +53,5 @@ to the borrower based on the collateral ratio of the bond.
 
 The Bitshares bond market allows investors who wish to gain leverage in a particular asset to offer
 competitive interest rates to those willing to commit capital for a specified time.  The
-implementation of a bond market on a block chain consensus system efficiently reduces the overhead and
+implementation of a bond market on a blockchain consensus system efficiently reduces the overhead and
 counterparty risk typically associated with such contracts.

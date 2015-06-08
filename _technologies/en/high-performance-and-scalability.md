@@ -5,7 +5,7 @@ subtitle: Over 100,000 transactions per second.
 image: ../images/frontpage/icon-performance.svg
 priority: 0
 summary: >
-    High performance block chain technology is necessary for cryptocurrencies and smart contract platforms to provide a
+    High performance blockchain technology is necessary for cryptocurrencies and smart contract platforms to provide a
     viable alternative to existing financial platforms.  BitShares is designed from the ground up to
     process more transactions every second than VISA and MasterCard combined.  With Delegated Proof of Stake, the BitShares
     network can confirm transactions in an average of just 1 second, limited only by the speed of light.
@@ -29,12 +29,12 @@ LMAX.
 It should be noted that the performance achieved by BitShares is highly dependent upon having a compatible transaction
 protocol.  It would not be possible to achieve the same level of performance in a protocol where the Core Business Logic
 is run in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
-Block chains are inherently single-threaded, and the performance of a single core of a CPU is the most limited and least
+Blockchains are inherently single-threaded, and the performance of a single core of a CPU is the most limited and least
 scalable resource of all.  BitShares is designed to get the most out of this single thread of execution.
 
 ## Background
 
-A block chain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global 
+A blockchain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global 
 state at a specified timestamp. The order in which transactions are processed can change the validity of other transactions.
 For example, you cannot withdraw money from your bank account until after your paycheck deposit has cleared. 
 It becomes impossible to know whether or not a transaction is valid until after all prior transactions that impact a particular 
@@ -69,7 +69,7 @@ Here is a brief overview of their architecture:
 
 The Business Logic Processor is where all of the sequential transactions and order matching is processed.  It is a
 single thread that is able to process millions of orders per second.  This architecture is readily ported to the realm
-of cryptocurrencies and block chain designs.
+of cryptocurrencies and blockchain designs.
 
 The role of the Input Disruptor is to gather orders from users from many different sources and assign them a
 deterministic order.  After assigning them an order they are replicated, logged, and broadcast to many redundant
@@ -84,9 +84,9 @@ single core of a commodity CPU using the Java virtual machine.   If LMAX can ach
 then certainly there is no need for cryptocurrency and smart contract platforms to reach for clustered solutions
 when they are not even processing 10 transactions per second.
 
-## High Performance Block Chains
+## High Performance Blockchains
 
-To implement a high performance block chain, BitShares must adopt the same techniques used by LMAX. Several key
+To implement a high performance blockchain, BitShares must adopt the same techniques used by LMAX. Several key
 fundementals must be met:
 
 * Keep everything in memory.
@@ -103,12 +103,12 @@ second and 256 bytes per transaction, the network would require 256 megabytes pe
 bandwidth is not widely available to the average desktop; however, this level of bandwidth is a fraction of the 100
 Gbit/s that [Internet 2](http://www.internet2.edu/vision-initiatives/initiatives/innovation-platform/){:target="_blank"} furnishes to more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.
 
-Therefore, block chain technology can easily keep everything in RAM and scale to handle millions of transactions per
+Therefore, blockchain technology can easily keep everything in RAM and scale to handle millions of transactions per
 second if it is designed properly.
 
 ## Avoid Hashes, Assign IDs Instead
 
-In a single threaded system, CPU cycles are a scarce resource that need to be conserved.  Traditional block chain designs
+In a single threaded system, CPU cycles are a scarce resource that need to be conserved.  Traditional blockchain designs
 use cryptographic hashes to generate globally unique IDs that are statistically guaranteed to never have a collision.
 The problem with these hashes is that they require significantly more memory and more CPU cycles to manipulate.   It
 takes significantly more CPU time to look up an account record by hash than with a direct array index.  For example,
@@ -116,7 +116,7 @@ takes significantly more CPU time to look up an account record by hash than with
 the CPU cache and that more memory is required.   On modern operating systems, infrequently accessed RAM is
 compressed, but hash identifiers are random data that is not compressible.
 
-Fortunately, block chains give us a means to globally assign unique IDs that do not conflict with one another, so it
+Fortunately, blockchains give us a means to globally assign unique IDs that do not conflict with one another, so it
 is possible to completely remove the need to use hash-based identifiers (Bitcoin addresses) to refer to an account,
 balance, or permission.
 
@@ -143,7 +143,7 @@ objects referenced relative to the time the transaction was signed.
 
 ## Smart Contracts
 
-Many block chains are adopting a general purpose scripting language to define all operations. These designs end up
+Many blockchains are adopting a general purpose scripting language to define all operations. These designs end up
 defining the “Business Logic Processor” as a virtual machine and all transactions are defined as scripts to be run by
 the virtual machine.   This approach takes the single-threaded limitations of a real CPU and compounds them by forcing
 everything through a virtual CPU.    A virtual CPU, even with Just-In-Time compilation, will always be slower than a
@@ -153,9 +153,9 @@ When transactions are defined at such a low level, it means that most of the sta
 get sucked back into the Business Logic Processing and the overall throughput falls.    A scripting engine should never
 require a cryptographic signature check to be performed even if it is done through a native call.
 
-Based upon the lessons we learn from LMAX, we know that a virtual machine for a block chain should be designed with
+Based upon the lessons we learn from LMAX, we know that a virtual machine for a blockchain should be designed with
 single-threaded performance in mind.  This means it should be optimized for Just-In-Time compilation from the beginning,
-and that the most frequently used smart contracts should be supported natively by the block chain, leaving only the
+and that the most frequently used smart contracts should be supported natively by the blockchain, leaving only the
 rarely-used custom contracts to run in a virtual machine.  These custom contracts should be designed around performance,
 which means the Virtual Machine should limit the addressable memory to something that will fit within the CPU cache.
 
@@ -169,7 +169,7 @@ performance gain over using a database-based approach.
 
 ## Transaction Sizes
 
-A block chain that processes 100,000 transactions every second generates a lot of data.  The average size of
+A blockchain that processes 100,000 transactions every second generates a lot of data.  The average size of
 a transaction on competing networks, such as Ripple and Bitcoin, is about 250 bytes.  A similar transaction on BitShares
 averages just 100 bytes.  In other words, competing systems require 2.5 times the bandwidth to propagate the
 same number of transactions.  Assuming a gigabit connection to the internet, it would take about 0.1 seconds just to
@@ -184,9 +184,9 @@ and only require the ordered list of transaction IDs to broadcast every block.  
 
 ## Conclusion
 
-Designing a high-performance block chain isn’t rocket-science, and doesn’t require complex, hard-to-understand protocols,
+Designing a high-performance blockchain isn’t rocket-science, and doesn’t require complex, hard-to-understand protocols,
 nor does it require dividing processing among all the nodes on the network.  Instead, all that is necessary to build
-a high-performance block chain is to remove all calculations that are not part of the critical, order-dependent,
+a high-performance blockchain is to remove all calculations that are not part of the critical, order-dependent,
 evaluation from the core business logic, and to design a protocol that facilitates these kinds of optimizations.   This
 is what BitShares has done.
 

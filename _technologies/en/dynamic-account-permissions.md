@@ -5,7 +5,7 @@ subtitle: Management for the corporate environment.
 image: ../images/frontpage/icon-corporate-acc.svg
 priority: 3
 summary: >
-   BitShares designs permissions around people, rather than around cryptography, making it easy to use. 
+   BitShares designs permissions around people, rather than around cryptography, making it easy to use.
    Every account can be controlled by any weighted combination of other accounts and private keys.
    This creates a hierarchical structure that reflects how permissions are organized in real life, and makes multi-user
    control over funds easier than ever.  Multi-user control is the single biggest contributor to security, and, when used
@@ -14,11 +14,11 @@ summary: >
 
 ## Background
 
-The ability to require multiple digital signatures for sensitive operations on the block chain is integral to the security of the platform.
+The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the security of the platform.
 While a single secret key may be compromised, multiple keys distributed over multiple locations add redundant
 protections, which result in a far more secure experience.
 
-Competing block chain systems suffer from the following shortcomings:
+Competing blockchain systems suffer from the following shortcomings:
 
 - The M-of-N model cannot sufficiently reflect the management hierarchies of many real-life organizations.
 - Equal weighting of M keys is not sufficient to express asymmetric ownership over an account.
@@ -54,7 +54,9 @@ This process forms a *hierarchy* of accounts that must grant permission.
 Each account can change its own permissions independently of any accounts above it in the hierarchy, which is what makes
 the permissions *dynamic*.
 
-Each account defines its permissions as a set of keys and/or other account IDs that are each assigned weights by the account holder. If the combined weight of keys and/or accounts exceeds a threshold defined by the account, then permission is granted.
+Each account defines its permissions as a set of keys and/or other account IDs that are each assigned weights by the
+account holder. If the combined weight of keys and/or accounts exceeds a threshold defined by the account, then
+permission is granted.
 
 The second solution is to include the partially signed transaction in the consensus state and allow accounts to publish
 transactions that add or remove their approval of the transaction.
@@ -79,7 +81,9 @@ change the *owner authority*.
 - The motivating use case is a 2-factor authentication provider as a co-signer on the *active authority*, but not on the
 *owner authority*.
 
-With this approach, a user can remain confident that their account will always be in their control, and yet that control can be kept in cold storage where no one can hack it. This means that a company account can require the approval of its board of directors and each board member may in turn require 2 factor authentication.
+With this approach, a user can remain confident that their account will always be in their control, and yet that control
+can be kept in cold storage where no one can hack it. This means that a company account can require the approval of its
+board of directors and each board member may in turn require 2 factor authentication.
 
 Anyone can rotate keys frequently without having to disturb the permissions on the accounts of its users.
 
@@ -90,7 +94,7 @@ required signatures was entirely manual, or required specialized infrastructure.
 Once a transaction is signed, there is no ability to retract your signature, so the last party to sign gains a slight advantage over the other parties.
 With deeper hierarchies, gathering signatures becomes even more complex.
 
-To simplify this process, a block chain should manage the signature gathering process by tracking the state of partially
+To simplify this process, a blockchain should manage the signature gathering process by tracking the state of partially
 approved proposed transactions.
 Under this process, each account can add (or remove) their permission to a transaction atomically, without having to rely
 upon an outside system to circulate the transaction.
@@ -110,8 +114,10 @@ unbounded computation.
 ## Scalability
 
 In theory, accounts can form a hierarchy that is arbitrarily deep, and evaluating that hierarchy can take an arbitrary
-amount of time. In practice, it is unlikely that a single transaction will have signatures more than 2 levels deep, which keeps them computation bounded.
-Anything that requires more than 2 levels is likely to involve many people, and would not be signed all at once. Instead, it would use the built-in proposed transaction infrastructure, which tracks partially approved transactions.
+amount of time. In practice, it is unlikely that a single transaction will have signatures more than 2 levels deep,
+which keeps them computation bounded.  Anything that requires more than 2 levels is likely to involve many
+people, and would not be signed all at once. Instead, it would use the built-in proposed transaction
+infrastructure, which tracks partially approved transactions.
 
 - With this approach, a board member can propose that his company approve a transaction.
 - This can be extended logically to propose, and account propose, to approve a transaction.
@@ -145,8 +151,7 @@ however, if they construct a cycle in the *owner authority* and the *active auth
 Dynamic hierarchical threshold multi-signature permissions provides people and organizations with a more natural way
 to express ownership and control policies. This approach makes the system easier to use, and ultimately more secure, than existing solutions.
 
-## Credits 
+## Credits
 
 The Ripple wiki has a documented, but unimplemented, proposal for a [similar Multisign feature](https://wiki.ripple.com/Multisign#Transaction_Proposal){:target="_blank"} that
-was discovered independently.  
-
+was discovered independently.

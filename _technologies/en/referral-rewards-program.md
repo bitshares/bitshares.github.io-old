@@ -14,14 +14,19 @@ summary: >
 ## Promoting Infrastructure Development
 
 The [BitShares Referral Program](/referral-program/){:target="_blank"} is designed to promote infrastructure development.
-Decentralized financial networks depend upon their business partners to build an ecosystem of businesses, such as exchanges, merchant services, hosted wallets, lightweight wallets, and block explorers.   With the BitShares referral program, merchants can now earn more by advertising their support for the BitShares platform.  While other platforms primarily promise lower fees, BitShares offers merchants an ongoing revenue stream.
+Decentralized financial networks depend upon their business partners to build an ecosystem of businesses, such as
+exchanges, merchant services, hosted wallets, lightweight wallets, and block explorers.   With the BitShares referral
+program, merchants can now earn more by advertising their support for the BitShares platform.  While other platforms
+primarily promise lower fees, BitShares offers merchants an ongoing revenue stream.
 
 Free market competition results in many different hosted wallet providers competing to acquire new users.   Each of
-these providers has a financial incentive to advertise their wallets by traditional means, which in turn increases the network effect for the BitShares ecosystem.
+these providers has a financial incentive to advertise their wallets by traditional means, which in turn increases the
+network effect for the BitShares ecosystem.
 
 ## Background - PayPal's Referral System
 
-Bootstrapping a new financial network is very hard, and often becomes a chicken-and-egg problem.  Basically, it is difficult to attract new users, because new users will only join if other users have already joined.
+Bootstrapping a new financial network is very hard, and often becomes a chicken-and-egg problem.  Basically, it is
+difficult to attract new users, because new users will only join if other users have already joined.
 
 To overcome this problem, we looked at what companies like PayPal did to reach critical mass.
 
@@ -40,7 +45,8 @@ Giving people money is both expensive and potentially unsustainable, but it has 
 ## Cost of Customer Acquisition vs Lifetime Value of Customer
 
 BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow.  In the
-article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/){:target="_blank"}, David Skok shared the lessons he learned after watching many failed startups.
+article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/){:target="_blank"},
+David Skok shared the lessons he learned after watching many failed startups.
 
 <i>However after closely watching several hundred startups that have failed, I observed that a very large number of
 these had solved the product/market fit problem, but still failed because they had not found a way to acquire customers
