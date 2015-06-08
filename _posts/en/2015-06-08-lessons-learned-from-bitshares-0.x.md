@@ -55,7 +55,7 @@ hardware.
 ### Assign IDs rather than using UUIDs
 
 Every cryptocurrency I know of uses Addresses which are 160+ bit hashes to identify objects.  Large hashes are used
-because they are collision resistant and unambiguous.  Bitcoin uses them to reference outputs and keys.  BitShares uses
+because they are collision resistant and unambiguous.  Bitcoin uses them to reference outputs and keys.  BitShares 1.0 uses
 them to reference balance objects (the moral equivalent of a bitcoin transaction output).   Ethereum uses 256 bit hashes
 to reference everything and Ripple uses hashes to identify accounts.
 
