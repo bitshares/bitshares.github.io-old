@@ -7,22 +7,16 @@ title: Roadmap
 This is the high-level roadmap for the BitShares core development team. Detailed development discussion can be found at
 the [official GitHub page](https://github.com/BitShares).
 
-## BitShares 2.0 (Q3 2015)
-* New Architecture Rollout
-* BitShares 0.x migration
-* Collateralized Bond Market
-* BitAssets 2.0
-* DPOS 2.0
-* Corporate accounts
-* Viral Referral Program
-* Recurring Payments
+1. Announce BitShares 2.0 
+2. Community Review and Modifications
+3. Feature Freeze 
+4. Achieve Full Test Coverage
+4. Launch Public Test Network 
+5. Fix Bugs Discovered by Public Test
+6. Announce Snapshot Date (30 days notice)
+7. Prepare Migration Tools
+8. Upgrade to BitShares 2.0
+9. Submit Proposals for New Features 
 
-## BitShares 2.1 (Q4 2015)
-* Light Desktop Client
-* Chrome Browser Plugin Client
-* On-Chain Options
-* Escrow
-
-## BitShares 2.2 (Q1 2016)
-* Custom Smart Contracts
-* P2P network code overhaul
+The future is a blank page, the BitShares stakeholders will be responsible for prioritizing funding for features once
+BitShares 2.0 has been released.  As projects get approval they will be added to the roadmap.  
