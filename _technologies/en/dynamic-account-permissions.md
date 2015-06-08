@@ -54,7 +54,7 @@ This process forms a *hierarchy* of accounts that must grant permission.
 Each account can change its own permissions independently of any accounts above it in the hierarchy, which is what makes
 the permissions *dynamic*.
 
-Each account defines its permissions as a set of keys and/or other account IDs that are each assigned weights by the account holder. If the combined weight of keys and/or accounts exceeds a defined threshold defined by the account, then permission is granted.
+Each account defines its permissions as a set of keys and/or other account IDs that are each assigned weights by the account holder. If the combined weight of keys and/or accounts exceeds a threshold defined by the account, then permission is granted.
 
 The second solution is to include the partially signed transaction in the consensus state and allow accounts to publish
 transactions that add or remove their approval of the transaction.
