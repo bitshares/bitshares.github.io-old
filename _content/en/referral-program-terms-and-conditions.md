@@ -57,9 +57,6 @@ Some asset issuers may charge their own trading fees.   These fees are not part 
 # Disclaimer: This information provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN,
 MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.
 
-BitShares is a trademark of Invictus Innovations, Inc.  All other trademarks, servicemarks, registered trademarks, and
-registered servicemarks are the property of their respective owners.
-
 This document is for informational purposes only and does not constitute an offer or solicitation to sell shares or
 securities in a Company or any related or associated entity. None of the information or analyses presented are intended
 to form the basis for any investment decision, and no specific recommendations are intended. Accordingly this document
