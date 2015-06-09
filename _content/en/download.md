@@ -2,6 +2,8 @@
 permalink: /download/
 layout: default
 title: Download
+redirect_from:
+    - /resources/downloads/
 ---
 
 Please see the [registration tutorial](/register/){:target="_blank"} if you are a new user.
