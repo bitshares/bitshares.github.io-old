@@ -11,11 +11,12 @@ There are many ways to move funds into or out of the BitShares ecosystem.
 
 --------
 
+Please help support CCEDK as a strategic partner that enables direct trading of BitUSD and USD. 
+
 <div class="row deposit" markdown="1">
 
 
 <div class="col-xs-12 col-md-6" markdown="1">
-
 
 ## Bridges/Gateways
 
@@ -24,7 +25,6 @@ They simplify the process of moving funds from one blockchain-based crypto curre
 
 
 - [BlockTrades](https://blocktrades.us/){:target="_blank"} 
-- [CCEDK<i><br>bitUSD, bitEUR, bitCNY, BTS, USD, EUR, CNY</i>](https://www.ccedk.com/){:target="_blank"}
 - [MetaExchange](https://metaexchange.info/){:target="_blank"}
 - [ShapeShift](https://shapeshift.io/){:target="_blank"} 
 - [BTSBots](https://www.btsbots.com/){:target="_blank"} 
@@ -42,8 +42,8 @@ Most crypto-currency exchanges offer a wide variety of different crypto currency
 contrast to bridges not only allow for instant trades at market price, but also offer to put a
 buy/sell order at a desired price.
 
+- [**CCEDK**<i> - USD, EUR, bitUSD, bitEUR</i>](https://www.ccedk.com/bitusd-usd){:target="_blank"}
 - [BTC38](http://www.btc38.com/trade_en.html){:target="_blank"} 
-- [CCEDK<i><br>bitUSD, bitEUR, bitCNY, BTS, USD, EUR, CNY</i>](https://www.ccedk.com/){:target="_blank"}
 - [Yunbi](https://yunbi.com/?lang=en){:target="_blank"} 
 - [Bter](https://bter.com/){:target="_blank"} 
 - [Poloniex](https://www.poloniex.com/){:target="_blank"} 
