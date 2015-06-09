@@ -1,6 +1,5 @@
 ---
 title: Trading Crypto Currencies like Bitcoin and SmartCoins™
-author: Ronny Boesing - ccedk.com
 ---
 
 For more than 25 years, Ronny Boesing distributed and published CDs, DVDs, games and other digital media all over the
