@@ -35,13 +35,16 @@ User account upgrades they become their own Registrar and Referrer.
 
 ### Reward Vesting Requirements
 
-All cashback and referral income are deposited into a special balance which must vest linearly for 1 year.  This means
-that after 6 months you can withdraw about 50% of your cash back, but your remaining funds will take an additional year
-to vest.   This is because the vesting process is based upon accumulating "BTS-years", for each *BTS-year* accumulated
-you can withdraw 1 BTS.  If you leave 100 BTS in the account for 1 year then you will have accumulated 100 BTS-years and
-can withdraw 100 BTS.   On the other hand, if you withdraw 50 BTS after 6 months, then you will have consumed 50
-BTS-years leaving your account with 50 BTS and 0 BTS-years.  It will take a full year to accumulate another 50
-BTS-years.
+Cashback and referral income from Subscriptions, Lifetime Memberships, and Premium Names are deposited into a special 
+balance which must vest linearly for 1 year.  This means that after 6 months you can withdraw about 50% of your cash back, 
+but your remaining funds will take an additional year to vest.   This is because the vesting process is based upon 
+accumulating "BTS-years", for each *BTS-year* accumulated you can withdraw 1 BTS.  If you leave 100 BTS in the account 
+for 1 year then you will have accumulated 100 BTS-years and can withdraw 100 BTS.   On the other hand, if you withdraw 50 
+BTS after 6 months, then you will have consumed 50 BTS-years leaving your account with 50 BTS and 0 BTS-years.  It will 
+take a full year to accumulate another 50 BTS-years.
+
+Technically the division between vesting and non-vesting cashback depends only on whether the amount of the transaction fee
+exceeds a threshold that can be changed by consensus. 
 
 ### Fees and Commissions
 
