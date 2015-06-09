@@ -82,7 +82,7 @@ trade. Taking these price comparisons into consideration, clearly it doesn't get
 <!-- (TODO: Is this about correct?) //-->
 
 ## Trade Almost Anything
-Trade in Gold, Sliver, Gas, and Oil in addition to your national currency and cryptocurrencies.  Few limits exists on
+Trade in Gold, Silver, Gas, and Oil in addition to your national currency and cryptocurrencies.  Few limits exists on
 what can be traded on the BitShares exchange, given enough interest.  The BitShares exchange can support assets that can
 track stocks, bonds, indexes, or inflation.  Companies can issue their own stock on the BitShares network and allow
 easy, low-cost trading with complete protection against naked shorting.  What other cryptocurrency
