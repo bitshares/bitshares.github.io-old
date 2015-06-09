@@ -10,7 +10,8 @@ BitShares™ has several different kinds of accounts: Basic Account, Annual Memb
 **Basic Accounts** are free, but do not qualify for the referral program, nor any cash back on transaction fees.
 
 **Annual Members** pay a subscription fee of $20<sup>1</sup>/year and earn 50% cash back on every fee they pay. They
-also qualify for up to 50% of the fees paid by anyone they refer to the network until their subscription expires.
+also qualify for up to 50% of the fees paid by anyone they refer to the network until their subscription expires. 30%
+of every fee paid by an annual member or any account they refer is paid to a Lifetime Member.
 
 **Lifetime Members** pay  $100<sup>1</sup> and earn 80% cash back on every fee they pay. They also qualify for 80% of
 the fees paid by Basic Accounts they refer to the network.  Additionally, they qualify for 30% of every fee paid by any
