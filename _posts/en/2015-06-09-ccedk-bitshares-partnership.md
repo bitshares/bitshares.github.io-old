@@ -4,7 +4,7 @@ title: Trading Crypto Currencies like Bitcoin and SmartCoins™
 
 For more than 25 years, Ronny Boesing distributed and published CDs, DVDs, games and other digital media all over the
 world, in over 65 countries on five continents. Today, he runs CCEDK: the first Danish online exchange for digital
-currencies such as Bitcoin and Bitshares, as well as a range of others including the BitAsset-based SmartCoins™ like
+currencies such as Bitcoin and Bitshares, as well as a range of others including the BitAsset-based [SmartCoins™](/technology/price-stable-cryptocurrencies) like
 BitUSD, BitEUR and BitCNY.
 
 <!--more-->
