@@ -1,15 +1,15 @@
 ---
 permalink: /technology/price-stable-cryptocurrencies/
-title: Price-Stable Cryptocurrencies
+title: SmartCoins - Price-Stable Cryptocurrencies
 subtitle: The freedom of cryptocurrency with the stability of the dollar.
 image: ../images/frontpage/icon-price-stable.svg
 priority: 2
 summary: >
-    A BitAsset is a cryptocurrency whose value is pegged to that of another asset, such as the US Dollar or gold.
-    BitAssets always have 100% or more of their value backed by the BitShares core currency, BTS, to which they can be
+    A SmartCoin is a cryptocurrency whose value is pegged to that of another asset, such as the US Dollar or gold.
+    SmartCoins always have 100% or more of their value backed by the BitShares core currency, BTS, to which they can be
     converted at any time at an exchange rate set by a trustworthy price feed.   In all but the most extreme market
-    conditions, BitAssets are guaranteed to be worth <i>at least</i> their face value (and perhaps more, in some
-            circumstances).  Like any other cryptocurrency, BitAssets are fungible, divisible, and free from any
+    conditions, SmartCoins are guaranteed to be worth <i>at least</i> their face value (and perhaps more, in some
+            circumstances).  Like any other cryptocurrency, SmartCoins are fungible, divisible, and free from any
     restrictions.
 ---
 
@@ -30,11 +30,11 @@ other party is granted leverage.    This approach works as long as sufficient co
 settled by an honest 3rd party with a price feed.  Unfortunately, a contract for difference is not fungible, and has an
 explicit settlement date, which means it is not useful as a currency.
 
-## Introducing BitAssets
+## Introducing SmartCoins
 
-BitAssets take the concept of a contract for difference, and make the long side fungible.  For the purpose of this
+SmartCoins take the concept of a contract for difference, and make the long side fungible.  For the purpose of this
 discussion, we will assume that the long side of the contract is BitUSD and that the backing collateral is BTS
-(the BitShares core asset). To achieve this, BitAssets use the following set of market rules:
+(the BitShares core asset). To achieve this, SmartCoins use the following set of market rules:
 
 1. Anyone with BitUSD can settle their position within an hour at the feed price.
 2. The least collateralized short positions are used to settle the position.
@@ -157,40 +157,40 @@ Generally speaking, the strategy that the feed producers adopt for controlling t
 
 ## Black Swans - Extreme Market Conditions
 
-All guarantees of BitAssets are subject to the caveat that a BitAsset can never be worth more than the collateral
+All guarantees of SmartCoins are subject to the caveat that a SmartCoin can never be worth more than the collateral
 backing the least-collateralized short position.  In normal market conditions, the value of the collateral is always more
 than sufficient, but, from time to time, markets can rapidly revalue the collateral.  If this revaluation happens faster
-than the short positions can be forced to cover, then all BitAssets are liquidated at the exchange rate of the least
+than the short positions can be forced to cover, then all SmartCoins are liquidated at the exchange rate of the least
 collateralized short position.  This is similar to an insolvent bank converting its deposits to equity.
 
 ## The Bond Market
 
-Not every short seller will be happy with the rules offer by BitAssets.  Some may want to borrow for a fixed period of time,
+Not every short seller will be happy with the rules offer by SmartCoins.  Some may want to borrow for a fixed period of time,
 with higher leverage, and with no risk of being force-settled.  BitShares offers these speculators the option to borrow
 BitUSD on the [bond market](/technology/collateralized-bond-market){:target="_blank"} at interest.   The bond market
 allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A
-Bond market is the perfect way for the market to establish a yield curve on BitAssets and free both sides of the market
+Bond market is the perfect way for the market to establish a yield curve on SmartCoins and free both sides of the market
 from dependency on the price feed.
 
-## Privatized BitAssets
+## Privatized SmartCoins
 
-BitShares offers entrepreneurs an opportunity to create their own BitAssets with custom parameters and price feeds.
+BitShares offers entrepreneurs an opportunity to create their own SmartCoins with custom parameters and price feeds.
 
-User-issued BitAsset managers can experiment with different parameters such as collateral requirements, price feeds,
+User-issued SmartCoin managers can experiment with different parameters such as collateral requirements, price feeds,
 force settlement delays and forced settlement fees.  They also earn the trading fees from transactions the issued
 asset is involved in, and therefore have a financial incentive to market and promote it on the network.   The
 entrepreneur who can discover and market the best set of parameters can earn a significant profit.   The set of
-parameters that can be tweaked by entrepreneurs is broad enough that BitAssets can be used to implement a fully
+parameters that can be tweaked by entrepreneurs is broad enough that SmartCoins can be used to implement a fully
 functional prediction market with a guaranteed global settlement at a fair price, and no forced settlement before
 the resolution date.
 
-Some entrepreneurs may want to experiment with BitAssets that always trade at exactly $1.00 rather than strictly more
+Some entrepreneurs may want to experiment with SmartCoins that always trade at exactly $1.00 rather than strictly more
 than $1.00.   They can do this by manipulating the forced settlement fee continuously such that the average trading
 price stays at about $1.00.   By default, BitShares prefers fees set by the market, and thus opts to let the price float
 above $1.00, rather than fixing the price by directly manipulating the forced settlement fee.
 
 ## Conclusion
 
-BitAssets are a powerful tool for everyone from speculators and savers, to traders and entrepreneurs. The BitShares
+SmartCoins are a powerful tool for everyone from speculators and savers, to traders and entrepreneurs. The BitShares
 platform provides a toolset with which innovators can experiment to find optimal currency solutions using free market
 discovery.
