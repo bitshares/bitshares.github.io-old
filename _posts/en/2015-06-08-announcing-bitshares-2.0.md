@@ -16,7 +16,7 @@ BitShares reaching maturity at version 2.0, the team is ready to remove the trai
 all future development be decided completely by stakeholder vote.
 
 To help ensure the long-term success of BitShares technology, the core development team will be reorganizing into
-[Cryptonomex Inc.](http://www.cryptonomex.com/){:target="_blank"}, an independent blockchain development company. By utilizing a new
+[Cryptonomex Inc.](https://cryptonomex.com/){:target="_blank"}, an independent blockchain development company. By utilizing a new
 worker voting system that will be included in BitShares 2.0, this company will continue to help develop BitShares in
 whatever direction is approved by its stakeholders. With this new structure, BitShares will be more robust, sustainable,
 and fair than ever.
@@ -80,7 +80,7 @@ BitShares 2.0 is based upon the [Graphene Toolkit](https://github.com/cryptonome
 
 BitShares is first and foremost a protocol based upon a public ledger.  Anyone may provide and distribute an alternative
 implementation of the protocol and use the protocol for any other blockchain.  The Graphene Toolkit produced by
-[Cryptonomex Inc.](http://cryptonomex.com){:target="_blank"} is only one possible implementation of the protocol.
+[Cryptonomex Inc.](https://cryptonomex.com/){:target="_blank"} is only one possible implementation of the protocol.
 
 Cryptonomex will license the Graphene Toolkit for use with the BitShares (BTS) blockchain.  The terms of
 the license will allow the Graphene Toolkit and any derivatives thereof to be used with the BitShares blockchain without any
