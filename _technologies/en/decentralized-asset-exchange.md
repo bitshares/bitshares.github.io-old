@@ -3,7 +3,7 @@ permalink: /technology/decentralized-asset-exchange/
 title: Decentralized Asset Exchange
 subtitle: A fast and fluid trading platform
 image: ../images/frontpage/icon-daex.svg
-priority: 6
+priority: 1
 summary: >
     BitShares provides a high-performance decentralized exchange, with all the features
     you would expect in a trading platform. It can handle the trading volume of the NASDAQ, while
@@ -48,7 +48,7 @@ their trading bots make decisions so quickly that the speed of light is a consid
 decentralized exchange is location-neutral, and gives everyone equal opportunity.
 
 ## Secure
-Every [Dollar, Euro, bitcoin and ounce of gold held as a BitAsset](/technology/price-stable-cryptocurrencies){:target="_blank"}
+Every [Dollar, Euro, bitcoin and ounce of gold held as a SmartCoin](/technology/price-stable-cryptocurrencies){:target="_blank"}
 on the BitShares exchange is backed by up to twice the reserves of traditional centralized exchanges.  The traditional
 banking system has long practiced what I like to call *fictional* reserve banking, more commonly known as fractional
 reserve banking.  In the Bitcoin ecosystem, we demand at least 100% reserve. A single hack, mistake, or theft can
@@ -78,7 +78,7 @@ than $0.01 (Jan 2015) to make the same trade on the BitShares exchange.   The mo
 [E-Trade](https://etrade.com){:target="_blank"} or [Scottrade](https://scottrade.com){:target="_blank"} charge over $5 per
 trade. Taking these price comparisons into consideration, clearly it doesn't get any cheaper than BitShares.
 
-\* on BitAsset pairs. Trading fees for User-issued assets may vary
+\* on SmartCoin pairs. Trading fees for User-issued assets may vary
 <!-- (TODO: Is this about correct?) //-->
 
 ## Trade Almost Anything
@@ -147,7 +147,7 @@ individual issuers to the blockchain itself.
 
 ## Collateralized Blockchain IOUs
 
-The heart of BitShares is the BitAsset system which enables the creation of 200% collateralized IOUs from the BitShares
+The heart of BitShares is the SmartCoin system which enables the creation of 200% collateralized IOUs from the BitShares
 network.   A BitUSD has all of the properties of Bitcoin combined with the price stability of the US dollar.  At any
 point in time you can sell a BitUSD for at least 1 dollar worth of BTS.  If at any time the value of the collateral
 falls below a certain point the blockchain will automatically buy back the BitUSD with a dollars worth of BTS.

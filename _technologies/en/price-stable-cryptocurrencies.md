@@ -1,15 +1,15 @@
 ---
 permalink: /technology/price-stable-cryptocurrencies/
-title: SmartCoins - Price-Stable Cryptocurrencies
-subtitle: The freedom of cryptocurrency with the stability of the dollar.
+title: Price-Stable Cryptocurrencies
+subtitle: SmartCoins provide the freedom of cryptocurrency with the stability of the dollar
 image: ../images/frontpage/icon-price-stable.svg
-priority: 2
+priority: 0
 summary: >
     A SmartCoin is a cryptocurrency whose value is pegged to that of another asset, such as the US Dollar or gold.
     SmartCoins always have 100% or more of their value backed by the BitShares core currency, BTS, to which they can be
     converted at any time at an exchange rate set by a trustworthy price feed.   In all but the most extreme market
     conditions, SmartCoins are guaranteed to be worth <i>at least</i> their face value (and perhaps more, in some
-            circumstances).  Like any other cryptocurrency, SmartCoins are fungible, divisible, and free from any
+    circumstances).  Like any other cryptocurrency, SmartCoins are fungible, divisible, and free from any
     restrictions.
 ---
 
@@ -65,7 +65,7 @@ collateralized positions, and thus very unlikely to be forced to settle at the f
 
 In practice, the only way new BitUSD enters circulation is if there is someone willing to pay enough of a premium to
 convince a short to provide guaranteed liquidity at the price feed on demand, while also covering the cost of exchange
-rate risk.  This premium will be higher for the backing cryptocurrency in a bear market, and will be lower in a bull market. 
+rate risk.  This premium will be higher for the backing cryptocurrency in a bear market, and will be lower in a bull market.
 
 Someone who is short has only one way to exit their position: by buying BitUSD off the market.  This means that a short must
 also factor in the risk that the premium may change.  If a short position is entered in a bull market with a 0.1%

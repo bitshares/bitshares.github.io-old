@@ -49,8 +49,8 @@ hardware.
 
 ### Assign IDs rather than using UUIDs
 
-Every crypto-currency I know of uses Addresses which are 160+ bit hashes to identify objects.  Large hashes are used
-because they are collision resistant and unambiguous.  Bitcoin uses them to reference outputs and keys.  BitShares uses
+Every cryptocurrency I know of uses Addresses which are 160+ bit hashes to identify objects.  Large hashes are used
+because they are collision resistant and unambiguous.  Bitcoin uses them to reference outputs and keys.  BitShares 1.0 uses
 them to reference balance objects (the moral equivalent of a bitcoin transaction output).   Ethereum uses 256 bit hashes
 to reference everything and Ripple uses hashes to identify accounts.
 
@@ -69,7 +69,7 @@ the goal must be to divide the task among nodes rather than having all nodes do 
 approach seems most intuitive, but it is fundamentally flawed because parallelism isn't free.   It is very common for
 developers to take a single threaded program, make it multi-threaded and have performance fall rather than climb.   Our
 research into scalability lead us to an [article about the LMAX trading
-platform](http://martinfowler.com/articles/lmax.html).
+platform](http://martinfowler.com/articles/lmax.html){:target="_blank"}.
 
 > LMAX is a new retail financial trading platform. It has to process many trades with low latency. The system is built
 > on the JVM platform and centers on a Business Logic Processor that can handle 6 million orders per second on a single
@@ -99,7 +99,7 @@ constraint checking for blocks it has previously validated.
 ### Keep Transaction Interpretation Deterministic and Explicit
 
 One of  the major challenges faced by developers of wallets is how to represent the transaction history as a ledger.
-Most crypto-currencies, including BitShares, have logical accounts that consist of many balances controlled by different
+Most cryptocurrencies, including BitShares, have logical accounts that consist of many balances controlled by different
 keys.  Transactions consist of combining funds from several balances and distributing them to other balances.  The
 problem is that there is no way of accurately and consistently abstracting meaning from these transactions in a general
 purpose way.   Wallets end up using fuzzy logic to determine who sent money to whom and often depend upon a limited
@@ -119,7 +119,7 @@ Under BitShares 2.0, every single operation has an explicit fee, a defined set o
 operation, a defined set of accounts that are impacted by the operation, and a defined set of balance changes that will
 result from the transaction.  An account balance can be entirely calculated with only the raw transactions that
 reference it.    This means transactions are slightly larger than theoretically necessary, but what they lose in size
-they gain in clarity which is critical for usability, reliability, and ultimately performance.  As we will explained
+they gain in clarity which is critical for usability, reliability, and ultimately performance.  As explained
 earlier, we save more bytes in the transaction by using 48 bit identifiers (instead of 20-32 byte hashes/addresses) than
 we lose by having slightly more verbose transactions.
 
@@ -134,7 +134,7 @@ without any loss in precision.
 
 ### Membership Organization, not Decentralized Company
 
-A [working paper](http://www.scribd.com/doc/255347578/SWARM-Working-Paper-Distributed-Networks-and-the-Law), summarizing
+A [working paper](http://www.scribd.com/doc/255347578/SWARM-Working-Paper-Distributed-Networks-and-the-Law){:target="_blank"}, summarizing
 the takeaways from the aforementioned workshop and published by CoinDesk, says that tokens for a Decentralized
 Collaborative Organization represent “membership” in it. Holders of such tokens are granted unique rights in the
 organization, and are effectively “managers and/or partners” in its success. The membership may or may not be
@@ -207,8 +207,8 @@ price movements.
 
 ### Copyright Reserved
 
-It takes a lot of time and money to build a block chain and the fear of people copying the code and starting a new
-killer chain scares off many investors.  The code must be open source, but not free to use for any other block chain.
+It takes a lot of time and money to build a blockchain and the fear of people copying the code and starting a new
+killer chain scares off many investors.  The code must be open source, but not free to use for any other blockchain.
 This means others can still copy it, but no serious business will build upon a platform that is in violation of
 copyright.  This will help attract capital to BitShares and secure our competitive edge.
 
@@ -217,13 +217,13 @@ copyright.  This will help attract capital to BitShares and secure our competiti
 The BitShares developers have taken a lot of heat for changing the rules.  This leads to fears of centralization and
 regulatory risks for the developers themselves.   It would be nice if there existed one perfect set of rules; however,
 experience has taught us that adaptability is key to survival of the fittest.   Under [DPOS
-2.0](/technology/delegated-proof-of-stake-consensus.html) there will be a new policy adhered to by the
+2.0](/technology/delegated-proof-of-stake-consensus){:target="_blank"} there will be a new policy adhered to by the
 developers.
 
 From time to time it is necessary to upgrade a network to add new features.  With DPOS 2.0, all changes must be
 triggered by active stakeholder approval.   While it is technically possible for the witnesses to collude to change
 their software unilaterally, it is not in their interest to do so.  Witnesses are selected based upon their commitment
-to remain neutral to block chain policy.   Remaining neutral protects witnesses against allegations that they are the
+to remain neutral to blockchain policy.   Remaining neutral protects witnesses against allegations that they are the
 administrators/managers/owners/operators of the network.  A witness is merely an employee of the stakeholders.
 
 Developers may implement whatever changes they deem appropriate so long as those changes are contingent upon stakeholder
@@ -233,7 +233,7 @@ unilateral control over the direction of the network.
 The threshold for changing the rules is the same as replacing 51% of the elected witnesses.  The more stakeholder
 participation in electing witnesses the harder it becomes to change the rules.
 
-Ultimately changing the rules depends upon everyone using the network upgrading their software and no block chain level
+Ultimately changing the rules depends upon everyone using the network upgrading their software and no blockchain level
 protocol can enforce how rules are changed.  This means that hard-forking "bug fixes" can be rolled out without
 requiring a vote of the stakeholders so long as they remain true to the universally expected behavior of the code.
 

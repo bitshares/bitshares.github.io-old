@@ -1,9 +1,9 @@
 ---
 permalink: /technology/user-issued-assets/
 title: User-Issued Assets
-subtitle: Regulation-compatible cryptoasset issuance.
+subtitle: Regulation-compatible cryptoasset issuance
 image: ../images/frontpage/icon-asset-ident.svg
-priority: 5
+priority: 7
 summary: >
     The BitShares platform provides a feature known as "user-issued assets" to help facilitate profitable business
     models for certain types of services. The term refers to a type of custom token registered on the platform, which
@@ -107,16 +107,16 @@ can remain functional even if the company that produced the license goes out of 
 Trading cards can be simulated by creating many limited issue assets.   Online games can use these assets to represent
 game items.
 
-## Privatized BitAssets (Stable Cryptocurrencies)
+## Privatized SmartCoins (Stable Cryptocurrencies)
 
-[Price-stable cryptocurrencies](/technology/price-stable-cryptocurrencies){:target="_blank"} (aka BitAssets) were the inspiration
+[Price-stable cryptocurrencies](/technology/price-stable-cryptocurrencies){:target="_blank"} (aka SmartCoins) were the inspiration
 for BitShares.  Now, users can create their own price-stable assets with custom parameters designed to track the value of
 any asset they can imagine.  The benefit of price-stable cryptocurrencies is that they are fully collateralized, and
 the issuer only needs to be trusted to appoint an honest set of independent (non-collusive) feed producers.   Unlike
-deposit receipts, the value of a Privatized BitAsset is secured even if the issuer disappears.
+deposit receipts, the value of a Privatized SmartCoin is secured even if the issuer disappears.
 
 Bitshares provides many parameters that an issuer may tune.  In addition to account whitelists, market restrictions, and transfer
-restrictions, the issuer of a private BitAsset has control over:
+restrictions, the issuer of a private SmartCoin has control over:
 
 1. Collateral Type
 2. Initial Collateral Rate
@@ -126,18 +126,17 @@ restrictions, the issuer of a private BitAsset has control over:
 6. Global Forced Settlement
 
 With these tools it is possible to emulate a pure contract for difference with periodic global forced settlement (ie:
-        monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30 day delay on forced settlement.
+monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30 day delay on forced settlement.
 
 Arbitrary financial indexes can be used for the price feed to mimic all manner of exotic assets.
 
 ## Information/Prediction Markets
 
-A [prediction market](http://en.wikipedia.org/wiki/Prediction_market){:target="_blank"} is a specialization of BitAssets where there is no
+A [prediction market](http://en.wikipedia.org/wiki/Prediction_market){:target="_blank"} is a specialization of SmartCoins where there is no
 need for margin calls or forced settlement because all positions are fully collateralized at any price.   A prediction
 market has a price between 0 and 1 and the issuer settles all positions after the event occurs and the final price is
 known.   These prediction markets can be very secure if the issuer is a multi-sig account with many independent and
 trustworthy parties involved.
-
 
 ## How to Profit by Issuing an Asset
 

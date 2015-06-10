@@ -3,9 +3,9 @@ permalink: /technology/stakeholder-approved-project-funding/
 redirect_from:
     - /delegates/
 title: Stakeholder-Approved Project Funding
-subtitle: A sustainable funding model.
+subtitle: A self-sustaining funding model
 image: ../images/frontpage/icon-funding.svg
-priority: 10
+priority: 8
 summary: >
    BitShares is designed to be self funding and self-sustaining by giving the stakeholders the power to direct where
    blockchain reserves are spent.   BitShares has a reserve pool of 1.2 billion BTS (about $8 million dollars) that

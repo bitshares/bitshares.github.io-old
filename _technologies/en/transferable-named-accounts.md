@@ -1,7 +1,7 @@
 ---
 permalink: /technology/transferable-named-accounts/
 title: Transferable Named Accounts
-subtitle: Easy and secure transactions.
+subtitle: Easy and secure transactions
 image: ../images/frontpage/icon-trans-acc.svg
 priority: 9
 summary: >

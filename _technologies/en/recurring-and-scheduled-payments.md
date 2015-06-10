@@ -1,9 +1,9 @@
 ---
 permalink: /technology/recurring-and-scheduled-payments/
 title: Recurring & Scheduled Payments
-subtitle: Flexible withdrawal permissions.
+subtitle: Flexible withdrawal permissions
 image: ../images/frontpage/icon-rec-payments.svg
-priority: 8
+priority: 4
 summary: >
     BitShares is the first smart contract platform with built-in support for recurring payments and subscription
     payments.  This feature allows users to authorize third parties to make withdrawals from their accounts within

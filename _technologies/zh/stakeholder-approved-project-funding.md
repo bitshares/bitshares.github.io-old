@@ -3,16 +3,16 @@ permalink: /zh/technology/stakeholder-approved-project-funding/
 title: Stakeholder-Approved Project Funding
 subtitle: A self-sustaining funding model
 image: ../images/frontpage/icon-funding.svg
-priority: 10
+priority: 8
 summary: >
    BitShares is designed to be self funding and self-sustaining by giving the stakeholders the power to direct where
    blockchain reserves are spent.   BitShares has a reserve pool of 1.2 billion BTS (about $8 million dollars) that
    automatically grows as transaction fees are collected and the share price rises.   Each day, the blockchain is
    authorized to spend up to 432,000 BTS (about $77,000 per month), which is enough to hire a small team to
-   maintain the network for years, even with no price appriciation.
+   maintain the network for years, even with no price appreciation.
 ---
 
-<center> <img width="800px" src="/images/cashflow.png"/></center>
+<img class="img-responsive img-thumbnail" src="/images/cashflow.png"/>
 
 ## Income
 

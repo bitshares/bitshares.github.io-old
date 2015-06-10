@@ -1,9 +1,9 @@
 ---
 permalink: /technology/dynamic-account-permissions/
 title: Dynamic Account Permissions
-subtitle: Management for the corporate environment.
+subtitle: Management for the corporate environment
 image: ../images/frontpage/icon-corporate-acc.svg
-priority: 3
+priority: 6
 summary: >
    BitShares designs permissions around people, rather than around cryptography, making it easy to use.
    Every account can be controlled by any weighted combination of other accounts and private keys.

@@ -1,12 +1,12 @@
 ---
 permalink: /zh/technology/collateralized-bond-market/
 title: Collateralized Bond Market
-subtitle: Lend or borrow anything on your terms
+subtitle: Integrated peer-to-peer lending
 image: ../images/frontpage/icon-bonds.svg
-priority: 7
+priority: 3
 summary: >
-    The BitShares bond market is an investment marketplace accessible to anyone with an internet connection. With the
-    bond market you can earn interest on anything while allowing others to short any asset backed by any other asset.
+    The BitShares bond market is an investment marketplace accessible to anyone with an internet connection. In the
+    bond market, you can earn interest with any asset, or take a short position using any other asset as collateral.
 ---
 
 The BitShares bond market allows for an interest rate market between any combination of assets
@@ -27,10 +27,10 @@ the cost of providing the implied option contract.
 
 ## Proposing and Creating a Bond
 
-A bond offer can be proposed by either a borrower or lender and these offers may be sorted and
-filtered.  A borrower must commit the required collateral to a bond offer, whereas a lender must
-commit borrowable assets.  Bond offers are not matched automatically with a market engine but rather
-the other side of any bond contract may be taken with a transaction that accepts a bond offer.
+A bond offer can be proposed by either a borrower or lender, and all open offers can be easily searched.
+A borrower must commit the required collateral to a bond offer, whereas a lender must
+commit borrowable assets.  Bond offers are not matched automatically with a market engine; instead,
+the other side of any bond contract may be claimed via a transaction that accepts the bond offer.
 
 ## Bond Parameters
 
@@ -41,17 +41,17 @@ filled at this ratio as long as it is above a specified minimum.  Bonds have a d
 
 ## Closing a Bond
 
-After a bond offer has been accepted the loan period determines the due date of the bond.  If the
-borrower has not paid the bond by this due date the lender may claim the posted collateral.  The
+After a bond offer has been accepted, the loan period determines the due date of the bond.  If the
+borrower has not paid the bond by this due date, the lender may claim the posted collateral.  The
 bond may not be paid before the minimum loan period has expired.  The amount that must be paid by
 the borrower to fulfill the bond and claim the collateral is determined by the interest rate and the
 time the bond has remained outstanding.  Interest accrues on a daily basis and does not compound.  A
 bond may also be partially paid any time after the minimum loan period; this will return collateral
 to the borrower based on the collateral ratio of the bond.
 
-## Use Cases
+## Conclusion
 
 The Bitshares bond market allows investors who wish to gain leverage in a particular asset to offer
 competitive interest rates to those willing to commit capital for a specified time.  The
-implementation of a bond market on a blockchain consensus system efficiently reduces overhead and
+implementation of a bond market on a blockchain consensus system efficiently reduces the overhead and
 counterparty risk typically associated with such contracts.

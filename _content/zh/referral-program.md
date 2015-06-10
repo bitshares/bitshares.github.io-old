@@ -3,6 +3,7 @@ permalink: /zh/referral-program/
 layout: default
 title: Referral Program
 ---
+
 Earn $80 or more for every lifetime member you sign up.
 
 BitShares™ has several different kinds of accounts: Basic Account, Annual Member, and Lifetime Member.
@@ -10,7 +11,8 @@ BitShares™ has several different kinds of accounts: Basic Account, Annual Memb
 **Basic Accounts** are free, but do not qualify for the referral program, nor any cash back on transaction fees.
 
 **Annual Members** pay a subscription fee of $20<sup>1</sup>/year and earn 50% cash back on every fee they pay. They
-also qualify for up to 50% of the fees paid by anyone they refer to the network until their subscription expires.
+also qualify for up to 50% of the fees paid by anyone they refer to the network until their subscription expires. 30%
+of every fee paid by an annual member or any account they refer is paid to a Lifetime Member.
 
 **Lifetime Members** pay  $100<sup>1</sup> and earn 80% cash back on every fee they pay. They also qualify for 80% of
 the fees paid by Basic Accounts they refer to the network.  Additionally, they qualify for 30% of every fee paid by any
@@ -28,7 +30,6 @@ change transaction fees, which could impact future earnings.
 
 # Examples
 
-
 When a user pays a $20 annual subscription fee to become an Annual Member, $10 is paid to their Referrer, $6 is paid to
 the nearest Lifetime Member, and $4 is paid to the Network.  The Annual Member becomes its own Referrer for one year.
 In one year, the renewal fee is divided in a similar manner to the original annual subscription.
@@ -45,10 +46,10 @@ Member and $20 goes to the Network.  Annual Members do not qualify for a 50% Cas
 
 # Terms & Conditions
 
-Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/) for more details.
+Please see the [Referral Program - Terms & Conditions](/referral-program-terms-and-conditions/){:target="_blank"}  for more details.
 
-<hr/> <sup>1.</sup> Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt
-to adjust the BTS registration fee to be approximately $100.
+<hr/> <sup>1.</sup><small>Actual upgrade fee is set in terms of BTS whose value will fluctuate daily.   Delegates will attempt
+to adjust the BTS registration fee to be approximately $100.</small>
 
-<sup>2.</sup> Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
-assumption that a user will perform 500 transactions in their life.
+<sup>2.</sup><small>Estimates based upon what companies like Paypal and Dwolla are willing to pay to acquire customers and an
+assumption that a user will perform 500 transactions in their life.</small>

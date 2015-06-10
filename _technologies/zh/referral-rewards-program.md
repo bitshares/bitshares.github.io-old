@@ -1,36 +1,34 @@
 ---
 permalink: /zh/technology/referral-rewards-program/
 title: Referral Rewards Program
-subtitle: Rapidly grow network effect by incentivising mass adoption
+subtitle: Network growth through adoption rewards
 image: ../images/frontpage/icon-referral.svg
-priority: 1
+priority: 5
 summary: >
-    BitShares has an advanced referral program built into the software.  Financial networks derive their value mostly
-    from their network effect.  The more people that use the same network the more value that network has to the users.
-    BitShares rewards those who sign up new users that actually use the network and does so in a fully transparent and
+    BitShares has an advanced referral program built directly into its software.  Financial networks derive their
+    value primarily from their network effect: more people on the same network increases the value of that network for
+    everyone. BitShares capitalizes on this by rewarding those who sign up new users, and does so in a fully transparent and
     automated way.
 ---
 
-### Promoting Infrastructure Development
+## Promoting Infrastructure Development
 
-The [BitShares Referral Program](/referral-program/) is designed to promote infrastructure development.
-All decentralized financial networks depend upon many business partners to build an ecosystem.  This means motivating
-entrepreneurs to build businesses such as Exchanges, Merchant Services, Hosted Wallets, Light Weight Wallets, and Block
-Explorers around the network.   With the BitShares referral program, merchants can now earn significantly more by
-advertising their support for the BitShares platform.  Whereas other platforms can only offer "lower fees", BitShares
-offers merchants a revenue stream.
+The [BitShares Referral Program](/referral-program/){:target="_blank"} is designed to promote infrastructure development.
+Decentralized financial networks depend upon their business partners to build an ecosystem of businesses, such as
+exchanges, merchant services, hosted wallets, lightweight wallets, and block explorers.   With the BitShares referral
+program, merchants can now earn more by advertising their support for the BitShares platform.  While other platforms
+primarily promise lower fees, BitShares offers merchants an ongoing revenue stream.
 
-Free market competition will result in many different hosted wallet providers competing to acquire new users.   Each of
-these providers will have financial incentive to advertise their wallets by traditional means which in turn will result
-in increasing network effect for BitShares.
+Free market competition results in many different hosted wallet providers competing to acquire new users.   Each of
+these providers has a financial incentive to advertise their wallets by traditional means, which in turn increases the
+network effect for the BitShares ecosystem.
 
-### Background - PayPal's Referral System
+## Background - PayPal's Referral System
 
-Bootstrapping a new financial network is very hard and is often a [chicken or the
-egg](http://en.wikipedia.org/wiki/Chicken_or_the_egg) problem.  It is difficult to attract new users because new users
-will only join if there are existing users.
+Bootstrapping a new financial network is very hard, and often becomes a chicken-and-egg problem.  Basically, it is
+difficult to attract new users, because new users will only join if other users have already joined.
 
-To overcome this problem we looked at what companies like PayPal did to reach critical mass.
+To overcome this problem, we looked at what companies like PayPal did to reach critical mass.
 
 > <i>PayPal’s big challenge was to get new customers. They tried advertising. It was too expensive. They tried Business
 > Development (BD) deals with big banks. Bureaucratic hilarity ensued.  The PayPal team reached an important conclusion:
@@ -44,38 +42,38 @@ To overcome this problem we looked at what companies like PayPal did to reach cr
 
 Giving people money is both expensive and potentially unsustainable, but it has been proven to work.
 
-### Cost of Customer Acquisition vs Lifetime Value of Customer
+## Cost of Customer Acquisition vs Lifetime Value of Customer
 
 BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow.  In the
-article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/), David
-Skok shared the lessons he learned after watching several hundred startups that had failed.
+article ["Startup Killer: the Cost of Customer Acquisition"](http://www.forentrepreneurs.com/startup-killer/){:target="_blank"},
+David Skok shared the lessons he learned after watching many failed startups.
 
 <i>However after closely watching several hundred startups that have failed, I observed that a very large number of
 these had solved the product/market fit problem, but still failed because they had not found a way to acquire customers
 at a low enough cost.</i>
 
-A well balanced business model must have a cost of user acquisition that is much lower than the businesses ability to
+A well-balanced business model must have a cost of user acquisition that is much lower than its ability to
 monetize its customers.
 
-<center><img src="/images/wellbalanced.png"/></center>
+<center><img class="img-responsive img-thumbnail" src="/images/wellbalanced.svg"/></center>
 
-In the case of BitShares this means setting transaction fees that are high enough to cover all costs, including the cost
-of customer acquisition, while still being low enough to compete against real competitors.  Most crypto-currency
+In the case of BitShares, this means setting transaction fees that are high enough to cover all costs, including the cost
+of customer acquisition, while still being low enough to compete against real competitors.  Most cryptocurrency
 networks barely charge enough in transaction fees to cover the cost of running the network.  They attempt to attract
 users with low fees.  While low fees are important, undervaluing the service provided is counter productive.  For this
-reason BitShares charges a price that is much higher than competing crypto-currencies but much lower than traditional
+reason, BitShares charges a price that is much higher than competing cryptocurrencies but much lower than traditional
 exchanges and payment networks like Dwolla or PayPal.
 
-To ensure the cost of customer acquisition is sustainable, the BitShares referral system is designed to always payout a
-*percentage of **actual profits** *.   BitShares allows the users to draw their own conclusions about the Life Time
-Value(LTV) of each customer they refer after educating them about the LTV of customers for similar businesses.   We
+To ensure the cost of customer acquisition is sustainable, the BitShares referral system is designed to always pay out a
+<i>percentage of **actual profits**</i>.   BitShares allows the users to draw their own conclusions about the Life Time
+Value (LTV) of each customer they refer, after educating them about the LTV of customers for similar businesses.   We
 believe that the BitShares network can offer each referrer an average value of $80 per member they sign up, or $40
-dollars if they go through an affiliate.  This value is realized over time based upon the actual usage of the customers.
-Even if a customer thinks we are over estimating by a factor of 4, BitShares is still offering a larger incentive than
+if they go through an affiliate.  This value is realized over time based upon the actual usage of the customers.
+Even if a customer thinks we are overestimating by a factor of 4, BitShares still offers a larger incentive than
 PayPal did.
 
-### Conclusion
+## Conclusion
 
-BitShares is built for viral growth and has industry leading incentives that are game changing.
+BitShares is built for viral growth, and has game-changing, industry-leading incentives.
 
 [Learn More](/referral-program/)

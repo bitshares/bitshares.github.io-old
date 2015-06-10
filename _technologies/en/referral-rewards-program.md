@@ -1,9 +1,9 @@
 ---
 permalink: /technology/referral-rewards-program/
 title: Referral Rewards Program
-subtitle: Network growth through adoption rewards.
+subtitle: Network growth through adoption rewards
 image: ../images/frontpage/icon-referral.svg
-priority: 1
+priority: 5
 summary: >
     BitShares has an advanced referral program built directly into its software.  Financial networks derive their
     value primarily from their network effect: more people on the same network increases the value of that network for

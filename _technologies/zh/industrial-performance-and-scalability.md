@@ -1,9 +1,9 @@
 ---
-permalink: /technology/high-performance-and-scalability/
-title: High Performance and Scalability
-subtitle: Over 100,000 transactions per second.
+permalink: /zh/technology/high-performance-and-scalability/
+title: Industrial Performance and Scalability
+subtitle: Over 100,000 transactions per second
 image: ../images/frontpage/icon-performance.svg
-priority: 0
+priority: 2
 summary: >
     High performance blockchain technology is necessary for cryptocurrencies and smart contract platforms to provide a
     viable alternative to existing financial platforms.  BitShares is designed from the ground up to

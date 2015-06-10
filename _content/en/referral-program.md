@@ -3,6 +3,7 @@ permalink: /referral-program/
 layout: default
 title: Referral Program
 ---
+
 Earn $80 or more for every lifetime member you sign up.
 
 BitShares™ has several different kinds of accounts: Basic Account, Annual Member, and Lifetime Member.
@@ -28,7 +29,6 @@ often you, and those you refer, will use the network. Keep in mind that the BitS
 change transaction fees, which could impact future earnings.
 
 # Examples
-
 
 When a user pays a $20 annual subscription fee to become an Annual Member, $10 is paid to their Referrer, $6 is paid to
 the nearest Lifetime Member, and $4 is paid to the Network.  The Annual Member becomes its own Referrer for one year.
