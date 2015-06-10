@@ -4,6 +4,7 @@ layout: default
 title: Deposit
 redirect_from:
     - /deposit-withdraw/
+    - /resources/gateways/
 
 ---
 
