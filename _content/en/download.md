@@ -15,9 +15,11 @@ Please see the [registration tutorial](/register/){:target="_blank"} if you are 
 - 4GB+ RAM
 - Solid State Drive
 
+## Documentation
+Documentation is available at [wiki.bitshares.org](http://wiki.bitshares.org/index.php/Main_Page){:target="_blank"}.
+
 ## Technical Support
 Technical support is available in the community [Technical Support subforum](https://bitsharestalk.org/index.php/board,45.0.html){:target="_blank"}.
 
 ## Experimental
-
 An **experimental** web browser wallet is available at [wallet.bitshares.org](https://wallet.bitshares.org/){:target="_blank"}.
