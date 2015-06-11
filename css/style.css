@@ -508,6 +508,7 @@ ul.laundry-list {
 .btn-more a {
   text-decoration: none;
   color: #ACD7F7;
+  background-color: #F8F7F5;
 }
 
 
@@ -826,3 +827,11 @@ img.tech-toc {
 
 /* @end */
 
+/* @group share-page.html */
+
+.share-page .btn-more {
+  width: 120px;
+  margin-top: 4px;
+}
+
+/* @end */
