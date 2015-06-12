@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    {% if page.title %}
-    <title>{{ page.title }} - BitShares</title>
-    {% else %}
-    <title>BitShares</title>
-    {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    {% include tracking.html %}
-  </head>
-   <body>
-     <div class="wrapper">
-     <div id="main">
 
-         {% include nav.html %}
+    {% include head.html %}
 
-         <div class="container m-top">
-            <h1>{{ page.title }}</h1>
-            
-            {{ content }}
-            
-         </div>
-     </div>
-     
-     </div>
+    <body>
+        <div class="wrapper">
+            <div id="main">
 
-     {% include footer.html %}
+                {% include nav.html %}
 
-  </body>
+                <div class="container m-top">
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                </div>
+
+            </div>
+        </div>
+
+        {% include footer.html %}
+
+    </body>
+
 </html>

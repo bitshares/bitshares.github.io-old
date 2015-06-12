@@ -19,7 +19,7 @@ When measuring performance we make the assumption that the network is capable of
 and that disks are capable of recording this stream.   We make the assumption that signature verification has been done
 in parallel using as many computers as necessary to minimize the latency.  A single core of a 2.6 Ghz i7 is able to
 validate 10,000 signatures per second.   Todays high-end servers with 36 cores (72 with hyper-threading) could easily
-validate 100,000 transactions per second.   All of these steps have been designed to be embarrassingly parallel and 
+validate 100,000 transactions per second.   All of these steps have been designed to be embarrassingly parallel and
 to be independent of blockchain state.
 
 The average size of a transaction is just 100 bytes which equates to about 10 Megabytes per second to stream 100,000
