@@ -1,5 +1,11 @@
 ---
 permalink: /technology/delegated-proof-of-stake-consensus/
+redirect_from:
+    - /blog/delegated-proof-of-stake/
+    - /blog/intro-to-delegated-proof-of-stake/
+    - /blog/overpaying-for-security/
+    - /blog/stans-thoughts-on-dpos-and-bitcoin/
+    - /blog/what-is-proof-of-stake/
 title: Delegated Proof-of-Stake Consensus
 subtitle: A robust and flexible consensus protocol
 image: ../images/frontpage/icon-dpos.svg

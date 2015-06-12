@@ -1,5 +1,8 @@
 ---
 permalink: /technology/price-stable-cryptocurrencies/
+redirect_from:
+    - /blog/bookie-bobs-solution-to-bitcoin-volatility/
+    - /blog/the-value-proposition-of-bitshares-part-ii-bitassets/
 title: Price-Stable Cryptocurrencies
 subtitle: SmartCoins provide the freedom of cryptocurrency with the stability of the dollar
 image: ../images/frontpage/icon-price-stable.svg
