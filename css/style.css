@@ -120,6 +120,19 @@ h2.pitch  {
 	margin-top: 24px;
 }
 
+.pitch a {
+  border-bottom: 1px dotted #efefef;
+}
+
+
+
+.pitch a:hover  {
+  color: #FFFFFF;
+  border-bottom: 1px dotted #00A9E0;
+}
+
+
+
 @media (max-width: 784px) {
 	.pitch  {
 		line-height: 32px;
