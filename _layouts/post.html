@@ -7,7 +7,7 @@ layout: default
 <div class="col-xs-12 col-md-9">
 <span class="meta" style="color: #78ACB8;">
 <!-- Output author details if some exist. -->
-   <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>  {% if page.author %}<span >   <i class="fa fa-pencil"></i> {{ page.author }}{% endif %}</span>  <i class="fa fa-clock-o"></i> {% include read_time.html %}
+   <i class="fa fa-calendar-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>  {% if page.author %}  <i class="fa fa-pencil"></i> {{ page.author }}{% endif %}  <i class="fa fa-clock-o"></i> {% include read_time.html %}
 </span>
 </div>
 

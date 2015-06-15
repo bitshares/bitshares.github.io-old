@@ -5,7 +5,7 @@ redirect_from:
 ---
 
 For more than 25 years, Ronny Boesing distributed and published CDs, DVDs, games and other digital media all over the
-world, in over 65 countries on five continents. Today, he runs [CCEDK](https://www.ccedk.com/): the first Danish online exchange for digital
+world, in over 65 countries on five continents. Today, he runs [CCEDK](https://www.ccedk.com/){:target="_blank"} the first Danish online exchange for digital
 currencies such as Bitcoin and BitShares, as well as a range of others including price-stable [SmartCoins](/technology/price-stable-cryptocurrencies) like
 BitUSD, BitEUR and BitCNY.
 
@@ -58,7 +58,7 @@ fiat via SmartCoins like BitUSD, BitEUR or BitCNY or BitShares itself," Boesing 
 campaign of no deposit fees on the three major currencies USD, CNY and EUR, we are happy to be part of creating a low
 cost fiat bridge to BitShares and its SmartCoins."
 
-Find out more about these innovative new products at [CCEDK.com](https://www.ccedk.com/).
+Find out more about these innovative new products at [CCEDK.com](https://www.ccedk.com/){:target="_blank"}.
 
 <center> <img style="padding: 20px;" class="img-responsive img-thumbnail" src="/images/blog/ccedk.png"/> </center>
 
