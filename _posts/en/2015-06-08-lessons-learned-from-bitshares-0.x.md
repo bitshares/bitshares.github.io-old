@@ -1,5 +1,6 @@
 ---
 title: Lessons Learned from BitShares 0.x
+author: Cryptonomex
 ---
 
 There are many reasons for starting over from scratch and producing a new toolkit and this article hopes to shed some

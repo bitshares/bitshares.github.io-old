@@ -1,5 +1,6 @@
 ---
 title: Measuring Performance - Throughput and Latency
+author: Cryptonomex
 ---
 
 Great claims require great evidence and the claim that BitShares is capable of 100,000 transactions per second has

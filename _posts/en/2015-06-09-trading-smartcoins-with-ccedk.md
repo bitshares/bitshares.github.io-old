@@ -1,5 +1,6 @@
 ---
 title: Trading SmartCoins with CCEDK
+author: CCEDK
 redirect_from:
     - /blog/2015/06/09/ccedk-bitshares-partnership/
 ---
