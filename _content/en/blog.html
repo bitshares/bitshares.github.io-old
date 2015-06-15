@@ -10,6 +10,6 @@ layout: index_tech
 {% for post in posts %}
     <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
     ({{ post.date | date: "%-m/%-d/%Y" }})<br />
-    {{ post.excerpt | markdownify }}<br /> 
+    {{ post.excerpt | markdownify }}
     <hr />
 {% endfor %}
