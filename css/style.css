@@ -4,7 +4,7 @@
 
 /* @group Awesome Styles */
 
-      
+
 .awesome {
 -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -24,7 +24,7 @@ font-size: 13px;
 font-size: 14px;
 padding: 8px 14px 9px;
 }
- 
+
 /* Colors ---------- */
 .blue.awesome {
 background-color: #00A9E0;
@@ -47,7 +47,7 @@ background-color: #a9014b;
 }
 .yellow.awesome {
 background-color: #ffb515;
-}     
+}
 
 
 /* @end */
@@ -72,7 +72,7 @@ body {
 }
 
 /* Firefox only font tweak
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
  body {
  	font-family: 'Proxima Nova Lg', "Helvetica Neue",Helvetica, Arial, sans-serif;
  	font-weight: 300;
@@ -128,7 +128,7 @@ h2.pitch  {
 	.pitch-sub {
 	  marign-top:24px;
 	}
-	
+
 }
 
 
@@ -156,7 +156,7 @@ h1 {
 	color: #5B6A72;
 	font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
 	font-weight: 100;
-	
+
 }
 
 ul {
@@ -202,7 +202,7 @@ h1#posttitle {
   	color: #5B6A72;
   	letter-spacing: 1px;
   	font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
-  	
+
 }
 
 h2 {
@@ -217,7 +217,7 @@ h3 {
 	font-size: 18px;
 	color: rgb(62, 69, 82);
 	font-family: 'Proxima Nova Lt';
-	
+
 
 }
 
@@ -299,17 +299,17 @@ h2.pitch {
 	.slogan {
     margin-top: 12px;
 	}
-	
+
 	h2.pitch {
 	  font-size: 24px;
 	  font-weight: 400;
 	  line-height: normal;
 	}
-	
+
 	.pitch-sub {
 	  font-size: 16px;
 	}
-	
+
 }
 
 
@@ -338,7 +338,7 @@ p.pitch a {
 	margin-top: 2em;
 	font-weight: 100;
 	text-shadow: 1px 0px 4px #000;
-	
+
 }
 
 .version-rec-box-inner {
@@ -526,12 +526,12 @@ a#inst-link {
 
 ul.navbar-nav  {
   margin-top: 12px;
-  
+
 }
 
 ul.navbar-nav li {
   font-size: 90%;
-  
+
 }
 
 .navbar-nav .btn-primary {
@@ -546,7 +546,7 @@ ul.navbar-nav li {
 @media (max-width: 784px) {
   .logo {
     margin-top: 6px;
-  }  
+  }
 }
 
 
@@ -561,7 +561,7 @@ ul.navbar-nav li {
  font-size: 84%;
  margin: 0;
  padding: 0;
- 
+
 }
 
 
@@ -569,7 +569,7 @@ ul.navbar-nav li {
 @media (max-width: 960px) {
     #subnav.affix, #toc.affix {
         position: static;
-    }  
+    }
 }
 
 
@@ -604,16 +604,16 @@ ul.navbar-nav li {
 
 .postbody {
       text-align: justify;
-  
+
 }
 
 .postbody h2 {
     font-size: 24px;
     margin: 42px 0 0 0;
     letter-spacing: 1px;
-    font-family: 'Proxima Nova Lt'; 
+    font-family: 'Proxima Nova Lt';
    font-weight: 100;
-    
+
 }
 
 
@@ -648,7 +648,7 @@ ul.navbar-nav li {
       color: #000;
     }
 
-    
+
 #mc_embed_signup {
   max-width: 600px;
   border: 0px solid #FFF;
@@ -661,7 +661,7 @@ ul.navbar-nav li {
 #mc_embed_signup .submit {
   border: 0px solid #FFF;
   margin: 12px auto;
-  
+
 }
 
 #mc_embed_signup input[type="email"] {
@@ -674,7 +674,7 @@ ul.navbar-nav li {
 }
 
 @media (max-width: 784px) {
-   
+
   .teaser {
     padding: 80px 20px;
     line-height: 24px;
@@ -801,7 +801,7 @@ h3.toc  {
 
 .tech-toc-img {
   text-align: center;
- 
+
 }
 
 img.tech-toc {
@@ -832,7 +832,7 @@ img.tech-toc {
  a.btn-more {
   width: 120px;
   margin-top: 4px;
-  
+
 }
 
 /* @end */

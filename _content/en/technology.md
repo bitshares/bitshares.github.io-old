@@ -26,13 +26,9 @@ features which are not found elsewhere within the smart contract industry:
   </div>
   <div class="col-md-10 ">
    <h3 class="tech-title"><a href="{{ technology.url }}">{{ technology.title }}</a> - {{ technology.subtitle }}</h3>
-  
+
     {{ technology.summary }}
   </div>
- 
+
 </div>
 {% endfor %}
-
----
-
-**<a href="/">Sign up</a> to the mailing list to be notified when BitShares 2.0 is ready!**
