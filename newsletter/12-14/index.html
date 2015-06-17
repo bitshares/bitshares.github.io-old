@@ -1,0 +1,3354 @@
+
+		
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<title>BitShares Newsletter No.13 - December 2014</title>
+
+<style type="text/css">
+
+div, p, a, li, td { -webkit-text-size-adjust:none; }
+
+*{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #00a7e1;
+}
+
+a:hover {
+  color: #00567C;
+}
+
+
+.ReadMsgBody
+{width: 100%; background-color: #ffffff;}
+.ExternalClass
+{width: 100%; background-color: #ffffff;}
+body{width: 100%; height: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
+html{width: 100%;}
+
+@font-face {
+    font-family: 'proxima_novalight';src: url('http://bitshares.org/newsletter/fonts/proximanova-light-webfont.eot');src: url('http://bitshares.org/newsletter/fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),url('http://bitshares.org/newsletter/fonts/proximanova-light-webfont.woff') format('woff'),url('http://bitshares.org/newsletter/fonts/proximanova-light-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular'; src: url('http://bitshares.org/newsletter/fonts/proximanova-regular-webfont.eot');src: url('http://bitshares.org/newsletter/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),url('http://bitshares.org/newsletter/fonts/proximanova-regular-webfont.woff') format('woff'),url('http://bitshares.org/newsletter/fonts/proximanova-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+@font-face {
+    font-family: 'proxima_novasemibold';src: url('http://bitshares.org/newsletter/fonts/proximanova-semibold-webfont.eot');src: url('http://bitshares.org/newsletter/fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('http://bitshares.org/newsletter/fonts/proximanova-semibold-webfont.woff') format('woff'),url('http://bitshares.org/newsletter/fonts/proximanova-semibold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+    
+@font-face {
+	font-family: 'proxima_nova_rgbold';src: url('http://bitshares.org/newsletter/fonts/proximanova-bold-webfont.eot');src: url('http://bitshares.org/newsletter/fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),url('http://bitshares.org/newsletter/fonts/proximanova-bold-webfont.woff') format('woff'),url('http://bitshares.org/newsletter/fonts/proximanova-bold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+	
+@font-face {
+    font-family: 'proxima_novablack';src: url('http://bitshares.org/newsletter/fonts/proximanova-black-webfont.eot');src: url('http://bitshares.org/newsletter/fonts/proximanova-black-webfont.eot?#iefix') format('embedded-opentype'),url('http://bitshares.org/newsletter/fonts/proximanova-black-webfont.woff') format('woff'),url('http://bitshares.org/newsletter/fonts/proximanova-black-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+
+
+p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; margin-bottom: 0!important; margin-left: 0!important; }
+
+.hover:hover {
+	opacity:0.85;
+	filter:alpha(opacity=85);
+	
+}
+
+
+
+#animation	{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
+
+
+
+.fullImage img {width: 600px; height: auto; text-align: center; }
+.img50 img {width: 148px; height: auto;}
+.img50ScaleMob img {width: 298px; height: auto;}
+.img33ScaleMob img {width: 198px; height: auto;}
+.image185 img {width: 185px; height: auto;}
+.post50 img {width: 290px; height: auto;}
+.icons33 {width: 33px; height: auto;}
+.smallButton {width: 51px; height: auto;}
+
+</style>
+
+
+<!-- @media only screen and (max-width: 640px) 
+		   {*/
+		   -->
+<style type="text/css"> @media only screen and (max-width: 640px){
+		body{width:auto!important;}
+		table[class=full] {width: 100%!important; clear: both; }
+		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
+		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		.erase {display: none;}
+		table[class=fullImage] {width: 100%!important; height: auto!important; text-align: center!important; clear: both; }
+		.fullImage img {width: 100%!important; height: auto!important; text-align: center!important; clear: both; }
+		table[class=img50] {width: 50%!important;}
+		.img50 img {width: 100%!important;}
+		td[class=left] {width: 100%!important; text-align: left!important; }
+		table[class=img50ScaleMob] {width: 50%!important;}
+		.img50ScaleMob img {width: 100%!important;}
+		table[class=image185] {width: 100%!important;}
+		.image185 img {width: 185px!important;}
+		table[class=img33ScaleMob] {width: 32%!important;}
+		.img33ScaleMob img {width: 100%!important;}
+		table[class=post50] {width: 48%!important;}
+		.post50 img {width: 100%!important;}
+		.buttonPad {padding-left: 22px!important; padding-right: 22px!important;}
+		.nbsp {display: none;}
+		td[class=center] {width: 33%!important; text-align: center!important;}
+		.floatCenter {text-align: center!important; float: center!important;}
+		.buttonLeft {text-align: left!important; float: left!important;}
+		
+} </style>
+<!--
+
+@media only screen and (max-width: 479px) 
+		   {
+		   -->
+<style type="text/css"> @media only screen and (max-width: 479px){
+		body{width:auto!important;}
+		table[class=full] {width: 100%!important; clear: both; }
+		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
+		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		.erase {display: none;}
+		img[class=fullImage] { width: 100%!important; height: auto!important; }
+		table[class=fullImage] {width: 100%!important; height: auto!important; text-align: center!important; clear: both; }
+		.fullImage img {width: 100%!important; height: auto!important; text-align: center!important; clear: both; }
+		.headerBG {background-position: center center!important;}
+		td[class=font38] {font-size: 38px!important; line-height: 42px!important;}
+		td[class=font30] {font-size: 30px!important; line-height: 34px!important;}
+		table[class=img50] {width: 50%!important;}
+		.img50 img {width: 100%!important;}
+		td[class=left] {width: 100%!important; text-align: left!important; }
+		table[class=img50ScaleMob] {width: 100%!important;}
+		.img50ScaleMob img {width: 100%!important;}
+		table[class=image185] {width: 100%!important;}
+		.image185 img {width: 100%!important;}
+		table[class=img33ScaleMob] {width: 100%!important;}
+		.img33ScaleMob img {width: 100%!important;}
+		table[class=post50] {width: 100%!important;}
+		.post50 img {width: 100%!important;}
+		.buttonPad {padding-left: 22px!important; padding-right: 22px!important;}
+		td[class=pad0] {padding: 0px!important;}
+		.nbsp {display: none;}
+		td[class=center] {width: 33%!important; text-align: center!important;}
+		.floatCenter {text-align: center!important; float: center!important;}
+		.buttonLeft {text-align: left!important; float: left!important;}
+				
+		}
+} </style>
+
+
+
+ <style type="text/css"> @media only screen and (max-width: 1200px) 
+		   {  
+		  
+ 
+		#animation	{ animation-name: backgroundanimate; -webkit-animation: backgroundanimate 20s linear infinite; -moz-animation: backgroundanimate 20s linear infinite; background-position: center center; background-size:100%;}
+
+
+@-webkit-keyframes backgroundanimate {0% { background-size: auto 101%;}10% { background-size: auto 111%;}20% { background-size: auto 121%;}30% { background-size: auto 131%;}40% { background-size: auto 141%;}50% { background-size: auto 151%;}60% { background-size: auto 141%;}70% { background-size: auto 131%;}80% { background-size: auto 121%;}90% { background-size: auto 111%;}100% { background-size: auto 101%;}
+	
+}@-moz-keyframes backgroundanimate {0% { background-size: auto 101%;}10% { background-size: auto 111%;}20% { background-size: auto 121%;}30% { background-size: auto 131%;}40% { background-size: auto 141%;}50% { background-size: auto 151%;}60% { background-size: auto 141%;}70% { background-size: auto 131%;}80% { background-size: auto 121%;}90% { background-size: auto 111%;}100% { background-size: auto 101%;}
+}
+
+@-o-keyframes backgroundanimate {0% { background-size: auto 101%;}10% { background-size: auto 111%;}20% { background-size: auto 121%;}30% { background-size: auto 131%;}40% { background-size: auto 141%;}50% { background-size: auto 151%;}60% { background-size: auto 141%;}70% { background-size: auto 131%;}80% { background-size: auto 121%;}90% { background-size: auto 111%;}100% { background-size: auto 101%;}
+
+}} 
+</style> 
+
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-color: #ffffff;">
+
+<div class="ui-sortable" id="sort_them">
+<!-- Wrapper 2 (Header) -->
+<table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td style="background-image: url('http://www.bitshares.org/newsletter/12-14/bg-header3.jpg'); background-position: center center; background-repeat: no-repeat; background-color: rgb(4, 4, 4);-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" id="animation"bgcolor="#040404">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Start Nav -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="15"></td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%">
+									
+									<!-- Logo -->
+									<table class="fullCenter" align="left" border="0" cellpadding="0" cellspacing="0" width="150">
+										<tbody><tr>
+											<td style="text-align: left;" class="fullCenter" valign="middle" width="100%" height="80">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_0846270792543158" src="http://www.bitshares.org/newsletter/logo.png" style="width: 120px; height: auto;" mc:edit="1" alt="" border="0" width="120" height="auto"></a>
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Nav --> 
+									<table style="text-align: right; font-family: Helvetica, Arial, sans-serif; font-size: 13px; text-transform: uppercase;" class="fullCenter" align="right" border="0" cellpadding="0" cellspacing="0" width="370">	
+										<tbody style="border-color: rgb(255, 255, 255);"><tr style="border-color: rgb(255, 255, 255);">
+											<td class="erase" width="25"></td>
+											<td style="font-family: Helvetica,Arial,sans-serif; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);" class="center"mc:edit="m2" valign="middle" height="80">
+												<!--[if !mso]><!--><span style="font-family: proxima_novasemibold,Helvetica; font-weight: normal; border-color: rgb(255, 255, 255);"><!--<![endif]--><a cu-identify="element_09398643784458781" href="http://bitshares.org"  style="text-decoration: none; color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);">WEbsite</a><!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+											<td class="erase" width="25"></td>
+											<td style="font-family: Helvetica,Arial,sans-serif; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);" class="center"mc:edit="m3" valign="middle">
+												<!--[if !mso]><!--><span style="font-family: proxima_novasemibold,Helvetica; font-weight: normal; border-color: rgb(255, 255, 255);"><!--<![endif]--><a cu-identify="element_045091464330921216" href="https://bitsharestalk.org"  style="text-decoration: none; color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);">Community</a><!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+											<td class="erase" width="25"></td>
+											<td style="font-family: Helvetica,Arial,sans-serif; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);" class="center"mc:edit="m4" valign="middle">
+												<!--[if !mso]><!--><span style="font-family: proxima_novasemibold,Helvetica; font-weight: normal; border-color: rgb(255, 255, 255);"><!--<![endif]--><a cu-identify="element_09320560767797064" href="http://wiki.bitshares.org/"  style="text-decoration: none; color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);">BTS wiki</a><!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+									</tbody></table>
+																	
+								</td>
+							</tr>
+						</tbody></table><!-- End Nav -->
+						
+						<!-- Start Header Text -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="70"></td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%">
+									
+									<!-- Header Text --> 
+									<table style="text-align: center;" class="fullCenter" align="right" border="0" cellpadding="0" cellspacing="0" width="600">	
+										<tbody style="border-color: rgb(255, 255, 255);"><tr style="border-color: rgb(255, 255, 255);">
+											<td style="text-align: center; font-family: helvetica,Arial,sans-serif; font-size: 46px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 50px; font-weight: bold; border-color: rgb(255, 255, 255);"class="font38" mc:edit="5" valign="middle" width="100%">
+												<p cu-identify="element_039307846458081985" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgbold', Helvetica;"><!--<![endif]-->BitShares </span><span style="font-family: 'proxima_nova_rgbold', Helvetica;"><span style="color: rgb(86, 158, 208);"></span><span style="font-family: 'proxima_nova_rgbold', Helvetica;"><span style="color: rgb(86, 158, 208);"><span style="font-family: 'proxima_nova_rgbold', Helvetica;">Newsletter</span></span></span> No.13 - December 2014</span><span style="font-family: 'proxima_nova_rgbold', Helvetica;"><!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr>
+											<td valign="middle" width="100%">
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="410">
+													<tbody style="border-color: rgb(255, 255, 255);"><tr style="border-color: rgb(255, 255, 255);">
+														<td style="text-align: center; font-family: helvetica,Arial,sans-serif; font-size: 15px; color: rgb(255, 255, 255); line-height: 22px; border-color: rgb(255, 255, 255);"mc:edit="6" width="100%">
+															<p cu-identify="element_027027301094047784" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->There is lots of news this month.&nbsp; Our biggest newsletter ever!&nbsp; It’s also the first of a new kind – published by a decentralized community.&nbsp; Invictus Innovations Inc. (I3) has successfully worked itself out of a job – as we have long planned.&nbsp; I still hope to contribute monthly newsletter articles.&nbsp; But if I didn’t, this newsletter would still come out on the same, ah, regular schedule.&nbsp; It has over a dozen authors already.&nbsp; You’ll hear from them shortly.<!--[if !mso]><!--></span><!--<![endif]-->									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="60"></td>
+										</tr>
+										<!----------------- Button Center ----------------->
+										<tr>
+											<td align="center">
+												<table align="center" border="0" cellpadding="0" cellspacing="0"> 
+													<tbody style="border-color: rgb(255, 255, 255);"><tr style="border-color: rgb(255, 255, 255);"> 
+														<td style="padding-left: 22px; padding-right: 22px; font-weight: bold; font-family: Helvetica,Arial,sans-serif; color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); text-transform: uppercase;"mc:edit="-01-" align="center" height="36">
+															<multiline style="border-color: rgb(255, 255, 255);"><!--[if !mso]><!--><span style="font-family: proxima_novasemibold,Helvetica; font-weight: normal; border-color: rgb(255, 255, 255);"><!--<![endif]-->
+																<a href="#" style="color: rgb(255, 255, 255); font-size: 13px; text-decoration: none; line-height: 34px; width: 100%; border-color: rgb(255, 255, 255);">Find out more</a>
+															<!--[if !mso]><!--></span><!--<![endif]-->
+														</td> 
+													</tr> 
+												</tbody></table> 
+											</td>
+										</tr>
+										<!----------------- End Button Center ----------------->
+									</tbody></table>
+																	
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="100"></td>
+							</tr>
+						</tbody></table><!-- End Header Text -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+			
+		</div>
+		</td>
+	</tr>
+</tbody></table><!-- End Wrapper 2 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<table cu-identifier="element_021055420628680632" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td width="100%" height="60"><div mc:hideable>
+		</div></td>
+	</tr>
+</tbody></table><table class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+						
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Text -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody><tr>
+											<td width="100%" height="55"></td>
+										</tr>
+										<tr>
+											<td width="100%">
+											
+												<!-- Headline -->
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="375">
+													<tbody style="border-color: rgb(43, 46, 70);"><tr style="border-color: rgb(43, 46, 70);">
+														<td bgcolor="#f0f0f0" width="2"></td>
+														<td width="15"></td>
+														<td style="font-size: 36px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 38px; vertical-align: top; text-transform: uppercase; font-weight: bold; border-color: rgb(43, 46, 70);"class="font30" mc:edit="8"><p cu-identify="element_01375980752373318" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Bytemaster’s<br>Blog<br><!--[if !mso]><!--></span><!--<![endif]--></td>
+													</tr>
+												</tbody></table>
+												
+												<!-- Space -->
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="1">
+													<tbody><tr>
+														<td width="100%" height="30"></td>
+													</tr>
+												</tbody></table><!-- End Space -->
+												
+												<!-- Button -->
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="right" border="0" cellpadding="0" cellspacing="0" width="210">
+													<tbody><tr>
+														<td width="100%" height="15"></td>
+													</tr>
+													<!----------------- Button Right, Scale Left ----------------->
+													<tr>
+														<td class="buttonLeft" align="right">
+															<table class="buttonLeft" align="right" border="0" cellpadding="0" cellspacing="0"> 
+																<tbody style="border-color: rgb(43, 46, 70);"><tr style="border-color: rgb(43, 46, 70);"> 
+																	<td style="padding-left: 22px; padding-right: 22px; font-weight: bold; font-family: Helvetica,Arial,sans-serif; color: rgb(43, 46, 70); border: 1px solid rgb(43, 46, 70); text-transform: uppercase;"class="buttonLeft" mc:edit="01-2" align="center" height="36">
+																		<multiline style="border-color: rgb(43, 46, 70);"><!--[if !mso]><!--><span style="font-family: proxima_novasemibold,Helvetica; font-weight: normal; border-color: rgb(43, 46, 70);"><!--<![endif]-->
+																			<a cu-identify="element_07132659563016386" href="http://bytemaster.bitshares.org/" style="color: rgb(43, 46, 70); font-size: 13px; text-decoration: none; line-height: 34px; width: 100%; border-color: rgb(43, 46, 70);">visit blog</a>
+																		<!--[if !mso]><!--></span><!--<![endif]-->
+																	</td> 
+																</tr> 
+															</tbody></table> 
+														</td>
+													</tr>
+													<!----------------- Button Right, Scale Left ----------------->
+												</tbody></table>
+																		
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="35"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;" mc:edit="10"class="textCenter" width="100%">	
+												<p cu-identify="element_005732600205670291" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Bytemaster has started a new blog, cleverly named “Bytemaster’s Blog”.&nbsp; You can find it at http://bytemaster.bitshares.org/&nbsp; Here, he plans to post soon-to-be-classic articles on the full depth and breath of his thinking.&nbsp; You will also find discussions of new features and how they will work and occasional high quality guest articles. Think of it as the essential BitShares reading list or Bytemaster’s Greatest Hits.&nbsp; Here’s a sample of what is already in place.<!--[if !mso]><!--></span><!--<![endif]--> 
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+						<!-- Space -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="20"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_09162499221176473"></div><div style="display: none;" id="element_05089959914833899"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_08494943272910773" src="http://www.bitshares.org/newsletter/12-14/blog-content.png" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_05293509169575842" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]--></span><br>						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_07573335096835542" ><br>						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_06019685417783982" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Bytemaster’s Blog is an attempt to reach out to early adopters in many non-crypto special interest communities.&nbsp; Each article has the potential to serve as a “landing page” that can be linked into conversations with many other forums and blogs – without necessarily mentioning crypto-anything.&nbsp; If you are a member of such a community, you might think about using one of Bytemaster’s general-interest posts as a conversation starter.<br><br><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_004490678981036955"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 3 (2 Column - Image Left , Text Right) -->
+<div style="display: none;" id="element_07063889030374553"></div><!-- Wrapper 3 -->
+
+<!-- Wrapper 3 (2 Column - Image Left , Text Right) -->
+<div style="display: none;" id="element_048516989347353157"></div><div style="display: none;" id="element_008622988252233377"></div><!-- Wrapper 3 -->
+
+<!-- Wrapper 3 (2 Column - Image Left , Text Right) -->
+<table cu-identifier="element_021055420628680632" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td width="100%" height="60"><div mc:hideable>
+		</div></td>
+	</tr>
+</tbody></table><table cu-identifier="element_05799417432847971" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td style="background-color: rgb(0, 167, 225);"bgcolor="#4398d4" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="40"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+								
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td class="icons30" width="100%">
+																
+									<!-- Text Left -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody><tr>
+											<td width="100%">
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" align="center" border="0" cellpadding="0" cellspacing="0">
+													<tbody style="border-color: rgb(255, 255, 255);"><tr style="border-color: rgb(255, 255, 255);">
+														<td style="text-align: center; font-family: Helvetica,Arial,sans-serif; font-size: 22px; color: rgb(255, 255, 255); line-height: 32px; vertical-align: middle; text-transform: uppercase; border-color: rgb(255, 255, 255);"mc:edit="20">
+															<p cu-identify="element_012118347797572826" ><div style="text-align: left;"><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->BitShares 1.0<!--[if !mso]><!--></span></div><!--<![endif]--><p>									
+														</td>
+													</tr>
+												</tbody></table>					
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="40"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+					
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_01510963554814433"></div><!-- Wrapper 3 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+						
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+								
+									<!-- Text -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody><tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="43" width="100%">	
+												<p cu-identify="element_08552083243925115" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><br><!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="44" width="100%">	
+												<p cu-identify="element_05956383720694479" ><span style="font-family: 'proxima_nova_rgregular', Helvetica;">Our
+ current development efforts are focused on producing a stable protocol 
+release for the bitshares blockchain that will minimize the need for the
+ frequent hard fork upgrades we have featured during our 
+rapid-prototyping beta phase.&nbsp; While this phase has allowed us to make 
+great progress and highlighted the responsiveness and dedication of our 
+delegates, it is not what we want the general public to experience.&nbsp; We 
+aim to release this in the first quarter of 2015.<br><br>Meanwhile, 
+others are working on better user interfaces, especially lightweight 
+wallets and browser plug-ins that will support the needs of the general 
+public. Also included are new faucet and registration mechanisms that 
+will make the sign-up process more user-friendly.&nbsp;&nbsp; And there are lots 
+of new exciting features.&nbsp; Watch Bytemaster’s Blog for the details.</span>
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="25"></td>
+										</tr>
+										<!-- Button -->
+										<tr>
+											<td class="fullCenter" valign="middle" width="100%">
+												<table style="float: left;" align="left" border="0" cellpadding="0" cellspacing="0">
+													<tbody><tr>
+														<td style="color: rgb(255, 255, 255); font-family: Helvetica,Arial,sans-serif; font-size: 13px; display: block; padding: 6px 25px; line-height: 22px; vertical-align: middle; background-color: rgb(0, 167, 225);" mc:edit="01-5" align="center" bgcolor="#4398d4" valign="middle"><multiline style="border-color: rgb(255, 255, 255);"><!--[if !mso]><!--><span style="font-family: proxima_nova_rgbold,Helvetica; border-color: rgb(255, 255, 255);"><!--<![endif]--><a href="#" style="color: rgb(255, 255, 255); font-size: 13px; text-decoration: none; line-height: 20px; border-color: rgb(255, 255, 255);"class="hover" >Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+														</td> 
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table cu-identifier="element_05182207080428493" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td width="100%" height="60"><div mc:hideable>
+		</div></td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_03661711845864848"></div><div style="display: none;" id="element_05598652623248677"></div><div style="display: none;" id="element_06483616484909069"></div><div style="display: none;" id="element_06263993804036043"></div><table style="background-color: rgb(0, 167, 225); position: relative; left: 0px; top: 0px;" class="full" align="center" bgcolor="#4398d4" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+      <td style="background-image: url('http://www.bitshares.org/newsletter/12-14/bg-header3.jpg'); background-position: center center; background-size: cover; background-repeat: no-repeat;" class="headerBG" id="banner2Change">
+		<div mc:hideable>
+		 <!--[if gte mso 9]> 
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+        <v:fill type="tile" src="http://www.bitshares.org/newsletter/12-14/bg-header3.jpg" id="banner2Change_outlook" color="#222222" class="stay" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+      <div>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+						
+						<!-- Start Header Text -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="80"></td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%">
+									
+									<!-- Header Text --> 
+									<table style="text-align: center;" class="fullCenter" align="center" border="0" cellpadding="0" cellspacing="0" width="600">	
+										<tbody style="border-color: rgb(255, 255, 255);"><tr>
+											<td class="smallButton" width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_0724787550177838" src="" alt="" mc:edit="84" style="width: 51px; height: auto;" border="0" width="51" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr style="border-color: rgb(255, 255, 255);">
+											<td style="text-align: center; font-family: Helvetica,Arial,sans-serif; font-size: 30px; letter-spacing: 2px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 38px; border-color: rgb(255, 255, 255);" mc:edit="85"valign="middle" width="100%">
+												<p cu-identify="element_06685882082553462" ><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;">BitShares Unleashed</span>
+											</td>
+										</tr>
+									</tbody></table>
+																	
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="80"></td>
+							</tr>
+						</tbody></table><!-- End Header Text -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+			
+		</div><!--[if gte mso 9.]>
+        </v:textbox>
+       </v:fill></v:rect>
+       <![endif]--></div>
+		</td>
+	</tr>
+</tbody></table><table cu-identifier="element_05182207080428493" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td width="100%" height="60"><div mc:hideable>
+		</div></td>
+	</tr>
+</tbody></table><table cu-identifier="element_008558574643274508" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_021670974825670342" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_04685897741653354" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->BitShares Unleashed<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_0010495467656681745" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Written by</span> by Stan Larimer<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_0424951433546223" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->LIn this industry, talk often turns to the virtues of decentralization.&nbsp; This usually means distributed software, but we have aimed to decentralize the BitShares industry as well.&nbsp; <br>And for good reasons!&nbsp; What good is decentralized software if someone can attack the human organization that maintains it?&nbsp; How do we actually achieve the word<br>“Autonomous” in the DAC acronym anyway?<br><br></span><div style="text-align: center;"><span style="font-weight: bold;"><span style="font-style: italic;"><span style="font-family: 'proxima_nova_rgregular', Helvetica;">Now that BitShares has become the world’s first self-funding DAC,</span><br><span style="font-family: 'proxima_nova_rgregular', Helvetica;">that vision is within reach.</span></span></span><br><span style="font-family: 'proxima_nova_rgregular', Helvetica;"></span></div><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><br>Those who have been with us since the beginning will remember we emphasized that a critical stage in the life of a DAC would be when it is able to become unleashed from its developers.&nbsp; Only then would it be truly emancipated and autonomous …even sovereign.&nbsp; Barely fifteen months ago, we said it this way when we unveiled our grand DAC vision in Bitcoin and the Three Laws of Robotics, http://letstalkbitcoin.com/bitcoin-and-the-three-laws-of-robotics/,<br><br>“Ultimately, to achieve complete incorruptibility, developers must be willing to&nbsp;let go of their own control.&nbsp; If there remains any centralized human control anywhere, it will eventually be exploited to the detriment of the DAC’s stakeholders.&nbsp; DACs need to be free to be trusted.”&nbsp; <br><br>We think we have now come close to achieving this vision.<br><br></span><div style="text-align: center;"><span style="font-weight: bold;"><span style="font-style: italic;"><span style="font-family: 'proxima_nova_rgregular', Helvetica;">BitShares will be the first fully automatic company. <br>It will employ humans, not the other way around.</span></span></span><br><span style="font-family: 'proxima_nova_rgregular', Helvetica;"></span></div><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><br>BitShares will still have human owners; it will still serve human customers; and it will still hire human staff; but it will be managed by independent software agents that cannot be corrupted, seduced or coerced. Because it can be trusted in ways that manned companies cannot, it will be able to serve its owners and customers more reliably than any manned company you may still be inclined to trust.&nbsp; <br><br><span style="font-weight: bold;"><span style="font-style: italic;">So, as long planned, we are setting BitShares free - releasing it into the wild!</span></span><br><br>Invictus Innovations Incorporated (I3) will cease operations in the crypto currency space to ensure that there remains no central control over BitShares of any kind.&nbsp; For a while, the corporation will continue to exist as a legal entity to handle any future regulatory inquiry, tax audits, or other government duties associated with its past existence.&nbsp;&nbsp; But BitShares will no longer depend upon Invictus for anything.<br><br>Invictus will have delivered BitShares to its owners as a <span style="font-style: italic;">self-funding, self-maintaining, self-promoting product</span>.&nbsp;&nbsp; <br><br>Having accomplished that mission, Invictus can quietly ride off into the sunset in search of Satoshi Nakamoto. <br><br>Meanwhile BitShares, DAC (not BitShares, Inc.) has already begun hiring its own support, development, and promotional contractors. Those of us who have been employed by Invictus Innovations will now be seeking employment directly with BitShares.&nbsp;&nbsp; We will all try to get hired by our own software!&nbsp; And up to 101 delegate-based contractor slots are now open for other new talent of all kinds.<br><br>Whether we are familiar old-timers or newly arriving talent, each of us will have to make our case to the community of BitShares holders. They will make all hiring decisions. Based upon the indicated preferences of those voters on the blockchain, BitShares, DAC will automatically hire and pay the top 101 vote getters.&nbsp; This will make elected delegates very competitive, responsive, open and transparent – since those same voters can just as easily fire us… in about ten seconds.&nbsp; <br><br>And what a difference that is already making!&nbsp; The excitement and energy in the community is palpable.&nbsp; Morale is at an all time high. New self-directed initiatives are springing up everywhere.&nbsp; New marketing.&nbsp; New products.&nbsp; New publications.&nbsp; New teaming initiatives with industry leaders.&nbsp; I could go on, but you would probably think, “that’s just Stan waxing enthusiastic again”.&nbsp; Instead, why don’t we let them tell you what they are doing in their own words?<br><br>The rest of this unusually lengthy newsletter was produced entirely by the community – pulled together by HPEnvy, with a little light bushwhacking by me.&nbsp; <br><br>We have not tried (very hard) to force them all into one style.&nbsp; The diversity of their self-expression highlights the diversity of ways that BitShares now has to succeed!&nbsp; And the sheer number of them should warm the heart of every BitShares investor.<br><br>It’s the wave of the future for BitShares. Future newsletters will all come directly from the community you will meet in the pages below.&nbsp; I hope to be one of them!<br><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="background-color: rgb(0, 167, 225); position: relative; left: 0px; top: 0px;" class="full" align="center" bgcolor="#4398d4" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+      <td style="background-image: url('http://www.bitshares.org/newsletter/12-14/bg-header2.jpg'); background-position: center center; background-size: cover; background-repeat: no-repeat;" class="headerBG" id="banner2Change">
+		<div mc:hideable>
+		 <!--[if gte mso 9]> 
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+        <v:fill type="tile" src="http://www.bitshares.org/newsletter/12-14/bg-header2.jpg" id="banner2Change_outlook" color="#222222" class="stay" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+      <div>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+						
+						<!-- Start Header Text -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="80"></td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%">
+									
+									<!-- Header Text --> 
+									<table style="text-align: center;" class="fullCenter" align="center" border="0" cellpadding="0" cellspacing="0" width="600">	
+										<tbody style="border-color: rgb(255, 255, 255);"><tr>
+											<td class="smallButton" width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_0724787550177838" src="" alt="" mc:edit="84" style="width: 51px; height: auto;" border="0" width="51" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr style="border-color: rgb(255, 255, 255);">
+											<td style="text-align: center; font-family: Helvetica,Arial,sans-serif; font-size: 30px; letter-spacing: 2px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 38px; border-color: rgb(255, 255, 255);" mc:edit="85"valign="middle" width="100%">
+												<p cu-identify="element_06447258077151679" ><span style="font-family: 'proxima_nova_rgregular', Helvetica;">NullStreet Grass Roots Marketing Initiatives</span>
+											</td>
+										</tr>
+									</tbody></table>
+																	
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="80"></td>
+							</tr>
+						</tbody></table><!-- End Header Text -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+			
+		</div><!--[if gte mso 9.]>
+        </v:textbox>
+       </v:fill></v:rect>
+       <![endif]--></div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_023806261040170262"></div><div style="display: none;" id="element_05864128848733642"></div><div style="display: none;" id="element_05258067561372882"></div><div style="display: none;" id="element_08959356962868311"></div><table cu-identifier="element_00027736832814674317" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_02200855104856123" ><br>						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_03835285594330742" ><br>						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_012698949933526493" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->BitShares is moving to a new marketing model.&nbsp; You can feel the energy at NullStreet as true believers collaborate to make some of the most exciting new marketing initiatives we’ve ever seen.&nbsp; We thought we’d let some of them tell you about it in their own words:<br><br><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_09011826029927811"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_044571300098907574" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Welcome to NullStreet - Community Marketing Starts Now<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_021259387140005004" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Method-X<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_02777007104292901" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->I never expected NullStreet to become what it has. It's absolutely awe inspiring to witness what a few passionate believers can set into motion in two short weeks. Passion and vision are what set us apart. Passion for a decentralized future and the vision to get us there. These crucial ingredients cannot be bought. They cannot be bargained for. They transcend all incentive structures.<br><br>I can't even begin to tell you all how excited I am for the future of BitShares. What we have achieved in the past few weeks is nothing compared to what we will achieve in the coming months. Targeted advertising campaigns, karma based reddit faucets, media coverage, whitepapers, a mobile wallet and partnerships we could only dream about before. All of this is coming.<br><br>Forget the old system. Forget the old way. I see a future of empowered people. A future ripe with liberty. Decentralized money. Decentralized companies. Decentralized domains. Decentralized voting.<br><br>The world is about to change, so please join us and together we can make history.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_05497417779335403" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Thunderclap Campaign Update<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_011564229942064397" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> G1ng3rBr34dM4n<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_06889665155973268" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Our Thunderclap Campaign is now about 80% completed.&nbsp; Here are a few of its key ingredients.&nbsp; First, we have a title:&nbsp; "The blockchain is hiring!" We have a description of BitShares:&nbsp; "BitShares is a technology &amp; toolkit striving to enable freedom through solutions for: finance, music, voting, insurance, &amp; much MUCH more."&nbsp;&nbsp; Our Message (what will be tweeted) is complete:&nbsp; "Here's your chance to be one of the first people in history to be employed directly by the #blockchain AND get #paidbyprotocol."&nbsp; And we have snazzy graphic thanks to Cass: [img]http://i.imgur.com/PAlAndV.png[/img].<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_0305576753580448"></div><div style="display: none;" id="element_005409640652023939"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_047301040259665716" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Mobile Wallet<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_04284759150212294" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Elmato<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_017153445435008685" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->We have begun working on a new mobile wallet!&nbsp; We will be releasing the alpha-2 version this week.&nbsp; The iPhone version is 90% complete.&nbsp; After a few more iterations we will publish on PlayStore/iTunes.&nbsp; On/Off ramps BTC are Starting bitUSD/Bitcoin integration next week.&nbsp; Meanwhile, our exposure efforts will be going in two directions.&nbsp; We will be reaching out to local bitcoin-believers to let them know about bitshares using Bytemaster’s pitch from Las Vegas.&nbsp; We will also be approaching tech influencers and local journalists interested in Bitcoin to pitch them about bitUSD/Bitshares and its potential."<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_046371661290201516"></div><div style="display: none;" id="element_06832105424687883"></div><div style="display: none;" id="element_018323407604371245"></div><div style="display: none;" id="element_07863833786531048"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_0832306732059704" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->BitShares the Book and Internet Show<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_09742443318530275" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Bitmarket<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_037186700963987473" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->I am very pleased to announce two marketing initiatives have just been released.<br><br>First off, www.BitShares.TV, hosted by Max Wright, is a weekly Internet show dedicated to keeping you up-to-date with the world of BitShares. The first 3 episodes are online and ready for you to watch right now. Each episode is designed to give insight to a particular aspect of the BitShares eco system. How BitShares can improve the world we contract, interact, and do business with. &nbsp; <br><br>BitShares.TV gives you the inside scoop on the latest developments and allows you to meet the people behind BitShares, from core developers to marketing professionals.&nbsp; Because different aspects of Bitshares appeal to different folks, Bitshares.TV is a great tool to share with your friends to help them get as excited about BitShares as we are.&nbsp; And once a BitShares.TV episode sparks a light bulb in someone’s mind, they are more likely to share it, and get involved… and that is exactly what we want. &nbsp;I hope the TV show will spark enough interest that they understand and get involved in BitShares.<br><br>And that is where BitShares 101 comes in.&nbsp; BitShares 101 is the first book ever written dedicated entirely to understanding BitShares.&nbsp; I authored the book and the feedback I have received suggests the book does an excellent job of taking the advanced concepts of BitShares and explaining them in an easy-to-understand way. Even some of the BitShares faithful who received advanced copies of the book were impressed by what they learned, commenting on how easily understandable BitShares becomes.<br><br>Here is where you can get your copy of Bitshares 101: A Guidebook on How To Profit From the Next Generation of Bitcoin, Crypto Currencies and Decentralized Businesses for just $0.99:<br><br>http://www.amazon.com/gp/product/B00QUIWHR0/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00QUIWHR0&amp;linkCode=as2&amp;tag=succecounc-20&amp;linkId=MIFK4YEQ5YUWI3Q3%22%3EBitShares.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table cu-identifier="element_01053888593448099" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_08770547016891544" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->BitShares Vote<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_008802598568764342" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Adam Kaleb Ernest<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_046595062612850147" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->My team and I have been heads down, aggressively preparing for our recent demo in California. We had an awesome week, meeting with legislators regarding our BitShares based voting system and networking with voting registrars and officials alike. Our demo went extremely well. We met some serious resistance from established players in the industry, confirming that implementing our voting solution in legitimate elections is a long-term play. The good news is that we definitely made a splash and are continuing to attract all sorts of attention.<br><br>Now that crunch time is over, we are really excited to shift our focus to helping BitShares improve all aspects of our marketing, particularly with respect to our online presence and user acquisition methods. I’m an experienced Internet marketer with Will as my padawan in training (don’t worry, he actually has a degree in marketing). We’d like nothing more than to work with the community to establish short term priorities and coordinate to avoid duplication of our efforts. linkedin.com/in/adamkalebernest/".<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_006429742114278714" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Economist Contacts<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_039425286712969054" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Delulo<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_08523899310527584" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Forum member Delulo reached out to economists Steven Hanke and Kevin Dowd, both associated with the libertarian minded Cato institute – one of America's most influential think tanks. Hanke and Dowd proved their understanding of the economic properties of crypto currencies here:&nbsp; http://www.cato.org/blog/bitcoin-might-not-be-money-cryptocurrencies-are-way-future and here http://www.iea.org.uk/publications/research/new-private-monies-a-bit-part-player.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_02700567089459529" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Life of an IT Delegate<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_0835342470120231" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Riverhead<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_04007562055241449" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->LWhile the life of an IT delegate should be boring, if all is going well, the last few days have been anything but. Friday saw the introduction of a bad update that caused a number of unnatural forks. The delegates rallied over various communication mediums and were able to recover with the network only going down to 60% participation. Sometimes it's the exceptions that prove the rule. In this case a bad update tested the mettle of DPoS. It passed with flying colours. This event has prompted me to redesign my delegate topology and implement measures to make fielding these issues more streamlined. Most good adventures have scars to go along with their stories. All the delegates now bear such scars and the network is stronger for the experience.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_0632962502628787" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Bitsharesblocks.com<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_033072106262380985" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> svk<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_07271783313547834" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->The biggest news for me is that I'll be dropping down to 50% in my day job starting in January in order to have more time to spend on Bitshares related projects. I've also been hard at work on bitsharesblocks.com – adding translations and rewriting large parts of the frontend code to prepare for open-sourcing. I've learned a lot over the last few months so I've been able to improve a lot of the code so it's now faster and more reliable than ever.&nbsp; I have a bounty running for translations and as a result Bitsharesblocks is now available in seven languages: English, French, German, Chinese, Turkish and Spanish. It has seen a peak of 600 daily visits and about 250 unique users last week, with on average of around 30-40 different countries every day. I've also run a bounty for a new logo that was won by Abell Jeffry who produced a really great looking logo, thanks to him for that. I'll have Bitsharesblocks on github by the end of the year and hope to see lots of good contributions from the community! :)".<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_06689416589657823" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Referral and Faucet<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_08217320171291399" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> valzav<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_06531844918674394" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->I am developing an accounts registration faucet. It redirects users from the wallet to website where user is asked to signup with facebook/twitter etc, after signing up faucet registers an account for user. It's done, the client's code will be in next release, hope we would be able to launch the faucet by the time of the release.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="background-color: rgb(0, 167, 225); position: relative; left: 0px; top: 0px;" class="full" align="center" bgcolor="#4398d4" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+      <td style="background-image: url('http://www.bitshares.org/newsletter/12-14/bg-header2.jpg'); background-position: center center; background-size: cover; background-repeat: no-repeat;" class="headerBG" id="banner1Change">
+		<div mc:hideable>
+		 <!--[if gte mso 9]> 
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+        <v:fill type="tile" src="http://www.bitshares.org/newsletter/12-14/bg-header2.jpg" id="banner1Change_outlook" color="#222222" class="stay" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+      <div>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+						
+						<!-- Start Header Text -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="80"></td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%">
+									
+									<!-- Header Text --> 
+									<table style="text-align: center;" class="fullCenter" align="center" border="0" cellpadding="0" cellspacing="0" width="600">	
+										<tbody style="border-color: rgb(255, 255, 255);"><tr>
+											<td class="smallButton" width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_028063611734242133" src="" alt="" mc:edit="52_72" style="width: 51px; height: auto;" border="0" width="51" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr style="border-color: rgb(255, 255, 255);">
+											<td style="text-align: center; font-family: Helvetica,Arial,sans-serif; font-size: 30px; letter-spacing: 2px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 38px; border-color: rgb(255, 255, 255);"mc:edit="01-8" valign="middle" width="100%">
+												<p cu-identify="element_02760638843657789" ><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;">Don't Cry For Me Argentina</span>
+											</td>
+										</tr>
+									</tbody></table>
+																	
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="80"></td>
+							</tr>
+						</tbody></table><!-- End Header Text -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+			
+		</div><!--[if gte mso 9.]>
+        </v:textbox>
+       </v:fill></v:rect>
+       <![endif]--></div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_09641901621498911"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_04553904672676836" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Don't Cry For Me Argentina<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_03814109748136786" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Matt608<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_09326271221037814" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->I’m starting a campaign to get supporters to vote for argentina-marketing.matt608 to fund marketing campaigns for both Argentina and bitcointalk.<br><br>The Argentina Campaign will fund the Buenos Aires meetup giveaway &nbsp;(http://www.meetup.com/Bitcoin-Argentina/photos/25792368/);<br>future bitUSD giveaways at meetups; and video production in South America.&nbsp; It will include bitUSD drops to online Argentine groups, Spanish translations of texts + video, Editing of Western marketing videos to target the Argentine market, banner ads, press releases and sponsoring sig space on bitcointalk.<br><br>Marketing to bitcointalk readers starts with this BitShares news thread https://bitcointalk.org/index.php?topic=895637.0&nbsp; It will be regularly updated using info from cn-members' site http://news.aboutbts.com/.&nbsp; An Official BitShares thread for bitcointalk, packed with updated info will also be created.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_008102617943688772"></div><div style="display: none;" id="element_010865274737509767"></div><div style="display: none;" id="element_023354746174480534"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_02795092036016802" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Give me Liberty Listing<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_009623204660548901" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> JWF<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_06235350311505287" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->I have taken on the task of trying to aggregate a list of as many of the Liberty Minded sites as possible into a usable form. http://forum.nullstreet.com/index.php/221-list-misc-liberty-resources<br>This is an interesting task as it involves many "side chains" in the searches that lead to some unusual corners of culture. There are enough connections between the variety of sites/ideologies to evolve this into the Libertarian and Conservative Minded Contact List. This list ranges from Infowars to Liberty News and truthers to preppers.<br><br>“IMO neither religion, race, nationality, political affiliation, or economic status should be given preference in our marketing drive, as they ALL deserve the opportunity for financial freedom that BitShares provides.”<br><br>This led me to start the Liberal and Green Minded Contact List as well, which is still getting an initial sorting. There is room for people to help with these lists as I can't find all the applicable sites, so please go and comment them with missing information.&nbsp; https://docs.google.com/spreadsheets/d/1JyaFWUdlpYSONEVpU5PxBnyItkr8ClaL7j4TWwiZcp8/edit?usp=sharing<br><br>https://docs.google.com/spreadsheets/d/12arUryDsmescHGN27i3ZWhdK61wTds9MvaVtYqmcHjo/edit?usp=sharing "<br><br>Mira is also busy taking the same approach to the precious metals community. Once our client is ready to branch out of the immediate crypto space, we'll be ready to launch a full campaign from day 1.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_07843482076924836" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Here's a Toast<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_07157080430205639" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> HPEnvy<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_016045056145093006" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Toast reported that, "The core team continues to work on protocol stability, usability, and critical features. Also we started a thin client. It will be stupid-simple and integrate registration more smoothly."&nbsp; Toast has been active on the NullStreet forum providing assistance and insight into BitShares development. &nbsp;If you got the previous newsletter, you might remember that Toast informed us that ShapeShift.io plans on starting BitShares integration in the next few weeks.&nbsp; https://www.youtube.com/watch?v=4z7U4kU4NJA.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_04225616790718857" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->She's Buying a Gateway to Heaven<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_02596349080046324" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> HPEnvy<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_07587000140323579" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Insomnia pays off. During my massive Coindesk email campaign, I heard back from someone in Business Development from Coinbase. Although it's not BitShare's first contact with Coinbase, it did help us take another step in proposing some type of gateway relationship. Bytemaster must have said the right things, a proposal request was issued.</span><span style="font-family: 'proxima_nova_rgregular', Helvetica;">https://bitsharestalk.org/index.php?topic=12050.0" </span>
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_07525111167409582" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Beyond Bitcoin<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_015398761010361284" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> Fuzzy<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_04949083472673411" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->We would like to announce our Delegate Hangout Initiative! Delegate Hangouts are intended to follow the very same model Bytemaster has utilized to maximize community involvement in this project. If you would like to be a part of BitShares history by scheduling a Delegate Hangout of your own, here are some directions: https://bitsharestalk.org/index.php?topic=12106.new#new. Remember, though the blockchain is trustless--the bitshares ecosystem thrives on shareholder trust. If you want to keep a transparent accounting of your candidacy, it is recommended you follow the example of our BitShares Founding Fathers!<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="background-color: rgb(0, 167, 225); position: relative; left: 0px; top: 0px;" class="full" align="center" bgcolor="#4398d4" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+      <td style="background-image: url('http://www.bitshares.org/newsletter/12-14/bg-header2.jpg'); background-position: center center; background-size: cover; background-repeat: no-repeat;" class="headerBG" id="banner1Change">
+		<div mc:hideable>
+		 <!--[if gte mso 9]> 
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+        <v:fill type="tile" src="http://www.bitshares.org/newsletter/12-14/bg-header2.jpg" id="banner1Change_outlook" color="#222222" class="stay" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+      <div>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+						
+						<!-- Start Header Text -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="80"></td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%">
+									
+									<!-- Header Text --> 
+									<table style="text-align: center;" class="fullCenter" align="center" border="0" cellpadding="0" cellspacing="0" width="600">	
+										<tbody style="border-color: rgb(255, 255, 255);"><tr>
+											<td class="smallButton" width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_028063611734242133" src="" alt="" mc:edit="52_72" style="width: 51px; height: auto;" border="0" width="51" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr style="border-color: rgb(255, 255, 255);">
+											<td style="text-align: center; font-family: Helvetica,Arial,sans-serif; font-size: 30px; letter-spacing: 2px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 38px; border-color: rgb(255, 255, 255);"mc:edit="01-8" valign="middle" width="100%">
+												<p cu-identify="element_07271732451493856" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Bitcoin conferences<!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+									</tbody></table>
+																	
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="80"></td>
+							</tr>
+						</tbody></table><!-- End Header Text -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+			
+		</div><!--[if gte mso 9.]>
+        </v:textbox>
+       </v:fill></v:rect>
+       <![endif]--></div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_038607656402697355"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_0082802395998823" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Bitcoin Conferences<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_08716680113652732" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> general info<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_028011348100532407" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Don't wait for the development team to make a decision if they plan on attending. We need forum members walking around, shaking hands and making contacts. &nbsp;We should have a presence at every event possible.<br><br>&nbsp;&nbsp;&nbsp; <span style="font-weight: bold;">Miami</span> &nbsp;&nbsp;&nbsp; January 16-18, 2015 &nbsp;TNABC&nbsp; http://btcmiami.com/<br>&nbsp;&nbsp;&nbsp; <span style="font-weight: bold;">London</span> &nbsp;&nbsp;&nbsp; January 24-25, 2015 BitExpo 2015 http://bitcoinexpo2015.com/<br>&nbsp;&nbsp;&nbsp; <span style="font-weight: bold;">All</span>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; https://bitcoin.org/en/events<br><br><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_08586651413959943" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Faucet Campaigns<br><!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_011581824255615203" ><span style="color: rgb(87, 90, 96);"t-style="changeText"><span style="font-family: 'proxima_nova_rgregular', Helvetica;">Valentine, Method-X and Rune</span><!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_038609960941621313" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Valentine, Method-X and Rune have been working on using Valentine's faucet backend for faucet campaigns that will help make it easy for new users to sign up, and give them a good reason to do it. The first such idea is karmatocash.com , which will reward reddit users with bitUSD for their comment karma and garner a lot of attention for bitshares.&nbsp; Join in:&nbsp; https://bitsharestalk.org/index.php?board=5.0.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_05568335862011113" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Interview Transcript<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_06877047573029336" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> onceuponatime<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_07604118990275529" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Bitshares Forum and Null Street member onceuponatime has done a transcription of Beyond Bitcoin's Arthur Falls epic interview with Daniel Larimer entitled "BitAssets and the Austrians"&nbsp; http://letstalkbitcoin.com/blog/post/beyond-bitcoin-22-bitassets-and-the-austrians.&nbsp; The transcript can be read in its entirety (Parts 1 and 2) here:&nbsp; https://bitsharestalk.org/index.php?topic=12040.msg160320#msg160320.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_03055127909065436"></div><div style="display: none;" id="element_019289629454930313"></div><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_07803750885774875" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Reaching Out to Writers and Crypto Companies<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_005762761603746158" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> HPEnvy<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_025736273019245237" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->I spent the last few weeks putting together marketing resources together that includes:&nbsp; Writers that have covered Bitcoin;&nbsp; companies that have integrated Bitcoin (payment processors, exchanges, debit card, on/offramp); and other technology writers<br><br>I would spend nights googling 'Bitcoin' and tracking contact information for any author that wrote something about Bitcoin in the last 5 months. &nbsp;We have over 300 technology writers that were harvested from different PR lists. &nbsp;I went through the last 4 months of Coindesk and located contact information for about 100 companies that might benefit our ecosystem. &nbsp;Everything was placed in Google Docs and shared with different marketing members from Brian's team to NullStreet.<br><br>As a result, interview requests are coming in; marketing has made contact with important companies in the debit, payment processor and on/off ramp. This is in addition to their existing contacts.&nbsp; We are locked and loaded for different PR campaigns. <br><br>There are so many heroes on NullStreet, this could have easily doubled in size. &nbsp; This is a new chapter in BitShares history. <!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><table style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+					
+						<!-- Text -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 0px; line-height: 1px;" bgcolor="#ececec" width="100%" height="1">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper 2 -->
+			
+		</div>	
+		</td>
+	</tr>
+</tbody></table><table cu-identifier="element_04875307637151546" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+					
+						<!-- Space -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+									
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Image Long 1 -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullImage" align="left" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr>
+											<td width="100%">
+												<a href="#" style="text-decoration: none;" ><img cu-identify="element_06315847156422781" src="" alt="" style="width: 599px; height: auto;" class="hover" mc:edit="69" border="0" width="599" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 20px; color: rgb(0, 86, 124); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold;"mc:edit="70" width="100%">	
+												<p cu-identify="element_07251580771527305" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Allied “AltShares” Projects<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="3"></td>
+										</tr>
+										<tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 12px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"mc:edit="71" width="100%">	
+												<p cu-identify="element_07318862363528117" ><span style="color: rgb(87, 90, 96);"><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->by</span> allied projects<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"mc:edit="72" width="100%">	
+												<p cu-identify="element_011834666485428158" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->Last, but certainly not least, there are numerous allied projects that we want to mention.&nbsp; These include Music (PeerTracks), PLAY, PTS, Remitabit and Sparkle.<br><br>The mere existence of these “AltShares”, and their own marketing efforts, help to raise public awareness of the underlying technology and BitShares as a whole Brave New Industry.&nbsp; We view them as so important, we plan to dedicate a second newsletter this month just for them.&nbsp; Watch for it next week.<!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="5"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 15px; color: #569ed0; text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 24px; vertical-align: top;" mc:edit="73" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">Read more</a><!--[if !mso]><!--></span><!--<![endif]-->
+								
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_05530938489672447"></div><div style="display: none;" id="element_018308183729212524"></div><div style="display: none;" id="element_08839732706955085"></div><table cu-identifier="element_021055420628680632" style="position: relative; left: 0px; top: 0px;" class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td width="100%" height="60"><div mc:hideable>
+		</div></td>
+	</tr>
+</tbody></table><table style="background-color: rgb(0, 167, 225); position: relative; left: 0px; top: 0px;" class="full" align="center" bgcolor="#4398d4" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+      <td style="background-image: url('http://www.bitshares.org/newsletter/12-14/bg-header2.jpg'); background-position: center center; background-size: cover; background-repeat: no-repeat;" class="headerBG" id="banner1Change">
+		<div mc:hideable>
+		 <!--[if gte mso 9]> 
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+        <v:fill type="tile" src="http://www.bitshares.org/newsletter/12-14/bg-header2.jpg" id="banner1Change_outlook" color="#222222" class="stay" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+      <div>
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				<tbody><tr>
+					<td width="100%">
+						
+						<!-- Start Header Text -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="80"></td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%">
+									
+									<!-- Header Text --> 
+									<table style="text-align: center;" class="fullCenter" align="center" border="0" cellpadding="0" cellspacing="0" width="600">	
+										<tbody style="border-color: rgb(255, 255, 255);"><tr>
+											<td class="smallButton" width="100%">
+												<a href="#" style="text-decoration: none;" ><img src="http://rocketway.net/themebuilder/template/templates/breathe/images/small_button.png" alt="" mc:edit="52_72" style="width: 51px; height: auto;" border="0" width="51" height="auto"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr style="border-color: rgb(255, 255, 255);">
+											<td style="text-align: center; font-family: Helvetica,Arial,sans-serif; font-size: 30px; letter-spacing: 2px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 38px; border-color: rgb(255, 255, 255);"mc:edit="01-8" valign="middle" width="100%">
+												<p cu-identify="element_015089305167947575" ><!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]-->BITSHARES TV<!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+									</tbody></table>
+																	
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="80"></td>
+							</tr>
+						</tbody></table><!-- End Header Text -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+			
+		</div><!--[if gte mso 9.]>
+        </v:textbox>
+       </v:fill></v:rect>
+       <![endif]--></div>
+		</td>
+	</tr>
+</tbody></table><div style="display: none;" id="element_02886277646367268"></div><div style="display: none;" id="element_07720742318870921"></div><div style="display: none;" id="element_07344626346481014"></div><div style="display: none;" id="element_030774820891285437"></div><div style="display: none;" id="element_04136993437459471"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_02646980626165496"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_0025964024968646582"></div><!-- Wrapper 5 -->
+
+<!-- Space -->
+<!-- End Space -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_07642360252069569"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_016529552646441614"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_00673053039594953"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_0514335216667898"></div><!-- Wrapper 5 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_026173130001234524"></div><!-- End Space -->
+
+<!-- Wrapper 3 (2 Column - Image Left , Text Right) -->
+<div style="display: none;" id="element_034957495043131015"></div><!-- Wrapper 3 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_05242157784839434"></div><div style="display: none;" id="element_02409317464593167"></div><!-- End Space -->
+
+<!-- Wrapper 5 (4 Images) -->
+<div style="display: none;" id="element_07986957902407681"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 3 (Divider) -->
+<div style="display: none;" id="element_022863780898757557"></div><!-- End Wrapper 3 -->
+
+<!-- Wrapper 5 (4 Images) -->
+<div style="display: none;" id="element_05809317834488067"></div><!-- Wrapper 5 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_08912099874818322"></div><!-- End Space -->
+
+<!-- Wrapper 2 (Header) -->
+<!-- End Wrapper 2 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_09678558641824156"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_07315235704365225"></div><!-- Wrapper 5 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_090445426452953"></div><!-- End Space -->
+
+<!-- Wrapper 7 (5 Clients) -->
+<div style="display: none;" id="element_03331259310376147"></div><!-- Wrapper 7 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_08150418039973204"></div><!-- End Space -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_031001802438987336"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_05230488200432656"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 5 (3 Col From Left to Right) -->
+<div style="display: none;" id="element_04151342275045101"></div><div style="display: none;" id="element_06157791064275299"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 3 (Divider) -->
+<div style="display: none;" id="element_033732536961332926"></div><!-- End Wrapper 3 -->
+
+<!-- Wrapper 5 (3 Col From Left to Right) -->
+<div style="display: none;" id="element_09610104964330182"></div><!-- Wrapper 5 -->
+
+<!-- Wrapper 2 (Header) -->
+<!-- End Wrapper 2 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_020538530391933796"></div><!-- End Space -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_010549703175298741"></div><!-- Wrapper 5 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_09610187478845482"></div><!-- End Space -->
+
+<!-- Wrapper 5 (Banner + 2 Column) -->
+<div style="display: none;" id="element_02103059553502965"></div><!-- Wrapper 5 -->
+
+<!-- Space -->
+<div style="display: none;" id="element_07326839134004409"></div><!-- End Space -->
+
+<!-- Space -->
+<table class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td style="background-color: rgb(236, 236, 236);"bgcolor="#ececec" width="100%" height="45"><div mc:hideable>
+		</div></td>
+	</tr>
+</tbody></table><!-- End Space -->
+
+<!-- Wrapper 5 (3 Col From Left to Right) -->
+<table class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td style="background-color: rgb(236, 236, 236);"bgcolor="#ececec" valign="top" width="100%">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+						
+						<!-- Wrapper -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Space -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody><tr>
+											<td width="100%" height="15"></td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+									<!-- Address left -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="250">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 18px; color: rgb(43, 46, 70); text-align: right; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"class="fullCenter" mc:edit="101" width="100%">	
+												<p cu-identify="element_028073447080626746" ><!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Useful links<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 13px; color: rgb(87, 90, 96); text-align: right; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"class="fullCenter" mc:edit="102" width="100%">	
+												<p cu-identify="element_06018843632548776" ><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><a href="http://www.scoop.it/t/aboubts" style="text-decoration: none; color: rgb(0, 86, 124);">BitShares news on scoob</a><br></span></span><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><a href="http://rocketway.net/themebuilder/template/?template=breathe&amp;purchase_code=8220038228395557#" style="text-decoration: none; color: rgb(0, 86, 124);">bitsharesblocks.com</a><br></span></span><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><a href="http://rocketway.net/themebuilder/template/?template=breathe&amp;purchase_code=8220038228395557#" style="text-decoration: none; color: rgb(0, 86, 124);"><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><span style="font-family: 'proxima_nova_rgregular', Helvetica;"></span></span></a><a href="http://www.scoop.it/t/aboubts" style="text-decoration: none; color: rgb(0, 86, 124);">BitShares on Github</a></span></span><br>
+								
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Space -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="1">
+										<tbody><tr>
+											<td width="100%" height="20"></td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+									<!-- Contact right -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="right" border="0" cellpadding="0" cellspacing="0" width="250">
+										<tbody style="border-color: rgb(43, 46, 70);"><tr style="border-color: rgb(43, 46, 70);">
+											<td style="font-size: 18px; color: rgb(43, 46, 70); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top; font-weight: bold; border-color: rgb(43, 46, 70);"class="fullCenter" mc:edit="103_9383" width="100%">	
+												<!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->Contact<!--[if !mso]><!--></span><!--<![endif]-->						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td style="font-size: 13px; color: rgb(87, 90, 96); text-align: left; font-family: Helvetica,Arial,sans-serif; line-height: 24px; vertical-align: top;"class="fullCenter" mc:edit="103_6262" width="100%">	
+												<p cu-identify="element_03003898493918954" ><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><span style="font-family: 'proxima_nova_rgregular', Helvetica;font-weight: normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">2020 Kraft Drive</span><br style="-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">
+                                    <span style="font-family: 'proxima_nova_rgregular', Helvetica;font-weight: normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">24060 Blacksburg, USA</span></span>
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica;"><!--<![endif]--><br><a href="#" style="text-decoration: none; color: rgb(0, 86, 124);">info@bitshares.org</a><!--[if !mso]><!--></span><!--<![endif]--></span>
+								
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+						<!-- Space -->
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody><tr>
+								<td width="100%" height="15"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><!-- Wrapper 5 -->
+
+<!-- Wrapper 20 (Footer) -->
+<table class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td style="background-color: rgb(236, 236, 236);"bgcolor="#ececec" valign="top" width="100%">
+		<div mc:hideable>	
+
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+								
+						<!-- Wrapper 2 -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+					
+									<!-- Space -->
+									<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody><tr>
+											<td width="100%" height="15"></td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+									<!-- Social Icons -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody><tr>
+											<td class="icons33" width="600">
+												<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+													<tbody><tr>
+														<td width="167"></td>
+														<td style="text-align: center;" width="33"><a href="#" style="text-decoration: none;" ><img src="http://rocketway.net/themebuilder/template/templates/breathe/images/footer_icon1.png" alt="" class="hover" style="width: 33px; height: auto;" mc:edit="104" border="0" width="33" height="auto"></a></td>
+														<td width="25"></td>
+														<td style="text-align: center;" width="33"><a href="#" style="text-decoration: none;" ><img src="http://rocketway.net/themebuilder/template/templates/breathe/images/footer_icon2.png" alt="" class="hover" style="width: 33px; height: auto;" mc:edit="105" border="0" width="33" height="auto"></a></td>
+														<td width="25"></td>
+														<td style="text-align: center;" width="33"><a href="#" style="text-decoration: none;" ><img src="http://rocketway.net/themebuilder/template/templates/breathe/images/footer_icon3.png" alt="" class="hover" style="width: 33px; height: auto;" mc:edit="106" border="0" width="33" height="auto"></a></td>
+														<td width="25"></td>
+														<td style="text-align: center;" width="33"><a href="#" style="text-decoration: none;" ><img src="http://rocketway.net/themebuilder/template/templates/breathe/images/footer_icon4.png" alt="" class="hover" style="width: 33px; height: auto;" mc:edit="107" border="0" width="33" height="auto"></a></td>
+														<td width="25"></td>
+														<td style="text-align: center;" width="33"><a href="#" style="text-decoration: none;" ><img src="http://rocketway.net/themebuilder/template/templates/breathe/images/footer_icon5.png" alt="" class="hover" style="width: 33px; height: auto;" mc:edit="108" border="0" width="33" height="auto"></a></td>
+														<td width="168"></td>
+													</tr>
+												</tbody></table>							
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Space -->
+									<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody><tr>
+											<td width="100%" height="15"></td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><!-- Wrapper 20 -->
+
+<!-- Space -->
+<table class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td style="background-color: rgb(236, 236, 236);"bgcolor="#ececec" width="100%" height="45"><div mc:hideable>
+		</div></td>
+	</tr>
+</tbody></table><!-- End Space -->
+
+<!-- Wrapper 20 (Footer) -->
+<table class="full"  align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr mc:repeatable>
+		<td style="background-color: rgb(4, 4, 4);"bgcolor="#040404" valign="top" width="100%">
+		<div mc:hideable>	
+
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+								
+						<!-- Wrapper 2 -->
+						<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+							<tbody><tr>
+								<td width="100%">
+					
+									<!-- Space -->
+									<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody><tr>
+											<td width="100%" height="35"></td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+									<!-- Social Icons -->
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tbody><tr>
+											<td style="text-align: center;" width="100%"><a href="#" style="text-decoration: none;" ><img cu-identify="element_02515850745122694" src="http://www.bitshares.org/newsletter/logo.png" alt="" class="hover" style="width: 120px; height: auto;" mc:edit="109" border="0" width="120" height="auto"></a>
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Space -->
+									<table class="full" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody><tr>
+											<td width="100%" height="35"></td>
+										</tr>
+										<tr>
+											<td style="line-height: 1px; font-size: 0px;" width="100%" height="1">&nbsp;</td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper 2 -->
+						
+					
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><!-- Wrapper 20 -->
+</div>
+</body></html>	<style>body{ background: none !important; } </style>
