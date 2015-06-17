@@ -26,12 +26,12 @@ to yourself.  This will consolidate your balances under a single account.
 
 ## Account Name Migration
 
-Under BitShares 2.0, accounts are transferable and have different prices based upon the
-quality of the account name so that they can double as DNS names. Any premium names registered on or after June 8, 2015
-(US Eastern time) will be given the prefix "bts-" after the migration.
+Under BitShares 2.0, accounts are transferable and have different prices based upon the "quality" of the account name.
+Any "premium" names registered on or after 2015-06-08 (US Eastern time) will be given the prefix "bts-" or similar
+after the migration.
 
-**Update: All account names registered on or after 2015-06-18 (US Eastern time) will be migrated if and only if they were registered
-using the [BitShares Faucet](https://faucet.bitshares.org/).**
+**Update: All account names registered on or after 2015-06-18 (US Eastern time) will be migrated if and only if they
+were registered using the [BitShares Faucet](https://faucet.bitshares.org/).**
 
 ## Open Order Migration
 
