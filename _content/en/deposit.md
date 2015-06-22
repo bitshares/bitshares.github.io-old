@@ -28,6 +28,7 @@ They simplify the process of moving funds from one blockchain-based crypto curre
 - [X-Chain](http://xchain.info/){:target="_blank"}
 - [CryptoMate](https://cryptomate.co.uk/){:target="_blank"}
 - [AltQuick](https://www.altquick.co/){:target="_blank"}
+- [Coinomat](https://coinomat.com/){:target="_blank"}
 
 </div>
 <div class="col-xs-12 col-md-6 " markdown="1">
