@@ -1,6 +1,6 @@
 ---
 title: Banx Capital Joins the BitShares Exchange Network
-author: Cryptonomex
+author: <a href="https://cryptonomex.com/" target="_blank">Cryptonomex</a>
 ---
 
 [Banx Capital](http://banxcapital.com/){:target="_blank"} announced today that it will be partnering with BitShares and

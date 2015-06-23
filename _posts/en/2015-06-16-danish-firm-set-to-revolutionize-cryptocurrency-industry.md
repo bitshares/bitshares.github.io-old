@@ -1,6 +1,6 @@
 ---
 title: Danish Firm Set to Revolutionize Cryptocurrency Industry
-author: CCEDK
+author: <a href="https://www.ccedk.com/" target="_blank">CCEDK</a>
 ---
 
 [CCEDK.com](https://www.ccedk.com/){:target="_blank"}, a leading Danish cryptocurrency exchange, has just demolished the

@@ -1,6 +1,6 @@
 ---
 title: The History of Graphene
-author: Max Wright
+author: <a href="https://www.youtube.com/channel/UChtICzF0ZEhhgoMA8YWhULw/videos" target="_blank">BitShares TV</a>
 ---
 
 During the last several months, the BitShares share price has dropped, making the network unable to support the core development

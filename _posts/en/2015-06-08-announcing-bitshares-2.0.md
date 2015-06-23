@@ -1,6 +1,6 @@
 ---
 title: Announcing BitShares 2.0
-author: Cryptonomex
+author: <a href="https://cryptonomex.com/" target="_blank">Cryptonomex</a>
 ---
 
 The BitShares development team is proud to make their biggest announcement since launching one year ago: the upgrade to

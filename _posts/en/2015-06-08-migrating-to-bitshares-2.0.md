@@ -1,6 +1,6 @@
 ---
 title: Migrating to BitShares 2.0
-author: Cryptonomex
+author: <a href="https://cryptonomex.com/" target="_blank">Cryptonomex</a>
 ---
 
 Upgrading to BitShares 2.0 will require some network downtime. On an appointed date/time, a snapshot will be taken of

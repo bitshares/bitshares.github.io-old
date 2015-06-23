@@ -1,6 +1,6 @@
 ---
 title: Lessons Learned from BitShares 0.x
-author: Cryptonomex
+author: <a href="https://cryptonomex.com/" target="_blank">Cryptonomex</a>
 ---
 
 There are many reasons for starting over from scratch and producing a new toolkit and this article hopes to shed some
