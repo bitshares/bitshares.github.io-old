@@ -749,13 +749,16 @@ canvas {
 /*  _post */
 
 
-.meta i, .meta span {
+.meta i {
   font-size: 13px;
   color: #bfbfbf;
   padding: 2px;
 
 }
 
+.meta span {
+  color: #bfbfbf;
+}
 
 /*  Footer */
 
