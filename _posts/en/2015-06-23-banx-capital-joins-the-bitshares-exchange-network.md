@@ -1,5 +1,5 @@
 ---
-title: Banks Capital Joins the BitShares Exchange Network
+title: Banx Capital Joins the BitShares Exchange Network
 author: Cryptonomex
 ---
 
