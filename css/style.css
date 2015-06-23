@@ -213,9 +213,9 @@ h2 {
 
 
 h3 {
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 18px;
-	color: rgb(62, 69, 82);
+	color: #5b6a72;
 	font-family: 'Proxima Nova Lt';
 
 
@@ -610,9 +610,9 @@ ul.navbar-nav li {
 .postbody h2 {
     font-size: 24px;
     margin: 42px 0 0 0;
-    letter-spacing: 1px;
     font-family: 'Proxima Nova Lt';
-   font-weight: 100;
+    font-weight: 100;
+    color: #5b6a72;
 
 }
 
@@ -686,6 +686,30 @@ ul.navbar-nav li {
 }
 
 
+/*  Frontpage Recent Post */
+
+
+#recent-news {
+  background-color: #F9F9F9;
+  padding-bottom:24px;
+}
+
+#recent-news .container {
+  padding: 12px 32px;
+}
+
+
+#recent-news span {
+  color: 
+}
+
+.entry-content p {
+  margin: 0;
+  padding: 0;
+
+}
+
+
 
 #features {
     border: 0px solid #333;
@@ -749,10 +773,11 @@ canvas {
 /*  _post */
 
 
-.meta i {
+.meta i, .meta span {
   font-size: 13px;
   color: #bfbfbf;
   padding: 2px;
+
 }
 
 

@@ -83,6 +83,26 @@ redirect_from:
 
 </section>
 
+<section id="recent-news">
+    <div class="container">
+        <div class="row row-eq-height">
+            <center style="padding: 24px;">
+                {% assign post = site.posts.first %}
+                <h2 class="entry-title">
+                {% if post.title %}
+                <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a> 
+                {% endif %}
+                </h2>
+               <span style="color:#BFBFBF">({{ post.date | date: "%-m/%-d/%Y" }})</span>
+
+            <div class="entry-content">{{ post.excerpt | markdownify }}</div>
+            <a class="btn btn-more" href="{{ root_url }}{{ post.url }}">read more</a>
+            <br>
+            </center>
+        </div>
+    </div>
+</section>
+
 <section id="features">
 <div class="container">
 
