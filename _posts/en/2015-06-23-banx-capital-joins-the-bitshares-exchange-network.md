@@ -29,7 +29,7 @@ world stage, but beneath the surface it will be powered by BitShares.
 startup businesses, including its own.  By migrating to the BitShares Exchange Network, Banx.io instantly gains access
 to all the other services on the platform, such as fiat on- and off-ramps or the
 [NanoCard](https://www.ccedk.com/nanocard){:target="_blank"} provided by
-[CCEDK](https://www.ccedk.com/){:target="_blank"}. Its customers can trade seamlessly with the comabined customers and
+[CCEDK](https://www.ccedk.com/){:target="_blank"}. Its customers can trade seamlessly with the combined customers and
 assets brought to the network by all other member exchanges. And, thanks to the
 [BitShares referral program](/technology/referral-rewards-program/), Banx.io will still collect its fair share of
 network-wide transaction fees paid by every customer it brings to the table.
