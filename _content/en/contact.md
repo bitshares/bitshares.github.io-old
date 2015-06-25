@@ -8,7 +8,7 @@ redirect_from:
 
 All specific inquiries can be sent to:
 
-`contact@bitshares.org`
+`contactbitshares@bitshares.org`
 
 ## Infographics
 

@@ -6,7 +6,7 @@ title: Contact
 
 All specific inquiries can be sent to:
 
-`contact@bitshares.org`
+`contactbitshares@bitshares.org`
 
 ## Infographics
 
