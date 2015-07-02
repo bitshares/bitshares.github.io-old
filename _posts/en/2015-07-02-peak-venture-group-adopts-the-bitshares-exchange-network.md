@@ -21,9 +21,9 @@ Merchants are always looking for ways to sell their products and affiliates are 
 to sell.  We put together a system that helps them find each other.  We already have over 17,000 members on our video
 game site and 8500 marketers in our affiliate system the first year.  Whoosh!”*
 
-*“Then one of those affiliates introduced us to BitShares”*, said Tiffany, shaking his head.  “I thought it was just
+*“Then one of those affiliates introduced us to BitShares”*, said Tiffany, shaking his head. *“I thought it was just
 going to be a way to maybe make commission payments within our network a bit more automatic and trust-free.  But after
-talking with BitShares Founder Dan Larimer, I realized his brainchild was going to change everything we do!”
+talking with BitShares Founder Dan Larimer, I realized his brainchild was going to change everything we do!”*
 
 *“What exactly is it that you do?”* I was about to ask, but he was already on a roll.
 
