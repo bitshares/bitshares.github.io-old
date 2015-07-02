@@ -27,11 +27,11 @@ He could see I needed a concrete example right about now, so he smoothly obliged
 
 *“You can see how this led us naturally to crypto currencies, and ultimately to BitShares,”* he traced a finger from dot to dot, as if the connection was obvious.  
 
-Seeing my puzzled expression, he slowed down to a brisk trot.  *“We needed a way to seamlessly transition real world currencies like dollars and euros and the unique digital currencies used inside many of the games we offer at the gaming site.  I figured we could integrate a crypto currency wallet somehow and use that currency as the common denominator and a way to automatically pay affiliate commissions.  
+Seeing my puzzled expression, he slowed down to a brisk trot.  *“We needed a way to seamlessly transition real world currencies like dollars and euros and the unique digital currencies used inside many of the games we offer at the gaming site.  I figured we could integrate a crypto currency wallet somehow and use that currency as the common denominator and a way to automatically pay affiliate commissions.*  
 
-But BitShares gave us a complete decentralized currency exchange network right out of the box. It even had built-in smart contracts to help automate our affiliate program. This helps us make sure every affiliate gets paid automatically for every transaction made by any member of her integrated game and financial empire.  And BitShares can keep up with gaming speeds – Its average transaction time is about a second compared to, say, Bitcoin where it can take the better part of an hour to confirm a transaction.  Gamers can’t wait that long to get more ammo for their hypersonic reciprocating transmorgifyer when they are pinned down and really, really need it!  
+*But BitShares gave us a complete decentralized currency exchange network right out of the box. It even had built-in smart contracts to help automate our affiliate program. This helps us make sure every affiliate gets paid automatically for every transaction made by any member of her integrated game and financial empire.  And BitShares can keep up with gaming speeds – Its average transaction time is about a second compared to, say, Bitcoin where it can take the better part of an hour to confirm a transaction.  Gamers can’t wait that long to get more ammo for their hypersonic reciprocating transmorgifyer when they are pinned down and really, really need it!*  
 
-No other cryptocurrency had all that.  It completely changed how we now think about all of our start-ups.”*
+*No other cryptocurrency had all that.  It completely changed how we now think about all of our start-ups.”*
 
 I was starting to get a glimmer of that potential, but before I could dig deeper into the implications of seamlessly integrated virtual and physical world empires he went zooming off in another direction.
 
