@@ -23,7 +23,7 @@ eliminates its blockchain maintenance and operating costs, and provides it with 
 to the shared network effect of the whole BitShares community. It will still be an independent cryptocurrency on the
 world stage, but beneath the surface it will be powered by BitShares.
 
-### Trend #1: Coins Upgrading to Shared Industrial Platforms
+### Trend #2: Coins Upgrading to Shared Industrial Platforms
 
 [Banx.io](https://www.banx.io/){:target="_blank"} is a cryptocurrency exchange that specializes in trading the shares of
 startup businesses, including its own.  By migrating to the BitShares Exchange Network, Banx.io instantly gains access
