@@ -65,10 +65,10 @@ The BunkerShares 50 day sale will commence this fall, with the BunkerDEX followi
 
 <hr>
 
-**BunkerShares** - [www.bunkershares.ca](http://www.bunkershares.ca/){:target="_blank"}
-**Data Security Node** - [www.datasecuritynode.com](http://www.datasecuritynode.com){:target="_blank"}
-**BitShares** - [www.bitshares.org](https://www.bitshares.org){:target="_blank"}
-**Cyptonomex** - [www.cryptonomex.com](http://www.cryptonomex.com){:target="_blank"}
+**BunkerShares** - [www.bunkershares.ca](http://www.bunkershares.ca/){:target="_blank"}<br>
+**Data Security Node** - [www.datasecuritynode.com](http://www.datasecuritynode.com){:target="_blank"}<br>
+**BitShares** - [www.bitshares.org](https://www.bitshares.org){:target="_blank"}<br>
+**Cyptonomex** - [www.cryptonomex.com](http://www.cryptonomex.com){:target="_blank"}<br>
 
 
 **About Data Security Node Inc.**
