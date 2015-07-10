@@ -17,7 +17,7 @@ The new partnership comes by way of a service offering from DSN called BunkerDEX
 
 
 
-<img class="img-responsive img-thumbnail" src="/images/bunker00.png"/>
+<img class="img-responsive img-thumbnail" src="/images/bunker00.jpg"/>
 
 
 ###BunkerMining
@@ -54,7 +54,7 @@ Return on investment for SAFE *“shareholders”* in a company have the potenti
 
 SAFE aligns the incentives of investors and companies more harmoniously than traditional stocks, so investors in small businesses don’t have to wait years or longer for the chance to liquidate their holdings.
 
-<img class="img-responsive img-thumbnail" src="/images/bunker02.png"/>
+<img class="img-responsive img-thumbnail" src="/images/bunker02.jpg"/>
 
 
 *“Because this is a brand new concept, we made a video [(SAFE Investment)](https://www.youtube.com/watch?v=fBhkyNnNU4k&feature=youtu.be){:target="_blank"} to help explain it in detail. In the video, we compare Wal-Mart gift cards to how S.A.F.E. can work for online businesses.”* Jonathan continues, *“I am confident from the feedback from prospective investors thus far that this new financial instrument backed by our technology is going to gain traction in the coming year as companies seek to diversify their capital sources.”*
