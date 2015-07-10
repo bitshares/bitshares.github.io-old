@@ -1,5 +1,5 @@
 ---
-title: Nuclear Bunker Data Center to Partner with BitShares
+title: Peak Venture Group Adopts the BitShares Exchange Network
 author: <a href="https://cryptonomex.com/" target="_blank">Cryptonomex</a>
 ---
 
