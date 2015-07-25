@@ -840,3 +840,8 @@ img.tech-toc {
 }
 
 /* @end */
+
+.author_bio {
+  color: #5B6A72;
+  font-style: italic;
+}
