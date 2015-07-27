@@ -1,7 +1,7 @@
 ---
 title: Top 5 Reasons Why You Should Consider Being Paid In a Cryptocurrency
 author: George Basiladze
-author_bio: George is a finance guy with an in-depth knowledge of financial systems.<br> Together with Dmitry they designed the concept <a href="http://cryptopay.me/" target="_blank">Cryptopay</a> in May 2013 and started developing the system.
+author_bio: George is a finance guy with an in-depth knowledge of financial systems.<br> Together with Dmitry they designed the concept <a href="https://cryptopay.me/" target="_blank">Cryptopay</a> in May 2013 and started developing the system.
 ---
 
 More and more people are being paid in cryptocurrencies such as Bitcoin and Litecoin; the flexibility and low fees required are often ideal for both employers and employees. Cryptocurrencies are particularly appropriate for paying freelancers, as the simplicity of transferring money internationally can give businesses access to talented individuals, regardless of their location. The people who take their full wage in bitcoins will most often be employed within the industry but these such individuals don’t seem to find this arrangement problematic; on the contrary many find it an easy, practical way to receive their wages. Here’s five reasons why you should consider taking your wage packet in a cryptocurrency.
