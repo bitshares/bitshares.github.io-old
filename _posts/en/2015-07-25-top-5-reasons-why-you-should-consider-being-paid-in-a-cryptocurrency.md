@@ -1,7 +1,7 @@
 ---
 title: Top 5 Reasons Why You Should Consider Being Paid In a Cryptocurrency
 author: George Basiladze
-author_bio: George is a finance guy with an in-depth knowledge of financial systems.<br> Together with Dmitry they designed the concept <a href="http://cryptopay.me/" target="_blank">Cryptopay</a> in May 2013 and started developing the system.
+author_bio: George is a finance guy with an in-depth knowledge of financial systems.<br> Together with Dmitry they designed the concept <a href="https://cryptopay.me/" target="_blank">Cryptopay</a> in May 2013 and started developing the system.
 ---
 
 More and more people are being paid in cryptocurrencies such as Bitcoin and Litecoin; the flexibility and low fees
