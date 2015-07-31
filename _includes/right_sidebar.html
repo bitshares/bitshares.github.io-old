@@ -2,13 +2,12 @@
    <h3>Posts</h3>
    <ul style="list-style-type: none; margin: 0px;">
    {% assign posts = (site.posts | where: 'lang', page.lang) %}
-   {% for post in posts %}
+   {% for post in posts limit:5  %}
         <li style="margin-left: -30px;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a></li>
    {% endfor %}
    </ul>
-  
+
    <div class="hidden-xs">
    {% include share_page.html %}
    </div>
 </div>
-
