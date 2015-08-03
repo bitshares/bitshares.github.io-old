@@ -4,7 +4,17 @@ author: Fabian <xeroc> Schuh
 layout: post
 ---
 
+This document serves as an introduction on how to become an actively block
+producing witness in in the BitShares2.0 network. We will have to import an
+existing account from the BitShares 0.9 network and add some initial funds for
+the witness registration fee. After that, we will create, configure and run a
+witness node.
+
+* TOC
+{:toc}
+
 ## Preparations in BitShares 0.9 network
+### Extracting an account from BitShares 0.9
 To create a new account, you will need to start with an existing account with
 some of the BTS asset that will pay the transaction fee registering your new
 witness. Get your `<wif>` key from BitShares 0.9 via
@@ -12,13 +22,21 @@ witness. Get your `<wif>` key from BitShares 0.9 via
     BitShares0.9: >>> wallet_dump_account_key <accountname> "owner_key"
     "5....."
 
-This keys only gives access to the registered name. Hence, none of the accounts
-in the genesis block have balances in them.  In the first BitShares network,
-accounts were less tightly coupled to balances. Balances were associated with
-public keys, and an account could have hundreds of public keys with balances
-(or, conversely, public keys with balances could exist without any account
-associated with them). We can extract the required private keys that hold funds
-this way:
+### Extracting balances from BitShares 0.9
+
+The key we have extracted previously only gives access to the registered name.
+Hence, none of the accounts in the genesis block have balances in them. In the
+first BitShares network, accounts were less tightly coupled to balances.
+Balances were associated with public keys, and an account could have hundreds of
+public keys with balances (or, conversely, public keys with balances could exist
+without any account associated with them). 
+
+In order to get a witness registered we need to import approximately $120 worth of
+BTS into the BitShares 2.0 client later.
+
+#### Manually extracting private keys (most secure way)
+We can extract the required private keys that hold funds this way. First we get
+all balance ids from an account via:
 
     BitShares0.9: >>> wallet_account_balance_ids <accountname>
     [[
@@ -41,12 +59,56 @@ Each of these balances can be investigated via:
       "balance": 0,                                        <- balance
       ...
 
+The required part (the owner of the balance) is denoted as `owner`.
 Pick one or more address for BTS balances and dump the corresponding private key(s) with:
 
     BitShares0.9: >>> wallet_dump_private_key BTSOOOOOOOOOOOOOOOOOOOOOOOOOOOOOWNER
     "5......."
 
-## Graphene Testnet 
+Note: Make sure to secure these private keys, as they are unencrypted and give
+access to the funds in the BitShares 0.9 network. You may loose your money if
+you are not an secure computer!
+
+#### Scripted extraction with Python (requires code audit)
+A Python script located at
+[github](https://github.com/xeroc/bitshares-pytools/blob/master/tools/getbalancekeys.py)
+may help you to retrieve private keys for your balances.
+You need to modify the first few lines of the script in order to get a
+connection to your BitShares daemon.
+
+    $ edit getbalancekeys.py
+        [...]
+	config.url    = "http://10.0.0.16:19988/rpc"
+	config.user   = 'rpc-user'
+	config.passwd = 'rpc-password'
+	config.wallet = "default"
+        [...]
+
+If you don't know what to do with these, you certainly shouldn't run a witness
+just now. Instead, read about [RPC and the
+API](http://wiki.bitshares.org/index.php/BitShares/API) of BitShares.
+If you set up everything correctly, you may just run the python script and get
+the private keys associated to a given account name and the correspoinding
+balance:
+
+    $ python getbalancekeys.py
+               accountA   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx           2750.00000 BTS
+               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx          11246.00000 BTS
+               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx          30000.00000 BROWNIE.PTS
+               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx            300.00000 USE
+               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx          65744.00000 NOTE
+               accountC   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx              3.00000 GOLD
+               [...]
+               accountA's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+               accountB's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+               accountC's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+You will only need BTS balances (worth at least $5) and the one of your account
+owner keys in order to become a witness.
+
+## BitShares 2.0 network (or Graphene testnet)
+
 We now have everything prepared to
 
 * import an existing account into the testnet
@@ -61,17 +123,35 @@ and we will now continue with the following steps:
 * upvote the witness with our funds
 * sign blocks
 
+From this point on, we will no longer require interaction with BitShares 0.9.
+
+### Run the witness as a node in the network
+We first run the witness node without block production and connect it to the P2P
+network with the following command:
+
+    $ programs/witness_node/witness_node -s graphene.bitshares.org:8090 --rpc-endpoint 127.0.0.1:8090
+
+Ignore all warnings about missing witness ids.
+
 ### Creating a wallet
+We now open up the cli_wallet and connect to our plain and stupid witness node:
+
+    $ programs/cli_wallet/cli_wallet -s ws://176.9.234.167:8090
+
+First thing to do is setting up a password for the newly created wallet prior to
+importing any private keys:
+
     new >>> set_password <password>
     null
     locked >>> unlock <password>
     null
     unlocked >>>
 
-### Basic Account Management
-From this point on, we will no longer require interaction with BitShares 0.9.
+Wallet creation is now done.
 
-We can import the account name and the (balance containing) key into BitShares 2.0:
+### Basic Account Management
+We can import the account name (owner key) and the balance containing keys into
+BitShares 2.0:
 
     unlocked >>> import_key <accountname> <wif>
     true
@@ -87,8 +167,9 @@ We can import the account name and the (balance containing) key into BitShares 2
     unlocked >>> list_account_balances <accountname>
     XXXXXXX BTS
 
-Only lifetime members can become witnesses, so you must first upgrade to a
-lifetime member.  Upgrade and create our witness object.
+Since only lifetime members can become witnesses, you must first upgrade to a
+lifetime member. This step costs the lifetime-upgrade fee which will eventually
+cost about $100
 
     unlocked >>> upgrade_account <accountname> true
     [a transaction in json format]
@@ -187,10 +268,15 @@ terminal, don't do this with someone looking over your shoulder.
 
     unlocked >>> get_witness <accountname>
     {
+      [...]
       "id": "1.6.10",
-      "witness_account": "1.2.16",
       "signing_key": "GPH7vQ7GmRSJfDHxKdBmWMeDMFENpmHWKn99J457BNApiX1T5TNM8",
+      [...]
     }
+
+The `id` and the `signing_key` are the two important parameters, here. Let's get
+the private key for that signing key with:
+
     unlocked >>> dump_private_keys
     [[
       ...
@@ -200,14 +286,15 @@ terminal, don't do this with someone looking over your shoulder.
       ]
     ]
 
-Now we need to start the witness, so shut down the wallet (ctrl-d),  and
-shut down the witness (ctrl-c).  Re-launch the witness, now mentioning the new
+Now we need to start the witness, so shut down the wallet (ctrl-d),  and shut
+down the witness (ctrl-c).  Re-launch the witness, now mentioning the new
 witness 1.6.10 and its keypair:
 
     ./witness_node --rpc-endpoint=0.0.0.0:8090 --enable-stale-production --witness-id "1.6.10" --private-key "['GPH7vQ7GmRSJfDHxKdBmWMeDMFENpmHWKn99J457BNApiX1T5TNM8', '5JGi7DM7J8fSTizZ4D9roNgd8dUc5pirUe9taxYCUUsnvQ4zCaQ']"
 
-Alternatively, you may add this line into yout config.ini:
+Alternatively, you can also add this line into yout config.ini:
 
+    witness-id = "1.6.10"
     private-key = ["GPH7vQ7GmRSJfDHxKdBmWMeDMFENpmHWKn99J457BNApiX1T5TNM8","5JGi7DM7J8fSTizZ4D9roNgd8dUc5pirUe9taxYCUUsnvQ4zCaQ"]
 
 Note: Make sure to use YOUR public/private keys instead of the once given above!
