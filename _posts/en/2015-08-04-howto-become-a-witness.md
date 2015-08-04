@@ -10,6 +10,8 @@ existing account from the BitShares 0.9 network and add some initial funds for
 the witness registration fee. After that, we will create, configure and run a
 witness node.
 
+<!--more-->
+
 * TOC
 {:toc}
 
