@@ -20,7 +20,7 @@ some of the BTS asset that will pay the transaction fee registering your new
 witness. Get your `<wif>` key from BitShares 0.9 via
 
     BitShares0.9: >>> wallet_dump_account_key <accountname> "owner_key"
-    "5....."
+    "5....."  # the <owner wif key>
 
 ### Extracting balances from BitShares 0.9
 
@@ -63,7 +63,7 @@ The required part (the owner of the balance) is denoted as `owner`.
 Pick one or more address for BTS balances and dump the corresponding private key(s) with:
 
     BitShares0.9: >>> wallet_dump_private_key BTSOOOOOOOOOOOOOOOOOOOOOOOOOOOOOWNER
-    "5......."
+    "5......." # the <balance wif key>
 
 Note: Make sure to secure these private keys, as they are unencrypted and give
 access to the funds in the BitShares 0.9 network. You may loose your money if
@@ -92,16 +92,16 @@ the private keys associated to a given account name and the correspoinding
 balance:
 
     $ python getbalancekeys.py
-               accountA   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx           2750.00000 BTS
-               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx          11246.00000 BTS
-               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx          30000.00000 BROWNIE.PTS
-               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx            300.00000 USE
-               accountB   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx          65744.00000 NOTE
-               accountC   5xxxxxxxxxxxxxPrivateKeyxxxxxxxxxxxxxxxxxxxxxxxxxxx              3.00000 GOLD
-               [...]
-               accountA's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               accountB's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               accountC's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    accountA   5xxxxxxxxxxxxxxxxxxxxxxxxxx<owner wif key>           2750.00000 BTS        
+    accountB   5xxxxxxxxxxxxxxxxxxxxxxxxxx<owner wif key>          11246.00000 BTS
+    accountB   5xxxxxxxxxxxxxxxxxxxxxxxxxx<owner wif key>          30000.00000 BROWNIE.PTS
+    accountB   5xxxxxxxxxxxxxxxxxxxxxxxxxx<owner wif key>            300.00000 USE
+    accountB   5xxxxxxxxxxxxxxxxxxxxxxxxxx<owner wif key>          65744.00000 NOTE
+    accountC   5xxxxxxxxxxxxxxxxxxxxxxxxxx<owner wif key>              3.00000 GOLD
+    [...]
+    accountA's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxx<balance wif key>  # 
+    accountB's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxx<balance wif key>  # 
+    accountC's owner key 5xxxxxxxxxxxxxxxxxxxxxxxxxx<balance wif key>  # 
 
 
 You will only need BTS balances (worth at least $5) and the one of your account
@@ -153,9 +153,9 @@ Wallet creation is now done.
 We can import the account name (owner key) and the balance containing keys into
 BitShares 2.0:
 
-    unlocked >>> import_key <accountname> <wif>
+    unlocked >>> import_key <accountname> <owner wif key>
     true
-    unlocked >>> import_balance <accountname> [5........] true
+    unlocked >>> import_balance <accountname> <balance wif key> true
     [a transaction in json format]
     unlocked >>> list_my_accounts
     [{
