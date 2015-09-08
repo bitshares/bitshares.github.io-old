@@ -30,8 +30,7 @@ Under BitShares 2.0, accounts are transferable and have different prices based u
 Any "premium" names registered on or after 2015-06-08 (US Eastern time) will be given the prefix "bts-" or similar
 after the migration.
 
-**Update: All account names registered on or after 2015-06-18 (US Eastern time) will be migrated if and only if they
-were registered using the [BitShares Faucet](https://faucet.bitshares.org/).**
+**Update: All account names registered on or after 2015-06-18 (US Eastern time) will be prefixed with "bts-" unless they were registered using the [BitShares Faucet](https://faucet.bitshares.org/). **
 
 ## Open Order Migration
 
