@@ -61,8 +61,7 @@ created account:
 **NOTE: Because this is your first account and you have no funds, you are given an option for the BitShares faucet to pay
 your transaction fee on your behalf.**
 
-**IMPORTANT NOTE: All account names registered on or after 2015-06-18 (US Eastern time) will be migrated if and only if they
-were registered using the [BitShares Faucet](https://faucet.bitshares.org/).**
+**IMPORTANT NOTE: All account *names* registered on or after 2015-06-18 (US Eastern time) will be migrated if and only if they were registered using the [BitShares Faucet](https://faucet.bitshares.org/).  If you register an account outside the faucet it will be migrated to BitShares 2.0 with a "bts-" prefix. You will not lose any funds during the migration.**
 
 Now, click the blue Register button, which will open your web browser and take you to faucet.bitshares
 
