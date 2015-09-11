@@ -84,3 +84,11 @@ protocol.   We have designed a new protocol that should be have dramatically low
 can lower the block interval to 1 second without a hardfork as soon as they are confident that the network communication
 can operate reliably at 1hz on a test network.
 
+## Launch Plans
+
+We will be taking the snapshot on a Tuesday so we have time to prepare on Monday and support 
+it through the rest of the week.   The actual snapshot time will be the last block prior to 9:00:00AM EST. BTS 2.0
+chain will then launch no later than 4PM EST.  
+
+
+
