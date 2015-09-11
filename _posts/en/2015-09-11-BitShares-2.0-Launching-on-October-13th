@@ -1,0 +1,86 @@
+---
+title: BitShares 2.0 to Launch on October 13th
+author: <a href="https://cryptonomex.com/" target="_blank">Cryptonomex</a>
+---
+
+It has been a long wait for since the June 8th announcement of Graphene and the plans to upgrade to BitShares 2.0.
+Back in June we said that we would complete BitShares 2.0 by the end of the summer and that we would give a 30
+day notice after completion before upgrading.   The last day of the astronomical summer in the Northern Hemisphere
+is September 22, 2015 which means we have reached our goal and can start the 30 day countdown 11 days early!
+
+## Test Net Results 
+
+Over the past 2 weeks we have been running a test network non-stop that has proven to be reliable.  Despite some
+known issues with the P2P networking / synchronization code we feel confident that a reliable network can be
+launched in a month and that we have sufficient contingency plans if things cannot be fully resolved in time.
+
+Durring this testing members of the community have hammered the blockchain with as many transactions as they could
+produce.  People were running out of test BTS with which to pay fees.   These tests pushed throughput up to 20 
+transactions per second and the network kept chugging.   You may notice that 20 TPS is a long way from 100K TPS so 
+I would like to explain this a bit.   
+
+The performance of the test network is mostly hindered by existing P2P protocol and not by the CPU load of
+processing transactions.  To reach 100,000 TPS would require high-end servers with Gigabit, low-latency, connections
+between them.   At a minimum it would require 30 MB per second just to receive the stream of data in real time.
+This is clearly beyond the reach of our humble testers using low-end VPS nodes.    
+
+The real proof-of-performance/scalability lies in how quickly we can replay the blockchain once we have it 
+downloaded.   Our replay performance continues to be above 100K transactions per second.  The networking issues
+will get resolved as demand increases.  For now the existing protocol can easily handle 3x the volume of Bitcoin
+which is over 30x the current volume of BitShares transactions.   By the time the network is averaging 30
+transactions per second it will be earning an average of $8000 per day in fees ($3M per year), the market cap
+would be much higher, and as a result worker proposals would easily be able to fund all of the innovation needed
+on the networking layer.
+
+
+## Changes since June
+
+A lot has happened over the past 3 months and some compromises had to be made to reach our goals.
+
+### 1.  Postpone Bond Market 
+
+Back in June we announced on the forum the decision to postpone the Bond market features until after BitShares 2.0 was released.  This
+decision was driven by an inability to fully test this feature and the belief that it was the most likely to need
+refinement, community feed back, and that it would woudl be unusable without a GUI.
+
+### 2. Added Confidential / Stealth Transfers 
+
+One of the things we lamented in our original announcement was that bitcoin-style privacy was an illusion.  Ironically on the
+same day we announced Graphene and BitShares 2.0 Blockstream released an implementation of Confidential Transactions
+which is well understood and computationally viable.   After reviewing their approach we decided to implement them 
+in Graphene for BitShares 2.0.    
+
+Confidential Transfers hide the amounts being transfered while still allowing those who validate the blockchain
+to verify that the balances transfered sum to 0 and are not negative.  Stealth transfers are used to automatically
+generate a unique key for every transfer.  The combination of these two features means that it becomes pratically
+impossible for a 3rd party to identify how much you have sent or received or who is sending money to whom.  
+
+If you are willing to reveal who is sending to whom (but not how much) then it is even possible to use confidential
+transfers with regular hierarchical threshold multi-sig accounts.  
+
+Currently the web wallet does not support generating or receiving confidential transactions, but the command line wallet
+has full support for them.   More details on how to use confidential/stealth transfers will be made available in the
+weeks ahead.  
+
+### 3. Added Desktop Client
+
+Not everyone wants to rely on a web browser to secure their funds so we have put together a new desktop client that
+can operate either as a full node or a light node.   This client uses the latest [Qt WebEngine](https://wiki.qt.io/QtWebEngine) 
+which is based upon Chromium rather than Webkit and should be much more stable than the BitShares 0.9x wallets which
+were known to crash from time to time (especially on Windows).  
+
+### 4.  Reduced Scope of Initial GUI
+
+We had originally intended to have every feature available in the GUI on launch.  We have scaled back the feature
+set for the inital release to do little more than provide at least the same level of features as BTS 0.9x.  Some
+advanced features such as recurring payments, permission management, confidential/stealth transfers, asset management,
+and the like will be added as we have the opportunity to do so.
+
+### 5.  Increased Block Interval to 3 seconds
+
+Our goal of 1 second blocks has been postponed due to limitations in the P2P code we inhereted from BTS 0.9. 
+Initial tests showed on a global scale the latency would result in too many forks without developing a new P2P
+protocol.   We have designed a new protocol that should be have dramatically lower latency.  The witnesses/delegates
+can lower the block interval to 1 second without a hardfork as soon as they are confident that the network communication
+can operate reliably at 1hz on a test network.
+
