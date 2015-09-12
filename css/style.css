@@ -49,6 +49,42 @@ background-color: #a9014b;
 background-color: #ffb515;
 }
 
+a.launch {
+  color: #FFF;
+  border-bottom: 1px solid #00A9E0;
+  padding: 2px 4px;
+}
+
+a.launch:hover {
+  background-color: #00A9E0;
+}
+
+#getting-started {
+  margin-bottom: -24px;
+}
+
+
+#getting-started ul{
+  padding: 0;
+  margin: 0 auto;
+}
+
+
+#getting-started ul li{
+  display: inline-block;
+  padding: 12px;
+  font-size: 3rem;
+  color: #00A9E0;
+  font-weight: 700;
+  width: 120px;
+}
+#getting-started ul li small{
+  color: #FFF;
+  font-weight: 100;
+  font-size: 1.25rem;
+  float: right;
+}
+
 
 /* @end */
 
