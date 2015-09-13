@@ -41,11 +41,22 @@ redirect_from:
 <section class="teaser ">
 
 <div class="slogan ">
-<center>
-    <a href="/blog/2015/06/08/announcing-bitshares-2.0/">
-   <img class="soon" src="../images/frontpage/icon-soon.svg" alt="" />
-    </a>
-   </center>
+  <center>
+
+    <a class="launch" href="https://bitshares.org/blog/2015/09/11/BitShares-2.0-Launching-on-October-13th/">Launch Plan - More Details</a>
+
+    <div id="getting-started"></div>
+
+    <script type="text/javascript">
+
+      var nextYear = moment.tz("2015-10-13 09:00", "GMT-5000");
+
+      $('#getting-started').countdown(nextYear.toDate(), function(event) {
+        $(this).html(event.strftime('<ul><li>%-D <small>day%!D</small></li> <li>%-H <small>hour%!H</small></li> <li>%M <small>min</small></li> <li>%S <small>sec</small></li></ul>'));
+
+   });
+    </script>
+     </center>
 
     <h2 class="pitch">
        BitShares 2.0 is an industrial-grade financial smart contract platform.
