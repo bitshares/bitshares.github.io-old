@@ -3,7 +3,7 @@ permalink: /technology/industrial-performance-and-scalability/
 redirect_from:
     - /technology/high-performance-and-scalability/
 title: Industrial Performance and Scalability
-subtitle: Over 100,000 transactions per second
+subtitle: Graphene is capable of 100,000 TPS
 image: ../images/frontpage/icon-performance.svg
 priority: 2
 summary: >
@@ -36,10 +36,10 @@ scalable resource of all.  BitShares is designed to get the most out of this sin
 
 ## Background
 
-A blockchain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global 
+A blockchain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global
 state at a specified timestamp. The order in which transactions are processed can change the validity of other transactions.
-For example, you cannot withdraw money from your bank account until after your paycheck deposit has cleared. 
-It becomes impossible to know whether or not a transaction is valid until after all prior transactions that impact a particular 
+For example, you cannot withdraw money from your bank account until after your paycheck deposit has cleared.
+It becomes impossible to know whether or not a transaction is valid until after all prior transactions that impact a particular
 account have been processed.
 
 In theory, transactions for two unrelated accounts can be processed at the same time, provided that they do not share any
