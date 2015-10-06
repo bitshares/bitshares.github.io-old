@@ -3,7 +3,7 @@ permalink: /technology/industrial-performance-and-scalability/
 redirect_from:
     - /technology/high-performance-and-scalability/
 title: Industrial Performance and Scalability
-subtitle: Graphene is capable of 100,000 TPS when we pay for the network to go with it.
+subtitle: Graphene is capable of 100,000 TPS
 image: ../images/frontpage/icon-performance.svg
 priority: 2
 summary: >
