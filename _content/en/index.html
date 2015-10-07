@@ -43,15 +43,15 @@ redirect_from:
 <div class="slogan ">
   <center>
 
-    <a class="launch" href="https://bitshares.org/blog/2015/09/11/BitShares-2.0-Launching-on-October-13th/">Launch Plan - More Details</a>
+    <a class="launch" href="https://bitshares.org/blog/2015/09/11/BitShares-2.0-Launching-on-October-13th/">Launch Plans - More Details</a>
 
     <div id="getting-started"></div>
 
     <script type="text/javascript">
 
-      var nextYear = moment.tz("2015-10-13 09:00", "GMT-5000");
+      var launch = moment.tz("2015-10-13 09:00", "GMT-5000");
 
-      $('#getting-started').countdown(nextYear.toDate(), function(event) {
+      $('#getting-started').countdown(launch.toDate(), function(event) {
         $(this).html(event.strftime('<ul><li>%-D <small>day%!D</small></li> <li>%-H <small>hour%!H</small></li> <li>%M <small>min</small></li> <li>%S <small>sec</small></li></ul>'));
 
    });
@@ -62,8 +62,7 @@ redirect_from:
        BitShares 2.0 is an industrial-grade financial smart contract platform.
     </h2>
    <p class="pitch-sub">
-    Built using the latest in industry research, BitShares 2.0 delivers a decentralized financial platform
-    with the speed of the NASDAQ.
+     Built using the latest in industry research, BitShares 2.0 delivers a decentralized financial platform with speeds <strong><span style="border-bottom: 1px dotted #10A9E0">approaching</span><sup><span style="color:#10A9E0" id="asterisk">**</span></sup></strong> NASDAQ.
 </p>
    </center>
 <div class="row center">
@@ -113,4 +112,12 @@ redirect_from:
 
 </div>
 </center>
+<p style="text-align:center; margin-top:48px;">
+<span style="color:#10A9E0" id="asterisk">**</span><small> The first release will be two orders of magnitude faster than Bitcoin at 100 transactions per second throughput and scalable to 100,000 as usage grows.<br>
+Instead of Bitcoin's 10 minute transaction times, BitShares 2.0 will produce blocks conservatively in 3 seconds with the option to accelerate to 1 second transactions in the coming months.</small>
+</p>
+
+</center>
+<center>
+
 </div></section>
