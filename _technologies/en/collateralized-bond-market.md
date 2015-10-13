@@ -3,7 +3,7 @@ permalink: /technology/collateralized-bond-market/
 title: Collateralized Bond Market
 subtitle: Integrated peer-to-peer lending
 image: ../images/frontpage/icon-bonds.svg
-priority: 3
+priority: 8
 summary: >
     The BitShares bond market is an investment marketplace accessible to anyone with an internet connection. In the
     bond market, you can earn interest with any asset, or take a short position using any other asset as collateral.  (Coming Soon)
