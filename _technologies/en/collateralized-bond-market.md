@@ -6,7 +6,7 @@ image: ../images/frontpage/icon-bonds.svg
 priority: 3
 summary: >
     The BitShares bond market is an investment marketplace accessible to anyone with an internet connection. In the
-    bond market, you can earn interest with any asset, or take a short position using any other asset as collateral.
+    bond market, you can earn interest with any asset, or take a short position using any other asset as collateral.  (Coming Soon)
 ---
 
 The BitShares bond market allows for an interest rate market between any combination of assets
