@@ -40,74 +40,33 @@ Once you have chosen an account name that you are happy with, click the Create N
 can contain one or more accounts, which means that you can create multiple accounts within your wallet, so there’s no
 need to worry about picking the perfect name.**
 
-After clicking Create New Account you will have what is known as an unregistered account, as shown below:
+After clicking Create New Account you will be registered automatically, as shown below:
 
 <img class="img-responsive" src="/images/get-started/3_account_created.png"  width="800px"   />
 
-**NOTE: An unregistered account is like an unlisted phone number. No one knows about it unless you share the Account Key
-with them and they manually add it as a contact.**
-
-## Step 3 - Register Account
-The next step is to register an account by
-clicking the blue button to the right of your account name.
-
-<img class="img-responsive" src="/images/get-started/4_account_created_arrow.png"  width="800px"   />
-
-This will bring up a dialog that asks you how you would like to pay the transaction fee required to register your newly
-created account:
-
-<img class="img-responsive" src="/images/get-started/5_register_account.png"  width="800px"   />
-
-**NOTE: Because this is your first account and you have no funds, you are given an option for the BitShares faucet to pay
-your transaction fee on your behalf.**
-
-**IMPORTANT NOTE: All account *names* registered on or after 2015-06-18 (US Eastern time) will be migrated if and only if they were registered using the [BitShares Faucet](https://faucet.bitshares.org/).  If you register an account outside the faucet it will be migrated to BitShares 2.0 with a "bts-" prefix. You will not lose any funds during the migration.**
-
-Now, click the blue Register button, which will open your web browser and take you to faucet.bitshares
-
-<img class="img-responsive" src="/images/get-started/6_register_account_arrow.png" width="800px"   />
-
-Once you’ve reached faucet.bitshares.org, you will be asked to login via one of several different services that most
-people already have an account with:
-
-<img class="img-responsive" src="/images/get-started/7_faucet.png"  width="800px"   />
-
-**NOTE: This is done to prevent abuse of the free faucet registration service only. Your BitShares account is not publicly
-tied to the service you choose to login with.**
-
-After logging in via one of these services, the faucet gives you an opportunity to share your new account with your
-friends, if you like:
-
-<img class="img-responsive" src="/images/get-started/8_faucet_complete.png"  width="800px"   />
-
-**NOTE: Regardless of whether or not you chose to share your new account, your account will automatically and instantly be
-registered on the blockchain.**
-
-When you return to your wallet, your account should be shown as a Registered account:
-
-<img class="img-responsive" src="/images/get-started/10_account_registered_arrow.png"  width="800px"   />
-
-Welcome to the blockchain! Reaching this step means you have successfully created and registered your account with the
-blockchain and may now use it to receive funds. If you run into any problems following the steps above, there are very
-helpful people on the BitShares forum who will be more than willing to help!
-
 ## Step 4 - Backup Wallet
-As a best practice, you should create a backup copy of your wallet. To backup your wallet, go to the File menu and
-select Export Wallet:
+As a best practice, you should create a backup copy of your wallet right now.
+To backup your wallet, to the wallet management console as shown below.
 
-<img class="img-responsive" src="/images/get-started/11_ExportWallet_box.jpg"  width="800px"   />
+<img class="img-responsive" src="/images/get-started/5_backup_wallet.png"  width="800px"   />
 
 Your password is used to protect your wallet, which contains your private keys while they are stored on your
 computer. Be sure to use a reasonably strong password and that your password is not used anywhere else.
 
-**NOTE: We recommend backing up your wallet to one or more USB sticks and storing them in a safe location. As long as
-you have access to this first backup you should be able to recover any accounts and balances that you have in the
-future. Just be sure you don’t forget your wallet password from the first step.**
+Provide the password defined at when you created your accounts:
+<img class="img-responsive" src="/images/get-started/6_create_backup.png" width="432px" />
 
-At this point, the BitShares application will ask you for a location to save your wallet file. Select the location
-of your choosing, click Save, and you are done!
+At this point, the BitShares application will ask you to verify the so called
+brain key which can be used to recover all your accounts created in your
+wallet.
 
-<img class="img-responsive" src="/images/get-started/12_save_backup.png" width="432px" />
+<img class="img-responsive" src="/images/get-started/7_copy_brainkey.png" width="432px" />
+
+Write down the brain key and store it safely. It will allow access to your
+accounts and funds without any further requirements! After that, press next and
+verify that you wrote down your brain key correctly:
+
+<img class="img-responsive" src="/images/get-started/8_verify_brainkey.png" width="432px" />
 
 **NOTE: While you only have to do this once to recover your balances, we recommend that you do this periodically to
 avoid losing your transaction history.**
