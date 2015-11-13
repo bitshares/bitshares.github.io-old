@@ -1,13 +1,20 @@
 var searchData=
 [
+  ['label',['label',['../structgraphene_1_1wallet_1_1blind__confirmation_1_1output.html#a23e62c79ea961b27e1774b1a995a752f',1,'graphene::wallet::blind_confirmation::output::label()'],['../structgraphene_1_1wallet_1_1key__label.html#ad8baaecd6b9247a1cbb411a069a6b3d5',1,'graphene::wallet::key_label::label()']]],
+  ['labeled_5fkeys',['labeled_keys',['../structgraphene_1_1wallet_1_1wallet__data.html#a3bbf7a9171d333b97057ca598c674e1c',1,'graphene::wallet::wallet_data']]],
+  ['last_5faslot',['last_aslot',['../classgraphene_1_1chain_1_1witness__object.html#a0b6afcff19d10b92ed58bf65fc920dc6',1,'graphene::chain::witness_object']]],
   ['last_5fbudget_5ftime',['last_budget_time',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a6885010b682e4f90ba14d6a3ea4b61bb',1,'graphene::chain::dynamic_global_property_object']]],
-  ['last_5fscheduling_5fblock',['last_scheduling_block',['../classgraphene_1_1chain_1_1witness__schedule__object.html#a4a9de6d2840322e7f8d6921a4cccf6d5',1,'graphene::chain::witness_schedule_object']]],
-  ['last_5fsecret',['last_secret',['../classgraphene_1_1chain_1_1witness__object.html#a8394be172df044f048f4776eff74de88',1,'graphene::chain::witness_object']]],
-  ['lease_5fseconds',['lease_seconds',['../structgraphene_1_1chain_1_1file__write__operation.html#a8f0807e0fd6a8e04588837a457d51673',1,'graphene::chain::file_write_operation']]],
-  ['lender',['lender',['../classgraphene_1_1chain_1_1bond__object.html#a55739e7b48914f874d0061b082c9ad93',1,'graphene::chain::bond_object::lender()'],['../structgraphene_1_1chain_1_1bond__accept__offer__operation.html#a2becf2fded4cc8661d693e562d276d69',1,'graphene::chain::bond_accept_offer_operation::lender()'],['../structgraphene_1_1chain_1_1bond__claim__collateral__operation.html#ac649f1b6506cd682fd2b20909232d3ba',1,'graphene::chain::bond_claim_collateral_operation::lender()']]],
+  ['last_5fclaim_5fdate',['last_claim_date',['../classgraphene_1_1chain_1_1balance__object.html#a198dec1120c06ce42b278959d4ca000a',1,'graphene::chain::balance_object']]],
+  ['last_5fconfirmed_5fblock_5fnum',['last_confirmed_block_num',['../classgraphene_1_1chain_1_1witness__object.html#a19274ffd2f316d389724aef1e3b44450',1,'graphene::chain::witness_object']]],
+  ['last_5firreversible_5fblock_5fnum',['last_irreversible_block_num',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a74dfc7b21530d28ade644ce1ff13a2b7',1,'graphene::chain::dynamic_global_property_object']]],
+  ['leftover_5fworker_5ffunds',['leftover_worker_funds',['../structgraphene_1_1chain_1_1budget__record.html#a7c2bb619a75be2b272eadcde3412c7ff',1,'graphene::chain::budget_record']]],
   ['lifetime_5ffees_5fpaid',['lifetime_fees_paid',['../classgraphene_1_1chain_1_1account__statistics__object.html#adfd506e7176772143a194e1f214feaa2',1,'graphene::chain::account_statistics_object']]],
-  ['limit_5forder_5ffee',['limit_order_fee',['../structgraphene_1_1chain_1_1fee__schedule__type.html#a84713da20024f383ab2b22adb53f1705',1,'graphene::chain::fee_schedule_type']]],
+  ['lifetime_5freferrer',['lifetime_referrer',['../classgraphene_1_1chain_1_1account__object.html#a30f76968ef4c60fa570a0974f8417543',1,'graphene::chain::account_object']]],
+  ['lifetime_5freferrer_5ffee_5fpercentage',['lifetime_referrer_fee_percentage',['../classgraphene_1_1chain_1_1account__object.html#a740544ffa778d3f11fccd468bfb2e90e',1,'graphene::chain::account_object']]],
+  ['lifetime_5freferrer_5fname',['lifetime_referrer_name',['../structgraphene_1_1app_1_1full__account.html#a34ae5d2ed2f6150080b643bc77d0006f',1,'graphene::app::full_account']]],
+  ['lifetime_5freferrer_5fpercent_5fof_5ffee',['lifetime_referrer_percent_of_fee',['../structgraphene_1_1chain_1_1chain__parameters.html#a9b30881e02622c6dc73373eac1a77831',1,'graphene::chain::chain_parameters']]],
+  ['limit_5forders',['limit_orders',['../structgraphene_1_1app_1_1full__account.html#a8a7da90d80002d1b61aa9d16b13547e7',1,'graphene::app::full_account']]],
   ['listed_5faccount',['listed_account',['../classgraphene_1_1chain_1_1account__whitelist__evaluator.html#a3c28a75a53773fec80783f30ca95fa6f',1,'graphene::chain::account_whitelist_evaluator']]],
-  ['loan_5fperiod_5fsec',['loan_period_sec',['../classgraphene_1_1chain_1_1bond__offer__object.html#a92fe4167e65cda80f3fd46a45d478e4c',1,'graphene::chain::bond_offer_object::loan_period_sec()'],['../structgraphene_1_1chain_1_1bond__create__offer__operation.html#a28e9a51e683e427f041e0d9ce9d0d254',1,'graphene::chain::bond_create_offer_operation::loan_period_sec()']]],
-  ['lock_5fchanged',['lock_changed',['../classgraphene_1_1wallet_1_1wallet__api.html#a333834072c4aaa8f25d7ea52b39a76bd',1,'graphene::wallet::wallet_api']]]
+  ['lock_5fchanged',['lock_changed',['../classgraphene_1_1wallet_1_1wallet__api.html#a333834072c4aaa8f25d7ea52b39a76bd',1,'graphene::wallet::wallet_api']]],
+  ['long_5fsymbol',['long_symbol',['../structgraphene_1_1chain_1_1asset__create__operation_1_1fee__parameters__type.html#a0626b08aa1fed9e5f533d56f646c4681',1,'graphene::chain::asset_create_operation::fee_parameters_type']]]
 ];

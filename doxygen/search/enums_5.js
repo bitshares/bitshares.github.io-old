@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['object_5ftype',['object_type',['../namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633d',1,'graphene::chain']]]
+  ['reserved_5fspaces',['reserved_spaces',['../namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400',1,'graphene::chain']]]
 ];

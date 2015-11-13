@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fee_5ftype',['fee_type',['../namespacegraphene_1_1chain.html#ae6d4436e19bf86eb77f3b9ec6866b675',1,'graphene::chain']]]
+  ['dynamic_5fflag_5fbits',['dynamic_flag_bits',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a566f83c180a362c4296d06e5d1930482',1,'graphene::chain::dynamic_global_property_object']]]
 ];

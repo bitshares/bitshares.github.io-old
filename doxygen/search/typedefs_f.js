@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['upgrade_5fdb_5ffunction',['upgrade_db_function',['../namespacegraphene_1_1db.html#a10ea5050710eea6f9840fba93fb30d53',1,'graphene::db']]]
+  ['uint128_5ft',['uint128_t',['../namespacegraphene_1_1chain.html#ab6499fee45a9563fe61a7a0b0d39dbde',1,'graphene::chain']]]
 ];

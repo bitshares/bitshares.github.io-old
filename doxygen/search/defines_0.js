@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['calculate_5fmedian_5fvalue',['CALCULATE_MEDIAN_VALUE',['../asset__object_8cpp.html#a7ae460370a89ff55c8e2479eabb80656',1,'asset_object.cpp']]]
+  ['brain_5fkey_5fword_5fcount',['BRAIN_KEY_WORD_COUNT',['../wallet_8cpp.html#aef75f0b4b814cf9497f51862ea940319',1,'wallet.cpp']]]
 ];

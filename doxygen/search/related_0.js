@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['base_5fprimary_5findex',['base_primary_index',['../classgraphene_1_1db_1_1object__database.html#aceb769661d19eb7299f5def854f55b58',1,'graphene::db::object_database']]]
+  ['hash_5fvalue',['hash_value',['../classgraphene_1_1chain_1_1address.html#ae4ce2352ad36d5689d87fc2f59b22d9d',1,'graphene::chain::address::hash_value()'],['../structgraphene_1_1chain_1_1vote__id__type.html#a5c46a07b7559a27aae62782ee0a26897',1,'graphene::chain::vote_id_type::hash_value()']]]
 ];

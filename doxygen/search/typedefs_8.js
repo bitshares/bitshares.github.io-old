@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['key_5fid_5ftype',['key_id_type',['../namespacegraphene_1_1chain.html#a881eeb15341b1b0ceb0caae4afdea7eb',1,'graphene::chain']]]
+  ['key_5flabel_5findex_5ftype',['key_label_index_type',['../namespacegraphene_1_1wallet.html#a00d96f68df9fc0364b97a1fdb077045c',1,'graphene::wallet']]]
 ];

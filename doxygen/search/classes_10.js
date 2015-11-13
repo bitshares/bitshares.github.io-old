@@ -1,14 +1,15 @@
 var searchData=
 [
-  ['session',['session',['../classgraphene_1_1db_1_1undo__database_1_1session.html',1,'graphene::db::undo_database']]],
-  ['short_5forder_5fcancel_5fevaluator',['short_order_cancel_evaluator',['../classgraphene_1_1chain_1_1short__order__cancel__evaluator.html',1,'graphene::chain']]],
-  ['short_5forder_5fcancel_5foperation',['short_order_cancel_operation',['../structgraphene_1_1chain_1_1short__order__cancel__operation.html',1,'graphene::chain']]],
-  ['short_5forder_5fcreate_5fevaluator',['short_order_create_evaluator',['../classgraphene_1_1chain_1_1short__order__create__evaluator.html',1,'graphene::chain']]],
-  ['short_5forder_5fcreate_5foperation',['short_order_create_operation',['../structgraphene_1_1chain_1_1short__order__create__operation.html',1,'graphene::chain']]],
-  ['short_5forder_5fobject',['short_order_object',['../classgraphene_1_1chain_1_1short__order__object.html',1,'graphene::chain']]],
+  ['seq',['seq',['../structgraphene_1_1chain_1_1detail_1_1seq.html',1,'graphene::chain::detail']]],
+  ['seq_3c_20is_2e_2e_2e_20_3e',['seq&lt; Is... &gt;',['../structgraphene_1_1chain_1_1detail_1_1seq.html',1,'graphene::chain::detail']]],
+  ['set_5ffee_5fvisitor',['set_fee_visitor',['../structgraphene_1_1chain_1_1set__fee__visitor.html',1,'graphene::chain']]],
+  ['sign_5fstate',['sign_state',['../structgraphene_1_1chain_1_1sign__state.html',1,'graphene::chain']]],
   ['signed_5fblock',['signed_block',['../structgraphene_1_1chain_1_1signed__block.html',1,'graphene::chain']]],
   ['signed_5fblock_5fheader',['signed_block_header',['../structgraphene_1_1chain_1_1signed__block__header.html',1,'graphene::chain']]],
+  ['signed_5fblock_5fwith_5finfo',['signed_block_with_info',['../structgraphene_1_1wallet_1_1signed__block__with__info.html',1,'graphene::wallet']]],
   ['signed_5ftransaction',['signed_transaction',['../structgraphene_1_1chain_1_1signed__transaction.html',1,'graphene::chain']]],
-  ['simple_5findex',['simple_index',['../classgraphene_1_1db_1_1simple__index.html',1,'graphene::db']]],
-  ['sparse_5findex',['sparse_index',['../structgraphene_1_1chain_1_1sparse__index.html',1,'graphene::chain']]]
+  ['skip_5fflags_5frestorer',['skip_flags_restorer',['../structgraphene_1_1chain_1_1detail_1_1skip__flags__restorer.html',1,'graphene::chain::detail']]],
+  ['static_5fvariant_5fmap',['static_variant_map',['../structgraphene_1_1wallet_1_1static__variant__map.html',1,'graphene::wallet']]],
+  ['static_5fvariant_5fmap_5fvisitor',['static_variant_map_visitor',['../structgraphene_1_1wallet_1_1impl_1_1static__variant__map__visitor.html',1,'graphene::wallet::impl']]],
+  ['stealth_5fconfirmation',['stealth_confirmation',['../structgraphene_1_1chain_1_1stealth__confirmation.html',1,'graphene::chain']]]
 ];
