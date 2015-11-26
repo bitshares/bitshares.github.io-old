@@ -8,6 +8,7 @@
       </head>
       <body>
         <div><h1>BitShares 2.0 Roadmap</h1></div>
+        <div><center><small>Last edit: 11-25-2015 </small></center></div>
         <xsl:for-each select="areas/area">
           <table>
             <caption><xsl:value-of select="name"/></caption>

@@ -1,17 +1,20 @@
+@import "fonts.css";
+
 body{
-	background-color:#2C3539;
+	background-color:#F9F9F9;
 }
 div h1{
-	font-family:Helvetica, Arial, sans-serif;
+  font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
+  font-weight: 100;
 	text-align:center;
 	font-size:44px;
-	color:#686D6E;
+	color:#3C3C54;
 	margin:20px;
 }
 table{
-	border:1px solid #000;
+	border:0px solid #FFF;
 	border-collapse:collapse;
-	font-family:arial,sans-serif;
+  font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
 	font-size:80%;
 	margin: 40px auto;
 	table-layout: fixed;
@@ -31,18 +34,17 @@ caption{
 	text-align:left;
 }
 thead th{
-	background:#eee;
+	background:#F9F9F9;
 	text-align:left;
 	color:gray;
-	font-style:italic;
 }
 tbody th{
-	background:#585C5C;
+	background:#3C3C54;
 	color:white;
 	text-align:left;
 }
 tbody td{
-	background:#626666;
+	background:#3C3C54;
 	color:white;
 }
 tbody tr td.warn{
@@ -52,19 +54,19 @@ tbody tr td.alert{
 	background:#C11B17;
 }
 tbody tr.done th{
-	background:#0c3;
-	color:#666;
+	background:#15A6DB;
+	color:#F9F9F9;
 }
 tbody tr.done td{
-	background:#0f3;
-	color:gray;
+	background:#15A6DB;
+	color:#F9F9F9;
 }
 tbody tr.done td a{
-	color:gray;
+	color:#F9F9F9;
 }
 
 a{
-	color:#ADA96E;
+	color:#73C9C9;
 }
 
 .links div{
