@@ -20,6 +20,11 @@ table{
 	table-layout: fixed;
 	width: 1000px;
 }
+
+small {
+  font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
+  letter-spacing: 0.025rem;
+}
 td,th{
 	border:1px solid #000;
 	border-collapse:collapse;
