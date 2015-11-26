@@ -4,7 +4,7 @@
   <area>
     <name>Outstanding tasks after launch</name>
     <items>
-      <item done="1">
+      <item progress="1.0">
         <title>Referral URLs</title>
         <status>Completed</status>
         <overlap>N</overlap>
@@ -18,7 +18,7 @@
         <links/>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Migration tool for holders of a large number of private keys</title>
         <status>Ongoing</status>
         <overlap>N</overlap>
@@ -32,7 +32,7 @@
         <links/>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Complete API for trading bots &amp; other apps</title>
         <status>Ongoing</status>
         <overlap>N</overlap>
@@ -51,7 +51,7 @@
   <area>
     <name>Major GUI improvements</name>
     <items>
-      <item done="0">
+      <item progress="0.0">
         <title>GUI tool for committee / worker proposals</title>
         <status>Ongoing</status>
         <overlap>N</overlap>
@@ -65,7 +65,7 @@
         <links/>
       </item>
 
-      <item done="1">
+      <item progress="1.0">
         <title>GUI tool for listing all open orders</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
@@ -79,7 +79,7 @@
         <links/>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Improve deposit/withdraw UX</title>
         <status>Planned for milestone 15.12.02</status>
         <overlap>N</overlap>
@@ -98,7 +98,7 @@
         </links>
       </item>
 
-      <item done="1">
+      <item progress="1.0">
         <title>Funds expressed as stake percentages &amp; in chosen currency</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
@@ -121,7 +121,7 @@
         </links>
       </item>
 
-      <item done="1">
+      <item progress="1.0">
         <title>Support for requesting settlement of bit asset</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
@@ -140,7 +140,7 @@
         </links>
       </item>
 
-      <item done="1">
+      <item progress="1.0">
         <title>Support for proposed transactions</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
@@ -159,7 +159,7 @@
         </links>
       </item>
 
-      <item done="1">
+      <item progress="1.0">
         <title>Fee schedule</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
@@ -173,7 +173,7 @@
         <links/>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Advanced Chart Index</title>
         <status>Planned for milestone 15.12.02</status>
         <overlap>N</overlap>
@@ -192,7 +192,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Support for native deployment on mobile devices</title>
         <status>Investigating React-native</status>
         <overlap>N</overlap>
@@ -216,7 +216,7 @@
   <area>
     <name>Funded workers</name>
     <items>
-      <item done="0">
+      <item progress="0.0">
         <title>Refund market order creation fees</title>
         <status>Funded worker</status>
         <overlap>N</overlap>
@@ -244,7 +244,7 @@
   <area>
     <name>Features proposed by CNX</name>
     <items>
-      <item done="0">
+      <item progress="0.0">
         <title>Market fees adjustment</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -267,7 +267,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Hosted wallet service</title>
         <status>Not started</status>
         <overlap>Y</overlap>
@@ -290,7 +290,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Improve market statistics &amp; standardize trading API</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -313,7 +313,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Fiat deposit/withdraw KYC management</title>
         <status>Not started</status>
         <overlap>Y</overlap>
@@ -336,7 +336,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Stealth transfers</title>
         <status>Not started</status>
         <overlap>Y</overlap>
@@ -359,7 +359,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Maintain Proxy Voting Totals</title>
         <status>Not started</status>
         <overlap>Y</overlap>
@@ -378,7 +378,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Margin Trading / Collateralized Bond Market</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -397,7 +397,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Instant Orders (BitStamp style)</title>
         <status>Not started</status>
         <overlap>?</overlap>
@@ -416,7 +416,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Distribute market fees on core asset to Referral Program</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -435,7 +435,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Launch a Demo/Dev chain</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -454,7 +454,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Open Source Graphene UI for BitShares</title>
         <status>Awaiting review</status>
         <overlap>N</overlap>
@@ -482,7 +482,7 @@
   <area>
     <name>Features proposed by Community</name>
     <items>
-      <item done="0">
+      <item progress="0.0">
         <title>Fix margin call trigger</title>
         <status>Completed, tests pending</status>
         <overlap>N</overlap>
@@ -505,7 +505,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Affiliate dashboard for LTM</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -519,7 +519,7 @@
         <links/>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Trollbox for the Exchange</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -542,7 +542,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Chatbox Customer Support</title>
         <status>Not started</status>
         <overlap>N</overlap>
@@ -566,7 +566,7 @@
   <area>
     <name>Integration with 3rd party</name>
     <items>
-      <item done="0">
+      <item progress="0.0">
         <title>AdamBLevine's Tokenly Ecosystem integration</title>
         <status>Pending a worker proposal</status>
         <overlap>N</overlap>
@@ -590,7 +590,7 @@
   <area>
     <name>Existing features to be exposed in the GUI</name>
     <items>
-      <item done="0">
+      <item progress="0.0">
         <title>Prediction Markets</title>
         <status>Postponed</status>
         <overlap>N</overlap>
@@ -608,8 +608,8 @@
           </link>
         </links>
       </item>
-      
-      <item done="0">
+
+      <item progress="0.0">
         <title>Recurring &amp; Scheduled Payments</title>
         <status>Postponed</status>
         <overlap>N</overlap>
@@ -628,7 +628,7 @@
         </links>
       </item>
 
-      <item done="0">
+      <item progress="0.0">
         <title>Transferable Named Accounts</title>
         <status>Postponed</status>
         <overlap>N</overlap>
