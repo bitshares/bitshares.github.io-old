@@ -14,7 +14,7 @@ div h1{
 table{
 	border:0px solid #FFF;
 	border-collapse:collapse;
-  font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
 	font-size:80%;
 	margin: 40px auto;
 	table-layout: fixed;
@@ -52,7 +52,7 @@ tbody td{
 	background:#3C3C54;
 	color:white;
 }
-tbody tr td.warn{
+tbody tr td.warning{
 	background:#FFA62F;
 }
 tbody tr td.alert{
