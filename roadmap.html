@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<script>
 			function loadXMLDoc(filename) {
 				if (window.ActiveXObject) {
@@ -12,23 +14,21 @@
 				xhttp.send("");
 				return xhttp.responseXML;
 			}
-			function displayResult(inputXML,inputXSL) {
-				var div = document.createElement('div');
-				document.getElementsByTagName('body')[0].appendChild(div);
+			function transformXMLDoc(target,inputXML,inputXSL) {
 				xml = loadXMLDoc(inputXML);
 				xsl = loadXMLDoc(inputXSL);
 				if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
-			  		ex = xml.transformNode(xsl);
-			  		div.innerHTML = ex;
+			  		document.getElementById(target).innerHTML = xml.transformNode(xsl);
 			  	} else if (document.implementation && document.implementation.createDocument) {
-					xsltProcessor = new XSLTProcessor();
-					xsltProcessor.importStylesheet(xsl);
-					resultDocument = xsltProcessor.transformToFragment(xml, document);
-					div.appendChild(resultDocument);
+					processor = new XSLTProcessor();
+					processor.importStylesheet(xsl);
+					document.getElementById(target).appendChild(processor.transformToFragment(xml, document));
 				}
 			}
 		</script>
 		<link rel="stylesheet" href="css/roadmap.css"/>
 	</head>
-	<body onload="displayResult('roadmap.xml','roadmap.xsl')"/>
+	<body onload="transformXMLDoc('container','roadmap.xml','roadmap.xsl')">
+		<center><div id="container"></center>
+	</body>
 </html>
