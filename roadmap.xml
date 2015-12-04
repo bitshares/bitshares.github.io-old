@@ -1,659 +1,731 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-  
-  <timestamp>
-		<year>2015</year>
-		<month>11</month>
-		<day>25</day>
-	</timestamp>
-  
-  <areas>
-    <area>
-      <name>Outstanding tasks after launch</name>
-      <items>
-        <item progress="1.0">
-          <title>Referral URLs</title>
-          <status>Completed</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Nov 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links/>
-        </item>
-  
-        <item progress="0.0">
-          <title>Migration tool for holders of a large number of private keys</title>
-          <status>Ongoing</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Dec 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links/>
-        </item>
-  
-        <item progress="0.0">
-          <title>Complete API for trading bots &amp; other apps</title>
-          <status>Ongoing</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Dec 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links/>
-        </item>
-      </items>
-    </area>
-  
-    <area>
-      <name>Major GUI improvements</name>
-      <items>
-        <item progress="0.0">
-          <title>GUI tool for committee / worker proposals</title>
-          <status>Ongoing</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time></time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links/>
-        </item>
-  
-        <item progress="1.0">
-          <title>GUI tool for listing all open orders</title>
-          <status>Completed in milestone 15.11.25</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Nov 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links/>
-        </item>
-  
-        <item progress="0.0">
-          <title>Improve deposit/withdraw UX</title>
-          <status>Planned for milestone 15.12.02</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Dec 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene-ui/issues/465</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="1.0">
-          <title>Funds expressed as stake percentages &amp; in chosen currency</title>
-          <status>Completed in milestone 15.11.25</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Nov 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene-ui/issues/522</url>
-            </link>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene-ui/issues/512</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="1.0">
-          <title>Support for requesting settlement of bit asset</title>
-          <status>Completed in milestone 15.11.25</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Nov 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene-ui/issues/493</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="1.0">
-          <title>Support for proposed transactions</title>
-          <status>Completed in milestone 15.11.25</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Nov 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene-ui/issues/39</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="1.0">
-          <title>Fee schedule</title>
-          <status>Completed in milestone 15.11.25</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Nov 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links/>
-        </item>
-  
-        <item progress="0.0">
-          <title>Advanced Chart Index</title>
-          <status>Planned for milestone 15.12.02</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Dec 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene-ui/issues/466</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Support for native deployment on mobile devices</title>
-          <status>Investigating React-native</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time></time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,20272.0.html</url>
-            </link>
-          </links>
-        </item>
-      </items>
-    </area>
-  
-    <area>
-      <name>Funded workers</name>
-      <items>
-        <item progress="0.0">
-          <title>Refund market order creation fees</title>
-          <status>Funded worker</status>
-          <overlap>N</overlap>
-          <cost>4k</cost>
-          <time>Nov 2015</time>
-          <worker>1.14.7</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,20089.0.html</url>
-            </link>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene/issues/445</url>
-            </link>
-          </links>
-        </item>
-      </items>
-    </area>
-  
-    <area>
-      <name>Features proposed by CNX</name>
-      <items>
-        <item progress="0.0">
-          <title>Market fees adjustment</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost>8.5k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
-            </link>
-            <link>
-              <label>docs</label>
-              <url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Hosted wallet service</title>
-          <status>Not started</status>
-          <overlap>Y</overlap>
-          <cost>7.5k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
-            </link>
-            <link>
-              <label>docs</label>
-              <url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Improve market statistics &amp; standardize trading API</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost>7.7k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
-            </link>
-            <link>
-              <label>docs</label>
-              <url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Fiat deposit/withdraw KYC management</title>
-          <status>Not started</status>
-          <overlap>Y</overlap>
-          <cost>16.0k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
-            </link>
-            <link>
-              <label>docs</label>
-              <url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Stealth transfers</title>
-          <status>Not started</status>
-          <overlap>Y</overlap>
-          <cost>45.0k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,20104.0.html</url>
-            </link>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene/issues/452</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Maintain Proxy Voting Totals</title>
-          <status>Not started</status>
-          <overlap>Y</overlap>
-          <cost>3.0k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene/issues/454</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Margin Trading / Collateralized Bond Market</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost>60.0k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene/issues/451</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Instant Orders (BitStamp style)</title>
-          <status>Not started</status>
-          <overlap>?</overlap>
-          <cost>30.0k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene/issues/450</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Distribute market fees on core asset to Referral Program</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost>4.5k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene/issues/446</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Launch a Demo/Dev chain</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,20012.0.html</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Open Source Graphene UI for BitShares</title>
-          <status>Awaiting review</status>
-          <overlap>N</overlap>
-          <cost>10,000k</cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,20209.0.html</url>
-            </link>
-            <link>
-              <label>github</label>
-              <url>https://github.com/cryptonomex/graphene/issues/447</url>
-            </link>
-          </links>
-        </item>
-      </items>
-    </area>
-  
-    <area>
-      <name>Features proposed by Community</name>
-      <items>
-        <item progress="0.0">
-          <title>Fix margin call trigger</title>
-          <status>Completed, tests pending</status>
-          <overlap>N</overlap>
-          <cost>n/a</cost>
-          <time>Nov 2015</time>
-          <worker>n/a</worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19735.0.html</url>
-            </link>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19102.0.html</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Affiliate dashboard for LTM</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links/>
-        </item>
-  
-        <item progress="0.0">
-          <title>Trollbox for the Exchange</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name/>
-            <url/>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19251.0.html</url>
-            </link>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19762.0.html</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Chatbox Customer Support</title>
-          <status>Not started</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name/>
-            <url/>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,20100.0.html</url>
-            </link>
-          </links>
-        </item>
-      </items>
-    </area>
-  
-    <area>
-      <name>Integration with 3rd party</name>
-      <items>
-        <item progress="0.0">
-          <title>AdamBLevine's Tokenly Ecosystem integration</title>
-          <status>Pending a worker proposal</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name/>
-            <url/>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19634.0.html</url>
-            </link>
-          </links>
-        </item>
-      </items>
-    </area>
-  
-    <area>
-      <name>Existing features to be exposed in the GUI</name>
-      <items>
-        <item progress="0.0">
-          <title>Prediction Markets</title>
-          <status>Postponed</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>forum</label>
-              <url>https://bitsharestalk.org/index.php/topic,19716.0.html</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Recurring &amp; Scheduled Payments</title>
-          <status>Postponed</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>technology</label>
-              <url>https://bitshares.org/technology/recurring-and-scheduled-payments/</url>
-            </link>
-          </links>
-        </item>
-  
-        <item progress="0.0">
-          <title>Transferable Named Accounts</title>
-          <status>Postponed</status>
-          <overlap>N</overlap>
-          <cost></cost>
-          <time></time>
-          <worker></worker>
-          <contractor>
-            <name>CNX</name>
-            <url>https://cryptonomex.com/</url>
-          </contractor>
-          <links>
-            <link>
-              <label>technology</label>
-              <url>https://bitshares.org/technology/transferable-named-accounts/</url>
-            </link>
-          </links>
-        </item>
-      </items>
-    </area>
-  </areas>
+	<timestamp>2015-12-04T00:00</timestamp>
+	<areas>
+		<area id="A">
+			<name>Outstanding tasks after launch</name>
+			<items>
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Official documentation for BitShares 2.0</name>
+					<description/>
+					<status>Ongoing</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
+				
+				<item progress="1.0" funded="Y" overlap="N">
+					<name>Referral Program URLs for assigning the referrer</name>
+					<description/>
+					<status>Completed</status>
+					<time>Nov 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
+
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Migration tool for holders of a large number of private keys</name>
+					<description/>
+					<status>Ongoing</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
+
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Complete API for trading bots &amp; other apps</name>
+					<description/>
+					<status>Ongoing</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
+			</items>
+		</area>
+
+		<area id="B">
+			<name>Major GUI improvements</name>
+			<items>
+				<item progress="0.0" funded="N" overlap="N">
+					<name>GUI tool for committee / worker proposals</name>
+					<description/>
+					<status>Ongoing</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
+
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Improve deposit/withdraw UX</name>
+					<description/>
+					<status>Planned for 15.12.09</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/465</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="1.0" funded="Y" overlap="N">
+					<name>Advanced Chart Index</name>
+					<description/>
+					<status>Completed in 15.12.02</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/466</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Buy/Sell BTS</name>
+					<description/>
+					<status>Planned for 15.12.02</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/457</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Vested cashback balance and claim option</name>
+					<description/>
+					<status>Planned for 15.12.09</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/500</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Dark &amp; Light theme switch</name>
+					<description/>
+					<status>Planned for 15.12.16</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/576</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Support for native deployment on mobile devices</name>
+					<description/>
+					<status>Investigating React-native</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20272.0.html</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
+
+		<area id="C">
+			<name>Features proposed by CNX</name>
+			<items>
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Refund market order creation fees</name>
+					<description/>
+					<status>Funded worker</status>
+					<time>Nov 2015</time>
+					<worker>1.14.7</worker>
+					<terms>2M BTS paid over 40 days at 50,000 BTS per day. Bunkerchain Labs will sell the BTS to raise $4400 and refund any remaining BTS to the blockchain.</terms>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>4000</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>400</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20089.0.html</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/445</url>
+						</link>
+					</links>
+				</item>
+			
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Market fees adjustment</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>8500</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>850</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
+						</link>
+						<link>
+							<label>docs</label>
+							<url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#
+							</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="Y">
+					<name>Hosted wallet service</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>7500</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>750</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
+						</link>
+						<link>
+							<label>docs</label>
+							<url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#
+							</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Improve market statistics &amp; standardize trading API</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>7750</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>850</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
+						</link>
+						<link>
+							<label>docs</label>
+							<url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#
+							</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="Y">
+					<name>Fiat deposit/withdraw KYC management</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>16000</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>1600</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19890.0.html</url>
+						</link>
+						<link>
+							<label>docs</label>
+							<url>https://docs.google.com/document/d/12hWyasMJ5mL1fboAt9ZK8FEf0c7o_q-1bwm5ItsLNGo/edit#
+							</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="Y">
+					<name>Stealth transfers</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>45000</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>4500</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20104.0.html</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/452</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="Y">
+					<name>Maintain Proxy Voting Totals</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>3000</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>300</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/454</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Margin Trading / Collateralized Bond Market</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>60000</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>6000</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/451</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="?">
+					<name>Instant Orders (BitStamp style)</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>30000</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>3000</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/450</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Distribute market fees on core asset to Referral Program</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms>2M BTS paid over 40 days at 50,000 BTS per day. Bunkerchain Labs will sell the BTS to raise $4950 and refund any remaining BTS to the blockchain.</terms>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>4500</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost>450</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/446</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Launch a Demo/Dev chain</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20012.0.html</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Open Source Graphene UI for BitShares</name>
+					<description/>
+					<status>Awaiting review</status>
+					<time/>
+					<worker/>
+					<terms>10M BTS to be paid out over 1 year at 28,000 BTS per day. Any surplus BTS will be refunded to the network. By paying over 1 year, the 10M BTS is effectively vesting linearly over a period of 1 year. Cryptonomex will be required to sell enough to cover taxes at the time the funds are received but otherwise will attempt to retain the remaining BTS as an investment.</terms>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost>10000000</cost>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20209.0.html</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/447</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
+
+		<area id="D">
+			<name>Features proposed by the Community</name>
+			<items>
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Fix margin call trigger</name>
+					<description/>
+					<status>Completed, tests pending</status>
+					<time>Nov 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19102.0.html</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/436</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Affiliate dashboard for LTM</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Trollbox for the Exchange</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor/>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19251.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19762.0.html</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Chatbox Customer Support</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor/>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20100.0.html</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
+
+		<area id="E">
+			<name>Integration with 3rd party</name>
+			<items>
+				<item progress="0.0" funded="N" overlap="N">
+					<name>AdamBLevine's Tokenly Ecosystem integration</name>
+					<description/>
+					<status>Pending a worker proposal</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name/>
+						<url/>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19634.0.html</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
+
+		<area id="F">
+			<name>Existing features to be exposed in the GUI</name>
+			<items>
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Prediction Markets</name>
+					<description/>
+					<status>Postponed</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19716.0.html</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Recurring &amp; Scheduled Payments</name>
+					<description/>
+					<status>Postponed</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>technology</label>
+							<url>https://bitshares.org/technology/recurring-and-scheduled-payments/
+							</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Transferable Named Accounts</name>
+					<description/>
+					<status>Postponed</status>
+					<time/>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>technology</label>
+							<url>https://bitshares.org/technology/transferable-named-accounts/
+							</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
+	</areas>
 </root>
