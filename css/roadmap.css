@@ -1,6 +1,10 @@
+@import "fonts.css";
+@import "style.css";
+
+
 body{
 	background-color:#fff;
-	font-family:Helvetica,Arial,sans-serif;
+	font-family: 'Proxima Nova Lt', "Helvetica Neue",Helvetica, Arial, sans-serif;
 }
 
 
@@ -28,15 +32,15 @@ td,th{
 	border:1px solid #888;
 	border-collapse:collapse;
 	padding:5px;
-}	
+}
 thead th{
-	background:#eee;
+	background:#F9F9F9;
 	text-align:left;
 	color:#666;
 	font-style:italic;
 }
 tbody td{
-	background:#626666;
+	background:#3C3C54;
 	color:white;
 }
 
@@ -63,15 +67,15 @@ tbody td a.link{
 }
 
 tbody tr.funded td{
-	background:#566D7E;
+	background:#15A6DB;
 }
 tbody tr.funded td a{
 
 }
 
 tbody tr.done td{
-	background:#92A9BA;
-	color:#444;
+	background:#3C3C54;
+	color:#0c3;
 }
 tbody tr.done td a{
 	color:#444;
@@ -96,15 +100,25 @@ tbody tr td.highlightZero{
 }
 
 
-#th1{width:200px;}
-#th2{width:130px;}
-#th3{width:50px;text-align:center;}
-#th4{width:100px;text-align:center;}
-#th5{width:100px;}
-#th6{width:100px;}
-#th7{width:100px;}
-#th8{width:100px;}
+a {
+
+}
+
+#th4{text-align:right;}
+#td4{text-align:right;}
+
+
+/*
+#th1{width:240px;}
+#th2{width:120px;}
+#th3{width:40px;text-align:center;}
+#th4{width:120px;text-align:center;}
+#th5{width:110px;text-align:center;}
+#th6{width:110px;}
+#th7{width:80px;}
+#th8{width:140px;}
 #th9{width:120px;}
 
 #td3{text-align:center;}
 #td4{text-align:right;padding-right:20px;}
+*/

@@ -5,7 +5,7 @@
 		<div class="title">BitShares 2.0 Roadmap</div>
 		<xsl:variable name="timestamp" select="root/timestamp" />
 		<div class="timestamp">Last update <xsl:value-of select="concat(substring($timestamp,9,2),'-',substring($timestamp,6,2),'-',substring($timestamp,1,4))" /></div>
-		<table>
+		<table class="table">
 			<thead>
 				<tr>
 					<th id="th1">Name</th>
@@ -64,7 +64,7 @@
 								<xsl:value-of select="worker" />
 							</td>
 							<td id="td7">
-								<a class="entity">
+								<a class="entity label btn-warning">
 									<xsl:attribute name="href">
 										<xsl:value-of select="contractor/url" />
 									</xsl:attribute>
@@ -72,7 +72,7 @@
 								</a>
 							</td>
 							<td id="td8">
-								<a class="entity">
+								<a class="entity label btn-info">
 									<xsl:attribute name="href">
 										<xsl:value-of select="escrow/url" />
 									</xsl:attribute>
@@ -81,7 +81,7 @@
 							</td>
 							<td id="td9">
 								<xsl:for-each select="links/link">
-									<a class="link">
+									<a class="link label btn-info" style="margin-right:4px;">
 										<xsl:attribute name="href">
 											<xsl:value-of select="url" />
 										</xsl:attribute>
