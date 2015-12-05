@@ -232,12 +232,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>4000</cost>
+						<cost unit="USD">4000</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>400</cost>
+						<cost unit="USD">400</cost>
 					</escrow>
 					<links>
 						<link>
@@ -261,12 +261,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>8500</cost>
+						<cost unit="USD">8500</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>850</cost>
+						<cost unit="USD">850</cost>
 					</escrow>
 					<links>
 						<link>
@@ -291,12 +291,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>7500</cost>
+						<cost unit="USD">7500</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>750</cost>
+						<cost unit="USD">750</cost>
 					</escrow>
 					<links>
 						<link>
@@ -321,12 +321,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>7750</cost>
+						<cost unit="USD">7750</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>850</cost>
+						<cost unit="USD">850</cost>
 					</escrow>
 					<links>
 						<link>
@@ -351,12 +351,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>16000</cost>
+						<cost unit="USD">16000</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>1600</cost>
+						<cost unit="USD">1600</cost>
 					</escrow>
 					<links>
 						<link>
@@ -381,12 +381,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>45000</cost>
+						<cost unit="USD">45000</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>4500</cost>
+						<cost unit="USD">4500</cost>
 					</escrow>
 					<links>
 						<link>
@@ -410,12 +410,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>3000</cost>
+						<cost unit="USD">3000</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>300</cost>
+						<cost unit="USD">300</cost>
 					</escrow>
 					<links>
 						<link>
@@ -435,12 +435,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>60000</cost>
+						<cost unit="USD">60000</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>6000</cost>
+						<cost unit="USD">6000</cost>
 					</escrow>
 					<links>
 						<link>
@@ -460,12 +460,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>30000</cost>
+						<cost unit="USD">30000</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>3000</cost>
+						<cost unit="USD">3000</cost>
 					</escrow>
 					<links>
 						<link>
@@ -485,12 +485,12 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>4500</cost>
+						<cost unit="USD">4500</cost>
 					</contractor>
 					<escrow>
 						<name>Bunkerchain Labs</name>
 						<url>http://www.bunkerchainlabs.com/</url>
-						<cost>450</cost>
+						<cost unit="USD">450</cost>
 					</escrow>
 					<links>
 						<link>
@@ -531,7 +531,7 @@
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
-						<cost>10000000</cost>
+						<cost unit="BTS">10000000</cost>
 					</contractor>
 					<escrow/>
 					<links>
