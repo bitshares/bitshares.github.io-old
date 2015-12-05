@@ -100,7 +100,10 @@ tbody tr td.highlightZero{
 
 }
 
-
+table td:nth-child(4) {
+	font-size: 80%;
+	font-weight: 700;
+}
 
 a {
 	color: gray;
@@ -114,7 +117,7 @@ a {
 
 table th:nth-child(3),
 table th:nth-child(4),
-table th:nth-child(5),
+table th:nth-child(6),
 table th:nth-child(7),
 table th:nth-child(8) {
 	display: none;
@@ -122,7 +125,7 @@ table th:nth-child(8) {
 
 table td:nth-child(3),
 table td:nth-child(4),
-table td:nth-child(5),
+table td:nth-child(6),
 table td:nth-child(7),
 table td:nth-child(8)  {
 	display: none;
