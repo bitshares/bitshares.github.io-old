@@ -67,15 +67,16 @@ tbody td a.link{
 }
 
 tbody tr.funded td{
-	background:#15A6DB;
+	background:#F9F9F9;
+	color:#15A6DB;
 }
 tbody tr.funded td a{
 
 }
 
 tbody tr.done td{
-	background:#3C3C54;
-	color:#0c3;
+	background:#ACD7F7;
+	color:#3C3C54;
 }
 tbody tr.done td a{
 	color:#444;
@@ -101,7 +102,7 @@ tbody tr td.highlightZero{
 
 
 a {
-
+	color: gray;
 }
 
 #th4{text-align:right;}

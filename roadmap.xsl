@@ -64,7 +64,7 @@
 								<xsl:value-of select="worker" />
 							</td>
 							<td id="td7">
-								<a class="entity label btn-warning">
+								<a class="entity label btn-primary">
 									<xsl:attribute name="href">
 										<xsl:value-of select="contractor/url" />
 									</xsl:attribute>
@@ -72,7 +72,7 @@
 								</a>
 							</td>
 							<td id="td8">
-								<a class="entity label btn-info">
+								<a class="entity label btn-primary">
 									<xsl:attribute name="href">
 										<xsl:value-of select="escrow/url" />
 									</xsl:attribute>
@@ -81,7 +81,7 @@
 							</td>
 							<td id="td9">
 								<xsl:for-each select="links/link">
-									<a class="link label btn-info" style="margin-right:4px;">
+									<a class="link label btn-primary" style="margin-right:4px;">
 										<xsl:attribute name="href">
 											<xsl:value-of select="url" />
 										</xsl:attribute>
