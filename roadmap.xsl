@@ -5,7 +5,8 @@
 		<div class="title">BitShares 2.0 Roadmap</div>
 		<xsl:variable name="timestamp" select="root/timestamp" />
 		<div class="timestamp">Last update <xsl:value-of select="concat(substring($timestamp,9,2),'-',substring($timestamp,6,2),'-',substring($timestamp,1,4))" /></div>
-		<table class="table">
+		<div id="no-more-tables">
+		<table class="table" >
 			<thead>
 				<tr>
 					<th id="th1">Name</th>
@@ -94,5 +95,6 @@
 				</xsl:for-each>
 			</tbody>
 		</table>
+	</div>
 	</xsl:template>
 </xsl:stylesheet>
