@@ -51,10 +51,10 @@
 								<xsl:value-of select="@overlap" />
 							</td>
 							<td id="td4">
-								<xsl:if test="contractor/cost!=''">
+								<xsl:if test="contractor/cost">
 									<xsl:value-of select="concat(contractor/cost/@unit,' ',format-number(contractor/cost,'###,###'))" />
 								</xsl:if>
-								<xsl:if test="escrow/cost!=''">
+								<xsl:if test="escrow/cost">
 									<xsl:value-of select="concat(' ','+',' ',escrow/cost/@unit,' ',format-number(escrow/cost,'###,###'))" />
 								</xsl:if>
 							</td>
