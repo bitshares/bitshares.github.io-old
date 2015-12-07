@@ -565,7 +565,7 @@
 		</area>
 
 		<area id="D">
-			<name>Features proposed by the Community</name>
+			<name>Features proposed by the Community &amp; other entities</name>
 			<items>
 				<item progress="0.0" funded="Y" overlap="N">
 					<name>Fix margin call trigger</name>
@@ -587,6 +587,26 @@
 						<link>
 							<label>github</label>
 							<url>https://github.com/cryptonomex/graphene/issues/436</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Deployment of market-making bots on the internal exchange</name>
+					<description/>
+					<status>Soon to be started</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX / dannotestein</name>
+						<url></url>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20449.msg264028.html#msg264028</url>
 						</link>
 					</links>
 				</item>
