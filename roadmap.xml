@@ -700,6 +700,10 @@
 					<escrow/>
 					<links>
 						<link>
+							<label>website</label>
+							<url>https://tokenly.com</url>
+						</link>
+						<link>
 							<label>forum</label>
 							<url>https://bitsharestalk.org/index.php/topic,19634.0.html</url>
 						</link>
