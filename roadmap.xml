@@ -244,11 +244,11 @@
 					</links>
 				</item>
 				
-				<item progress="0.0" funded="Y" overlap="N">
+				<item progress="0.0" funded="N" overlap="N">
 					<name>Incentivize liquidity via maker/taker differentiation</name>
 					<description/>
-					<status>Community discussion</status>
-					<time>Dec 2015</time>
+					<status>Pending a worker proposal</status>
+					<time></time>
 					<worker/>
 					<terms/>
 					<contractor>
