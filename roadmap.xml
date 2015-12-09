@@ -244,16 +244,17 @@
 					</links>
 				</item>
 				
-				<item progress="0.0" funded="Y" overlap="N">
-					<name>Incentivize liquidity via maker/taker differentiation</name>
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Market Maker Incentivization</name>
 					<description/>
-					<status>Community discussion</status>
-					<time>Dec 2015</time>
+					<status>Pending a worker proposal</status>
+					<time></time>
 					<worker/>
-					<terms/>
+					<terms>CNX will be implementing it speculatively in exchange for a cut of all MSHARES for all assets that use this feature to improve their liquidity</terms>
 					<contractor>
 						<name>CNX</name>
 						<url>https://cryptonomex.com/</url>
+						<cost unit="BTS">100000</cost>
 					</contractor>
 					<escrow/>
 					<links>
@@ -264,6 +265,14 @@
 						<link>
 							<label>forum</label>
 							<url>https://bitsharestalk.org/index.php/topic,20394.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20482.0.html</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/475</url>
 						</link>
 					</links>
 				</item>
