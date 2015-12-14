@@ -698,6 +698,33 @@
 					</links>
 				</item>
 				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Limewallet mobile interface</name>
+					<description/>
+					<status>Ongoing efforts to port to 2.0</status>
+					<time>Q1 2016</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>ElMato</name>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,12494.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,17900.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20275.msg261144.html#msg261144</url>
+						</link>
+					</links>
+				</item>
+				
 				<item progress="0.0" funded="N" overlap="N">
 					<name>AdamBLevine's Tokenly Ecosystem integration</name>
 					<description/>
