@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-	<timestamp>2015-12-06T00:00</timestamp>
+	<timestamp>2016-01-01T00:00</timestamp>
 	<areas>
 		<area id="A">
 			<name>Outstanding tasks after launch</name>
 			<items>
-				<item progress="0.0" funded="Y" overlap="N">
-					<name>Official documentation for BitShares 2.0</name>
-					<description/>
-					<status>Ongoing</status>
-					<time>Dec 2015</time>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-					</contractor>
-					<escrow/>
-					<links/>
-				</item>
-
-				<item progress="0.0" funded="Y" overlap="N">
+				
+				<item progress="1.0" funded="Y" overlap="N">
 					<name>Migration tool for holders of a large number of private keys</name>
 					<description/>
-					<status>Ongoing</status>
+					<status>Completed</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19557.msg251364.html</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="1.0" funded="Y" overlap="N">
+					<name>Complete API for trading bots &amp; other apps</name>
+					<description/>
+					<status>Completed</status>
 					<time>Dec 2015</time>
 					<worker/>
 					<terms/>
@@ -34,12 +40,53 @@
 					<escrow/>
 					<links/>
 				</item>
-
+				
 				<item progress="0.0" funded="Y" overlap="N">
-					<name>Complete API for trading bots &amp; other apps</name>
+					<name>Graphene Technical Documentation</name>
 					<description/>
 					<status>Ongoing</status>
-					<time>Dec 2015</time>
+					<time>Feb 2016</time>
+					<worker>1.14.17</worker>
+					<terms/>
+					<contractor>
+						<name>xeroc</name>
+						<url></url>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>website</label>
+							<url>https://github.com/xeroc/worker-proposals/blob/master/2016-01.md</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://docs.bitshares.eu/</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Graphene Development Tutorials</name>
+					<description/>
+					<status>Ongoing</status>
+					<time>Q1 2016</time>
+					<worker/>
+					<terms/>
+					<contractor/>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20823.0.html</url>
+						</link>
+					</links>
+				</item>
+
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Launch a Demo chain featuring valueless assets</name>
+					<description/>
+					<status>Not started</status>
+					<time/>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -47,7 +94,12 @@
 						<url>https://cryptonomex.com/</url>
 					</contractor>
 					<escrow/>
-					<links/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20012.0.html</url>
+						</link>
+					</links>
 				</item>
 			</items>
 		</area>
@@ -55,10 +107,11 @@
 		<area id="B">
 			<name>Major GUI improvements</name>
 			<items>
-				<item progress="0.0" funded="Y" overlap="N">
-					<name>GUI tool for committee / worker proposals</name>
+			
+				<item progress="1.0" funded="Y" overlap="N">
+					<name>Vested cashback balance and claim option</name>
 					<description/>
-					<status>Ongoing</status>
+					<status>Completed</status>
 					<time>Dec 2015</time>
 					<worker/>
 					<terms/>
@@ -67,14 +120,27 @@
 						<url>https://cryptonomex.com/</url>
 					</contractor>
 					<escrow/>
-					<links/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/500</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/640</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/bitshares/bitshares-2/releases/tag/v2.0.151223</url>
+						</link>
+					</links>
 				</item>
-
+				
 				<item progress="0.0" funded="Y" overlap="N">
 					<name>Improve deposit/withdraw UX</name>
 					<description/>
 					<status>Planned for 15.12.09</status>
-					<time>Dec 2015</time>
+					<time>Jan 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -94,7 +160,7 @@
 					<name>Easy conversion between BTC and BTS</name>
 					<description/>
 					<status>Planned for 15.12.09</status>
-					<time>Dec 2015</time>
+					<time>Jan 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -111,30 +177,10 @@
 				</item>
 				
 				<item progress="0.0" funded="Y" overlap="N">
-					<name>Vested cashback balance and claim option</name>
-					<description/>
-					<status>Planned for 15.12.09</status>
-					<time>Dec 2015</time>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-					</contractor>
-					<escrow/>
-					<links>
-						<link>
-							<label>github</label>
-							<url>https://github.com/cryptonomex/graphene-ui/issues/500</url>
-						</link>
-					</links>
-				</item>
-				
-				<item progress="0.0" funded="Y" overlap="N">
 					<name>Account overview optimization</name>
 					<description/>
 					<status>Planned for 15.12.09</status>
-					<time>Dec 2015</time>
+					<time>Jan 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -154,7 +200,7 @@
 					<name>Dark &amp; Light theme switch</name>
 					<description/>
 					<status>Planned for 15.12.16</status>
-					<time>Dec 2015</time>
+					<time>Jan 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -169,12 +215,27 @@
 						</link>
 					</links>
 				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>GUI tool for committee / worker proposals</name>
+					<description/>
+					<status>Ongoing</status>
+					<time>Q1 2016</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
 
-				<item progress="0.0" funded="N" overlap="N">
+				<item progress="0.0" funded="Y" overlap="N">
 					<name>UI overhaul for the voting process</name>
 					<description/>
 					<status>Not started</status>
-					<time>Jan 2016</time>
+					<time>Q1 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -190,11 +251,11 @@
 					</links>
 				</item>
 				
-				<item progress="0.0" funded="N" overlap="N">
+				<item progress="0.0" funded="Y" overlap="N">
 					<name>Support for native deployment on mobile devices</name>
 					<description/>
 					<status>Investigating React-native</status>
-					<time/>
+					<time>Q1 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -215,10 +276,10 @@
 		<area id="C">
 			<name>Features proposed by CNX</name>
 			<items>
-				<item progress="0.0" funded="Y" overlap="N">
+				<item progress="1.0" funded="Y" overlap="N">
 					<name>Refund market order creation fees</name>
 					<description/>
-					<status>Funded worker</status>
+					<status>Completed</status>
 					<time>Dec 2015</time>
 					<worker>1.14.7</worker>
 					<terms>2M BTS paid over 40 days at 50,000 BTS per day. Bunkerchain Labs will sell the BTS to raise $4400 and refund any remaining BTS to the blockchain.</terms>
@@ -244,6 +305,90 @@
 					</links>
 				</item>
 				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Fee Backed Assets (FBA)</name>
+					<description/>
+					<status>Ongoing (part of Stealth)</status>
+					<time>Feb 2016</time>
+					<worker>1.14.18</worker>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+					</escrow>
+					<links>
+						<link>
+							<label>BSIP</label>
+							<url>https://github.com/bitshares/bsips/blob/master/bsip-0007.md</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="Y">
+					<name>Stealth transfers</name>
+					<description/>
+					<status>Ongoing (funded by FBA)</status>
+					<time>Feb 2016</time>
+					<worker>1.14.18</worker>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost unit="USD">45000</cost>
+					</contractor>
+					<escrow>
+						<name>Bunkerchain Labs</name>
+						<url>http://www.bunkerchainlabs.com/</url>
+						<cost unit="USD">4500</cost>
+					</escrow>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20104.0.html</url>
+						</link>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/452</url>
+						</link>
+						<link>
+							<label>BSIP</label>
+							<url>https://github.com/bitshares/bsips/blob/master/bsip-0008.md</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="N" overlap="N">
+					<name>Mutual Aid Societies (MAS)</name>
+					<description/>
+					<status>Pending a worker proposal</status>
+					<time>Q2 2016</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20824.0.html</url>
+						</link>
+						<link>
+							<label>blog</label>
+							<url>http://bytemaster.github.io/update/2015/12/31/Mutual-Aid-Society</url>
+						</link>
+						<link>
+							<label>BSIP</label>
+							<url>https://github.com/bitshares/bsips/blob/master/bsip-0009.md</url>
+						</link>
+					</links>
+				</item>
+				
 				<item progress="0.0" funded="N" overlap="N">
 					<name>Market Maker Incentivization</name>
 					<description/>
@@ -260,19 +405,15 @@
 					<links>
 						<link>
 							<label>forum</label>
-							<url>https://bitsharestalk.org/index.php/topic,20376.0.html</url>
-						</link>
-						<link>
-							<label>forum</label>
-							<url>https://bitsharestalk.org/index.php/topic,20394.0.html</url>
-						</link>
-						<link>
-							<label>forum</label>
 							<url>https://bitsharestalk.org/index.php/topic,20482.0.html</url>
 						</link>
 						<link>
 							<label>github</label>
 							<url>https://github.com/cryptonomex/graphene/issues/475</url>
+						</link>
+						<link>
+							<label>BSIP</label>
+							<url>https://github.com/bitshares/bsips/blob/master/bsip-0006.md</url>
 						</link>
 					</links>
 				</item>
@@ -398,35 +539,6 @@
 				</item>
 
 				<item progress="0.0" funded="N" overlap="Y">
-					<name>Stealth transfers</name>
-					<description/>
-					<status>Not started</status>
-					<time/>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-						<cost unit="USD">45000</cost>
-					</contractor>
-					<escrow>
-						<name>Bunkerchain Labs</name>
-						<url>http://www.bunkerchainlabs.com/</url>
-						<cost unit="USD">4500</cost>
-					</escrow>
-					<links>
-						<link>
-							<label>forum</label>
-							<url>https://bitsharestalk.org/index.php/topic,20104.0.html</url>
-						</link>
-						<link>
-							<label>github</label>
-							<url>https://github.com/cryptonomex/graphene/issues/452</url>
-						</link>
-					</links>
-				</item>
-
-				<item progress="0.0" funded="N" overlap="Y">
 					<name>Maintain Proxy Voting Totals</name>
 					<description/>
 					<status>Not started</status>
@@ -527,26 +639,6 @@
 				</item>
 
 				<item progress="0.0" funded="N" overlap="N">
-					<name>Launch a Demo/Dev chain</name>
-					<description/>
-					<status>Not started</status>
-					<time/>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-					</contractor>
-					<escrow/>
-					<links>
-						<link>
-							<label>forum</label>
-							<url>https://bitsharestalk.org/index.php/topic,20012.0.html</url>
-						</link>
-					</links>
-				</item>
-
-				<item progress="0.0" funded="N" overlap="N">
 					<name>Open Source Graphene UI for BitShares</name>
 					<description/>
 					<status>Awaiting review</status>
@@ -576,10 +668,10 @@
 		<area id="D">
 			<name>Features proposed by the Community</name>
 			<items>
-				<item progress="0.0" funded="Y" overlap="N">
+				<item progress="1.0" funded="Y" overlap="N">
 					<name>Fix margin call trigger</name>
 					<description/>
-					<status>Completed, tests pending</status>
+					<status>Completed</status>
 					<time>Dec 2015</time>
 					<worker/>
 					<terms/>
@@ -658,11 +750,30 @@
 		<area id="E">
 			<name>Third-party announcements</name>
 			<items>
+				<item progress="1.0" funded="Y" overlap="N">
+					<name>Smartcoins POS &amp; BitShares Wallet for Android/iPhone</name>
+					<description/>
+					<status>Beta version launched</status>
+					<time>Jan 2016</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>BTS Munich (kenCode &amp; Chris4210X)</name>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20762.0.html</url>
+						</link>
+					</links>
+				</item>
+			
 				<item progress="0.0" funded="Y" overlap="N">
 					<name>Deployment of market-making bots on the internal exchange</name>
 					<description/>
 					<status>Soon to be started</status>
-					<time>Dec 2015</time>
+					<time>Jan 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -682,7 +793,7 @@
 					<name>Moonstone lightweight wallet</name>
 					<description/>
 					<status>Private alpha to be released</status>
-					<time>Dec 2015</time>
+					<time>Jan 2016</time>
 					<worker/>
 					<terms/>
 					<contractor>
@@ -699,7 +810,7 @@
 				</item>
 				
 				<item progress="0.0" funded="Y" overlap="N">
-					<name>Limewallet mobile interface</name>
+					<name>Limewallet mobile app</name>
 					<description/>
 					<status>Ongoing efforts to port to 2.0</status>
 					<time>Q1 2016</time>
