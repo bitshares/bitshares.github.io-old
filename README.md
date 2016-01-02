@@ -3,10 +3,10 @@ BitShares Official Site repository
 
 jekyll + zurb framework
 
-```C++
-$git clone https://github.com/bitshares/bitshares.github.io
-$bundle install
-$jekyll serve
+```
+git clone https://github.com/bitshares/bitshares.github.io
+bundle install
+jekyll serve
 ```
 
 
