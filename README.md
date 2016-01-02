@@ -5,6 +5,7 @@ jekyll + zurb framework
 
 ```
 git clone https://github.com/bitshares/bitshares.github.io
+cd bitshares.github.io
 bundle install
 jekyll serve
 ```
