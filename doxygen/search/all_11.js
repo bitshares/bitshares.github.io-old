@@ -17,7 +17,7 @@ var searchData=
   ['reflect_5futil_2ehpp',['reflect_util.hpp',['../reflect__util_8hpp.html',1,'']]],
   ['refund_5fworker_5finitializer',['refund_worker_initializer',['../structgraphene_1_1chain_1_1refund__worker__initializer.html',1,'graphene::chain']]],
   ['refund_5fworker_5ftype',['refund_worker_type',['../structgraphene_1_1chain_1_1refund__worker__type.html',1,'graphene::chain']]],
-  ['register_5faccount',['register_account',['../classgraphene_1_1wallet_1_1wallet__api.html#abacf0448b5c3970f1f374b2016c10c01',1,'graphene::wallet::wallet_api::register_account()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a4ccbfcb598ee01dd5cfcaa0559030708',1,'graphene::wallet::detail::wallet_api_impl::register_account()']]],
+  ['register_5faccount',['register_account',['../classgraphene_1_1wallet_1_1wallet__api.html#aba1c5e3025f44273fb19e264c2b3ec2f',1,'graphene::wallet::wallet_api::register_account()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#af803b3c07f3de1d32bf318236133ebee',1,'graphene::wallet::detail::wallet_api_impl::register_account()']]],
   ['register_5fevaluation_5fobserver',['register_evaluation_observer',['../classgraphene_1_1chain_1_1database.html#a199c4745cf983cccee6ef2ee10222cb9',1,'graphene::chain::database']]],
   ['register_5fevaluator',['register_evaluator',['../classgraphene_1_1chain_1_1database.html#a116eef07a5b0af2512e1c55c724c6a60',1,'graphene::chain::database']]],
   ['register_5fplugin',['register_plugin',['../classgraphene_1_1app_1_1application.html#a5a679b8f7deeb4a53d59557b9ad45ac3',1,'graphene::app::application']]],

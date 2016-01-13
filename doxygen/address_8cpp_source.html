@@ -83,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_7421eb0807992bcd90517fc88c0ac60b.html">libraries</a></li><li class="navelem"><a class="el" href="dir_70b556ad42e32856def7458e682ae453.html">chain</a></li><li class="navelem"><a class="el" href="dir_27a29b0de4f5ec48d53b8eccbd6269b3.html">protocol</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_5548c071052ad16b40fb2112f6f0e6eb.html">libraries</a></li><li class="navelem"><a class="el" href="dir_6911b5a90c1b0715ddca72f93558ac45.html">chain</a></li><li class="navelem"><a class="el" href="dir_21462fcfe25a44da5580fb67592daa47.html">protocol</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -140,70 +140,67 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      std::vector&lt;char&gt; v;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      <span class="keywordflow">try</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;             v = fc::from_base58( base58str.substr( prefix_len ) );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;          v = fc::from_base58( base58str.substr( prefix_len ) );</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keywordflow">catch</span>( <span class="keyword">const</span> fc::parse_error_exception&amp; e )</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keywordflow">if</span>( v.size() != <span class="keyword">sizeof</span>( fc::ripemd160 ) + 4 )</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      <span class="keyword">const</span> fc::ripemd160 checksum = fc::ripemd160::hash( v.data(), v.size() - 4 );</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="keywordflow">if</span>( memcmp( v.data() + 20, (<span class="keywordtype">char</span>*)checksum._hash, 4 ) != 0 )</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keywordflow">if</span>( v.size() != <span class="keyword">sizeof</span>( fc::ripemd160 ) + 4 )</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="keyword">const</span> fc::ripemd160 checksum = fc::ripemd160::hash( v.data(), v.size() - 4 );</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="keywordflow">if</span>( memcmp( v.data() + 20, (<span class="keywordtype">char</span>*)checksum._hash, 4 ) != 0 )</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;   }</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;   }</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#ae5349055f225362695885d7d7f34fc3e">   67</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> fc::ecc::public_key&amp; pub )</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;   {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;       <span class="keyword">auto</span> dat = pub.serialize();</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( fc::sha512::hash( dat.data, <span class="keyword">sizeof</span>( dat ) ) );</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;   }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#aca7f7dce531bb7846460a2f58f216dff">   73</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> <a class="code" href="structgraphene_1_1chain_1_1pts__address.html">pts_address</a>&amp; ptsaddr )</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;   {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( (<span class="keywordtype">char</span>*)&amp;ptsaddr, <span class="keyword">sizeof</span>( ptsaddr ) );</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;   }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#af0b392e7616fda5b3c6f8289649f2b08">   78</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> <a class="code" href="namespacefc_1_1ecc.html#a86376367df56783963d35795bebddce6">fc::ecc::public_key_data</a>&amp; pub )</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;   {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( fc::sha512::hash( pub.data, <span class="keyword">sizeof</span>( pub ) ) );</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;   }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#a34a9b2d55044976639a251babeea494d">   83</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> <a class="code" href="structgraphene_1_1chain_1_1public__key__type.html">graphene::chain::public_key_type</a>&amp; pub )</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;   {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( fc::sha512::hash( pub.<a class="code" href="structgraphene_1_1chain_1_1public__key__type.html#a6b28f597090c5e62f9426fda0b8a1a94">key_data</a>.data, <span class="keyword">sizeof</span>( pub.<a class="code" href="structgraphene_1_1chain_1_1public__key__type.html#a6b28f597090c5e62f9426fda0b8a1a94">key_data</a> ) ) );</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;   }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#a49f335703e3c04c359d6808fb5e1704b">   88</a></span>&#160;   address::operator std::string()<span class="keyword">const</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">   </span>{</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        fc::array&lt;char,24&gt; bin_addr;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        memcpy( (<span class="keywordtype">char</span>*)&amp;bin_addr, (<span class="keywordtype">char</span>*)&amp;addr, <span class="keyword">sizeof</span>( addr ) );</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keyword">auto</span> checksum = fc::ripemd160::hash( (<span class="keywordtype">char</span>*)&amp;addr, <span class="keyword">sizeof</span>( addr ) );</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        memcpy( ((<span class="keywordtype">char</span>*)&amp;bin_addr)+20, (<span class="keywordtype">char</span>*)&amp;checksum._hash[0], 4 );</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="config_8hpp.html#a3b5980d1a4071e8a4aac69cb6710eb2f">GRAPHENE_ADDRESS_PREFIX</a> + fc::to_base58( bin_addr.data, <span class="keyword">sizeof</span>( bin_addr ) );</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;   }</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;} } <span class="comment">// namespace graphene::chain</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefc.html">fc</a></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="namespacefc.html#aabb139124fbff7df1491e9a89c884b7e">  101</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespacefc.html#a59f37805601d95985925a2c80c922e83">to_variant</a>( <span class="keyword">const</span> <a class="code" href="classgraphene_1_1chain_1_1address.html">graphene::chain::address</a>&amp; var,  variant&amp; vo )</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        vo = std::string(var);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="namespacefc.html#a0706a322aed92292e6046176723d354e">  105</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespacefc.html#a9f25b6d81d95f3075a8381efbdd56ef3">from_variant</a>( <span class="keyword">const</span> variant&amp; var,  <a class="code" href="classgraphene_1_1chain_1_1address.html">graphene::chain::address</a>&amp; vo )</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        vo = <a class="code" href="classgraphene_1_1chain_1_1address.html">graphene::chain::address</a>( var.as_string() );</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#ae5349055f225362695885d7d7f34fc3e">   64</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> fc::ecc::public_key&amp; pub )</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;   {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;       <span class="keyword">auto</span> dat = pub.serialize();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( fc::sha512::hash( dat.data, <span class="keyword">sizeof</span>( dat ) ) );</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;   }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#aca7f7dce531bb7846460a2f58f216dff">   70</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> <a class="code" href="structgraphene_1_1chain_1_1pts__address.html">pts_address</a>&amp; ptsaddr )</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;   {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( (<span class="keywordtype">char</span>*)&amp;ptsaddr, <span class="keyword">sizeof</span>( ptsaddr ) );</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;   }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#af0b392e7616fda5b3c6f8289649f2b08">   75</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> <a class="code" href="namespacefc_1_1ecc.html#a86376367df56783963d35795bebddce6">fc::ecc::public_key_data</a>&amp; pub )</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;   {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( fc::sha512::hash( pub.data, <span class="keyword">sizeof</span>( pub ) ) );</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;   }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#a34a9b2d55044976639a251babeea494d">   80</a></span>&#160;   <a class="code" href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">address::address</a>( <span class="keyword">const</span> <a class="code" href="structgraphene_1_1chain_1_1public__key__type.html">graphene::chain::public_key_type</a>&amp; pub )</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;   {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;       <a class="code" href="classgraphene_1_1chain_1_1address.html#ac135b62817b096215abbc2f35574d1f0">addr</a> = fc::ripemd160::hash( fc::sha512::hash( pub.<a class="code" href="structgraphene_1_1chain_1_1public__key__type.html#a6b28f597090c5e62f9426fda0b8a1a94">key_data</a>.data, <span class="keyword">sizeof</span>( pub.<a class="code" href="structgraphene_1_1chain_1_1public__key__type.html#a6b28f597090c5e62f9426fda0b8a1a94">key_data</a> ) ) );</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;   }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classgraphene_1_1chain_1_1address.html#a49f335703e3c04c359d6808fb5e1704b">   85</a></span>&#160;   address::operator std::string()<span class="keyword">const</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">   </span>{</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        fc::array&lt;char,24&gt; bin_addr;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        memcpy( (<span class="keywordtype">char</span>*)&amp;bin_addr, (<span class="keywordtype">char</span>*)&amp;addr, <span class="keyword">sizeof</span>( addr ) );</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keyword">auto</span> checksum = fc::ripemd160::hash( (<span class="keywordtype">char</span>*)&amp;addr, <span class="keyword">sizeof</span>( addr ) );</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        memcpy( ((<span class="keywordtype">char</span>*)&amp;bin_addr)+20, (<span class="keywordtype">char</span>*)&amp;checksum._hash[0], 4 );</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="config_8hpp.html#a3b5980d1a4071e8a4aac69cb6710eb2f">GRAPHENE_ADDRESS_PREFIX</a> + fc::to_base58( bin_addr.data, <span class="keyword">sizeof</span>( bin_addr ) );</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;   }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;} } <span class="comment">// namespace graphene::chain</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefc.html">fc</a></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="namespacefc.html#aabb139124fbff7df1491e9a89c884b7e">   98</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespacefc.html#a59f37805601d95985925a2c80c922e83">to_variant</a>( <span class="keyword">const</span> <a class="code" href="classgraphene_1_1chain_1_1address.html">graphene::chain::address</a>&amp; var,  variant&amp; vo )</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        vo = std::string(var);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="namespacefc.html#a0706a322aed92292e6046176723d354e">  102</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="namespacefc.html#a9f25b6d81d95f3075a8381efbdd56ef3">from_variant</a>( <span class="keyword">const</span> variant&amp; var,  <a class="code" href="classgraphene_1_1chain_1_1address.html">graphene::chain::address</a>&amp; vo )</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        vo = <a class="code" href="classgraphene_1_1chain_1_1address.html">graphene::chain::address</a>( var.as_string() );</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
 <div class="ttc" id="classgraphene_1_1chain_1_1address_html"><div class="ttname"><a href="classgraphene_1_1chain_1_1address.html">graphene::chain::address</a></div><div class="ttdoc">a 160 bit hash of a public key </div><div class="ttdef"><b>Definition:</b> <a href="address_8hpp_source.html#l00048">address.hpp:48</a></div></div>
 <div class="ttc" id="address_8hpp_html"><div class="ttname"><a href="address_8hpp.html">address.hpp</a></div></div>
 <div class="ttc" id="namespacefc_1_1ecc_html_a86376367df56783963d35795bebddce6"><div class="ttname"><a href="namespacefc_1_1ecc.html#a86376367df56783963d35795bebddce6">fc::ecc::public_key_data</a></div><div class="ttdeci">fc::array&lt; char, 33 &gt; public_key_data</div><div class="ttdef"><b>Definition:</b> <a href="address_8hpp_source.html#l00030">address.hpp:30</a></div></div>
-<div class="ttc" id="namespacegraphene_html"><div class="ttname"><a href="namespacegraphene.html">graphene</a></div><div class="ttdef"><b>Definition:</b> <a href="account__evaluator_8cpp_source.html#l00029">account_evaluator.cpp:29</a></div></div>
+<div class="ttc" id="namespacegraphene_html"><div class="ttname"><a href="namespacegraphene.html">graphene</a></div><div class="ttdef"><b>Definition:</b> <a href="account__evaluator_8cpp_source.html#l00032">account_evaluator.cpp:32</a></div></div>
 <div class="ttc" id="classgraphene_1_1chain_1_1address_html_a532c01719430b2c48c4319d31d66d6dd"><div class="ttname"><a href="classgraphene_1_1chain_1_1address.html#a532c01719430b2c48c4319d31d66d6dd">graphene::chain::address::address</a></div><div class="ttdeci">address()</div><div class="ttdoc">constructs empty / null address </div><div class="ttdef"><b>Definition:</b> <a href="address_8cpp_source.html#l00029">address.cpp:29</a></div></div>
 <div class="ttc" id="structgraphene_1_1chain_1_1public__key__type_html"><div class="ttname"><a href="structgraphene_1_1chain_1_1public__key__type.html">graphene::chain::public_key_type</a></div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00228">types.hpp:228</a></div></div>
 <div class="ttc" id="types_8hpp_html"><div class="ttname"><a href="types_8hpp.html">types.hpp</a></div></div>
@@ -218,7 +215,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2015 14:13:07 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 13 2016 11:43:24 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

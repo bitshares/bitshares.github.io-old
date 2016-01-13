@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vesting_5fvisitor',['VESTING_VISITOR',['../vesting__balance__object_8cpp.html#aa46fd3642849891425a69e3445b93748',1,'vesting_balance_object.cpp']]]
+  ['max_5ffee_5fstabilization_5fiteration',['MAX_FEE_STABILIZATION_ITERATION',['../fee__schedule_8cpp.html#a5fc2152ab9672d6598c159030e27dc49',1,'fee_schedule.cpp']]]
 ];

@@ -163,6 +163,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abdba7bfbacff8b598c7e284250e0ebbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a904097c372b2a7291340366c0194ad19"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__operations.html#gaf121d5f218e142d53acffc833cae929a">operation_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a904097c372b2a7291340366c0194ad19">apply</a> (const <a class="el" href="group__operations.html#ga280c56226fcfe002cafd51d58fa433ec">operation</a> &amp;op)=0</td></tr>
 <tr class="separator:a904097c372b2a7291340366c0194ad19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832b9ba03e2d8b1dfb8e3e91d3ec49bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a832b9ba03e2d8b1dfb8e3e91d3ec49bc">pay_fee</a> ()</td></tr>
+<tr class="separator:a832b9ba03e2d8b1dfb8e3e91d3ec49bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b1dc48cdc8c3e405466e7e91a7ed83e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a5b1dc48cdc8c3e405466e7e91a7ed83e">db</a> () const </td></tr>
 <tr class="separator:a5b1dc48cdc8c3e405466e7e91a7ed83e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -171,9 +173,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a90ff8169dbff062373ea5fdc98e6c484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a90ff8169dbff062373ea5fdc98e6c484">prepare_fee</a> (<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> account_id, <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> fee)</td></tr>
 <tr class="memdesc:a90ff8169dbff062373ea5fdc98e6c484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetch objects relevant to fee payer and set pointer members.  <a href="#a90ff8169dbff062373ea5fdc98e6c484">More...</a><br /></td></tr>
 <tr class="separator:a90ff8169dbff062373ea5fdc98e6c484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a832b9ba03e2d8b1dfb8e3e91d3ec49bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a832b9ba03e2d8b1dfb8e3e91d3ec49bc">pay_fee</a> ()</td></tr>
-<tr class="memdesc:a832b9ba03e2d8b1dfb8e3e91d3ec49bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pays the fee and returns the number of CORE asset that were paid.  <a href="#a832b9ba03e2d8b1dfb8e3e91d3ec49bc">More...</a><br /></td></tr>
-<tr class="separator:a832b9ba03e2d8b1dfb8e3e91d3ec49bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65bd5bfc5112f84b364ec43c1c17a699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a65bd5bfc5112f84b364ec43c1c17a699">convert_fee</a> ()</td></tr>
+<tr class="separator:a65bd5bfc5112f84b364ec43c1c17a699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae489ac0069cae80ca4210e136a042548"><td class="memItemLeft" align="right" valign="top">object_id_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#ae489ac0069cae80ca4210e136a042548">get_relative_id</a> (object_id_type rel_id) const </td></tr>
 <tr class="separator:ae489ac0069cae80ca4210e136a042548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -247,6 +248,35 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; DerivedEvaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; balance_claim_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; assert_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; account_whitelist_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; blind_transfer_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; account_update_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; limit_order_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; withdraw_permission_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_publish_feeds_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; limit_order_cancel_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_claim_fees_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; account_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; proposal_delete_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; account_upgrade_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; withdraw_permission_update_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_global_settle_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; override_transfer_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; vesting_balance_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_settle_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; committee_member_update_global_parameters_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_fund_fee_pool_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; withdraw_permission_delete_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_reserve_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; transfer_to_blind_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; transfer_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; worker_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; proposal_update_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_update_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; witness_update_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; transfer_from_blind_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; vesting_balance_withdraw_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; custom_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; call_order_update_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; witness_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; withdraw_permission_claim_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; proposal_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_update_bitasset_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_issue_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; committee_member_create_evaluator &gt;</a>, <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; asset_update_feed_producers_evaluator &gt;</a>, and <a class="el" href="classgraphene_1_1chain_1_1evaluator.html#a4186e76425438ece8cd64bfc6961608c">graphene::chain::evaluator&lt; committee_member_update_evaluator &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65bd5bfc5112f84b364ec43c1c17a699"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::generic_evaluator::convert_fee </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Convert the fee into BTS through the exchange pool.</p>
+<p>Reads core_fee_paid field for how much CORE is deducted from the exchange pool, and fee_from_account for how much USD is added to the pool.</p>
+<p>Since <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a90ff8169dbff062373ea5fdc98e6c484" title="Fetch objects relevant to fee payer and set pointer members. ">prepare_fee()</a> does the validation checks ensuring the account and fee pool have sufficient balance and the exchange rate is correct, those validation checks are not replicated here.</p>
+<p>Rather than returning a value, this method fills in core_fee_paid field. </p>
+
+<p>Definition at line <a class="el" href="evaluator_8cpp_source.html#l00077">77</a> of file <a class="el" href="evaluator_8cpp_source.html">evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -359,14 +389,19 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Routes the fee to where it needs to go. The default implementation routes the fee to the <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html">account_statistics_object</a> of the fee_paying_account.</p>
+<p>Before <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a832b9ba03e2d8b1dfb8e3e91d3ec49bc">pay_fee()</a> is called, the fee is computed by <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a90ff8169dbff062373ea5fdc98e6c484" title="Fetch objects relevant to fee payer and set pointer members. ">prepare_fee()</a> and has been moved out of the fee_paying_account and (if paid in a non-CORE asset) converted by the asset's fee pool.</p>
+<p>Therefore, when <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a832b9ba03e2d8b1dfb8e3e91d3ec49bc">pay_fee()</a> is called, the fee only exists in this-&gt;core_fee_paid. So <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a832b9ba03e2d8b1dfb8e3e91d3ec49bc">pay_fee()</a> need only increment the receiving balance.</p>
+<p>The default implementation simply calls account_statistics_object-&gt;<a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a832b9ba03e2d8b1dfb8e3e91d3ec49bc">pay_fee()</a> to increment pending_fees or pending_vested_fees. </p>
+<p>TODO: <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a5b1dc48cdc8c3e405466e7e91a7ed83e">db()</a>.pay_fee( account_id, core_fee ); </p>
 
-<p>Pays the fee and returns the number of CORE asset that were paid. </p>
+<p>Reimplemented in <a class="el" href="classgraphene_1_1chain_1_1limit__order__create__evaluator.html#a5f9fdc83237577fd61d4bec74d850549">graphene::chain::limit_order_create_evaluator</a>.</p>
 
-<p>Definition at line <a class="el" href="evaluator_8cpp_source.html#l00077">77</a> of file <a class="el" href="evaluator_8cpp_source.html">evaluator.cpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8cpp_source.html#l00089">89</a> of file <a class="el" href="evaluator_8cpp_source.html">evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -410,7 +445,8 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>This method verifies that the fee is valid and sets the object pointer members and the fee fields. It should be called during do_evaluate. </p>
+<p>This method verifies that the fee is valid and sets the object pointer members and the fee fields. It should be called during do_evaluate.</p>
+<p>In particular, core_fee_paid field is set by <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a90ff8169dbff062373ea5fdc98e6c484" title="Fetch objects relevant to fee payer and set pointer members. ">prepare_fee()</a>. </p>
 
 <p>Definition at line <a class="el" href="evaluator_8cpp_source.html#l00048">48</a> of file <a class="el" href="evaluator_8cpp_source.html">evaluator.cpp</a>.</p>
 
@@ -477,7 +513,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00108">108</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00138">138</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -499,7 +535,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00111">111</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00141">141</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -521,7 +557,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00112">112</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00142">142</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -543,7 +579,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00107">107</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00137">137</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -565,7 +601,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00109">109</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00139">139</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -587,7 +623,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00110">110</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00140">140</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -609,7 +645,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00113">113</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="evaluator_8hpp_source.html#l00143">143</a> of file <a class="el" href="evaluator_8hpp_source.html">evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -620,7 +656,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2015 14:13:21 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 13 2016 11:43:39 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

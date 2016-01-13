@@ -10,6 +10,6 @@ var searchData=
   ['transfer',['transfer',['../classgraphene_1_1wallet_1_1wallet__api.html#a338fc74bb723d9c649f161b5279e41f0',1,'graphene::wallet::wallet_api::transfer()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#af6a4a05a1af2471c2f0d55827c1c1e64',1,'graphene::wallet::detail::wallet_api_impl::transfer()']]],
   ['transfer2',['transfer2',['../classgraphene_1_1wallet_1_1wallet__api.html#a52bd06d61575ff4cfc208d887db3d8ff',1,'graphene::wallet::wallet_api']]],
   ['transfer_5ffrom_5fblind',['transfer_from_blind',['../classgraphene_1_1wallet_1_1wallet__api.html#a8b38899a509b43720d344172323d2069',1,'graphene::wallet::wallet_api']]],
-  ['transfer_5fto_5fblind',['transfer_to_blind',['../classgraphene_1_1wallet_1_1wallet__api.html#a6209fb37844e23c339c959a7afe996df',1,'graphene::wallet::wallet_api']]],
+  ['transfer_5fto_5fblind',['transfer_to_blind',['../classgraphene_1_1wallet_1_1wallet__api.html#a2d270d1d0cc67d4fda65f165b7e486e7',1,'graphene::wallet::wallet_api']]],
   ['type',['type',['../structgraphene_1_1chain_1_1vote__id__type.html#a944bbda5367c2adc9add009273c496a1',1,'graphene::chain::vote_id_type']]]
 ];

@@ -106,15 +106,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a18a99d65a8cde46d13c1efd24c229c9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#a18a99d65a8cde46d13c1efd24c229c9f">network_node_api</a> (<a class="el" href="classgraphene_1_1app_1_1application.html">application</a> &amp;a)</td></tr>
 <tr class="separator:a18a99d65a8cde46d13c1efd24c229c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23b9ffa058760e0ce28e8116724a1236"><td class="memItemLeft" align="right" valign="top">fc::variant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#a23b9ffa058760e0ce28e8116724a1236">get_info</a> () const </td></tr>
-<tr class="memdesc:a23b9ffa058760e0ce28e8116724a1236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return general network information, such as p2p port.  <a href="#a23b9ffa058760e0ce28e8116724a1236">More...</a><br /></td></tr>
-<tr class="separator:a23b9ffa058760e0ce28e8116724a1236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef815bd4b4dab0023e6fc4929d780248"><td class="memItemLeft" align="right" valign="top">fc::variant_object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#aef815bd4b4dab0023e6fc4929d780248">get_info</a> () const </td></tr>
+<tr class="memdesc:aef815bd4b4dab0023e6fc4929d780248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return general network information, such as p2p port.  <a href="#aef815bd4b4dab0023e6fc4929d780248">More...</a><br /></td></tr>
+<tr class="separator:aef815bd4b4dab0023e6fc4929d780248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb792c2b97e1775236b5001a94ddbaa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#acb792c2b97e1775236b5001a94ddbaa0">add_node</a> (const fc::ip::endpoint &amp;ep)</td></tr>
 <tr class="memdesc:acb792c2b97e1775236b5001a94ddbaa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">add_node Connect to a new peer  <a href="#acb792c2b97e1775236b5001a94ddbaa0">More...</a><br /></td></tr>
 <tr class="separator:acb792c2b97e1775236b5001a94ddbaa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3441fb8762c1b26a89af97838cee7aca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; net::peer_status &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#a3441fb8762c1b26a89af97838cee7aca">get_connected_peers</a> () const </td></tr>
 <tr class="memdesc:a3441fb8762c1b26a89af97838cee7aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get status of all current connections to peers.  <a href="#a3441fb8762c1b26a89af97838cee7aca">More...</a><br /></td></tr>
 <tr class="separator:a3441fb8762c1b26a89af97838cee7aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0574f6802ee41d7419d2911cdb7a4972"><td class="memItemLeft" align="right" valign="top">fc::variant_object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#a0574f6802ee41d7419d2911cdb7a4972">get_advanced_node_parameters</a> () const </td></tr>
+<tr class="memdesc:a0574f6802ee41d7419d2911cdb7a4972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get advanced node parameters, such as desired and max number of connections.  <a href="#a0574f6802ee41d7419d2911cdb7a4972">More...</a><br /></td></tr>
+<tr class="separator:a0574f6802ee41d7419d2911cdb7a4972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59eb5a747b02c2b7c7f08462338a6805"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#a59eb5a747b02c2b7c7f08462338a6805">set_advanced_node_parameters</a> (const fc::variant_object &amp;params)</td></tr>
+<tr class="memdesc:a59eb5a747b02c2b7c7f08462338a6805"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set advanced node parameters, such as desired and max number of connections.  <a href="#a59eb5a747b02c2b7c7f08462338a6805">More...</a><br /></td></tr>
+<tr class="separator:a59eb5a747b02c2b7c7f08462338a6805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae31bd43a30221f6a4bca9d20d93ee195"><td class="memItemLeft" align="right" valign="top">std::vector&lt; net::potential_peer_record &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__node__api.html#ae31bd43a30221f6a4bca9d20d93ee195">get_potential_peers</a> () const </td></tr>
+<tr class="memdesc:ae31bd43a30221f6a4bca9d20d93ee195"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return list of potential peers.  <a href="#ae31bd43a30221f6a4bca9d20d93ee195">More...</a><br /></td></tr>
+<tr class="separator:ae31bd43a30221f6a4bca9d20d93ee195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classgraphene_1_1app_1_1network__node__api.html" title="The network_node_api class allows maintenance of p2p connections. ">network_node_api</a> class allows maintenance of p2p connections. </p>
@@ -135,7 +144,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="api_8cpp_source.html#l00140">140</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p>Definition at line <a class="el" href="api_8cpp_source.html#l00143">143</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -162,7 +171,26 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="api_8cpp_source.html#l00151">151</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p>Definition at line <a class="el" href="api_8cpp_source.html#l00154">154</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0574f6802ee41d7419d2911cdb7a4972"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fc::variant_object graphene::app::network_node_api::get_advanced_node_parameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get advanced node parameters, such as desired and max number of connections. </p>
+
+<p>Definition at line <a class="el" href="api_8cpp_source.html#l00169">169</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -181,16 +209,16 @@ Public Member Functions</h2></td></tr>
 
 <p>Get status of all current connections to peers. </p>
 
-<p>Definition at line <a class="el" href="api_8cpp_source.html#l00156">156</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p>Definition at line <a class="el" href="api_8cpp_source.html#l00159">159</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a23b9ffa058760e0ce28e8116724a1236"></a>
+<a class="anchor" id="aef815bd4b4dab0023e6fc4929d780248"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">fc::variant graphene::app::network_node_api::get_info </td>
+          <td class="memname">fc::variant_object graphene::app::network_node_api::get_info </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -200,7 +228,52 @@ Public Member Functions</h2></td></tr>
 
 <p>Return general network information, such as p2p port. </p>
 
-<p>Definition at line <a class="el" href="api_8cpp_source.html#l00144">144</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p>Definition at line <a class="el" href="api_8cpp_source.html#l00147">147</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae31bd43a30221f6a4bca9d20d93ee195"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; net::potential_peer_record &gt; graphene::app::network_node_api::get_potential_peers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return list of potential peers. </p>
+
+<p>Definition at line <a class="el" href="api_8cpp_source.html#l00164">164</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59eb5a747b02c2b7c7f08462338a6805"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::app::network_node_api::set_advanced_node_parameters </td>
+          <td>(</td>
+          <td class="paramtype">const fc::variant_object &amp;&#160;</td>
+          <td class="paramname"><em>params</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set advanced node parameters, such as desired and max number of connections. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">params</td><td>a JSON object containing the name/value pairs for the parameters to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="api_8cpp_source.html#l00174">174</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -211,7 +284,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2015 14:13:08 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 13 2016 11:43:25 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

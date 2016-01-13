@@ -55,7 +55,7 @@ var searchData=
   ['transfer_5ffrom_5fblind_5foperation',['transfer_from_blind_operation',['../structgraphene_1_1chain_1_1transfer__from__blind__operation.html',1,'graphene::chain']]],
   ['transfer_5foperation',['transfer_operation',['../structgraphene_1_1chain_1_1transfer__operation.html',1,'graphene::chain']]],
   ['transfer_5frestricted',['transfer_restricted',['../namespacegraphene_1_1chain.html#a6a12bfc3745c709e79e6bbcd1fa6c3d2a7f10195ef256169dc13d1bfd4dbca118',1,'graphene::chain']]],
-  ['transfer_5fto_5fblind',['transfer_to_blind',['../classgraphene_1_1wallet_1_1wallet__api.html#a6209fb37844e23c339c959a7afe996df',1,'graphene::wallet::wallet_api']]],
+  ['transfer_5fto_5fblind',['transfer_to_blind',['../classgraphene_1_1wallet_1_1wallet__api.html#a2d270d1d0cc67d4fda65f165b7e486e7',1,'graphene::wallet::wallet_api']]],
   ['transfer_5fto_5fblind_5fevaluator',['transfer_to_blind_evaluator',['../classgraphene_1_1chain_1_1transfer__to__blind__evaluator.html',1,'graphene::chain']]],
   ['transfer_5fto_5fblind_5foperation',['transfer_to_blind_operation',['../structgraphene_1_1chain_1_1transfer__to__blind__operation.html',1,'graphene::chain']]],
   ['transform_5fto_5ffee_5fparameters',['transform_to_fee_parameters',['../structgraphene_1_1chain_1_1transform__to__fee__parameters.html',1,'graphene::chain']]],

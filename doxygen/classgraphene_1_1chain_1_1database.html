@@ -572,7 +572,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if order was completely filled; false otherwise</dd></dl>
 <p>This function takes a new limit order, and runs the markets attempting to match it with existing orders already on the books. </p>
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00130">130</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00132">132</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -617,7 +617,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00526">526</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00536">536</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -645,7 +645,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00092">92</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00093">93</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -673,7 +673,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00107">107</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00108">108</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -711,7 +711,7 @@ Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if a margin call was executed. </dd></dl>
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00392">392</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00404">404</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -966,7 +966,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if the order was completely filled and thus freed. </dd></dl>
 <p>There are times when the AMOUNT_FOR_SALE * SALE_PRICE == 0 which means that we have hit the limit where the seller is asking for nothing in return. When this happens we must refund any balance back to the seller, it is too small to be sold at the sale price.</p>
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00261">261</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00263">263</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1000,7 +1000,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00301">301</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00313">313</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1034,7 +1034,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00354">354</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00366">366</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1438,7 +1438,7 @@ Protected Member Functions</h2></td></tr>
 <p>All margin positions are force closed at the swan price Collateral received goes into a force-settlement fund No new margin positions can be created for this asset No more price feed updates Force settlement happens without delay at the swan price, deducting from force-settlement fund No more asset updates may be issued. </p>
 <p>After all margin positions are closed, the current supply will be reported as 0, but that is a lie, the supply didn't change. We need to capture the current supply before filling all call orders and then restore it afterward. Then in the force settlement evaluator reduce the supply </p>
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00040">40</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00041">41</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1652,7 +1652,7 @@ template&lt;typename OrderType &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>a bit field indicating which orders were filled (and thus removed)</dd></dl>
 <p>0 - no orders were matched 1 - bid was filled 2 - ask was filled 3 - both were filled </p>
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00183">183</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00185">185</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1686,7 +1686,7 @@ template&lt;typename OrderType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00222">222</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00224">224</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1728,7 +1728,7 @@ template&lt;typename OrderType &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>the amount of asset settled </dd></dl>
 <p>If the least collateralized call position lacks sufficient collateral to cover at the match price then this indicates a black swan event according to the price feed, but only the market can trigger a black swan. So now we must cancel the forced settlement object.</p>
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00228">228</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00230">230</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1837,7 +1837,7 @@ template&lt;typename OrderType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00546">546</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00556">556</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1871,7 +1871,7 @@ template&lt;typename OrderType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00514">514</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p>Definition at line <a class="el" href="db__market_8cpp_source.html#l00524">524</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2339,7 +2339,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2015 14:13:20 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 13 2016 11:43:38 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

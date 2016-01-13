@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbcbae4d6e0c03b35cd69f3eb0ab6784"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#adbcbae4d6e0c03b35cd69f3eb0ab6784">process_fees</a> (const <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &amp;a, <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;d) const </td></tr>
 <tr class="memdesc:adbcbae4d6e0c03b35cd69f3eb0ab6784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split up and pay out <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a6e24bf9caed87ca04ade5361a0b2b818">pending_fees</a> and <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a1bf6b14fa88cc2bfac01861c2d896db8">pending_vested_fees</a>.  <a href="#adbcbae4d6e0c03b35cd69f3eb0ab6784">More...</a><br /></td></tr>
 <tr class="separator:adbcbae4d6e0c03b35cd69f3eb0ab6784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa09fea72ba6d68dc0b50a823f4fa838b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#aa09fea72ba6d68dc0b50a823f4fa838b">pay_fee</a> (<a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> core_fee, <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> cashback_vesting_threshold)</td></tr>
+<tr class="separator:aa09fea72ba6d68dc0b50a823f4fa838b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -142,6 +144,35 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="account__object_8hpp_source.html#l00038">38</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa09fea72ba6d68dc0b50a823f4fa838b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::account_statistics_object::pay_fee </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td>
+          <td class="paramname"><em>core_fee</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td>
+          <td class="paramname"><em>cashback_vesting_threshold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Core fees are paid into the <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html">account_statistics_object</a> by this method </p>
+
+<p>Definition at line <a class="el" href="account__object_8cpp_source.html#l00131">131</a> of file <a class="el" href="account__object_8cpp_source.html">account_object.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="adbcbae4d6e0c03b35cd69f3eb0ab6784"></a>
 <div class="memitem">
 <div class="memproto">
@@ -314,7 +345,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 13 2015 14:13:09 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 13 2016 11:43:27 for Graphene by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
