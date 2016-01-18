@@ -12,7 +12,9 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/">Home</a></li>
+            {% if page.url != "/" %}
+                <li class="active"><a href="/">Home</a></li>
+            {% endif %}
             <li><a href="/technology/">Technology</a></li>
             <li><a target="_blank" href="http://docs.bitshares.eu/">Documentation</a></li>
             <li><a target="_blank" href="https://www.bitsharestalk.org">Community</a></li>
