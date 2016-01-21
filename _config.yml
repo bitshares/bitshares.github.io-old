@@ -52,10 +52,6 @@ defaults:
 
 excerpt_separator: <!--more-->
 
-gems:
-    - jekyll-feed
-    - jekyll-redirect-from
-    - jekyll-sitemap
 
 permalink: /blog/:year/:month/:day/:title/
 
