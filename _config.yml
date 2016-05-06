@@ -14,10 +14,7 @@ defaults:
       values:
           lang: en
 
-    - scope:
-          path: content/zh
-      values:
-          lang: zh
+
 
     - scope:
           type: technologies
@@ -30,10 +27,7 @@ defaults:
       values:
           lang: en
 
-    - scope:
-          path: technologies/zh
-      values:
-          lang: zh
+
 
     - scope:
           type: posts
@@ -45,10 +39,7 @@ defaults:
       values:
           lang: en
 
-    - scope:
-          path: _posts/zh
-      values:
-          lang: zh
+
 
 excerpt_separator: <!--more-->
 
