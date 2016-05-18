@@ -76,7 +76,7 @@ redirect_from:
  <center>
 <div class="row row-eq-height">
   <ul class="features">
-    {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
+    {% assign technologies = (site.technologies | where: 'lang', 'en' | sort: 'priority') %}
     {% for technology in technologies  %}
     <li onclick="location.href='{{ technology.url }}';" class="col-xs-12 col-md-6 col-lg-4 state" >
     <a href="{{ technology.url }}">
