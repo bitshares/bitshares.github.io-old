@@ -76,7 +76,6 @@ redirect_from:
  <center>
 <div class="row row-eq-height">
   <ul class="features">
-    {% if page.lang == 'en' %}
     {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
     {% for technology in technologies  %}
     <li onclick="location.href='{{ technology.url }}';" class="col-xs-12 col-md-6 col-lg-4 state" >
@@ -86,7 +85,6 @@ redirect_from:
     <!-- Add the extra clearfix for only the required viewport -->
 
     {% endfor %}
-    {% endif %}
   </ul>
 
 </div>
