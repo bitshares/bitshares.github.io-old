@@ -205,12 +205,12 @@ Under BitShares 2.0, projects funded by dilution can specify a vesting period wh
 cannot be sold for years and thus alleviate any fears that selling of newly created tokens is the cause of short-term
 price movements.
 
-### Copyright Reserved
+### MIT licensed
 
-It takes a lot of time and money to build a blockchain and the fear of people copying the code and starting a new
-killer chain scares off many investors.  The code must be open source, but not free to use for any other blockchain.
-This means others can still copy it, but no serious business will build upon a platform that is in violation of
-copyright.  This will help attract capital to BitShares and secure our competitive edge.
+Even through it takes a lot of time and money to build a blockchain and the fear of people copying the code and starting
+a new killer chain scares off many investors.  The code must be open source, but not necessarily free to use for any
+other blockchain. Anyway, BitShares is open source, and the underlying technology Graphene is MIT licensed and thus **free
+for anybody to use for anything**.
 
 ### Changing the Rules (aka Hard Forks)
 
