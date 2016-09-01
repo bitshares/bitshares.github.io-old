@@ -16,7 +16,7 @@ features which are not found elsewhere within the smart contract industry:
 
 -----
 
-{% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
+{% assign technologies = (site.technologies | sort: 'priority') %}
 {% for technology in technologies  %}
 <div class="row tech-toc">
 

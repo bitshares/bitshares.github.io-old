@@ -1,6 +1,8 @@
+future: true
 name: BitShares
 description: BitShares 2.0 is an industrial-grade financial smart contract platform.
 url: https://bitshares.org
+repository: bitshares/bitshares.github.io
 
 collections:
     content:
@@ -10,34 +12,21 @@ collections:
 
 defaults:
     - scope:
-          path: content/en
-      values:
-          lang: en
-
-
-
-    - scope:
           type: technologies
       values:
           layout: technology
           priority: 100
-
-    - scope:
-          path: technologies/en
-      values:
           lang: en
 
-
+    - scope:
+          path: content
+      values:
+          lang: en
 
     - scope:
           type: posts
       values:
           layout: post
-
-    - scope:
-          path: _posts/en
-      values:
-          lang: en
 
 
 excerpt_separator: <!--more-->

@@ -42,7 +42,6 @@ buy/sell order at a desired price.
 - [**CCEDK**<i> - USD, EUR, bitUSD, bitEUR</i>](https://www.ccedk.com/bitusd-usd){:target="_blank"}
 - [BTC38](http://www.btc38.com/trade_en.html){:target="_blank"}
 - [Yunbi](https://yunbi.com/?lang=en){:target="_blank"}
-- [Bter](https://bter.com/){:target="_blank"}
 - [Poloniex](https://www.poloniex.com/){:target="_blank"}
 - [Bittrex](https://bittrex.com/){:target="_blank"}
 - [Bitcoin Indonesia](https://vip.bitcoin.co.id/){:target="_blank"}

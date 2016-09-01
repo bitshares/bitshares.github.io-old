@@ -6,7 +6,7 @@ layout: index_tech
 <h1>Blog</h1>
 <hr />
 
-{% assign posts = (site.posts | where: 'lang', page.lang) %}
+{% assign posts = (site.posts) %}
 {% for post in posts %}
     <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
     ({{ post.date | date: "%-m/%-d/%Y" }})<br />

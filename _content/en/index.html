@@ -39,57 +39,45 @@ redirect_from:
 ---
 
 <section class="teaser ">
-
-<div class="slogan ">
+ <div class="slogan ">
   <center>
-    <div id="getting-started"></div>
-
-    <h2 class="pitch" style="padding-top:5rem;">
-       BitShares - Your share in the Decentralized Exchange
-    </h2>
+   <div id="getting-started"></div>
+   <h2 class="pitch" style="padding-top:5rem;">
+    BitShares - Your share in the Decentralized Exchange
+   </h2>
    <p class="pitch-sub">
-     Built using the latest in industry research, BitShares 2.0 offers a
-     stack of financial services including exchange and banking on a blockchain.</p>
+   Built using the latest in industry research, BitShares 2.0 offers a
+   stack of financial services including exchange and banking on a blockchain.</p>
    <br />
    <p>
-    <a class="btn btn-lg btn-success" href="https://bitshares.org/download/">Download</a>
-    <span style="font-size: 100%"> &nbsp; OR &nbsp; </span>
-    <a class="btn btn-lg btn-primary" href="https://bitshares.openledger.info">Try Online Wallet </a>
+   <a class="btn btn-lg btn-success" href="https://bitshares.org/download/">Download</a>
+   <span style="font-size: 100%"> &nbsp; OR &nbsp; </span>
+   <a class="btn btn-lg btn-primary" href="https://bitshares.openledger.info">Try Online Wallet </a>
    </p>
   </center>
-
-   </center>
-<div class="row center">
-<div class="container">
-
-</div>
-
+  </center>
+  <div class="row center">
+   <div class="container">
+   </div>
+  </div>
  </div>
-
-</div>
-
 </section>
 
 <section id="features">
-<div class="container">
-
- <center>
-<div class="row row-eq-height">
-  <ul class="features">
-    {% assign technologies = (site.technologies | where: 'lang', page.lang | sort: 'priority') %}
-    {% for technology in technologies  %}
-    <li onclick="location.href='{{ technology.url }}';" class="col-xs-12 col-md-6 col-lg-4 state" >
-    <a href="{{ technology.url }}">
-    <img class="feature-img" src="{{ BASE_PATH }}/{{ technology.image }}" />
-    {{ technology.title }}</a><br>{{ technology.subtitle }}</li>
-    <!-- Add the extra clearfix for only the required viewport -->
-
-    {% endfor %}
-  </ul>
-
-</div>
-</center>
-
-
-
-</div></section>
+ <div class="container">
+  <center>
+   <div class="row row-eq-height">
+    <ul class="features">
+     {% assign technologies = (site.technologies | sort: 'priority') %}
+     {% for technology in technologies  %}
+     <li onclick="location.href='{{ technology.url }}';" class="col-xs-12 col-md-6 col-lg-4 state" >
+      <a href="{{ technology.url }}">
+       <img class="feature-img" src="{{ BASE_PATH }}/{{ technology.image }}" />
+       {{ technology.title }}</a><br>{{ technology.subtitle }}</li>
+     <!-- Add the extra clearfix for only the required viewport -->
+     {% endfor %}
+    </ul>
+   </div>
+  </center>
+ </div>
+</section>

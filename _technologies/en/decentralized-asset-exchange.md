@@ -9,6 +9,7 @@ summary: >
     you would expect in a trading platform. It can handle the trading volume of the NASDAQ, while
     settling orders the second you submit them.  With this kind of performance on a decentralized exchange,
     who needs risky centralized exchanges?
+date: 2016-01-01 00:00:00 -0000
 ---
 
 Throughout history, centralized exchanges have repeatedly proven unreliable and
