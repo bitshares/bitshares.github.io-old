@@ -21,4 +21,4 @@ Documentation is available at [docs.bitshares.eu](http://docs.bitshares.eu/){:ta
 Technical support is available in the community [Technical Support subforum](https://bitsharestalk.org/index.php/board,45.0.html){:target="_blank"}.
 
 ## Official Web Wallets
-A web browser wallet is available at [OpenLedger](https://bitshares.openledger.info){:target="_blank"}.
+A web browser wallet is available at [bitshares.org/wallet](https://bitshares.org/wallet){:target="_blank"} and at [OpenLedger](https://bitshares.openledger.info){:target="_blank"}.
