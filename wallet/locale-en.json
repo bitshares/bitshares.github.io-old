@@ -6,8 +6,7 @@
     "ko": "한국어",
     "de": "Deutsch",
     "es": "Español",
-    "tr": "Turkish",
-    "ru": "Русский"
+    "tr": "Turkish"
   },
   "sync_fail": {
     "title": "Failed to sync with the API server",
@@ -44,7 +43,7 @@
     "show_asset": "Click here to show this asset in the main list.",
     "settle": "Settling will let you convert your holdings of %(asset)s to BTS after a delay of 24 hours, at a price equal to the feed price at that time.",
     "filter_ops": "Use this list to filter your history by operation type.",
-    "show_block": "Click here to show block #%(block)s where this transaction occurred.",
+    "show_block": "Click here to show block #%(block)s where this transaction occured.",
     "coll_ratio": "The collateral ratio of the position is COLLATERAL * FEED PRICE / DEBT.",
     "call_price": "This is the call price of the position. If the feed price goes below the call price, the position will be margin called.",
     "close_position": "Click here to close your position. You will need to have at least %(amount)s %(asset)s in order to do so.",
@@ -53,14 +52,11 @@
     "cr_warning": "This position has a low level of collateral, and will get margin called if the collateral ratio drops below %(mr)s. Consider adding collateral or closing the position.",
     "propose_scam": "This proposal was created by a known scammer, do not approve it!",
     "login": "This BitShares wallet does not offer a traditional login but instead simply locks or unlocks a wallet that is <b>only</b> stored locally in your browser.<br/><br/>Whenever you close the wallet it will be locked and you will effectively be logged out.",
-    "buy_min": "You will receive at minimum this amount. If there are matching orders with a cheaper price than you specified, you will receive more than this amount.",
-    "borrow": "Borrow %(asset)s from the network. This creates a smart contract that locks your collateral until you either modify the position or a margin call is required."
+    "buy_min": "You will receive at minimum this amount. If there are matching orders with a cheaper price than you specified, you will receive more than this amount."
   },
   "propose": "Propose",
   "cancel": "Cancel",
   "account": {
-    "in_open": "This is the amount of %(asset)s you have in open orders.",
-    "total_estimate": "This is the estimated value of all your assets, including any hidden assets, open orders, debt and collateral. The estimate is done using only live blockchain data and may not be perfectly accurate.",
     "trade": "Trade",
     "welcome": "Welcome to BitShares",
     "asset": "Asset",
@@ -217,7 +213,7 @@
       "warning3": "Account is already in the list",
       "warning4": "Key is already in the list",
       "action": "Action",
-      "acct_or_key": "Account / Key / Address",
+      "acct_or_key": " Account / Key / Address",
       "key_viewer": "Private key viewer",
       "public": "Public key",
       "private": "Private key (WIF - Wallet Import Format)",
@@ -760,8 +756,7 @@
     "lookup_text": "Click the button below to check for unclaimed balances from BTS 1.0",
     "delete_select": "Select wallet to delete",
     "restore_brainkey_text": "In order to restore from a brainkey, you will need to create a new wallet. Please provide a password and name for your new wallet below, then enter your brainkey.",
-    "restore_key_count": "# of keys",
-    "restore_default_success": "Settings have been reset successfully"
+    "restore_key_count": "# of keys"
   },
   "footer": {
     "title": "BitShares",
@@ -773,23 +768,6 @@
     "brainkey": "Backup brainkey recommended"
   },
   "exchange": {
-    "chart_options": {
-        "tools": "Tools",
-        "title": "Indicators",
-        "sma": "SMA",
-        "ema1": "EMA 1",
-        "ema2": "EMA 2",
-        "smaVolume": "SMA",
-        "macd": "MACD chart",
-        "bb": "Bollinger Bands",
-        "fib": "Draw Fibonacci retracement",
-        "trendline": "Draw trend line",
-        "volume": "Show volume chart",
-        "period": "Period",
-        "height": "Chart height",
-        "price_title": "Price indicators",
-        "volume_title": "Volume indicators"
-    },
     "market": "Market",
     "price_history": "Price Chart",
     "order_depth": "Market Depth",
@@ -1141,5 +1119,6 @@
     "rate": "Please wait at least 2s before posting a new message",
     "disabled": "Chat disabled",
     "enable": "Enable chat now"
+
   }
 }
