@@ -871,7 +871,7 @@
     "to_market": "Go to market",
     "zoom_all": "All",
     "settings": "Chart options",
-    "featured": "Featured Markets",
+    "featured": "Top Markets",
     "new": "New",
     "market_frozen": "The owner of %(asset)s has disabled trading in this market."
   },
@@ -1071,7 +1071,7 @@
   },
   "init_error": {
     "title": "Application initialization issues",
-    "ws_status": "Websocket Connection Status",
+    "ws_status": "Full node connection status",
     "retry": "Retry",
     "connected": "Connected",
     "not_connected": "Not connected",
@@ -1092,6 +1092,13 @@
     "fee_paying_account": "Fee paying account"
   },
   "gateway": {
+    "assets": {
+        "open": "<br/><br/>The %(asset)s asset is backed 1:1 by real %(backed)s and can be deposited or withdrawn using the gateway service provided by Openledger.",
+        "trade": "<br/><br/>The %(asset)s asset is backed 1:1 by real %(backed)s and can be deposited or withdrawn using the gateway service provided by Blocktrades.",
+        "bit": "<br/>bit%(asset)s is a derivative that tracks the real value of %(backed)s. It is 100%% decentralized, trustless and backed by collateral held by the blockchain in a smart contract.",
+        "bitcny": "<br/><br/>bitCNY can be deposited or withdrawn 1:1 to real Yuan using the gateway service provided by Transwiser. For more info, see https://www.transwiser.com/"
+    },
+    "your_account": "Your account",
     "bitkapital_text": "Choose an asset to deposit or withdraw:",
     "bitkapital_withdraw": "You are withdrawing",
     "bitkapital_receive": "You will receive",
@@ -1102,7 +1109,7 @@
     "symbol": "Symbol",
     "website": "Visit the website",
     "deposit_to": "Please send your %(asset)s to the address below",
-    "add_funds": "You are going to add funds to your BitShares account.",
+    "add_funds": "Quickly and easily add funds to your BitShares account <strong>%(account)s</strong>. This service is provided by Openledger.",
     "withdraw_funds": "You are going to withdraw funds from your BitShares account to your external %(asset)s account.",
     "balance_asset": "Current %(asset)s balance",
     "withdraw_placeholder": "Please enter your %(asset)s address",
