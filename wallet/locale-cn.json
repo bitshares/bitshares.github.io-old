@@ -333,7 +333,8 @@
     "create_new": "创建新账户",
     "estimate_value": "账户价值估算",
     "polo_scam": "注意：这个账户不是交易所 Poloniex 的存款账户，请发送至 poloniexwallet。",
-    "bittrex_scam": "注意：这个账户不是交易所 Bittrex 的存款账户，请发送至 bittrex-deposit。"
+    "bittrex_scam": "注意：这个账户不是交易所 Bittrex 的存款账户，请发送至 bittrex-deposit。",
+    "other_scam": "This account is not known to be an official account, please verify the destination before transferring"
   },
   "transfer": {
     "from": "来自",
@@ -939,7 +940,7 @@
     "change": "切换到钱包 (%(name)s)",
     "balance_claims": "余额导入",
     "backup_brainkey": "备份脑钱包密钥",
-    "downoad": "下载",
+    "download": "下载",
     "import_20_notice1": "请先导入你的BTS 2.0+ 钱包备份文件",
     "import_20_notice2": "(如果你有的话)",
     "loading_balances": "余额读取中",
