@@ -23,9 +23,12 @@
     "update_asset": "Dijital Varlık Güncelle",
     "lock": "Kilitle",
     "unlock": "Kilidi Aç",
+    "unlock_password": "Giriş yap",
+    "unlock_short": "Giriş",
     "help": "Yardım",
     "locked_tip": "Cüzdan kilitli.<br/>Açmak için tıkla.",
-    "unlocked_tip": "Cüzdan kilidi açık .<br/>Kilitlemek için tıkla."
+    "unlocked_tip": "Cüzdan kilidi açık .<br/>Kilitlemek için tıkla.",
+    "account_notify": "Aktif hesap: %(account)s"
   },
   "tooltip": {
     "call_limit": "Piyasadaki en az teminatlı marjin pozisyonunun itfa fiyatı",
@@ -58,6 +61,14 @@
   "propose": "Teklif Et",
   "cancel": "İptal",
   "account": {
+    "intro_text_title": "Bitshares'e Hoş Geldiniz",
+    "intro_text_1": "<b>Bitshares Merkezsiz Kriptopara Borsası</b> (BMKB) kripto para al-sat deneyiminizi kökten değiştirecek, yeni nesil bir borsa platformudur.",
+    "intro_text_2": "<b>Bitshares</b>'de al-sat işlemleri herhangi bir aracı olmaksızın, doğrudan kullanıcıların kendi arasında gerçekleşir.",
+    "intro_text_3": "Platform üzerinde kullanıcılar kendi hesaplarının tam kontrolüne sahiptir - hiçbir aracı kurum işlemlerinize müdahale edemez!",
+    "intro_text_4": "Platformda BTC, ETH, STEEM, DASH, LTC, DOGE gibi coin'lerle işlem yapabileceğiniz gibi aynı zamanda kendi coin'inizi oluşturabilir ve hemen ticaretine başlayabilirsiniz.",
+    "in_open": "Bekleyen emirlerinizdeki %(asset)s miktarı: ",
+    "in_open_value": "%(asset)s piyasasındaki bekleyen emirlerin büyüklüğü (anlık değere göre): ",
+    "password_login": "Giriş yap",
     "transfer_actions": "Transfer işlemleri",
     "market_actions": "Takas işlemleri",
     "see_open": "Bekleyen emirler",
@@ -856,7 +867,12 @@
     "zoom_all": "Tümü",
     "settings": "Çizelge tercihleri",
     "featured": "Öne Çıkan Piyasalar",
-    "new": "Yeni"
+    "new": "Yeni",
+    "market_frozen": "The owner of %(asset)s has disabled trading in this market.",
+    "show_star_1": "Show",
+    "show_star_2": "only",
+    "base": "Base currency:",
+    "search": "Search for more markets here"
   },
   "fees": {
     "title": "Ücret Tarifesi"
@@ -893,6 +909,7 @@
     "has_wallet": "Bitshares hesabı açtığınızda cüzdanınızın kontrolü tamamen size aittir. Bir başka kişi sizin cüzdanınızı kontrol edemez. Cüzdana erişim için gerekli olan TekAnahtar bilgisayarınızda şifreli olarak saklanır.",
     "create_account_text": "Hesabınıza ait .bin dosyasını kaybetmeniz, veya TekAnahtarı ya da şifrenizi unutmanız durumunda hesabınıza erişmenin hiçbir yolu yoktur. Bu yüzden, bir sonraki adımda cüzdanınızı yedeklemeli ve .bin dosyanızı, şifrenizi ve TekAnahtarınızı kesinlikle kaybetmemelisiniz.",
     "first_account_paid": "TekAnahtarınızı, şifrenizi veya .bin dosyasını güvende tutmazsanız, bilgisayarınızda oluşacak herhangi bir sorun ya da güncelleme nedeniyle cüzdanınıza erişimi kaybedebilirsiniz. Bu durumda cüzdanınızdaki dijital varlıkları geri getirmenin hiçbir yolu yoktur.",
+    "not_first_account": "Zaten bir Bitshares hesabı ile giriş yapılmış, bu yüzden yeni oluşturacağınız her hesap için ağ ücreti ödemeniz gerekmektedir.",
     "import_backup_choose": "Lütfen yedekleme dosyasını seçin. Bu işlem esnasında dosya kendi bilgisayarınızdan dışarıya asla aktarılmaz, bütün işlem bilgisayarınızda gerçekleşir.",
     "import_balance": "Bakiyeyi aktar.",
     "import_key_success": "İşleminiz başarıyla tamamlandı!",
