@@ -768,7 +768,7 @@
     "remove_ws":"Удалить WebSocket API",
     "faucet_address":"Адрес сервера-крана (faucet)",
     "showSettles":"Показать ордера на погашение ордера на графике глубины",
-    "showAssetPercent":"Показать процентное соотношение активов на на странице аккаунтов",
+    "showAssetPercent":"Показать процентное соотношение активов на странице аккаунтов",
     "yes":"Да",
     "no":"Нет",
     "walletLockTimeout":"Время автоблокировки кошелька (в секундах, 0 - для отключения)",
@@ -1083,10 +1083,10 @@
     "account_public":"Имя аккаунта (публичное)",
     "current_pass":"Текущий пароль",
     "no_wallet":"У Вас еще нет кошелька",
-    "generated": "Generated password",
-    "understand_1": "I understand that no one can recover my password if I lose or forget it",
-    "understand_2": "I have written down or oherwise stored my password",
-    "bts_rules": "The first rule of Bitshares is: Do not lose your password.<br/>The second rule of Bitshares is: Do not lose your password.<br />The third rule of Bitshares is: We cannot recover your password.<br />The fourth rule: If you can remember the password, it's not secure.<br />The fifth rule: Use only randomly-generated passwords.<br />The sixth rule: Do not tell anyone your password.<br />The seventh rule: Always back up your password."
+    "generated":"Сгенерированный пароль",
+    "understand_1":"Я понимаю, что никто не сможет восстановить мой пароль, если я потеряю или забуду его",
+    "understand_2":"Я записал или еще как-либо сохранил свой пароль",
+    "bts_rules":"Первое правило BitShares: не потеряйте свой пароль.<br/>Второе правило BitShares: не потеряйте свой пароль.<br />Третье правило BitShares: мы не можем восстановить Ваш пароль.<br />Четвертое правило: если Вы помните пароль наизусть, он небезопасен.<br />Пятое правило: используйте только рандомно сгенерированные пароли.<br />Шестое правило: никому не говорите свой пароль.<br />Седьмое правило: всегда храните копию своего пароля."
   },
   "borrow":{
     "title":"%(asset_symbol)s маржа",
@@ -1225,16 +1225,30 @@
     "gateway_text":"Здесь выберите, хотите ли Вы разместить депозит или вывести средства",
     "fiat_text":"Пополнение депозита и вывод фиатных денег производится с помощью OpenLedger. Чтобы начать, Вам необходимо завершить процесс регистрации. Доступны следующие виды конверсии:",
     "transwiser":{
+      "channel":{
+        "withdraw":{
+          "alipay":"ALIPAY",
+          "weixin_pay":"WeChat Pay",
+          "bank_wire":"Банковский перевод"
+        }
+      },
+      "fee":"Комиссия",
+      "fee_min":"Минимум",
       "gateway":"Transwiser\n",
       "visit_weidian":"Посетить депозит",
       "deposit_title":"Внести юани (RMB) в %(asset)s",
-      "withdraw_title":"Вывести %(asset)s в юанях (RMB)",
-      "alipay":"Имя аккаунта в ALIPAY",
+      "withdraw_title":"Вывести %(asset)s на %(channel)s",
+      "alipay_account":"Имя аккаунта в ALIPAY",
       "memo":"Примечание",
       "alipay_account_name_notice":"Обычно это имя Вашего аккаунта на Alipay или номер мобильного телефона",
+      "alipay_realname":"Настоящее имя",
       "alipay_realname_notice":"Для вывода на Alipay, пожалуйста, укажите в поле ПРИМЕЧАНИЕ Ваше настоящее имя для проверки",
       "withdraw_note":"В данный момент поддерживается только вывод средств с помощью ALIPAY. Ваш актив будет конвертирован в юани (RMB) в соотношении 1:1 и отправлен на Ваш ALIPAY аккаунт",
-      "you_will_receive":"Вы получите %(amount)s юани (RMB)"
+      "you_will_receive":"Вы получите %(amount)s юани (RMB)",
+      "bank_name":"Название банка",
+      "bank_branch":"Филиал",
+      "bank_account":"Номер счета",
+      "bank_holder":"Имя владельца"
     },
     "meta":{
       "open_website":"Открыть веб-сайт"
@@ -1260,5 +1274,8 @@
     "disabled":"Чат отключен",
     "enable":"Включить чат",
     "telegram_link":"Более активное обсуждение ведется в группе BitShares в Telegram: <a href='https://t.me/BitSharesDEX' target='blank' rel='noopener noreferrer'>https://t.me/BitSharesDEX</a>"
-  }
+  },
+  "trx_error": {
+        "expire": "Your transaction has expired without being confirmed, please try again later."
+      }
 }
