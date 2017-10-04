@@ -26,16 +26,9 @@ Under this approach, the token is valued by the market as a dollar, discounted b
 issuer.   This can work well for transactions, but less well as a form of savings.   History has repeatedly proven that
 issuers eventually go bankrupt due to fraud, incompetence, or government intervention.
 
-More recent approaches have used a cryptocurrency as collateral in a [contract for
-difference](http://www.investopedia.com/terms/c/contractfordifferences.asp){:target="_blank"}.
-Under this approach, two parties take opposite sides of a trade, where one party is guaranteed price stability, and the
-other party is granted leverage.    This approach works as long as sufficient collateral exists, and the contract can be
-settled by an honest 3rd party with a price feed.  Unfortunately, a contract for difference is not fungible, and has an
-explicit settlement date, which means it is not useful as a currency.
-
 ## Introducing SmartCoins
 
-SmartCoins take the concept of a contract for difference, and make the long side fungible.  For the purpose of this
+SmartCoins implement the concept of a collateralized loan and offer it on the blockchain. For the purpose of this
 discussion, we will assume that the long side of the contract is BitUSD and that the backing collateral is BTS
 (the BitShares core asset). To achieve this, SmartCoins use the following set of market rules:
 

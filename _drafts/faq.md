@@ -69,7 +69,7 @@ Under DPOS 2.0 the roles of delegates and users have been divided into several d
 22. Ledger
 23. Block
 24. Cryptocurrency
-25. Contract for Difference
+25. Collateralized Loan
 26. Price Feed
 27. Force Settlement Price
 28. Corporate Account

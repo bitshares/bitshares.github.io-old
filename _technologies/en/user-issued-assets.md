@@ -125,8 +125,7 @@ restrictions, the issuer of a private SmartCoin has control over:
 5. Price Feed Update Rate
 6. Global Forced Settlement
 
-With these tools it is possible to emulate a pure contract for difference with periodic global forced settlement (ie:
-monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30 day delay on forced settlement.
+With these tools it is possible to implement a true collateralized loan.
 
 Arbitrary financial indexes can be used for the price feed to mimic all manner of exotic assets.
 
