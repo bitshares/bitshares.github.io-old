@@ -15,7 +15,7 @@ Please see the [registration tutorial](/register/){:target="_blank"} if you are 
 - Modern Internet Browser
 
 ## Documentation
-Documentation is available at [docs.bitshares.eu](http://docs.bitshares.eu/){:target="_blank"}.
+Documentation is available at [docs.bitshares.org](http://docs.bitshares.org/){:target="_blank"}.
 
 ## Technical Support
 Technical support is available in the community [Technical Support subforum](https://bitsharestalk.org/index.php/board,45.0.html){:target="_blank"}.
