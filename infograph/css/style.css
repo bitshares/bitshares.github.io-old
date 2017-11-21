@@ -1,0 +1,52 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	border:none;
+}
+.wraper{
+	width:100%;
+}
+.header{
+	float:left;
+	width:100%;
+	background:#404041;
+	padding:3% 0px 1% 0px;
+}
+.inerwraper{
+	margin:auto;
+	max-width:1080px;
+	position:relative;
+}
+.header img{
+	width:100%;
+}
+.one_page{
+	margin:auto;
+	clear:both;
+	width:86%;
+}
+.one_page img{
+	width:100%;
+}
+.footer{
+	float:left;
+	width:100%;
+	background:#404041;
+	padding:2% 0px 2% 0px;
+}
+.shadow_1{
+	float:left;
+	width:100%;
+}
+.shadow_1 img{
+	width:100%;
+	display:block;
+}
+.footer_bit{
+	float:right;
+	width:300px;
+}
+.footer_bit img{
+	width:100%;
+}
