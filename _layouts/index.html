@@ -10,17 +10,7 @@
         {{ content }}
 
         {% include footer.html %}
-        <script>
-          var BTSW = window.BTSW || {};
-          (function () {
-            var script = document.createElement('script');
-            script.type = 'text/javascript';
-            script.async = true;
-            script.src = 'https://bitshares.openledger.info/widgets/2/w.js?ref=' + encodeURIComponent(document.referrer);
-            var entry = document.getElementsByTagName('script')[0];
-            entry.parentNode.insertBefore(script, entry);
-          }());
-        </script>
+
     </body>
 
 </html>
