@@ -1,16 +1,8 @@
 var searchData=
 [
-  ['weight_5ftype',['weight_type',['../namespacegraphene_1_1chain.html#abfad0b3a88dd91b907bc0199ded6768c',1,'graphene::chain']]],
-  ['withdraw_5fpermission_5fid_5ftype',['withdraw_permission_id_type',['../namespacegraphene_1_1chain.html#ae1e7d73b3ea0bcf44a14b2487911736a',1,'graphene::chain']]],
-  ['withdraw_5fpermission_5findex',['withdraw_permission_index',['../namespacegraphene_1_1chain.html#a448e9811f840d88cab8b0dbb7057a4a4',1,'graphene::chain']]],
-  ['withdraw_5fpermission_5fobject_5fmulti_5findex_5ftype',['withdraw_permission_object_multi_index_type',['../namespacegraphene_1_1chain.html#a1415c780be547b75b7236e41ec003aa9',1,'graphene::chain']]],
-  ['witness_5fid_5ftype',['witness_id_type',['../namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0',1,'graphene::chain']]],
-  ['witness_5findex',['witness_index',['../namespacegraphene_1_1chain.html#a98ada320d7732377d0913aa7efafd4ba',1,'graphene::chain']]],
-  ['witness_5fmulti_5findex_5ftype',['witness_multi_index_type',['../namespacegraphene_1_1chain.html#aa0f051c3b803688473930d49a98ec8e2',1,'graphene::chain']]],
-  ['witness_5fschedule_5fid_5ftype',['witness_schedule_id_type',['../namespacegraphene_1_1chain.html#a0a1619b5658f5eac4f0d13df44f58659',1,'graphene::chain']]],
-  ['worker_5fid_5ftype',['worker_id_type',['../namespacegraphene_1_1chain.html#a788ebe77ccf4041784c23540420eee0f',1,'graphene::chain']]],
-  ['worker_5findex',['worker_index',['../namespacegraphene_1_1chain.html#ad0445f69e4dc63af75eb5a699a04ec8b',1,'graphene::chain']]],
-  ['worker_5finitializer',['worker_initializer',['../group__workers.html#ga13df48976822df52f83ec69a458e4d46',1,'graphene::chain']]],
-  ['worker_5fobject_5fmulti_5findex_5ftype',['worker_object_multi_index_type',['../namespacegraphene_1_1chain.html#a5561eae743210d94b869435d8f2344f9',1,'graphene::chain']]],
-  ['worker_5ftype',['worker_type',['../namespacegraphene_1_1chain.html#a9c7b664887e4be69b07ec1e4b2547748',1,'graphene::chain']]]
+  ['vesting_5fbalance_5fid_5ftype',['vesting_balance_id_type',['../namespacegraphene_1_1chain.html#a3c7832a7fb78912c0bd3b8b50a19c3f1',1,'graphene::chain']]],
+  ['vesting_5fbalance_5findex',['vesting_balance_index',['../namespacegraphene_1_1chain.html#ab04613b07ed5a248119544dce7824ea4',1,'graphene::chain']]],
+  ['vesting_5fbalance_5fmulti_5findex_5ftype',['vesting_balance_multi_index_type',['../namespacegraphene_1_1chain.html#af3ffe5ca8fd7dbe899aca8f78f36a2b7',1,'graphene::chain']]],
+  ['vesting_5fpolicy',['vesting_policy',['../namespacegraphene_1_1chain.html#a53807c77a8d2a7efb30e13b772e99b3a',1,'graphene::chain']]],
+  ['vesting_5fpolicy_5finitializer',['vesting_policy_initializer',['../namespacegraphene_1_1chain.html#a194569e75a13cff8d7d1f97f24743b6e',1,'graphene::chain']]]
 ];

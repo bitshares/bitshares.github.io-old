@@ -2,9 +2,11 @@ var searchData=
 [
   ['handle_5fblock',['handle_block',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a975fc1413f1810ebf2cebb4c1ba67a63',1,'graphene::app::detail::application_impl']]],
   ['handle_5fmessage',['handle_message',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#ab6c5753f3f9acdfbd82aa5bf1817e18c',1,'graphene::app::detail::application_impl']]],
+  ['handle_5fobject_5fchanged',['handle_object_changed',['../classgraphene_1_1app_1_1database__api__impl.html#af32c7a64a34782f8cfc678098e63633a',1,'graphene::app::database_api_impl']]],
   ['handle_5ftransaction',['handle_transaction',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#aaff7c2db6940b426331d1054d7703922',1,'graphene::app::detail::application_impl']]],
   ['has_5fitem',['has_item',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a2dc37668fbd29eb5b875e39d0cebe00d',1,'graphene::app::detail::application_impl']]],
   ['has_5fsettlement',['has_settlement',['../classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a556cb4413ab04ccfc6f0539b9a461dc3',1,'graphene::chain::asset_bitasset_data_object']]],
+  ['has_5fspecial_5fauthority',['has_special_authority',['../classgraphene_1_1chain_1_1account__object.html#acef9bf5dc3e7e467c936a396f705de8d',1,'graphene::chain::account_object']]],
   ['head',['head',['../classgraphene_1_1chain_1_1fork__database.html#a8ecfb9967231670ca579f20e842f461d',1,'graphene::chain::fork_database']]],
   ['head_5fblock_5fid',['head_block_id',['../classgraphene_1_1chain_1_1database.html#ac6afe06411260f36ce792ed1617d1b48',1,'graphene::chain::database']]],
   ['head_5fblock_5fnum',['head_block_num',['../classgraphene_1_1chain_1_1database.html#a0264056d5c5d32e107866943fb5ce852',1,'graphene::chain::database']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['impl_5fobject_5ftype',['impl_object_type',['../namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73',1,'graphene::chain']]]
+  ['graphene_5ffba_5faccumulator_5fid_5fenum',['graphene_fba_accumulator_id_enum',['../namespacegraphene_1_1chain.html#acdb82d2f8c178aa11ccb3df23ca32ccd',1,'graphene::chain']]]
 ];

@@ -2,20 +2,11 @@ var searchData=
 [
   ['handle_5fblock',['handle_block',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a975fc1413f1810ebf2cebb4c1ba67a63',1,'graphene::app::detail::application_impl']]],
   ['handle_5fmessage',['handle_message',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#ab6c5753f3f9acdfbd82aa5bf1817e18c',1,'graphene::app::detail::application_impl']]],
+  ['handle_5fobject_5fchanged',['handle_object_changed',['../classgraphene_1_1app_1_1database__api__impl.html#af32c7a64a34782f8cfc678098e63633a',1,'graphene::app::database_api_impl']]],
   ['handle_5ftransaction',['handle_transaction',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#aaff7c2db6940b426331d1054d7703922',1,'graphene::app::detail::application_impl']]],
-  ['hardfork_2ehpp',['hardfork.hpp',['../hardfork_8hpp.html',1,'']]],
-  ['hardfork_5f357_5ftime',['HARDFORK_357_TIME',['../hardfork_8hpp.html#a2688405ac330113e296dd274af80a15b',1,'hardfork.hpp']]],
-  ['hardfork_5f359_5ftime',['HARDFORK_359_TIME',['../hardfork_8hpp.html#abdc9b1423da32170327a5e69eecb2c8a',1,'hardfork.hpp']]],
-  ['hardfork_5f409_5ftime',['HARDFORK_409_TIME',['../hardfork_8hpp.html#afb8d5f13ad453b747ac26296c1a38ff8',1,'hardfork.hpp']]],
-  ['hardfork_5f413_5ftime',['HARDFORK_413_TIME',['../hardfork_8hpp.html#a3ef66b6bd13e4a90b9bed086cb06d30a',1,'hardfork.hpp']]],
-  ['hardfork_5f415_5ftime',['HARDFORK_415_TIME',['../hardfork_8hpp.html#a8192f22b1d7339ff72a9ac7a5c3a60f5',1,'hardfork.hpp']]],
-  ['hardfork_5f416_5ftime',['HARDFORK_416_TIME',['../hardfork_8hpp.html#a150f6af415ae7ca9b594f5bcd8425beb',1,'hardfork.hpp']]],
-  ['hardfork_5f419_5ftime',['HARDFORK_419_TIME',['../hardfork_8hpp.html#a06841eb56bd7f82466902318a927e028',1,'hardfork.hpp']]],
-  ['hardfork_5f436_5ftime',['HARDFORK_436_TIME',['../hardfork_8hpp.html#a6e52bcf9a3f90ae7b383156b9bc3c799',1,'hardfork.hpp']]],
-  ['hardfork_5f445_5ftime',['HARDFORK_445_TIME',['../hardfork_8hpp.html#ad2badbadd2e2df01f2de5b751b57709c',1,'hardfork.hpp']]],
-  ['hardfork_5f453_5ftime',['HARDFORK_453_TIME',['../hardfork_8hpp.html#aa2538e1481584ea0057361beea6cef7b',1,'hardfork.hpp']]],
   ['has_5fitem',['has_item',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a2dc37668fbd29eb5b875e39d0cebe00d',1,'graphene::app::detail::application_impl']]],
   ['has_5fsettlement',['has_settlement',['../classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a556cb4413ab04ccfc6f0539b9a461dc3',1,'graphene::chain::asset_bitasset_data_object']]],
+  ['has_5fspecial_5fauthority',['has_special_authority',['../classgraphene_1_1chain_1_1account__object.html#acef9bf5dc3e7e467c936a396f705de8d',1,'graphene::chain::account_object']]],
   ['hash_3c_20graphene_3a_3achain_3a_3aaddress_20_3e',['hash&lt; graphene::chain::address &gt;',['../structstd_1_1hash_3_01graphene_1_1chain_1_1address_01_4.html',1,'std']]],
   ['hash_3c_20graphene_3a_3achain_3a_3apts_5faddress_20_3e',['hash&lt; graphene::chain::pts_address &gt;',['../structstd_1_1hash_3_01graphene_1_1chain_1_1pts__address_01_4.html',1,'std']]],
   ['hash_5fvalue',['hash_value',['../classgraphene_1_1chain_1_1address.html#ae4ce2352ad36d5689d87fc2f59b22d9d',1,'graphene::chain::address::hash_value()'],['../structgraphene_1_1chain_1_1vote__id__type.html#a5c46a07b7559a27aae62782ee0a26897',1,'graphene::chain::vote_id_type::hash_value()']]],
@@ -27,7 +18,9 @@ var searchData=
   ['head_5fblock_5fwitness',['head_block_witness',['../classgraphene_1_1chain_1_1database.html#a8ab5263dd27146477bfd40d5df35848b',1,'graphene::chain::database']]],
   ['help',['help',['../classgraphene_1_1wallet_1_1wallet__api.html#adbae0438ea4f0d49b5910cfab35e7f5a',1,'graphene::wallet::wallet_api']]],
   ['help_5fvisitor',['help_visitor',['../structgraphene_1_1wallet_1_1detail_1_1help__visitor.html',1,'graphene::wallet::detail']]],
+  ['highest_5fbid',['highest_bid',['../structgraphene_1_1app_1_1market__ticker.html#aaedfd4f4f557f42db785a7df5c06430e',1,'graphene::app::market_ticker']]],
   ['history',['history',['../classgraphene_1_1app_1_1login__api.html#a9273e3132428854411de3c208f269086',1,'graphene::app::login_api']]],
+  ['history_5fapi',['history_api',['../classgraphene_1_1app_1_1history__api.html',1,'graphene::app']]],
   ['history_5fapi',['history_api',['../classgraphene_1_1app_1_1history__api.html#ad034d3e3420e431ad72159b9f3bd807a',1,'graphene::app::history_api']]],
-  ['history_5fapi',['history_api',['../classgraphene_1_1app_1_1history__api.html',1,'graphene::app']]]
+  ['history_5foperation_5fdetail',['history_operation_detail',['../structgraphene_1_1app_1_1history__operation__detail.html',1,'graphene::app']]]
 ];

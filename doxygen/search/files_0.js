@@ -11,7 +11,6 @@ var searchData=
   ['api_2ecpp',['api.cpp',['../api_8cpp.html',1,'']]],
   ['api_2ehpp',['api.hpp',['../api_8hpp.html',1,'']]],
   ['api_5faccess_2ehpp',['api_access.hpp',['../api__access_8hpp.html',1,'']]],
-  ['api_5fdocumentation_2ecpp',['api_documentation.cpp',['../api__documentation_8cpp.html',1,'']]],
   ['api_5fdocumentation_2ehpp',['api_documentation.hpp',['../api__documentation_8hpp.html',1,'']]],
   ['api_5fdocumentation_5fstandin_2ecpp',['api_documentation_standin.cpp',['../api__documentation__standin_8cpp.html',1,'']]],
   ['application_2ecpp',['application.cpp',['../application_8cpp.html',1,'']]],
