@@ -7,6 +7,8 @@ var searchData=
   ['last_5fclaim_5fdate',['last_claim_date',['../classgraphene_1_1chain_1_1balance__object.html#a198dec1120c06ce42b278959d4ca000a',1,'graphene::chain::balance_object']]],
   ['last_5fconfirmed_5fblock_5fnum',['last_confirmed_block_num',['../classgraphene_1_1chain_1_1witness__object.html#a19274ffd2f316d389724aef1e3b44450',1,'graphene::chain::witness_object']]],
   ['last_5firreversible_5fblock_5fnum',['last_irreversible_block_num',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a74dfc7b21530d28ade644ce1ff13a2b7',1,'graphene::chain::dynamic_global_property_object']]],
+  ['last_5fvotes',['last_votes',['../structgraphene_1_1chain_1_1vote__counter.html#ae6819bf7130489f65ac6f995700bb8b2',1,'graphene::chain::vote_counter']]],
+  ['latest',['latest',['../structgraphene_1_1app_1_1market__ticker.html#aafa541b0693d9a512950ba6aaec62fba',1,'graphene::app::market_ticker']]],
   ['leftover_5fworker_5ffunds',['leftover_worker_funds',['../structgraphene_1_1chain_1_1budget__record.html#a7c2bb619a75be2b272eadcde3412c7ff',1,'graphene::chain::budget_record']]],
   ['lifetime_5ffees_5fpaid',['lifetime_fees_paid',['../classgraphene_1_1chain_1_1account__statistics__object.html#adfd506e7176772143a194e1f214feaa2',1,'graphene::chain::account_statistics_object']]],
   ['lifetime_5freferrer',['lifetime_referrer',['../classgraphene_1_1chain_1_1account__object.html#a30f76968ef4c60fa570a0974f8417543',1,'graphene::chain::account_object']]],
@@ -16,5 +18,6 @@ var searchData=
   ['limit_5forders',['limit_orders',['../structgraphene_1_1app_1_1full__account.html#a8a7da90d80002d1b61aa9d16b13547e7',1,'graphene::app::full_account']]],
   ['listed_5faccount',['listed_account',['../classgraphene_1_1chain_1_1account__whitelist__evaluator.html#a3c28a75a53773fec80783f30ca95fa6f',1,'graphene::chain::account_whitelist_evaluator']]],
   ['lock_5fchanged',['lock_changed',['../classgraphene_1_1wallet_1_1wallet__api.html#a333834072c4aaa8f25d7ea52b39a76bd',1,'graphene::wallet::wallet_api']]],
-  ['long_5fsymbol',['long_symbol',['../structgraphene_1_1chain_1_1asset__create__operation_1_1fee__parameters__type.html#a0626b08aa1fed9e5f533d56f646c4681',1,'graphene::chain::asset_create_operation::fee_parameters_type']]]
+  ['long_5fsymbol',['long_symbol',['../structgraphene_1_1chain_1_1asset__create__operation_1_1fee__parameters__type.html#a0626b08aa1fed9e5f533d56f646c4681',1,'graphene::chain::asset_create_operation::fee_parameters_type']]],
+  ['lowest_5fask',['lowest_ask',['../structgraphene_1_1app_1_1market__ticker.html#aa2e6803f35f251f8b3a825a906810707',1,'graphene::app::market_ticker']]]
 ];

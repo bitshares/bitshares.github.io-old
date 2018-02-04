@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['evaluation_5fobserver',['evaluation_observer',['../classgraphene_1_1chain_1_1evaluation__observer.html',1,'graphene::chain']]],
   ['evaluator',['evaluator',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20account_5fcreate_5fevaluator_20_3e',['evaluator&lt; account_create_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20account_5fupdate_5fevaluator_20_3e',['evaluator&lt; account_update_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
@@ -19,6 +18,7 @@ var searchData=
   ['evaluator_3c_20asset_5fupdate_5fevaluator_20_3e',['evaluator&lt; asset_update_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20asset_5fupdate_5ffeed_5fproducers_5fevaluator_20_3e',['evaluator&lt; asset_update_feed_producers_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20balance_5fclaim_5fevaluator_20_3e',['evaluator&lt; balance_claim_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
+  ['evaluator_3c_20bid_5fcollateral_5fevaluator_20_3e',['evaluator&lt; bid_collateral_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20blind_5ftransfer_5fevaluator_20_3e',['evaluator&lt; blind_transfer_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20call_5forder_5fupdate_5fevaluator_20_3e',['evaluator&lt; call_order_update_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20committee_5fmember_5fcreate_5fevaluator_20_3e',['evaluator&lt; committee_member_create_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
@@ -43,6 +43,14 @@ var searchData=
   ['evaluator_3c_20witness_5fcreate_5fevaluator_20_3e',['evaluator&lt; witness_create_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20witness_5fupdate_5fevaluator_20_3e',['evaluator&lt; witness_update_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20worker_5fcreate_5fevaluator_20_3e',['evaluator&lt; worker_create_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
+  ['execute_5fbid_5foperation',['execute_bid_operation',['../structgraphene_1_1chain_1_1execute__bid__operation.html',1,'graphene::chain']]],
   ['exported_5faccount_5fkeys',['exported_account_keys',['../structgraphene_1_1wallet_1_1exported__account__keys.html',1,'graphene::wallet']]],
-  ['exported_5fkeys',['exported_keys',['../structgraphene_1_1wallet_1_1exported__keys.html',1,'graphene::wallet']]]
+  ['exported_5fkeys',['exported_keys',['../structgraphene_1_1wallet_1_1exported__keys.html',1,'graphene::wallet']]],
+  ['ext',['ext',['../structgraphene_1_1chain_1_1account__create__operation_1_1ext.html',1,'graphene::chain::account_create_operation']]],
+  ['ext',['ext',['../structgraphene_1_1chain_1_1account__update__operation_1_1ext.html',1,'graphene::chain::account_update_operation']]],
+  ['extended_5fprivate_5fkey_5ftype',['extended_private_key_type',['../structgraphene_1_1chain_1_1extended__private__key__type.html',1,'graphene::chain']]],
+  ['extended_5fpublic_5fkey_5ftype',['extended_public_key_type',['../structgraphene_1_1chain_1_1extended__public__key__type.html',1,'graphene::chain']]],
+  ['extension',['extension',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]],
+  ['extension_3c_20graphene_3a_3achain_3a_3aaccount_5fcreate_5foperation_3a_3aext_20_3e',['extension&lt; graphene::chain::account_create_operation::ext &gt;',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]],
+  ['extension_3c_20graphene_3a_3achain_3a_3aaccount_5fupdate_5foperation_3a_3aext_20_3e',['extension&lt; graphene::chain::account_update_operation::ext &gt;',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]]
 ];

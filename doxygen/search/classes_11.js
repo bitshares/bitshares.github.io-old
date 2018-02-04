@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['top_5fholders_5fspecial_5fauthority',['top_holders_special_authority',['../structgraphene_1_1chain_1_1top__holders__special__authority.html',1,'graphene::chain']]],
   ['transaction',['transaction',['../structgraphene_1_1chain_1_1transaction.html',1,'graphene::chain']]],
   ['transaction_5fconfirmation',['transaction_confirmation',['../structgraphene_1_1app_1_1network__broadcast__api_1_1transaction__confirmation.html',1,'graphene::app::network_broadcast_api']]],
   ['transaction_5fevaluation_5fstate',['transaction_evaluation_state',['../classgraphene_1_1chain_1_1transaction__evaluation__state.html',1,'graphene::chain']]],

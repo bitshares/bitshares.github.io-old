@@ -4,6 +4,10 @@ var searchData=
   ['balance_5fclaim_5foperation',['balance_claim_operation',['../structgraphene_1_1chain_1_1balance__claim__operation.html',1,'graphene::chain']]],
   ['balance_5fobject',['balance_object',['../classgraphene_1_1chain_1_1balance__object.html',1,'graphene::chain']]],
   ['base_5foperation',['base_operation',['../structgraphene_1_1chain_1_1base__operation.html',1,'graphene::chain']]],
+  ['bid_5fcollateral_5fevaluator',['bid_collateral_evaluator',['../classgraphene_1_1chain_1_1bid__collateral__evaluator.html',1,'graphene::chain']]],
+  ['bid_5fcollateral_5foperation',['bid_collateral_operation',['../structgraphene_1_1chain_1_1bid__collateral__operation.html',1,'graphene::chain']]],
+  ['binary_5fkey',['binary_key',['../structgraphene_1_1chain_1_1extended__public__key__type_1_1binary__key.html',1,'graphene::chain::extended_public_key_type']]],
+  ['binary_5fkey',['binary_key',['../structgraphene_1_1chain_1_1extended__private__key__type_1_1binary__key.html',1,'graphene::chain::extended_private_key_type']]],
   ['binary_5fkey',['binary_key',['../structgraphene_1_1chain_1_1public__key__type_1_1binary__key.html',1,'graphene::chain::public_key_type']]],
   ['bitasset_5foptions',['bitasset_options',['../structgraphene_1_1chain_1_1bitasset__options.html',1,'graphene::chain']]],
   ['blind_5fbalance',['blind_balance',['../structgraphene_1_1wallet_1_1blind__balance.html',1,'graphene::wallet']]],
@@ -15,6 +19,7 @@ var searchData=
   ['blind_5ftransfer_5fevaluator',['blind_transfer_evaluator',['../classgraphene_1_1chain_1_1blind__transfer__evaluator.html',1,'graphene::chain']]],
   ['blind_5ftransfer_5foperation',['blind_transfer_operation',['../structgraphene_1_1chain_1_1blind__transfer__operation.html',1,'graphene::chain']]],
   ['blinded_5fbalance_5fobject',['blinded_balance_object',['../classgraphene_1_1chain_1_1blinded__balance__object.html',1,'graphene::chain']]],
+  ['block_5fapi',['block_api',['../classgraphene_1_1app_1_1block__api.html',1,'graphene::app']]],
   ['block_5fdatabase',['block_database',['../classgraphene_1_1chain_1_1block__database.html',1,'graphene::chain']]],
   ['block_5fheader',['block_header',['../structgraphene_1_1chain_1_1block__header.html',1,'graphene::chain']]],
   ['block_5fid_5fpredicate',['block_id_predicate',['../structgraphene_1_1chain_1_1block__id__predicate.html',1,'graphene::chain']]],
@@ -24,6 +29,8 @@ var searchData=
   ['budget_5frecord_5fobject',['budget_record_object',['../classgraphene_1_1chain_1_1budget__record__object.html',1,'graphene::chain']]],
   ['burn_5fworker_5finitializer',['burn_worker_initializer',['../structgraphene_1_1chain_1_1burn__worker__initializer.html',1,'graphene::chain']]],
   ['burn_5fworker_5ftype',['burn_worker_type',['../structgraphene_1_1chain_1_1burn__worker__type.html',1,'graphene::chain']]],
+  ['buyback_5faccount_5foptions',['buyback_account_options',['../structgraphene_1_1chain_1_1buyback__account__options.html',1,'graphene::chain']]],
+  ['buyback_5fobject',['buyback_object',['../classgraphene_1_1chain_1_1buyback__object.html',1,'graphene::chain']]],
   ['by_5fexpiration',['by_expiration',['../structgraphene_1_1chain_1_1by__expiration.html',1,'graphene::chain']]],
   ['by_5fname',['by_name',['../structgraphene_1_1chain_1_1by__name.html',1,'graphene::chain']]]
 ];

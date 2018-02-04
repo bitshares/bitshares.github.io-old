@@ -12,6 +12,7 @@ var searchData=
   ['db_5fmaint_2ecpp',['db_maint.cpp',['../db__maint_8cpp.html',1,'']]],
   ['db_5fmanagement_2ecpp',['db_management.cpp',['../db__management_8cpp.html',1,'']]],
   ['db_5fmarket_2ecpp',['db_market.cpp',['../db__market_8cpp.html',1,'']]],
+  ['db_5fnotify_2ecpp',['db_notify.cpp',['../db__notify_8cpp.html',1,'']]],
   ['db_5fupdate_2ecpp',['db_update.cpp',['../db__update_8cpp.html',1,'']]],
   ['db_5fwith_2ehpp',['db_with.hpp',['../db__with_8hpp.html',1,'']]],
   ['db_5fwitness_5fschedule_2ecpp',['db_witness_schedule.cpp',['../db__witness__schedule_8cpp.html',1,'']]]
