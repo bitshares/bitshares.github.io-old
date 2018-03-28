@@ -67,6 +67,7 @@ var searchData=
   ['graphene_5fmax_5finstance_5fid',['GRAPHENE_MAX_INSTANCE_ID',['../config_8hpp.html#aa5e819fd3790eb22e36b49ac75621683',1,'config.hpp']]],
   ['graphene_5fmax_5finterest_5fapr',['GRAPHENE_MAX_INTEREST_APR',['../config_8hpp.html#abb29cafdb6b18a351ff6c578bb2af014',1,'config.hpp']]],
   ['graphene_5fmax_5fmarket_5ffee_5fpercent',['GRAPHENE_MAX_MARKET_FEE_PERCENT',['../config_8hpp.html#ac007cbc132f2ec509c3af26a0e9672d7',1,'config.hpp']]],
+  ['graphene_5fmax_5fnested_5fobjects',['GRAPHENE_MAX_NESTED_OBJECTS',['../config_8hpp.html#a08ea3bc30bcbb48f59f2cbc2355910eb',1,'config.hpp']]],
   ['graphene_5fmax_5fpay_5frate',['GRAPHENE_MAX_PAY_RATE',['../config_8hpp.html#a799acb4e22f5e1fe9f7cc6353504ed61',1,'config.hpp']]],
   ['graphene_5fmax_5fshare_5fsupply',['GRAPHENE_MAX_SHARE_SUPPLY',['../config_8hpp.html#a0097d4b8dab3cb6d7c7f275b054c2380',1,'config.hpp']]],
   ['graphene_5fmax_5fsig_5fcheck_5fdepth',['GRAPHENE_MAX_SIG_CHECK_DEPTH',['../config_8hpp.html#aea0bc2216bc54371f7f54d6f6d6e4d9d',1,'config.hpp']]],
@@ -92,6 +93,7 @@ var searchData=
   ['graphene_5frelaxed_5fcommittee_5faccount',['GRAPHENE_RELAXED_COMMITTEE_ACCOUNT',['../config_8hpp.html#a280e626f036793e41de232c360fa5e13',1,'config.hpp']]],
   ['graphene_5fsymbol',['GRAPHENE_SYMBOL',['../config_8hpp.html#a8c0af75f3a0235a3bc25e19c73fa1f48',1,'config.hpp']]],
   ['graphene_5ftemp_5faccount',['GRAPHENE_TEMP_ACCOUNT',['../config_8hpp.html#ab5818c0cd3cb36604b7fe84baf88a6bd',1,'config.hpp']]],
+  ['graphene_5ftry_5fnotify',['GRAPHENE_TRY_NOTIFY',['../exceptions_8hpp.html#a2376956f58433458088835f65c022a1e',1,'exceptions.hpp']]],
   ['graphene_5fwitness_5faccount',['GRAPHENE_WITNESS_ACCOUNT',['../config_8hpp.html#ae30e8ce4476e8933a800b461a8b8abd7',1,'config.hpp']]],
   ['graphene_5fwitness_5fpay_5fpercent_5fprecision',['GRAPHENE_WITNESS_PAY_PERCENT_PRECISION',['../config_8hpp.html#a45d38f94720715f16012885d0623799e',1,'config.hpp']]]
 ];
