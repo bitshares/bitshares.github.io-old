@@ -77,8 +77,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a78851d59d1323c0aa7a402c89b9999c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#a78851d59d1323c0aa7a402c89b9999c3">graphene_extension_from_variant_visitor</a> (const variant_object &amp;v, T &amp;val)</td></tr>
-<tr class="separator:a78851d59d1323c0aa7a402c89b9999c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec39eee3796a89cc896b42029c84fd56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#aec39eee3796a89cc896b42029c84fd56">graphene_extension_from_variant_visitor</a> (const variant_object &amp;v, T &amp;val, uint32_t max_depth)</td></tr>
+<tr class="separator:aec39eee3796a89cc896b42029c84fd56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadba00108d87f4d04137c3ba45e72856"><td class="memTemplParams" colspan="2">template&lt;typename Member , class Class , Member Class::* member&gt; </td></tr>
 <tr class="memitem:aadba00108d87f4d04137c3ba45e72856"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#aadba00108d87f4d04137c3ba45e72856">operator()</a> (const char *name) const</td></tr>
 <tr class="separator:aadba00108d87f4d04137c3ba45e72856"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -89,6 +89,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abac4c6c46451d2d8cc15fe99161adc86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8bdb01257457cf28e810441dcb9344f"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#ae8bdb01257457cf28e810441dcb9344f">value</a></td></tr>
 <tr class="separator:ae8bdb01257457cf28e810441dcb9344f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec7bc14cef781f743989103f68a36e19"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#aec7bc14cef781f743989103f68a36e19">_max_depth</a></td></tr>
+<tr class="separator:aec7bc14cef781f743989103f68a36e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7964be60b6df8c3e063f16ead5d3aeba"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#a7964be60b6df8c3e063f16ead5d3aeba">count_left</a> = 0</td></tr>
 <tr class="separator:a7964be60b6df8c3e063f16ead5d3aeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -97,10 +99,10 @@ Public Attributes</h2></td></tr>
 struct fc::graphene_extension_from_variant_visitor&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00146">146</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00136">136</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a78851d59d1323c0aa7a402c89b9999c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78851d59d1323c0aa7a402c89b9999c3">&#9670;&nbsp;</a></span>graphene_extension_from_variant_visitor()</h2>
+<a id="aec39eee3796a89cc896b42029c84fd56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec39eee3796a89cc896b42029c84fd56">&#9670;&nbsp;</a></span>graphene_extension_from_variant_visitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,7 +122,13 @@ template&lt;typename T&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>val</em>&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>max_depth</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -135,7 +143,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00148">148</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00138">138</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 
 </div>
 </div>
@@ -168,11 +176,29 @@ template&lt;typename Member , class Class , Member Class::* member&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00155">155</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00146">146</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aec7bc14cef781f743989103f68a36e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec7bc14cef781f743989103f68a36e19">&#9670;&nbsp;</a></span>_max_depth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t <a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html">fc::graphene_extension_from_variant_visitor</a>&lt; T &gt;::_max_depth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00159">159</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a7964be60b6df8c3e063f16ead5d3aeba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7964be60b6df8c3e063f16ead5d3aeba">&#9670;&nbsp;</a></span>count_left</h2>
 
@@ -195,7 +221,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00168">168</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00160">160</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 
 </div>
 </div>
@@ -213,7 +239,7 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00167">167</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00158">158</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 
 </div>
 </div>
@@ -231,7 +257,7 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00166">166</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00157">157</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 
 </div>
 </div>
@@ -241,7 +267,7 @@ template&lt;typename T&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

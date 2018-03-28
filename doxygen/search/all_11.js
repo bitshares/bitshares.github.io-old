@@ -3,6 +3,7 @@ var searchData=
   ['range_5fget_5finfo',['range_get_info',['../classgraphene_1_1app_1_1crypto__api.html#a6765af523fc6dd5e75872782b4ee12b2',1,'graphene::app::crypto_api']]],
   ['range_5fproof',['range_proof',['../structgraphene_1_1chain_1_1blind__output.html#ae57e1ce0cfbb8bcd43171fcfa553fe30',1,'graphene::chain::blind_output']]],
   ['range_5fproof_5fsign',['range_proof_sign',['../classgraphene_1_1app_1_1crypto__api.html#a1923d73235200a4f3da0a4d021a865d2',1,'graphene::app::crypto_api']]],
+  ['ratio_5ftype',['ratio_type',['../namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92',1,'graphene::chain']]],
   ['read_5fmemo',['read_memo',['../classgraphene_1_1wallet_1_1wallet__api.html#a146f9779a48184ea2b64036f2c6838d3',1,'graphene::wallet::wallet_api::read_memo()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a6db86a275243dab75d2962d58fbb2f78',1,'graphene::wallet::detail::wallet_api_impl::read_memo()']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../libraries_2chain_2include_2graphene_2chain_2protocol_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]],
   ['receive_5fblind_5ftransfer',['receive_blind_transfer',['../classgraphene_1_1wallet_1_1wallet__api.html#aed63fa0d4cbf06a4810e436482f5d5ea',1,'graphene::wallet::wallet_api']]],

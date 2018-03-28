@@ -33,6 +33,7 @@ var searchData=
   ['proposals',['proposals',['../structgraphene_1_1app_1_1full__account.html#aa0007d7d34acff05877a16ae59140540',1,'graphene::app::full_account']]],
   ['proposed_5fops',['proposed_ops',['../structgraphene_1_1chain_1_1proposal__create__operation.html#afd72e778d7983044526ee06ddb1a72be',1,'graphene::chain::proposal_create_operation']]],
   ['proposed_5ftransaction',['proposed_transaction',['../classgraphene_1_1chain_1_1proposal__object.html#a119d1007b9df990295ddf36b3854053e',1,'graphene::chain::proposal_object']]],
+  ['proposer',['proposer',['../classgraphene_1_1chain_1_1proposal__object.html#adb8e871945a22d633f91576c8e94d714',1,'graphene::chain::proposal_object']]],
   ['provided_5faddress_5fsigs',['provided_address_sigs',['../structgraphene_1_1chain_1_1sign__state.html#a4fa3d0b23688c4fc249a380fe3d1a364',1,'graphene::chain::sign_state']]],
   ['provided_5fsignatures',['provided_signatures',['../structgraphene_1_1chain_1_1sign__state.html#a33a0ebd539913fee57848880462da231',1,'graphene::chain::sign_state']]],
   ['pub_5fkey',['pub_key',['../structgraphene_1_1wallet_1_1brain__key__info.html#a929ac30e8a95ef6228dd80c0d27ae702',1,'graphene::wallet::brain_key_info::pub_key()'],['../structgraphene_1_1wallet_1_1blind__confirmation_1_1output.html#a9a8abe1f55404befcc4e7cf0283f4111',1,'graphene::wallet::blind_confirmation::output::pub_key()']]],

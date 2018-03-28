@@ -85,6 +85,7 @@ $(function() {
 <code>#include &lt;fc/safe.hpp&gt;</code><br />
 <code>#include &lt;fc/container/flat.hpp&gt;</code><br />
 <code>#include &lt;fc/string.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="ext_8hpp_source.html">graphene/chain/protocol/ext.hpp</a>&gt;</code><br />
 <code>#include &lt;fc/io/raw.hpp&gt;</code><br />
 <code>#include &lt;fc/uint128.hpp&gt;</code><br />
 <code>#include &lt;fc/static_variant.hpp&gt;</code><br />
@@ -96,6 +97,7 @@ $(function() {
 <code>#include &lt;<a class="el" href="address_8hpp_source.html">graphene/chain/protocol/address.hpp</a>&gt;</code><br />
 <code>#include &lt;graphene/db/object_id.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="protocol_2config_8hpp_source.html">graphene/chain/protocol/config.hpp</a>&gt;</code><br />
+<code>#include &lt;boost/rational.hpp&gt;</code><br />
 </div>
 <p><a href="types_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -131,6 +133,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9c45f50c97257b15a8793bba836c045a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8182991954496b517776f06844cf2d93"><td class="memItemLeft" align="right" valign="top">typedef fc::sha256&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a8182991954496b517776f06844cf2d93">graphene::chain::chain_id_type</a></td></tr>
 <tr class="separator:a8182991954496b517776f06844cf2d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25c1952a1b045cf4793bcb2bc79e3f92"><td class="memItemLeft" align="right" valign="top">typedef boost::rational&lt; int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">graphene::chain::ratio_type</a></td></tr>
+<tr class="separator:a25c1952a1b045cf4793bcb2bc79e3f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11927fb343f953514ab6235d6e7233ee"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; protocol_ids, account_object_type, account_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a></td></tr>
 <tr class="separator:a11927fb343f953514ab6235d6e7233ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8719a403aa47e9d369890c01d60d0bb2"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; protocol_ids, asset_object_type, asset_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">graphene::chain::asset_id_type</a></td></tr>
@@ -288,23 +292,23 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a20a336c400343b3cfe806c3007b42426"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a20a336c400343b3cfe806c3007b42426">graphene::chain::is_relative</a> (object_id_type o)</td></tr>
 <tr class="separator:a20a336c400343b3cfe806c3007b42426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7ff1bb89dbbaf988c4286c0d29fab0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#af7ff1bb89dbbaf988c4286c0d29fab0c">fc::to_variant</a> (const <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">graphene::chain::public_key_type</a> &amp;var, fc::variant &amp;vo)</td></tr>
-<tr class="separator:af7ff1bb89dbbaf988c4286c0d29fab0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a028d0b8e27234cd653fbaf899ded8d54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a028d0b8e27234cd653fbaf899ded8d54">fc::from_variant</a> (const fc::variant &amp;var, <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">graphene::chain::public_key_type</a> &amp;vo)</td></tr>
-<tr class="separator:a028d0b8e27234cd653fbaf899ded8d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c6a2d4738aa38c58d9d07ed1ad83316"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a0c6a2d4738aa38c58d9d07ed1ad83316">fc::to_variant</a> (const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">graphene::chain::extended_public_key_type</a> &amp;var, fc::variant &amp;vo)</td></tr>
-<tr class="separator:a0c6a2d4738aa38c58d9d07ed1ad83316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2193143894c870e283169e3cef5c6f0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a2193143894c870e283169e3cef5c6f0d">fc::from_variant</a> (const fc::variant &amp;var, <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">graphene::chain::extended_public_key_type</a> &amp;vo)</td></tr>
-<tr class="separator:a2193143894c870e283169e3cef5c6f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a003865e2072a30388fd37b99ff6b166b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a003865e2072a30388fd37b99ff6b166b">fc::to_variant</a> (const <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">graphene::chain::extended_private_key_type</a> &amp;var, fc::variant &amp;vo)</td></tr>
-<tr class="separator:a003865e2072a30388fd37b99ff6b166b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b3c699b846a5cc01ba4413f3f2565ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a0b3c699b846a5cc01ba4413f3f2565ef">fc::from_variant</a> (const fc::variant &amp;var, <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">graphene::chain::extended_private_key_type</a> &amp;vo)</td></tr>
-<tr class="separator:a0b3c699b846a5cc01ba4413f3f2565ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace540cfdc3d29ed05d2567a61fe9cf7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#ace540cfdc3d29ed05d2567a61fe9cf7b">fc::to_variant</a> (const <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">graphene::chain::public_key_type</a> &amp;var, fc::variant &amp;vo, uint32_t max_depth=2)</td></tr>
+<tr class="separator:ace540cfdc3d29ed05d2567a61fe9cf7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6fcb2ecb02308442e416982c588653"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a5b6fcb2ecb02308442e416982c588653">fc::from_variant</a> (const fc::variant &amp;var, <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">graphene::chain::public_key_type</a> &amp;vo, uint32_t max_depth=2)</td></tr>
+<tr class="separator:a5b6fcb2ecb02308442e416982c588653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4deb3aa578b48679e50c6f1488871111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a4deb3aa578b48679e50c6f1488871111">fc::to_variant</a> (const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">graphene::chain::extended_public_key_type</a> &amp;var, fc::variant &amp;vo, uint32_t max_depth=2)</td></tr>
+<tr class="separator:a4deb3aa578b48679e50c6f1488871111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac5b20265d20c71ec24e3e9f94c3ae8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#aaac5b20265d20c71ec24e3e9f94c3ae8">fc::from_variant</a> (const fc::variant &amp;var, <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">graphene::chain::extended_public_key_type</a> &amp;vo, uint32_t max_depth=2)</td></tr>
+<tr class="separator:aaac5b20265d20c71ec24e3e9f94c3ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c212c703a61b700343ec341bb7c242f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a8c212c703a61b700343ec341bb7c242f">fc::to_variant</a> (const <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">graphene::chain::extended_private_key_type</a> &amp;var, fc::variant &amp;vo, uint32_t max_depth=2)</td></tr>
+<tr class="separator:a8c212c703a61b700343ec341bb7c242f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2f3725f5f595da305c3477af9c6780"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html#a1c2f3725f5f595da305c3477af9c6780">fc::from_variant</a> (const fc::variant &amp;var, <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">graphene::chain::extended_private_key_type</a> &amp;vo, uint32_t max_depth=2)</td></tr>
+<tr class="separator:a1c2f3725f5f595da305c3477af9c6780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

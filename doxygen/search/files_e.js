@@ -3,7 +3,6 @@ var searchData=
   ['transaction_2ecpp',['transaction.cpp',['../transaction_8cpp.html',1,'']]],
   ['transaction_2ehpp',['transaction.hpp',['../transaction_8hpp.html',1,'']]],
   ['transaction_5fevaluation_5fstate_2ehpp',['transaction_evaluation_state.hpp',['../transaction__evaluation__state_8hpp.html',1,'']]],
-  ['transaction_5fobject_2ecpp',['transaction_object.cpp',['../transaction__object_8cpp.html',1,'']]],
   ['transaction_5fobject_2ehpp',['transaction_object.hpp',['../transaction__object_8hpp.html',1,'']]],
   ['transfer_2ecpp',['transfer.cpp',['../transfer_8cpp.html',1,'']]],
   ['transfer_2ehpp',['transfer.hpp',['../transfer_8hpp.html',1,'']]],

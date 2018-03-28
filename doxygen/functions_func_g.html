@@ -317,6 +317,9 @@ $(function() {
 , <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#aba92882190358cfd4a7657ac3806a9da">graphene::wallet::detail::wallet_api_impl</a>
 , <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a9f44d453c99ffc99bbd99caa9e065a95">graphene::wallet::wallet_api</a>
 </li>
+<li>get_grouped_limit_orders()
+: <a class="el" href="classgraphene_1_1app_1_1orders__api.html#a31bfe6b880c2598bdbcab2712e68d64b">graphene::app::orders_api</a>
+</li>
 <li>get_head_block_id()
 : <a class="el" href="classgraphene_1_1app_1_1detail_1_1application__impl.html#a05c914400bd2b9df191650a54a2e96fe">graphene::app::detail::application_impl</a>
 </li>
@@ -393,10 +396,16 @@ $(function() {
 : <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5a8b2fb34a9ef56da9825e15200720d1">graphene::app::database_api</a>
 , <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#a35d27f0797bd1aef6068f07ef8ddbda9">graphene::app::database_api_impl</a>
 </li>
+<li>get_options()
+: <a class="el" href="classgraphene_1_1app_1_1application.html#a27e57fad3d041f065c7a86d34e95cc81">graphene::app::application</a>
+</li>
 <li>get_order_book()
 : <a class="el" href="classgraphene_1_1app_1_1database__api.html#a4865539c5d6e1db1f6ea23681fc59bd1">graphene::app::database_api</a>
 , <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#accf4a40359a34a0e748ec96a93cc0efc">graphene::app::database_api_impl</a>
 , <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aec509856a009b78f01fed4ad15f8662f">graphene::wallet::wallet_api</a>
+</li>
+<li>get_order_market()
+: <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#a6b507ea1f58b046fce6c0a72e835f33e">graphene::app::database_api_impl</a>
 </li>
 <li>get_plugin()
 : <a class="el" href="classgraphene_1_1app_1_1application.html#a8a9a475ccf5b1c271e757c7c52b8b80f">graphene::app::application</a>
@@ -502,6 +511,13 @@ $(function() {
 : <a class="el" href="classgraphene_1_1app_1_1database__api.html#ab507c98bcb65b3e5efef6d11a9a0a08c">graphene::app::database_api</a>
 , <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#aa40820c96b22c9b7ddde4280d6e91b0e">graphene::app::database_api_impl</a>
 </li>
+<li>get_top_markets()
+: <a class="el" href="classgraphene_1_1app_1_1database__api.html#a132cb42e396809a9e1910bb0fe44e163">graphene::app::database_api</a>
+, <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#a1d5286bdd75333b33a9dfb53848a944b">graphene::app::database_api_impl</a>
+</li>
+<li>get_tracked_groups()
+: <a class="el" href="classgraphene_1_1app_1_1orders__api.html#ac03c7b822ceec55577ff9470b6a4ce3c">graphene::app::orders_api</a>
+</li>
 <li>get_trade_history()
 : <a class="el" href="classgraphene_1_1app_1_1database__api.html#ab9f345996512773054dcc2d76bb30770">graphene::app::database_api</a>
 , <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#a914253d37c580537ba4fa6aa7ce28cd5">graphene::app::database_api_impl</a>
@@ -539,6 +555,14 @@ $(function() {
 : <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a492a0422b93084e384bbe160027595e6">graphene::wallet::detail::wallet_api_impl</a>
 , <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ae6b8783ff52950852f3985dc4f121348">graphene::wallet::wallet_api</a>
 </li>
+<li>get_withdraw_permissions_by_giver()
+: <a class="el" href="classgraphene_1_1app_1_1database__api.html#acf0ee3d0c4d36bc8b639343ca774ca8f">graphene::app::database_api</a>
+, <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#aed40b66fad6430a027df302a43d1a4d5">graphene::app::database_api_impl</a>
+</li>
+<li>get_withdraw_permissions_by_recipient()
+: <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5dfd791f4f2b4f7b8c2f5fcc0f1f9e1b">graphene::app::database_api</a>
+, <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#a2af62bd9c686360969492bd78398cead">graphene::app::database_api_impl</a>
+</li>
 <li>get_witness()
 : <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#ac7599dbe2dc0063d6d1cee5869301e0f">graphene::wallet::detail::wallet_api_impl</a>
 , <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a28f755aa12dca82f6e2e948cac014dcb">graphene::wallet::wallet_api</a>
@@ -574,25 +598,25 @@ $(function() {
 : <a class="el" href="classgraphene_1_1chain_1_1database.html#a500db4fc078f64b18d99c19d45fe8b13">graphene::chain::database</a>
 </li>
 <li>graphene_extension_from_variant_visitor()
-: <a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#a78851d59d1323c0aa7a402c89b9999c3">fc::graphene_extension_from_variant_visitor&lt; T &gt;</a>
+: <a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#aec39eee3796a89cc896b42029c84fd56">fc::graphene_extension_from_variant_visitor&lt; T &gt;</a>
 </li>
 <li>graphene_extension_pack_count_visitor()
 : <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__pack__count__visitor.html#a53ad4255b4928a9ba40fc968eb4e7373">graphene::chain::graphene_extension_pack_count_visitor&lt; T &gt;</a>
 </li>
 <li>graphene_extension_pack_read_visitor()
-: <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__pack__read__visitor.html#a08cb160215637d467b0cbc156d9aedd8">graphene::chain::graphene_extension_pack_read_visitor&lt; Stream, T &gt;</a>
+: <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__pack__read__visitor.html#adac6d63bbf0e08b5ceb211475fee6b3e">graphene::chain::graphene_extension_pack_read_visitor&lt; Stream, T &gt;</a>
 </li>
 <li>graphene_extension_to_variant_visitor()
-: <a class="el" href="structfc_1_1graphene__extension__to__variant__visitor.html#ab3317ab946fe346241bd3d0ffedce009">fc::graphene_extension_to_variant_visitor&lt; T &gt;</a>
+: <a class="el" href="structfc_1_1graphene__extension__to__variant__visitor.html#a06530f74e92fc963006960f633c0c255">fc::graphene_extension_to_variant_visitor&lt; T &gt;</a>
 </li>
 <li>graphene_extension_unpack_visitor()
-: <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__unpack__visitor.html#a7dc1df9bff841a048027ec2fe83b0b26">graphene::chain::graphene_extension_unpack_visitor&lt; Stream, T &gt;</a>
+: <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__unpack__visitor.html#a293e23454bba78790058cfb90539f149">graphene::chain::graphene_extension_unpack_visitor&lt; Stream, T &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:40 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:18 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

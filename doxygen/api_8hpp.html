@@ -76,6 +76,7 @@ $(function() {
 <code>#include &lt;<a class="el" href="types_8hpp_source.html">graphene/chain/protocol/types.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="confidential_8hpp_source.html">graphene/chain/protocol/confidential.hpp</a>&gt;</code><br />
 <code>#include &lt;graphene/market_history/market_history_plugin.hpp&gt;</code><br />
+<code>#include &lt;graphene/grouped_orders/grouped_orders_plugin.hpp&gt;</code><br />
 <code>#include &lt;graphene/debug_witness/debug_api.hpp&gt;</code><br />
 <code>#include &lt;graphene/net/node.hpp&gt;</code><br />
 <code>#include &lt;fc/api.hpp&gt;</code><br />
@@ -102,6 +103,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1history__operation__detail.html">graphene::app::history_operation_detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1limit__order__group.html">graphene::app::limit_order_group</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">summary data of a group of limit orders  <a href="structgraphene_1_1app_1_1limit__order__group.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html">graphene::app::history_api</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classgraphene_1_1app_1_1history__api.html" title="The history_api class implements the RPC API for account history. ">history_api</a> class implements the RPC API for account history.  <a href="classgraphene_1_1app_1_1history__api.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,6 +123,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1asset__api.html">graphene::app::asset_api</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1orders__api.html">graphene::app::orders_api</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the <a class="el" href="classgraphene_1_1app_1_1orders__api.html" title="the orders_api class exposes access to data processed with grouped orders plugin. ...">orders_api</a> class exposes access to data processed with grouped orders plugin.  <a href="classgraphene_1_1app_1_1orders__api.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1login__api.html">graphene::app::login_api</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classgraphene_1_1app_1_1login__api.html" title="The login_api class implements the bottom layer of the RPC API. ">login_api</a> class implements the bottom layer of the RPC API.  <a href="classgraphene_1_1app_1_1login__api.html#details">More...</a><br /></td></tr>
@@ -168,7 +175,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
