@@ -12,7 +12,7 @@ var searchData=
   ['account_5ftransaction_5fhistory_5fmulti_5findex_5ftype',['account_transaction_history_multi_index_type',['../namespacegraphene_1_1chain.html#a9a1551fad0b11fb1b00374b0768ed617',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5fid_5ftype',['asset_bitasset_data_id_type',['../namespacegraphene_1_1chain.html#abd48ba1ebfcc2fd007dbbe91f54407aa',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5findex',['asset_bitasset_data_index',['../namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379',1,'graphene::chain']]],
-  ['asset_5fbitasset_5fdata_5fobject_5fmulti_5findex_5ftype',['asset_bitasset_data_object_multi_index_type',['../namespacegraphene_1_1chain.html#a55df91a7de14b8d04b6d8789e4e355f0',1,'graphene::chain']]],
+  ['asset_5fbitasset_5fdata_5fobject_5fmulti_5findex_5ftype',['asset_bitasset_data_object_multi_index_type',['../namespacegraphene_1_1chain.html#a12d9550893cb489b144b087b4280dc6f',1,'graphene::chain']]],
   ['asset_5fdynamic_5fdata_5fid_5ftype',['asset_dynamic_data_id_type',['../namespacegraphene_1_1chain.html#a6f7a444a2b082fd600fb61dd773d128b',1,'graphene::chain']]],
   ['asset_5fid_5ftype',['asset_id_type',['../namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2',1,'graphene::chain']]],
   ['asset_5findex',['asset_index',['../namespacegraphene_1_1chain.html#ac16131eb5f1afc10c20a6df72098ddf0',1,'graphene::chain']]],

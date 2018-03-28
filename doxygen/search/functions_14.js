@@ -9,7 +9,7 @@ var searchData=
   ['withdraw_5fvesting',['withdraw_vesting',['../classgraphene_1_1wallet_1_1wallet__api.html#a72d9316ead7ac6825fbcd62be81e235a',1,'graphene::wallet::wallet_api::withdraw_vesting()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a378454a0c1c492849073878453c2d1a1',1,'graphene::wallet::detail::wallet_api_impl::withdraw_vesting()']]],
   ['without_5fpending_5ftransactions',['without_pending_transactions',['../namespacegraphene_1_1chain_1_1detail.html#a70f0b14f841b7731fbd6e68d4b6f1ed5',1,'graphene::chain::detail']]],
   ['witness_5fobject',['witness_object',['../classgraphene_1_1chain_1_1witness__object.html#ac7c4ecc18a24456b5898c94a1e4000b5',1,'graphene::chain::witness_object']]],
-  ['witness_5fparticipation_5frate',['witness_participation_rate',['../classgraphene_1_1chain_1_1database.html#afa79d883fabbeab89ec71a47566ef1e6',1,'graphene::chain::database']]],
+  ['witness_5fparticipation_5frate',['witness_participation_rate',['../classgraphene_1_1chain_1_1database.html#aec96ca8491029b08c9245c71dc9b3be5',1,'graphene::chain::database']]],
   ['worker_5finit_5fvisitor',['worker_init_visitor',['../structgraphene_1_1chain_1_1worker__init__visitor.html#a270dfb0af92931f2e4ffa1cb0ea36b7d',1,'graphene::chain::worker_init_visitor']]],
   ['worker_5fpay_5fvisitor',['worker_pay_visitor',['../structgraphene_1_1chain_1_1worker__pay__visitor.html#a372b888b92461b9a92f0c5d9115c143d',1,'graphene::chain::worker_pay_visitor']]]
 ];

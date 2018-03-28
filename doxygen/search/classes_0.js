@@ -26,6 +26,7 @@ var searchData=
   ['api_5fdocumentation',['api_documentation',['../classgraphene_1_1wallet_1_1api__documentation.html',1,'graphene::wallet']]],
   ['application',['application',['../classgraphene_1_1app_1_1application.html',1,'graphene::app']]],
   ['application_5fimpl',['application_impl',['../classgraphene_1_1app_1_1detail_1_1application__impl.html',1,'graphene::app::detail']]],
+  ['application_5foptions',['application_options',['../classgraphene_1_1app_1_1application__options.html',1,'graphene::app']]],
   ['approval_5fdelta',['approval_delta',['../structgraphene_1_1wallet_1_1approval__delta.html',1,'graphene::wallet']]],
   ['assert_5fevaluator',['assert_evaluator',['../classgraphene_1_1chain_1_1assert__evaluator.html',1,'graphene::chain']]],
   ['assert_5foperation',['assert_operation',['../structgraphene_1_1chain_1_1assert__operation.html',1,'graphene::chain']]],

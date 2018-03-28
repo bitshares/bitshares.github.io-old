@@ -13,6 +13,7 @@ var searchData=
   ['operation_5fvalidator',['operation_validator',['../structgraphene_1_1chain_1_1operation__validator.html',1,'graphene::chain']]],
   ['order',['order',['../structgraphene_1_1app_1_1order.html',1,'graphene::app']]],
   ['order_5fbook',['order_book',['../structgraphene_1_1app_1_1order__book.html',1,'graphene::app']]],
+  ['orders_5fapi',['orders_api',['../classgraphene_1_1app_1_1orders__api.html',1,'graphene::app']]],
   ['output',['output',['../structgraphene_1_1wallet_1_1blind__confirmation_1_1output.html',1,'graphene::wallet::blind_confirmation']]],
   ['override_5ftransfer_5fevaluator',['override_transfer_evaluator',['../classgraphene_1_1chain_1_1override__transfer__evaluator.html',1,'graphene::chain']]],
   ['override_5ftransfer_5foperation',['override_transfer_operation',['../structgraphene_1_1chain_1_1override__transfer__operation.html',1,'graphene::chain']]]
