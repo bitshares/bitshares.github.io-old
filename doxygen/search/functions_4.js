@@ -1,8 +1,8 @@
 var searchData=
 [
   ['database',['database',['../classgraphene_1_1chain_1_1database.html#a5314db2d542f49fe5487e144a03c2ee9',1,'graphene::chain::database::database()'],['../classgraphene_1_1app_1_1login__api.html#a230c93547da7c329901881e62d55c684',1,'graphene::app::login_api::database()'],['../classgraphene_1_1app_1_1plugin.html#a4e387fd1543b949aba7f64d68a14b9e1',1,'graphene::app::plugin::database()']]],
-  ['database_5fapi',['database_api',['../classgraphene_1_1app_1_1database__api.html#a3d3526b112f3d2d86245c494f9d3d006',1,'graphene::app::database_api']]],
-  ['database_5fapi_5fimpl',['database_api_impl',['../classgraphene_1_1app_1_1database__api__impl.html#a355bb4389930fa264bc89972af2b3f33',1,'graphene::app::database_api_impl']]],
+  ['database_5fapi',['database_api',['../classgraphene_1_1app_1_1database__api.html#ad81929c19600a30b92e8c387338264ab',1,'graphene::app::database_api']]],
+  ['database_5fapi_5fimpl',['database_api_impl',['../classgraphene_1_1app_1_1database__api__impl.html#ada366a6d7683a99bdfd996083a5c8a12',1,'graphene::app::database_api_impl']]],
   ['db',['db',['../classgraphene_1_1chain_1_1generic__evaluator.html#a9f906a5670b56865a2e9b4029a67ba81',1,'graphene::chain::generic_evaluator::db()'],['../classgraphene_1_1chain_1_1transaction__evaluation__state.html#a705054dfedf58cc972b4a5cf57b44bc2',1,'graphene::chain::transaction_evaluation_state::db()']]],
   ['db_5fadjust_5fbalance',['db_adjust_balance',['../classgraphene_1_1chain_1_1generic__evaluator.html#a945e2f8e31ad68bd802618fff3a3d5d3',1,'graphene::chain::generic_evaluator']]],
   ['dbg_5fgenerate_5fblocks',['dbg_generate_blocks',['../classgraphene_1_1wallet_1_1wallet__api.html#a965c5c1c73dfc75e7ab5d6f7f8f4e913',1,'graphene::wallet::wallet_api::dbg_generate_blocks()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a7a76db50150003dc9d6a23a91eca99ef',1,'graphene::wallet::detail::wallet_api_impl::dbg_generate_blocks()']]],
@@ -16,7 +16,7 @@ var searchData=
   ['debug_5fapply_5fupdate',['debug_apply_update',['../namespacegraphene_1_1chain.html#a181f5eec24db1e1c680de88752cf9c12',1,'graphene::chain']]],
   ['debug_5fdump',['debug_dump',['../classgraphene_1_1chain_1_1database.html#ae82d4e2f0f40a9b7a5b13eb23315d637',1,'graphene::chain::database']]],
   ['debug_5fupdate',['debug_update',['../classgraphene_1_1chain_1_1database.html#a69528d69a226d6a75670f5e31187db3f',1,'graphene::chain::database']]],
-  ['dejsonify',['dejsonify',['../namespacegraphene_1_1app.html#aaf7e26d8fb14cc3f358e45e3359b2251',1,'graphene::app']]],
+  ['dejsonify',['dejsonify',['../namespacegraphene_1_1app.html#a0d7b9dd9560bcbbbfe65c4562a17ceb8',1,'graphene::app::dejsonify()'],['../namespacegraphene_1_1app_1_1impl.html#a81b697f0bd8fe96cf490227ace48d79e',1,'graphene::app::impl::dejsonify()']]],
   ['deposit',['deposit',['../classgraphene_1_1chain_1_1vesting__balance__object.html#a178b417cc5b0124693b0137b057be8fb',1,'graphene::chain::vesting_balance_object']]],
   ['deposit_5fcashback',['deposit_cashback',['../classgraphene_1_1chain_1_1database.html#ada0ca07bcd351e7ee1f95719b8543579',1,'graphene::chain::database']]],
   ['deposit_5flazy_5fvesting',['deposit_lazy_vesting',['../classgraphene_1_1chain_1_1database.html#ab505e9971cb4636f2f15278893f4ba9f',1,'graphene::chain::database']]],

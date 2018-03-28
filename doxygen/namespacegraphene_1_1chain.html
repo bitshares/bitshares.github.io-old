@@ -601,9 +601,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:a2cb69664c48f3d41eb5ac8b6bc4847cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4a4b0840d255da34979146e37fcc15c"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a2cb69664c48f3d41eb5ac8b6bc4847cc">account_multi_index_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ad4a4b0840d255da34979146e37fcc15c">account_index</a></td></tr>
 <tr class="separator:ad4a4b0840d255da34979146e37fcc15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55df91a7de14b8d04b6d8789e4e355f0"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_feed_expiration &gt;, const_mem_fun&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, time_point_sec, &amp;<a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a376e0082aaf4e3fd5c5dff81b806bd10">asset_bitasset_data_object::feed_expiration_time</a> &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a55df91a7de14b8d04b6d8789e4e355f0">asset_bitasset_data_object_multi_index_type</a></td></tr>
-<tr class="separator:a55df91a7de14b8d04b6d8789e4e355f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a237c018a120acefc4a75f7473a413379"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a55df91a7de14b8d04b6d8789e4e355f0">asset_bitasset_data_object_multi_index_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379">asset_bitasset_data_index</a></td></tr>
+<tr class="memitem:a12d9550893cb489b144b087b4280dc6f"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a12d9550893cb489b144b087b4280dc6f">asset_bitasset_data_object_multi_index_type</a></td></tr>
+<tr class="separator:a12d9550893cb489b144b087b4280dc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a237c018a120acefc4a75f7473a413379"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a12d9550893cb489b144b087b4280dc6f">asset_bitasset_data_object_multi_index_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379">asset_bitasset_data_index</a></td></tr>
 <tr class="separator:a237c018a120acefc4a75f7473a413379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec8f0400e76e0ae791bd38ccfee250fd"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_symbol &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a>, string, &amp;<a class="el" href="classgraphene_1_1chain_1_1asset__object.html#a089165870abab6b77345acea240937b6">asset_object::symbol</a> &gt; &gt;, ordered_non_unique&lt; tag&lt; by_issuer &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1asset__object.html#ad5274b71ad420b57da53c3ef80b95577">asset_object::issuer</a> &gt; &gt;, ordered_unique&lt; tag&lt; by_type &gt;, composite_key&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a>, const_mem_fun&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a>, bool, &amp;<a class="el" href="classgraphene_1_1chain_1_1asset__object.html#a5cd681e6cc216f87d99f60c1de63eba8">asset_object::is_market_issued</a> &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#aec8f0400e76e0ae791bd38ccfee250fd">asset_object_multi_index_type</a></td></tr>
 <tr class="separator:aec8f0400e76e0ae791bd38ccfee250fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -677,6 +677,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9c45f50c97257b15a8793bba836c045a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8182991954496b517776f06844cf2d93"><td class="memItemLeft" align="right" valign="top">typedef fc::sha256&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a8182991954496b517776f06844cf2d93">chain_id_type</a></td></tr>
 <tr class="separator:a8182991954496b517776f06844cf2d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25c1952a1b045cf4793bcb2bc79e3f92"><td class="memItemLeft" align="right" valign="top">typedef boost::rational&lt; int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a></td></tr>
+<tr class="separator:a25c1952a1b045cf4793bcb2bc79e3f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11927fb343f953514ab6235d6e7233ee"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; <a class="el" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a9dadbbe526b5096091138116c13d612d">protocol_ids</a>, <a class="el" href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da9a9e8ad687ba16618f0c4cd89fd3e3de">account_object_type</a>, <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a></td></tr>
 <tr class="separator:a11927fb343f953514ab6235d6e7233ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8719a403aa47e9d369890c01d60d0bb2"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; <a class="el" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a9dadbbe526b5096091138116c13d612d">protocol_ids</a>, <a class="el" href="namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633daa3ebbda158af342607bd72ee57e81788">asset_object_type</a>, <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a></td></tr>
@@ -957,16 +959,18 @@ Functions</h2></td></tr>
 <tr class="separator:abc8a9f122707bb2ce6ffbbbb13027b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8062fe82dd155aeea22da62409075d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a8062fe82dd155aeea22da62409075d01">operator*</a> (const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;a, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;b)</td></tr>
 <tr class="separator:a8062fe82dd155aeea22da62409075d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c430e266875ab37e4244be8eae6cde1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a2c430e266875ab37e4244be8eae6cde1">operator*</a> (const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;p, const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;r)</td></tr>
+<tr class="separator:a2c430e266875ab37e4244be8eae6cde1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3d07837d40879c8b701a0f5dae4be71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ae3d07837d40879c8b701a0f5dae4be71">operator/</a> (const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;p, const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;r)</td></tr>
+<tr class="separator:ae3d07837d40879c8b701a0f5dae4be71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817654cfbc24d5a00436e94b86c7c239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a817654cfbc24d5a00436e94b86c7c239">operator*=</a> (<a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;p, const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;r)</td></tr>
+<tr class="separator:a817654cfbc24d5a00436e94b86c7c239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0560e1c8b518564828f4ad30c434cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a9d0560e1c8b518564828f4ad30c434cf">operator/=</a> (<a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;p, const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;r)</td></tr>
+<tr class="separator:a9d0560e1c8b518564828f4ad30c434cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5717ec54e4190fad67de0b3639988ea5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a5717ec54e4190fad67de0b3639988ea5">is_valid_symbol</a> (const string &amp;symbol)</td></tr>
 <tr class="separator:a5717ec54e4190fad67de0b3639988ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a5a25b9f16a8736bf7dbbaa705fede7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a1a5a25b9f16a8736bf7dbbaa705fede7">add_authority_accounts</a> (flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;result, const <a class="el" href="structgraphene_1_1chain_1_1authority.html">authority</a> &amp;a)</td></tr>
 <tr class="separator:a1a5a25b9f16a8736bf7dbbaa705fede7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c2fd9f8f5e36a4187f3699b4fada0e"><td class="memTemplParams" colspan="2">template&lt;typename Stream , class T &gt; </td></tr>
-<tr class="memitem:a63c2fd9f8f5e36a4187f3699b4fada0e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a63c2fd9f8f5e36a4187f3699b4fada0e">operator&lt;&lt;</a> (Stream &amp;stream, const <a class="el" href="structgraphene_1_1chain_1_1extension.html">graphene::chain::extension</a>&lt; T &gt; &amp;value)</td></tr>
-<tr class="separator:a63c2fd9f8f5e36a4187f3699b4fada0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f5bc46b5c142e1b9fda16e4252b8f5"><td class="memTemplParams" colspan="2">template&lt;typename Stream , typename T &gt; </td></tr>
-<tr class="memitem:a54f5bc46b5c142e1b9fda16e4252b8f5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a54f5bc46b5c142e1b9fda16e4252b8f5">operator&gt;&gt;</a> (Stream &amp;s, <a class="el" href="structgraphene_1_1chain_1_1extension.html">graphene::chain::extension</a>&lt; T &gt; &amp;value)</td></tr>
-<tr class="separator:a54f5bc46b5c142e1b9fda16e4252b8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae94dc5207859246b0e3997094ee958fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ae94dc5207859246b0e3997094ee958fd">operation_get_required_authorities</a> (const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;op, flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;active, flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;owner, vector&lt; <a class="el" href="structgraphene_1_1chain_1_1authority.html">authority</a> &gt; &amp;other)</td></tr>
 <tr class="separator:ae94dc5207859246b0e3997094ee958fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7268da360ce2fa9245a306d2499144f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a7268da360ce2fa9245a306d2499144f1">operation_validate</a> (const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;op)</td></tr>
@@ -1026,6 +1030,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:af92e12d868c4337b7dea9e21014ba086"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#af92e12d868c4337b7dea9e21014ba086">scaled_precision_lut</a> []</td></tr>
 <tr class="separator:af92e12d868c4337b7dea9e21014ba086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ed181af9da5c991949e2154707be94"><td class="memItemLeft" align="right" valign="top">const flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ad6ed181af9da5c991949e2154707be94">empty_keyset</a></td></tr>
+<tr class="separator:ad6ed181af9da5c991949e2154707be94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a1b76ad0aa6ebbfd3956fb923bf2e244f"></a>
@@ -1040,7 +1046,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00217">217</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00224">224</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1088,7 +1094,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00178">178</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00185">185</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1142,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00218">218</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00225">225</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1152,7 +1158,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00224">224</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00231">231</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1200,7 +1206,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00216">216</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00223">223</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1211,28 +1217,28 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef generic_index&lt;<a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a55df91a7de14b8d04b6d8789e4e355f0">asset_bitasset_data_object_multi_index_type</a>&gt; <a class="el" href="namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379">graphene::chain::asset_bitasset_data_index</a></td>
+          <td class="memname">typedef generic_index&lt;<a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a12d9550893cb489b144b087b4280dc6f">asset_bitasset_data_object_multi_index_type</a>&gt; <a class="el" href="namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379">graphene::chain::asset_bitasset_data_index</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00230">230</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00226">226</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a55df91a7de14b8d04b6d8789e4e355f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55df91a7de14b8d04b6d8789e4e355f0">&#9670;&nbsp;</a></span>asset_bitasset_data_object_multi_index_type</h2>
+<a id="a12d9550893cb489b144b087b4280dc6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12d9550893cb489b144b087b4280dc6f">&#9670;&nbsp;</a></span>asset_bitasset_data_object_multi_index_type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt;by_id&gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt;by_feed_expiration&gt;, const_mem_fun&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, time_point_sec, &amp;<a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a376e0082aaf4e3fd5c5dff81b806bd10">asset_bitasset_data_object::feed_expiration_time</a> &gt; &gt; &gt; &gt; <a class="el" href="namespacegraphene_1_1chain.html#a55df91a7de14b8d04b6d8789e4e355f0">graphene::chain::asset_bitasset_data_object_multi_index_type</a></td>
+          <td class="memname">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt;by_id&gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt; &gt; <a class="el" href="namespacegraphene_1_1chain.html#a12d9550893cb489b144b087b4280dc6f">graphene::chain::asset_bitasset_data_object_multi_index_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00220">220</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00225">225</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1248,7 +1254,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00215">215</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00222">222</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1264,7 +1270,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00181">181</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00188">188</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1280,7 +1286,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00249">249</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00245">245</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1296,7 +1302,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00234">234</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00230">230</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1312,7 +1318,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00193">193</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00200">200</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1360,7 +1366,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00228">228</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00235">235</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1408,7 +1414,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00235">235</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00242">242</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1424,7 +1430,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00220">220</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00227">227</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1440,7 +1446,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00227">227</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00234">234</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1456,7 +1462,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00230">230</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00237">237</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1504,7 +1510,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00186">186</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00193">193</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1552,7 +1558,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00085">85</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00090">90</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1568,7 +1574,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00225">225</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00232">232</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1584,7 +1590,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00236">236</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00243">243</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1600,7 +1606,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00232">232</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00239">239</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1648,7 +1654,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00183">183</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00190">190</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1696,7 +1702,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00187">187</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00194">194</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1712,7 +1718,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00238">238</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00245">245</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1728,7 +1734,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00214">214</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00221">221</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1744,7 +1750,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00231">231</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00238">238</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1792,7 +1798,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00182">182</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00189">189</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1840,7 +1846,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00211">211</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00218">218</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1888,7 +1894,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00185">185</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00192">192</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1936,7 +1942,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00189">189</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00196">196</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1984,7 +1990,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="chain__parameters_8hpp_source.html#l00039">39</a> of file <a class="el" href="chain__parameters_8hpp_source.html">chain_parameters.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="chain__parameters_8hpp_source.html#l00033">33</a> of file <a class="el" href="chain__parameters_8hpp_source.html">chain_parameters.hpp</a>.</p>
 
 </div>
 </div>
@@ -2017,7 +2023,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00084">84</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00089">89</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2033,7 +2039,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00188">188</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00195">195</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2049,7 +2055,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__object_8hpp_source.html#l00096">96</a> of file <a class="el" href="proposal__object_8hpp_source.html">proposal_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__object_8hpp_source.html#l00097">97</a> of file <a class="el" href="proposal__object_8hpp_source.html">proposal_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -2065,7 +2071,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__object_8hpp_source.html#l00095">95</a> of file <a class="el" href="proposal__object_8hpp_source.html">proposal_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__object_8hpp_source.html#l00096">96</a> of file <a class="el" href="proposal__object_8hpp_source.html">proposal_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a25c1952a1b045cf4793bcb2bc79e3f92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25c1952a1b045cf4793bcb2bc79e3f92">&#9670;&nbsp;</a></span>ratio_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef boost::rational&lt; int32_t &gt; <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">graphene::chain::ratio_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00092">92</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2081,7 +2103,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00240">240</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00247">247</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2097,7 +2119,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00239">239</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00246">246</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2145,7 +2167,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00229">229</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00236">236</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2193,7 +2215,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00234">234</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00241">241</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2209,7 +2231,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00237">237</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00244">244</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2257,7 +2279,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00219">219</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00226">226</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2289,7 +2311,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00191">191</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00198">198</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2369,7 +2391,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00241">241</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00248">248</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2385,7 +2407,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00190">190</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00197">197</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2433,7 +2455,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00184">184</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00191">191</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2481,7 +2503,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00226">226</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00233">233</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2497,7 +2519,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00192">192</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00199">199</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2582,7 +2604,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00087">87</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00094">94</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2641,7 +2663,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a24af034d43bc0c1931699dee9b8b3194"></a>impl_collateral_bid_object_type&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00140">140</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00147">147</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2678,7 +2700,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00119">119</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00126">126</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2699,7 +2721,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7"></a>implementation_ids&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00103">103</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00110">110</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -3227,7 +3249,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00134">134</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00133">133</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
 
 </div>
 </div>
@@ -3255,7 +3277,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00110">110</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00117">117</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -3290,7 +3312,7 @@ Variables</h2></td></tr>
 <li>Length is between (inclusive) GRAPHENE_MIN_ACCOUNT_NAME_LENGTH and GRAPHENE_MAX_ACCOUNT_NAME_LENGTH </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00059">59</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00058">58</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
 
 </div>
 </div>
@@ -3513,12 +3535,42 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00110">110</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00085">85</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ac3f47c899fed4946553c91f509326ac9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3f47c899fed4946553c91f509326ac9">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>p2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00139">139</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
 <a id="abc8a9f122707bb2ce6ffbbbb13027b38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc8a9f122707bb2ce6ffbbbb13027b38">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abc8a9f122707bb2ce6ffbbbb13027b38">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3544,36 +3596,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00061">61</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ac3f47c899fed4946553c91f509326ac9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3f47c899fed4946553c91f509326ac9">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool graphene::chain::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>p2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00164">164</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
@@ -3603,12 +3625,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00218">218</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00193">193</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a8062fe82dd155aeea22da62409075d01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8062fe82dd155aeea22da62409075d01">&#9670;&nbsp;</a></span>operator*()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8062fe82dd155aeea22da62409075d01">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3637,8 +3659,76 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2c430e266875ab37e4244be8eae6cde1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c430e266875ab37e4244be8eae6cde1">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> graphene::chain::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00104">104</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a817654cfbc24d5a00436e94b86c7c239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a817654cfbc24d5a00436e94b86c7c239">&#9670;&nbsp;</a></span>operator*=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&amp; graphene::chain::operator*= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asset_8hpp_source.html#l00152">152</a> of file <a class="el" href="asset_8hpp_source.html">asset.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a4c4e2b098ed507b986825f0fb3aa92a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c4e2b098ed507b986825f0fb3aa92a3">&#9670;&nbsp;</a></span>operator/()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c4e2b098ed507b986825f0fb3aa92a3">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3664,6 +3754,74 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00095">95</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae3d07837d40879c8b701a0f5dae4be71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d07837d40879c8b701a0f5dae4be71">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> graphene::chain::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00180">180</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9d0560e1c8b518564828f4ad30c434cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0560e1c8b518564828f4ad30c434cf">&#9670;&nbsp;</a></span>operator/=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&amp; graphene::chain::operator/= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a25c1952a1b045cf4793bcb2bc79e3f92">ratio_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asset_8hpp_source.html#l00154">154</a> of file <a class="el" href="asset_8hpp_source.html">asset.hpp</a>.</p>
 
 </div>
 </div>
@@ -3800,38 +3958,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00043">43</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a63c2fd9f8f5e36a4187f3699b4fada0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63c2fd9f8f5e36a4187f3699b4fada0e">&#9670;&nbsp;</a></span>operator<<()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Stream , class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void graphene::chain::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">Stream &amp;&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extension.html">graphene::chain::extension</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00076">76</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 
 </div>
 </div>
@@ -3997,7 +4123,7 @@ template&lt;typename Stream , class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00100">100</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00075">75</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
@@ -4027,12 +4153,72 @@ template&lt;typename Stream , class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00105">105</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00080">80</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a05df565b5af787f3771c949b48973e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05df565b5af787f3771c949b48973e01">&#9670;&nbsp;</a></span>operator==() <span class="overload">[5/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fc::ecc::extended_public_key &amp;&#160;</td>
+          <td class="paramname"><em>p2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00129">129</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aec81d36ae21208be44ed0d00bdb8ff36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec81d36ae21208be44ed0d00bdb8ff36">&#9670;&nbsp;</a></span>operator==() <span class="overload">[6/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>p2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00134">134</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
 <a id="ab6c120cb1d44829e5f5a02cfcf0acc93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6c120cb1d44829e5f5a02cfcf0acc93">&#9670;&nbsp;</a></span>operator==() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6c120cb1d44829e5f5a02cfcf0acc93">&#9670;&nbsp;</a></span>operator==() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4058,66 +4244,6 @@ template&lt;typename Stream , class T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00032">32</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a05df565b5af787f3771c949b48973e01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05df565b5af787f3771c949b48973e01">&#9670;&nbsp;</a></span>operator==() <span class="overload">[6/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool graphene::chain::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fc::ecc::extended_public_key &amp;&#160;</td>
-          <td class="paramname"><em>p2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00154">154</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aec81d36ae21208be44ed0d00bdb8ff36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec81d36ae21208be44ed0d00bdb8ff36">&#9670;&nbsp;</a></span>operator==() <span class="overload">[7/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool graphene::chain::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>p2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00159">159</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
@@ -4147,7 +4273,7 @@ template&lt;typename Stream , class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00208">208</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00183">183</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
@@ -4177,7 +4303,7 @@ template&lt;typename Stream , class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00213">213</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8cpp_source.html#l00188">188</a> of file <a class="el" href="types_8cpp_source.html">types.cpp</a>.</p>
 
 </div>
 </div>
@@ -4238,38 +4364,6 @@ template&lt;typename Stream , class T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00071">71</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a54f5bc46b5c142e1b9fda16e4252b8f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f5bc46b5c142e1b9fda16e4252b8f5">&#9670;&nbsp;</a></span>operator>>()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Stream , typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void graphene::chain::operator&gt;&gt; </td>
-          <td>(</td>
-          <td class="paramtype">Stream &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structgraphene_1_1chain_1_1extension.html">graphene::chain::extension</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ext_8hpp_source.html#l00133">133</a> of file <a class="el" href="ext_8hpp_source.html">ext.hpp</a>.</p>
 
 </div>
 </div>
@@ -4686,6 +4780,22 @@ template&lt;typename Visitor &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="ad6ed181af9da5c991949e2154707be94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6ed181af9da5c991949e2154707be94">&#9670;&nbsp;</a></span>empty_keyset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const flat_set&lt;<a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a>&gt; graphene::chain::empty_keyset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00106">106</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
+
+</div>
+</div>
 <a id="af92e12d868c4337b7dea9e21014ba086"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af92e12d868c4337b7dea9e21014ba086">&#9670;&nbsp;</a></span>scaled_precision_lut</h2>
 
@@ -4698,14 +4808,14 @@ template&lt;typename Visitor &gt; </div>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">   p10&lt;  0 &gt;::v, p10&lt;  1 &gt;::v, p10&lt;  2 &gt;::v, p10&lt;  3 &gt;::v,</div><div class="line">   p10&lt;  4 &gt;::v, p10&lt;  5 &gt;::v, p10&lt;  6 &gt;::v, p10&lt;  7 &gt;::v,</div><div class="line">   p10&lt;  8 &gt;::v, p10&lt;  9 &gt;::v, p10&lt; 10 &gt;::v, p10&lt; 11 &gt;::v,</div><div class="line">   p10&lt; 12 &gt;::v, p10&lt; 13 &gt;::v, p10&lt; 14 &gt;::v, p10&lt; 15 &gt;::v,</div><div class="line">   p10&lt; 16 &gt;::v, p10&lt; 17 &gt;::v, p10&lt; 18 &gt;::v</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00195">195</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00278">278</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:17 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

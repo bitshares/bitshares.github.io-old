@@ -10,7 +10,9 @@ var searchData=
   ['node_5fproperties',['node_properties',['../classgraphene_1_1chain_1_1database.html#a5a11d2aa7bfc6fbbc33f67f6a6174b10',1,'graphene::chain::database']]],
   ['node_5fproperty_5fobject',['node_property_object',['../classgraphene_1_1chain_1_1node__property__object.html#aff79626702f52b398daf96fb064c1bfc',1,'graphene::chain::node_property_object']]],
   ['normalize_5fbrain_5fkey',['normalize_brain_key',['../classgraphene_1_1wallet_1_1wallet__api.html#a22a64652613c2e0b7bacf0bd0a031bc1',1,'graphene::wallet::wallet_api::normalize_brain_key()'],['../namespacegraphene_1_1wallet_1_1detail.html#ab0dc05ce8662a76f8608d0a7adca5013',1,'graphene::wallet::detail::normalize_brain_key()']]],
+  ['notify_5fapplied_5fblock',['notify_applied_block',['../classgraphene_1_1chain_1_1database.html#a110fcf6a054a23576d5573ee4db3fd9c',1,'graphene::chain::database']]],
   ['notify_5fchanged_5fobjects',['notify_changed_objects',['../classgraphene_1_1chain_1_1database.html#ae3f480762bbb94cfecf98dd81fe3ed6e',1,'graphene::chain::database']]],
+  ['notify_5fon_5fpending_5ftransaction',['notify_on_pending_transaction',['../classgraphene_1_1chain_1_1database.html#a9b827a50067542ef8c1ea9f2e6177f8d',1,'graphene::chain::database']]],
   ['null_5fauthority',['null_authority',['../structgraphene_1_1chain_1_1authority.html#a8d6c046aa9f606333dc6a9caab22c880',1,'graphene::chain::authority']]],
   ['num_5fauths',['num_auths',['../structgraphene_1_1chain_1_1authority.html#af015e8b316222815c7830f31c8c625f8',1,'graphene::chain::authority']]],
   ['num_5ffrom_5fid',['num_from_id',['../structgraphene_1_1chain_1_1block__header.html#ad8cbe66dbf2ac03fc7cfd904330c7c56',1,'graphene::chain::block_header']]]

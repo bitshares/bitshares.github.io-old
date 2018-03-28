@@ -94,6 +94,8 @@ Macros</h2></td></tr>
 <tr class="separator:a85cd52190f9658a54b62566383b9fc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3b876dd975ab98d9a8854f1a315c9af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8hpp.html#ad3b876dd975ab98d9a8854f1a315c9af">GRAPHENE_DECLARE_OP_EVALUATE_EXCEPTION</a>(exc_name,  op_name,  seqnum,  msg)</td></tr>
 <tr class="separator:ad3b876dd975ab98d9a8854f1a315c9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2376956f58433458088835f65c022a1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8hpp.html#a2376956f58433458088835f65c022a1e">GRAPHENE_TRY_NOTIFY</a>(signal, ...)</td></tr>
+<tr class="separator:a2376956f58433458088835f65c022a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a828d7d9aba94c583d33470802d6db9c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8hpp.html#a828d7d9aba94c583d33470802d6db9c6">GRAPHENE_RECODE_EXC</a>(cause_type,  effect_type)</td></tr>
 <tr class="separator:a828d7d9aba94c583d33470802d6db9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -293,14 +295,44 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">catch</span>( <span class="keyword">const</span> cause_type&amp; e ) \</div><div class="line">      { <span class="keywordflow">throw</span>( effect_type( e.what(), e.get_log() ) ); }</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="exceptions_8hpp_source.html#l00251">251</a> of file <a class="el" href="exceptions_8hpp_source.html">exceptions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exceptions_8hpp_source.html#l00267">267</a> of file <a class="el" href="exceptions_8hpp_source.html">exceptions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2376956f58433458088835f65c022a1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2376956f58433458088835f65c022a1e">&#9670;&nbsp;</a></span>GRAPHENE_TRY_NOTIFY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GRAPHENE_TRY_NOTIFY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">signal, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">try</span>                                                                        \</div><div class="line">   {                                                                          \</div><div class="line">      signal( __VA_ARGS__ );                                                  \</div><div class="line">   }                                                                          \</div><div class="line">   catch( <span class="keyword">const</span> graphene::chain::plugin_exception&amp; e )                        \</div><div class="line">   {                                                                          \</div><div class="line">      elog( <span class="stringliteral">&quot;Caught plugin exception: ${e}&quot;</span>, (<span class="stringliteral">&quot;e&quot;</span>, e.to_detail_string() ) );  \</div><div class="line">      throw;                                                                  \</div><div class="line">   }                                                                          \</div><div class="line">   catch( ... )                                                               \</div><div class="line">   {                                                                          \</div><div class="line">      wlog( <span class="stringliteral">&quot;Caught unexpected exception in plugin&quot;</span> );                        \</div><div class="line">   }</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="exceptions_8hpp_source.html#l00068">68</a> of file <a class="el" href="exceptions_8hpp_source.html">exceptions.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

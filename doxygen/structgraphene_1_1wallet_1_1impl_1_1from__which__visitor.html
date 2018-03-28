@@ -86,20 +86,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aca4809ecb40146a57b2e3f26ac4991b4"><td class="memTemplParams" colspan="2">template&lt;typename Member &gt; </td></tr>
 <tr class="memitem:aca4809ecb40146a57b2e3f26ac4991b4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html#aa9e97f8952e599ddc3386d2932994f23">result_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html#aca4809ecb40146a57b2e3f26ac4991b4">operator()</a> (const Member &amp;dummy)</td></tr>
 <tr class="separator:aca4809ecb40146a57b2e3f26ac4991b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49c37b616f19d90dd4edf94d3ed3a443"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html#a49c37b616f19d90dd4edf94d3ed3a443">from_which_visitor</a> (const variant &amp;_v)</td></tr>
-<tr class="separator:a49c37b616f19d90dd4edf94d3ed3a443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a243ec4648a7c80a92796a98a138831db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html#a243ec4648a7c80a92796a98a138831db">from_which_visitor</a> (const variant &amp;_v, uint32_t max_depth)</td></tr>
+<tr class="separator:a243ec4648a7c80a92796a98a138831db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae854cb4a331be97c950012e982841bf2"><td class="memItemLeft" align="right" valign="top">const variant &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html#ae854cb4a331be97c950012e982841bf2">v</a></td></tr>
 <tr class="separator:ae854cb4a331be97c950012e982841bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4812c4e0fe8bec37fefca0e68d5f1490"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html#a4812c4e0fe8bec37fefca0e68d5f1490">_max_depth</a></td></tr>
+<tr class="separator:a4812c4e0fe8bec37fefca0e68d5f1490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename StaticVariant&gt;<br />
 struct graphene::wallet::impl::from_which_visitor&lt; StaticVariant &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00076">76</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00075">75</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aa9e97f8952e599ddc3386d2932994f23"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9e97f8952e599ddc3386d2932994f23">&#9670;&nbsp;</a></span>result_type</h2>
@@ -115,13 +117,13 @@ template&lt;typename StaticVariant&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00078">78</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00077">77</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a49c37b616f19d90dd4edf94d3ed3a443"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49c37b616f19d90dd4edf94d3ed3a443">&#9670;&nbsp;</a></span>from_which_visitor()</h2>
+<a id="a243ec4648a7c80a92796a98a138831db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a243ec4648a7c80a92796a98a138831db">&#9670;&nbsp;</a></span>from_which_visitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,8 +137,18 @@ template&lt;typename StaticVariant&gt; </div>
           <td class="memname"><a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html">graphene::wallet::impl::from_which_visitor</a>&lt; StaticVariant &gt;::<a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html">from_which_visitor</a> </td>
           <td>(</td>
           <td class="paramtype">const variant &amp;&#160;</td>
-          <td class="paramname"><em>_v</em></td><td>)</td>
+          <td class="paramname"><em>_v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>max_depth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -179,11 +191,29 @@ template&lt;typename Member &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00081">81</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00080">80</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4812c4e0fe8bec37fefca0e68d5f1490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4812c4e0fe8bec37fefca0e68d5f1490">&#9670;&nbsp;</a></span>_max_depth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename StaticVariant&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t <a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html">graphene::wallet::impl::from_which_visitor</a>&lt; StaticVariant &gt;::_max_depth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00088">88</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ae854cb4a331be97c950012e982841bf2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae854cb4a331be97c950012e982841bf2">&#9670;&nbsp;</a></span>v</h2>
 
@@ -198,7 +228,7 @@ template&lt;typename StaticVariant&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00088">88</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reflect__util_8hpp_source.html#l00087">87</a> of file <a class="el" href="reflect__util_8hpp_source.html">reflect_util.hpp</a>.</p>
 
 </div>
 </div>
@@ -208,7 +238,7 @@ template&lt;typename StaticVariant&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:39 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:18 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

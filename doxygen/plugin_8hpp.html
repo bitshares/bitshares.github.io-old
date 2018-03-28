@@ -66,7 +66,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">plugin.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -90,13 +91,21 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacegraphene_1_1app"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html">graphene::app</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacegraphene_1_1app_1_1impl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app_1_1impl.html">graphene::app::impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a81b697f0bd8fe96cf490227ace48d79e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a81b697f0bd8fe96cf490227ace48d79e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app_1_1impl.html#a81b697f0bd8fe96cf490227ace48d79e">graphene::app::impl::dejsonify</a> (const string &amp;s)</td></tr>
+<tr class="separator:a81b697f0bd8fe96cf490227ace48d79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad01bf0867c80437a01cc59750830fa03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="plugin_8hpp.html#ad01bf0867c80437a01cc59750830fa03">DEFAULT_VALUE_VECTOR</a>(value)&#160;&#160;&#160;default_value({fc::json::to_string(value)}, fc::json::to_string(value))</td></tr>
 <tr class="separator:ad01bf0867c80437a01cc59750830fa03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e46b138c0e3ea4bdb3fb6894bebae3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="plugin_8hpp.html#a74e46b138c0e3ea4bdb3fb6894bebae3">LOAD_VALUE_SET</a>(options,  name,  container,  type)</td></tr>
 <tr class="separator:a74e46b138c0e3ea4bdb3fb6894bebae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf7e26d8fb14cc3f358e45e3359b2251"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aaf7e26d8fb14cc3f358e45e3359b2251"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#aaf7e26d8fb14cc3f358e45e3359b2251">graphene::app::dejsonify</a> (const string &amp;s)</td></tr>
-<tr class="separator:aaf7e26d8fb14cc3f358e45e3359b2251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d7b9dd9560bcbbbfe65c4562a17ceb8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0d7b9dd9560bcbbbfe65c4562a17ceb8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#a0d7b9dd9560bcbbbfe65c4562a17ceb8">graphene::app::dejsonify</a> (const string &amp;s, uint32_t max_depth)</td></tr>
+<tr class="separator:a0d7b9dd9560bcbbbfe65c4562a17ceb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad01bf0867c80437a01cc59750830fa03"></a>
@@ -115,7 +124,7 @@ Namespaces</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="plugin_8hpp_source.html#l00131">131</a> of file <a class="el" href="plugin_8hpp_source.html">plugin.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="plugin_8hpp_source.html#l00139">139</a> of file <a class="el" href="plugin_8hpp_source.html">plugin.hpp</a>.</p>
 
 </div>
 </div>
@@ -156,15 +165,15 @@ Namespaces</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span>( options.count(name) ) { \</div><div class="line">      const std::vector&lt;std::string&gt;&amp; ops = options[name].as&lt;std::vector&lt;std::string&gt;&gt;(); \</div><div class="line">      std::transform(ops.begin(), ops.end(), std::inserter(container, container.end()), &amp;graphene::app::dejsonify&lt;type&gt;); \</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="plugin_8hpp_source.html#l00132">132</a> of file <a class="el" href="plugin_8hpp_source.html">plugin.hpp</a>.</p>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span>( options.count(name) ) { \</div><div class="line">      const std::vector&lt;std::string&gt;&amp; ops = options[name].as&lt;std::vector&lt;std::string&gt;&gt;(); \</div><div class="line">      std::transform(ops.begin(), ops.end(), std::inserter(container, container.end()), &amp;graphene::app::impl::dejsonify&lt;type&gt;); \</div><div class="line">}</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="plugin_8hpp_source.html#l00140">140</a> of file <a class="el" href="plugin_8hpp_source.html">plugin.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 04:35:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 28 2018 13:47:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
