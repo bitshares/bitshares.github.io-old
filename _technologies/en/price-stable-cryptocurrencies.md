@@ -159,15 +159,6 @@ than sufficient, but, from time to time, markets can rapidly revalue the collate
 than the short positions can be forced to cover, then all SmartCoins are liquidated at the exchange rate of the least
 collateralized short position.  This is similar to an insolvent bank converting its deposits to equity.
 
-## The Bond Market
-
-Not every short seller will be happy with the rules offer by SmartCoins.  Some may want to borrow for a fixed period of time,
-with higher leverage, and with no risk of being force-settled.  BitShares offers these speculators the option to borrow
-BitUSD on the bond market at interest.   The bond market
-allows speculators to leverage any asset against any other, while lenders earn interest on collateralized loans.   A
-Bond market is the perfect way for the market to establish a yield curve on SmartCoins and free both sides of the market
-from dependency on the price feed.
-
 ## Privatized SmartCoins
 
 BitShares offers entrepreneurs an opportunity to create their own SmartCoins with custom parameters and price feeds.
