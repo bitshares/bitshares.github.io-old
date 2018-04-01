@@ -31,9 +31,14 @@ contrast to bridges not only allow for instant trades at market price, but also 
 buy/sell order at a desired price.
 
 - [OpenLedger](https://openledger.io/){:target="_blank"}
-- [Poloniex](https://www.poloniex.com/){:target="_blank"}
-- [Binance](https://www.binance.com/){:target="_blank"}
-- [Bitcoin Indonesia](https://vip.bitcoin.co.id/){:target="_blank"}
+- [Binance](https://www.binance.com/trade.html?symbol=BTS_BTC){:target="_blank"}
+- [ZB.COM](https://trans.zb.com/btsusdt){:target="_blank"}
+- [Poloniex](https://poloniex.com/exchange#btc_bts){:target="_blank"}
+- [Lbank](https://www.lbank.info/trading/BTS/ETH){:target="_blank"}
+- [Gate.io](https://gate.io/trade/bts_usdt){:target="_blank"}
+- [AEX](https://www.aex.com/page/trade.html?mk_type=BITCNY&trade_coin_name=BTS){:target="_blank"}
+- [Livecoin](https://www.livecoin.net/){:target="_blank"}
+- [Bitcoin Indonesia](https://vip.bitcoin.co.id/market/BTSBTC){:target="_blank"}
 
 </div>
 </div>
