@@ -31,6 +31,7 @@ contrast to bridges not only allow for instant trades at market price, but also 
 buy/sell order at a desired price.
 
 - [OpenLedger](https://openledger.io/){:target="_blank"}
+- [Huobi.pro](https://www.huobi.pro/en-us/bts_btc/exchange/){:target="_blank"}
 - [Binance](https://www.binance.com/trade.html?symbol=BTS_BTC){:target="_blank"}
 - [ZB.COM](https://trans.zb.com/btsusdt){:target="_blank"}
 - [Poloniex](https://poloniex.com/exchange#btc_bts){:target="_blank"}
