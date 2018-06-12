@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180425</span>
+   &#160;<span id="projectnumber">2.0.180612</span>
    </div>
-   <div id="projectbrief">Your share in the Decentralized Exchange</div>
+   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
   </td>
  </tr>
  </tbody>
@@ -154,6 +154,7 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1account__whitelist__evaluator.html#a50a17d3dff2f2b62be6a18057bca92db">graphene::chain::account_whitelist_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1assert__evaluator.html#a1aa1e09461f06179f63d5732fda4347f">graphene::chain::assert_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__claim__fees__evaluator.html#ad318429f2c3fa21b6418b417d0144961">graphene::chain::asset_claim_fees_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1asset__claim__pool__evaluator.html#ab968a5666468268e79b54ed5395a17fb">graphene::chain::asset_claim_pool_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__create__evaluator.html#a28395acba8ea0a55247690ab912d3af1">graphene::chain::asset_create_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__fund__fee__pool__evaluator.html#aad5715a551410d011e250436f9b95773">graphene::chain::asset_fund_fee_pool_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__global__settle__evaluator.html#a520eddf71c0cf1f2f8792e624631982b">graphene::chain::asset_global_settle_evaluator</a>
@@ -164,6 +165,7 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1asset__update__bitasset__evaluator.html#a697b69fcfd06b3955d6878462751bfbb">graphene::chain::asset_update_bitasset_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__update__evaluator.html#a3015d4f72465e07f78249b700b778d5b">graphene::chain::asset_update_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__update__feed__producers__evaluator.html#aa9889b0069850c4e28c2a14dee474071">graphene::chain::asset_update_feed_producers_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1asset__update__issuer__evaluator.html#ad7a55e9b4efc37a6f9ad2201cae00a00">graphene::chain::asset_update_issuer_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1balance__claim__evaluator.html#a92dc0b7a18d2506b03ca215419865a4d">graphene::chain::balance_claim_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1bid__collateral__evaluator.html#aec9a3f81a7eaafd5fce53dbb9c664a88">graphene::chain::bid_collateral_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1blind__transfer__evaluator.html#ab97a333b6a91c710de95c71626d6e53a">graphene::chain::blind_transfer_evaluator</a>
@@ -198,6 +200,7 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1account__whitelist__evaluator.html#ae18b458503b1439e597724d8046faff5">graphene::chain::account_whitelist_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1assert__evaluator.html#a5d19697bcfe76c0ec24d8046eb30241a">graphene::chain::assert_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__claim__fees__evaluator.html#a18d73b083a4701575cc840652097afc2">graphene::chain::asset_claim_fees_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1asset__claim__pool__evaluator.html#a59d261eea4c96b14f36134f613899e67">graphene::chain::asset_claim_pool_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__create__evaluator.html#aa9184d8424d5181b02ab11b1ffaef17d">graphene::chain::asset_create_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__fund__fee__pool__evaluator.html#a21b27dbcf96336d39efbd9087020eeb2">graphene::chain::asset_fund_fee_pool_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__global__settle__evaluator.html#aa8e0556b44b715e797a2d454f4dfcc28">graphene::chain::asset_global_settle_evaluator</a>
@@ -208,6 +211,7 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1asset__update__bitasset__evaluator.html#acbb79c73a8b89751072576e5c2be20fa">graphene::chain::asset_update_bitasset_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__update__evaluator.html#a7111e2657c792c93ff2bd88e4862c5f9">graphene::chain::asset_update_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1asset__update__feed__producers__evaluator.html#aa8b868e716b74f165a0f826be3695cc5">graphene::chain::asset_update_feed_producers_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1asset__update__issuer__evaluator.html#a2e9a955696fa1fc2481b5bbb2b328677">graphene::chain::asset_update_issuer_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1balance__claim__evaluator.html#a08e1277ba5d4275a1acd07dd1c577181">graphene::chain::balance_claim_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1bid__collateral__evaluator.html#a6b4fab86d67a2ad21432555d0c2a766b">graphene::chain::bid_collateral_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1blind__transfer__evaluator.html#a870ac40eef5c29387d97285b893069f5">graphene::chain::blind_transfer_evaluator</a>
@@ -245,7 +249,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 13 2018 07:46:40 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 12 2018 09:40:29 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

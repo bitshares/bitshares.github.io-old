@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180425</span>
+   &#160;<span id="projectnumber">2.0.180612</span>
    </div>
-   <div id="projectbrief">Your share in the Decentralized Exchange</div>
+   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
   </td>
  </tr>
  </tbody>
@@ -107,9 +107,11 @@ $(function() {
 <code>#include &lt;fc/crypto/hex.hpp&gt;</code><br />
 <code>#include &lt;fc/thread/mutex.hpp&gt;</code><br />
 <code>#include &lt;fc/thread/scoped_lock.hpp&gt;</code><br />
+<code>#include &lt;fc/rpc/api_connection.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="api_8hpp_source.html">graphene/app/api.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="asset__object_8hpp_source.html">graphene/chain/asset_object.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="fee__schedule_8hpp_source.html">graphene/chain/protocol/fee_schedule.hpp</a>&gt;</code><br />
+<code>#include &lt;graphene/chain/hardfork.hpp&gt;</code><br />
 <code>#include &lt;graphene/utilities/git_revision.hpp&gt;</code><br />
 <code>#include &lt;graphene/utilities/key_conversion.hpp&gt;</code><br />
 <code>#include &lt;graphene/utilities/words.hpp&gt;</code><br />
@@ -136,13 +138,13 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespacefc"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html">fc</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacegraphene"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene.html">graphene</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacegraphene_1_1wallet"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1wallet.html">graphene::wallet</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacegraphene_1_1wallet_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1wallet_1_1detail.html">graphene::wallet::detail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacefc"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefc.html">fc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -179,14 +181,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l00080">80</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l00087">87</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 13 2018 07:46:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 12 2018 09:40:26 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -3,6 +3,7 @@ var searchData=
   ['save_5fwallet_5ffile',['save_wallet_file',['../classgraphene_1_1wallet_1_1wallet__api.html#addf3cfcb96bd878e6c850d3a961de9e6',1,'graphene::wallet::wallet_api::save_wallet_file()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#af91e375d363fb2d2e7a10d81addc8d17',1,'graphene::wallet::detail::wallet_api_impl::save_wallet_file()']]],
   ['scaled_5fprecision',['scaled_precision',['../structgraphene_1_1chain_1_1asset.html#aa6b39c2e24de7bfbfebd82f4dd8459e3',1,'graphene::chain::asset']]],
   ['sell_5fasset',['sell_asset',['../classgraphene_1_1wallet_1_1wallet__api.html#aeb0d71a0ed4c6d05a003e48c3a0cb6d3',1,'graphene::wallet::wallet_api::sell_asset()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#ab8136d37177f8d25c6f425065d12abdc',1,'graphene::wallet::detail::wallet_api_impl::sell_asset()']]],
+  ['sell_5fasset_5fid',['sell_asset_id',['../classgraphene_1_1chain_1_1limit__order__object.html#a6d5832b7489cb31b438f8a77c630cebf',1,'graphene::chain::limit_order_object']]],
   ['serialize',['serialize',['../structgraphene_1_1chain_1_1memo__message.html#a709754077dbd6a47fda2b20329ae5400',1,'graphene::chain::memo_message']]],
   ['serialize_5ftransaction',['serialize_transaction',['../classgraphene_1_1wallet_1_1wallet__api.html#aa63666820114bf95165324cf5d22782f',1,'graphene::wallet::wallet_api']]],
   ['set_5fadvanced_5fnode_5fparameters',['set_advanced_node_parameters',['../classgraphene_1_1app_1_1network__node__api.html#a59eb5a747b02c2b7c7f08462338a6805',1,'graphene::app::network_node_api']]],
@@ -10,7 +11,7 @@ var searchData=
   ['set_5fapplied_5foperation_5fresult',['set_applied_operation_result',['../classgraphene_1_1chain_1_1database.html#a1d85784b1e8dd37a7cecce893e248061',1,'graphene::chain::database']]],
   ['set_5fblock_5fapplied_5fcallback',['set_block_applied_callback',['../classgraphene_1_1app_1_1database__api__impl.html#aaa7ad36ef0da4021fc4dea51449014bf',1,'graphene::app::database_api_impl::set_block_applied_callback()'],['../classgraphene_1_1app_1_1database__api.html#a5a0bc87af4cb36c11a9a15f5c29d6ea9',1,'graphene::app::database_api::set_block_applied_callback()']]],
   ['set_5fblock_5fproduction',['set_block_production',['../classgraphene_1_1app_1_1application.html#a6901555c199caa9535f30375667df3f0',1,'graphene::app::application']]],
-  ['set_5fdbg_5finit_5fkey',['set_dbg_init_key',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a4ae044a072dac137b0283ad60b90c5f8',1,'graphene::app::detail::application_impl']]],
+  ['set_5fdbg_5finit_5fkey',['set_dbg_init_key',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#aa5352fa37b3d87da07ce9c2687e6da84',1,'graphene::app::detail::application_impl']]],
   ['set_5fdesired_5fwitness_5fand_5fcommittee_5fmember_5fcount',['set_desired_witness_and_committee_member_count',['../classgraphene_1_1wallet_1_1wallet__api.html#a2d6765231f3bf9180ad64c5be085ba60',1,'graphene::wallet::wallet_api::set_desired_witness_and_committee_member_count()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a71b313bf560330cf76ffd6402f866d7b',1,'graphene::wallet::detail::wallet_api_impl::set_desired_witness_and_committee_member_count()']]],
   ['set_5fexpiration',['set_expiration',['../structgraphene_1_1chain_1_1transaction.html#a6d70681972cbabd916c52fb63b6091c6',1,'graphene::chain::transaction']]],
   ['set_5ffee',['set_fee',['../structgraphene_1_1chain_1_1fee__schedule.html#ac97fd96d020f88da2df9fe8246ec8049',1,'graphene::chain::fee_schedule']]],
@@ -60,5 +61,5 @@ var searchData=
   ['subscribe_5fto_5fmarket',['subscribe_to_market',['../classgraphene_1_1app_1_1database__api__impl.html#a41ad7c956cc583701a049ea0b11cef2f',1,'graphene::app::database_api_impl::subscribe_to_market()'],['../classgraphene_1_1app_1_1database__api.html#aabf9b981bb7a6207751a37320793ef9b',1,'graphene::app::database_api::subscribe_to_market()']]],
   ['suggest_5fbrain_5fkey',['suggest_brain_key',['../classgraphene_1_1wallet_1_1wallet__api.html#ab936e7a26d41b35cbfaf44d369d60e1d',1,'graphene::wallet::wallet_api']]],
   ['sum_5fbelow_5fmax_5fshares',['sum_below_max_shares',['../namespacegraphene_1_1chain.html#ac7e90d391ca2604c1c2451823a02f226',1,'graphene::chain']]],
-  ['sync_5fstatus',['sync_status',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a5189abaed1b9bf9b47147bba869eec56',1,'graphene::app::detail::application_impl']]]
+  ['sync_5fstatus',['sync_status',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a5eec95c126c0fd0e2e7d6cab4fa60e85',1,'graphene::app::detail::application_impl']]]
 ];

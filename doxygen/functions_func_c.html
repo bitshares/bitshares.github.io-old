@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180425</span>
+   &#160;<span id="projectnumber">2.0.180612</span>
    </div>
-   <div id="projectbrief">Your share in the Decentralized Exchange</div>
+   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
   </td>
  </tr>
  </tbody>
@@ -122,10 +122,15 @@ $(function() {
 <li>cancel_bid()
 : <a class="el" href="classgraphene_1_1chain_1_1database.html#a21787ce006ee78b21cf2de47767fab5a">graphene::chain::database</a>
 </li>
+<li>cancel_limit_order()
+: <a class="el" href="classgraphene_1_1chain_1_1database.html#a245d31d0cbaec0e89b38659b19154c54">graphene::chain::database</a>
+</li>
 <li>cancel_order()
-: <a class="el" href="classgraphene_1_1chain_1_1database.html#ac89a3b04b731e51d3c27b83d60cfb905">graphene::chain::database</a>
-, <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a2a61c45860bbbebc66a62a4cb0fade70">graphene::wallet::detail::wallet_api_impl</a>
+: <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a2a61c45860bbbebc66a62a4cb0fade70">graphene::wallet::detail::wallet_api_impl</a>
 , <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ab525bedb82547d7eafb77106fd26e251">graphene::wallet::wallet_api</a>
+</li>
+<li>cancel_settle_order()
+: <a class="el" href="classgraphene_1_1chain_1_1database.html#aab77fa872b5bfcf96654059bcf8bdf94">graphene::chain::database</a>
 </li>
 <li>cashback_balance()
 : <a class="el" href="classgraphene_1_1chain_1_1account__object.html#aca4f45e72c944f9920d85ead4201c827">graphene::chain::account_object</a>
@@ -136,6 +141,8 @@ $(function() {
 <li>cget()
 : <a class="el" href="classgraphene_1_1chain_1_1fee__helper.html#a1bfb516d8e67dab89d91e02fcbe88f87">graphene::chain::fee_helper&lt; Operation &gt;</a>
 , <a class="el" href="classgraphene_1_1chain_1_1fee__helper_3_01account__create__operation_01_4.html#a7c21f557688359cabe0958f1ffc7596d">graphene::chain::fee_helper&lt; account_create_operation &gt;</a>
+, <a class="el" href="classgraphene_1_1chain_1_1fee__helper_3_01asset__claim__pool__operation_01_4.html#a6601483d0c0f2366f3a0d9f4318723b6">graphene::chain::fee_helper&lt; asset_claim_pool_operation &gt;</a>
+, <a class="el" href="classgraphene_1_1chain_1_1fee__helper_3_01asset__update__issuer__operation_01_4.html#a56f4e8eb4569a00d4e3175780708014a">graphene::chain::fee_helper&lt; asset_update_issuer_operation &gt;</a>
 , <a class="el" href="classgraphene_1_1chain_1_1fee__helper_3_01bid__collateral__operation_01_4.html#a8b4552068ec161a092128dfd4fe647c1">graphene::chain::fee_helper&lt; bid_collateral_operation &gt;</a>
 </li>
 <li>chain_database()
@@ -150,6 +157,10 @@ $(function() {
 <li>check_call_orders()
 : <a class="el" href="classgraphene_1_1chain_1_1database.html#a5550a1b725d9c98e4b44f101d9cfe353">graphene::chain::database</a>
 </li>
+<li>claim_asset_fee_pool()
+: <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#adc513fec250400f164683f673c6e2043">graphene::wallet::detail::wallet_api_impl</a>
+, <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a4dbbe1852eb4ca83a68c798f988c9fb6">graphene::wallet::wallet_api</a>
+</li>
 <li>clear()
 : <a class="el" href="structgraphene_1_1chain_1_1authority.html#ae9446a636f5b830a475da182c5dabea1">graphene::chain::authority</a>
 , <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#ab99f3eb4824b38719f2158f0d256a321">graphene::chain::signed_transaction</a>
@@ -160,6 +171,9 @@ $(function() {
 <li>close()
 : <a class="el" href="classgraphene_1_1chain_1_1block__database.html#a0d5a09ed71172b6ac21dc94171293371">graphene::chain::block_database</a>
 , <a class="el" href="classgraphene_1_1chain_1_1database.html#aaef6e311f1eb8ddfea82751b4e2df2d2">graphene::chain::database</a>
+</li>
+<li>collateral_type()
+: <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a33deddf84aa41958d587d35ce4e23df0">graphene::chain::call_order_object</a>
 </li>
 <li>collateralization()
 : <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#ae002873c5f4431e4c44a4ab05593f2d0">graphene::chain::call_order_object</a>
@@ -177,13 +191,14 @@ $(function() {
 : <a class="el" href="structgraphene_1_1chain_1_1cdd__vesting__policy.html#a7677e552a7c5da5a0c423ed5ca3c605f">graphene::chain::cdd_vesting_policy</a>
 </li>
 <li>connection_count_changed()
-: <a class="el" href="classgraphene_1_1app_1_1detail_1_1application__impl.html#ae940c6904889b507b4a594350856d7e6">graphene::app::detail::application_impl</a>
+: <a class="el" href="classgraphene_1_1app_1_1detail_1_1application__impl.html#a01bbb97b242780b662ea626cf0636903">graphene::app::detail::application_impl</a>
 </li>
 <li>contains()
 : <a class="el" href="classgraphene_1_1chain_1_1block__database.html#a9f0b40e642eb9acd7513bd52e6df79bf">graphene::chain::block_database</a>
 </li>
 <li>convert_fee()
 : <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a65bd5bfc5112f84b364ec43c1c17a699">graphene::chain::generic_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1limit__order__create__evaluator.html#a171fc9feff35d610dc0669c02c00db2c">graphene::chain::limit_order_create_evaluator</a>
 </li>
 <li>copy_wallet_file()
 : <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#ae0964b39f0b10a9a34408c1fd026fa09">graphene::wallet::detail::wallet_api_impl</a>
@@ -228,7 +243,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 13 2018 07:46:40 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 12 2018 09:40:29 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

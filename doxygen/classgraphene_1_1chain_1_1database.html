@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180425</span>
+   &#160;<span id="projectnumber">2.0.180612</span>
    </div>
-   <div id="projectbrief">Your share in the Decentralized Exchange</div>
+   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
   </td>
  </tr>
  </tbody>
@@ -168,7 +168,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03253124ee8714af752c1d68b7cc206c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c4e067598a0318e728b1d28df7a598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#af1c4e067598a0318e728b1d28df7a598">clear_pending</a> ()</td></tr>
 <tr class="separator:af1c4e067598a0318e728b1d28df7a598"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fef3858781108d62da007cc155ccec7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a2fef3858781108d62da007cc155ccec7">push_applied_operation</a> (const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;op)</td></tr>
+<tr class="memitem:a2fef3858781108d62da007cc155ccec7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a2fef3858781108d62da007cc155ccec7">push_applied_operation</a> (const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;op)</td></tr>
 <tr class="separator:a2fef3858781108d62da007cc155ccec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d85784b1e8dd37a7cecce893e248061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a1d85784b1e8dd37a7cecce893e248061">set_applied_operation_result</a> (uint32_t op_id, const <a class="el" href="group__operations.html#gaf121d5f218e142d53acffc833cae929a">operation_result</a> &amp;r)</td></tr>
 <tr class="separator:a1d85784b1e8dd37a7cecce893e248061"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,12 +243,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8a805900b1a5c1ee4672b8f2732fda0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69528d69a226d6a75670f5e31187db3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a69528d69a226d6a75670f5e31187db3f">debug_update</a> (const fc::variant_object &amp;update)</td></tr>
 <tr class="separator:a69528d69a226d6a75670f5e31187db3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade0fea2b5e5a86a53d7d9be59d220788"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ade0fea2b5e5a86a53d7d9be59d220788">fill_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;order, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, bool cull_if_small, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price, const bool is_maker)</td></tr>
-<tr class="separator:ade0fea2b5e5a86a53d7d9be59d220788"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fd6ddffa15a9c60a1a1056574a0df9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a5fd6ddffa15a9c60a1a1056574a0df9a">fill_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &amp;order, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price, const bool is_maker)</td></tr>
-<tr class="separator:a5fd6ddffa15a9c60a1a1056574a0df9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da992374027076e158adeac8015ad52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a3da992374027076e158adeac8015ad52">fill_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;settle, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price, const bool is_maker)</td></tr>
-<tr class="separator:a3da992374027076e158adeac8015ad52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88144a9795e65d5836711f69a1848bdb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a88144a9795e65d5836711f69a1848bdb">fill_limit_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;order, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, bool cull_if_small, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price, const bool is_maker)</td></tr>
+<tr class="separator:a88144a9795e65d5836711f69a1848bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1752b9a5ae05ebd5bd910d46db3f65ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a1752b9a5ae05ebd5bd910d46db3f65ad">fill_call_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &amp;order, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price, const bool is_maker)</td></tr>
+<tr class="separator:a1752b9a5ae05ebd5bd910d46db3f65ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5036ea052f41fe75fa1a381234b23c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aa5036ea052f41fe75fa1a381234b23c7">fill_settle_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;settle, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price, const bool is_maker)</td></tr>
+<tr class="separator:aa5036ea052f41fe75fa1a381234b23c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5550a1b725d9c98e4b44f101d9cfe353"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a5550a1b725d9c98e4b44f101d9cfe353">check_call_orders</a> (const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;mia, bool enable_black_swan=true, bool for_new_limit_order=false)</td></tr>
 <tr class="separator:a5550a1b725d9c98e4b44f101d9cfe353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98391f198bc95d206c91da61dc55373d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a98391f198bc95d206c91da61dc55373d">pay_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &amp;receiver, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays)</td></tr>
@@ -263,30 +263,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af9556e43f26824c2036c8916d0bc460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaadc49139eb020b3b1e91b60b128e49f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aaadc49139eb020b3b1e91b60b128e49f">apply_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
 <tr class="separator:aaadc49139eb020b3b1e91b60b128e49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a930314aa34166b1dbfc06d0cd85d481d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__operations.html#gaf121d5f218e142d53acffc833cae929a">operation_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a930314aa34166b1dbfc06d0cd85d481d">apply_operation</a> (<a class="el" href="classgraphene_1_1chain_1_1transaction__evaluation__state.html">transaction_evaluation_state</a> &amp;eval_state, const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;op)</td></tr>
+<tr class="memitem:a930314aa34166b1dbfc06d0cd85d481d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__operations.html#gaf121d5f218e142d53acffc833cae929a">operation_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a930314aa34166b1dbfc06d0cd85d481d">apply_operation</a> (<a class="el" href="classgraphene_1_1chain_1_1transaction__evaluation__state.html">transaction_evaluation_state</a> &amp;eval_state, const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;op)</td></tr>
 <tr class="separator:a930314aa34166b1dbfc06d0cd85d481d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a500db4fc078f64b18d99c19d45fe8b13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a500db4fc078f64b18d99c19d45fe8b13">globally_settle_asset</a> (const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;bitasset, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;settle_price)</td></tr>
 <tr class="memdesc:a500db4fc078f64b18d99c19d45fe8b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Market Helpers  <a href="#a500db4fc078f64b18d99c19d45fe8b13">More...</a><br /></td></tr>
 <tr class="separator:a500db4fc078f64b18d99c19d45fe8b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac89a3b04b731e51d3c27b83d60cfb905"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ac89a3b04b731e51d3c27b83d60cfb905">cancel_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;order, bool create_virtual_op=true)</td></tr>
-<tr class="separator:ac89a3b04b731e51d3c27b83d60cfb905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a006212022286600c4a5ed1491fd11819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a006212022286600c4a5ed1491fd11819">cancel_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;order, bool create_virtual_op=true)</td></tr>
-<tr class="separator:a006212022286600c4a5ed1491fd11819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab77fa872b5bfcf96654059bcf8bdf94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aab77fa872b5bfcf96654059bcf8bdf94">cancel_settle_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;order, bool create_virtual_op=true)</td></tr>
+<tr class="separator:aab77fa872b5bfcf96654059bcf8bdf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245d31d0cbaec0e89b38659b19154c54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a245d31d0cbaec0e89b38659b19154c54">cancel_limit_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;order, bool create_virtual_op=true, bool skip_cancel_fee=false)</td></tr>
+<tr class="separator:a245d31d0cbaec0e89b38659b19154c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a515d7047c1c86cd1a19476d62a8b9256"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a515d7047c1c86cd1a19476d62a8b9256">revive_bitasset</a> (const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;bitasset)</td></tr>
 <tr class="separator:a515d7047c1c86cd1a19476d62a8b9256"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21787ce006ee78b21cf2de47767fab5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a21787ce006ee78b21cf2de47767fab5a">cancel_bid</a> (const <a class="el" href="classgraphene_1_1chain_1_1collateral__bid__object.html">collateral_bid_object</a> &amp;bid, bool create_virtual_op=true)</td></tr>
 <tr class="separator:a21787ce006ee78b21cf2de47767fab5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2506f031441c93b369b3c21552131d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aeb2506f031441c93b369b3c21552131d">execute_bid</a> (const <a class="el" href="classgraphene_1_1chain_1_1collateral__bid__object.html">collateral_bid_object</a> &amp;bid, <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> debt_covered, <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> collateral_from_fund, const <a class="el" href="structgraphene_1_1chain_1_1price__feed.html">price_feed</a> &amp;current_feed)</td></tr>
 <tr class="separator:aeb2506f031441c93b369b3c21552131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790b5ff3904f8ac712b1db24ed0813a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a790b5ff3904f8ac712b1db24ed0813a6">apply_order_before_hardfork_625</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;new_order_object, bool allow_black_swan=true)</td></tr>
+<tr class="memdesc:a790b5ff3904f8ac712b1db24ed0813a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a new limit order through the markets.  <a href="#a790b5ff3904f8ac712b1db24ed0813a6">More...</a><br /></td></tr>
+<tr class="separator:a790b5ff3904f8ac712b1db24ed0813a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69b1c5d7b0b79d702e6de4a4a04ee95b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a69b1c5d7b0b79d702e6de4a4a04ee95b">apply_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;new_order_object, bool allow_black_swan=true)</td></tr>
-<tr class="memdesc:a69b1c5d7b0b79d702e6de4a4a04ee95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a new limit order through the markets.  <a href="#a69b1c5d7b0b79d702e6de4a4a04ee95b">More...</a><br /></td></tr>
 <tr class="separator:a69b1c5d7b0b79d702e6de4a4a04ee95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad458cba38d580698095e7c9afcffd3be"><td class="memTemplParams" colspan="2">template&lt;typename OrderType &gt; </td></tr>
-<tr class="memitem:ad458cba38d580698095e7c9afcffd3be"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ad458cba38d580698095e7c9afcffd3be">match</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;bid, const OrderType &amp;ask, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;match_price)</td></tr>
-<tr class="separator:ad458cba38d580698095e7c9afcffd3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58f9a0bc9086e87cc7cb9344a574c5af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a58f9a0bc9086e87cc7cb9344a574c5af">match</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;bid, const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;ask, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;trade_price)</td></tr>
-<tr class="separator:a58f9a0bc9086e87cc7cb9344a574c5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9c87315935a2dc72806984f941866bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#af9c87315935a2dc72806984f941866bc">match</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;taker, const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;maker, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;trade_price)</td></tr>
+<tr class="separator:af9c87315935a2dc72806984f941866bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071dfeb24d44224ba6abb4f5b5c315f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a071dfeb24d44224ba6abb4f5b5c315f1">match</a> (const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;taker, const <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &amp;maker, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;trade_price, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;feed_price, const uint16_t maintenance_collateral_ratio)</td></tr>
+<tr class="separator:a071dfeb24d44224ba6abb4f5b5c315f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af380d754e57a21159b78dece2f4daf1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#af380d754e57a21159b78dece2f4daf1e">match</a> (const <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &amp;call, const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;settle, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;match_price, <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> max_settlement, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price)</td></tr>
 <tr class="separator:af380d754e57a21159b78dece2f4daf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -436,7 +437,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00312">312</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00321">321</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -477,7 +478,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00229">229</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00238">238</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +498,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00675">675</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00687">687</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -566,7 +567,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00467">467</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00476">476</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -585,7 +586,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__debug_8cpp_source.html#l00172">172</a> of file <a class="el" href="db__debug_8cpp_source.html">db_debug.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__debug_8cpp_source.html#l00184">184</a> of file <a class="el" href="db__debug_8cpp_source.html">db_debug.cpp</a>.</p>
 
 </div>
 </div>
@@ -604,7 +605,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;&#160;</td>
           <td class="paramname"><em>op</em>&#160;</td>
         </tr>
         <tr>
@@ -615,7 +616,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00630">630</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00642">642</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -645,6 +646,36 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00380">380</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a790b5ff3904f8ac712b1db24ed0813a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a790b5ff3904f8ac712b1db24ed0813a6">&#9670;&nbsp;</a></span>apply_order_before_hardfork_625()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::database::apply_order_before_hardfork_625 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;&#160;</td>
+          <td class="paramname"><em>new_order_object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow_black_swan</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Process a new limit order through the markets. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -655,7 +686,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if order was completely filled; false otherwise</dd></dl>
 <p>This function takes a new limit order, and runs the markets attempting to match it with existing orders already on the books. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00239">239</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00329">329</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -685,7 +716,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00549">549</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00558">558</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -704,7 +735,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00681">681</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00693">693</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -734,7 +765,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00667">667</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01102">1102</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -764,18 +795,54 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00142">142</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00155">155</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ac89a3b04b731e51d3c27b83d60cfb905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac89a3b04b731e51d3c27b83d60cfb905">&#9670;&nbsp;</a></span>cancel_order() <span class="overload">[1/2]</span></h2>
+<a id="a245d31d0cbaec0e89b38659b19154c54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a245d31d0cbaec0e89b38659b19154c54">&#9670;&nbsp;</a></span>cancel_limit_order()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void graphene::chain::database::cancel_order </td>
+          <td class="memname">void graphene::chain::database::cancel_limit_order </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;&#160;</td>
+          <td class="paramname"><em>order</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>create_virtual_op</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>skip_cancel_fee</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00207">207</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aab77fa872b5bfcf96654059bcf8bdf94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab77fa872b5bfcf96654059bcf8bdf94">&#9670;&nbsp;</a></span>cancel_settle_order()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::database::cancel_settle_order </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;&#160;</td>
           <td class="paramname"><em>order</em>, </td>
@@ -794,37 +861,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00179">179</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a006212022286600c4a5ed1491fd11819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a006212022286600c4a5ed1491fd11819">&#9670;&nbsp;</a></span>cancel_order() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void graphene::chain::database::cancel_order </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;&#160;</td>
-          <td class="paramname"><em>order</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>create_virtual_op</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00194">194</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00192">192</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -871,7 +908,7 @@ Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if a margin call was executed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00522">522</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00921">921</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -890,7 +927,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00432">432</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00441">441</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -949,7 +986,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>This method dumps the state of the blockchain in a semi-human readable form for the purpose of tracking down funds and mismatches in currency allocation </p>
 
-<p class="definition">Definition at line <a class="el" href="db__debug_8cpp_source.html#l00039">39</a> of file <a class="el" href="db__debug_8cpp_source.html">db_debug.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__debug_8cpp_source.html#l00040">40</a> of file <a class="el" href="db__debug_8cpp_source.html">db_debug.cpp</a>.</p>
 
 </div>
 </div>
@@ -969,7 +1006,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__debug_8cpp_source.html#l00182">182</a> of file <a class="el" href="db__debug_8cpp_source.html">db_debug.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__debug_8cpp_source.html#l00194">194</a> of file <a class="el" href="db__debug_8cpp_source.html">db_debug.cpp</a>.</p>
 
 </div>
 </div>
@@ -1130,7 +1167,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00157">157</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00170">170</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1174,14 +1211,62 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ade0fea2b5e5a86a53d7d9be59d220788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade0fea2b5e5a86a53d7d9be59d220788">&#9670;&nbsp;</a></span>fill_order() <span class="overload">[1/3]</span></h2>
+<a id="a1752b9a5ae05ebd5bd910d46db3f65ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1752b9a5ae05ebd5bd910d46db3f65ad">&#9670;&nbsp;</a></span>fill_call_order()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool graphene::chain::database::fill_order </td>
+          <td class="memname">bool graphene::chain::database::fill_call_order </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &amp;&#160;</td>
+          <td class="paramname"><em>order</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;&#160;</td>
+          <td class="paramname"><em>pays</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;&#160;</td>
+          <td class="paramname"><em>receives</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
+          <td class="paramname"><em>fill_price</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>is_maker</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00822">822</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a88144a9795e65d5836711f69a1848bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88144a9795e65d5836711f69a1848bdb">&#9670;&nbsp;</a></span>fill_limit_order()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::database::fill_limit_order </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;&#160;</td>
           <td class="paramname"><em>order</em>, </td>
@@ -1225,66 +1310,18 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>true if the order was completely filled and thus freed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00383">383</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00769">769</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a5fd6ddffa15a9c60a1a1056574a0df9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fd6ddffa15a9c60a1a1056574a0df9a">&#9670;&nbsp;</a></span>fill_order() <span class="overload">[2/3]</span></h2>
+<a id="aa5036ea052f41fe75fa1a381234b23c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5036ea052f41fe75fa1a381234b23c7">&#9670;&nbsp;</a></span>fill_settle_order()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool graphene::chain::database::fill_order </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &amp;&#160;</td>
-          <td class="paramname"><em>order</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;&#160;</td>
-          <td class="paramname"><em>pays</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;&#160;</td>
-          <td class="paramname"><em>receives</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
-          <td class="paramname"><em>fill_price</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>is_maker</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00427">427</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a3da992374027076e158adeac8015ad52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3da992374027076e158adeac8015ad52">&#9670;&nbsp;</a></span>fill_order() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool graphene::chain::database::fill_order </td>
+          <td class="memname">bool graphene::chain::database::fill_settle_order </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;&#160;</td>
           <td class="paramname"><em>settle</em>, </td>
@@ -1321,7 +1358,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00482">482</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00881">881</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -1363,7 +1400,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00297">297</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00306">306</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -1382,7 +1419,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00460">460</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00469">469</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -1855,7 +1892,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__init_8cpp_source.html#l00223">223</a> of file <a class="el" href="db__init_8cpp_source.html">db_init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__init_8cpp_source.html#l00225">225</a> of file <a class="el" href="db__init_8cpp_source.html">db_init.cpp</a>.</p>
 
 </div>
 </div>
@@ -1895,7 +1932,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reset the object graph in-memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__init_8cpp_source.html#l00177">177</a> of file <a class="el" href="db__init_8cpp_source.html">db_init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__init_8cpp_source.html#l00179">179</a> of file <a class="el" href="db__init_8cpp_source.html">db_init.cpp</a>.</p>
 
 </div>
 </div>
@@ -1960,13 +1997,11 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad458cba38d580698095e7c9afcffd3be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad458cba38d580698095e7c9afcffd3be">&#9670;&nbsp;</a></span>match() <span class="overload">[1/3]</span></h2>
+<a id="af9c87315935a2dc72806984f941866bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9c87315935a2dc72806984f941866bc">&#9670;&nbsp;</a></span>match() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename OrderType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">int graphene::chain::database::match </td>
@@ -1977,7 +2012,7 @@ template&lt;typename OrderType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const OrderType &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;&#160;</td>
           <td class="paramname"><em>core</em>, </td>
         </tr>
         <tr>
@@ -1993,16 +2028,16 @@ template&lt;typename OrderType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Matches the two orders,</p>
+<p>Matches the two orders, the first parameter is taker, the second is maker.</p>
 <dl class="section return"><dt>Returns</dt><dd>a bit field indicating which orders were filled (and thus removed)</dd></dl>
-<p>0 - no orders were matched 1 - bid was filled 2 - ask was filled 3 - both were filled </p>
+<p>0 - no orders were matched 1 - taker was filled 2 - maker was filled 3 - both were filled </p>
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00301">301</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00517">517</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a58f9a0bc9086e87cc7cb9344a574c5af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58f9a0bc9086e87cc7cb9344a574c5af">&#9670;&nbsp;</a></span>match() <span class="overload">[2/3]</span></h2>
+<a id="a071dfeb24d44224ba6abb4f5b5c315f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071dfeb24d44224ba6abb4f5b5c315f1">&#9670;&nbsp;</a></span>match() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2011,19 +2046,31 @@ template&lt;typename OrderType &gt; </div>
           <td class="memname">int graphene::chain::database::match </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;&#160;</td>
-          <td class="paramname"><em>bid</em>, </td>
+          <td class="paramname"><em>taker</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &amp;&#160;</td>
-          <td class="paramname"><em>ask</em>, </td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &amp;&#160;</td>
+          <td class="paramname"><em>maker</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
-          <td class="paramname"><em>trade_price</em>&#160;</td>
+          <td class="paramname"><em>trade_price</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;&#160;</td>
+          <td class="paramname"><em>feed_price</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint16_t&#160;</td>
+          <td class="paramname"><em>maintenance_collateral_ratio</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2033,7 +2080,7 @@ template&lt;typename OrderType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00343">343</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00584">584</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2083,7 +2130,7 @@ template&lt;typename OrderType &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>the amount of asset settled </dd></dl>
 <p>If the least collateralized call position lacks sufficient collateral to cover at the match price then this indicates a black swan event according to the price feed, but only the market can trigger a black swan. So now we must cancel the forced settlement object.</p>
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00349">349</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00663">663</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2130,7 +2177,7 @@ template&lt;typename OrderType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00356">356</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00415">415</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
 
 </div>
 </div>
@@ -2157,7 +2204,7 @@ template&lt;typename OrderType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00366">366</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00425">425</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
 
 </div>
 </div>
@@ -2185,7 +2232,7 @@ template&lt;typename OrderType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00361">361</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00420">420</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
 
 </div>
 </div>
@@ -2263,7 +2310,7 @@ template&lt;typename OrderType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00687">687</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01122">1122</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2299,7 +2346,7 @@ template&lt;typename OrderType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00655">655</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01090">1090</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2319,7 +2366,7 @@ template&lt;typename OrderType &gt; </div>
 </div><div class="memdoc">
 <p>Removes the most recent block from the database and undoes any changes it made. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00418">418</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00427">427</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2346,7 +2393,7 @@ template&lt;typename OrderType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00414">414</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00415">415</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2359,7 +2406,7 @@ template&lt;typename OrderType &gt; </div>
         <tr>
           <td class="memname">uint32_t graphene::chain::database::push_applied_operation </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;&#160;</td>
           <td class="paramname"><em>op</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2368,7 +2415,7 @@ template&lt;typename OrderType &gt; </div>
 <p>This method is used to track appied operations during the evaluation of a block, these operations should include any operation actually included in a transaction as well as any implied/virtual operations that resulted, such as filling an order. The applied operations is cleared after applying each block and calling the block observers which may want to index these operations.</p>
 <dl class="section return"><dt>Returns</dt><dd>the op_id which can be used to set the result after it has finished being applied. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00439">439</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00448">448</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2426,7 +2473,7 @@ template&lt;typename OrderType &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00260">260</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00269">269</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2458,7 +2505,7 @@ template&lt;typename OrderType &gt; </div>
 <p>Attempts to push the transaction into the pending queue</p>
 <p>When called to push a locally generated transaction, set the skip_block_size_check bit on the skip argument. This will allow the transaction to be pushed even if it causes the pending block size to exceed the maximum block size. Although the transaction will probably not propagate further now, as the peers are likely to have their pending queues full as well, it will be kept in the queue to be propagated later when a new block flushes out the pending queues. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00219">219</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00228">228</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2530,7 +2577,7 @@ template&lt;typename EvaluatorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00095">95</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00108">108</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2560,7 +2607,7 @@ template&lt;typename EvaluatorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00449">449</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00458">458</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2621,7 +2668,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>This method validates transactions without adding it to the pending state. </p><dl class="section return"><dt>Returns</dt><dd>true if the transaction would validate </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00254">254</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00263">263</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2698,7 +2745,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>when popping a block, the transactions that were removed get cached here so they can be reapplied at the proper time </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00407">407</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00408">408</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2805,7 +2852,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 13 2018 07:46:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 12 2018 09:40:27 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

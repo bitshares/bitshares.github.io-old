@@ -31,6 +31,7 @@ var searchData=
   ['block_5fpos',['block_pos',['../structgraphene_1_1chain_1_1index__entry.html#ad6d051d55804f642aa39abd7ddcef7dd',1,'graphene::chain::index_entry']]],
   ['block_5fsigning_5fkey',['block_signing_key',['../structgraphene_1_1chain_1_1genesis__state__type_1_1initial__witness__type.html#a9d5c4bd082ce50ef46b57d48d649458e',1,'graphene::chain::genesis_state_type::initial_witness_type::block_signing_key()'],['../structgraphene_1_1chain_1_1witness__create__operation.html#adadf4391833110844a2664ea01764fcb',1,'graphene::chain::witness_create_operation::block_signing_key()']]],
   ['block_5fsize',['block_size',['../structgraphene_1_1chain_1_1index__entry.html#add87237c72042b8a22ca248d04af6b51',1,'graphene::chain::index_entry']]],
+  ['block_5ftime',['block_time',['../structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a49d262acc4a43da659e0aee75d1665d1',1,'graphene::chain::proposal_operation_hardfork_visitor']]],
   ['borrower',['borrower',['../classgraphene_1_1chain_1_1call__order__object.html#ac4996a67c8cf9be42bb9275240d6bcd0',1,'graphene::chain::call_order_object']]],
   ['brain_5fpriv_5fkey',['brain_priv_key',['../structgraphene_1_1wallet_1_1brain__key__info.html#acebb141c3f2db64308ab7acf2c8f2b8f',1,'graphene::wallet::brain_key_info']]],
   ['brief_5fdescription',['brief_description',['../structgraphene_1_1wallet_1_1method__description.html#a13862413e8d28837a71da4b68b7e119b',1,'graphene::wallet::method_description']]],
