@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180425</span>
+   &#160;<span id="projectnumber">2.0.180612</span>
    </div>
-   <div id="projectbrief">Your share in the Decentralized Exchange</div>
+   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
   </td>
  </tr>
  </tbody>
@@ -79,6 +79,8 @@ $(function() {
 , <a class="el" href="structgraphene_1_1chain_1_1assert__operation_1_1fee__parameters__type.html#ae94f709819e9ea4cfb491fc0c95dad54">graphene::chain::assert_operation::fee_parameters_type</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__claim__fees__operation.html#ae07ff36432e6069c19625ca67f9e791f">graphene::chain::asset_claim_fees_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__claim__fees__operation_1_1fee__parameters__type.html#a2325b40970c1a87153d8c3d311bccb38">graphene::chain::asset_claim_fees_operation::fee_parameters_type</a>
+, <a class="el" href="structgraphene_1_1chain_1_1asset__claim__pool__operation.html#aeb31659157cac407265c120200205b5d">graphene::chain::asset_claim_pool_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1asset__claim__pool__operation_1_1fee__parameters__type.html#a4a53561c9dacda1a45d8fc842d26b496">graphene::chain::asset_claim_pool_operation::fee_parameters_type</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__create__operation.html#ae090fb3772fbc75cd0f0bb7bed5320db">graphene::chain::asset_create_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__fund__fee__pool__operation.html#a9c9955056c5eade1ff25a3d4891b7e26">graphene::chain::asset_fund_fee_pool_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__fund__fee__pool__operation_1_1fee__parameters__type.html#aab0909e2a285d50ce6d347d1f730bed1">graphene::chain::asset_fund_fee_pool_operation::fee_parameters_type</a>
@@ -97,6 +99,8 @@ $(function() {
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__bitasset__operation_1_1fee__parameters__type.html#a0c64db0d9fd8d594133b4a3e0a2476c4">graphene::chain::asset_update_bitasset_operation::fee_parameters_type</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__feed__producers__operation.html#a0f642467beeddf8a9c5766a0c52103fb">graphene::chain::asset_update_feed_producers_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__feed__producers__operation_1_1fee__parameters__type.html#a7f4809b99b3da9a78a12e58e501d90c2">graphene::chain::asset_update_feed_producers_operation::fee_parameters_type</a>
+, <a class="el" href="structgraphene_1_1chain_1_1asset__update__issuer__operation.html#a8f4a3c53809f7690525b0268ccc32247">graphene::chain::asset_update_issuer_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1asset__update__issuer__operation_1_1fee__parameters__type.html#a182722d5e32e1f540a196112868dfd74">graphene::chain::asset_update_issuer_operation::fee_parameters_type</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__operation.html#a44a25d4abb28d9e12fce4c826dedb965">graphene::chain::asset_update_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__operation_1_1fee__parameters__type.html#ac91abfa5165c46fd5d1e76fd18e2cfd4">graphene::chain::asset_update_operation::fee_parameters_type</a>
 , <a class="el" href="structgraphene_1_1chain_1_1balance__claim__operation.html#acef20688a7c101a56276bf1cd0532d00">graphene::chain::balance_claim_operation</a>
@@ -174,6 +178,7 @@ $(function() {
 , <a class="el" href="structgraphene_1_1chain_1_1account__whitelist__operation.html#a30b143e829704544be2e14aae51358de">graphene::chain::account_whitelist_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1assert__operation.html#ad0ac6c659d15ddfd44ebe7acfa81884d">graphene::chain::assert_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__claim__fees__operation.html#a092653351e4382ee4c49aff88c2b5e35">graphene::chain::asset_claim_fees_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1asset__claim__pool__operation.html#a80eceffa2a0856c994f7c1b62e0b0ead">graphene::chain::asset_claim_pool_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__create__operation.html#af06738c7950efa73528225e225c7f3d1">graphene::chain::asset_create_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__fund__fee__pool__operation.html#abf5d6ae3a9a8b74a75222810834f7de7">graphene::chain::asset_fund_fee_pool_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__global__settle__operation.html#ae8cf81687da7f16dfa4f1dd58746bd56">graphene::chain::asset_global_settle_operation</a>
@@ -184,6 +189,7 @@ $(function() {
 , <a class="el" href="structgraphene_1_1chain_1_1asset__settle__operation.html#a4c5ce14ddfdc9afd1907b421405f59b9">graphene::chain::asset_settle_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__bitasset__operation.html#ad8813cc7c1782d501e8e0de53e9b89c7">graphene::chain::asset_update_bitasset_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__feed__producers__operation.html#aafe76dc26518983c6c0fb20861ee487c">graphene::chain::asset_update_feed_producers_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1asset__update__issuer__operation.html#a2a97a0b89d6fb3f0bf3f385266b9efba">graphene::chain::asset_update_issuer_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1asset__update__operation.html#a65a8f8afa6594275f59c31d3d4a01efc">graphene::chain::asset_update_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1balance__claim__operation.html#a4a7c038ae27be3c49d6baa4f1daa5c7d">graphene::chain::balance_claim_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1bid__collateral__operation.html#a4a8c0ba42656e7d63ae1a7809d434f82">graphene::chain::bid_collateral_operation</a>
@@ -272,17 +278,23 @@ $(function() {
 <li>fetch_optional()
 : <a class="el" href="classgraphene_1_1chain_1_1block__database.html#a6d71ce89d5682c7aaa10697babe296b9">graphene::chain::block_database</a>
 </li>
+<li>fill_call_order()
+: <a class="el" href="classgraphene_1_1chain_1_1database.html#a1752b9a5ae05ebd5bd910d46db3f65ad">graphene::chain::database</a>
+</li>
+<li>fill_limit_order()
+: <a class="el" href="classgraphene_1_1chain_1_1database.html#a88144a9795e65d5836711f69a1848bdb">graphene::chain::database</a>
+</li>
 <li>fill_or_kill
 : <a class="el" href="structgraphene_1_1chain_1_1limit__order__create__operation.html#a1b03d43d5e68412a8d4b36523b1c7ff0">graphene::chain::limit_order_create_operation</a>
 </li>
-<li>fill_order()
-: <a class="el" href="classgraphene_1_1chain_1_1database.html#ade0fea2b5e5a86a53d7d9be59d220788">graphene::chain::database</a>
-</li>
 <li>fill_order_operation()
-: <a class="el" href="structgraphene_1_1chain_1_1fill__order__operation.html#aeb2a5d0943aa240a8e7e4c745bfb2e76">graphene::chain::fill_order_operation</a>
+: <a class="el" href="structgraphene_1_1chain_1_1fill__order__operation.html#a50b865fe693dc549ce52dfdb0d38bdbd">graphene::chain::fill_order_operation</a>
 </li>
 <li>fill_price
 : <a class="el" href="structgraphene_1_1chain_1_1fill__order__operation.html#a6e1a095e59dbaf37891c265024f02401">graphene::chain::fill_order_operation</a>
+</li>
+<li>fill_settle_order()
+: <a class="el" href="classgraphene_1_1chain_1_1database.html#aa5036ea052f41fe75fa1a381234b23c7">graphene::chain::database</a>
 </li>
 <li>find_asset()
 : <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#af0ec130d29dca14875f9a8dbed1d405c">graphene::wallet::detail::wallet_api_impl</a>
@@ -369,7 +381,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 13 2018 07:46:40 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 12 2018 09:40:29 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@ var searchData=
   ['is_5ffor',['is_for',['../structgraphene_1_1chain_1_1price__feed.html#a7feee2abe4ec7f173d5fdf49fd464497',1,'graphene::chain::price_feed']]],
   ['is_5fimpacted_5faccount',['is_impacted_account',['../classgraphene_1_1app_1_1database__api__impl.html#a070c7127572da3986facf042c6668ccc',1,'graphene::app::database_api_impl']]],
   ['is_5fimpossible',['is_impossible',['../structgraphene_1_1chain_1_1authority.html#a333c5a6aedbd117821a38e79cd19a6d9',1,'graphene::chain::authority']]],
-  ['is_5fincluded_5fblock',['is_included_block',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a620604ba97ddc87557b19370b4b82472',1,'graphene::app::detail::application_impl']]],
+  ['is_5fincluded_5fblock',['is_included_block',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a5d67c953aa24b3c76b8f94502d2a004a',1,'graphene::app::detail::application_impl']]],
   ['is_5fknown_5fblock',['is_known_block',['../classgraphene_1_1chain_1_1database.html#a98795dba60947210dd9a0fbb770709a2',1,'graphene::chain::database::is_known_block()'],['../classgraphene_1_1chain_1_1fork__database.html#a68c3c2cf975b0df4980d9f4311815074',1,'graphene::chain::fork_database::is_known_block()']]],
   ['is_5fknown_5ftransaction',['is_known_transaction',['../classgraphene_1_1chain_1_1database.html#a0600c987cf89e038128684da9b8c2829',1,'graphene::chain::database']]],
   ['is_5flifetime_5fmember',['is_lifetime_member',['../classgraphene_1_1chain_1_1account__object.html#a297dd50b1672a4a97e2b50d42cfa5664',1,'graphene::chain::account_object']]],

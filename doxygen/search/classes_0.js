@@ -35,6 +35,8 @@ var searchData=
   ['asset_5fbitasset_5fdata_5fobject',['asset_bitasset_data_object',['../classgraphene_1_1chain_1_1asset__bitasset__data__object.html',1,'graphene::chain']]],
   ['asset_5fclaim_5ffees_5fevaluator',['asset_claim_fees_evaluator',['../classgraphene_1_1chain_1_1asset__claim__fees__evaluator.html',1,'graphene::chain']]],
   ['asset_5fclaim_5ffees_5foperation',['asset_claim_fees_operation',['../structgraphene_1_1chain_1_1asset__claim__fees__operation.html',1,'graphene::chain']]],
+  ['asset_5fclaim_5fpool_5fevaluator',['asset_claim_pool_evaluator',['../classgraphene_1_1chain_1_1asset__claim__pool__evaluator.html',1,'graphene::chain']]],
+  ['asset_5fclaim_5fpool_5foperation',['asset_claim_pool_operation',['../structgraphene_1_1chain_1_1asset__claim__pool__operation.html',1,'graphene::chain']]],
   ['asset_5fcreate_5fevaluator',['asset_create_evaluator',['../classgraphene_1_1chain_1_1asset__create__evaluator.html',1,'graphene::chain']]],
   ['asset_5fcreate_5foperation',['asset_create_operation',['../structgraphene_1_1chain_1_1asset__create__operation.html',1,'graphene::chain']]],
   ['asset_5fdynamic_5fdata_5fobject',['asset_dynamic_data_object',['../classgraphene_1_1chain_1_1asset__dynamic__data__object.html',1,'graphene::chain']]],
@@ -60,6 +62,8 @@ var searchData=
   ['asset_5fupdate_5fevaluator',['asset_update_evaluator',['../classgraphene_1_1chain_1_1asset__update__evaluator.html',1,'graphene::chain']]],
   ['asset_5fupdate_5ffeed_5fproducers_5fevaluator',['asset_update_feed_producers_evaluator',['../classgraphene_1_1chain_1_1asset__update__feed__producers__evaluator.html',1,'graphene::chain']]],
   ['asset_5fupdate_5ffeed_5fproducers_5foperation',['asset_update_feed_producers_operation',['../structgraphene_1_1chain_1_1asset__update__feed__producers__operation.html',1,'graphene::chain']]],
+  ['asset_5fupdate_5fissuer_5fevaluator',['asset_update_issuer_evaluator',['../classgraphene_1_1chain_1_1asset__update__issuer__evaluator.html',1,'graphene::chain']]],
+  ['asset_5fupdate_5fissuer_5foperation',['asset_update_issuer_operation',['../structgraphene_1_1chain_1_1asset__update__issuer__operation.html',1,'graphene::chain']]],
   ['asset_5fupdate_5foperation',['asset_update_operation',['../structgraphene_1_1chain_1_1asset__update__operation.html',1,'graphene::chain']]],
   ['authority',['authority',['../structgraphene_1_1chain_1_1authority.html',1,'graphene::chain']]]
 ];

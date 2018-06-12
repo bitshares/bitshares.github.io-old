@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180425</span>
+   &#160;<span id="projectnumber">2.0.180612</span>
    </div>
-   <div id="projectbrief">Your share in the Decentralized Exchange</div>
+   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
   </td>
  </tr>
  </tbody>
@@ -105,6 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a30435c40b79d7a7cad036d3486902db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6866fa4434a9f09c46f6575adc259542"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structgraphene_1_1wallet_1_1operation__detail.html">operation_detail</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a6866fa4434a9f09c46f6575adc259542">get_relative_account_history</a> (string name, uint32_t stop, int limit, uint32_t start) const</td></tr>
 <tr class="separator:a6866fa4434a9f09c46f6575adc259542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6148caf19e01e31f805d62c56ba30cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1app_1_1full__account.html">full_account</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a6148caf19e01e31f805d62c56ba30cbb">get_full_account</a> (const string &amp;name_or_id)</td></tr>
+<tr class="memdesc:a6148caf19e01e31f805d62c56ba30cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetch all objects relevant to the specified account.  <a href="#a6148caf19e01e31f805d62c56ba30cbb">More...</a><br /></td></tr>
+<tr class="separator:a6148caf19e01e31f805d62c56ba30cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ac7af701dc6093e2fd80f359fc9f11"><td class="memItemLeft" align="right" valign="top">vector&lt; bucket_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a10ac7af701dc6093e2fd80f359fc9f11">get_market_history</a> (string symbol, string symbol2, uint32_t bucket, fc::time_point_sec start, fc::time_point_sec end) const</td></tr>
 <tr class="separator:a10ac7af701dc6093e2fd80f359fc9f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7a75ea6f06b003c18aeb7b69aa9b0b2"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#af7a75ea6f06b003c18aeb7b69aa9b0b2">get_limit_orders</a> (string a, string b, uint32_t limit) const</td></tr>
@@ -139,9 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaaf57550fa86bee57eddfd033d633081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a796a8e4cd719edcf5e2c6d2d2cb8b3d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1wallet.html#a385c5434f1c4e271cf812627f9ee759a">transaction_handle_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a796a8e4cd719edcf5e2c6d2d2cb8b3d7">begin_builder_transaction</a> ()</td></tr>
 <tr class="separator:a796a8e4cd719edcf5e2c6d2d2cb8b3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5cd568be3fd1c283e0ed2c1fd3c5469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ab5cd568be3fd1c283e0ed2c1fd3c5469">add_operation_to_builder_transaction</a> (<a class="el" href="namespacegraphene_1_1wallet.html#a385c5434f1c4e271cf812627f9ee759a">transaction_handle_type</a> transaction_handle, const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;op)</td></tr>
+<tr class="memitem:ab5cd568be3fd1c283e0ed2c1fd3c5469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ab5cd568be3fd1c283e0ed2c1fd3c5469">add_operation_to_builder_transaction</a> (<a class="el" href="namespacegraphene_1_1wallet.html#a385c5434f1c4e271cf812627f9ee759a">transaction_handle_type</a> transaction_handle, const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;op)</td></tr>
 <tr class="separator:ab5cd568be3fd1c283e0ed2c1fd3c5469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8cc33d09f58920917736d46ef73d05e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ad8cc33d09f58920917736d46ef73d05e">replace_operation_in_builder_transaction</a> (<a class="el" href="namespacegraphene_1_1wallet.html#a385c5434f1c4e271cf812627f9ee759a">transaction_handle_type</a> handle, unsigned operation_index, const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;new_op)</td></tr>
+<tr class="memitem:ad8cc33d09f58920917736d46ef73d05e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ad8cc33d09f58920917736d46ef73d05e">replace_operation_in_builder_transaction</a> (<a class="el" href="namespacegraphene_1_1wallet.html#a385c5434f1c4e271cf812627f9ee759a">transaction_handle_type</a> handle, unsigned operation_index, const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;new_op)</td></tr>
 <tr class="separator:ad8cc33d09f58920917736d46ef73d05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5013c612e234e0169a9953c8ee9ce898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a5013c612e234e0169a9953c8ee9ce898">set_fees_on_builder_transaction</a> (<a class="el" href="namespacegraphene_1_1wallet.html#a385c5434f1c4e271cf812627f9ee759a">transaction_handle_type</a> handle, string fee_asset=<a class="el" href="config_8hpp.html#a8c0af75f3a0235a3bc25e19c73fa1f48">GRAPHENE_SYMBOL</a>)</td></tr>
 <tr class="separator:a5013c612e234e0169a9953c8ee9ce898"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,6 +230,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeb0d71a0ed4c6d05a003e48c3a0cb6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a289195f6aa33668056993ee3caeceb39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a289195f6aa33668056993ee3caeceb39">borrow_asset</a> (string borrower_name, string amount_to_borrow, string asset_symbol, string amount_of_collateral, bool broadcast=false)</td></tr>
 <tr class="separator:a289195f6aa33668056993ee3caeceb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada6ee16924870d86f662ccbad9f475a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aada6ee16924870d86f662ccbad9f475a">borrow_asset_ext</a> (string borrower_name, string amount_to_borrow, string asset_symbol, string amount_of_collateral, <a class="el" href="structgraphene_1_1chain_1_1call__order__update__operation.html#a9a6c133d27114e297f5ca7d23dd781a9">call_order_update_operation::extensions_type</a> extensions, bool broadcast=false)</td></tr>
+<tr class="separator:aada6ee16924870d86f662ccbad9f475a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab525bedb82547d7eafb77106fd26e251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ab525bedb82547d7eafb77106fd26e251">cancel_order</a> (object_id_type order_id, bool broadcast=false)</td></tr>
 <tr class="separator:ab525bedb82547d7eafb77106fd26e251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3028048916580695639fee8e9d815be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ae3028048916580695639fee8e9d815be">create_asset</a> (string issuer, string symbol, uint8_t precision, <a class="el" href="structgraphene_1_1chain_1_1asset__options.html">asset_options</a> common, fc::optional&lt; <a class="el" href="structgraphene_1_1chain_1_1bitasset__options.html">bitasset_options</a> &gt; bitasset_opts, bool broadcast=false)</td></tr>
@@ -235,6 +240,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac4ff8075641a7469265122ff9a66e30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c2a57593b39390b286efeecca2702d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a6c2a57593b39390b286efeecca2702d6">update_asset</a> (string symbol, optional&lt; string &gt; new_issuer, <a class="el" href="structgraphene_1_1chain_1_1asset__options.html">asset_options</a> new_options, bool broadcast=false)</td></tr>
 <tr class="separator:a6c2a57593b39390b286efeecca2702d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42085004d8575c031d2694aad17971f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aa42085004d8575c031d2694aad17971f">update_asset_issuer</a> (string symbol, string new_issuer, bool broadcast=false)</td></tr>
+<tr class="separator:aa42085004d8575c031d2694aad17971f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebe4459f45a748739595939d60b95b6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aebe4459f45a748739595939d60b95b6b">update_bitasset</a> (string symbol, <a class="el" href="structgraphene_1_1chain_1_1bitasset__options.html">bitasset_options</a> new_options, bool broadcast=false)</td></tr>
 <tr class="separator:aebe4459f45a748739595939d60b95b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce4b8d15724a5f0d2e94a83288945cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a0ce4b8d15724a5f0d2e94a83288945cd">update_asset_feed_producers</a> (string symbol, flat_set&lt; string &gt; new_feed_producers, bool broadcast=false)</td></tr>
@@ -243,6 +250,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad7f049ecc3f83a80c6f27ec4f1a47beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a207a4b4afe0cac8c7f797025eb08854e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a207a4b4afe0cac8c7f797025eb08854e">fund_asset_fee_pool</a> (string from, string symbol, string amount, bool broadcast=false)</td></tr>
 <tr class="separator:a207a4b4afe0cac8c7f797025eb08854e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dbbe1852eb4ca83a68c798f988c9fb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a4dbbe1852eb4ca83a68c798f988c9fb6">claim_asset_fee_pool</a> (string symbol, string amount, bool broadcast=false)</td></tr>
+<tr class="separator:a4dbbe1852eb4ca83a68c798f988c9fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6316f69afc3b8b78b669381fd96159"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a6c6316f69afc3b8b78b669381fd96159">reserve_asset</a> (string from, string amount, string symbol, bool broadcast=false)</td></tr>
 <tr class="separator:a6c6316f69afc3b8b78b669381fd96159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad35610a05a5f4cf0d70fd4d6e8f99937"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ad35610a05a5f4cf0d70fd4d6e8f99937">global_settle_asset</a> (string symbol, <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> settle_price, bool broadcast=false)</td></tr>
@@ -285,7 +294,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2d6765231f3bf9180ad64c5be085ba60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c2cfac7553688e32fa64b6f4464142a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a4c2cfac7553688e32fa64b6f4464142a">sign_transaction</a> (<a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> tx, bool broadcast=false)</td></tr>
 <tr class="separator:a4c2cfac7553688e32fa64b6f4464142a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af52e5370f7895cb69d5f38427a11dbaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#af52e5370f7895cb69d5f38427a11dbaf">get_prototype_operation</a> (string operation_type)</td></tr>
+<tr class="memitem:af52e5370f7895cb69d5f38427a11dbaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#af52e5370f7895cb69d5f38427a11dbaf">get_prototype_operation</a> (string operation_type)</td></tr>
 <tr class="separator:af52e5370f7895cb69d5f38427a11dbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2238d380c7d5f2361533f31d996964b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a2238d380c7d5f2361533f31d996964b2">propose_parameter_change</a> (const string &amp;proposing_account, fc::time_point_sec expiration_time, const variant_object &amp;changed_values, bool broadcast=false)</td></tr>
 <tr class="separator:a2238d380c7d5f2361533f31d996964b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -373,7 +382,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02782">2782</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02857">2857</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -400,7 +409,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02787">2787</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02862">2862</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -421,7 +430,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns info such as client version, git version of graphene/fc, version of boost, openssl. </p><dl class="section return"><dt>Returns</dt><dd>compile time info and client and dependencies versions </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03243">3243</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03323">3323</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -440,7 +449,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;&#160;</td>
           <td class="paramname"><em>op</em>&#160;</td>
         </tr>
         <tr>
@@ -451,7 +460,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03014">3014</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03094">3094</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -504,7 +513,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed version of the transaction </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03564">3564</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03658">3658</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -523,7 +532,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03009">3009</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03089">3089</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -584,7 +593,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction creating/updating the bid </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03355">3355</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03449">3449</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -605,7 +614,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>all blind receipts to/form a particular account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04400">4400</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04503">4503</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -654,7 +663,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Used to transfer from one set of blinded balances to another </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04058">4058</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04161">4161</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -710,7 +719,7 @@ Public Attributes</h2></td></tr>
 <p>Used to transfer from one set of blinded balances to another </p>
 <p>commitments must be in sorted order </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04066">4066</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04169">4169</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -771,7 +780,75 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction borrowing the asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03865">3865</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03959">3959</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aada6ee16924870d86f662ccbad9f475a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aada6ee16924870d86f662ccbad9f475a">&#9670;&nbsp;</a></span>borrow_asset_ext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> graphene::wallet::wallet_api::borrow_asset_ext </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>borrower_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>amount_to_borrow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>asset_symbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>amount_of_collateral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgraphene_1_1chain_1_1call__order__update__operation.html#a9a6c133d27114e297f5ca7d23dd781a9">call_order_update_operation::extensions_type</a>&#160;</td>
+          <td class="paramname"><em>extensions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>broadcast</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Borrow an asset or update the debt/collateral ratio for the loan, with additional options.</p>
+<p>This is the first step in shorting an asset. Call <code><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aeb0d71a0ed4c6d05a003e48c3a0cb6d3">sell_asset()</a></code> to complete the short.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">borrower_name</td><td>the name or id of the account associated with the transaction. </td></tr>
+    <tr><td class="paramname">amount_to_borrow</td><td>the amount of the asset being borrowed. Make this value negative to pay back debt. </td></tr>
+    <tr><td class="paramname">asset_symbol</td><td>the symbol or id of the asset being borrowed. </td></tr>
+    <tr><td class="paramname">amount_of_collateral</td><td>the amount of the backing asset to add to your collateral position. Make this negative to claim back some of your collateral. The backing asset is defined in the <code>bitasset_options</code> for the asset being borrowed. </td></tr>
+    <tr><td class="paramname">extensions</td><td>additional options </td></tr>
+    <tr><td class="paramname">broadcast</td><td>true to broadcast the transaction on the network </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the signed transaction borrowing the asset </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03966">3966</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -798,7 +875,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the transaction ID along with the signed transaction. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03039">3039</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03119">3119</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -837,7 +914,55 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction canceling the order </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03872">3872</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03975">3975</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4dbbe1852eb4ca83a68c798f988c9fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dbbe1852eb4ca83a68c798f988c9fb6">&#9670;&nbsp;</a></span>claim_asset_fee_pool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> graphene::wallet::wallet_api::claim_asset_fee_pool </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>symbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>amount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>broadcast</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Claim funds from the fee pool for the given asset.</p>
+<p>User-issued assets can optionally have a pool of the core asset which is automatically used to pay transaction fees for any transaction using that asset (using the asset's core exchange rate).</p>
+<p>This command allows the issuer to withdraw those funds from the fee pool.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">symbol</td><td>the name or id of the asset whose fee pool you wish to claim </td></tr>
+    <tr><td class="paramname">amount</td><td>the amount of the core asset to withdraw </td></tr>
+    <tr><td class="paramname">broadcast</td><td>true to broadcast the transaction on the network </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the signed transaction claiming from the fee pool </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03419">3419</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -857,7 +982,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02791">2791</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02866">2866</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -921,7 +1046,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction registering the account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03263">3263</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03343">3343</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -990,7 +1115,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction creating a new asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03283">3283</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03363">3363</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1021,7 +1146,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Generates a new blind account for the given brain key and assigns it the given label. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03946">3946</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04049">4049</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1068,7 +1193,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction registering a committee_member </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03371">3371</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03465">3465</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1240,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction registering a witness </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03397">3397</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03491">3491</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1195,7 +1320,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03404">3404</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03498">3498</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1225,7 +1350,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03513">3513</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03607">3607</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1255,7 +1380,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03502">3502</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03596">3596</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1285,7 +1410,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03496">3496</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03590">3590</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1315,7 +1440,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03508">3508</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03602">3602</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1335,7 +1460,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03518">3518</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03612">3612</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1355,7 +1480,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03523">3523</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03617">3617</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1396,7 +1521,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A list of keys that are deterministically derived from the brainkey </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02982">2982</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03062">3062</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1426,7 +1551,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03248">3248</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03328">3328</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1447,7 +1572,7 @@ Public Attributes</h2></td></tr>
 <p>Dumps all private keys owned by the wallet.</p>
 <p>The keys are printed in WIF format. You can import these keys into another wallet using <code><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a45e93f4a83143cb8ec6a09b67f91f4bb">import_key()</a></code> </p><dl class="section return"><dt>Returns</dt><dd>a map containing the private keys, indexed by their public key </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03841">3841</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03935">3935</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1466,7 +1591,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03685">3685</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03779">3779</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1496,7 +1621,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03538">3538</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03632">3632</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1551,7 +1676,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction funding the fee pool </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03324">3324</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03411">3411</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1579,7 +1704,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the public account data stored in the blockchain </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03068">3068</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03148">3148</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1599,7 +1724,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the number of accounts registered on the blockchain </p><dl class="section return"><dt>Returns</dt><dd>the number of registered accounts </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02801">2801</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02876">2876</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1639,7 +1764,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a list of <code>operation_history_objects</code> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02828">2828</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02903">2903</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1692,7 +1817,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="structgraphene_1_1wallet_1_1account__history__operation__detail.html">account_history_operation_detail</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02887">2887</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02962">2962</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1719,7 +1844,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the id of the named account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03087">3087</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03167">3167</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1746,7 +1871,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the information about the asset stored in the block chain </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03073">3073</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03153">3153</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1773,7 +1898,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the id of the given asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03092">3092</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03172">3172</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1800,7 +1925,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the BitAsset-specific data for this asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03080">3080</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03160">3160</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1820,7 +1945,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>all blind accounts </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03927">3927</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04030">4030</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1841,7 +1966,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the total balance of all blinded commitments that can be claimed by the given account key or label </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03966">3966</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04069">4069</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1861,7 +1986,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02796">2796</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02871">2871</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1891,7 +2016,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02937">2937</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03017">3017</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1937,7 +2062,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a list of <code>collateral_bid_objects</code> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02947">2947</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03027">3027</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1964,7 +2089,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the information about the committee_member stored in the block chain </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03392">3392</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03486">3486</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -1985,7 +2110,37 @@ Public Attributes</h2></td></tr>
 <p>Returns the block chain's rapidly-changing properties. The returned object contains information that changes every block interval such as the head block number, the next witness, etc. </p><dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a9f44d453c99ffc99bbd99caa9e065a95">get_global_properties()</a></code> for less-frequently changing properties </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the dynamic global properties </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03579">3579</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03673">3673</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6148caf19e01e31f805d62c56ba30cbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6148caf19e01e31f805d62c56ba30cbb">&#9670;&nbsp;</a></span>get_full_account()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1app_1_1full__account.html">full_account</a> graphene::wallet::wallet_api::get_full_account </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>name_or_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fetch all objects relevant to the specified account. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name_or_id</td><td>Must be the name or ID of an account to retrieve </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>All info about the specified account</dd></dl>
+<p>This function fetches all relevant objects for the given account. If the string of name_or_id cannot be tied to an account, that input will be ignored. </p>
+
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03002">3002</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2006,7 +2161,7 @@ Public Attributes</h2></td></tr>
 <p>Returns the block chain's slowly-changing settings. This object contains all of the properties of the blockchain that are fixed or that change only once per maintenance interval (daily) such as the current list of witnesses, committee_members, block interval, etc. </p><dl class="section see"><dt>See also</dt><dd><code><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aaa8f1ab2e2e5fe7a414ada5375e14566">get_dynamic_global_properties()</a></code> for frequently changing properties </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the global properties </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03574">3574</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03668">3668</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2026,7 +2181,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03890">3890</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03993">3993</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2062,7 +2217,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02932">2932</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03012">3012</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2110,7 +2265,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02927">2927</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03007">3007</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2130,7 +2285,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>all blind accounts for which this wallet has the private key </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03934">3934</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04037">4037</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2159,7 +2314,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the requested object </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02999">2999</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03079">3079</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2195,7 +2350,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04417">4417</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04520">4520</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2216,7 +2371,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Get the WIF private key corresponding to a public key. The private key must already be in the wallet. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03898">3898</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04001">4001</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2227,7 +2382,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> graphene::wallet::wallet_api::get_prototype_operation </td>
+          <td class="memname"><a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> graphene::wallet::wallet_api::get_prototype_operation </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>operation_type</em></td><td>)</td>
@@ -2246,7 +2401,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a default-constructed operation of the given type </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03491">3491</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03585">3585</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2267,7 +2422,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the public key associated with the given label </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03903">3903</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04006">4006</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2320,7 +2475,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a list of <code>operation_history_objects</code> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02857">2857</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02932">2932</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2339,7 +2494,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03671">3671</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03765">3765</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2369,7 +2524,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02942">2942</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03022">3022</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2398,7 +2553,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This method is used to convert a JSON transaction to its transactin ID. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l00815">815</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l00825">825</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
 
 </div>
 </div>
@@ -2425,7 +2580,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03435">3435</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03529">3529</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2448,7 +2603,7 @@ Public Attributes</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aa5804e1ee29ff8f2c3bcc668ad2bfbcd">set_wallet_filename()</a> </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the wallet filename </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03004">3004</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03084">3084</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2475,7 +2630,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the information about the witness stored in the block chain </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03387">3387</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03481">3481</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2502,7 +2657,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a multi-line string suitable for displaying on a terminal </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03602">3602</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03696">3696</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2551,7 +2706,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction settling the named asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03340">3340</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03434">3434</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2573,7 +2728,7 @@ Public Attributes</h2></td></tr>
 <p>This lists each command, along with its arguments and return types. For more detailed help on a single command, use <code>get_help()</code> </p>
 <dl class="section return"><dt>Returns</dt><dd>a multi-line string suitable for displaying on a terminal </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03584">3584</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03678">3678</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2615,7 +2770,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03186">3186</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03266">3266</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2645,7 +2800,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03116">3116</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03196">3196</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2682,7 +2837,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This call will construct transaction(s) that will claim all balances controled by wif_keys and deposit them into the given account. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03721">3721</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03815">3815</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2723,7 +2878,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the key was imported </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03097">3097</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03177">3177</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2742,7 +2897,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03238">3238</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03318">3318</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2763,7 +2918,7 @@ Public Attributes</h2></td></tr>
 <p>Checks whether the wallet is locked (is unable to use its private keys).</p>
 <p>This state can be changed by calling <code><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a5e7950c9039f0c59e1266d6732d94e09">lock()</a></code> or <code><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ae16994a63cfdef1616b6b968117fd29d">unlock()</a></code>. </p><dl class="section return"><dt>Returns</dt><dd>true if the wallet is locked </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03676">3676</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03770">3770</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2784,7 +2939,7 @@ Public Attributes</h2></td></tr>
 <p>Checks whether the wallet has just been created and has not yet had a password set.</p>
 <p>Calling <code>set_password</code> will transition the wallet to the locked state. </p><dl class="section return"><dt>Returns</dt><dd>true if the wallet is new </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03680">3680</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03774">3774</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2811,7 +2966,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether a public key is known </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02987">2987</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03067">3067</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2871,7 +3026,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction issuing the new shares </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03272">3272</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03352">3352</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2898,7 +3053,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a list of the given account's balances </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02816">2816</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02891">2891</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2938,7 +3093,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a list of accounts mapping account names to account ids </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02811">2811</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02886">2886</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -2978,7 +3133,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the list of asset objects, ordered by symbol </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02823">2823</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02898">2898</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3018,7 +3173,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a list of committee_members mapping committee_member names to committee_member ids </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03382">3382</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03476">3476</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3038,7 +3193,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Lists all accounts controlled by this wallet. This returns a list of the full account objects for all accounts whose private keys we possess. </p><dl class="section return"><dt>Returns</dt><dd>a list of account objects </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02806">2806</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02881">2881</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3078,7 +3233,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a list of witnesss mapping witness names to witness ids </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03377">3377</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03471">3471</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3108,7 +3263,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the specified wallet is loaded </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03660">3660</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03754">3754</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3128,7 +3283,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Locks the wallet immediately. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03690">3690</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03784">3784</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3148,7 +3303,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03528">3528</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03622">3622</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3167,7 +3322,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03533">3533</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03627">3627</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3195,7 +3350,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the brain key in its normalized form </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03233">3233</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03313">3313</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3215,7 +3370,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03029">3029</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03109">3109</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3257,7 +3412,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03044">3044</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03124">3124</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3305,7 +3460,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03053">3053</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03133">3133</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3358,7 +3513,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed version of the transaction </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03554">3554</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03648">3648</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3412,7 +3567,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed version of the transaction </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03544">3544</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03638">3638</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3467,7 +3622,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction updating the price feed for the given asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03316">3316</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03403">3403</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3495,7 +3650,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string with decrypted message.. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03884">3884</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03987">3987</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3539,7 +3694,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04323">4323</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04426">4426</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3615,7 +3770,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction registering the account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03253">3253</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03333">3333</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3635,7 +3790,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03063">3063</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03143">3143</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3660,7 +3815,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__operations.html#ga0d0e4b3acdc5551c9e1f0ac0d11fce40">operation</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;&#160;</td>
           <td class="paramname"><em>new_op</em>&#160;</td>
         </tr>
         <tr>
@@ -3671,7 +3826,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03019">3019</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03099">3099</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3725,7 +3880,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction burning the asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03332">3332</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03426">3426</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3753,7 +3908,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03665">3665</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03759">3759</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3840,7 +3995,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction selling the funds </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03852">3852</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03946">3946</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3868,7 +4023,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the binary form of the transaction. It will not be hex encoded, this returns a raw string that may have null characters embedded in it </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02994">2994</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03074">3074</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3916,14 +4071,15 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">account_to_modify</td><td>the name or id of the account to update </td></tr>
-    <tr><td class="paramname">number_of_committee_members</td><td>the number</td></tr>
+    <tr><td class="paramname">desired_number_of_witnesses</td><td>desired number of active witnesses </td></tr>
+    <tr><td class="paramname">desired_number_of_committee_members</td><td>desired number of active committee members</td></tr>
     <tr><td class="paramname">broadcast</td><td>true if you wish to broadcast the transaction </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction changing your vote proxy settings </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03472">3472</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03566">3566</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3953,7 +4109,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03024">3024</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03104">3104</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -3986,7 +4142,7 @@ Public Attributes</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>No two keys can have the same label.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the label was set, otherwise false </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03913">3913</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04016">4016</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4008,7 +4164,7 @@ Public Attributes</h2></td></tr>
 <p>Sets a new password on the wallet.</p>
 <p>The wallet must be either 'new' or 'unlocked' to execute this command. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03713">3713</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03807">3807</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4057,7 +4213,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction changing your vote proxy settings </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03465">3465</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03559">3559</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4085,7 +4241,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03481">3481</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03575">3575</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4139,7 +4295,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction settling the named asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03347">3347</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03441">3441</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4169,7 +4325,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03034">3034</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03114">3114</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4214,7 +4370,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03878">3878</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03981">3981</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4253,7 +4409,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed version of the transaction </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03486">3486</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03580">3580</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4273,7 +4429,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Suggests a safe brain key to use for creating your account. <code><a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ac27928f7ca6db74e0ec4aee3ff0c545e">create_account_with_brain_key()</a></code> requires you to specify a 'brain key', a long passphrase that provides enough entropy to generate cyrptographic keys. This function will suggest a suitably random string that should be easy to write down (and, with effort, memorize). </p><dl class="section return"><dt>Returns</dt><dd>a suggested brain_key </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l02952">2952</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03032">3032</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4339,7 +4495,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction transferring funds </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03278">3278</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03358">3358</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4396,7 +4552,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This method works just like transfer, except it always broadcasts and returns the transaction ID along with the signed transaction. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l00802">802</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l00812">812</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
 
 </div>
 </div>
@@ -4445,7 +4601,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Transfers funds from a set of blinded balances to a public account balance. </p>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03999">3999</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04102">4102</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4495,7 +4651,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04239">4239</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l04342">4342</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4522,7 +4678,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03701">3701</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03795">3795</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4576,7 +4732,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction updating the asset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03294">3294</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03374">3374</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4622,7 +4778,54 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction updating the bitasset's feed producers </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03309">3309</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03396">3396</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa42085004d8575c031d2694aad17971f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42085004d8575c031d2694aad17971f">&#9670;&nbsp;</a></span>update_asset_issuer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> graphene::wallet::wallet_api::update_asset_issuer </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>symbol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>new_issuer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>broadcast</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Update the issuer of an asset Since this call requires the owner authority of the current issuer to sign the transaction, a separated operation is used to change the issuer. This call simplifies the use of this action.</p>
+<dl class="section note"><dt>Note</dt><dd>This operation requires the owner key to be available in the wallet.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">symbol</td><td>the name or id of the asset to update </td></tr>
+    <tr><td class="paramname">new_issuer</td><td>if changing the asset's issuer, the name or id of the new issuer. </td></tr>
+    <tr><td class="paramname">broadcast</td><td>true to broadcast the transaction on the network </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the signed transaction updating the asset </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03382">3382</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4670,7 +4873,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction updating the bitasset </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03302">3302</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03389">3389</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4722,7 +4925,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03426">3426</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03520">3520</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4767,7 +4970,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03418">3418</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03512">3512</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4807,7 +5010,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction upgrading the account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03847">3847</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03941">3941</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4862,7 +5065,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction changing your vote for the given committee_member </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03449">3449</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03543">3543</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4917,7 +5120,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction changing your vote for the given witness </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03457">3457</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03551">3551</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -4972,7 +5175,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the signed transaction changing the whitelisting status </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03363">3363</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03457">3457</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -5024,7 +5227,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03440">3440</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8cpp_source.html#l03534">3534</a> of file <a class="el" href="wallet_8cpp_source.html">wallet.cpp</a>.</p>
 
 </div>
 </div>
@@ -5041,7 +5244,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l01555">1555</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l01618">1618</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
 
 </div>
 </div>
@@ -5057,7 +5260,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l01556">1556</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="wallet_8hpp_source.html#l01619">1619</a> of file <a class="el" href="wallet_8hpp_source.html">wallet.hpp</a>.</p>
 
 </div>
 </div>
@@ -5068,7 +5271,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 13 2018 07:46:39 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 12 2018 09:40:28 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

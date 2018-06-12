@@ -11,6 +11,7 @@ var searchData=
   ['operation_5fprinter',['operation_printer',['../structgraphene_1_1wallet_1_1detail_1_1operation__printer.html',1,'graphene::wallet::detail']]],
   ['operation_5fresult_5fprinter',['operation_result_printer',['../structgraphene_1_1wallet_1_1detail_1_1operation__result__printer.html',1,'graphene::wallet::detail']]],
   ['operation_5fvalidator',['operation_validator',['../structgraphene_1_1chain_1_1operation__validator.html',1,'graphene::chain']]],
+  ['options_5ftype',['options_type',['../structgraphene_1_1chain_1_1call__order__update__operation_1_1options__type.html',1,'graphene::chain::call_order_update_operation']]],
   ['order',['order',['../structgraphene_1_1app_1_1order.html',1,'graphene::app']]],
   ['order_5fbook',['order_book',['../structgraphene_1_1app_1_1order__book.html',1,'graphene::app']]],
   ['orders_5fapi',['orders_api',['../classgraphene_1_1app_1_1orders__api.html',1,'graphene::app']]],

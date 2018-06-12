@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180425</span>
+   &#160;<span id="projectnumber">2.0.180612</span>
    </div>
-   <div id="projectbrief">Your share in the Decentralized Exchange</div>
+   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
   </td>
  </tr>
  </tbody>
@@ -97,10 +97,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a067e439fbf6b4fef237ef929255718f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9813f0b057877885697c133c67fa29a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a9813f0b057877885697c133c67fa29a7">debt_type</a> () const</td></tr>
 <tr class="separator:a9813f0b057877885697c133c67fa29a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33deddf84aa41958d587d35ce4e23df0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a33deddf84aa41958d587d35ce4e23df0">collateral_type</a> () const</td></tr>
+<tr class="separator:a33deddf84aa41958d587d35ce4e23df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae002873c5f4431e4c44a4ab05593f2d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#ae002873c5f4431e4c44a4ab05593f2d0">collateralization</a> () const</td></tr>
 <tr class="separator:ae002873c5f4431e4c44a4ab05593f2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36eb86e9be5d51ff11d16251d0599210"><td class="memItemLeft" align="right" valign="top">pair&lt; <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a36eb86e9be5d51ff11d16251d0599210">get_market</a> () const</td></tr>
 <tr class="separator:a36eb86e9be5d51ff11d16251d0599210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335509e02ac917c36525b1ce6aaecf48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a335509e02ac917c36525b1ce6aaecf48">get_max_debt_to_cover</a> (<a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> match_price, <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> feed_price, const uint16_t maintenance_collateral_ratio) const</td></tr>
+<tr class="memdesc:a335509e02ac917c36525b1ce6aaecf48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate maximum quantity of debt to cover to satisfy <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a8c10d7744d26d49b81be66635f0585ff">target_collateral_ratio</a>.  <a href="#a335509e02ac917c36525b1ce6aaecf48">More...</a><br /></td></tr>
+<tr class="separator:a335509e02ac917c36525b1ce6aaecf48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -110,11 +115,14 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a79f4094cbf8c4e529579576d2e432e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">call_price.base.asset_id, access via get_collateral  <a href="#a79f4094cbf8c4e529579576d2e432e4f">More...</a><br /></td></tr>
 <tr class="separator:a79f4094cbf8c4e529579576d2e432e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d0b6584d5e78f58d85c139fa68ee795"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a0d0b6584d5e78f58d85c139fa68ee795">debt</a></td></tr>
-<tr class="memdesc:a0d0b6584d5e78f58d85c139fa68ee795"><td class="mdescLeft">&#160;</td><td class="mdescRight">call_price.quote.asset_id, access via get_collateral  <a href="#a0d0b6584d5e78f58d85c139fa68ee795">More...</a><br /></td></tr>
+<tr class="memdesc:a0d0b6584d5e78f58d85c139fa68ee795"><td class="mdescLeft">&#160;</td><td class="mdescRight">call_price.quote.asset_id, access via get_debt  <a href="#a0d0b6584d5e78f58d85c139fa68ee795">More...</a><br /></td></tr>
 <tr class="separator:a0d0b6584d5e78f58d85c139fa68ee795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfd7a641c2761e4a3366db5862d95fcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#adfd7a641c2761e4a3366db5862d95fcc">call_price</a></td></tr>
-<tr class="memdesc:adfd7a641c2761e4a3366db5862d95fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debt / Collateral.  <a href="#adfd7a641c2761e4a3366db5862d95fcc">More...</a><br /></td></tr>
+<tr class="memdesc:adfd7a641c2761e4a3366db5862d95fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collateral / Debt.  <a href="#adfd7a641c2761e4a3366db5862d95fcc">More...</a><br /></td></tr>
 <tr class="separator:adfd7a641c2761e4a3366db5862d95fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c10d7744d26d49b81be66635f0585ff"><td class="memItemLeft" align="right" valign="top">optional&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a8c10d7744d26d49b81be66635f0585ff">target_collateral_ratio</a></td></tr>
+<tr class="memdesc:a8c10d7744d26d49b81be66635f0585ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum CR to maintain when selling collateral on margin call  <a href="#a8c10d7744d26d49b81be66635f0585ff">More...</a><br /></td></tr>
+<tr class="separator:a8c10d7744d26d49b81be66635f0585ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -127,7 +135,7 @@ Static Public Attributes</h2></td></tr>
 <div class="textblock"><p>tracks debt and call price information </p>
 <p>There should only be one <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html" title="tracks debt and call price information ">call_order_object</a> per asset pair per account and they will all have the same call price. </p>
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00107">107</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00110">110</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a067e439fbf6b4fef237ef929255718f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a067e439fbf6b4fef237ef929255718f4">&#9670;&nbsp;</a></span>amount_to_receive()</h2>
@@ -152,7 +160,34 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00115">115</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00118">118</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a33deddf84aa41958d587d35ce4e23df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33deddf84aa41958d587d35ce4e23df0">&#9670;&nbsp;</a></span>collateral_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> graphene::chain::call_order_object::collateral_type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00120">120</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -179,7 +214,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00117">117</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00121">121</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -206,7 +241,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00116">116</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00119">119</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -233,7 +268,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00113">113</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00116">116</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -260,7 +295,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00114">114</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00117">117</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -287,7 +322,45 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00124">124</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00130">130</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a335509e02ac917c36525b1ce6aaecf48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a335509e02ac917c36525b1ce6aaecf48">&#9670;&nbsp;</a></span>get_max_debt_to_cover()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> call_order_object::get_max_debt_to_cover </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td>
+          <td class="paramname"><em>match_price</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td>
+          <td class="paramname"><em>feed_price</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint16_t&#160;</td>
+          <td class="paramname"><em>maintenance_collateral_ratio</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate maximum quantity of debt to cover to satisfy <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html#a8c10d7744d26d49b81be66635f0585ff">target_collateral_ratio</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="market__object_8cpp_source.html#l00057">57</a> of file <a class="el" href="market__object_8cpp_source.html">market_object.cpp</a>.</p>
 
 </div>
 </div>
@@ -304,7 +377,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00119">119</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00123">123</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -320,9 +393,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Debt / Collateral. </p>
+<p>Collateral / Debt. </p>
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00122">122</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00126">126</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -340,7 +413,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>call_price.base.asset_id, access via get_collateral </p>
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00120">120</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00124">124</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -356,9 +429,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>call_price.quote.asset_id, access via get_collateral </p>
+<p>call_price.quote.asset_id, access via get_debt </p>
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00121">121</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00125">125</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -382,7 +455,25 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00110">110</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00113">113</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8c10d7744d26d49b81be66635f0585ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c10d7744d26d49b81be66635f0585ff">&#9670;&nbsp;</a></span>target_collateral_ratio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional&lt;uint16_t&gt; graphene::chain::call_order_object::target_collateral_ratio</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>maximum CR to maintain when selling collateral on margin call </p>
+
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00128">128</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -406,18 +497,19 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00111">111</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="market__object_8hpp_source.html#l00114">114</a> of file <a class="el" href="market__object_8hpp_source.html">market_object.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>libraries/chain/include/graphene/chain/<a class="el" href="market__object_8hpp_source.html">market_object.hpp</a></li>
 <li>libraries/chain/<a class="el" href="db__init_8cpp_source.html">db_init.cpp</a></li>
+<li>libraries/chain/<a class="el" href="market__object_8cpp_source.html">market_object.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun May 13 2018 07:46:38 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 12 2018 09:40:27 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

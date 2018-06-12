@@ -7,6 +7,7 @@ var searchData=
   ['evaluator_3c_20account_5fwhitelist_5fevaluator_20_3e',['evaluator&lt; account_whitelist_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20assert_5fevaluator_20_3e',['evaluator&lt; assert_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20asset_5fclaim_5ffees_5fevaluator_20_3e',['evaluator&lt; asset_claim_fees_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
+  ['evaluator_3c_20asset_5fclaim_5fpool_5fevaluator_20_3e',['evaluator&lt; asset_claim_pool_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20asset_5fcreate_5fevaluator_20_3e',['evaluator&lt; asset_create_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20asset_5ffund_5ffee_5fpool_5fevaluator_20_3e',['evaluator&lt; asset_fund_fee_pool_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20asset_5fglobal_5fsettle_5fevaluator_20_3e',['evaluator&lt; asset_global_settle_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
@@ -17,6 +18,7 @@ var searchData=
   ['evaluator_3c_20asset_5fupdate_5fbitasset_5fevaluator_20_3e',['evaluator&lt; asset_update_bitasset_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20asset_5fupdate_5fevaluator_20_3e',['evaluator&lt; asset_update_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20asset_5fupdate_5ffeed_5fproducers_5fevaluator_20_3e',['evaluator&lt; asset_update_feed_producers_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
+  ['evaluator_3c_20asset_5fupdate_5fissuer_5fevaluator_20_3e',['evaluator&lt; asset_update_issuer_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20balance_5fclaim_5fevaluator_20_3e',['evaluator&lt; balance_claim_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20bid_5fcollateral_5fevaluator_20_3e',['evaluator&lt; bid_collateral_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
   ['evaluator_3c_20blind_5ftransfer_5fevaluator_20_3e',['evaluator&lt; blind_transfer_evaluator &gt;',['../classgraphene_1_1chain_1_1evaluator.html',1,'graphene::chain']]],
@@ -51,5 +53,6 @@ var searchData=
   ['extended_5fpublic_5fkey_5ftype',['extended_public_key_type',['../structgraphene_1_1chain_1_1extended__public__key__type.html',1,'graphene::chain']]],
   ['extension',['extension',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]],
   ['extension_3c_20graphene_3a_3achain_3a_3aaccount_5fcreate_5foperation_3a_3aext_20_3e',['extension&lt; graphene::chain::account_create_operation::ext &gt;',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]],
-  ['extension_3c_20graphene_3a_3achain_3a_3aaccount_5fupdate_5foperation_3a_3aext_20_3e',['extension&lt; graphene::chain::account_update_operation::ext &gt;',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]]
+  ['extension_3c_20graphene_3a_3achain_3a_3aaccount_5fupdate_5foperation_3a_3aext_20_3e',['extension&lt; graphene::chain::account_update_operation::ext &gt;',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]],
+  ['extension_3c_20options_5ftype_20_3e',['extension&lt; options_type &gt;',['../structgraphene_1_1chain_1_1extension.html',1,'graphene::chain']]]
 ];

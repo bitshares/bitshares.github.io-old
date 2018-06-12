@@ -15,6 +15,7 @@ var searchData=
   ['proposal_5fdelete_5fevaluator',['proposal_delete_evaluator',['../classgraphene_1_1chain_1_1proposal__delete__evaluator.html',1,'graphene::chain']]],
   ['proposal_5fdelete_5foperation',['proposal_delete_operation',['../structgraphene_1_1chain_1_1proposal__delete__operation.html',1,'graphene::chain']]],
   ['proposal_5fobject',['proposal_object',['../classgraphene_1_1chain_1_1proposal__object.html',1,'graphene::chain']]],
+  ['proposal_5foperation_5fhardfork_5fvisitor',['proposal_operation_hardfork_visitor',['../structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html',1,'graphene::chain']]],
   ['proposal_5fupdate_5fevaluator',['proposal_update_evaluator',['../classgraphene_1_1chain_1_1proposal__update__evaluator.html',1,'graphene::chain']]],
   ['proposal_5fupdate_5foperation',['proposal_update_operation',['../structgraphene_1_1chain_1_1proposal__update__operation.html',1,'graphene::chain']]],
   ['pts_5faddress',['pts_address',['../structgraphene_1_1chain_1_1pts__address.html',1,'graphene::chain']]],

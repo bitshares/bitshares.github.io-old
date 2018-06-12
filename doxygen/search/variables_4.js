@@ -9,6 +9,7 @@ var searchData=
   ['debug_5fupdates',['debug_updates',['../classgraphene_1_1chain_1_1node__property__object.html#abf4557405b15ed5cc34226d807efb73e',1,'graphene::chain::node_property_object']]],
   ['decrypted_5fmemo',['decrypted_memo',['../structgraphene_1_1wallet_1_1blind__confirmation_1_1output.html#a56fd24403270be3f7cec7d11fad8413a',1,'graphene::wallet::blind_confirmation::output']]],
   ['deferred_5ffee',['deferred_fee',['../classgraphene_1_1chain_1_1limit__order__object.html#a196948424e5625ac52a833ae8d06917d',1,'graphene::chain::limit_order_object']]],
+  ['deferred_5fpaid_5ffee',['deferred_paid_fee',['../classgraphene_1_1chain_1_1limit__order__object.html#aebf0d7c90b69cc9f08140ff95e761a90',1,'graphene::chain::limit_order_object']]],
   ['delta_5fcollateral',['delta_collateral',['../structgraphene_1_1chain_1_1call__order__update__operation.html#a0f43b88b33a72499273ab3db5eb5040b',1,'graphene::chain::call_order_update_operation']]],
   ['delta_5fdebt',['delta_debt',['../structgraphene_1_1chain_1_1call__order__update__operation.html#a8913e80d5c736ccd2c5a5accdde440ab',1,'graphene::chain::call_order_update_operation']]],
   ['deposit_5fto_5faccount',['deposit_to_account',['../structgraphene_1_1chain_1_1balance__claim__operation.html#a5fbfb45b23f459f29056c7c3f9bf0664',1,'graphene::chain::balance_claim_operation']]],
