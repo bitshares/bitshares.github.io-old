@@ -24,7 +24,7 @@ var searchData=
   ['_5ffee',['_fee',['../structgraphene_1_1chain_1_1set__fee__visitor.html#a7d9333960192954aaedfd3d9a8e23a4b',1,'graphene::chain::set_fee_visitor']]],
   ['_5fforce_5fvalidate',['_force_validate',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#ad6aadf4191041d2fa601241542256e40',1,'graphene::app::detail::application_impl']]],
   ['_5fgenerate_5fblock',['_generate_block',['../classgraphene_1_1chain_1_1database.html#a581a8d9539e3d2337d5665932048156c',1,'graphene::chain::database']]],
-  ['_5fimpacted',['_impacted',['../structget__impacted__account__visitor.html#a6dbc03415ccba6cdcee99ce7efc811d7',1,'get_impacted_account_visitor::_impacted()'],['../structgraphene_1_1app_1_1get__impacted__account__visitor.html#a50330ff830c2e417bcb58f21c298ca30',1,'graphene::app::get_impacted_account_visitor::_impacted()']]],
+  ['_5fimpacted',['_impacted',['../structget__impacted__account__visitor.html#a6dbc03415ccba6cdcee99ce7efc811d7',1,'get_impacted_account_visitor']]],
   ['_5fis_5fauthorized_5fasset',['_is_authorized_asset',['../namespacegraphene_1_1chain_1_1detail.html#a7528055c48b6e603a8f4e15bc9654d57',1,'graphene::chain::detail']]],
   ['_5fis_5fblock_5fproducer',['_is_block_producer',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a14c8a3eab603c26744a2ece452aa0bc7',1,'graphene::app::detail::application_impl']]],
   ['_5fis_5ffinished_5fsyncing',['_is_finished_syncing',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a5109761c5258e4962c089d023a207a98',1,'graphene::app::detail::application_impl']]],

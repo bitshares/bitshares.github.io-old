@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -111,8 +111,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1full__account.html">full_account</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1get__impacted__account__visitor.html">get_impacted_account_visitor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1get__required__fees__helper.html">get_required_fees_helper</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html">history_api</a></td></tr>
@@ -159,14 +157,6 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8b26f5f3943b64e80cf7332aa7da271d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#a8b26f5f3943b64e80cf7332aa7da271d">operation_get_impacted_accounts</a> (const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;op, flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;result)</td></tr>
-<tr class="separator:a8b26f5f3943b64e80cf7332aa7da271d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a708203a860491e6e94fb42cbc882e9d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#a708203a860491e6e94fb42cbc882e9d0">transaction_get_impacted_accounts</a> (const <a class="el" href="structgraphene_1_1chain_1_1transaction.html">transaction</a> &amp;tx, flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;result)</td></tr>
-<tr class="separator:a708203a860491e6e94fb42cbc882e9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd9ca88290bc9b12612207b498e82430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#abd9ca88290bc9b12612207b498e82430">operation_get_impacted_accounts</a> (const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">graphene::chain::operation</a> &amp;op, fc::flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a> &gt; &amp;result)</td></tr>
-<tr class="separator:abd9ca88290bc9b12612207b498e82430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8a287c1e0040ab0aa85f31a9abdb07e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#aa8a287c1e0040ab0aa85f31a9abdb07e">transaction_get_impacted_accounts</a> (const <a class="el" href="structgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a> &amp;tx, fc::flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a> &gt; &amp;result)</td></tr>
-<tr class="separator:aa8a287c1e0040ab0aa85f31a9abdb07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8235359fc02af7a350bb55033b850dd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1app.html#a68cce708efd2be5859a5e75899e3f4f1">u256</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#a8235359fc02af7a350bb55033b850dd8">to256</a> (const fc::uint128 &amp;t)</td></tr>
 <tr class="separator:a8235359fc02af7a350bb55033b850dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af047f47d42f0057b71b692a49d87051b"><td class="memItemLeft" align="right" valign="top">fc::uint128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#af047f47d42f0057b71b692a49d87051b">to_capped128</a> (const <a class="el" href="namespacegraphene_1_1app.html#a68cce708efd2be5859a5e75899e3f4f1">u256</a> &amp;t)</td></tr>
@@ -230,64 +220,6 @@ template&lt;typename T &gt; </div>
 <p>Some useful tools for boost::program_options arguments using vectors of JSON strings </p>
 
 <p class="definition">Definition at line <a class="el" href="plugin_8hpp_source.html#l00126">126</a> of file <a class="el" href="plugin_8hpp_source.html">plugin.hpp</a>.</p>
-
-</div>
-</div>
-<a id="abd9ca88290bc9b12612207b498e82430"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd9ca88290bc9b12612207b498e82430">&#9670;&nbsp;</a></span>operation_get_impacted_accounts() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void graphene::app::operation_get_impacted_accounts </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">graphene::chain::operation</a> &amp;&#160;</td>
-          <td class="paramname"><em>op</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fc::flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>result</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8b26f5f3943b64e80cf7332aa7da271d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b26f5f3943b64e80cf7332aa7da271d">&#9670;&nbsp;</a></span>operation_get_impacted_accounts() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void graphene::app::operation_get_impacted_accounts </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;&#160;</td>
-          <td class="paramname"><em>op</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>result</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="impacted_8cpp_source.html#l00272">272</a> of file <a class="el" href="impacted_8cpp_source.html">impacted.cpp</a>.</p>
 
 </div>
 </div>
@@ -397,64 +329,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa8a287c1e0040ab0aa85f31a9abdb07e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a287c1e0040ab0aa85f31a9abdb07e">&#9670;&nbsp;</a></span>transaction_get_impacted_accounts() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void graphene::app::transaction_get_impacted_accounts </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a> &amp;&#160;</td>
-          <td class="paramname"><em>tx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fc::flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>result</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a708203a860491e6e94fb42cbc882e9d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a708203a860491e6e94fb42cbc882e9d0">&#9670;&nbsp;</a></span>transaction_get_impacted_accounts() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void graphene::app::transaction_get_impacted_accounts </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1transaction.html">transaction</a> &amp;&#160;</td>
-          <td class="paramname"><em>tx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>result</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="impacted_8cpp_source.html#l00278">278</a> of file <a class="el" href="impacted_8cpp_source.html">impacted.cpp</a>.</p>
-
-</div>
-</div>
 <a id="ac983e2615e3c4305778d61b9f0c4450a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac983e2615e3c4305778d61b9f0c4450a">&#9670;&nbsp;</a></span>uint128_amount_to_string()</h2>
 
@@ -488,7 +362,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:41 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

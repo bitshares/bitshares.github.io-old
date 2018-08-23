@@ -1,20 +1,4 @@
 var searchData=
 [
-  ['_7eabstract_5fplugin',['~abstract_plugin',['../classgraphene_1_1app_1_1abstract__plugin.html#a7f87a8f5a963d235db5941ca0a273b90',1,'graphene::app::abstract_plugin']]],
-  ['_7eapplication',['~application',['../classgraphene_1_1app_1_1application.html#a52c41787f656c18fadf1ab4ad80622f1',1,'graphene::app::application']]],
-  ['_7eapplication_5fimpl',['~application_impl',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#ab43ddaba8adc18948f6282c76cc2bb05',1,'graphene::app::detail::application_impl']]],
-  ['_7easset_5fapi',['~asset_api',['../classgraphene_1_1app_1_1asset__api.html#a715c6f7a5640aa5d045c43ef3e6728e2',1,'graphene::app::asset_api']]],
-  ['_7eblock_5fapi',['~block_api',['../classgraphene_1_1app_1_1block__api.html#ab0d6515ecbc18ac7ee651d283ceaeedc',1,'graphene::app::block_api']]],
-  ['_7edatabase',['~database',['../classgraphene_1_1chain_1_1database.html#a1733f5bf8a8ea84dcd8f962eb61debe1',1,'graphene::chain::database']]],
-  ['_7edatabase_5fapi',['~database_api',['../classgraphene_1_1app_1_1database__api.html#a3510335e90925e050398d74bc9d22dd4',1,'graphene::app::database_api']]],
-  ['_7edatabase_5fapi_5fimpl',['~database_api_impl',['../classgraphene_1_1app_1_1database__api__impl.html#a89f8d316670134c3faa5fb07032603cb',1,'graphene::app::database_api_impl']]],
-  ['_7egeneric_5fevaluator',['~generic_evaluator',['../classgraphene_1_1chain_1_1generic__evaluator.html#ad716bd9ef32c10ba2a136cb0d7e24c1f',1,'graphene::chain::generic_evaluator']]],
-  ['_7elogin_5fapi',['~login_api',['../classgraphene_1_1app_1_1login__api.html#a131c27b7bdeaa79ee9a96325b42984b2',1,'graphene::app::login_api']]],
-  ['_7enode_5fproperty_5fobject',['~node_property_object',['../classgraphene_1_1chain_1_1node__property__object.html#a02a156e080b7c644b6dab640c478e569',1,'graphene::chain::node_property_object']]],
-  ['_7eop_5fevaluator',['~op_evaluator',['../classgraphene_1_1chain_1_1op__evaluator.html#a2324fb8242dc8a8bf4b5ac04c24822a6',1,'graphene::chain::op_evaluator']]],
-  ['_7epending_5ftransactions_5frestorer',['~pending_transactions_restorer',['../structgraphene_1_1chain_1_1detail_1_1pending__transactions__restorer.html#a4cda6ae279aaddfc8a5ee768b489c10c',1,'graphene::chain::detail::pending_transactions_restorer']]],
-  ['_7eplugin',['~plugin',['../classgraphene_1_1app_1_1plugin.html#a175311e034408609d5d145f2e01903be',1,'graphene::app::plugin']]],
-  ['_7eskip_5fflags_5frestorer',['~skip_flags_restorer',['../structgraphene_1_1chain_1_1detail_1_1skip__flags__restorer.html#a3f28c775efdef54d608d6f4b66101984',1,'graphene::chain::detail::skip_flags_restorer']]],
-  ['_7ewallet_5fapi',['~wallet_api',['../classgraphene_1_1wallet_1_1wallet__api.html#a78315fd1d0d042032b2ceba25d5dc07d',1,'graphene::wallet::wallet_api']]],
-  ['_7ewallet_5fapi_5fimpl',['~wallet_api_impl',['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a9c7abe57237a9a516eb1780f9273ee18',1,'graphene::wallet::detail::wallet_api_impl']]]
+  ['zero_5fall_5ffees',['zero_all_fees',['../structgraphene_1_1chain_1_1fee__schedule.html#a5c40e1bf4252fe43c56759ec5d1208b5',1,'graphene::chain::fee_schedule']]]
 ];

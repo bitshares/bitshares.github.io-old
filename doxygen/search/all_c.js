@@ -2,7 +2,7 @@ var searchData=
 [
   ['m',['m',['../structgraphene_1_1wallet_1_1impl_1_1static__variant__map__visitor.html#a8479ea7a59d720e08d3b5ad46862a4bc',1,'graphene::wallet::impl::static_variant_map_visitor']]],
   ['maintenance_5fcollateral_5fratio',['maintenance_collateral_ratio',['../structgraphene_1_1chain_1_1price__feed.html#a439532e13d2b6aef443aeb3d00b40281',1,'graphene::chain::price_feed']]],
-  ['maintenance_5fflag',['maintenance_flag',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a566f83c180a362c4296d06e5d1930482ab2946fc5c4d7acc1bbf1880ebe5a1c12',1,'graphene::chain::dynamic_global_property_object']]],
+  ['maintenance_5fflag',['maintenance_flag',['../classgraphene_1_1chain_1_1account__balance__object.html#a90e3eb098578572f0b888daeacb81f92',1,'graphene::chain::account_balance_object::maintenance_flag()'],['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a566f83c180a362c4296d06e5d1930482ab2946fc5c4d7acc1bbf1880ebe5a1c12',1,'graphene::chain::dynamic_global_property_object::maintenance_flag()']]],
   ['maintenance_5finterval',['maintenance_interval',['../structgraphene_1_1chain_1_1chain__parameters.html#a335198a67e29b77e4b067e12998fb19f',1,'graphene::chain::chain_parameters']]],
   ['maintenance_5fskip_5fslots',['maintenance_skip_slots',['../structgraphene_1_1chain_1_1chain__parameters.html#a3eff33f41ecbc7ca5910267e495c6fc9',1,'graphene::chain::chain_parameters']]],
   ['market_2ecpp',['market.cpp',['../market_8cpp.html',1,'']]],

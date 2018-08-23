@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['need_5fmaintenance',['need_maintenance',['../classgraphene_1_1chain_1_1account__statistics__object.html#a35c6972742b9310c97e77836516d17b3',1,'graphene::chain::account_statistics_object']]],
+  ['need_5fto_5fupdate_5fcer',['need_to_update_cer',['../classgraphene_1_1chain_1_1asset__bitasset__data__object.html#ab94b9dad7f202a38716609dc3ce05bcc',1,'graphene::chain::asset_bitasset_data_object']]],
   ['network_5fadd_5fnodes',['network_add_nodes',['../classgraphene_1_1wallet_1_1wallet__api.html#a751a4c02552be8c312efb86c3886faf0',1,'graphene::wallet::wallet_api::network_add_nodes()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a833e74c7309891cafedcec8563dcfa98',1,'graphene::wallet::detail::wallet_api_impl::network_add_nodes()']]],
   ['network_5fbroadcast',['network_broadcast',['../classgraphene_1_1app_1_1login__api.html#a02954abfd619d66831082c9582260957',1,'graphene::app::login_api']]],
   ['network_5fbroadcast_5fapi',['network_broadcast_api',['../classgraphene_1_1app_1_1network__broadcast__api.html#a33713868b546fe67bd32323ec1745ee7',1,'graphene::app::network_broadcast_api']]],

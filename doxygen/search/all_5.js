@@ -2,6 +2,7 @@ var searchData=
 [
   ['empty_5fkeyset',['empty_keyset',['../namespacegraphene_1_1chain.html#ad6ed181af9da5c991949e2154707be94',1,'graphene::chain']]],
   ['enable_5fapi',['enable_api',['../classgraphene_1_1app_1_1login__api.html#a88370072aa9f85cebc9e183dccdac9d5',1,'graphene::app::login_api']]],
+  ['enable_5fstandby_5fvotes_5ftracking',['enable_standby_votes_tracking',['../classgraphene_1_1chain_1_1database.html#abbc9d3f6064163078b9a21c2c580f24b',1,'graphene::chain::database']]],
   ['enable_5fsubscribe_5fto_5fall',['enable_subscribe_to_all',['../classgraphene_1_1app_1_1application__options.html#a6d0f973fa33e5e4fb7544b2437681f63',1,'graphene::app::application_options']]],
   ['encrypt_5fkeys',['encrypt_keys',['../classgraphene_1_1wallet_1_1wallet__api.html#a00e6ac75e8dc86221d62bf6c7c87d4e5',1,'graphene::wallet::wallet_api::encrypt_keys()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a730cd01003bd09e6f4d6308b2528a813',1,'graphene::wallet::detail::wallet_api_impl::encrypt_keys()']]],
   ['encrypted_5fmemo',['encrypted_memo',['../structgraphene_1_1chain_1_1stealth__confirmation.html#a5a45865dd7207979af62e2a8608669ac',1,'graphene::chain::stealth_confirmation']]],

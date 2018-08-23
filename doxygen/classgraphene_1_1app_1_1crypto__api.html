@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -78,10 +78,6 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adcb829f4fc90959164d92b4b285e8085"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#adcb829f4fc90959164d92b4b285e8085">crypto_api</a> ()</td></tr>
 <tr class="separator:adcb829f4fc90959164d92b4b285e8085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e0f5c3c3af4bf399cc2a523fc9a14c8"><td class="memItemLeft" align="right" valign="top">fc::ecc::blind_signature&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a8e0f5c3c3af4bf399cc2a523fc9a14c8">blind_sign</a> (const <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">extended_private_key_type</a> &amp;key, const fc::ecc::blinded_hash &amp;hash, int i)</td></tr>
-<tr class="separator:a8e0f5c3c3af4bf399cc2a523fc9a14c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac589411b741e0e82e737d316feda3e4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#aed41249e2d1e1e56e91d68da30cbddad">signature_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#ac589411b741e0e82e737d316feda3e4f">unblind_signature</a> (const <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">extended_private_key_type</a> &amp;key, const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;bob, const fc::ecc::blind_signature &amp;sig, const fc::sha256 &amp;hash, int i)</td></tr>
-<tr class="separator:ac589411b741e0e82e737d316feda3e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a819517c27c9b5436cea4bd7114d68759"><td class="memItemLeft" align="right" valign="top">fc::ecc::commitment_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a819517c27c9b5436cea4bd7114d68759">blind</a> (const fc::ecc::blind_factor_type &amp;blind, uint64_t value)</td></tr>
 <tr class="separator:a819517c27c9b5436cea4bd7114d68759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1a6caa5122568ca0ae4f5379a2d1943"><td class="memItemLeft" align="right" valign="top">fc::ecc::blind_factor_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#aa1a6caa5122568ca0ae4f5379a2d1943">blind_sum</a> (const std::vector&lt; blind_factor_type &gt; &amp;blinds_in, uint32_t non_neg)</td></tr>
@@ -99,7 +95,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="api_8hpp_source.html#l00305">305</a> of file <a class="el" href="api_8hpp_source.html">api.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8hpp_source.html#l00307">307</a> of file <a class="el" href="api_8hpp_source.html">api.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adcb829f4fc90959164d92b4b285e8085"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcb829f4fc90959164d92b4b285e8085">&#9670;&nbsp;</a></span>crypto_api()</h2>
@@ -116,7 +112,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00463">463</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00471">471</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -147,43 +143,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00479">479</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a8e0f5c3c3af4bf399cc2a523fc9a14c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e0f5c3c3af4bf399cc2a523fc9a14c8">&#9670;&nbsp;</a></span>blind_sign()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">blind_signature graphene::app::crypto_api::blind_sign </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">extended_private_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fc::ecc::blinded_hash &amp;&#160;</td>
-          <td class="paramname"><em>hash</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00465">465</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00473">473</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -213,7 +173,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00484">484</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00478">478</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -233,7 +193,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00528">528</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00522">522</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -293,55 +253,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00501">501</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ac589411b741e0e82e737d316feda3e4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac589411b741e0e82e737d316feda3e4f">&#9670;&nbsp;</a></span>unblind_signature()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacegraphene_1_1chain.html#aed41249e2d1e1e56e91d68da30cbddad">signature_type</a> graphene::app::crypto_api::unblind_signature </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__private__key__type.html">extended_private_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1extended__public__key__type.html">extended_public_key_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>bob</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fc::ecc::blind_signature &amp;&#160;</td>
-          <td class="paramname"><em>sig</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fc::sha256 &amp;&#160;</td>
-          <td class="paramname"><em>hash</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00470">470</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00495">495</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -371,7 +283,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00494">494</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00488">488</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -407,7 +319,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00512">512</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00506">506</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -443,7 +355,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00489">489</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00483">483</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -454,7 +366,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:41 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

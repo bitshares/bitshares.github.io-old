@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -94,6 +94,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae4e7f82312d123819d5168cca4721566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a906bc8ea2b54055d98213b84e27ebd2a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a906bc8ea2b54055d98213b84e27ebd2a">has_settlement</a> () const</td></tr>
 <tr class="separator:a906bc8ea2b54055d98213b84e27ebd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94b9dad7f202a38716609dc3ce05bcc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#ab94b9dad7f202a38716609dc3ce05bcc">need_to_update_cer</a> () const</td></tr>
+<tr class="memdesc:ab94b9dad7f202a38716609dc3ce05bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether need to update core_exchange_rate in <a class="el" href="classgraphene_1_1chain_1_1asset__object.html" title="tracks the parameters of an assetAll assets have a globally unique symbol name that controls how they...">asset_object</a>.  <a href="#ab94b9dad7f202a38716609dc3ce05bcc">More...</a><br /></td></tr>
+<tr class="separator:ab94b9dad7f202a38716609dc3ce05bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a376e0082aaf4e3fd5c5dff81b806bd10"><td class="memItemLeft" align="right" valign="top">time_point_sec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a376e0082aaf4e3fd5c5dff81b806bd10">feed_expiration_time</a> () const</td></tr>
 <tr class="memdesc:a376e0082aaf4e3fd5c5dff81b806bd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time when <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a874b942d15af358de33636b530225f11">current_feed</a> would expire.  <a href="#a376e0082aaf4e3fd5c5dff81b806bd10">More...</a><br /></td></tr>
 <tr class="separator:a376e0082aaf4e3fd5c5dff81b806bd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +128,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7150f03a6553d183c46191d2b718ba40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a7150f03a6553d183c46191d2b718ba40">force_settled_volume</a></td></tr>
 <tr class="memdesc:a7150f03a6553d183c46191d2b718ba40"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the volume of this asset which has been force-settled this maintanence interval.  <a href="#a7150f03a6553d183c46191d2b718ba40">More...</a><br /></td></tr>
 <tr class="separator:a7150f03a6553d183c46191d2b718ba40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f91410db5c681ba6f2a81d769d8738a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a5f91410db5c681ba6f2a81d769d8738a">asset_cer_updated</a> = false</td></tr>
+<tr class="memdesc:a5f91410db5c681ba6f2a81d769d8738a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track whether core_exchange_rate in corresponding <a class="el" href="classgraphene_1_1chain_1_1asset__object.html" title="tracks the parameters of an assetAll assets have a globally unique symbol name that controls how they...">asset_object</a> has updated.  <a href="#a5f91410db5c681ba6f2a81d769d8738a">More...</a><br /></td></tr>
+<tr class="separator:a5f91410db5c681ba6f2a81d769d8738a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c0b61c9b2566a0dc71245469a1f6e27"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a1c0b61c9b2566a0dc71245469a1f6e27">feed_cer_updated</a> = false</td></tr>
+<tr class="memdesc:a1c0b61c9b2566a0dc71245469a1f6e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track whether core exchange rate in current feed has updated.  <a href="#a1c0b61c9b2566a0dc71245469a1f6e27">More...</a><br /></td></tr>
+<tr class="separator:a1c0b61c9b2566a0dc71245469a1f6e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a20e77723968f0bbafe4192946fd8fd38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a20e77723968f0bbafe4192946fd8fd38">settlement_price</a></td></tr>
 <tr class="separator:a20e77723968f0bbafe4192946fd8fd38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,7 +178,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>The time when <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#a874b942d15af358de33636b530225f11">current_feed</a> would expire. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00220">220</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00232">232</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -197,7 +206,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00230">230</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00242">242</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -225,7 +234,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00228">228</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00240">240</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -279,6 +288,35 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab94b9dad7f202a38716609dc3ce05bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab94b9dad7f202a38716609dc3ce05bcc">&#9670;&nbsp;</a></span>need_to_update_cer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::asset_bitasset_data_object::need_to_update_cer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether need to update core_exchange_rate in <a class="el" href="classgraphene_1_1chain_1_1asset__object.html" title="tracks the parameters of an assetAll assets have a globally unique symbol name that controls how they...">asset_object</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00226">226</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a309160a4bf03d5658a12141a74b78500"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a309160a4bf03d5658a12141a74b78500">&#9670;&nbsp;</a></span>update_median_feeds()</h2>
 
@@ -300,6 +338,24 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5f91410db5c681ba6f2a81d769d8738a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f91410db5c681ba6f2a81d769d8738a">&#9670;&nbsp;</a></span>asset_cer_updated</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::asset_bitasset_data_object::asset_cer_updated = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Track whether core_exchange_rate in corresponding <a class="el" href="classgraphene_1_1chain_1_1asset__object.html" title="tracks the parameters of an assetAll assets have a globally unique symbol name that controls how they...">asset_object</a> has updated. </p>
+
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00220">220</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a566fab695c27973fb55b8eec34575709"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a566fab695c27973fb55b8eec34575709">&#9670;&nbsp;</a></span>asset_id</h2>
 
@@ -350,6 +406,24 @@ Static Public Attributes</h2></td></tr>
 <p>This is the publication time of the oldest feed which was factored into current_feed. </p>
 
 <p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00193">193</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1c0b61c9b2566a0dc71245469a1f6e27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c0b61c9b2566a0dc71245469a1f6e27">&#9670;&nbsp;</a></span>feed_cer_updated</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::asset_bitasset_data_object::feed_cer_updated = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Track whether core exchange rate in current feed has updated. </p>
+
+<p class="definition">Definition at line <a class="el" href="asset__object_8hpp_source.html#l00223">223</a> of file <a class="el" href="asset__object_8hpp_source.html">asset_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -514,7 +588,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:42 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

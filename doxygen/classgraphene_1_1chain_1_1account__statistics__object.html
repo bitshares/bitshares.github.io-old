@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -86,6 +86,15 @@ Inheritance diagram for graphene::chain::account_statistics_object:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a93f954f415fb48954070e750f945bbb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a93f954f415fb48954070e750f945bbb6">has_some_core_voting</a> () const</td></tr>
+<tr class="memdesc:a93f954f415fb48954070e750f945bbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this account owns some CORE asset and is voting.  <a href="#a93f954f415fb48954070e750f945bbb6">More...</a><br /></td></tr>
+<tr class="separator:a93f954f415fb48954070e750f945bbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79fbf67d52919358dc2650f2ab37e728"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a79fbf67d52919358dc2650f2ab37e728">has_pending_fees</a> () const</td></tr>
+<tr class="memdesc:a79fbf67d52919358dc2650f2ab37e728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this account has pending fees, no matter vested or not.  <a href="#a79fbf67d52919358dc2650f2ab37e728">More...</a><br /></td></tr>
+<tr class="separator:a79fbf67d52919358dc2650f2ab37e728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c6972742b9310c97e77836516d17b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a35c6972742b9310c97e77836516d17b3">need_maintenance</a> () const</td></tr>
+<tr class="memdesc:a35c6972742b9310c97e77836516d17b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether need to process this account during the maintenance interval.  <a href="#a35c6972742b9310c97e77836516d17b3">More...</a><br /></td></tr>
+<tr class="separator:a35c6972742b9310c97e77836516d17b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a541251fa37ad3a13a6644365119341e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a541251fa37ad3a13a6644365119341e4">process_fees</a> (const <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &amp;a, <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;d) const</td></tr>
 <tr class="memdesc:a541251fa37ad3a13a6644365119341e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split up and pay out <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a6e24bf9caed87ca04ade5361a0b2b818">pending_fees</a> and <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a1bf6b14fa88cc2bfac01861c2d896db8">pending_vested_fees</a>.  <a href="#a541251fa37ad3a13a6644365119341e4">More...</a><br /></td></tr>
 <tr class="separator:a541251fa37ad3a13a6644365119341e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -96,6 +105,9 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5f945466aa5eab68d95956d8f776e1d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a5f945466aa5eab68d95956d8f776e1d8">owner</a></td></tr>
 <tr class="separator:a5f945466aa5eab68d95956d8f776e1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e180be3ea821af00a9da7729ed105dd"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a8e180be3ea821af00a9da7729ed105dd">name</a></td></tr>
+<tr class="memdesc:a8e180be3ea821af00a9da7729ed105dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">redundantly store account name here for better maintenance performance  <a href="#a8e180be3ea821af00a9da7729ed105dd">More...</a><br /></td></tr>
+<tr class="separator:a8e180be3ea821af00a9da7729ed105dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1bef1eef2dc6b82adb57a528aaa14d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a55238260801231918a43259ed4e3e29f">account_transaction_history_id_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#ac1bef1eef2dc6b82adb57a528aaa14d0">most_recent_op</a></td></tr>
 <tr class="separator:ac1bef1eef2dc6b82adb57a528aaa14d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aee33c37964492c59194448fe867f4c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a0aee33c37964492c59194448fe867f4c">total_ops</a> = 0</td></tr>
@@ -104,6 +116,15 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a67fa01fc15e08e4117e489ec91e377fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d24f49bd8bccd624bc91fd55e33e25e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a3d24f49bd8bccd624bc91fd55e33e25e">total_core_in_orders</a></td></tr>
 <tr class="separator:a3d24f49bd8bccd624bc91fd55e33e25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadca0c129effcdbd4a6403cfbb1bd6fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#aadca0c129effcdbd4a6403cfbb1bd6fd">core_in_balance</a> = 0</td></tr>
+<tr class="memdesc:aadca0c129effcdbd4a6403cfbb1bd6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">redundantly store core balance here for better maintenance performance  <a href="#aadca0c129effcdbd4a6403cfbb1bd6fd">More...</a><br /></td></tr>
+<tr class="separator:aadca0c129effcdbd4a6403cfbb1bd6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12abb14fcb4e077b979f1f2a97c94727"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a12abb14fcb4e077b979f1f2a97c94727">has_cashback_vb</a> = false</td></tr>
+<tr class="memdesc:a12abb14fcb4e077b979f1f2a97c94727"><td class="mdescLeft">&#160;</td><td class="mdescRight">redundantly store this for better maintenance performance  <a href="#a12abb14fcb4e077b979f1f2a97c94727">More...</a><br /></td></tr>
+<tr class="separator:a12abb14fcb4e077b979f1f2a97c94727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ae5e2d0e70e61a3a7121f58f371a74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a06ae5e2d0e70e61a3a7121f58f371a74">is_voting</a> = false</td></tr>
+<tr class="memdesc:a06ae5e2d0e70e61a3a7121f58f371a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">redundately store whether this account is voting for better maintenance performance  <a href="#a06ae5e2d0e70e61a3a7121f58f371a74">More...</a><br /></td></tr>
+<tr class="separator:a06ae5e2d0e70e61a3a7121f58f371a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfd506e7176772143a194e1f214feaa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#adfd506e7176772143a194e1f214feaa2">lifetime_fees_paid</a></td></tr>
 <tr class="separator:adfd506e7176772143a194e1f214feaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e24bf9caed87ca04ade5361a0b2b818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a6e24bf9caed87ca04ade5361a0b2b818">pending_fees</a></td></tr>
@@ -123,6 +144,93 @@ Static Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00041">41</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a79fbf67d52919358dc2650f2ab37e728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79fbf67d52919358dc2650f2ab37e728">&#9670;&nbsp;</a></span>has_pending_fees()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::account_statistics_object::has_pending_fees </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this account has pending fees, no matter vested or not. </p>
+
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00100">100</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a93f954f415fb48954070e750f945bbb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f954f415fb48954070e750f945bbb6">&#9670;&nbsp;</a></span>has_some_core_voting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::account_statistics_object::has_some_core_voting </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this account owns some CORE asset and is voting. </p>
+
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00074">74</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a35c6972742b9310c97e77836516d17b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c6972742b9310c97e77836516d17b3">&#9670;&nbsp;</a></span>need_maintenance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::account_statistics_object::need_maintenance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether need to process this account during the maintenance interval. </p>
+
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00103">103</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+
+</div>
+</div>
 <a id="aa09fea72ba6d68dc0b50a823f4fa838b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa09fea72ba6d68dc0b50a823f4fa838b">&#9670;&nbsp;</a></span>pay_fee()</h2>
 
@@ -150,7 +258,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Core fees are paid into the <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html">account_statistics_object</a> by this method </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8cpp_source.html#l00105">105</a> of file <a class="el" href="account__object_8cpp_source.html">account_object.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8cpp_source.html#l00107">107</a> of file <a class="el" href="account__object_8cpp_source.html">account_object.cpp</a>.</p>
 
 </div>
 </div>
@@ -182,11 +290,65 @@ Static Public Attributes</h2></td></tr>
 
 <p>Split up and pay out <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a6e24bf9caed87ca04ade5361a0b2b818">pending_fees</a> and <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a1bf6b14fa88cc2bfac01861c2d896db8">pending_vested_fees</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8cpp_source.html#l00051">51</a> of file <a class="el" href="account__object_8cpp_source.html">account_object.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8cpp_source.html#l00053">53</a> of file <a class="el" href="account__object_8cpp_source.html">account_object.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aadca0c129effcdbd4a6403cfbb1bd6fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadca0c129effcdbd4a6403cfbb1bd6fd">&#9670;&nbsp;</a></span>core_in_balance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> graphene::chain::account_statistics_object::core_in_balance = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>redundantly store core balance here for better maintenance performance </p>
+
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00067">67</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a12abb14fcb4e077b979f1f2a97c94727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12abb14fcb4e077b979f1f2a97c94727">&#9670;&nbsp;</a></span>has_cashback_vb</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::account_statistics_object::has_cashback_vb = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>redundantly store this for better maintenance performance </p>
+
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00069">69</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a06ae5e2d0e70e61a3a7121f58f371a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06ae5e2d0e70e61a3a7121f58f371a74">&#9670;&nbsp;</a></span>is_voting</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool graphene::chain::account_statistics_object::is_voting = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>redundately store whether this account is voting for better maintenance performance </p>
+
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00071">71</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+
+</div>
+</div>
 <a id="adfd506e7176772143a194e1f214feaa2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adfd506e7176772143a194e1f214feaa2">&#9670;&nbsp;</a></span>lifetime_fees_paid</h2>
 
@@ -200,7 +362,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Tracks the total fees paid by this account for the purpose of calculating bulk discounts. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00068">68</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00082">82</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -217,7 +379,25 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Keep the most recent operation as a root pointer to a linked list of the transaction history. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00052">52</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00054">54</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8e180be3ea821af00a9da7729ed105dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e180be3ea821af00a9da7729ed105dd">&#9670;&nbsp;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string graphene::chain::account_statistics_object::name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>redundantly store account name here for better maintenance performance </p>
+
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00049">49</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -251,7 +431,7 @@ Static Public Attributes</h2></td></tr>
 <p>Tracks the fees paid by this account which have not been disseminated to the various parties that receive them yet (registrar, referrer, lifetime referrer, network, etc). This is used as an optimization to avoid doing massive amounts of uint128 arithmetic on each and every operation.</p>
 <p>These fees will be paid out as vesting cash-back, and this counter will reset during the maintenance interval. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00078">78</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00092">92</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -268,7 +448,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Same as <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html#a6e24bf9caed87ca04ade5361a0b2b818">pending_fees</a>, except these fees will be paid out as pre-vested cash-back (immediately available for withdrawal) rather than requiring the normal vesting period. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00083">83</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00097">97</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -285,7 +465,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Total operations related to this account that has been removed from the database. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00056">56</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00058">58</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -326,7 +506,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>When calculating votes it is necessary to know how much is stored in orders (and thus unavailable for transfers). Rather than maintaining an index of [asset,owner,order_id] we will simply maintain the running total here and update it every time an order is created or modified. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00063">63</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00065">65</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -343,7 +523,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Total operations related to this account. </p>
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00054">54</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00056">56</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -378,7 +558,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:41 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

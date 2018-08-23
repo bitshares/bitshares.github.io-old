@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -86,14 +86,17 @@ $(function() {
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>FC_REFLECT()
 : <a class="el" href="block__database_8cpp.html#ad836a2b1e7c0bda91f1c916a461c98c5">block_database.cpp</a>
-, <a class="el" href="protocol_2buyback_8hpp.html#a85df1d309bffd3dc722aeb1808088c93">buyback.hpp</a>
+, <a class="el" href="database__api_8hpp.html#aa942c9981f641a8c0c665a439fdb0924">database_api.hpp</a>
 , <a class="el" href="api_8hpp.html#abc7d153ab9aad19eb3c648fee9766794">api.hpp</a>
-, <a class="el" href="database__api_8hpp.html#abdf593e10560058e6157660e5b8487d7">database_api.hpp</a>
+, <a class="el" href="protocol_2buyback_8hpp.html#a85df1d309bffd3dc722aeb1808088c93">buyback.hpp</a>
 </li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>get_relevant_accounts()
+: <a class="el" href="db__notify_8cpp.html#ad5c482d9cf5504281b513dfa1c789133">db_notify.cpp</a>
+</li>
 <li>GET_REQUIRED_FEES_MAX_RECURSION
 : <a class="el" href="database__api_8cpp.html#ac74e7f02100e5972baf92ac377f4c2d7">database_api.cpp</a>
 </li>
@@ -151,12 +154,6 @@ $(function() {
 <li>GRAPHENE_DEFAULT_BLOCK_INTERVAL
 : <a class="el" href="config_8hpp.html#ab47b1de8de7ee3105ff3b61c450d1dfc">config.hpp</a>
 </li>
-<li>GRAPHENE_DEFAULT_BULK_DISCOUNT_THRESHOLD_MAX
-: <a class="el" href="config_8hpp.html#a99d9d0fe4c9885c094057dc66fbc8083">config.hpp</a>
-</li>
-<li>GRAPHENE_DEFAULT_BULK_DISCOUNT_THRESHOLD_MIN
-: <a class="el" href="config_8hpp.html#a6d2a986956fbb1495218a4c63404e139">config.hpp</a>
-</li>
 <li>GRAPHENE_DEFAULT_BURN_PERCENT_OF_FEE
 : <a class="el" href="config_8hpp.html#af986a90dcddbc1f12f593fbb7560476b">config.hpp</a>
 </li>
@@ -211,9 +208,6 @@ $(function() {
 <li>GRAPHENE_DEFAULT_MAX_BLOCK_SIZE
 : <a class="el" href="config_8hpp.html#a5507de233977b2a97d022d7c7d157fd4">config.hpp</a>
 </li>
-<li>GRAPHENE_DEFAULT_MAX_BULK_DISCOUNT_PERCENT
-: <a class="el" href="config_8hpp.html#a09d1b5e4b0e8e7d88ea56098715e3ec2">config.hpp</a>
-</li>
 <li>GRAPHENE_DEFAULT_MAX_BUYBACK_MARKETS
 : <a class="el" href="config_8hpp.html#ad181b24a57416e7c025e6e0535b839e6">config.hpp</a>
 </li>
@@ -250,9 +244,6 @@ $(function() {
 <li>GRAPHENE_DEFAULT_PRICE_FEED_LIFETIME
 : <a class="el" href="config_8hpp.html#a0ce06f10a711677251107caa0ac33dc6">config.hpp</a>
 </li>
-<li>GRAPHENE_DEFAULT_TRANSFER_FEE
-: <a class="el" href="config_8hpp.html#a089afaad96f6bdab570ce8552bbe7d8c">config.hpp</a>
-</li>
 <li>GRAPHENE_DEFAULT_WITNESS_PAY_PER_BLOCK
 : <a class="el" href="config_8hpp.html#a158de5b0da3023c0afc0c523bde7882d">config.hpp</a>
 </li>
@@ -261,9 +252,6 @@ $(function() {
 </li>
 <li>GRAPHENE_DEFAULT_WORKER_BUDGET_PER_DAY
 : <a class="el" href="config_8hpp.html#ab274feb67555607fcb6786b4b25f8e7a">config.hpp</a>
-</li>
-<li>GRAPHENE_FAR_SCHEDULE_CTR_IV
-: <a class="el" href="config_8hpp.html#a8ef21cfa6a88070db5a398626b437432">config.hpp</a>
 </li>
 <li>GRAPHENE_FBA_STEALTH_DESIGNATED_ASSET
 : <a class="el" href="config_8hpp.html#ad720eaf3d3b3b882232b4fa09916e79f">config.hpp</a>
@@ -283,23 +271,11 @@ $(function() {
 <li>GRAPHENE_MAX_COLLATERAL_RATIO
 : <a class="el" href="config_8hpp.html#a03fa517209e9c614bf0d487d7a73313f">config.hpp</a>
 </li>
-<li>GRAPHENE_MAX_FEED_PRODUCERS
-: <a class="el" href="config_8hpp.html#af6da406241d1774389de36ebb321dcce">config.hpp</a>
-</li>
-<li>GRAPHENE_MAX_INSTANCE_ID
-: <a class="el" href="config_8hpp.html#aa5e819fd3790eb22e36b49ac75621683">config.hpp</a>
-</li>
-<li>GRAPHENE_MAX_INTEREST_APR
-: <a class="el" href="config_8hpp.html#abb29cafdb6b18a351ff6c578bb2af014">config.hpp</a>
-</li>
 <li>GRAPHENE_MAX_MARKET_FEE_PERCENT
 : <a class="el" href="config_8hpp.html#ac007cbc132f2ec509c3af26a0e9672d7">config.hpp</a>
 </li>
 <li>GRAPHENE_MAX_NESTED_OBJECTS
 : <a class="el" href="config_8hpp.html#a08ea3bc30bcbb48f59f2cbc2355910eb">config.hpp</a>
-</li>
-<li>GRAPHENE_MAX_PAY_RATE
-: <a class="el" href="config_8hpp.html#a799acb4e22f5e1fe9f7cc6353504ed61">config.hpp</a>
 </li>
 <li>GRAPHENE_MAX_SHARE_SUPPLY
 : <a class="el" href="config_8hpp.html#a0097d4b8dab3cb6d7c7f275b054c2380">config.hpp</a>
@@ -331,17 +307,11 @@ $(function() {
 <li>GRAPHENE_MIN_COLLATERAL_RATIO
 : <a class="el" href="config_8hpp.html#a3aab04adb1e4686c92fb23b7fd76a5df">config.hpp</a>
 </li>
-<li>GRAPHENE_MIN_TRANSACTION_EXPIRATION_LIMIT
-: <a class="el" href="config_8hpp.html#ab317d4968c66ae08d6b8bd50b9c8acb1">config.hpp</a>
-</li>
 <li>GRAPHENE_MIN_TRANSACTION_SIZE_LIMIT
 : <a class="el" href="config_8hpp.html#ace3e4b42ff90fc749d1c23fcc3882d89">config.hpp</a>
 </li>
 <li>GRAPHENE_MIN_UNDO_HISTORY
 : <a class="el" href="config_8hpp.html#a8691fe452330849285abe004734d7013">config.hpp</a>
-</li>
-<li>GRAPHENE_NEAR_SCHEDULE_CTR_IV
-: <a class="el" href="config_8hpp.html#a6cb949a1a43a0ee1e0510194d1f06dbc">config.hpp</a>
 </li>
 <li>GRAPHENE_NULL_ACCOUNT
 : <a class="el" href="config_8hpp.html#a2750f93b0f353f624288c68b232f47ac">config.hpp</a>
@@ -379,9 +349,6 @@ $(function() {
 <li>GRAPHENE_WITNESS_ACCOUNT
 : <a class="el" href="config_8hpp.html#ae30e8ce4476e8933a800b461a8b8abd7">config.hpp</a>
 </li>
-<li>GRAPHENE_WITNESS_PAY_PERCENT_PRECISION
-: <a class="el" href="config_8hpp.html#a45d38f94720715f16012885d0623799e">config.hpp</a>
-</li>
 </ul>
 
 
@@ -402,6 +369,13 @@ $(function() {
 </ul>
 
 
+<h3><a id="index_r"></a>- r -</h3><ul>
+<li>RANGE_PROOF_MANTISSA
+: <a class="el" href="wallet_8cpp.html#ad89817c97551a03c50414835f6312179">wallet.cpp</a>
+</li>
+</ul>
+
+
 <h3><a id="index_v"></a>- v -</h3><ul>
 <li>VESTING_VISITOR
 : <a class="el" href="vesting__balance__object_8cpp.html#a679079687d3fc4686413f95d6d6d0fea">vesting_balance_object.cpp</a>
@@ -410,7 +384,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:43 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:58 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

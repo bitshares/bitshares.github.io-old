@@ -19,5 +19,6 @@ var searchData=
   ['proposal_5fupdate_5fevaluator',['proposal_update_evaluator',['../classgraphene_1_1chain_1_1proposal__update__evaluator.html',1,'graphene::chain']]],
   ['proposal_5fupdate_5foperation',['proposal_update_operation',['../structgraphene_1_1chain_1_1proposal__update__operation.html',1,'graphene::chain']]],
   ['pts_5faddress',['pts_address',['../structgraphene_1_1chain_1_1pts__address.html',1,'graphene::chain']]],
-  ['public_5fkey_5ftype',['public_key_type',['../structgraphene_1_1chain_1_1public__key__type.html',1,'graphene::chain']]]
+  ['public_5fkey_5ftype',['public_key_type',['../structgraphene_1_1chain_1_1public__key__type.html',1,'graphene::chain']]],
+  ['push_5fproposal_5fnesting_5fguard',['push_proposal_nesting_guard',['../classgraphene_1_1chain_1_1push__proposal__nesting__guard.html',1,'graphene::chain']]]
 ];
