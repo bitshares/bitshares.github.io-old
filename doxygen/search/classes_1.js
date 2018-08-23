@@ -8,6 +8,7 @@ var searchData=
   ['bid_5fcollateral_5foperation',['bid_collateral_operation',['../structgraphene_1_1chain_1_1bid__collateral__operation.html',1,'graphene::chain']]],
   ['binary_5fkey',['binary_key',['../structgraphene_1_1chain_1_1public__key__type_1_1binary__key.html',1,'graphene::chain::public_key_type::binary_key'],['../structgraphene_1_1chain_1_1extended__public__key__type_1_1binary__key.html',1,'graphene::chain::extended_public_key_type::binary_key'],['../structgraphene_1_1chain_1_1extended__private__key__type_1_1binary__key.html',1,'graphene::chain::extended_private_key_type::binary_key']]],
   ['bitasset_5foptions',['bitasset_options',['../structgraphene_1_1chain_1_1bitasset__options.html',1,'graphene::chain']]],
+  ['bitasset_5fshort_5fbacking_5fasset_5fextractor',['bitasset_short_backing_asset_extractor',['../structgraphene_1_1chain_1_1bitasset__short__backing__asset__extractor.html',1,'graphene::chain']]],
   ['blind_5fbalance',['blind_balance',['../structgraphene_1_1wallet_1_1blind__balance.html',1,'graphene::wallet']]],
   ['blind_5fconfirmation',['blind_confirmation',['../structgraphene_1_1wallet_1_1blind__confirmation.html',1,'graphene::wallet']]],
   ['blind_5finput',['blind_input',['../structgraphene_1_1chain_1_1blind__input.html',1,'graphene::chain']]],

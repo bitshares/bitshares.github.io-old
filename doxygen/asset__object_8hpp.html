@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -89,6 +89,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">graphene::chain::asset_bitasset_data_object</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains properties that only apply to bitassets (market issued assets)  <a href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1bitasset__short__backing__asset__extractor.html">graphene::chain::bitasset_short_backing_asset_extractor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -99,8 +101,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a12d9550893cb489b144b087b4280dc6f"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; asset_bitasset_data_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a12d9550893cb489b144b087b4280dc6f">graphene::chain::asset_bitasset_data_object_multi_index_type</a></td></tr>
-<tr class="separator:a12d9550893cb489b144b087b4280dc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0e56b1725c516fa8fdb9a7000899616"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; asset_bitasset_data_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_short_backing_asset &gt;, bitasset_short_backing_asset_extractor &gt;, ordered_unique&lt; tag&lt; by_feed_expiration &gt;, composite_key&lt; asset_bitasset_data_object, const_mem_fun&lt; asset_bitasset_data_object, time_point_sec, &amp;asset_bitasset_data_object::feed_expiration_time &gt;, member&lt; asset_bitasset_data_object, asset_id_type, &amp;asset_bitasset_data_object::asset_id &gt; &gt; &gt;, ordered_non_unique&lt; tag&lt; by_cer_update &gt;, const_mem_fun&lt; asset_bitasset_data_object, bool, &amp;asset_bitasset_data_object::need_to_update_cer &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#af0e56b1725c516fa8fdb9a7000899616">graphene::chain::asset_bitasset_data_object_multi_index_type</a></td></tr>
+<tr class="separator:af0e56b1725c516fa8fdb9a7000899616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a237c018a120acefc4a75f7473a413379"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; asset_bitasset_data_object, asset_bitasset_data_object_multi_index_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379">graphene::chain::asset_bitasset_data_index</a></td></tr>
 <tr class="separator:a237c018a120acefc4a75f7473a413379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec8f0400e76e0ae791bd38ccfee250fd"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; asset_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_symbol &gt;, member&lt; asset_object, string, &amp;asset_object::symbol &gt; &gt;, ordered_non_unique&lt; tag&lt; by_issuer &gt;, member&lt; asset_object, account_id_type, &amp;asset_object::issuer &gt; &gt;, ordered_unique&lt; tag&lt; by_type &gt;, composite_key&lt; asset_object, const_mem_fun&lt; asset_object, bool, &amp;asset_object::is_market_issued &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#aec8f0400e76e0ae791bd38ccfee250fd">graphene::chain::asset_object_multi_index_type</a></td></tr>
@@ -111,7 +113,7 @@ Typedefs</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:41 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:55 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

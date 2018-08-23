@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -72,19 +72,17 @@ $(function() {
 <p>This is the complete list of members for <a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a819517c27c9b5436cea4bd7114d68759">blind</a>(const fc::ecc::blind_factor_type &amp;blind, uint64_t value)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a8e0f5c3c3af4bf399cc2a523fc9a14c8">blind_sign</a>(const extended_private_key_type &amp;key, const fc::ecc::blinded_hash &amp;hash, int i)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#aa1a6caa5122568ca0ae4f5379a2d1943">blind_sum</a>(const std::vector&lt; blind_factor_type &gt; &amp;blinds_in, uint32_t non_neg)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#adcb829f4fc90959164d92b4b285e8085">crypto_api</a>()</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a6765af523fc6dd5e75872782b4ee12b2">range_get_info</a>(const std::vector&lt; char &gt; &amp;proof)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a1923d73235200a4f3da0a4d021a865d2">range_proof_sign</a>(uint64_t min_value, const commitment_type &amp;commit, const blind_factor_type &amp;commit_blind, const blind_factor_type &amp;nonce, int8_t base10_exp, uint8_t min_bits, uint64_t actual_value)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#ac589411b741e0e82e737d316feda3e4f">unblind_signature</a>(const extended_private_key_type &amp;key, const extended_public_key_type &amp;bob, const fc::ecc::blind_signature &amp;sig, const fc::sha256 &amp;hash, int i)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#aa1a6caa5122568ca0ae4f5379a2d1943">blind_sum</a>(const std::vector&lt; blind_factor_type &gt; &amp;blinds_in, uint32_t non_neg)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#adcb829f4fc90959164d92b4b285e8085">crypto_api</a>()</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a6765af523fc6dd5e75872782b4ee12b2">range_get_info</a>(const std::vector&lt; char &gt; &amp;proof)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a1923d73235200a4f3da0a4d021a865d2">range_proof_sign</a>(uint64_t min_value, const commitment_type &amp;commit, const blind_factor_type &amp;commit_blind, const blind_factor_type &amp;nonce, int8_t base10_exp, uint8_t min_bits, uint64_t actual_value)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a5310e5955a16937db91c99a8fea0ffe6">verify_range</a>(const fc::ecc::commitment_type &amp;commit, const std::vector&lt; char &gt; &amp;proof)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#af49d58d9538c6908ea320887af07d9f3">verify_range_proof_rewind</a>(const blind_factor_type &amp;nonce, const fc::ecc::commitment_type &amp;commit, const std::vector&lt; char &gt; &amp;proof)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#ad9c6f9589828b10f4cc8bfe4a6a359d3">verify_sum</a>(const std::vector&lt; commitment_type &gt; &amp;commits_in, const std::vector&lt; commitment_type &gt; &amp;neg_commits_in, int64_t excess)</td><td class="entry"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html">graphene::app::crypto_api</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:41 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

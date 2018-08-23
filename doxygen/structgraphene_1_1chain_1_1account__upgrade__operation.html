@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -138,7 +138,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This operation is used to upgrade an account to a member, or renew its subscription. If an account which is an unexpired annual subscription member publishes this operation with <a class="el" href="structgraphene_1_1chain_1_1account__upgrade__operation.html#ae1f636f8599fcd45cb5db5ec4be0f4d8">upgrade_to_lifetime_member</a> set to false, the account's membership expiration date will be pushed backward one year. If a basic account publishes it with <a class="el" href="structgraphene_1_1chain_1_1account__upgrade__operation.html#ae1f636f8599fcd45cb5db5ec4be0f4d8">upgrade_to_lifetime_member</a> set to false, the account will be upgraded to a subscription member with an expiration date one year after the processing time of this operation. </p>
 <p>Any account may use this operation to become a lifetime member by setting <a class="el" href="structgraphene_1_1chain_1_1account__upgrade__operation.html#ae1f636f8599fcd45cb5db5ec4be0f4d8">upgrade_to_lifetime_member</a> to true. Once an account has become a lifetime member, it may not use this operation anymore. </p>
 
-<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00219">219</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00225">225</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1619cced52ed5f855d0b04d5998d7dc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1619cced52ed5f855d0b04d5998d7dc7">&#9670;&nbsp;</a></span>calculate_fee()</h2>
@@ -156,7 +156,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00265">265</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00259">259</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
 
 </div>
 </div>
@@ -183,7 +183,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00233">233</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00239">239</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
 
 </div>
 </div>
@@ -202,7 +202,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00273">273</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8cpp_source.html#l00267">267</a> of file <a class="el" href="account_8cpp_source.html">account.cpp</a>.</p>
 
 </div>
 </div>
@@ -221,7 +221,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The account to upgrade; must not already be a lifetime member. </p>
 
-<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00228">228</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00234">234</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
 
 </div>
 </div>
@@ -237,7 +237,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00231">231</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00237">237</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
 
 </div>
 </div>
@@ -253,7 +253,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00226">226</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00232">232</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>If true, the account will be upgraded to a lifetime member; otherwise, it will add a year to the subscription. </p>
 
-<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00230">230</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account_8hpp_source.html#l00236">236</a> of file <a class="el" href="account_8hpp_source.html">account.hpp</a>.</p>
 
 </div>
 </div>
@@ -282,7 +282,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:42 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

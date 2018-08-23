@@ -3,7 +3,6 @@ var searchData=
   ['u256',['u256',['../namespacegraphene_1_1app.html#a68cce708efd2be5859a5e75899e3f4f1',1,'graphene::app']]],
   ['uint128_5famount_5fto_5fstring',['uint128_amount_to_string',['../namespacegraphene_1_1app.html#ac983e2615e3c4305778d61b9f0c4450a',1,'graphene::app']]],
   ['uint128_5ft',['uint128_t',['../namespacegraphene_1_1chain.html#ab6499fee45a9563fe61a7a0b0d39dbde',1,'graphene::chain']]],
-  ['unblind_5fsignature',['unblind_signature',['../classgraphene_1_1app_1_1crypto__api.html#ac589411b741e0e82e737d316feda3e4f',1,'graphene::app::crypto_api']]],
   ['unit_5fprice',['unit_price',['../structgraphene_1_1chain_1_1price.html#aa6718b227f89176f631672c14a1314de',1,'graphene::chain::price']]],
   ['unlock',['unlock',['../classgraphene_1_1wallet_1_1wallet__api.html#ae16994a63cfdef1616b6b968117fd29d',1,'graphene::wallet::wallet_api']]],
   ['unpack',['unpack',['../namespacefc_1_1raw.html#aea32f12afa168b804f56efd15e0f23fc',1,'fc::raw']]],

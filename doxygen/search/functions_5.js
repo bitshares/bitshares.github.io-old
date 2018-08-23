@@ -1,6 +1,7 @@
 var searchData=
 [
   ['enable_5fapi',['enable_api',['../classgraphene_1_1app_1_1login__api.html#a88370072aa9f85cebc9e183dccdac9d5',1,'graphene::app::login_api']]],
+  ['enable_5fstandby_5fvotes_5ftracking',['enable_standby_votes_tracking',['../classgraphene_1_1chain_1_1database.html#abbc9d3f6064163078b9a21c2c580f24b',1,'graphene::chain::database']]],
   ['encrypt_5fkeys',['encrypt_keys',['../classgraphene_1_1wallet_1_1wallet__api.html#a00e6ac75e8dc86221d62bf6c7c87d4e5',1,'graphene::wallet::wallet_api::encrypt_keys()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a730cd01003bd09e6f4d6308b2528a813',1,'graphene::wallet::detail::wallet_api_impl::encrypt_keys()']]],
   ['enqueue_5fif_5fsubscribed_5fto_5fmarket',['enqueue_if_subscribed_to_market',['../classgraphene_1_1app_1_1database__api__impl.html#ac70659cf33483f0113f2559eb18b6903',1,'graphene::app::database_api_impl']]],
   ['error_5fencountered',['error_encountered',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a2a0e962fe925e8e987208e3dc6c21863',1,'graphene::app::detail::application_impl']]],

@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -104,8 +104,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a275df13929af5fe5f5ce8060d2f79974"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; limit_order_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_expiration &gt;, composite_key&lt; limit_order_object, member&lt; limit_order_object, time_point_sec, &amp;limit_order_object::expiration &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_price &gt;, composite_key&lt; limit_order_object, member&lt; limit_order_object, price, &amp;limit_order_object::sell_price &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, composite_key_compare&lt; std::greater&lt; price &gt;, std::less&lt; object_id_type &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_account &gt;, composite_key&lt; limit_order_object, member&lt; limit_order_object, account_id_type, &amp;limit_order_object::seller &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt; &gt;&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a275df13929af5fe5f5ce8060d2f79974">graphene::chain::limit_order_multi_index_type</a></td></tr>
-<tr class="separator:a275df13929af5fe5f5ce8060d2f79974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18f75c5880f6ee028ac36f22fae6ffa"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; limit_order_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_expiration &gt;, composite_key&lt; limit_order_object, member&lt; limit_order_object, time_point_sec, &amp;limit_order_object::expiration &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_price &gt;, composite_key&lt; limit_order_object, member&lt; limit_order_object, price, &amp;limit_order_object::sell_price &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, composite_key_compare&lt; std::greater&lt; price &gt;, std::less&lt; object_id_type &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_account &gt;, composite_key&lt; limit_order_object, member&lt; limit_order_object, account_id_type, &amp;limit_order_object::seller &gt;, member&lt; limit_order_object, price, &amp;limit_order_object::sell_price &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, composite_key_compare&lt; std::less&lt; account_id_type &gt;, std::greater&lt; price &gt;, std::less&lt; object_id_type &gt; &gt; &gt; &gt;&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ab18f75c5880f6ee028ac36f22fae6ffa">graphene::chain::limit_order_multi_index_type</a></td></tr>
+<tr class="separator:ab18f75c5880f6ee028ac36f22fae6ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf4dd0d1046a013faacd7915c57a2576"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; limit_order_object, limit_order_multi_index_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#aaf4dd0d1046a013faacd7915c57a2576">graphene::chain::limit_order_index</a></td></tr>
 <tr class="separator:aaf4dd0d1046a013faacd7915c57a2576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e1685c221ee0974adf63bdb92ee0dd6"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; call_order_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_price &gt;, composite_key&lt; call_order_object, member&lt; call_order_object, price, &amp;call_order_object::call_price &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, composite_key_compare&lt; std::less&lt; price &gt;, std::less&lt; object_id_type &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_account &gt;, composite_key&lt; call_order_object, member&lt; call_order_object, account_id_type, &amp;call_order_object::borrower &gt;, const_mem_fun&lt; call_order_object, asset_id_type, &amp;call_order_object::debt_type &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_collateral &gt;, composite_key&lt; call_order_object, const_mem_fun&lt; call_order_object, price, &amp;call_order_object::collateralization &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt; &gt; &gt;&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a2e1685c221ee0974adf63bdb92ee0dd6">graphene::chain::call_order_multi_index_type</a></td></tr>
@@ -124,7 +124,7 @@ Typedefs</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:41 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

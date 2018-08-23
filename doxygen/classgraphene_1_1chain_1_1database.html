@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -189,6 +189,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92ccabc0b2ed4232e41f44ad57ef321a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73b613c345d2411977fb4f1b12b0b837"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a73b613c345d2411977fb4f1b12b0b837">get_core_asset</a> () const</td></tr>
 <tr class="separator:a73b613c345d2411977fb4f1b12b0b837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32af52750e60217ee3a2d9189c1d5437"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1asset__dynamic__data__object.html">asset_dynamic_data_object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a32af52750e60217ee3a2d9189c1d5437">get_core_dynamic_data</a> () const</td></tr>
+<tr class="separator:a32af52750e60217ee3a2d9189c1d5437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5519a9a8081356fa490be2db554b2e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1chain__property__object.html">chain_property_object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ac5519a9a8081356fa490be2db554b2e6">get_chain_properties</a> () const</td></tr>
 <tr class="separator:ac5519a9a8081356fa490be2db554b2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a464a05994e41fdadd6351114eddaa316"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1global__property__object.html">global_property_object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a464a05994e41fdadd6351114eddaa316">get_global_properties</a> () const</td></tr>
@@ -199,6 +201,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad10d0309e4c878cb896b09bcbdb5e3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a337f8cd5e02c51ffde53b67cc04e2581"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structgraphene_1_1chain_1_1fee__schedule.html">fee_schedule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a337f8cd5e02c51ffde53b67cc04e2581">current_fee_schedule</a> () const</td></tr>
 <tr class="separator:a337f8cd5e02c51ffde53b67cc04e2581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fecc8c74e7c53dc3429bcfebda91775"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html">account_statistics_object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a1fecc8c74e7c53dc3429bcfebda91775">get_account_stats_by_owner</a> (<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> owner) const</td></tr>
+<tr class="separator:a1fecc8c74e7c53dc3429bcfebda91775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e31a33a034747e485b88aa194b048e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1witness__schedule__object.html">witness_schedule_object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a8e31a33a034747e485b88aa194b048e5">get_witness_schedule_object</a> () const</td></tr>
+<tr class="separator:a8e31a33a034747e485b88aa194b048e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa53e34701c0ab1b1c124b9c9e9c50ba1"><td class="memItemLeft" align="right" valign="top">time_point_sec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aa53e34701c0ab1b1c124b9c9e9c50ba1">head_block_time</a> () const</td></tr>
 <tr class="separator:aa53e34701c0ab1b1c124b9c9e9c50ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed39a6bd1c0356d6b7016af12509726d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aed39a6bd1c0356d6b7016af12509726d">head_block_num</a> () const</td></tr>
@@ -249,16 +255,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1752b9a5ae05ebd5bd910d46db3f65ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5036ea052f41fe75fa1a381234b23c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aa5036ea052f41fe75fa1a381234b23c7">fill_settle_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &amp;settle, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, const <a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> &amp;fill_price, const bool is_maker)</td></tr>
 <tr class="separator:aa5036ea052f41fe75fa1a381234b23c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5550a1b725d9c98e4b44f101d9cfe353"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a5550a1b725d9c98e4b44f101d9cfe353">check_call_orders</a> (const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;mia, bool enable_black_swan=true, bool for_new_limit_order=false)</td></tr>
-<tr class="separator:a5550a1b725d9c98e4b44f101d9cfe353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c09c05efe17bfbd639a9a7c9fffd54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a63c09c05efe17bfbd639a9a7c9fffd54">check_call_orders</a> (const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;mia, bool enable_black_swan=true, bool for_new_limit_order=false, const <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a> *bitasset_ptr=nullptr)</td></tr>
+<tr class="separator:a63c09c05efe17bfbd639a9a7c9fffd54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98391f198bc95d206c91da61dc55373d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a98391f198bc95d206c91da61dc55373d">pay_order</a> (const <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &amp;receiver, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;pays)</td></tr>
 <tr class="separator:a98391f198bc95d206c91da61dc55373d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67e467860627363519b8548029102ff1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a67e467860627363519b8548029102ff1">calculate_market_fee</a> (const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;recv_asset, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;trade_amount)</td></tr>
 <tr class="separator:a67e467860627363519b8548029102ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a9971fa9b80be998c1ff8f33726996e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a5a9971fa9b80be998c1ff8f33726996e">pay_market_fees</a> (const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;recv_asset, const <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a> &amp;receives)</td></tr>
 <tr class="separator:a5a9971fa9b80be998c1ff8f33726996e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414ee96a9f64b119cd3849266885d93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a414ee96a9f64b119cd3849266885d93d">validate_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
-<tr class="separator:a414ee96a9f64b119cd3849266885d93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc9d3f6064163078b9a21c2c580f24b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#abbc9d3f6064163078b9a21c2c580f24b">enable_standby_votes_tracking</a> (bool enable)</td></tr>
+<tr class="memdesc:abbc9d3f6064163078b9a21c2c580f24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable tracking of votes of standby witnesses and committee members.  <a href="#abbc9d3f6064163078b9a21c2c580f24b">More...</a><br /></td></tr>
+<tr class="separator:abbc9d3f6064163078b9a21c2c580f24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9556e43f26824c2036c8916d0bc460c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#af9556e43f26824c2036c8916d0bc460c">apply_block</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;next_block, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
 <tr class="separator:af9556e43f26824c2036c8916d0bc460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaadc49139eb020b3b1e91b60b128e49f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aaadc49139eb020b3b1e91b60b128e49f">apply_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
@@ -303,8 +310,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a89c462c2ed0224b34cd6b6b06985d046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa30b505cfa4e5cdc9a0b354d49e89e"><td class="memItemLeft" align="right" valign="top">fc::signal&lt; void(const vector&lt; object_id_type &gt; &amp;, const vector&lt; const object * &gt; &amp;, const flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a9aa30b505cfa4e5cdc9a0b354d49e89e">removed_objects</a></td></tr>
 <tr class="separator:a9aa30b505cfa4e5cdc9a0b354d49e89e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94b3cf5753e4cf16d06840971c782db0"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a94b3cf5753e4cf16d06840971c782db0">_popped_tx</a></td></tr>
-<tr class="separator:a94b3cf5753e4cf16d06840971c782db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -316,11 +321,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a9b827a50067542ef8c1ea9f2e6177f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3f480762bbb94cfecf98dd81fe3ed6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ae3f480762bbb94cfecf98dd81fe3ed6e">notify_changed_objects</a> ()</td></tr>
 <tr class="separator:ae3f480762bbb94cfecf98dd81fe3ed6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b3cf5753e4cf16d06840971c782db0"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a94b3cf5753e4cf16d06840971c782db0">_popped_tx</a></td></tr>
+<tr class="separator:a94b3cf5753e4cf16d06840971c782db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414ee96a9f64b119cd3849266885d93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a414ee96a9f64b119cd3849266885d93d">validate_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
+<tr class="separator:a414ee96a9f64b119cd3849266885d93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>tracks the blockchain state in an extensible manner </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00057">57</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00055">55</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a6de6add85d012876641f2a50ad707726"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6de6add85d012876641f2a50ad707726">&#9670;&nbsp;</a></span>validation_steps</h2>
@@ -361,7 +370,7 @@ Protected Member Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00065">65</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00063">63</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -381,7 +390,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00038">38</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00041">41</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -400,7 +409,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00044">44</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00047">47</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -437,7 +446,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00321">321</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00342">342</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -498,7 +507,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00687">687</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00712">712</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -567,7 +576,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00476">476</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00497">497</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -616,7 +625,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00642">642</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00667">667</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -716,7 +725,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00558">558</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00583">583</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -735,7 +744,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00693">693</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00718">718</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -765,7 +774,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01102">1102</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01112">1112</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -865,8 +874,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5550a1b725d9c98e4b44f101d9cfe353"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5550a1b725d9c98e4b44f101d9cfe353">&#9670;&nbsp;</a></span>check_call_orders()</h2>
+<a id="a63c09c05efe17bfbd639a9a7c9fffd54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63c09c05efe17bfbd639a9a7c9fffd54">&#9670;&nbsp;</a></span>check_call_orders()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -887,7 +896,13 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>for_new_limit_order</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>for_new_limit_order</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1asset__bitasset__data__object.html">asset_bitasset_data_object</a> *&#160;</td>
+          <td class="paramname"><em>bitasset_ptr</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -927,7 +942,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00441">441</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00462">462</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -947,7 +962,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00181">181</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00193">193</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -966,7 +981,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00055">55</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00060">60</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1042,7 +1057,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00129">129</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00131">131</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
 
 </div>
 </div>
@@ -1095,7 +1110,7 @@ Protected Member Functions</h2></td></tr>
 <p>Otherwise, credit amount to ovbid.</p>
 <dl class="section return"><dt>Returns</dt><dd>ID of newly created VBO, but only if VBO was created. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00081">81</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00083">83</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1140,37 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00166">166</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00172">172</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abbc9d3f6064163078b9a21c2c580f24b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc9d3f6064163078b9a21c2c580f24b">&#9670;&nbsp;</a></span>enable_standby_votes_tracking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::database::enable_standby_votes_tracking </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable or disable tracking of votes of standby witnesses and committee members. </p>
+
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00417">417</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -1400,7 +1445,27 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00306">306</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00327">327</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1fecc8c74e7c53dc3429bcfebda91775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fecc8c74e7c53dc3429bcfebda91775">&#9670;&nbsp;</a></span>get_account_stats_by_owner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgraphene_1_1chain_1_1account__statistics__object.html">account_statistics_object</a> &amp; graphene::chain::database::get_account_stats_by_owner </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>&#160;</td>
+          <td class="paramname"><em>owner</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00105">105</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1484,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00469">469</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00490">490</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -1550,7 +1615,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00080">80</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00085">85</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1569,7 +1634,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00045">45</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00050">50</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1596,7 +1661,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00137">137</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00135">135</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -1619,6 +1684,25 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a32af52750e60217ee3a2d9189c1d5437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32af52750e60217ee3a2d9189c1d5437">&#9670;&nbsp;</a></span>get_core_dynamic_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgraphene_1_1chain_1_1asset__dynamic__data__object.html">asset_dynamic_data_object</a> &amp; graphene::chain::database::get_core_dynamic_data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00040">40</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a3d8bc74b9cd108aaff1ed60de7fbfeb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d8bc74b9cd108aaff1ed60de7fbfeb3">&#9670;&nbsp;</a></span>get_dynamic_global_properties()</h2>
 
@@ -1634,7 +1718,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00050">50</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00055">55</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1653,7 +1737,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00040">40</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00045">45</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1672,7 +1756,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00085">85</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00090">90</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1768,6 +1852,25 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8e31a33a034747e485b88aa194b048e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e31a33a034747e485b88aa194b048e5">&#9670;&nbsp;</a></span>get_witness_schedule_object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgraphene_1_1chain_1_1witness__schedule__object.html">witness_schedule_object</a> &amp; graphene::chain::database::get_witness_schedule_object </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00113">113</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a500db4fc078f64b18d99c19d45fe8b13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a500db4fc078f64b18d99c19d45fe8b13">&#9670;&nbsp;</a></span>globally_settle_asset()</h2>
 
@@ -1817,7 +1920,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00070">70</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00075">75</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1836,7 +1939,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00065">65</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00070">70</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1855,7 +1958,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00060">60</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00065">65</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1993,7 +2096,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00095">95</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00100">100</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -2149,7 +2252,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00090">90</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00095">95</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -2177,7 +2280,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00415">415</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00416">416</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
 
 </div>
 </div>
@@ -2204,7 +2307,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00425">425</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00426">426</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
 
 </div>
 </div>
@@ -2232,7 +2335,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00420">420</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__notify_8cpp_source.html#l00421">421</a> of file <a class="el" href="db__notify_8cpp_source.html">db_notify.cpp</a>.</p>
 
 </div>
 </div>
@@ -2280,7 +2383,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00136">136</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00139">139</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -2310,7 +2413,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01122">1122</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01132">1132</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2346,7 +2449,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01090">1090</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l01100">1100</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
 
 </div>
 </div>
@@ -2366,7 +2469,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Removes the most recent block from the database and undoes any changes it made. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00427">427</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00448">448</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2393,7 +2496,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00415">415</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00421">421</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2415,7 +2518,7 @@ Protected Member Functions</h2></td></tr>
 <p>This method is used to track appied operations during the evaluation of a block, these operations should include any operation actually included in a transaction as well as any implied/virtual operations that resulted, such as filling an order. The applied operations is cleared after applying each block and calling the block observers which may want to index these operations.</p>
 <dl class="section return"><dt>Returns</dt><dd>the op_id which can be used to set the result after it has finished being applied. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00448">448</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00469">469</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2473,7 +2576,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00269">269</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00287">287</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2534,7 +2637,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00280">280</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00281">281</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2557,7 +2660,7 @@ template&lt;typename EvaluatorType &gt; </div>
 <p>Rebuild object graph from block history and open detabase. </p>
 <p>This method may be called after or instead of <a class="el" href="classgraphene_1_1chain_1_1database.html#a2d5356973d8d14d8267b7d49a2c6d939">database::open</a>, and will rebuild the object graph by replaying blockchain history. When this method exits successfully, the database will be open. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00049">49</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00052">52</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -2607,7 +2710,7 @@ template&lt;typename EvaluatorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00458">458</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00479">479</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2647,7 +2750,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>High performance random generator <a href="http://xorshift.di.unimi.it/">http://xorshift.di.unimi.it/</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="db__witness__schedule_8cpp_source.html#l00086">86</a> of file <a class="el" href="db__witness__schedule_8cpp_source.html">db_witness_schedule.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__witness__schedule_8cpp_source.html#l00102">102</a> of file <a class="el" href="db__witness__schedule_8cpp_source.html">db_witness_schedule.cpp</a>.</p>
 
 </div>
 </div>
@@ -2707,7 +2810,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </dl>
 <p>Will close the database before wiping. Database will be closed when this function returns. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00125">125</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00128">128</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -2727,7 +2830,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>Calculate the percent of block production slots that were missed in the past 128 blocks, not including the current block. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__witness__schedule_8cpp_source.html#l00080">80</a> of file <a class="el" href="db__witness__schedule_8cpp_source.html">db_witness_schedule.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__witness__schedule_8cpp_source.html#l00096">96</a> of file <a class="el" href="db__witness__schedule_8cpp_source.html">db_witness_schedule.cpp</a>.</p>
 
 </div>
 </div>
@@ -2745,7 +2848,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>when popping a block, the transactions that were removed get cached here so they can be reapplied at the proper time </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00408">408</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00410">410</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2763,7 +2866,7 @@ template&lt;typename EvaluatorType &gt; </div>
 <p>This signal is emitted after all operations and virtual operation for a block have been applied but before the <a class="el" href="classgraphene_1_1chain_1_1database.html#a87c74f1ef2f8840261c3d9789151b305">get_applied_operations()</a> are cleared.</p>
 <p>You may not yield from this callback because the blockchain is holding the write lock and may be in an "inconstant state" until after it is released. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00186">186</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00184">184</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2780,7 +2883,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>Emitted After a block has been applied and committed. The callback should not yield and should execute quickly. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00204">204</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00202">202</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2797,7 +2900,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>Emitted After a block has been applied and committed. The callback should not yield and should execute quickly. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00198">198</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00196">196</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2814,7 +2917,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>This signal is emitted any time a new transaction is added to the pending block state. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00192">192</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00190">190</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2831,7 +2934,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>this signal is emitted any time an object is removed and contains a pointer to the last value of every object that was removed. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00209">209</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00207">207</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2852,7 +2955,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:42 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:57 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180612</span>
+   &#160;<span id="projectnumber">2.0.180823</span>
    </div>
-   <div id="projectbrief">The underlying software running the BitShares Blockchain</div>
+   <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
  </tr>
  </tbody>
@@ -81,17 +81,17 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad034d3e3420e431ad72159b9f3bd807a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#ad034d3e3420e431ad72159b9f3bd807a">history_api</a> (<a class="el" href="classgraphene_1_1app_1_1application.html">application</a> &amp;app)</td></tr>
 <tr class="separator:ad034d3e3420e431ad72159b9f3bd807a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b8555a66749ee9a33180c1d666da323"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a4b8555a66749ee9a33180c1d666da323">get_account_history</a> (<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> account, <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> stop=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), unsigned limit=100, <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> start=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>()) const</td></tr>
-<tr class="memdesc:a4b8555a66749ee9a33180c1d666da323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get operations relevant to the specificed account.  <a href="#a4b8555a66749ee9a33180c1d666da323">More...</a><br /></td></tr>
-<tr class="separator:a4b8555a66749ee9a33180c1d666da323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88f9d87337072cdb28a26bf6cdc3dd03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1app_1_1history__operation__detail.html">history_operation_detail</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a88f9d87337072cdb28a26bf6cdc3dd03">get_account_history_by_operations</a> (<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> account, vector&lt; uint16_t &gt; operation_types, uint32_t start, unsigned limit)</td></tr>
-<tr class="memdesc:a88f9d87337072cdb28a26bf6cdc3dd03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get operations relevant to the specified account filtering by operation type.  <a href="#a88f9d87337072cdb28a26bf6cdc3dd03">More...</a><br /></td></tr>
-<tr class="separator:a88f9d87337072cdb28a26bf6cdc3dd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a902b606bc8b03785cadbc317cdf1078a"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a902b606bc8b03785cadbc317cdf1078a">get_account_history_operations</a> (<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> account, int operation_id, <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> start=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> stop=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), unsigned limit=100) const</td></tr>
-<tr class="memdesc:a902b606bc8b03785cadbc317cdf1078a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get only asked operations relevant to the specified account.  <a href="#a902b606bc8b03785cadbc317cdf1078a">More...</a><br /></td></tr>
-<tr class="separator:a902b606bc8b03785cadbc317cdf1078a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2ee92d31ed8ac2da1ec7f074ae018be"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#ad2ee92d31ed8ac2da1ec7f074ae018be">get_relative_account_history</a> (<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> account, uint32_t stop=0, unsigned limit=100, uint32_t start=0) const</td></tr>
-<tr class="separator:ad2ee92d31ed8ac2da1ec7f074ae018be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b3af7edeea81534a4db9e83b2cbd88"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a70b3af7edeea81534a4db9e83b2cbd88">get_account_history</a> (const std::string account_id_or_name, <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> stop=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), unsigned limit=100, <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> start=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>()) const</td></tr>
+<tr class="memdesc:a70b3af7edeea81534a4db9e83b2cbd88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get operations relevant to the specificed account.  <a href="#a70b3af7edeea81534a4db9e83b2cbd88">More...</a><br /></td></tr>
+<tr class="separator:a70b3af7edeea81534a4db9e83b2cbd88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa089e3b3c533e4f195c6af5c230c8a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1app_1_1history__operation__detail.html">history_operation_detail</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#aa089e3b3c533e4f195c6af5c230c8a3b">get_account_history_by_operations</a> (const std::string account_id_or_name, vector&lt; uint16_t &gt; operation_types, uint32_t start, unsigned limit)</td></tr>
+<tr class="memdesc:aa089e3b3c533e4f195c6af5c230c8a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get operations relevant to the specified account filtering by operation type.  <a href="#aa089e3b3c533e4f195c6af5c230c8a3b">More...</a><br /></td></tr>
+<tr class="separator:aa089e3b3c533e4f195c6af5c230c8a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e565b2a56a736c31215fb96d216fc9"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a67e565b2a56a736c31215fb96d216fc9">get_account_history_operations</a> (const std::string account_id_or_name, int operation_id, <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> start=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> stop=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), unsigned limit=100) const</td></tr>
+<tr class="memdesc:a67e565b2a56a736c31215fb96d216fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get only asked operations relevant to the specified account.  <a href="#a67e565b2a56a736c31215fb96d216fc9">More...</a><br /></td></tr>
+<tr class="separator:a67e565b2a56a736c31215fb96d216fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a610a202a478e582e891f729bcbcf90b0"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a610a202a478e582e891f729bcbcf90b0">get_relative_account_history</a> (const std::string account_id_or_name, uint32_t stop=0, unsigned limit=100, uint32_t start=0) const</td></tr>
+<tr class="separator:a610a202a478e582e891f729bcbcf90b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1574597fa10804bf328b89c12f6f7a9f"><td class="memItemLeft" align="right" valign="top">vector&lt; order_history_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a1574597fa10804bf328b89c12f6f7a9f">get_fill_order_history</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> b, uint32_t limit) const</td></tr>
 <tr class="separator:a1574597fa10804bf328b89c12f6f7a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5e379a09632a3e215554cd9ef37dcd9"><td class="memItemLeft" align="right" valign="top">vector&lt; bucket_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#ab5e379a09632a3e215554cd9ef37dcd9">get_market_history</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> b, uint32_t bucket_seconds, fc::time_point_sec start, fc::time_point_sec end) const</td></tr>
@@ -134,8 +134,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4b8555a66749ee9a33180c1d666da323"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b8555a66749ee9a33180c1d666da323">&#9670;&nbsp;</a></span>get_account_history()</h2>
+<a id="a70b3af7edeea81534a4db9e83b2cbd88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b3af7edeea81534a4db9e83b2cbd88">&#9670;&nbsp;</a></span>get_account_history()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,8 +143,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt; graphene::app::history_api::get_account_history </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>&#160;</td>
-          <td class="paramname"><em>account</em>, </td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>account_id_or_name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -175,7 +175,7 @@ Public Member Functions</h2></td></tr>
 <p>Get operations relevant to the specificed account. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">account</td><td>The account whose history should be queried </td></tr>
+    <tr><td class="paramname">account_id_or_name</td><td>The account ID or name whose history should be queried </td></tr>
     <tr><td class="paramname">stop</td><td>ID of the earliest operation to retrieve </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of operations to retrieve (must not exceed 100) </td></tr>
     <tr><td class="paramname">start</td><td>ID of the most recent operation to retrieve </td></tr>
@@ -184,12 +184,12 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A list of operations performed by account, ordered from most recent to oldest. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00312">312</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00311">311</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a88f9d87337072cdb28a26bf6cdc3dd03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88f9d87337072cdb28a26bf6cdc3dd03">&#9670;&nbsp;</a></span>get_account_history_by_operations()</h2>
+<a id="aa089e3b3c533e4f195c6af5c230c8a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa089e3b3c533e4f195c6af5c230c8a3b">&#9670;&nbsp;</a></span>get_account_history_by_operations()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,8 +197,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structgraphene_1_1app_1_1history__operation__detail.html">history_operation_detail</a> graphene::app::history_api::get_account_history_by_operations </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>&#160;</td>
-          <td class="paramname"><em>account</em>, </td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>account_id_or_name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -229,7 +229,7 @@ Public Member Functions</h2></td></tr>
 <p>Get operations relevant to the specified account filtering by operation type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">account</td><td>The account whose history should be queried </td></tr>
+    <tr><td class="paramname">account_id_or_name</td><td>The account ID or name whose history should be queried </td></tr>
     <tr><td class="paramname">operation_types</td><td>The IDs of the operation we want to get operations in the account( 0 = transfer , 1 = limit order create, ...) </td></tr>
     <tr><td class="paramname">start</td><td>the sequence number where to start looping back throw the history </td></tr>
     <tr><td class="paramname">limit</td><td>the max number of entries to return (from start number) </td></tr>
@@ -238,12 +238,12 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="structgraphene_1_1app_1_1history__operation__detail.html">history_operation_detail</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00422">422</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00430">430</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a902b606bc8b03785cadbc317cdf1078a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a902b606bc8b03785cadbc317cdf1078a">&#9670;&nbsp;</a></span>get_account_history_operations()</h2>
+<a id="a67e565b2a56a736c31215fb96d216fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e565b2a56a736c31215fb96d216fc9">&#9670;&nbsp;</a></span>get_account_history_operations()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,8 +251,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt; graphene::app::history_api::get_account_history_operations </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>&#160;</td>
-          <td class="paramname"><em>account</em>, </td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>account_id_or_name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -289,7 +289,7 @@ Public Member Functions</h2></td></tr>
 <p>Get only asked operations relevant to the specified account. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">account</td><td>The account whose history should be queried </td></tr>
+    <tr><td class="paramname">account_id_or_name</td><td>The account ID or name whose history should be queried </td></tr>
     <tr><td class="paramname">operation_id</td><td>The ID of the operation we want to get operations in the account( 0 = transfer , 1 = limit order create, ...) </td></tr>
     <tr><td class="paramname">stop</td><td>ID of the earliest operation to retrieve </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of operations to retrieve (must not exceed 100) </td></tr>
@@ -299,7 +299,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A list of operations performed by account, ordered from most recent to oldest. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00345">345</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00346">346</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00287">287</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00286">286</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -383,7 +383,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00437">437</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00445">445</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -402,12 +402,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00415">415</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00423">423</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ad2ee92d31ed8ac2da1ec7f074ae018be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2ee92d31ed8ac2da1ec7f074ae018be">&#9670;&nbsp;</a></span>get_relative_account_history()</h2>
+<a id="a610a202a478e582e891f729bcbcf90b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a610a202a478e582e891f729bcbcf90b0">&#9670;&nbsp;</a></span>get_relative_account_history()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,8 +415,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt; graphene::app::history_api::get_relative_account_history </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>&#160;</td>
-          <td class="paramname"><em>account</em>, </td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>account_id_or_name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -445,7 +445,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Get operations relevant to the specified account referenced by an event numbering specific to the account. The current number of operations for the account can be found in the account statistics (or use 0 for start). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">account</td><td>The account whose history should be queried </td></tr>
+    <tr><td class="paramname">account_id_or_name</td><td>The account ID or name whose history should be queried </td></tr>
     <tr><td class="paramname">stop</td><td>Sequence number of earliest operation. 0 is default and will query 'limit' number of operations. </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of operations to retrieve (must not exceed 100) </td></tr>
     <tr><td class="paramname">start</td><td>Sequence number of the most recent operation to retrieve. 0 is default, which will start querying from the most recent operation. </td></tr>
@@ -454,7 +454,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A list of operations performed by account, ordered from most recent to oldest. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00381">381</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00386">386</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -465,7 +465,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 12:30:41 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

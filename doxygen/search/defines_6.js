@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vesting_5fvisitor',['VESTING_VISITOR',['../vesting__balance__object_8cpp.html#a679079687d3fc4686413f95d6d6d0fea',1,'vesting_balance_object.cpp']]]
+  ['range_5fproof_5fmantissa',['RANGE_PROOF_MANTISSA',['../wallet_8cpp.html#ad89817c97551a03c50414835f6312179',1,'wallet.cpp']]]
 ];

@@ -7,7 +7,6 @@ var searchData=
   ['bitasset_5fdata',['bitasset_data',['../classgraphene_1_1chain_1_1asset__object.html#a92611ccbf1c28aef5649a96ec8c5b712',1,'graphene::chain::asset_object']]],
   ['blind',['blind',['../classgraphene_1_1app_1_1crypto__api.html#a819517c27c9b5436cea4bd7114d68759',1,'graphene::app::crypto_api']]],
   ['blind_5fhistory',['blind_history',['../classgraphene_1_1wallet_1_1wallet__api.html#a5ff47c6fd55fb231cf5b5a5fe36354b2',1,'graphene::wallet::wallet_api']]],
-  ['blind_5fsign',['blind_sign',['../classgraphene_1_1app_1_1crypto__api.html#a8e0f5c3c3af4bf399cc2a523fc9a14c8',1,'graphene::app::crypto_api']]],
   ['blind_5fsum',['blind_sum',['../classgraphene_1_1app_1_1crypto__api.html#aa1a6caa5122568ca0ae4f5379a2d1943',1,'graphene::app::crypto_api']]],
   ['blind_5ftransfer',['blind_transfer',['../classgraphene_1_1wallet_1_1wallet__api.html#a85e46a0471d5f9ae0ea122a70a7ce335',1,'graphene::wallet::wallet_api']]],
   ['blind_5ftransfer_5fhelp',['blind_transfer_help',['../classgraphene_1_1wallet_1_1wallet__api.html#afef588f960e80bfdc628a870206fbb7f',1,'graphene::wallet::wallet_api']]],

@@ -25,7 +25,7 @@ var searchData=
   ['limit_5forder_5fgroup',['limit_order_group',['../structgraphene_1_1app_1_1limit__order__group.html',1,'graphene::app::limit_order_group'],['../structgraphene_1_1app_1_1limit__order__group.html#a45196186312f6e0a72f6002d0ec583ee',1,'graphene::app::limit_order_group::limit_order_group(const std::pair&lt; limit_order_group_key, limit_order_group_data &gt; &amp;p)'],['../structgraphene_1_1app_1_1limit__order__group.html#a2d5d2a9c6c0886de20d20fd8d3241f01',1,'graphene::app::limit_order_group::limit_order_group()']]],
   ['limit_5forder_5fid_5ftype',['limit_order_id_type',['../namespacegraphene_1_1chain.html#a9a84db1c3acc33b2fd7c8de9969a8e06',1,'graphene::chain']]],
   ['limit_5forder_5findex',['limit_order_index',['../namespacegraphene_1_1chain.html#aaf4dd0d1046a013faacd7915c57a2576',1,'graphene::chain']]],
-  ['limit_5forder_5fmulti_5findex_5ftype',['limit_order_multi_index_type',['../namespacegraphene_1_1chain.html#a275df13929af5fe5f5ce8060d2f79974',1,'graphene::chain']]],
+  ['limit_5forder_5fmulti_5findex_5ftype',['limit_order_multi_index_type',['../namespacegraphene_1_1chain.html#ab18f75c5880f6ee028ac36f22fae6ffa',1,'graphene::chain']]],
   ['limit_5forder_5fobject',['limit_order_object',['../classgraphene_1_1chain_1_1limit__order__object.html',1,'graphene::chain']]],
   ['limit_5forder_5fobject_5ftype',['limit_order_object_type',['../namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da3e9e54544b9f7e7b5343f6a7d95ea593',1,'graphene::chain']]],
   ['limit_5forders',['limit_orders',['../structgraphene_1_1app_1_1full__account.html#a8a7da90d80002d1b61aa9d16b13547e7',1,'graphene::app::full_account']]],
