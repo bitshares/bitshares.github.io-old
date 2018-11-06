@@ -11,7 +11,7 @@ var searchData=
   ['account_5fstats_5fmulti_5findex_5ftype',['account_stats_multi_index_type',['../namespacegraphene_1_1chain.html#acefe595cfd37bc8f926655eb96f1b291',1,'graphene::chain']]],
   ['account_5ftransaction_5fhistory_5fid_5ftype',['account_transaction_history_id_type',['../namespacegraphene_1_1chain.html#a55238260801231918a43259ed4e3e29f',1,'graphene::chain']]],
   ['account_5ftransaction_5fhistory_5findex',['account_transaction_history_index',['../namespacegraphene_1_1chain.html#a2f5ae5a61a0c45744eebd38df81927fc',1,'graphene::chain']]],
-  ['account_5ftransaction_5fhistory_5fmulti_5findex_5ftype',['account_transaction_history_multi_index_type',['../namespacegraphene_1_1chain.html#a9a1551fad0b11fb1b00374b0768ed617',1,'graphene::chain']]],
+  ['account_5ftransaction_5fhistory_5fmulti_5findex_5ftype',['account_transaction_history_multi_index_type',['../namespacegraphene_1_1chain.html#a9815651fea36aadd403a46cf1a8fd7b9',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5fid_5ftype',['asset_bitasset_data_id_type',['../namespacegraphene_1_1chain.html#abd48ba1ebfcc2fd007dbbe91f54407aa',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5findex',['asset_bitasset_data_index',['../namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5fobject_5fmulti_5findex_5ftype',['asset_bitasset_data_object_multi_index_type',['../namespacegraphene_1_1chain.html#af0e56b1725c516fa8fdb9a7000899616',1,'graphene::chain']]],

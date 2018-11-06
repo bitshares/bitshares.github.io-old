@@ -10,7 +10,6 @@ var searchData=
   ['block_5fid_5ftype',['block_id_type',['../namespacegraphene_1_1chain.html#a314b030d7a6107c5641fd9945da7f568',1,'graphene::chain']]],
   ['block_5fsummary_5fid_5ftype',['block_summary_id_type',['../namespacegraphene_1_1chain.html#aa525be941e400a08c8a24907a950bf40',1,'graphene::chain']]],
   ['branch_5ftype',['branch_type',['../classgraphene_1_1chain_1_1fork__database.html#a1f06faf4817e8fedc44cb3b56f77ee1a',1,'graphene::chain::fork_database']]],
-  ['budget_5frecord_5fid_5ftype',['budget_record_id_type',['../namespacegraphene_1_1chain.html#a099a839fe65d5b1148f713db000f08db',1,'graphene::chain']]],
   ['buyback_5fid_5ftype',['buyback_id_type',['../namespacegraphene_1_1chain.html#ab810d1e3d1612634e0ae55ee1c2c2521',1,'graphene::chain']]],
   ['buyback_5findex',['buyback_index',['../namespacegraphene_1_1chain.html#a7b63693dcd3b636ec4eee6e5c3578437',1,'graphene::chain']]],
   ['buyback_5fmulti_5findex_5ftype',['buyback_multi_index_type',['../namespacegraphene_1_1chain.html#a932a9aa2b03888d94ef585a1d2104367',1,'graphene::chain']]]

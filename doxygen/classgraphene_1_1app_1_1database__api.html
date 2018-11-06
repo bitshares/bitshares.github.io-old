@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180823</span>
+   &#160;<span id="projectnumber">2.0.181105</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -213,10 +213,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a132cb42e396809a9e1910bb0fe44e163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vector of 24 hour volume markets sorted by reverse base_volume Note: this API is experimental and subject to change in next releases.  <a href="#a132cb42e396809a9e1910bb0fe44e163">More...</a><br /></td></tr>
 <tr class="separator:a132cb42e396809a9e1910bb0fe44e163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f345996512773054dcc2d76bb30770"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structgraphene_1_1app_1_1market__trade.html">market_trade</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ab9f345996512773054dcc2d76bb30770">get_trade_history</a> (const string &amp;base, const string &amp;quote, fc::time_point_sec start, fc::time_point_sec stop, unsigned limit=100) const</td></tr>
-<tr class="memdesc:ab9f345996512773054dcc2d76bb30770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns recent trades for the market assetA:assetB, ordered by time, most recent first. The range is [stop, start) Note: Currently, timezone offsets are not supported. The time must be UTC.  <a href="#ab9f345996512773054dcc2d76bb30770">More...</a><br /></td></tr>
+<tr class="memdesc:ab9f345996512773054dcc2d76bb30770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns recent trades for the market base:quote, ordered by time, most recent first. Note: Currently, timezone offsets are not supported. The time must be UTC. The range is [stop, start). In case when there are more than 100 trades occurred in the same second, this API only returns the first 100 records, can use another API <code>get_trade_history_by_sequence</code> to query for the rest.  <a href="#ab9f345996512773054dcc2d76bb30770">More...</a><br /></td></tr>
 <tr class="separator:ab9f345996512773054dcc2d76bb30770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19c22f540701825c9292e4a790a4b0d3"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structgraphene_1_1app_1_1market__trade.html">market_trade</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a19c22f540701825c9292e4a790a4b0d3">get_trade_history_by_sequence</a> (const string &amp;base, const string &amp;quote, int64_t start, fc::time_point_sec stop, unsigned limit=100) const</td></tr>
-<tr class="memdesc:a19c22f540701825c9292e4a790a4b0d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns trades for the market assetA:assetB, ordered by time, most recent first. The range is [stop, start) Note: Currently, timezone offsets are not supported. The time must be UTC.  <a href="#a19c22f540701825c9292e4a790a4b0d3">More...</a><br /></td></tr>
+<tr class="memdesc:a19c22f540701825c9292e4a790a4b0d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns trades for the market base:quote, ordered by time, most recent first. Note: Currently, timezone offsets are not supported. The time must be UTC. The range is [stop, start).  <a href="#a19c22f540701825c9292e4a790a4b0d3">More...</a><br /></td></tr>
 <tr class="separator:a19c22f540701825c9292e4a790a4b0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f6a78e1b086b71d76c13c61344373a"><td class="memItemLeft" align="right" valign="top">vector&lt; optional&lt; <a class="el" href="classgraphene_1_1chain_1_1witness__object.html">witness_object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a74f6a78e1b086b71d76c13c61344373a">get_witnesses</a> (const vector&lt; <a class="el" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> &gt; &amp;witness_ids) const</td></tr>
 <tr class="memdesc:a74f6a78e1b086b71d76c13c61344373a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of witnesses by ID.  <a href="#a74f6a78e1b086b71d76c13c61344373a">More...</a><br /></td></tr>
@@ -1648,14 +1648,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns recent trades for the market assetA:assetB, ordered by time, most recent first. The range is [stop, start) Note: Currently, timezone offsets are not supported. The time must be UTC. </p>
+<p>Returns recent trades for the market base:quote, ordered by time, most recent first. Note: Currently, timezone offsets are not supported. The time must be UTC. The range is [stop, start). In case when there are more than 100 trades occurred in the same second, this API only returns the first 100 records, can use another API <code>get_trade_history_by_sequence</code> to query for the rest. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>String name of the first asset </td></tr>
-    <tr><td class="paramname">b</td><td>String name of the second asset </td></tr>
-    <tr><td class="paramname">stop</td><td>Stop time as a UNIX timestamp, the earliest trade to retrieve </td></tr>
-    <tr><td class="paramname">limit</td><td>Number of trasactions to retrieve, capped at 100 </td></tr>
+    <tr><td class="paramname">base</td><td>symbol or ID of the base asset </td></tr>
+    <tr><td class="paramname">quote</td><td>symbol or ID of the quote asset </td></tr>
     <tr><td class="paramname">start</td><td>Start time as a UNIX timestamp, the latest trade to retrieve </td></tr>
+    <tr><td class="paramname">stop</td><td>Stop time as a UNIX timestamp, the earliest trade to retrieve </td></tr>
+    <tr><td class="paramname">limit</td><td>Number of trasactions to retrieve, capped at 100. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1709,14 +1709,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns trades for the market assetA:assetB, ordered by time, most recent first. The range is [stop, start) Note: Currently, timezone offsets are not supported. The time must be UTC. </p>
+<p>Returns trades for the market base:quote, ordered by time, most recent first. Note: Currently, timezone offsets are not supported. The time must be UTC. The range is [stop, start). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>String name of the first asset </td></tr>
-    <tr><td class="paramname">b</td><td>String name of the second asset </td></tr>
+    <tr><td class="paramname">base</td><td>symbol or ID of the base asset </td></tr>
+    <tr><td class="paramname">quote</td><td>symbol or ID of the quote asset </td></tr>
+    <tr><td class="paramname">start</td><td>Start sequence as an Integer, the latest trade to retrieve </td></tr>
     <tr><td class="paramname">stop</td><td>Stop time as a UNIX timestamp, the earliest trade to retrieve </td></tr>
     <tr><td class="paramname">limit</td><td>Number of trasactions to retrieve, capped at 100 </td></tr>
-    <tr><td class="paramname">start</td><td>Start sequence as an Integer, the latest trade to retrieve </td></tr>
   </table>
   </dd>
 </dl>
@@ -2599,7 +2599,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

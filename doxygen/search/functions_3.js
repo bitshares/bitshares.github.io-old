@@ -27,6 +27,7 @@ var searchData=
   ['clean_5fname',['clean_name',['../namespacegraphene_1_1wallet_1_1impl.html#aec83796865d745f152820e2de0f82209',1,'graphene::wallet::impl']]],
   ['clear',['clear',['../structgraphene_1_1chain_1_1authority.html#ae9446a636f5b830a475da182c5dabea1',1,'graphene::chain::authority::clear()'],['../structgraphene_1_1chain_1_1signed__transaction.html#ab99f3eb4824b38719f2158f0d256a321',1,'graphene::chain::signed_transaction::clear()']]],
   ['clear_5fpending',['clear_pending',['../classgraphene_1_1chain_1_1database.html#af1c4e067598a0318e728b1d28df7a598',1,'graphene::chain::database']]],
+  ['clear_5fsignatures',['clear_signatures',['../structgraphene_1_1chain_1_1signed__transaction.html#aba3c20ff4ff61413667a205d08960bf5',1,'graphene::chain::signed_transaction']]],
   ['close',['close',['../classgraphene_1_1chain_1_1block__database.html#a0d5a09ed71172b6ac21dc94171293371',1,'graphene::chain::block_database::close()'],['../classgraphene_1_1chain_1_1database.html#aaef6e311f1eb8ddfea82751b4e2df2d2',1,'graphene::chain::database::close()']]],
   ['collateral_5ftype',['collateral_type',['../classgraphene_1_1chain_1_1call__order__object.html#a33deddf84aa41958d587d35ce4e23df0',1,'graphene::chain::call_order_object']]],
   ['collateralization',['collateralization',['../classgraphene_1_1chain_1_1call__order__object.html#ae002873c5f4431e4c44a4ab05593f2d0',1,'graphene::chain::call_order_object']]],

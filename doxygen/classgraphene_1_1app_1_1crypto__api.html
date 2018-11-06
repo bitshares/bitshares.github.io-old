@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180823</span>
+   &#160;<span id="projectnumber">2.0.181105</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -79,23 +79,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adcb829f4fc90959164d92b4b285e8085"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#adcb829f4fc90959164d92b4b285e8085">crypto_api</a> ()</td></tr>
 <tr class="separator:adcb829f4fc90959164d92b4b285e8085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a819517c27c9b5436cea4bd7114d68759"><td class="memItemLeft" align="right" valign="top">fc::ecc::commitment_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a819517c27c9b5436cea4bd7114d68759">blind</a> (const fc::ecc::blind_factor_type &amp;blind, uint64_t value)</td></tr>
+<tr class="memdesc:a819517c27c9b5436cea4bd7114d68759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a pedersen commitment: *commit = blind * G + value * G2. The commitment is 33 bytes, the blinding factor is 32 bytes. For more information about pederson commitment check next url <a href="https://en.wikipedia.org/wiki/Commitment_scheme">https://en.wikipedia.org/wiki/Commitment_scheme</a>.  <a href="#a819517c27c9b5436cea4bd7114d68759">More...</a><br /></td></tr>
 <tr class="separator:a819517c27c9b5436cea4bd7114d68759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1a6caa5122568ca0ae4f5379a2d1943"><td class="memItemLeft" align="right" valign="top">fc::ecc::blind_factor_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#aa1a6caa5122568ca0ae4f5379a2d1943">blind_sum</a> (const std::vector&lt; blind_factor_type &gt; &amp;blinds_in, uint32_t non_neg)</td></tr>
+<tr class="memdesc:aa1a6caa5122568ca0ae4f5379a2d1943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sha-256 blind factor type.  <a href="#aa1a6caa5122568ca0ae4f5379a2d1943">More...</a><br /></td></tr>
 <tr class="separator:aa1a6caa5122568ca0ae4f5379a2d1943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9c6f9589828b10f4cc8bfe4a6a359d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#ad9c6f9589828b10f4cc8bfe4a6a359d3">verify_sum</a> (const std::vector&lt; commitment_type &gt; &amp;commits_in, const std::vector&lt; commitment_type &gt; &amp;neg_commits_in, int64_t excess)</td></tr>
+<tr class="memdesc:ad9c6f9589828b10f4cc8bfe4a6a359d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifies that commits + neg_commits + excess == 0.  <a href="#ad9c6f9589828b10f4cc8bfe4a6a359d3">More...</a><br /></td></tr>
 <tr class="separator:ad9c6f9589828b10f4cc8bfe4a6a359d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5310e5955a16937db91c99a8fea0ffe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1app_1_1verify__range__result.html">verify_range_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a5310e5955a16937db91c99a8fea0ffe6">verify_range</a> (const fc::ecc::commitment_type &amp;commit, const std::vector&lt; char &gt; &amp;proof)</td></tr>
+<tr class="memdesc:a5310e5955a16937db91c99a8fea0ffe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifies range proof for 33-byte pedersen commitment.  <a href="#a5310e5955a16937db91c99a8fea0ffe6">More...</a><br /></td></tr>
 <tr class="separator:a5310e5955a16937db91c99a8fea0ffe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1923d73235200a4f3da0a4d021a865d2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a1923d73235200a4f3da0a4d021a865d2">range_proof_sign</a> (uint64_t min_value, const commitment_type &amp;commit, const blind_factor_type &amp;commit_blind, const blind_factor_type &amp;nonce, int8_t base10_exp, uint8_t min_bits, uint64_t actual_value)</td></tr>
+<tr class="memdesc:a1923d73235200a4f3da0a4d021a865d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proves with respect to min_value the range for pedersen commitment which has the provided blinding factor and value.  <a href="#a1923d73235200a4f3da0a4d021a865d2">More...</a><br /></td></tr>
 <tr class="separator:a1923d73235200a4f3da0a4d021a865d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af49d58d9538c6908ea320887af07d9f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1app_1_1verify__range__proof__rewind__result.html">verify_range_proof_rewind_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#af49d58d9538c6908ea320887af07d9f3">verify_range_proof_rewind</a> (const blind_factor_type &amp;nonce, const fc::ecc::commitment_type &amp;commit, const std::vector&lt; char &gt; &amp;proof)</td></tr>
+<tr class="memdesc:af49d58d9538c6908ea320887af07d9f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifies range proof rewind for 33-byte pedersen commitment.  <a href="#af49d58d9538c6908ea320887af07d9f3">More...</a><br /></td></tr>
 <tr class="separator:af49d58d9538c6908ea320887af07d9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6765af523fc6dd5e75872782b4ee12b2"><td class="memItemLeft" align="right" valign="top">range_proof_info&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a6765af523fc6dd5e75872782b4ee12b2">range_get_info</a> (const std::vector&lt; char &gt; &amp;proof)</td></tr>
+<tr class="memdesc:a6765af523fc6dd5e75872782b4ee12b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets "range proof" info. The cli_wallet includes functionality for sending blind transfers in which the values of the input and outputs amounts are “blinded.” In the case where a transaction produces two or more outputs, (e.g. an amount to the intended recipient plus “change” back to the sender), a "range proof" must be supplied to prove that none of the outputs commit to a negative value.  <a href="#a6765af523fc6dd5e75872782b4ee12b2">More...</a><br /></td></tr>
 <tr class="separator:a6765af523fc6dd5e75872782b4ee12b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="api_8hpp_source.html#l00307">307</a> of file <a class="el" href="api_8hpp_source.html">api.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8hpp_source.html#l00350">350</a> of file <a class="el" href="api_8hpp_source.html">api.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adcb829f4fc90959164d92b4b285e8085"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcb829f4fc90959164d92b4b285e8085">&#9670;&nbsp;</a></span>crypto_api()</h2>
@@ -143,6 +150,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates a pedersen commitment: *commit = blind * G + value * G2. The commitment is 33 bytes, the blinding factor is 32 bytes. For more information about pederson commitment check next url <a href="https://en.wikipedia.org/wiki/Commitment_scheme">https://en.wikipedia.org/wiki/Commitment_scheme</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">blind</td><td>Sha-256 blind factor type </td></tr>
+    <tr><td class="paramname">value</td><td>Positive 64-bit integer value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A 33-byte pedersen commitment: *commit = blind * G + value * G2 </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00473">473</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
@@ -173,6 +190,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get sha-256 blind factor type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">blinds_in</td><td>List of sha-256 blind factor types </td></tr>
+    <tr><td class="paramname">non_neg</td><td>32-bit integer value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A blind factor type </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00478">478</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
@@ -192,6 +219,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets "range proof" info. The cli_wallet includes functionality for sending blind transfers in which the values of the input and outputs amounts are “blinded.” In the case where a transaction produces two or more outputs, (e.g. an amount to the intended recipient plus “change” back to the sender), a "range proof" must be supplied to prove that none of the outputs commit to a negative value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">proof</td><td>List of proof's characters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A range proof info structure with exponent, mantissa, min and max values </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00522">522</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
@@ -253,6 +289,21 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Proves with respect to min_value the range for pedersen commitment which has the provided blinding factor and value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">min_value</td><td>Positive 64-bit integer value </td></tr>
+    <tr><td class="paramname">commit</td><td>33-byte pedersen commitment </td></tr>
+    <tr><td class="paramname">commit_blind</td><td>Sha-256 blind factor type for the correct digits </td></tr>
+    <tr><td class="paramname">nonce</td><td>Sha-256 blind factor type for our non-forged signatures </td></tr>
+    <tr><td class="paramname">exp</td><td>Exponents base 10 in range [-1 ; 18] inclusively </td></tr>
+    <tr><td class="paramname">min_bits</td><td>8-bit positive integer, must be in range [0 ; 64] inclusively </td></tr>
+    <tr><td class="paramname">actual_value</td><td>64-bit positive integer, must be greater or equal min_value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of characters as proof in proof </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00495">495</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
@@ -282,6 +333,16 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Verifies range proof for 33-byte pedersen commitment. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commit</td><td>33-byte pedersen commitment </td></tr>
+    <tr><td class="paramname">proof</td><td>List of characters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A structure with success, min and max values </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00488">488</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
@@ -319,6 +380,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Verifies range proof rewind for 33-byte pedersen commitment. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nonce</td><td>Sha-256 blind refactor type </td></tr>
+    <tr><td class="paramname">commit</td><td>33-byte pedersen commitment </td></tr>
+    <tr><td class="paramname">proof</td><td>List of characters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A structure with success, min, max, value_out, blind_out and message_out values </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00506">506</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
@@ -355,6 +427,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Verifies that commits + neg_commits + excess == 0. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commits_in</td><td>List of 33-byte pedersen commitments </td></tr>
+    <tr><td class="paramname">neg_commits_in</td><td>List of 33-byte pedersen commitments </td></tr>
+    <tr><td class="paramname">excess</td><td>Sum of two list of 33-byte pedersen commitments where sums the first set and subtracts the second </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Boolean - true in event of commits + neg_commits + excess == 0, otherwise false </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00483">483</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
@@ -366,7 +449,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

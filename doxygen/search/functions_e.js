@@ -22,7 +22,7 @@ var searchData=
   ['prepare_5ffee',['prepare_fee',['../classgraphene_1_1chain_1_1generic__evaluator.html#a90ff8169dbff062373ea5fdc98e6c484',1,'graphene::chain::generic_evaluator']]],
   ['preview_5fbuilder_5ftransaction',['preview_builder_transaction',['../classgraphene_1_1wallet_1_1wallet__api.html#a52d1cc372fd10bc659402400d527d215',1,'graphene::wallet::wallet_api::preview_builder_transaction()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a22826e56c9b929ed6c620e13172059b9',1,'graphene::wallet::detail::wallet_api_impl::preview_builder_transaction()']]],
   ['previous_5fid',['previous_id',['../structgraphene_1_1chain_1_1fork__item.html#a9f3d5e56ae208fb4c39aa6422589255b',1,'graphene::chain::fork_item']]],
-  ['price',['price',['../structgraphene_1_1chain_1_1price.html#a81aafbafeb9daf2cace0bd939ef59a20',1,'graphene::chain::price']]],
+  ['price',['price',['../structgraphene_1_1chain_1_1price.html#ad4e1abdf60e7ea0faf80b946283a67aa',1,'graphene::chain::price']]],
   ['price_5fdiff_5fpercent_5fstring',['price_diff_percent_string',['../namespacegraphene_1_1app.html#a4960f0d94097a5cda651acec71c461ac',1,'graphene::app']]],
   ['price_5fto_5fstring',['price_to_string',['../classgraphene_1_1app_1_1database__api__impl.html#a6e875cd5a46052968a1f9cf49b6da81f',1,'graphene::app::database_api_impl::price_to_string()'],['../namespacegraphene_1_1app.html#aa5c778a6ce322d86a92a25bceeeffdd2',1,'graphene::app::price_to_string()']]],
   ['process_5ffees',['process_fees',['../classgraphene_1_1chain_1_1account__statistics__object.html#a541251fa37ad3a13a6644365119341e4',1,'graphene::chain::account_statistics_object']]],

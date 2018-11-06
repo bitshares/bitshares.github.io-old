@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['name',['name',['../structfc_1_1get__typename_3_01graphene_1_1chain_1_1extension_3_01_t_01_4_01_4.html#ac890c1736e8dd1d955f32ec6f3453fea',1,'fc::get_typename&lt; graphene::chain::extension&lt; T &gt; &gt;']]],
   ['need_5fmaintenance',['need_maintenance',['../classgraphene_1_1chain_1_1account__statistics__object.html#a35c6972742b9310c97e77836516d17b3',1,'graphene::chain::account_statistics_object']]],
   ['need_5fto_5fupdate_5fcer',['need_to_update_cer',['../classgraphene_1_1chain_1_1asset__bitasset__data__object.html#ab94b9dad7f202a38716609dc3ce05bcc',1,'graphene::chain::asset_bitasset_data_object']]],
   ['network_5fadd_5fnodes',['network_add_nodes',['../classgraphene_1_1wallet_1_1wallet__api.html#a751a4c02552be8c312efb86c3886faf0',1,'graphene::wallet::wallet_api::network_add_nodes()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a833e74c7309891cafedcec8563dcfa98',1,'graphene::wallet::detail::wallet_api_impl::network_add_nodes()']]],
@@ -9,6 +10,7 @@ var searchData=
   ['network_5fnode',['network_node',['../classgraphene_1_1app_1_1login__api.html#a8802564b78614b7e523f380f3bcd74b3',1,'graphene::app::login_api']]],
   ['network_5fnode_5fapi',['network_node_api',['../classgraphene_1_1app_1_1network__node__api.html#a18a99d65a8cde46d13c1efd24c229c9f',1,'graphene::app::network_node_api']]],
   ['new_5fconnection',['new_connection',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a53299364447764a4628a0f2b9018871b',1,'graphene::app::detail::application_impl']]],
+  ['next',['next',['../classdeduplicator.html#ab994f4912ec9f11a3041e54f985d7a3c',1,'deduplicator']]],
   ['node_5fproperties',['node_properties',['../classgraphene_1_1chain_1_1database.html#a5a11d2aa7bfc6fbbc33f67f6a6174b10',1,'graphene::chain::database']]],
   ['node_5fproperty_5fobject',['node_property_object',['../classgraphene_1_1chain_1_1node__property__object.html#aff79626702f52b398daf96fb064c1bfc',1,'graphene::chain::node_property_object']]],
   ['normalize_5fbrain_5fkey',['normalize_brain_key',['../classgraphene_1_1wallet_1_1wallet__api.html#a22a64652613c2e0b7bacf0bd0a031bc1',1,'graphene::wallet::wallet_api::normalize_brain_key()'],['../namespacegraphene_1_1wallet_1_1detail.html#ab0dc05ce8662a76f8608d0a7adca5013',1,'graphene::wallet::detail::normalize_brain_key()']]],

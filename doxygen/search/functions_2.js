@@ -13,6 +13,7 @@ var searchData=
   ['block',['block',['../classgraphene_1_1app_1_1login__api.html#a1666f90312e73fac5bc03517bc711b76',1,'graphene::app::login_api']]],
   ['block_5fapi',['block_api',['../classgraphene_1_1app_1_1block__api.html#ac69781692e77bb9951b53669199cdf5f',1,'graphene::app::block_api']]],
   ['block_5fnum',['block_num',['../structgraphene_1_1chain_1_1block__header.html#abf9982ab6dc7e1a20d006ab7a5642324',1,'graphene::chain::block_header']]],
+  ['blocks_5fcurrent_5fposition',['blocks_current_position',['../classgraphene_1_1chain_1_1block__database.html#ac477a3124d3872b871480df3ee4a60c0',1,'graphene::chain::block_database']]],
   ['borrow_5fasset',['borrow_asset',['../classgraphene_1_1wallet_1_1wallet__api.html#a289195f6aa33668056993ee3caeceb39',1,'graphene::wallet::wallet_api::borrow_asset()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a1b964ec3f62712f7f28a484458be7131',1,'graphene::wallet::detail::wallet_api_impl::borrow_asset()']]],
   ['borrow_5fasset_5fext',['borrow_asset_ext',['../classgraphene_1_1wallet_1_1wallet__api.html#aada6ee16924870d86f662ccbad9f475a',1,'graphene::wallet::wallet_api::borrow_asset_ext()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a748967f0609e58e2f9ac49b0a5d49145',1,'graphene::wallet::detail::wallet_api_impl::borrow_asset_ext()']]],
   ['broadcast_5fblock',['broadcast_block',['../classgraphene_1_1app_1_1network__broadcast__api.html#a547818c9883ad1299b9e00cdcf635fed',1,'graphene::app::network_broadcast_api']]],
