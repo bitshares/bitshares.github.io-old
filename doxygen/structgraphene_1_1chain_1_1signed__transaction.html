@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180823</span>
+   &#160;<span id="projectnumber">2.0.181105</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -102,11 +102,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad98a778f0c7ab667c73ac32eab84dc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35191145a0b5831d587b24cce88daf93"><td class="memItemLeft" align="right" valign="top">set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a35191145a0b5831d587b24cce88daf93">minimize_required_signatures</a> (const <a class="el" href="namespacegraphene_1_1chain.html#a8182991954496b517776f06844cf2d93">chain_id_type</a> &amp;chain_id, const flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; &amp;available_keys, const std::function&lt; const <a class="el" href="structgraphene_1_1chain_1_1authority.html">authority</a> *(<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>)&gt; &amp;get_active, const std::function&lt; const <a class="el" href="structgraphene_1_1chain_1_1authority.html">authority</a> *(<a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>)&gt; &amp;get_owner, uint32_t max_recursion=<a class="el" href="config_8hpp.html#aea0bc2216bc54371f7f54d6f6d6e4d9d">GRAPHENE_MAX_SIG_CHECK_DEPTH</a>) const</td></tr>
 <tr class="separator:a35191145a0b5831d587b24cce88daf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79c5278bbae117d149f84cf58d1ab3e2"><td class="memItemLeft" align="right" valign="top">flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a79c5278bbae117d149f84cf58d1ab3e2">get_signature_keys</a> (const <a class="el" href="namespacegraphene_1_1chain.html#a8182991954496b517776f06844cf2d93">chain_id_type</a> &amp;chain_id) const</td></tr>
-<tr class="separator:a79c5278bbae117d149f84cf58d1ab3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302d7ddd18b6861ad80dd7b3cc7361ab"><td class="memItemLeft" align="right" valign="top">const flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a302d7ddd18b6861ad80dd7b3cc7361ab">get_signature_keys</a> (const <a class="el" href="namespacegraphene_1_1chain.html#a8182991954496b517776f06844cf2d93">chain_id_type</a> &amp;chain_id) const</td></tr>
+<tr class="memdesc:a302d7ddd18b6861ad80dd7b3cc7361ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract public keys from signatures with given chain ID.  <a href="#a302d7ddd18b6861ad80dd7b3cc7361ab">More...</a><br /></td></tr>
+<tr class="separator:a302d7ddd18b6861ad80dd7b3cc7361ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab99f3eb4824b38719f2158f0d256a321"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#ab99f3eb4824b38719f2158f0d256a321">clear</a> ()</td></tr>
-<tr class="memdesc:ab99f3eb4824b38719f2158f0d256a321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all operations and signatures.  <a href="#ab99f3eb4824b38719f2158f0d256a321">More...</a><br /></td></tr>
+<tr class="memdesc:ab99f3eb4824b38719f2158f0d256a321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all operations, signatures and signees.  <a href="#ab99f3eb4824b38719f2158f0d256a321">More...</a><br /></td></tr>
 <tr class="separator:ab99f3eb4824b38719f2158f0d256a321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3c20ff4ff61413667a205d08960bf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#aba3c20ff4ff61413667a205d08960bf5">clear_signatures</a> ()</td></tr>
+<tr class="memdesc:aba3c20ff4ff61413667a205d08960bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all signatures and signees.  <a href="#aba3c20ff4ff61413667a205d08960bf5">More...</a><br /></td></tr>
+<tr class="separator:aba3c20ff4ff61413667a205d08960bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structgraphene_1_1chain_1_1transaction"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structgraphene_1_1chain_1_1transaction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a></td></tr>
 <tr class="memitem:aba25fb0435684c2088b0d0ae5e0d27d2 inherit pub_methods_structgraphene_1_1chain_1_1transaction"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a575e2ea493a5e8f4d2888ee753084596">digest_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1transaction.html#aba25fb0435684c2088b0d0ae5e0d27d2">digest</a> () const</td></tr>
 <tr class="memdesc:aba25fb0435684c2088b0d0ae5e0d27d2 inherit pub_methods_structgraphene_1_1chain_1_1transaction"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the digest for a transaction.  <a href="structgraphene_1_1chain_1_1transaction.html#aba25fb0435684c2088b0d0ae5e0d27d2">More...</a><br /></td></tr>
@@ -136,6 +140,8 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a11b7f1817059ccae1ea5f176a505834e"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="namespacegraphene_1_1chain.html#aed41249e2d1e1e56e91d68da30cbddad">signature_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a11b7f1817059ccae1ea5f176a505834e">signatures</a></td></tr>
 <tr class="separator:a11b7f1817059ccae1ea5f176a505834e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94263f6ec5196a446e1e815c3dfac61b"><td class="memItemLeft" align="right" valign="top">flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a94263f6ec5196a446e1e815c3dfac61b">signees</a></td></tr>
+<tr class="separator:a94263f6ec5196a446e1e815c3dfac61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structgraphene_1_1chain_1_1transaction"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structgraphene_1_1chain_1_1transaction')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a></td></tr>
 <tr class="memitem:a3c3667e1bb02ad8f694f41206436e9cf inherit pub_attribs_structgraphene_1_1chain_1_1transaction"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1transaction.html#a3c3667e1bb02ad8f694f41206436e9cf">ref_block_num</a> = 0</td></tr>
 <tr class="separator:a3c3667e1bb02ad8f694f41206436e9cf inherit pub_attribs_structgraphene_1_1chain_1_1transaction"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,9 +211,38 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Removes all operations and signatures. </p>
+<p>Removes all operations, signatures and signees. </p>
 
-<p class="definition">Definition at line <a class="el" href="transaction_8hpp_source.html#l00173">173</a> of file <a class="el" href="transaction_8hpp_source.html">transaction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transaction_8hpp_source.html#l00188">188</a> of file <a class="el" href="transaction_8hpp_source.html">transaction.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aba3c20ff4ff61413667a205d08960bf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba3c20ff4ff61413667a205d08960bf5">&#9670;&nbsp;</a></span>clear_signatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::signed_transaction::clear_signatures </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes all signatures and signees. </p>
+
+<p class="definition">Definition at line <a class="el" href="transaction_8hpp_source.html#l00191">191</a> of file <a class="el" href="transaction_8hpp_source.html">transaction.hpp</a>.</p>
 
 </div>
 </div>
@@ -256,18 +291,18 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The purpose of this method is to identify some subset of available_keys that will produce sufficient signatures for a transaction. The result is not always a minimal set of signatures, but any non-minimal result will still pass validation. </p>
 
-<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00320">320</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00327">327</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a79c5278bbae117d149f84cf58d1ab3e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79c5278bbae117d149f84cf58d1ab3e2">&#9670;&nbsp;</a></span>get_signature_keys()</h2>
+<a id="a302d7ddd18b6861ad80dd7b3cc7361ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a302d7ddd18b6861ad80dd7b3cc7361ab">&#9670;&nbsp;</a></span>get_signature_keys()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; graphene::chain::signed_transaction::get_signature_keys </td>
+          <td class="memname">const flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; &amp; graphene::chain::signed_transaction::get_signature_keys </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a8182991954496b517776f06844cf2d93">chain_id_type</a> &amp;&#160;</td>
           <td class="paramname"><em>chain_id</em></td><td>)</td>
@@ -276,7 +311,17 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00304">304</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
+<p>Extract public keys from signatures with given chain ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chain_id</td><td>A chain ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Public keys </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a94263f6ec5196a446e1e815c3dfac61b">signees</a> is empty, E.G. when it's the first time calling this function for the signed transaction, public keys will be extracted with given chain ID, and be stored into the mutable <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a94263f6ec5196a446e1e815c3dfac61b">signees</a> field, then <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a94263f6ec5196a446e1e815c3dfac61b">signees</a> will be returned; otherwise, the chain_id parameter will be ignored, and <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a94263f6ec5196a446e1e815c3dfac61b">signees</a> will be returned directly. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00306">306</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
 
 </div>
 </div>
@@ -325,7 +370,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This is a slower replacement for <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a206cfe6280cdc3c22ed63a4fcf949dff">get_required_signatures()</a> which returns a minimal set in all cases, including some cases where <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#a206cfe6280cdc3c22ed63a4fcf949dff">get_required_signatures()</a> returns a non-minimal set. </p>
 
-<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00355">355</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00362">362</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
 
 </div>
 </div>
@@ -387,7 +432,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>returns signature but does not append </p>
 
-<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00078">78</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00079">79</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
 
 </div>
 </div>
@@ -429,7 +474,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00382">382</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00389">389</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
 
 </div>
 </div>
@@ -445,8 +490,34 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Signatures </p>
 
-<p class="definition">Definition at line <a class="el" href="transaction_8hpp_source.html#l00170">170</a> of file <a class="el" href="transaction_8hpp_source.html">transaction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transaction_8hpp_source.html#l00182">182</a> of file <a class="el" href="transaction_8hpp_source.html">transaction.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a94263f6ec5196a446e1e815c3dfac61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94263f6ec5196a446e1e815c3dfac61b">&#9670;&nbsp;</a></span>signees</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">flat_set&lt;<a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a>&gt; graphene::chain::signed_transaction::signees</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Public keys extracted from signatures </p>
+
+<p class="definition">Definition at line <a class="el" href="transaction_8hpp_source.html#l00185">185</a> of file <a class="el" href="transaction_8hpp_source.html">transaction.hpp</a>.</p>
 
 </div>
 </div>
@@ -457,7 +528,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 23 2018 12:48:57 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 6 2018 06:26:15 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

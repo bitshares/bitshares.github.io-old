@@ -28,7 +28,6 @@ var searchData=
   ['maximum_5ftime_5funtil_5fexpiration',['maximum_time_until_expiration',['../structgraphene_1_1chain_1_1chain__parameters.html#a6464e711876e901f0ad94d7a57edc294',1,'graphene::chain::chain_parameters']]],
   ['maximum_5ftransaction_5fsize',['maximum_transaction_size',['../structgraphene_1_1chain_1_1chain__parameters.html#a04a615acf05cc6267270f65bcddce55f',1,'graphene::chain::chain_parameters']]],
   ['maximum_5fwitness_5fcount',['maximum_witness_count',['../structgraphene_1_1chain_1_1chain__parameters.html#a2664a29981cacd7263eadc5dc1ca12bf',1,'graphene::chain::chain_parameters']]],
-  ['median_5ffeed_5fvalues',['median_feed_values',['../classgraphene_1_1chain_1_1asset__publish__feeds__evaluator.html#a21ac1ca9d8bbf416705a38fb2eee47c0',1,'graphene::chain::asset_publish_feeds_evaluator']]],
   ['membership_5fannual_5ffee',['membership_annual_fee',['../structgraphene_1_1chain_1_1account__upgrade__operation_1_1fee__parameters__type.html#a4db866d9a59a6fb09e6ae48c18051c19',1,'graphene::chain::account_upgrade_operation::fee_parameters_type']]],
   ['membership_5fexpiration_5fdate',['membership_expiration_date',['../classgraphene_1_1chain_1_1account__object.html#a901b57f630eaa3f077f8d29e317b70ed',1,'graphene::chain::account_object']]],
   ['membership_5flifetime_5ffee',['membership_lifetime_fee',['../structgraphene_1_1chain_1_1account__upgrade__operation_1_1fee__parameters__type.html#aa8e57513bb3773c0faa79bbd5ddbcceb',1,'graphene::chain::account_upgrade_operation::fee_parameters_type']]],

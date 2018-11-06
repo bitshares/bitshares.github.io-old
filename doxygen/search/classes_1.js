@@ -25,7 +25,6 @@ var searchData=
   ['block_5fsummary_5fobject',['block_summary_object',['../classgraphene_1_1chain_1_1block__summary__object.html',1,'graphene::chain']]],
   ['brain_5fkey_5finfo',['brain_key_info',['../structgraphene_1_1wallet_1_1brain__key__info.html',1,'graphene::wallet']]],
   ['budget_5frecord',['budget_record',['../structgraphene_1_1chain_1_1budget__record.html',1,'graphene::chain']]],
-  ['budget_5frecord_5fobject',['budget_record_object',['../classgraphene_1_1chain_1_1budget__record__object.html',1,'graphene::chain']]],
   ['burn_5fworker_5finitializer',['burn_worker_initializer',['../structgraphene_1_1chain_1_1burn__worker__initializer.html',1,'graphene::chain']]],
   ['burn_5fworker_5ftype',['burn_worker_type',['../structgraphene_1_1chain_1_1burn__worker__type.html',1,'graphene::chain']]],
   ['buyback_5faccount_5foptions',['buyback_account_options',['../structgraphene_1_1chain_1_1buyback__account__options.html',1,'graphene::chain']]],

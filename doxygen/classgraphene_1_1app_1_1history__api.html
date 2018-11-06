@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180823</span>
+   &#160;<span id="projectnumber">2.0.181105</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -90,13 +90,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67e565b2a56a736c31215fb96d216fc9"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a67e565b2a56a736c31215fb96d216fc9">get_account_history_operations</a> (const std::string account_id_or_name, int operation_id, <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> start=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), <a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a> stop=<a class="el" href="namespacegraphene_1_1chain.html#ac95699e79dcc01de0d506840c1b7feb4">operation_history_id_type</a>(), unsigned limit=100) const</td></tr>
 <tr class="memdesc:a67e565b2a56a736c31215fb96d216fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get only asked operations relevant to the specified account.  <a href="#a67e565b2a56a736c31215fb96d216fc9">More...</a><br /></td></tr>
 <tr class="separator:a67e565b2a56a736c31215fb96d216fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a610a202a478e582e891f729bcbcf90b0"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a610a202a478e582e891f729bcbcf90b0">get_relative_account_history</a> (const std::string account_id_or_name, uint32_t stop=0, unsigned limit=100, uint32_t start=0) const</td></tr>
-<tr class="separator:a610a202a478e582e891f729bcbcf90b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed223d6c126ffd0b2a388ae3e026a90"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html">operation_history_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#aeed223d6c126ffd0b2a388ae3e026a90">get_relative_account_history</a> (const std::string account_id_or_name, uint64_t stop=0, unsigned limit=100, uint64_t start=0) const</td></tr>
+<tr class="separator:aeed223d6c126ffd0b2a388ae3e026a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1574597fa10804bf328b89c12f6f7a9f"><td class="memItemLeft" align="right" valign="top">vector&lt; order_history_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a1574597fa10804bf328b89c12f6f7a9f">get_fill_order_history</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> b, uint32_t limit) const</td></tr>
+<tr class="memdesc:a1574597fa10804bf328b89c12f6f7a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get details of order executions occurred most recently in a trading pair.  <a href="#a1574597fa10804bf328b89c12f6f7a9f">More...</a><br /></td></tr>
 <tr class="separator:a1574597fa10804bf328b89c12f6f7a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5e379a09632a3e215554cd9ef37dcd9"><td class="memItemLeft" align="right" valign="top">vector&lt; bucket_object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#ab5e379a09632a3e215554cd9ef37dcd9">get_market_history</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> b, uint32_t bucket_seconds, fc::time_point_sec start, fc::time_point_sec end) const</td></tr>
+<tr class="memdesc:ab5e379a09632a3e215554cd9ef37dcd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get OHLCV data of a trading pair in a time range.  <a href="#ab5e379a09632a3e215554cd9ef37dcd9">More...</a><br /></td></tr>
 <tr class="separator:ab5e379a09632a3e215554cd9ef37dcd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cb82a7bb879b9f967665d69fd90c67d"><td class="memItemLeft" align="right" valign="top">flat_set&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1history__api.html#a3cb82a7bb879b9f967665d69fd90c67d">get_market_history_buckets</a> () const</td></tr>
+<tr class="memdesc:a3cb82a7bb879b9f967665d69fd90c67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get OHLCV time bucket lengths supported (configured) by this API server.  <a href="#a3cb82a7bb879b9f967665d69fd90c67d">More...</a><br /></td></tr>
 <tr class="separator:a3cb82a7bb879b9f967665d69fd90c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -230,7 +233,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">account_id_or_name</td><td>The account ID or name whose history should be queried </td></tr>
-    <tr><td class="paramname">operation_types</td><td>The IDs of the operation we want to get operations in the account( 0 = transfer , 1 = limit order create, ...) </td></tr>
+    <tr><td class="paramname">operation_types</td><td>The IDs of the operation we want to get operations in the account ( 0 = transfer , 1 = limit order create, ...) </td></tr>
     <tr><td class="paramname">start</td><td>the sequence number where to start looping back throw the history </td></tr>
     <tr><td class="paramname">limit</td><td>the max number of entries to return (from start number) </td></tr>
   </table>
@@ -290,7 +293,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">account_id_or_name</td><td>The account ID or name whose history should be queried </td></tr>
-    <tr><td class="paramname">operation_id</td><td>The ID of the operation we want to get operations in the account( 0 = transfer , 1 = limit order create, ...) </td></tr>
+    <tr><td class="paramname">operation_id</td><td>The ID of the operation we want to get operations in the account ( 0 = transfer , 1 = limit order create, ...) </td></tr>
     <tr><td class="paramname">stop</td><td>ID of the earliest operation to retrieve </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of operations to retrieve (must not exceed 100) </td></tr>
     <tr><td class="paramname">start</td><td>ID of the most recent operation to retrieve </td></tr>
@@ -334,6 +337,17 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get details of order executions occurred most recently in a trading pair. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>One asset in a trading pair </td></tr>
+    <tr><td class="paramname">b</td><td>The other asset in the trading pair </td></tr>
+    <tr><td class="paramname">limit</td><td>Maximum records to return </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a list of order_history objects, in "most recent first" order </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00286">286</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
@@ -383,6 +397,19 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get OHLCV data of a trading pair in a time range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>One asset in a trading pair </td></tr>
+    <tr><td class="paramname">b</td><td>The other asset in the trading pair </td></tr>
+    <tr><td class="paramname">bucket_seconds</td><td>Length of each time bucket in seconds. Note: it need to be within result of <a class="el" href="classgraphene_1_1app_1_1history__api.html#a3cb82a7bb879b9f967665d69fd90c67d" title="Get OHLCV time bucket lengths supported (configured) by this API server. ">get_market_history_buckets()</a> API, otherwise no data will be returned </td></tr>
+    <tr><td class="paramname">start</td><td>The start of a time range, E.G. "2018-01-01T00:00:00" </td></tr>
+    <tr><td class="paramname">end</td><td>The end of the time range </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of OHLCV data, in "least recent first" order. If there are more than 200 records in the specified time range, the first 200 records will be returned. </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00445">445</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
@@ -402,12 +429,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get OHLCV time bucket lengths supported (configured) by this API server. </p>
+<dl class="section return"><dt>Returns</dt><dd>A list of time bucket lengths in seconds. E.G. if the result contains a number "300", it means this API server supports OHLCV data aggregated in 5-minute buckets. </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00423">423</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a610a202a478e582e891f729bcbcf90b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a610a202a478e582e891f729bcbcf90b0">&#9670;&nbsp;</a></span>get_relative_account_history()</h2>
+<a id="aeed223d6c126ffd0b2a388ae3e026a90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeed223d6c126ffd0b2a388ae3e026a90">&#9670;&nbsp;</a></span>get_relative_account_history()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,7 +451,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>stop</em> = <code>0</code>, </td>
         </tr>
         <tr>
@@ -433,7 +463,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>start</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
@@ -465,7 +495,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

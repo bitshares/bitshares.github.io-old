@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180823</span>
+   &#160;<span id="projectnumber">2.0.181105</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -100,15 +100,15 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6cb4c759a117e84ab7bbe1d1d3d69f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1891781737f3f5a56e893027b5e50783"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; operation_history_object, operation_history_multi_index_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a1891781737f3f5a56e893027b5e50783">graphene::chain::operation_history_index</a></td></tr>
 <tr class="separator:a1891781737f3f5a56e893027b5e50783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a1551fad0b11fb1b00374b0768ed617"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; account_transaction_history_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_seq &gt;, composite_key&lt; account_transaction_history_object, member&lt; account_transaction_history_object, account_id_type, &amp;account_transaction_history_object::account &gt;, member&lt; account_transaction_history_object, uint32_t, &amp;account_transaction_history_object::sequence &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_op &gt;, composite_key&lt; account_transaction_history_object, member&lt; account_transaction_history_object, account_id_type, &amp;account_transaction_history_object::account &gt;, member&lt; account_transaction_history_object, operation_history_id_type, &amp;account_transaction_history_object::operation_id &gt; &gt; &gt;, ordered_non_unique&lt; tag&lt; by_opid &gt;, member&lt; account_transaction_history_object, operation_history_id_type, &amp;account_transaction_history_object::operation_id &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a9a1551fad0b11fb1b00374b0768ed617">graphene::chain::account_transaction_history_multi_index_type</a></td></tr>
-<tr class="separator:a9a1551fad0b11fb1b00374b0768ed617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9815651fea36aadd403a46cf1a8fd7b9"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; account_transaction_history_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_seq &gt;, composite_key&lt; account_transaction_history_object, member&lt; account_transaction_history_object, account_id_type, &amp;account_transaction_history_object::account &gt;, member&lt; account_transaction_history_object, uint64_t, &amp;account_transaction_history_object::sequence &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_op &gt;, composite_key&lt; account_transaction_history_object, member&lt; account_transaction_history_object, account_id_type, &amp;account_transaction_history_object::account &gt;, member&lt; account_transaction_history_object, operation_history_id_type, &amp;account_transaction_history_object::operation_id &gt; &gt; &gt;, ordered_non_unique&lt; tag&lt; by_opid &gt;, member&lt; account_transaction_history_object, operation_history_id_type, &amp;account_transaction_history_object::operation_id &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a9815651fea36aadd403a46cf1a8fd7b9">graphene::chain::account_transaction_history_multi_index_type</a></td></tr>
+<tr class="separator:a9815651fea36aadd403a46cf1a8fd7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f5ae5a61a0c45744eebd38df81927fc"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; account_transaction_history_object, account_transaction_history_multi_index_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a2f5ae5a61a0c45744eebd38df81927fc">graphene::chain::account_transaction_history_index</a></td></tr>
 <tr class="separator:a2f5ae5a61a0c45744eebd38df81927fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -46,7 +46,6 @@ var searchData=
   ['maybe_5fcull_5fsmall_5forder',['maybe_cull_small_order',['../namespacegraphene_1_1chain.html#a908cd1fa664baa7cdbf681f694342223',1,'graphene::chain']]],
   ['maybe_5fid',['maybe_id',['../namespacegraphene_1_1wallet_1_1detail.html#a979ab353f66ec2473b4aa22897c4cfd7',1,'graphene::wallet::detail']]],
   ['maybe_5fread_5fnext_5fwhich',['maybe_read_next_which',['../structgraphene_1_1chain_1_1graphene__extension__unpack__visitor.html#acf0256c65d26899ef9fa7983c354045e',1,'graphene::chain::graphene_extension_unpack_visitor']]],
-  ['median_5ffeed_5fvalues',['median_feed_values',['../classgraphene_1_1chain_1_1asset__publish__feeds__evaluator.html#a21ac1ca9d8bbf416705a38fb2eee47c0',1,'graphene::chain::asset_publish_feeds_evaluator']]],
   ['membership_5fannual_5ffee',['membership_annual_fee',['../structgraphene_1_1chain_1_1account__upgrade__operation_1_1fee__parameters__type.html#a4db866d9a59a6fb09e6ae48c18051c19',1,'graphene::chain::account_upgrade_operation::fee_parameters_type']]],
   ['membership_5fexpiration_5fdate',['membership_expiration_date',['../classgraphene_1_1chain_1_1account__object.html#a901b57f630eaa3f077f8d29e317b70ed',1,'graphene::chain::account_object']]],
   ['membership_5flifetime_5ffee',['membership_lifetime_fee',['../structgraphene_1_1chain_1_1account__upgrade__operation_1_1fee__parameters__type.html#aa8e57513bb3773c0faa79bbd5ddbcceb',1,'graphene::chain::account_upgrade_operation::fee_parameters_type']]],

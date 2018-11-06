@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.180823</span>
+   &#160;<span id="projectnumber">2.0.181105</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -157,6 +157,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:acff79f90fbb15c501c462c2621c052b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#acff79f90fbb15c501c462c2621c052b7">load_configuration_options</a> (const fc::path &amp;data_dir, const bpo::options_description &amp;cfg_options, bpo::variables_map &amp;options)</td></tr>
+<tr class="separator:acff79f90fbb15c501c462c2621c052b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfed3795b040035a074171c248c08d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#aecfed3795b040035a074171c248c08d9">load_configuration_options</a> (const fc::path &amp;data_dir, const boost::program_options::options_description &amp;cfg_options, boost::program_options::variables_map &amp;options)</td></tr>
+<tr class="separator:aecfed3795b040035a074171c248c08d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8235359fc02af7a350bb55033b850dd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1app.html#a68cce708efd2be5859a5e75899e3f4f1">u256</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#a8235359fc02af7a350bb55033b850dd8">to256</a> (const fc::uint128 &amp;t)</td></tr>
 <tr class="separator:a8235359fc02af7a350bb55033b850dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af047f47d42f0057b71b692a49d87051b"><td class="memItemLeft" align="right" valign="top">fc::uint128&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1app.html#af047f47d42f0057b71b692a49d87051b">to_capped128</a> (const <a class="el" href="namespacegraphene_1_1app.html#a68cce708efd2be5859a5e75899e3f4f1">u256</a> &amp;t)</td></tr>
@@ -220,6 +224,76 @@ template&lt;typename T &gt; </div>
 <p>Some useful tools for boost::program_options arguments using vectors of JSON strings </p>
 
 <p class="definition">Definition at line <a class="el" href="plugin_8hpp_source.html#l00126">126</a> of file <a class="el" href="plugin_8hpp_source.html">plugin.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aecfed3795b040035a074171c248c08d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecfed3795b040035a074171c248c08d9">&#9670;&nbsp;</a></span>load_configuration_options() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::app::load_configuration_options </td>
+          <td>(</td>
+          <td class="paramtype">const fc::path &amp;&#160;</td>
+          <td class="paramname"><em>data_dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::program_options::options_description &amp;&#160;</td>
+          <td class="paramname"><em>cfg_options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::program_options::variables_map &amp;&#160;</td>
+          <td class="paramname"><em>options</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acff79f90fbb15c501c462c2621c052b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff79f90fbb15c501c462c2621c052b7">&#9670;&nbsp;</a></span>load_configuration_options() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::app::load_configuration_options </td>
+          <td>(</td>
+          <td class="paramtype">const fc::path &amp;&#160;</td>
+          <td class="paramname"><em>data_dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bpo::options_description &amp;&#160;</td>
+          <td class="paramname"><em>cfg_options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bpo::variables_map &amp;&#160;</td>
+          <td class="paramname"><em>options</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="config__util_8cpp_source.html#l00307">307</a> of file <a class="el" href="config__util_8cpp_source.html">config_util.cpp</a>.</p>
 
 </div>
 </div>
@@ -362,7 +436,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 23 2018 12:48:56 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
