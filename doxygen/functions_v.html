@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -113,12 +113,13 @@ $(function() {
 , <a class="el" href="structgraphene_1_1chain_1_1limit__order__cancel__operation.html#a39b7365dbe34833077e00b2674d55d43">graphene::chain::limit_order_cancel_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1limit__order__create__operation.html#aa14b8696ee9c7b3a58b6a83818deacec">graphene::chain::limit_order_create_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1override__transfer__operation.html#a1f291809b7e7055b0e46735543172c4b">graphene::chain::override_transfer_operation</a>
+, <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html#a672016ee1e7b6e017a8bde54c3ffaab6">graphene::chain::precomputable_transaction</a>
 , <a class="el" href="structgraphene_1_1chain_1_1price.html#aa02ede20661c22422de58efb4a221915">graphene::chain::price</a>
 , <a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a38f9229b87f5cadd554ac3eae27ed1a3">graphene::chain::price_feed</a>
 , <a class="el" href="structgraphene_1_1chain_1_1proposal__create__operation.html#a461648231991c2b74e8efdeab4d7134c">graphene::chain::proposal_create_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1proposal__delete__operation.html#adcd74a59f3359ac7aa280c30540c8b27">graphene::chain::proposal_delete_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1proposal__update__operation.html#aaac80473fb87f8bd0c50de0bb48c6359">graphene::chain::proposal_update_operation</a>
-, <a class="el" href="structgraphene_1_1chain_1_1transaction.html#adbd10db7270e459e93daf28da33010c8">graphene::chain::transaction</a>
+, <a class="el" href="classgraphene_1_1chain_1_1transaction.html#adbd10db7270e459e93daf28da33010c8">graphene::chain::transaction</a>
 , <a class="el" href="structgraphene_1_1chain_1_1transfer__from__blind__operation.html#a4f14d330d52d90700cc21a6ad758f1cb">graphene::chain::transfer_from_blind_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1transfer__operation.html#a4785876e2e526ec92ece0f171cd9682d">graphene::chain::transfer_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1transfer__to__blind__operation.html#a2b19cb0bbed7e46502ecb9cb25e15f1f">graphene::chain::transfer_to_blind_operation</a>
@@ -132,8 +133,11 @@ $(function() {
 , <a class="el" href="structgraphene_1_1chain_1_1witness__update__operation.html#a641b4640a11735ea00af62e595278506">graphene::chain::witness_update_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1worker__create__operation.html#a9d8c856597c00ca56538ba7f92fb6384">graphene::chain::worker_create_operation</a>
 </li>
+<li>validate_parallel()
+: <a class="el" href="structgraphene_1_1chain_1_1base__operation.html#aba2bfdabb6d782e8b7843a363e85c69e">graphene::chain::base_operation</a>
+</li>
 <li>validate_signee()
-: <a class="el" href="structgraphene_1_1chain_1_1signed__block__header.html#ab6ca7fc7bf0e2c291b8baa76a9b1d511">graphene::chain::signed_block_header</a>
+: <a class="el" href="classgraphene_1_1chain_1_1signed__block__header.html#ab6ca7fc7bf0e2c291b8baa76a9b1d511">graphene::chain::signed_block_header</a>
 </li>
 <li>validate_transaction()
 : <a class="el" href="classgraphene_1_1app_1_1database__api.html#a3b704179a813b26c3f910105f7e6a9f6">graphene::app::database_api</a>
@@ -162,7 +166,7 @@ $(function() {
 <li>verify_authority()
 : <a class="el" href="classgraphene_1_1app_1_1database__api.html#afe62b6a147149b0954cda6c10c858f7d">graphene::app::database_api</a>
 , <a class="el" href="classgraphene_1_1app_1_1database__api__impl.html#a54dddff3398d303e7c9bdf1a1f2d2498">graphene::app::database_api_impl</a>
-, <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html#ad98a778f0c7ab667c73ac32eab84dc9c">graphene::chain::signed_transaction</a>
+, <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html#ad98a778f0c7ab667c73ac32eab84dc9c">graphene::chain::signed_transaction</a>
 </li>
 <li>verify_range()
 : <a class="el" href="classgraphene_1_1app_1_1crypto__api.html#a5310e5955a16937db91c99a8fea0ffe6">graphene::app::crypto_api</a>
@@ -214,7 +218,7 @@ $(function() {
 : <a class="el" href="classgraphene_1_1chain_1_1operation__history__object.html#aa5729be108a0d92ce74c080289114c51">graphene::chain::operation_history_object</a>
 </li>
 <li>visit()
-: <a class="el" href="structgraphene_1_1chain_1_1transaction.html#a927bed92680e17e9790a598a64f79943">graphene::chain::transaction</a>
+: <a class="el" href="classgraphene_1_1chain_1_1transaction.html#a870f3054c7403dbce2b21a7253b2a1d1">graphene::chain::transaction</a>
 </li>
 <li>vo
 : <a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#abac4c6c46451d2d8cc15fe99161adc86">fc::graphene_extension_from_variant_visitor&lt; T &gt;</a>
@@ -243,7 +247,7 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1witness__object.html#aa9ae30d474319543424c6156b11e3a1e">graphene::chain::witness_object</a>
 </li>
 <li>vote_id_type()
-: <a class="el" href="structgraphene_1_1chain_1_1vote__id__type.html#ad6ef3ea1b4e1bd60457704a097b85bb9">graphene::chain::vote_id_type</a>
+: <a class="el" href="structgraphene_1_1chain_1_1vote__id__type.html#a13d7a33bcd3d23695223987852c04967">graphene::chain::vote_id_type</a>
 </li>
 <li>vote_type
 : <a class="el" href="structgraphene_1_1chain_1_1vote__id__type.html#aaacdf69f2981cece125da0526fa03959">graphene::chain::vote_id_type</a>
@@ -258,11 +262,14 @@ $(function() {
 <li>voting_account
 : <a class="el" href="structgraphene_1_1chain_1_1account__options.html#ac9f6dd34e8f524879068dedadb5c8a52">graphene::chain::account_options</a>
 </li>
+<li>vtor_1479
+: <a class="el" href="classgraphene_1_1chain_1_1proposal__create__evaluator.html#a015d297e4e7c463a9d00c89a4168b9db">graphene::chain::proposal_create_evaluator</a>
+</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:25 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

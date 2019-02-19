@@ -19,5 +19,5 @@ var searchData=
   ['notify_5fon_5fpending_5ftransaction',['notify_on_pending_transaction',['../classgraphene_1_1chain_1_1database.html#a9b827a50067542ef8c1ea9f2e6177f8d',1,'graphene::chain::database']]],
   ['null_5fauthority',['null_authority',['../structgraphene_1_1chain_1_1authority.html#a8d6c046aa9f606333dc6a9caab22c880',1,'graphene::chain::authority']]],
   ['num_5fauths',['num_auths',['../structgraphene_1_1chain_1_1authority.html#af015e8b316222815c7830f31c8c625f8',1,'graphene::chain::authority']]],
-  ['num_5ffrom_5fid',['num_from_id',['../structgraphene_1_1chain_1_1block__header.html#ad8cbe66dbf2ac03fc7cfd904330c7c56',1,'graphene::chain::block_header']]]
+  ['num_5ffrom_5fid',['num_from_id',['../classgraphene_1_1chain_1_1block__header.html#ad8cbe66dbf2ac03fc7cfd904330c7c56',1,'graphene::chain::block_header']]]
 ];

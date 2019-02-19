@@ -5,6 +5,7 @@ var searchData=
   ['pending_5ftransactions_5frestorer',['pending_transactions_restorer',['../structgraphene_1_1chain_1_1detail_1_1pending__transactions__restorer.html',1,'graphene::chain::detail']]],
   ['plain_5fkeys',['plain_keys',['../structgraphene_1_1wallet_1_1plain__keys.html',1,'graphene::wallet']]],
   ['plugin',['plugin',['../classgraphene_1_1app_1_1plugin.html',1,'graphene::app']]],
+  ['precomputable_5ftransaction',['precomputable_transaction',['../classgraphene_1_1chain_1_1precomputable__transaction.html',1,'graphene::chain']]],
   ['predicate_5fevaluator',['predicate_evaluator',['../structgraphene_1_1chain_1_1predicate__evaluator.html',1,'graphene::chain']]],
   ['predicate_5fvalidator',['predicate_validator',['../structgraphene_1_1chain_1_1predicate__validator.html',1,'graphene::chain']]],
   ['price',['price',['../structgraphene_1_1chain_1_1price.html',1,'graphene::chain']]],
@@ -19,6 +20,7 @@ var searchData=
   ['proposal_5fupdate_5fevaluator',['proposal_update_evaluator',['../classgraphene_1_1chain_1_1proposal__update__evaluator.html',1,'graphene::chain']]],
   ['proposal_5fupdate_5foperation',['proposal_update_operation',['../structgraphene_1_1chain_1_1proposal__update__operation.html',1,'graphene::chain']]],
   ['pts_5faddress',['pts_address',['../structgraphene_1_1chain_1_1pts__address.html',1,'graphene::chain']]],
+  ['pubkey_5fcomparator',['pubkey_comparator',['../classgraphene_1_1chain_1_1pubkey__comparator.html',1,'graphene::chain']]],
   ['public_5fkey_5ftype',['public_key_type',['../structgraphene_1_1chain_1_1public__key__type.html',1,'graphene::chain']]],
   ['push_5fproposal_5fnesting_5fguard',['push_proposal_nesting_guard',['../classgraphene_1_1chain_1_1push__proposal__nesting__guard.html',1,'graphene::chain']]]
 ];

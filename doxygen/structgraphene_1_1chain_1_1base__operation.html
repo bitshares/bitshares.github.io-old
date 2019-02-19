@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aff6e2d2b66117c8c87f6a6e7e7ddba1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ebbd0b4de5186e51b98d7e6a76a64bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1base__operation.html#a0ebbd0b4de5186e51b98d7e6a76a64bc">validate</a> () const</td></tr>
 <tr class="separator:a0ebbd0b4de5186e51b98d7e6a76a64bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2bfdabb6d782e8b7843a363e85c69e"><td class="memItemLeft" align="right" valign="top">fc::optional&lt; fc::future&lt; void &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1base__operation.html#aba2bfdabb6d782e8b7843a363e85c69e">validate_parallel</a> (uint32_t skip) const</td></tr>
+<tr class="separator:aba2bfdabb6d782e8b7843a363e85c69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -153,7 +155,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00086">86</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00088">88</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8947f5ff3ea0458c7fe981b5bb9e82b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8947f5ff3ea0458c7fe981b5bb9e82b7">&#9670;&nbsp;</a></span>calculate_data_fee()</h2>
@@ -219,7 +221,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00089">89</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00091">91</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 
 </div>
 </div>
@@ -247,7 +249,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00094">94</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00096">96</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +277,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00093">93</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00095">95</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 
 </div>
 </div>
@@ -303,7 +305,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00095">95</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00097">97</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 
 </div>
 </div>
@@ -330,7 +332,27 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00096">96</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00098">98</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aba2bfdabb6d782e8b7843a363e85c69e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2bfdabb6d782e8b7843a363e85c69e">&#9670;&nbsp;</a></span>validate_parallel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fc::optional&lt; fc::future&lt; void &gt; &gt; graphene::chain::base_operation::validate_parallel </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>skip</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="operations_8cpp_source.html#l00035">35</a> of file <a class="el" href="operations_8cpp_source.html">operations.cpp</a>.</p>
 
 </div>
 </div>
@@ -341,7 +363,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:24 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

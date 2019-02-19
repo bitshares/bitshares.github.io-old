@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -64,7 +64,6 @@ $(function() {
 <div class="title">BitShares Core </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">
 <ul>
 <li><a href="#getting-started">Getting Started</a></li>
 <li><a href="#support">Support</a></li>
@@ -76,6 +75,7 @@ $(function() {
 <p>BitShares Core is the BitShares blockchain implementation and command-line interface. The web wallet is <a href="https://github.com/bitshares/bitshares-ui">BitShares UI</a>.</p>
 <p>Visit <a href="https://bitshares.org/">BitShares.org</a> to learn about BitShares and join the community at <a href="https://bitsharestalk.org/">BitSharesTalk.org</a>.</p>
 <p>Information for developers can be found in the <a href="https://dev.bitshares.works/">Bitshares Developer Portal</a>. Users interested in how bitshares works can go to the <a href="https://how.bitshares.works/">BitShares Documentation</a> site.</p>
+<p>For security issues and bug bounty program please visit <a href="https://hackthedex.io">Hack the DEX</a>.</p>
 <h2>Getting Started </h2>
 <p>Build instructions and additional documentation are available in the <a href="https://github.com/bitshares/bitshares-core/wiki">wiki</a>.</p>
 <p>We recommend building on Ubuntu 16.04 LTS (64-bit)</p>
@@ -105,8 +105,11 @@ git submodule update --init --recursive
 <tr>
 <th>Default </th><th>Full </th><th>Minimal </th><th>ElasticSearch  </th></tr>
 <tr>
-<td>100G HDD, 16G RAM </td><td>200G HDD, 160G RAM </td><td>80G HDD, 4G RAM </td><td>500G SSD, 32G RAM </td></tr>
+<td>100G HDD, 16G RAM </td><td>640G SSD, 64G RAM * </td><td>80G HDD, 4G RAM </td><td>500G SSD, 32G RAM </td></tr>
 </table>
+<ul>
+<li>For this setup, allocate at least 500GB of SSD as swap.</li>
+</ul>
 <p>After starting the witness node again, in a separate terminal you can run: </p><pre class="fragment">./programs/cli_wallet/cli_wallet
 </pre><p>Set your inital password: </p><pre class="fragment">&gt;&gt;&gt; set_password &lt;PASSWORD&gt;
 &gt;&gt;&gt; unlock &lt;PASSWORD&gt;
@@ -189,7 +192,7 @@ $ wscat -c ws://127.0.0.1:8090
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:25 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

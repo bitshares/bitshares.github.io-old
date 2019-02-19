@@ -10,6 +10,7 @@ var searchData=
   ['last_5fid',['last_id',['../classgraphene_1_1chain_1_1block__database.html#acf2fb2e00621883c45b85d9142071319',1,'graphene::chain::block_database']]],
   ['last_5firreversible_5fblock_5fnum',['last_irreversible_block_num',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a74dfc7b21530d28ade644ce1ff13a2b7',1,'graphene::chain::dynamic_global_property_object']]],
   ['last_5fnon_5fundoable_5fblock_5fnum',['last_non_undoable_block_num',['../classgraphene_1_1chain_1_1database.html#aee3dea95aed2dc56b5e3243e85c72e15',1,'graphene::chain::database']]],
+  ['last_5fvote_5ftime',['last_vote_time',['../classgraphene_1_1chain_1_1account__statistics__object.html#acccc9ad8c3bbd69b889d53c3c8d5cfc7',1,'graphene::chain::account_statistics_object']]],
   ['last_5fvotes',['last_votes',['../structgraphene_1_1chain_1_1vote__counter.html#ae6819bf7130489f65ac6f995700bb8b2',1,'graphene::chain::vote_counter']]],
   ['latest',['latest',['../structgraphene_1_1app_1_1market__ticker.html#aafa541b0693d9a512950ba6aaec62fba',1,'graphene::app::market_ticker']]],
   ['leftover_5fworker_5ffunds',['leftover_worker_funds',['../structgraphene_1_1chain_1_1budget__record.html#a7c2bb619a75be2b272eadcde3412c7ff',1,'graphene::chain::budget_record']]],

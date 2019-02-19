@@ -4,6 +4,7 @@ var searchData=
   ['handle_5fmessage',['handle_message',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a2ff949508a9cd0a392ecb4ee7b68fad8',1,'graphene::app::detail::application_impl']]],
   ['handle_5fobject_5fchanged',['handle_object_changed',['../classgraphene_1_1app_1_1database__api__impl.html#af32c7a64a34782f8cfc678098e63633a',1,'graphene::app::database_api_impl']]],
   ['handle_5ftransaction',['handle_transaction',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a1957c5d15b2e71ffcdc8e3d26a81ef51',1,'graphene::app::detail::application_impl']]],
+  ['hardfork_5fvisitor_5f1479',['hardfork_visitor_1479',['../classgraphene_1_1chain_1_1hardfork__visitor__1479.html',1,'graphene::chain']]],
   ['hardfork_5fvisitor_5f214',['hardfork_visitor_214',['../structgraphene_1_1chain_1_1hardfork__visitor__214.html',1,'graphene::chain']]],
   ['has_5fcashback_5fvb',['has_cashback_vb',['../classgraphene_1_1chain_1_1account__statistics__object.html#a12abb14fcb4e077b979f1f2a97c94727',1,'graphene::chain::account_statistics_object']]],
   ['has_5fitem',['has_item',['../classgraphene_1_1app_1_1detail_1_1application__impl.html#a46e14a1b20cb3b78e93f8267af3028de',1,'graphene::app::detail::application_impl']]],

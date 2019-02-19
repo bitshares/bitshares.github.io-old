@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -94,6 +94,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1account__referrer__index.html">graphene::chain::account_referrer_index</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This secondary index will allow a reverse lookup of all accounts that have been referred by a particular account.  <a href="classgraphene_1_1chain_1_1account__referrer__index.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1balances__by__account__index.html">graphene::chain::balances_by_account_index</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This secondary index will allow fast access to the balance objects that belonging to an account.  <a href="classgraphene_1_1chain_1_1balances__by__account__index.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1by__name.html">graphene::chain::by_name</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -106,8 +109,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a9804a0f0630b758e8705712232eaf1d7"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; account_balance_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_maintenance_flag &gt;, member&lt; account_balance_object, bool, &amp;account_balance_object::maintenance_flag &gt; &gt;, ordered_unique&lt; tag&lt; by_account_asset &gt;, composite_key&lt; account_balance_object, member&lt; account_balance_object, account_id_type, &amp;account_balance_object::owner &gt;, member&lt; account_balance_object, asset_id_type, &amp;account_balance_object::asset_type &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_asset_balance &gt;, composite_key&lt; account_balance_object, member&lt; account_balance_object, asset_id_type, &amp;account_balance_object::asset_type &gt;, member&lt; account_balance_object, share_type, &amp;account_balance_object::balance &gt;, member&lt; account_balance_object, account_id_type, &amp;account_balance_object::owner &gt; &gt;, composite_key_compare&lt; std::less&lt; asset_id_type &gt;, std::greater&lt; share_type &gt;, std::less&lt; account_id_type &gt; &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a9804a0f0630b758e8705712232eaf1d7">graphene::chain::account_balance_object_multi_index_type</a></td></tr>
-<tr class="separator:a9804a0f0630b758e8705712232eaf1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4b5486b79c95a308081e5b8f3cc309b"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; account_balance_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_maintenance_flag &gt;, member&lt; account_balance_object, bool, &amp;account_balance_object::maintenance_flag &gt; &gt;, ordered_unique&lt; tag&lt; by_asset_balance &gt;, composite_key&lt; account_balance_object, member&lt; account_balance_object, asset_id_type, &amp;account_balance_object::asset_type &gt;, member&lt; account_balance_object, share_type, &amp;account_balance_object::balance &gt;, member&lt; account_balance_object, account_id_type, &amp;account_balance_object::owner &gt; &gt;, composite_key_compare&lt; std::less&lt; asset_id_type &gt;, std::greater&lt; share_type &gt;, std::less&lt; account_id_type &gt; &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ae4b5486b79c95a308081e5b8f3cc309b">graphene::chain::account_balance_object_multi_index_type</a></td></tr>
+<tr class="separator:ae4b5486b79c95a308081e5b8f3cc309b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c78c201450b21a1df4539d4fc3165c7"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; account_balance_object, account_balance_object_multi_index_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a4c78c201450b21a1df4539d4fc3165c7">graphene::chain::account_balance_index</a></td></tr>
 <tr class="separator:a4c78c201450b21a1df4539d4fc3165c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cb69664c48f3d41eb5ac8b6bc4847cc"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; account_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_name &gt;, member&lt; account_object, string, &amp;account_object::name &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a2cb69664c48f3d41eb5ac8b6bc4847cc">graphene::chain::account_multi_index_type</a></td></tr>
@@ -122,7 +125,7 @@ Typedefs</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:23 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

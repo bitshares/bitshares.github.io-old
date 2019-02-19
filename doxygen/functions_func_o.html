@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -66,16 +66,19 @@ $(function() {
 <li>object_inserted()
 : <a class="el" href="classgraphene_1_1chain_1_1account__member__index.html#a1fc6394bcaee29e672305a4b9cdcee57">graphene::chain::account_member_index</a>
 , <a class="el" href="classgraphene_1_1chain_1_1account__referrer__index.html#a353949d4ecd8b0456ae383c1f3d0be11">graphene::chain::account_referrer_index</a>
+, <a class="el" href="classgraphene_1_1chain_1_1balances__by__account__index.html#aa08b58598300b14cd728fbfd0288a5f1">graphene::chain::balances_by_account_index</a>
 , <a class="el" href="classgraphene_1_1chain_1_1required__approval__index.html#a279d0b55a651894574a62e49db0ac260">graphene::chain::required_approval_index</a>
 </li>
 <li>object_modified()
 : <a class="el" href="classgraphene_1_1chain_1_1account__member__index.html#aa469fb8cc93d67ec3e8a25b814d54418">graphene::chain::account_member_index</a>
 , <a class="el" href="classgraphene_1_1chain_1_1account__referrer__index.html#a9708eb5c78b3163999d95e4d71353e54">graphene::chain::account_referrer_index</a>
+, <a class="el" href="classgraphene_1_1chain_1_1balances__by__account__index.html#ad1dc2668025ed93dac936a944c89d50d">graphene::chain::balances_by_account_index</a>
 , <a class="el" href="classgraphene_1_1chain_1_1required__approval__index.html#a206367ce9e3c7d3e0348f62418d66d05">graphene::chain::required_approval_index</a>
 </li>
 <li>object_removed()
 : <a class="el" href="classgraphene_1_1chain_1_1account__member__index.html#a289cbc24df1a0c582079c491cb6d795f">graphene::chain::account_member_index</a>
 , <a class="el" href="classgraphene_1_1chain_1_1account__referrer__index.html#ad5305ac928521e9c969715e59609c30f">graphene::chain::account_referrer_index</a>
+, <a class="el" href="classgraphene_1_1chain_1_1balances__by__account__index.html#a11bea578dbc56c2dca72a6cafedbe366">graphene::chain::balances_by_account_index</a>
 , <a class="el" href="classgraphene_1_1chain_1_1required__approval__index.html#aedceac62ad3a5954c03e057ee25598e5">graphene::chain::required_approval_index</a>
 </li>
 <li>on_applied_block()
@@ -157,30 +160,32 @@ $(function() {
 <li>operator()()
 : <a class="el" href="structfc_1_1graphene__extension__from__variant__visitor.html#aadba00108d87f4d04137c3ba45e72856">fc::graphene_extension_from_variant_visitor&lt; T &gt;</a>
 , <a class="el" href="structfc_1_1graphene__extension__to__variant__visitor.html#a5e3cc969ad544f39de015ec1b8799756">fc::graphene_extension_to_variant_visitor&lt; T &gt;</a>
-, <a class="el" href="structget__impacted__account__visitor.html#a8166f8c6eaf3fbaeb3d0ae61c4bff7fe">get_impacted_account_visitor</a>
+, <a class="el" href="structget__impacted__account__visitor.html#aa5600a825e749dce98a1cc61379741a0">get_impacted_account_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1bitasset__short__backing__asset__extractor.html#adc66588fe37704e08dbd21e60e226254">graphene::chain::bitasset_short_backing_asset_extractor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1calc__fee__visitor.html#ad3af5c461e8c5d4b53ca4001a3a9ba3e">graphene::chain::calc_fee_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1fee__schedule__validate__visitor.html#abc6c7e148a543c86f94f6be4e62a0d1e">graphene::chain::fee_schedule_validate_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__pack__count__visitor.html#a09a738c395bc71c3ca941c5e56b37016">graphene::chain::graphene_extension_pack_count_visitor&lt; T &gt;</a>
 , <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__pack__read__visitor.html#a685d8972f7e2fa2f6415a48da240e578">graphene::chain::graphene_extension_pack_read_visitor&lt; Stream, T &gt;</a>
 , <a class="el" href="structgraphene_1_1chain_1_1graphene__extension__unpack__visitor.html#a0a3ce23b845c986376f741b10c1d7922">graphene::chain::graphene_extension_unpack_visitor&lt; Stream, T &gt;</a>
+, <a class="el" href="classgraphene_1_1chain_1_1hardfork__visitor__1479.html#adf74039c28affa82e2973bc5aa1e2d0c">graphene::chain::hardfork_visitor_1479</a>
 , <a class="el" href="structgraphene_1_1chain_1_1hardfork__visitor__214.html#a3a779434c26b44161222a0f6d7f6d6b4">graphene::chain::hardfork_visitor_214</a>
 , <a class="el" href="structgraphene_1_1chain_1_1init__policy__visitor.html#a9febe8208991e5b00b851fd189d7794b">graphene::chain::init_policy_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1operation__get__required__auth.html#a94e8806ea9c9d9fbcdeea19520874e5d">graphene::chain::operation_get_required_auth</a>
 , <a class="el" href="structgraphene_1_1chain_1_1operation__validator.html#afb42fbfa81a0936fda68eebb734e39e2">graphene::chain::operation_validator</a>
-, <a class="el" href="structgraphene_1_1chain_1_1predicate__evaluator.html#aa7f78b5a67c959078d89ffc32e619ab6">graphene::chain::predicate_evaluator</a>
+, <a class="el" href="structgraphene_1_1chain_1_1predicate__evaluator.html#a3945e874d4d6cfd8eb3831a178ba1e3a">graphene::chain::predicate_evaluator</a>
 , <a class="el" href="structgraphene_1_1chain_1_1predicate__validator.html#a6ead653068e73032ed145d16171882db">graphene::chain::predicate_validator</a>
-, <a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a5a0ca408e157392966a90af280c7367b">graphene::chain::proposal_operation_hardfork_visitor</a>
+, <a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a20e3afcb35c0dfd43812d97692fb6a48">graphene::chain::proposal_operation_hardfork_visitor</a>
+, <a class="el" href="classgraphene_1_1chain_1_1pubkey__comparator.html#a4de30579e85ce719fb883dd44cdc0bf1">graphene::chain::pubkey_comparator</a>
 , <a class="el" href="structgraphene_1_1chain_1_1set__fee__visitor.html#aa87d292e0db58e057adc8acba9029447">graphene::chain::set_fee_visitor</a>
-, <a class="el" href="structgraphene_1_1chain_1_1special__authority__evaluate__visitor.html#a58c905796fc115daf31a67c704ec0b5a">graphene::chain::special_authority_evaluate_visitor</a>
+, <a class="el" href="structgraphene_1_1chain_1_1special__authority__evaluate__visitor.html#a3d3072c90d1971340b7d91ba1d3cc33f">graphene::chain::special_authority_evaluate_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1special__authority__validate__visitor.html#a03320b9c83541898bd42bdbc4897ee59">graphene::chain::special_authority_validate_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1worker__init__visitor.html#a6abf766c06c3004976a2091e7cd79a2f">graphene::chain::worker_init_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1worker__pay__visitor.html#aee8150892c4d2b14f5e763b69264564b">graphene::chain::worker_pay_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1zero__fee__visitor.html#ab73df8a94401ee531a93f24f83644ffc">graphene::chain::zero_fee_visitor</a>
 , <a class="el" href="structgraphene_1_1wallet_1_1detail_1_1help__visitor.html#a2510a0ec95db249c73fd854d4375d23d">graphene::wallet::detail::help_visitor</a>
 , <a class="el" href="structgraphene_1_1wallet_1_1detail_1_1op__prototype__visitor.html#a64ab203e2d6b28c8dfad290bf44e7b20">graphene::wallet::detail::op_prototype_visitor</a>
-, <a class="el" href="structgraphene_1_1wallet_1_1detail_1_1operation__printer.html#a4e48b7509323dbb0a3ae6789818322d7">graphene::wallet::detail::operation_printer</a>
-, <a class="el" href="structgraphene_1_1wallet_1_1detail_1_1operation__result__printer.html#a0e69a4918bf8bd2d7a486e5f845eed47">graphene::wallet::detail::operation_result_printer</a>
+, <a class="el" href="structgraphene_1_1wallet_1_1detail_1_1operation__printer.html#ae08e459c53f1105f80f4e88ac3551cb6">graphene::wallet::detail::operation_printer</a>
+, <a class="el" href="structgraphene_1_1wallet_1_1detail_1_1operation__result__printer.html#aacd3457e059a39cdb92177ab0a6514ef">graphene::wallet::detail::operation_result_printer</a>
 , <a class="el" href="structgraphene_1_1wallet_1_1impl_1_1from__which__visitor.html#aca4809ecb40146a57b2e3f26ac4991b4">graphene::wallet::impl::from_which_visitor&lt; StaticVariant &gt;</a>
 , <a class="el" href="structgraphene_1_1wallet_1_1impl_1_1static__variant__map__visitor.html#a7019e28f29d1b210a0d496bcd3e39a97">graphene::wallet::impl::static_variant_map_visitor</a>
 , <a class="el" href="structstd_1_1hash_3_01graphene_1_1chain_1_1address_01_4.html#aa0f1dea880a043397a527a0dbff13b0d">std::hash&lt; graphene::chain::address &gt;</a>
@@ -196,7 +201,7 @@ $(function() {
 : <a class="el" href="structgraphene_1_1chain_1_1asset.html#a0569ace9fe43de77f748d5b3cf288fbd">graphene::chain::asset</a>
 </li>
 <li>operator=()
-: <a class="el" href="structgraphene_1_1chain_1_1vote__id__type.html#a8d79a13cd81b27d745637761fa067eb9">graphene::chain::vote_id_type</a>
+: <a class="el" href="structgraphene_1_1chain_1_1vote__id__type.html#aafe79dca72f641c4835e651a71efc337">graphene::chain::vote_id_type</a>
 </li>
 <li>orders()
 : <a class="el" href="classgraphene_1_1app_1_1login__api.html#a1f19beba188d12000f45f63359dbd48d">graphene::app::login_api</a>
@@ -208,7 +213,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:25 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
