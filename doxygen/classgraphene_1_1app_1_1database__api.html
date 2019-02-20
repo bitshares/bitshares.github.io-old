@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -98,19 +98,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c3f545dec20b073131bbd7466940c6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a0c3f545dec20b073131bbd7466940c6f">cancel_all_subscriptions</a> ()</td></tr>
 <tr class="memdesc:a0c3f545dec20b073131bbd7466940c6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop receiving any notifications.  <a href="#a0c3f545dec20b073131bbd7466940c6f">More...</a><br /></td></tr>
 <tr class="separator:a0c3f545dec20b073131bbd7466940c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa515d89b74c1667a7d5e70a6632a4760"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1block__header.html">block_header</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#aa515d89b74c1667a7d5e70a6632a4760">get_block_header</a> (uint32_t block_num) const</td></tr>
+<tr class="memitem:aa515d89b74c1667a7d5e70a6632a4760"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1block__header.html">block_header</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#aa515d89b74c1667a7d5e70a6632a4760">get_block_header</a> (uint32_t block_num) const</td></tr>
 <tr class="memdesc:aa515d89b74c1667a7d5e70a6632a4760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a block header.  <a href="#aa515d89b74c1667a7d5e70a6632a4760">More...</a><br /></td></tr>
 <tr class="separator:aa515d89b74c1667a7d5e70a6632a4760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd3fd30302518d3958013bd6c4bf8c38"><td class="memItemLeft" align="right" valign="top">map&lt; uint32_t, optional&lt; <a class="el" href="structgraphene_1_1chain_1_1block__header.html">block_header</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#acd3fd30302518d3958013bd6c4bf8c38">get_block_header_batch</a> (const vector&lt; uint32_t &gt; block_nums) const</td></tr>
+<tr class="memitem:acd3fd30302518d3958013bd6c4bf8c38"><td class="memItemLeft" align="right" valign="top">map&lt; uint32_t, optional&lt; <a class="el" href="classgraphene_1_1chain_1_1block__header.html">block_header</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#acd3fd30302518d3958013bd6c4bf8c38">get_block_header_batch</a> (const vector&lt; uint32_t &gt; block_nums) const</td></tr>
 <tr class="memdesc:acd3fd30302518d3958013bd6c4bf8c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve multiple block header by block numbers.  <a href="#acd3fd30302518d3958013bd6c4bf8c38">More...</a><br /></td></tr>
 <tr class="separator:acd3fd30302518d3958013bd6c4bf8c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a865cb0a6e29f07e8854ffe092adb503e"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a865cb0a6e29f07e8854ffe092adb503e">get_block</a> (uint32_t block_num) const</td></tr>
+<tr class="memitem:a865cb0a6e29f07e8854ffe092adb503e"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a865cb0a6e29f07e8854ffe092adb503e">get_block</a> (uint32_t block_num) const</td></tr>
 <tr class="memdesc:a865cb0a6e29f07e8854ffe092adb503e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a full, signed block.  <a href="#a865cb0a6e29f07e8854ffe092adb503e">More...</a><br /></td></tr>
 <tr class="separator:a865cb0a6e29f07e8854ffe092adb503e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca15ad75a1150dd83304f419ce54d320"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#aca15ad75a1150dd83304f419ce54d320">get_transaction</a> (uint32_t block_num, uint32_t trx_in_block) const</td></tr>
 <tr class="memdesc:aca15ad75a1150dd83304f419ce54d320"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to fetch an individual transaction.  <a href="#aca15ad75a1150dd83304f419ce54d320">More...</a><br /></td></tr>
 <tr class="separator:aca15ad75a1150dd83304f419ce54d320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a4d796c6f805158f101f603a48cbd4"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a90a4d796c6f805158f101f603a48cbd4">get_recent_transaction_by_id</a> (const <a class="el" href="namespacegraphene_1_1chain.html#adc38ef0a36d8b8dfcef2cbbcacb6d1e8">transaction_id_type</a> &amp;id) const</td></tr>
+<tr class="memitem:a90a4d796c6f805158f101f603a48cbd4"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a90a4d796c6f805158f101f603a48cbd4">get_recent_transaction_by_id</a> (const <a class="el" href="namespacegraphene_1_1chain.html#adc38ef0a36d8b8dfcef2cbbcacb6d1e8">transaction_id_type</a> &amp;id) const</td></tr>
 <tr class="separator:a90a4d796c6f805158f101f603a48cbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51e318453ce7d459cd24e65fe81b14f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgraphene_1_1chain_1_1chain__property__object.html">chain_property_object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a51e318453ce7d459cd24e65fe81b14f1">get_chain_properties</a> () const</td></tr>
 <tr class="memdesc:a51e318453ce7d459cd24e65fe81b14f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the chain_property_object associated with the chain.  <a href="#a51e318453ce7d459cd24e65fe81b14f1">More...</a><br /></td></tr>
@@ -168,9 +168,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeae61cd2ea6284869e996dce486286d4"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#aeae61cd2ea6284869e996dce486286d4">get_account_count</a> () const</td></tr>
 <tr class="memdesc:aeae61cd2ea6284869e996dce486286d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of accounts registered with the blockchain.  <a href="#aeae61cd2ea6284869e996dce486286d4">More...</a><br /></td></tr>
 <tr class="separator:aeae61cd2ea6284869e996dce486286d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca5b69aaff0d706b115076f3cef01c54"><td class="memItemLeft" align="right" valign="top">vector&lt; optional&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#aca5b69aaff0d706b115076f3cef01c54">get_assets</a> (const vector&lt; <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &gt; &amp;asset_ids) const</td></tr>
-<tr class="memdesc:aca5b69aaff0d706b115076f3cef01c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of assets by ID.  <a href="#aca5b69aaff0d706b115076f3cef01c54">More...</a><br /></td></tr>
-<tr class="separator:aca5b69aaff0d706b115076f3cef01c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae353813a6ad254bbc6c1be6109e9f8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ae353813a6ad254bbc6c1be6109e9f8ca">get_asset_id_from_string</a> (const std::string &amp;symbol_or_id) const</td></tr>
+<tr class="memdesc:ae353813a6ad254bbc6c1be6109e9f8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get asset id from a symbol or ID.  <a href="#ae353813a6ad254bbc6c1be6109e9f8ca">More...</a><br /></td></tr>
+<tr class="separator:ae353813a6ad254bbc6c1be6109e9f8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8325393dc4dded2d8e6d96317fd8a75"><td class="memItemLeft" align="right" valign="top">vector&lt; optional&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ad8325393dc4dded2d8e6d96317fd8a75">get_assets</a> (const vector&lt; std::string &gt; &amp;asset_symbols_or_ids) const</td></tr>
+<tr class="memdesc:ad8325393dc4dded2d8e6d96317fd8a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of assets by ID.  <a href="#ad8325393dc4dded2d8e6d96317fd8a75">More...</a><br /></td></tr>
+<tr class="separator:ad8325393dc4dded2d8e6d96317fd8a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad018c7e1bf8cc503b786c80ab90965f3"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ad018c7e1bf8cc503b786c80ab90965f3">list_assets</a> (const string &amp;lower_bound_symbol, uint32_t limit) const</td></tr>
 <tr class="memdesc:ad018c7e1bf8cc503b786c80ab90965f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get assets alphabetically by symbol name.  <a href="#ad018c7e1bf8cc503b786c80ab90965f3">More...</a><br /></td></tr>
 <tr class="separator:ad018c7e1bf8cc503b786c80ab90965f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,26 +183,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b628b3014c888dd5328bb11c0b414bc"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a6b628b3014c888dd5328bb11c0b414bc">get_asset_count</a> () const</td></tr>
 <tr class="memdesc:a6b628b3014c888dd5328bb11c0b414bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get assets count.  <a href="#a6b628b3014c888dd5328bb11c0b414bc">More...</a><br /></td></tr>
 <tr class="separator:a6b628b3014c888dd5328bb11c0b414bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa9e7c8c0582b9a7156ed83d8502bb62"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#aaa9e7c8c0582b9a7156ed83d8502bb62">get_limit_orders</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> b, uint32_t limit) const</td></tr>
-<tr class="memdesc:aaa9e7c8c0582b9a7156ed83d8502bb62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get limit orders in a given market.  <a href="#aaa9e7c8c0582b9a7156ed83d8502bb62">More...</a><br /></td></tr>
-<tr class="separator:aaa9e7c8c0582b9a7156ed83d8502bb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40826f0f00675fdd56d06f15a6523222"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a40826f0f00675fdd56d06f15a6523222">get_call_orders</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, uint32_t limit) const</td></tr>
-<tr class="memdesc:a40826f0f00675fdd56d06f15a6523222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get call orders in a given asset.  <a href="#a40826f0f00675fdd56d06f15a6523222">More...</a><br /></td></tr>
-<tr class="separator:a40826f0f00675fdd56d06f15a6523222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e30518207ecb94d7886596fa89b6e68"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a6e30518207ecb94d7886596fa89b6e68">get_settle_orders</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, uint32_t limit) const</td></tr>
-<tr class="memdesc:a6e30518207ecb94d7886596fa89b6e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get forced settlement orders in a given asset.  <a href="#a6e30518207ecb94d7886596fa89b6e68">More...</a><br /></td></tr>
-<tr class="separator:a6e30518207ecb94d7886596fa89b6e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad015dbb53c827df228d8b2e18a6ce169"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1collateral__bid__object.html">collateral_bid_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ad015dbb53c827df228d8b2e18a6ce169">get_collateral_bids</a> (const <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> <a class="el" href="structgraphene_1_1chain_1_1asset.html">asset</a>, uint32_t limit, uint32_t start) const</td></tr>
-<tr class="memdesc:ad015dbb53c827df228d8b2e18a6ce169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get collateral_bid_objects for a given asset.  <a href="#ad015dbb53c827df228d8b2e18a6ce169">More...</a><br /></td></tr>
-<tr class="separator:ad015dbb53c827df228d8b2e18a6ce169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab970529cf7f1f126b633522f47c09e54"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ab970529cf7f1f126b633522f47c09e54">get_limit_orders</a> (std::string a, std::string b, uint32_t limit) const</td></tr>
+<tr class="memdesc:ab970529cf7f1f126b633522f47c09e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get limit orders in a given market.  <a href="#ab970529cf7f1f126b633522f47c09e54">More...</a><br /></td></tr>
+<tr class="separator:ab970529cf7f1f126b633522f47c09e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e6dafcc9f6640ca5f9b721f784ab4f"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a70e6dafcc9f6640ca5f9b721f784ab4f">get_call_orders</a> (const std::string &amp;a, uint32_t limit) const</td></tr>
+<tr class="memdesc:a70e6dafcc9f6640ca5f9b721f784ab4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get call orders in a given asset.  <a href="#a70e6dafcc9f6640ca5f9b721f784ab4f">More...</a><br /></td></tr>
+<tr class="separator:a70e6dafcc9f6640ca5f9b721f784ab4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e08bf257a9e0cd985ddda28fec57faa"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a2e08bf257a9e0cd985ddda28fec57faa">get_settle_orders</a> (const std::string &amp;a, uint32_t limit) const</td></tr>
+<tr class="memdesc:a2e08bf257a9e0cd985ddda28fec57faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get forced settlement orders in a given asset.  <a href="#a2e08bf257a9e0cd985ddda28fec57faa">More...</a><br /></td></tr>
+<tr class="separator:a2e08bf257a9e0cd985ddda28fec57faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7c0d7f9dd1f5310523b498ea9bfe4e"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1collateral__bid__object.html">collateral_bid_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a3e7c0d7f9dd1f5310523b498ea9bfe4e">get_collateral_bids</a> (const std::string &amp;a, uint32_t limit, uint32_t start) const</td></tr>
+<tr class="memdesc:a3e7c0d7f9dd1f5310523b498ea9bfe4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get collateral_bid_objects for a given asset.  <a href="#a3e7c0d7f9dd1f5310523b498ea9bfe4e">More...</a><br /></td></tr>
+<tr class="separator:a3e7c0d7f9dd1f5310523b498ea9bfe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9f44fda63ef3fb2bad35009ada05a24"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ac9f44fda63ef3fb2bad35009ada05a24">get_margin_positions</a> (const std::string account_id_or_name) const</td></tr>
 <tr class="separator:ac9f44fda63ef3fb2bad35009ada05a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabf9b981bb7a6207751a37320793ef9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#aabf9b981bb7a6207751a37320793ef9b">subscribe_to_market</a> (std::function&lt; void(const variant &amp;)&gt; callback, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> b)</td></tr>
-<tr class="memdesc:aabf9b981bb7a6207751a37320793ef9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request notification when the active orders in the market between two assets changes.  <a href="#aabf9b981bb7a6207751a37320793ef9b">More...</a><br /></td></tr>
-<tr class="separator:aabf9b981bb7a6207751a37320793ef9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5f8d5fc78a995588d47b7af4e945def"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ad5f8d5fc78a995588d47b7af4e945def">unsubscribe_from_market</a> (<a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> a, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> b)</td></tr>
-<tr class="memdesc:ad5f8d5fc78a995588d47b7af4e945def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribe from updates to a given market.  <a href="#ad5f8d5fc78a995588d47b7af4e945def">More...</a><br /></td></tr>
-<tr class="separator:ad5f8d5fc78a995588d47b7af4e945def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afda8182c12340a82a94ae455bbb0ee40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#afda8182c12340a82a94ae455bbb0ee40">subscribe_to_market</a> (std::function&lt; void(const variant &amp;)&gt; callback, const std::string &amp;a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:afda8182c12340a82a94ae455bbb0ee40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request notification when the active orders in the market between two assets changes.  <a href="#afda8182c12340a82a94ae455bbb0ee40">More...</a><br /></td></tr>
+<tr class="separator:afda8182c12340a82a94ae455bbb0ee40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56e8e3de3827d2ed993d28bd22b943de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a56e8e3de3827d2ed993d28bd22b943de">unsubscribe_from_market</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:a56e8e3de3827d2ed993d28bd22b943de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribe from updates to a given market.  <a href="#a56e8e3de3827d2ed993d28bd22b943de">More...</a><br /></td></tr>
+<tr class="separator:a56e8e3de3827d2ed993d28bd22b943de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab507c98bcb65b3e5efef6d11a9a0a08c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1app_1_1market__ticker.html">market_ticker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ab507c98bcb65b3e5efef6d11a9a0a08c">get_ticker</a> (const string &amp;base, const string &amp;quote) const</td></tr>
 <tr class="memdesc:ab507c98bcb65b3e5efef6d11a9a0a08c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ticker for the market assetA:assetB.  <a href="#ab507c98bcb65b3e5efef6d11a9a0a08c">More...</a><br /></td></tr>
 <tr class="separator:ab507c98bcb65b3e5efef6d11a9a0a08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,9 +212,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4865539c5d6e1db1f6ea23681fc59bd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1app_1_1order__book.html">order_book</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a4865539c5d6e1db1f6ea23681fc59bd1">get_order_book</a> (const string &amp;base, const string &amp;quote, unsigned limit=50) const</td></tr>
 <tr class="memdesc:a4865539c5d6e1db1f6ea23681fc59bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the order book for the market base:quote.  <a href="#a4865539c5d6e1db1f6ea23681fc59bd1">More...</a><br /></td></tr>
 <tr class="separator:a4865539c5d6e1db1f6ea23681fc59bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a132cb42e396809a9e1910bb0fe44e163"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structgraphene_1_1app_1_1market__volume.html">market_volume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a132cb42e396809a9e1910bb0fe44e163">get_top_markets</a> (uint32_t limit) const</td></tr>
-<tr class="memdesc:a132cb42e396809a9e1910bb0fe44e163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vector of 24 hour volume markets sorted by reverse base_volume Note: this API is experimental and subject to change in next releases.  <a href="#a132cb42e396809a9e1910bb0fe44e163">More...</a><br /></td></tr>
-<tr class="separator:a132cb42e396809a9e1910bb0fe44e163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbbb2c12bca7d9f84bc73ef5b2991df6"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structgraphene_1_1app_1_1market__ticker.html">market_ticker</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#adbbb2c12bca7d9f84bc73ef5b2991df6">get_top_markets</a> (uint32_t limit) const</td></tr>
+<tr class="memdesc:adbbb2c12bca7d9f84bc73ef5b2991df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vector of tickers sorted by reverse base_volume Note: this API is experimental and subject to change in next releases.  <a href="#adbbb2c12bca7d9f84bc73ef5b2991df6">More...</a><br /></td></tr>
+<tr class="separator:adbbb2c12bca7d9f84bc73ef5b2991df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f345996512773054dcc2d76bb30770"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="structgraphene_1_1app_1_1market__trade.html">market_trade</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ab9f345996512773054dcc2d76bb30770">get_trade_history</a> (const string &amp;base, const string &amp;quote, fc::time_point_sec start, fc::time_point_sec stop, unsigned limit=100) const</td></tr>
 <tr class="memdesc:ab9f345996512773054dcc2d76bb30770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns recent trades for the market base:quote, ordered by time, most recent first. Note: Currently, timezone offsets are not supported. The time must be UTC. The range is [stop, start). In case when there are more than 100 trades occurred in the same second, this API only returns the first 100 records, can use another API <code>get_trade_history_by_sequence</code> to query for the rest.  <a href="#ab9f345996512773054dcc2d76bb30770">More...</a><br /></td></tr>
 <tr class="separator:ab9f345996512773054dcc2d76bb30770"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,26 +257,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68b9a93c530b3fa4bb77d5d57b96fab3"><td class="memItemLeft" align="right" valign="top">vector&lt; variant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a68b9a93c530b3fa4bb77d5d57b96fab3">lookup_vote_ids</a> (const vector&lt; <a class="el" href="structgraphene_1_1chain_1_1vote__id__type.html">vote_id_type</a> &gt; &amp;votes) const</td></tr>
 <tr class="memdesc:a68b9a93c530b3fa4bb77d5d57b96fab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a set of votes, return the objects they are voting for.  <a href="#a68b9a93c530b3fa4bb77d5d57b96fab3">More...</a><br /></td></tr>
 <tr class="separator:a68b9a93c530b3fa4bb77d5d57b96fab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad099ccae08856bd4af70aa6669c6e8f6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ad099ccae08856bd4af70aa6669c6e8f6">get_transaction_hex</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
+<tr class="memitem:ad099ccae08856bd4af70aa6669c6e8f6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ad099ccae08856bd4af70aa6669c6e8f6">get_transaction_hex</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
 <tr class="memdesc:ad099ccae08856bd4af70aa6669c6e8f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a hexdump of the serialized binary form of a transaction.  <a href="#ad099ccae08856bd4af70aa6669c6e8f6">More...</a><br /></td></tr>
 <tr class="separator:ad099ccae08856bd4af70aa6669c6e8f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e937038077cda27b1f5d06254d3f870"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a3e937038077cda27b1f5d06254d3f870">get_transaction_hex_without_sig</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
+<tr class="memitem:a3e937038077cda27b1f5d06254d3f870"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a3e937038077cda27b1f5d06254d3f870">get_transaction_hex_without_sig</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
 <tr class="memdesc:a3e937038077cda27b1f5d06254d3f870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a hexdump of the serialized binary form of a signatures-stripped transaction.  <a href="#a3e937038077cda27b1f5d06254d3f870">More...</a><br /></td></tr>
 <tr class="separator:a3e937038077cda27b1f5d06254d3f870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ae2eb6a83c27a7b4eec2b00ee8ba371"><td class="memItemLeft" align="right" valign="top">set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a9ae2eb6a83c27a7b4eec2b00ee8ba371">get_required_signatures</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx, const flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; &amp;available_keys) const</td></tr>
+<tr class="memitem:a9ae2eb6a83c27a7b4eec2b00ee8ba371"><td class="memItemLeft" align="right" valign="top">set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a9ae2eb6a83c27a7b4eec2b00ee8ba371">get_required_signatures</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx, const flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; &amp;available_keys) const</td></tr>
 <tr class="separator:a9ae2eb6a83c27a7b4eec2b00ee8ba371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae62878047f99b974282302825086d369"><td class="memItemLeft" align="right" valign="top">set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ae62878047f99b974282302825086d369">get_potential_signatures</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
+<tr class="memitem:ae62878047f99b974282302825086d369"><td class="memItemLeft" align="right" valign="top">set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ae62878047f99b974282302825086d369">get_potential_signatures</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
 <tr class="separator:ae62878047f99b974282302825086d369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae40d3a430ca023b53c09f92351d9e904"><td class="memItemLeft" align="right" valign="top">set&lt; <a class="el" href="classgraphene_1_1chain_1_1address.html">address</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ae40d3a430ca023b53c09f92351d9e904">get_potential_address_signatures</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
+<tr class="memitem:ae40d3a430ca023b53c09f92351d9e904"><td class="memItemLeft" align="right" valign="top">set&lt; <a class="el" href="classgraphene_1_1chain_1_1address.html">address</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ae40d3a430ca023b53c09f92351d9e904">get_potential_address_signatures</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
 <tr class="separator:ae40d3a430ca023b53c09f92351d9e904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe62b6a147149b0954cda6c10c858f7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#afe62b6a147149b0954cda6c10c858f7d">verify_authority</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
+<tr class="memitem:afe62b6a147149b0954cda6c10c858f7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#afe62b6a147149b0954cda6c10c858f7d">verify_authority</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
 <tr class="separator:afe62b6a147149b0954cda6c10c858f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a359ba5375d70ea8c68c81e97ff5b90f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a359ba5375d70ea8c68c81e97ff5b90f7">verify_account_authority</a> (const string &amp;account_name_or_id, const flat_set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; &amp;signers) const</td></tr>
+<tr class="memdesc:a359ba5375d70ea8c68c81e97ff5b90f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify that the public keys have enough authority to approve an operation for this account.  <a href="#a359ba5375d70ea8c68c81e97ff5b90f7">More...</a><br /></td></tr>
 <tr class="separator:a359ba5375d70ea8c68c81e97ff5b90f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b704179a813b26c3f910105f7e6a9f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a3b704179a813b26c3f910105f7e6a9f6">validate_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
+<tr class="memitem:a3b704179a813b26c3f910105f7e6a9f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a3b704179a813b26c3f910105f7e6a9f6">validate_transaction</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx) const</td></tr>
 <tr class="separator:a3b704179a813b26c3f910105f7e6a9f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad35716561e27ec6913b959f230aa2b1c"><td class="memItemLeft" align="right" valign="top">vector&lt; fc::variant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#ad35716561e27ec6913b959f230aa2b1c">get_required_fees</a> (const vector&lt; <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &gt; &amp;ops, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> id) const</td></tr>
-<tr class="separator:ad35716561e27ec6913b959f230aa2b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a39b68493c70a40a9336274380297cf"><td class="memItemLeft" align="right" valign="top">vector&lt; fc::variant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a6a39b68493c70a40a9336274380297cf">get_required_fees</a> (const vector&lt; <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &gt; &amp;ops, const std::string &amp;asset_id_or_symbol) const</td></tr>
+<tr class="separator:a6a39b68493c70a40a9336274380297cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61959ca9a81062807d10b9c2494df0e4"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1proposal__object.html">proposal_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a61959ca9a81062807d10b9c2494df0e4">get_proposed_transactions</a> (const std::string account_id_or_name) const</td></tr>
 <tr class="separator:a61959ca9a81062807d10b9c2494df0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42799e089fb62035373538f9ccc973af"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1blinded__balance__object.html">blinded_balance_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1database__api.html#a42799e089fb62035373538f9ccc973af">get_blinded_balances</a> (const flat_set&lt; commitment_type &gt; &amp;commitments) const</td></tr>
@@ -289,7 +293,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>The <a class="el" href="classgraphene_1_1app_1_1database__api.html" title="The database_api class implements the RPC API for the chain database. ">database_api</a> class implements the RPC API for the chain database. </p>
 <p>This API exposes accessors on the database which query state tracked by a blockchain validating node. This API is read-only; all modifications to the database must be performed via transactions. Transactions are broadcast via the <a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html">network_broadcast_api</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8hpp_source.html#l00122">122</a> of file <a class="el" href="database__api_8hpp_source.html">database_api.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8hpp_source.html#l00129">129</a> of file <a class="el" href="database__api_8hpp_source.html">database_api.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad81929c19600a30b92e8c387338264ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad81929c19600a30b92e8c387338264ab">&#9670;&nbsp;</a></span>database_api()</h2>
@@ -317,7 +321,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00284">284</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00346">346</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -336,7 +340,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00287">287</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00349">349</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -359,7 +363,7 @@ Public Member Functions</h2></td></tr>
 <p>Stop receiving any notifications. </p>
 <p>This unsubscribes from all subscribed markets and objects. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00395">395</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00504">504</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -399,7 +403,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The market volume over the past 24 hours </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01370">1370</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01440">1440</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -439,7 +443,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Balances of the account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00944">944</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01051">1051</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -459,7 +463,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00851">851</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00958">958</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -480,7 +484,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the total number of accounts registered with the blockchain. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00928">928</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01035">1035</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -509,7 +513,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Account ID </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00638">638</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00746">746</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -582,7 +586,7 @@ Public Member Functions</h2></td></tr>
 </ol>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00666">666</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00774">774</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -603,7 +607,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>all accounts that referr to the key or account id in their owner or active authorities. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00865">865</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00972">972</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -633,7 +637,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The accounts corresponding to the provided IDs</dd></dl>
 <p>This function has semantics identical to <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5a8b2fb34a9ef56da9825e15200720d1">get_objects</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00643">643</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00751">751</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -655,7 +659,7 @@ Public Member Functions</h2></td></tr>
 <p>Get all workers. </p>
 <dl class="section return"><dt>Returns</dt><dd>All the workers </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01820">1820</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01887">1887</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -677,12 +681,41 @@ Public Member Functions</h2></td></tr>
 <p>Get assets count. </p>
 <dl class="section return"><dt>Returns</dt><dd>The assets count </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01095">1095</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01209">1209</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aca5b69aaff0d706b115076f3cef01c54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca5b69aaff0d706b115076f3cef01c54">&#9670;&nbsp;</a></span>get_assets()</h2>
+<a id="ae353813a6ad254bbc6c1be6109e9f8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae353813a6ad254bbc6c1be6109e9f8ca">&#9670;&nbsp;</a></span>get_asset_id_from_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> graphene::app::database_api::get_asset_id_from_string </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>symbol_or_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get asset id from a symbol or ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">symbol_or_id</td><td>ID or symbol of the asset </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>asset id </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01159">1159</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad8325393dc4dded2d8e6d96317fd8a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8325393dc4dded2d8e6d96317fd8a75">&#9670;&nbsp;</a></span>get_assets()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -690,8 +723,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; optional&lt; <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &gt; &gt; graphene::app::database_api::get_assets </td>
           <td>(</td>
-          <td class="paramtype">const vector&lt; <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>asset_ids</em></td><td>)</td>
+          <td class="paramtype">const vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>asset_symbols_or_ids</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -700,14 +733,14 @@ Public Member Functions</h2></td></tr>
 <p>Get a list of assets by ID. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">asset_ids</td><td>IDs of the assets to retrieve </td></tr>
+    <tr><td class="paramname">asset_symbols_or_ids</td><td>Symbol names or IDs of the assets to retrieve </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The assets corresponding to the provided IDs</dd></dl>
 <p>This function has semantics identical to <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5a8b2fb34a9ef56da9825e15200720d1">get_objects</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01052">1052</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01164">1164</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -728,7 +761,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>all unclaimed balance objects for a set of addresses </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00978">978</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01085">1085</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -749,7 +782,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the set of blinded balance objects by commitment ID </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02213">2213</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02290">2290</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -760,7 +793,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt; graphene::app::database_api::get_block </td>
+          <td class="memname">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt; graphene::app::database_api::get_block </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>block_num</em></td><td>)</td>
@@ -778,7 +811,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the referenced block, or null if no matching block was found </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00447">447</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00556">556</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -789,7 +822,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1block__header.html">block_header</a> &gt; graphene::app::database_api::get_block_header </td>
+          <td class="memname">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1block__header.html">block_header</a> &gt; graphene::app::database_api::get_block_header </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>block_num</em></td><td>)</td>
@@ -807,7 +840,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>header of the referenced block, or null if no matching block was found </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00420">420</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00529">529</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -818,7 +851,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">map&lt; uint32_t, optional&lt; <a class="el" href="structgraphene_1_1chain_1_1block__header.html">block_header</a> &gt; &gt; graphene::app::database_api::get_block_header_batch </td>
+          <td class="memname">map&lt; uint32_t, optional&lt; <a class="el" href="classgraphene_1_1chain_1_1block__header.html">block_header</a> &gt; &gt; graphene::app::database_api::get_block_header_batch </td>
           <td>(</td>
           <td class="paramtype">const vector&lt; uint32_t &gt;&#160;</td>
           <td class="paramname"><em>block_nums</em></td><td>)</td>
@@ -836,12 +869,12 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array of headers of the referenced blocks, or null if no matching block was found </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00432">432</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00541">541</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a40826f0f00675fdd56d06f15a6523222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40826f0f00675fdd56d06f15a6523222">&#9670;&nbsp;</a></span>get_call_orders()</h2>
+<a id="a70e6dafcc9f6640ca5f9b721f784ab4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70e6dafcc9f6640ca5f9b721f784ab4f">&#9670;&nbsp;</a></span>get_call_orders()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -849,7 +882,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1call__order__object.html">call_order_object</a> &gt; graphene::app::database_api::get_call_orders </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
@@ -869,14 +902,14 @@ Public Member Functions</h2></td></tr>
 <p>Get call orders in a given asset. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>ID of asset being called </td></tr>
+    <tr><td class="paramname">a</td><td>Symbol or ID of asset being called </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of orders to retrieve </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The call orders, ordered from earliest to be called to latest </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01171">1171</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01266">1266</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -897,7 +930,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the chain ID. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00515">515</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00624">624</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -918,12 +951,12 @@ Public Member Functions</h2></td></tr>
 
 <p>Retrieve the chain_property_object associated with the chain. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00485">485</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00594">594</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ad015dbb53c827df228d8b2e18a6ce169"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad015dbb53c827df228d8b2e18a6ce169">&#9670;&nbsp;</a></span>get_collateral_bids()</h2>
+<a id="a3e7c0d7f9dd1f5310523b498ea9bfe4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7c0d7f9dd1f5310523b498ea9bfe4e">&#9670;&nbsp;</a></span>get_collateral_bids()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -931,8 +964,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1collateral__bid__object.html">collateral_bid_object</a> &gt; graphene::app::database_api::get_collateral_bids </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
-          <td class="paramname"><em>asset</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -957,7 +990,7 @@ Public Member Functions</h2></td></tr>
 <p>Get collateral_bid_objects for a given asset. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>ID of asset </td></tr>
+    <tr><td class="paramname">a</td><td>Symbol or ID of asset </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of objects to retrieve </td></tr>
     <tr><td class="paramname">start</td><td>skip that many results </td></tr>
   </table>
@@ -965,7 +998,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The settle orders, ordered from earliest settlement date to latest </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01238">1238</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01339">1339</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -986,7 +1019,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the total number of committee registered with the blockchain. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01803">1803</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01870">1870</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1015,7 +1048,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The committee_member object, or null if the account does not have a committee_member </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01760">1760</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01827">1827</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1045,7 +1078,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The committee_members corresponding to the provided IDs</dd></dl>
 <p>This function has semantics identical to <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5a8b2fb34a9ef56da9825e15200720d1">get_objects</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01743">1743</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01810">1810</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1099,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Retrieve compile-time constants. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00505">505</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00614">614</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1087,7 +1120,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Retrieve the current dynamic_global_property_object. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00525">525</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00634">634</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1128,7 +1161,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Map of string from names_or_ids to the corresponding account</dd></dl>
 <p>This function fetches all relevant objects for the given accounts, and subscribes to updates to the given accounts. If any of the strings in names_or_ids cannot be tied to an account, that input will be ignored. All other accounts will be retrieved and subscribed. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00752">752</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00860">860</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1149,7 +1182,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Retrieve the current global_property_object. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00495">495</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00604">604</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1169,12 +1202,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00541">541</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00650">650</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aaa9e7c8c0582b9a7156ed83d8502bb62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa9e7c8c0582b9a7156ed83d8502bb62">&#9670;&nbsp;</a></span>get_limit_orders()</h2>
+<a id="ab970529cf7f1f126b633522f47c09e54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab970529cf7f1f126b633522f47c09e54">&#9670;&nbsp;</a></span>get_limit_orders()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1182,13 +1215,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1limit__order__object.html">limit_order_object</a> &gt; graphene::app::database_api::get_limit_orders </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
@@ -1208,15 +1241,15 @@ Public Member Functions</h2></td></tr>
 <p>Get limit orders in a given market. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>ID of asset being sold </td></tr>
-    <tr><td class="paramname">b</td><td>ID of asset being purchased </td></tr>
+    <tr><td class="paramname">a</td><td>Symbol or ID of asset being sold </td></tr>
+    <tr><td class="paramname">b</td><td>Symbol or ID of asset being purchased </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of orders to retrieve </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The limit orders, ordered from least price to greatest </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01134">1134</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01248">1248</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1237,7 +1270,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>all open margin positions for a given account id or name. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01214">1214</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01315">1315</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1269,7 +1302,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Semantically equivalent to <a class="el" href="classgraphene_1_1app_1_1database__api.html#af3a97a65a2b8a714c74a3e3f8d888019">get_account_balances</a>, but takes a name instead of an ID. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00973">973</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01080">1080</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1299,7 +1332,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The objects retrieved, in the order they are mentioned in ids</dd></dl>
 <p>If any of the provided IDs does not map to an object, a null variant is returned in its position. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00320">320</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00429">429</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1346,7 +1379,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Order book of the market </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01389">1389</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01459">1459</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1359,14 +1392,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">set&lt; <a class="el" href="classgraphene_1_1chain_1_1address.html">address</a> &gt; graphene::app::database_api::get_potential_address_signatures </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01987">1987</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02054">2054</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1379,7 +1412,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; graphene::app::database_api::get_potential_signatures </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1387,7 +1420,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>This method will return the set of all public keys that could possibly sign for a given transaction. This call can be used by wallets to filter their set of public keys to just the relevant subset prior to calling <a class="el" href="classgraphene_1_1app_1_1database__api.html#a9ae2eb6a83c27a7b4eec2b00ee8ba371">get_required_signatures</a> to get the minimum subset. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01983">1983</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02050">2050</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1408,7 +1441,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the set of proposed transactions relevant to the specified account id. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02183">2183</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02260">2260</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1452,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt; graphene::app::database_api::get_recent_transaction_by_id </td>
+          <td class="memname">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt; graphene::app::database_api::get_recent_transaction_by_id </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#adc38ef0a36d8b8dfcef2cbbcacb6d1e8">transaction_id_type</a> &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -1429,12 +1462,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>If the transaction has not expired, this method will return the transaction for the given ID or it will return NULL if it is not known. Just because it is not known does not mean it wasn't included in the blockchain. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00462">462</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00571">571</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ad35716561e27ec6913b959f230aa2b1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad35716561e27ec6913b959f230aa2b1c">&#9670;&nbsp;</a></span>get_required_fees()</h2>
+<a id="a6a39b68493c70a40a9336274380297cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a39b68493c70a40a9336274380297cf">&#9670;&nbsp;</a></span>get_required_fees()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1448,8 +1481,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
-          <td class="paramname"><em>id</em>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>asset_id_or_symbol</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1458,9 +1491,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>For each operation calculate the required fee in the specified asset type. If the asset type does not have a valid core_exchange_rate </p>
+<p>For each operation calculate the required fee in the specified asset type. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02094">2094</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02171">2171</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1473,7 +1506,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">set&lt; <a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a> &gt; graphene::app::database_api::get_required_signatures </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em>, </td>
         </tr>
         <tr>
@@ -1491,12 +1524,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>This API will take a partially signed transaction and a set of public keys that the owner has the ability to sign for and return the minimal subset of public keys that should add signatures to the transaction. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01968">1968</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02035">2035</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a6e30518207ecb94d7886596fa89b6e68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e30518207ecb94d7886596fa89b6e68">&#9670;&nbsp;</a></span>get_settle_orders()</h2>
+<a id="a2e08bf257a9e0cd985ddda28fec57faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e08bf257a9e0cd985ddda28fec57faa">&#9670;&nbsp;</a></span>get_settle_orders()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1504,7 +1537,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">vector&lt; <a class="el" href="classgraphene_1_1chain_1_1force__settlement__object.html">force_settlement_object</a> &gt; graphene::app::database_api::get_settle_orders </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
@@ -1524,14 +1557,14 @@ Public Member Functions</h2></td></tr>
 <p>Get forced settlement orders in a given asset. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>ID of asset being settled </td></tr>
+    <tr><td class="paramname">a</td><td>Symbol or ID of asset being settled </td></tr>
     <tr><td class="paramname">limit</td><td>Maximum number of orders to retrieve </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The settle orders, ordered from earliest settlement date to latest </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01193">1193</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01291">1291</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1571,18 +1604,18 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The market ticker for the past 24 hours. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01298">1298</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01406">1406</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a132cb42e396809a9e1910bb0fe44e163"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a132cb42e396809a9e1910bb0fe44e163">&#9670;&nbsp;</a></span>get_top_markets()</h2>
+<a id="adbbb2c12bca7d9f84bc73ef5b2991df6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbbb2c12bca7d9f84bc73ef5b2991df6">&#9670;&nbsp;</a></span>get_top_markets()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt; <a class="el" href="structgraphene_1_1app_1_1market__volume.html">market_volume</a> &gt; graphene::app::database_api::get_top_markets </td>
+          <td class="memname">vector&lt; <a class="el" href="structgraphene_1_1app_1_1market__ticker.html">market_ticker</a> &gt; graphene::app::database_api::get_top_markets </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>limit</em></td><td>)</td>
@@ -1591,16 +1624,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns vector of 24 hour volume markets sorted by reverse base_volume Note: this API is experimental and subject to change in next releases. </p>
+<p>Returns vector of tickers sorted by reverse base_volume Note: this API is experimental and subject to change in next releases. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">limit</td><td>Max number of results </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Desc Sorted volume vector </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Desc Sorted ticker vector </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01434">1434</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01504">1504</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1661,7 +1694,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Recent transactions in the market </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01467">1467</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01534">1534</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1722,7 +1755,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Transactions in the market </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01556">1556</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01623">1623</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1754,7 +1787,7 @@ Public Member Functions</h2></td></tr>
 
 <p>used to fetch an individual transaction. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00457">457</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00566">566</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1767,7 +1800,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">std::string graphene::app::database_api::get_transaction_hex </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1776,7 +1809,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get a hexdump of the serialized binary form of a transaction. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01946">1946</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02013">2013</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1789,7 +1822,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">std::string graphene::app::database_api::get_transaction_hex_without_sig </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1798,7 +1831,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get a hexdump of the serialized binary form of a signatures-stripped transaction. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01956">1956</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02023">2023</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1818,7 +1851,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01007">1007</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01114">1114</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1838,7 +1871,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01025">1025</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01132">1132</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1885,7 +1918,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Withdraw permission objects for the account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02238">2238</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02315">2315</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1932,7 +1965,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Withdraw permission objects for the account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02260">2260</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02337">2337</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1961,7 +1994,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The witness object, or null if the account does not have a witness </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01684">1684</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01751">1751</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1982,7 +2015,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the total number of witnesses registered with the blockchain. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01727">1727</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01794">1794</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2012,7 +2045,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The witnesses corresponding to the provided IDs</dd></dl>
 <p>This function has semantics identical to <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5a8b2fb34a9ef56da9825e15200720d1">get_objects</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01667">1667</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01734">1734</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2033,7 +2066,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the total number of workers registered with the blockchain. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01855">1855</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01922">1922</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2062,7 +2095,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The worker object, or null if the account does not have a worker </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01836">1836</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01903">1903</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2089,7 +2122,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether a public key is known </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00603">603</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00711">711</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2129,7 +2162,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The assets found </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01072">1072</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01186">1186</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2159,7 +2192,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The accounts holding the provided names</dd></dl>
 <p>This function has semantics identical to <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5a8b2fb34a9ef56da9825e15200720d1">get_objects</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00887">887</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00994">994</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2199,7 +2232,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Map of account names to corresponding IDs </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00905">905</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01012">1012</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2229,7 +2262,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The assets corresponding to the provided symbols or IDs</dd></dl>
 <p>This function has semantics identical to <a class="el" href="classgraphene_1_1app_1_1database__api.html#a5a8b2fb34a9ef56da9825e15200720d1">get_objects</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01105">1105</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01219">1219</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2269,7 +2302,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Map of committee_member names to corresponding IDs </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01775">1775</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01842">1842</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2293,7 +2326,7 @@ Public Member Functions</h2></td></tr>
 <p>This will be a mixture of committee_member_object, witness_objects, and worker_objects</p>
 <p>The results will be in the same order as the votes. Null will be returned for any vote ids that are not found. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01873">1873</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01940">1940</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2333,7 +2366,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Map of witness names to corresponding IDs </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01699">1699</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01766">1766</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2361,7 +2394,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00385">385</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00494">494</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2390,7 +2423,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <p>Note: a transaction can be pushed to database and be popped from database several times while processing, before and after included in a block. Everytime when a push is done, the client will be notified. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00375">375</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00484">484</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2429,12 +2462,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00356">356</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00465">465</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aabf9b981bb7a6207751a37320793ef9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabf9b981bb7a6207751a37320793ef9b">&#9670;&nbsp;</a></span>subscribe_to_market()</h2>
+<a id="afda8182c12340a82a94ae455bbb0ee40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afda8182c12340a82a94ae455bbb0ee40">&#9670;&nbsp;</a></span>subscribe_to_market()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2448,13 +2481,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -2469,19 +2502,19 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">callback</td><td>Callback method which is called when the market changes </td></tr>
-    <tr><td class="paramname">a</td><td>First asset ID </td></tr>
-    <tr><td class="paramname">b</td><td>Second asset ID</td></tr>
+    <tr><td class="paramname">a</td><td>First asset Symbol or ID </td></tr>
+    <tr><td class="paramname">b</td><td>Second asset Symbol or ID</td></tr>
   </table>
   </dd>
 </dl>
 <p>Callback will be passed a variant containing a vector&lt;pair&lt;operation, operation_result&gt;&gt;. The vector will contain, in order, the operations which changed the market, and their results. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01264">1264</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01366">1366</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ad5f8d5fc78a995588d47b7af4e945def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5f8d5fc78a995588d47b7af4e945def">&#9670;&nbsp;</a></span>unsubscribe_from_market()</h2>
+<a id="a56e8e3de3827d2ed993d28bd22b943de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56e8e3de3827d2ed993d28bd22b943de">&#9670;&nbsp;</a></span>unsubscribe_from_market()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2489,13 +2522,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void graphene::app::database_api::unsubscribe_from_market </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -2509,13 +2542,13 @@ Public Member Functions</h2></td></tr>
 <p>Unsubscribe from updates to a given market. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>First asset ID </td></tr>
-    <tr><td class="paramname">b</td><td>Second asset ID </td></tr>
+    <tr><td class="paramname">a</td><td>First asset Symbol ID </td></tr>
+    <tr><td class="paramname">b</td><td>Second asset Symbol ID </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01276">1276</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l01381">1381</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2528,7 +2561,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a> graphene::app::database_api::validate_transaction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2536,7 +2569,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Validates a transaction against the current state without broadcasting it on the network. </p>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02084">2084</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02161">2161</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2565,9 +2598,18 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>true if the signers have enough authority to authorize an account </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02066">2066</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p>Verify that the public keys have enough authority to approve an operation for this account. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">account_name_or_id</td><td>the account to check </td></tr>
+    <tr><td class="paramname">signers</td><td>the public keys </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the passed in keys have enough authority to approve an operation for this account </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02133">2133</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2580,7 +2622,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool graphene::app::database_api::verify_authority </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2588,7 +2630,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>true of the trx has all of the required signatures, otherwise throws an exception </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02052">2052</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l02119">2119</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2599,7 +2641,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:23 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

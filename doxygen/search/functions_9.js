@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['id',['id',['../structgraphene_1_1chain_1_1signed__block__header.html#a54f3bca93d7e51093d6c66cc4522e0da',1,'graphene::chain::signed_block_header::id()'],['../structgraphene_1_1chain_1_1transaction.html#a94f1f38f5bdcb2e5041f964ca6b99d5b',1,'graphene::chain::transaction::id()']]],
+  ['id',['id',['../classgraphene_1_1chain_1_1signed__block__header.html#a35c290ec06916ffda24cb9d725eae76f',1,'graphene::chain::signed_block_header::id()'],['../classgraphene_1_1chain_1_1transaction.html#ac94648b40635194bcbaf4a94cedda568',1,'graphene::chain::transaction::id()'],['../classgraphene_1_1chain_1_1precomputable__transaction.html#a2850123fb5c0cb5db1b99eb66cbbc2ab',1,'graphene::chain::precomputable_transaction::id()']]],
   ['import_5faccount_5fkeys',['import_account_keys',['../classgraphene_1_1wallet_1_1wallet__api.html#a51d29f90e8ff286e4bd128a5191fe662',1,'graphene::wallet::wallet_api']]],
   ['import_5faccounts',['import_accounts',['../classgraphene_1_1wallet_1_1wallet__api.html#a3e40e2e27d9b153fd411a7cc181ce39a',1,'graphene::wallet::wallet_api']]],
   ['import_5fbalance',['import_balance',['../classgraphene_1_1wallet_1_1wallet__api.html#ac70989a765d5f84ff3d8d6444a398512',1,'graphene::wallet::wallet_api::import_balance()'],['../classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#ab704e6571ccbbefe2bd222e6c050f63d',1,'graphene::wallet::detail::wallet_api_impl::import_balance()']]],

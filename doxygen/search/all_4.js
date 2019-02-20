@@ -60,7 +60,7 @@ var searchData=
   ['designated_5fasset',['designated_asset',['../classgraphene_1_1chain_1_1fba__accumulator__object.html#a5fc6661fec6010ac2951b18a2a6bfb24',1,'graphene::chain::fba_accumulator_object']]],
   ['detailed_5fdescription',['detailed_description',['../structgraphene_1_1wallet_1_1method__description.html#a0c24cf3b39154b1b44c9ba4add1b9226',1,'graphene::wallet::method_description']]],
   ['details',['details',['../structgraphene_1_1wallet_1_1account__history__operation__detail.html#a429bf74a72b1a88e250d72b458f89d68',1,'graphene::wallet::account_history_operation_detail']]],
-  ['digest',['digest',['../structgraphene_1_1chain_1_1block__header.html#a8fb1588edbc4ff2e7b5867aac435f984',1,'graphene::chain::block_header::digest()'],['../structgraphene_1_1chain_1_1transaction.html#aba25fb0435684c2088b0d0ae5e0d27d2',1,'graphene::chain::transaction::digest()']]],
+  ['digest',['digest',['../classgraphene_1_1chain_1_1block__header.html#a8fb1588edbc4ff2e7b5867aac435f984',1,'graphene::chain::block_header::digest()'],['../classgraphene_1_1chain_1_1transaction.html#aba25fb0435684c2088b0d0ae5e0d27d2',1,'graphene::chain::transaction::digest()']]],
   ['digest_5ftype',['digest_type',['../namespacegraphene_1_1chain.html#a575e2ea493a5e8f4d2888ee753084596',1,'graphene::chain']]],
   ['disable_5fconfidential',['disable_confidential',['../namespacegraphene_1_1chain.html#a6a12bfc3745c709e79e6bbcd1fa6c3d2a106133e99fff12fb46c8bd8248c83661',1,'graphene::chain']]],
   ['disable_5fforce_5fsettle',['disable_force_settle',['../namespacegraphene_1_1chain.html#a6a12bfc3745c709e79e6bbcd1fa6c3d2a58326f264a443528bb9c8a7dd05d9ef5',1,'graphene::chain']]],

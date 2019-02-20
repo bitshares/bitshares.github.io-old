@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -96,17 +96,13 @@ Public Types</h2></td></tr>
 <a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726ada088aa976bc3f5a1813dc7645b591ad">skip_transaction_signatures</a> = 1 &lt;&lt; 1, 
 <a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726aa4b454d723548a14369e9d54ebff309c">skip_transaction_dupe_check</a> = 1 &lt;&lt; 2, 
 <br />
-&#160;&#160;<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726ae7f6a8e92ab5e80351994ee6e7240187">skip_fork_db</a> = 1 &lt;&lt; 3, 
-<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726ad400a74260f27eef16d855f4c325840f">skip_block_size_check</a> = 1 &lt;&lt; 4, 
+&#160;&#160;<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726ad400a74260f27eef16d855f4c325840f">skip_block_size_check</a> = 1 &lt;&lt; 4, 
 <a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726aa9965640871a2f76bacd60c977a183bc">skip_tapos_check</a> = 1 &lt;&lt; 5, 
-<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726a2ccaf9f1796afe8676c20e21571c91dc">skip_authority_check</a> = 1 &lt;&lt; 6, 
-<br />
-&#160;&#160;<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726a67c110807cc8ac1b8096a8d7888804c4">skip_merkle_check</a> = 1 &lt;&lt; 7, 
+<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726a67c110807cc8ac1b8096a8d7888804c4">skip_merkle_check</a> = 1 &lt;&lt; 7, 
 <a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726ab1814f44f09e9aa67dc11f1a82179368">skip_assert_evaluation</a> = 1 &lt;&lt; 8, 
-<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726a8627024a0226d1f03a963a90a26383b7">skip_undo_history_check</a> = 1 &lt;&lt; 9, 
-<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726a5658faff01cd4c139d313f6888bc7da0">skip_witness_schedule_check</a> = 1 &lt;&lt; 10, 
 <br />
-&#160;&#160;<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726aa6a4b7480b7887f498f60eb33abf5912">skip_validate</a> = 1 &lt;&lt; 11
+&#160;&#160;<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726a8627024a0226d1f03a963a90a26383b7">skip_undo_history_check</a> = 1 &lt;&lt; 9, 
+<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726a5658faff01cd4c139d313f6888bc7da0">skip_witness_schedule_check</a> = 1 &lt;&lt; 10
 <br />
  }</td></tr>
 <tr class="separator:a6de6add85d012876641f2a50ad707726"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,11 +130,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0600c987cf89e038128684da9b8c2829"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4294f12b2299bab7684555c986abac76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegraphene_1_1chain.html#a314b030d7a6107c5641fd9945da7f568">block_id_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a4294f12b2299bab7684555c986abac76">get_block_id_for_num</a> (uint32_t block_num) const</td></tr>
 <tr class="separator:a4294f12b2299bab7684555c986abac76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae517d3ed2a2362a70d120962536e16a0"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ae517d3ed2a2362a70d120962536e16a0">fetch_block_by_id</a> (const <a class="el" href="namespacegraphene_1_1chain.html#a314b030d7a6107c5641fd9945da7f568">block_id_type</a> &amp;id) const</td></tr>
+<tr class="memitem:ae517d3ed2a2362a70d120962536e16a0"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ae517d3ed2a2362a70d120962536e16a0">fetch_block_by_id</a> (const <a class="el" href="namespacegraphene_1_1chain.html#a314b030d7a6107c5641fd9945da7f568">block_id_type</a> &amp;id) const</td></tr>
 <tr class="separator:ae517d3ed2a2362a70d120962536e16a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a380a803937941dbbf86321373279a218"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a380a803937941dbbf86321373279a218">fetch_block_by_number</a> (uint32_t num) const</td></tr>
+<tr class="memitem:a380a803937941dbbf86321373279a218"><td class="memItemLeft" align="right" valign="top">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a380a803937941dbbf86321373279a218">fetch_block_by_number</a> (uint32_t num) const</td></tr>
 <tr class="separator:a380a803937941dbbf86321373279a218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19352bf8822d30ed4c71dd65fd62f0ca"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a19352bf8822d30ed4c71dd65fd62f0ca">get_recent_transaction</a> (const <a class="el" href="namespacegraphene_1_1chain.html#adc38ef0a36d8b8dfcef2cbbcacb6d1e8">transaction_id_type</a> &amp;trx_id) const</td></tr>
+<tr class="memitem:a19352bf8822d30ed4c71dd65fd62f0ca"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a19352bf8822d30ed4c71dd65fd62f0ca">get_recent_transaction</a> (const <a class="el" href="namespacegraphene_1_1chain.html#adc38ef0a36d8b8dfcef2cbbcacb6d1e8">transaction_id_type</a> &amp;trx_id) const</td></tr>
 <tr class="separator:a19352bf8822d30ed4c71dd65fd62f0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba653e023b116d6a004ebf27dd184328"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespacegraphene_1_1chain.html#a314b030d7a6107c5641fd9945da7f568">block_id_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aba653e023b116d6a004ebf27dd184328">get_block_ids_on_fork</a> (<a class="el" href="namespacegraphene_1_1chain.html#a314b030d7a6107c5641fd9945da7f568">block_id_type</a> head_of_fork) const</td></tr>
 <tr class="separator:aba653e023b116d6a004ebf27dd184328"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,19 +146,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad467f7f5b2d7cb5a142e1e80186589a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a293e9896a2e9c9b6d62fb5e2c19d11e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a293e9896a2e9c9b6d62fb5e2c19d11e8">before_last_checkpoint</a> () const</td></tr>
 <tr class="separator:a293e9896a2e9c9b6d62fb5e2c19d11e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa62eb8144a717f62da5404e8bb482414"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aa62eb8144a717f62da5404e8bb482414">push_block</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;b, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
+<tr class="memitem:aa62eb8144a717f62da5404e8bb482414"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aa62eb8144a717f62da5404e8bb482414">push_block</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;b, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
 <tr class="separator:aa62eb8144a717f62da5404e8bb482414"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f22e6c9b952fb833a6c34c0388c827a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a9f22e6c9b952fb833a6c34c0388c827a">push_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
-<tr class="separator:a9f22e6c9b952fb833a6c34c0388c827a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae68153f9fb7d63e8c3d2d43875acbf9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aae68153f9fb7d63e8c3d2d43875acbf9">_push_block</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;b)</td></tr>
+<tr class="memitem:af9ec01b12cd9c42a2da204c4a19d63aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#af9ec01b12cd9c42a2da204c4a19d63aa">push_transaction</a> (const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;trx, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
+<tr class="separator:af9ec01b12cd9c42a2da204c4a19d63aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae68153f9fb7d63e8c3d2d43875acbf9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aae68153f9fb7d63e8c3d2d43875acbf9">_push_block</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;b)</td></tr>
 <tr class="separator:aae68153f9fb7d63e8c3d2d43875acbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85915100090a9a1770f6395b7c1584d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a85915100090a9a1770f6395b7c1584d0">_push_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
-<tr class="separator:a85915100090a9a1770f6395b7c1584d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ca84ffcf797732a8227b27b335c66c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ad8ca84ffcf797732a8227b27b335c66c">_push_transaction</a> (const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;trx)</td></tr>
+<tr class="separator:ad8ca84ffcf797732a8227b27b335c66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5abeddad5156d1bcad2e97256d54fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ab5abeddad5156d1bcad2e97256d54fa0">push_proposal</a> (const <a class="el" href="classgraphene_1_1chain_1_1proposal__object.html">proposal_object</a> &amp;proposal)</td></tr>
 <tr class="separator:ab5abeddad5156d1bcad2e97256d54fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8f11489883556cf872c893bc90fae53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ae8f11489883556cf872c893bc90fae53">generate_block</a> (const fc::time_point_sec when, <a class="el" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> witness_id, const fc::ecc::private_key &amp;block_signing_private_key, uint32_t skip)</td></tr>
+<tr class="memitem:ae8f11489883556cf872c893bc90fae53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ae8f11489883556cf872c893bc90fae53">generate_block</a> (const fc::time_point_sec when, <a class="el" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> witness_id, const fc::ecc::private_key &amp;block_signing_private_key, uint32_t skip)</td></tr>
 <tr class="separator:ae8f11489883556cf872c893bc90fae53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a581a8d9539e3d2337d5665932048156c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a581a8d9539e3d2337d5665932048156c">_generate_block</a> (const fc::time_point_sec when, <a class="el" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> witness_id, const fc::ecc::private_key &amp;block_signing_private_key)</td></tr>
+<tr class="memitem:a581a8d9539e3d2337d5665932048156c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a581a8d9539e3d2337d5665932048156c">_generate_block</a> (const fc::time_point_sec when, <a class="el" href="namespacegraphene_1_1chain.html#ab7749ab4e10e21734e81c82e229657c0">witness_id_type</a> witness_id, const fc::ecc::private_key &amp;block_signing_private_key)</td></tr>
 <tr class="separator:a581a8d9539e3d2337d5665932048156c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03253124ee8714af752c1d68b7cc206c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a03253124ee8714af752c1d68b7cc206c">pop_block</a> ()</td></tr>
 <tr class="separator:a03253124ee8714af752c1d68b7cc206c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,9 +262,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbc9d3f6064163078b9a21c2c580f24b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#abbc9d3f6064163078b9a21c2c580f24b">enable_standby_votes_tracking</a> (bool enable)</td></tr>
 <tr class="memdesc:abbc9d3f6064163078b9a21c2c580f24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable tracking of votes of standby witnesses and committee members.  <a href="#abbc9d3f6064163078b9a21c2c580f24b">More...</a><br /></td></tr>
 <tr class="separator:abbc9d3f6064163078b9a21c2c580f24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9556e43f26824c2036c8916d0bc460c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#af9556e43f26824c2036c8916d0bc460c">apply_block</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;next_block, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
+<tr class="memitem:a34c54fd8e47f00cdfe23de1eb8a55bb8"><td class="memItemLeft" align="right" valign="top">fc::future&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a34c54fd8e47f00cdfe23de1eb8a55bb8">precompute_parallel</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;block, const uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>) const</td></tr>
+<tr class="separator:a34c54fd8e47f00cdfe23de1eb8a55bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76db729d92b453958e49c4ca7b9e382"><td class="memItemLeft" align="right" valign="top">fc::future&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ad76db729d92b453958e49c4ca7b9e382">precompute_parallel</a> (const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;trx) const</td></tr>
+<tr class="separator:ad76db729d92b453958e49c4ca7b9e382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9556e43f26824c2036c8916d0bc460c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#af9556e43f26824c2036c8916d0bc460c">apply_block</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;next_block, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
 <tr class="separator:af9556e43f26824c2036c8916d0bc460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaadc49139eb020b3b1e91b60b128e49f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aaadc49139eb020b3b1e91b60b128e49f">apply_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
+<tr class="memitem:aaadc49139eb020b3b1e91b60b128e49f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aaadc49139eb020b3b1e91b60b128e49f">apply_transaction</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx, uint32_t skip=<a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a>)</td></tr>
 <tr class="separator:aaadc49139eb020b3b1e91b60b128e49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a930314aa34166b1dbfc06d0cd85d481d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__operations.html#gaf121d5f218e142d53acffc833cae929a">operation_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a930314aa34166b1dbfc06d0cd85d481d">apply_operation</a> (<a class="el" href="classgraphene_1_1chain_1_1transaction__evaluation__state.html">transaction_evaluation_state</a> &amp;eval_state, const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">operation</a> &amp;op)</td></tr>
 <tr class="separator:a930314aa34166b1dbfc06d0cd85d481d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,9 +300,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3e6934dcd3926a0064ef136afc242c33"><td class="memItemLeft" align="right" valign="top">fc::signal&lt; void(const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a3e6934dcd3926a0064ef136afc242c33">applied_block</a></td></tr>
+<tr class="memitem:a3e6934dcd3926a0064ef136afc242c33"><td class="memItemLeft" align="right" valign="top">fc::signal&lt; void(const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a3e6934dcd3926a0064ef136afc242c33">applied_block</a></td></tr>
 <tr class="separator:a3e6934dcd3926a0064ef136afc242c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0747f461aea199b260777d4b1975013d"><td class="memItemLeft" align="right" valign="top">fc::signal&lt; void(const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a0747f461aea199b260777d4b1975013d">on_pending_transaction</a></td></tr>
+<tr class="memitem:a0747f461aea199b260777d4b1975013d"><td class="memItemLeft" align="right" valign="top">fc::signal&lt; void(const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a0747f461aea199b260777d4b1975013d">on_pending_transaction</a></td></tr>
 <tr class="separator:a0747f461aea199b260777d4b1975013d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11eac7e673b4a9bb4458282b3b01e21f"><td class="memItemLeft" align="right" valign="top">fc::signal&lt; void(const vector&lt; object_id_type &gt; &amp;, const flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a11eac7e673b4a9bb4458282b3b01e21f">new_objects</a></td></tr>
 <tr class="separator:a11eac7e673b4a9bb4458282b3b01e21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -315,15 +315,15 @@ Public Attributes</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aea9d1ca437641003a9426718ebe05481"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#aea9d1ca437641003a9426718ebe05481">pop_undo</a> ()</td></tr>
 <tr class="separator:aea9d1ca437641003a9426718ebe05481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a110fcf6a054a23576d5573ee4db3fd9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a110fcf6a054a23576d5573ee4db3fd9c">notify_applied_block</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;block)</td></tr>
+<tr class="memitem:a110fcf6a054a23576d5573ee4db3fd9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a110fcf6a054a23576d5573ee4db3fd9c">notify_applied_block</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;block)</td></tr>
 <tr class="separator:a110fcf6a054a23576d5573ee4db3fd9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b827a50067542ef8c1ea9f2e6177f8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a9b827a50067542ef8c1ea9f2e6177f8d">notify_on_pending_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;tx)</td></tr>
+<tr class="memitem:a9b827a50067542ef8c1ea9f2e6177f8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a9b827a50067542ef8c1ea9f2e6177f8d">notify_on_pending_transaction</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;tx)</td></tr>
 <tr class="separator:a9b827a50067542ef8c1ea9f2e6177f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3f480762bbb94cfecf98dd81fe3ed6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#ae3f480762bbb94cfecf98dd81fe3ed6e">notify_changed_objects</a> ()</td></tr>
 <tr class="separator:ae3f480762bbb94cfecf98dd81fe3ed6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94b3cf5753e4cf16d06840971c782db0"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a94b3cf5753e4cf16d06840971c782db0">_popped_tx</a></td></tr>
-<tr class="separator:a94b3cf5753e4cf16d06840971c782db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414ee96a9f64b119cd3849266885d93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a414ee96a9f64b119cd3849266885d93d">validate_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
+<tr class="memitem:a6c5fdb41f8fff0fa1aecc3c7778bf28c"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a6c5fdb41f8fff0fa1aecc3c7778bf28c">_popped_tx</a></td></tr>
+<tr class="separator:a6c5fdb41f8fff0fa1aecc3c7778bf28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414ee96a9f64b119cd3849266885d93d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1database.html#a414ee96a9f64b119cd3849266885d93d">validate_transaction</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
 <tr class="separator:a414ee96a9f64b119cd3849266885d93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -350,13 +350,9 @@ Protected Member Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726aa4b454d723548a14369e9d54ebff309c"></a>skip_transaction_dupe_check&#160;</td><td class="fielddoc"><p>used while reindexing </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726ae7f6a8e92ab5e80351994ee6e7240187"></a>skip_fork_db&#160;</td><td class="fielddoc"><p>used while reindexing </p>
-</td></tr>
 <tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726ad400a74260f27eef16d855f4c325840f"></a>skip_block_size_check&#160;</td><td class="fielddoc"><p>used when applying locally generated transactions </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726aa9965640871a2f76bacd60c977a183bc"></a>skip_tapos_check&#160;</td><td class="fielddoc"><p>used while reindexing &ndash; note this skips expiration check as well </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726a2ccaf9f1796afe8676c20e21571c91dc"></a>skip_authority_check&#160;</td><td class="fielddoc"><p>used while reindexing &ndash; disables any checking of authority on transactions </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726a67c110807cc8ac1b8096a8d7888804c4"></a>skip_merkle_check&#160;</td><td class="fielddoc"><p>used while reindexing </p>
 </td></tr>
@@ -365,8 +361,6 @@ Protected Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726a8627024a0226d1f03a963a90a26383b7"></a>skip_undo_history_check&#160;</td><td class="fielddoc"><p>used while reindexing </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726a5658faff01cd4c139d313f6888bc7da0"></a>skip_witness_schedule_check&#160;</td><td class="fielddoc"><p>used while reindexing </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6de6add85d012876641f2a50ad707726aa6a4b7480b7887f498f60eb33abf5912"></a>skip_validate&#160;</td><td class="fielddoc"><p>used prior to checkpoint, skips validate() call on transaction </p>
 </td></tr>
 </table>
 
@@ -390,7 +384,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00041">41</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00043">43</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -409,7 +403,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00047">47</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00049">49</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -421,7 +415,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> graphene::chain::database::_generate_block </td>
+          <td class="memname"><a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> graphene::chain::database::_generate_block </td>
           <td>(</td>
           <td class="paramtype">const fc::time_point_sec&#160;</td>
           <td class="paramname"><em>when</em>, </td>
@@ -446,7 +440,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00344">344</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00338">338</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -459,20 +453,19 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool graphene::chain::database::_push_block </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: if the block is greater than the head block and before the next maitenance interval </p>
 
 <p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00128">128</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a85915100090a9a1770f6395b7c1584d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85915100090a9a1770f6395b7c1584d0">&#9670;&nbsp;</a></span>_push_transaction()</h2>
+<a id="ad8ca84ffcf797732a8227b27b335c66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ca84ffcf797732a8227b27b335c66c">&#9670;&nbsp;</a></span>_push_transaction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -480,14 +473,14 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a> graphene::chain::database::_push_transaction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00240">240</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00234">234</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -507,7 +500,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00742">742</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00725">725</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -559,7 +552,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void graphene::chain::database::apply_block </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
           <td class="paramname"><em>next_block</em>, </td>
         </tr>
         <tr>
@@ -576,7 +569,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00514">514</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00510">510</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -625,7 +618,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00697">697</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00680">680</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -708,7 +701,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a> graphene::chain::database::apply_transaction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em>, </td>
         </tr>
         <tr>
@@ -725,7 +718,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00610">610</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00606">606</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -744,7 +737,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00748">748</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00731">731</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -943,7 +936,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00479">479</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00475">475</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -963,7 +956,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00211">211</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00223">223</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -982,7 +975,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00060">60</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00058">58</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1058,7 +1051,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00131">131</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00132">132</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +1104,7 @@ Protected Member Functions</h2></td></tr>
 <p>Otherwise, credit amount to ovbid.</p>
 <dl class="section return"><dt>Returns</dt><dd>ID of newly created VBO, but only if VBO was created. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00083">83</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00084">84</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1134,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00172">172</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__balance_8cpp_source.html#l00173">173</a> of file <a class="el" href="db__balance_8cpp_source.html">db_balance.cpp</a>.</p>
 
 </div>
 </div>
@@ -1171,7 +1164,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Enable or disable tracking of votes of standby witnesses and committee members. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00417">417</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00415">415</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -1224,7 +1217,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt; graphene::chain::database::fetch_block_by_id </td>
+          <td class="memname">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt; graphene::chain::database::fetch_block_by_id </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a314b030d7a6107c5641fd9945da7f568">block_id_type</a> &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -1244,7 +1237,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optional&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt; graphene::chain::database::fetch_block_by_number </td>
+          <td class="memname">optional&lt; <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &gt; graphene::chain::database::fetch_block_by_number </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>num</em></td><td>)</td>
@@ -1415,7 +1408,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> graphene::chain::database::generate_block </td>
+          <td class="memname"><a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> graphene::chain::database::generate_block </td>
           <td>(</td>
           <td class="paramtype">const fc::time_point_sec&#160;</td>
           <td class="paramname"><em>when</em>, </td>
@@ -1446,7 +1439,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00329">329</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00323">323</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -1466,7 +1459,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00112">112</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00110">110</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1485,7 +1478,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00507">507</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00503">503</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -1616,7 +1609,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00085">85</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00083">83</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1635,7 +1628,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00050">50</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00048">48</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1662,7 +1655,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00135">135</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00133">133</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -1681,7 +1674,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00035">35</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00033">33</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1700,7 +1693,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00040">40</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00038">38</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1719,7 +1712,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00055">55</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00053">53</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1738,7 +1731,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00045">45</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00043">43</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1757,7 +1750,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00090">90</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00088">88</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1768,7 +1761,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp; graphene::chain::database::get_recent_transaction </td>
+          <td class="memname">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp; graphene::chain::database::get_recent_transaction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#adc38ef0a36d8b8dfcef2cbbcacb6d1e8">transaction_id_type</a> &amp;&#160;</td>
           <td class="paramname"><em>trx_id</em></td><td>)</td>
@@ -1868,7 +1861,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00120">120</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00118">118</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1921,7 +1914,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00075">75</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00073">73</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1940,7 +1933,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00070">70</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00068">68</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1959,7 +1952,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00065">65</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00063">63</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -1996,7 +1989,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__init_8cpp_source.html#l00223">223</a> of file <a class="el" href="db__init_8cpp_source.html">db_init.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__init_8cpp_source.html#l00227">227</a> of file <a class="el" href="db__init_8cpp_source.html">db_init.cpp</a>.</p>
 
 </div>
 </div>
@@ -2097,7 +2090,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00100">100</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00098">98</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -2253,7 +2246,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00095">95</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__getter_8cpp_source.html#l00093">93</a> of file <a class="el" href="db__getter_8cpp_source.html">db_getter.cpp</a>.</p>
 
 </div>
 </div>
@@ -2269,7 +2262,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void graphene::chain::database::notify_applied_block </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
           <td class="paramname"><em>block</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2324,7 +2317,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void graphene::chain::database::notify_on_pending_transaction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>tx</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2384,7 +2377,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00157">157</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00169">169</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -2470,7 +2463,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Removes the most recent block from the database and undoes any changes it made. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00465">465</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00459">459</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2497,7 +2490,74 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00421">421</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00442">442</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a34c54fd8e47f00cdfe23de1eb8a55bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34c54fd8e47f00cdfe23de1eb8a55bb8">&#9670;&nbsp;</a></span>precompute_parallel() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fc::future&lt; void &gt; graphene::chain::database::precompute_parallel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
+          <td class="paramname"><em>block</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint32_t&#160;</td>
+          <td class="paramname"><em>skip</em> = <code><a class="el" href="classgraphene_1_1chain_1_1database.html#a6de6add85d012876641f2a50ad707726afbe701c12ae94e417ef9424306aabbdc">skip_nothing</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Precomputes digests, signatures and operation validations depending on skip flags. "Expensive" computations may be done in a parallel thread.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">block</td><td>the block to preprocess </td></tr>
+    <tr><td class="paramname">skip</td><td>indicates which computations can be skipped </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a future that will resolve to the input block with precomputations applied </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00753">753</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad76db729d92b453958e49c4ca7b9e382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76db729d92b453958e49c4ca7b9e382">&#9670;&nbsp;</a></span>precompute_parallel() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fc::future&lt; void &gt; graphene::chain::database::precompute_parallel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;&#160;</td>
+          <td class="paramname"><em>trx</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Precomputes digests, signatures and operation validations. "Expensive" computations may be done in a parallel thread.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trx</td><td>the transaction to preprocess </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a future that will resolve to the input transaction with precomputations applied </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00790">790</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2519,7 +2579,7 @@ Protected Member Functions</h2></td></tr>
 <p>This method is used to track appied operations during the evaluation of a block, these operations should include any operation actually included in a transaction as well as any implied/virtual operations that resulted, such as filling an order. The applied operations is cleared after applying each block and calling the block observers which may want to index these operations.</p>
 <dl class="section return"><dt>Returns</dt><dd>the op_id which can be used to set the result after it has finished being applied. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00486">486</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00482">482</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2532,7 +2592,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool graphene::chain::database::push_block </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
           <td class="paramname"><em>new_block</em>, </td>
         </tr>
         <tr>
@@ -2577,12 +2637,12 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00289">289</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00283">283</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a9f22e6c9b952fb833a6c34c0388c827a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f22e6c9b952fb833a6c34c0388c827a">&#9670;&nbsp;</a></span>push_transaction()</h2>
+<a id="af9ec01b12cd9c42a2da204c4a19d63aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9ec01b12cd9c42a2da204c4a19d63aa">&#9670;&nbsp;</a></span>push_transaction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2590,7 +2650,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a> graphene::chain::database::push_transaction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em>, </td>
         </tr>
         <tr>
@@ -2609,7 +2669,7 @@ Protected Member Functions</h2></td></tr>
 <p>Attempts to push the transaction into the pending queue</p>
 <p>When called to push a locally generated transaction, set the skip_block_size_check bit on the skip argument. This will allow the transaction to be pushed even if it causes the pending block size to exceed the maximum block size. Although the transaction will probably not propagate further now, as the peers are likely to have their pending queues full as well, it will be kept in the queue to be propagated later when a new block flushes out the pending queues. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00230">230</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00224">224</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2638,7 +2698,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00281">281</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00279">279</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2661,7 +2721,7 @@ template&lt;typename EvaluatorType &gt; </div>
 <p>Rebuild object graph from block history and open detabase. </p>
 <p>This method may be called after or instead of <a class="el" href="classgraphene_1_1chain_1_1database.html#a2d5356973d8d14d8267b7d49a2c6d939">database::open</a>, and will rebuild the object graph by replaying blockchain history. When this method exits successfully, the database will be open. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00052">52</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00054">54</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -2711,7 +2771,7 @@ template&lt;typename EvaluatorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00496">496</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00492">492</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2764,7 +2824,7 @@ template&lt;typename EvaluatorType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">processed_transaction</a> graphene::chain::database::validate_transaction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2772,7 +2832,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>This method validates transactions without adding it to the pending state. </p><dl class="section return"><dt>Returns</dt><dd>true if the transaction would validate </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00265">265</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__block_8cpp_source.html#l00259">259</a> of file <a class="el" href="db__block_8cpp_source.html">db_block.cpp</a>.</p>
 
 </div>
 </div>
@@ -2811,7 +2871,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </dl>
 <p>Will close the database before wiping. Database will be closed when this function returns. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00146">146</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__management_8cpp_source.html#l00158">158</a> of file <a class="el" href="db__management_8cpp_source.html">db_management.cpp</a>.</p>
 
 </div>
 </div>
@@ -2836,20 +2896,20 @@ template&lt;typename EvaluatorType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a94b3cf5753e4cf16d06840971c782db0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94b3cf5753e4cf16d06840971c782db0">&#9670;&nbsp;</a></span>_popped_tx</h2>
+<a id="a6c5fdb41f8fff0fa1aecc3c7778bf28c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c5fdb41f8fff0fa1aecc3c7778bf28c">&#9670;&nbsp;</a></span>_popped_tx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::deque&lt; <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &gt; graphene::chain::database::_popped_tx</td>
+          <td class="memname">std::deque&lt; <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &gt; graphene::chain::database::_popped_tx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>when popping a block, the transactions that were removed get cached here so they can be reapplied at the proper time </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00410">410</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00408">408</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2860,14 +2920,14 @@ template&lt;typename EvaluatorType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">fc::signal&lt;void(const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a>&amp;)&gt; graphene::chain::database::applied_block</td>
+          <td class="memname">fc::signal&lt;void(const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a>&amp;)&gt; graphene::chain::database::applied_block</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>This signal is emitted after all operations and virtual operation for a block have been applied but before the <a class="el" href="classgraphene_1_1chain_1_1database.html#a87c74f1ef2f8840261c3d9789151b305">get_applied_operations()</a> are cleared.</p>
 <p>You may not yield from this callback because the blockchain is holding the write lock and may be in an "inconstant state" until after it is released. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00184">184</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00182">182</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2884,7 +2944,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>Emitted After a block has been applied and committed. The callback should not yield and should execute quickly. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00202">202</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00200">200</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2901,7 +2961,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>Emitted After a block has been applied and committed. The callback should not yield and should execute quickly. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00196">196</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00194">194</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2912,13 +2972,13 @@ template&lt;typename EvaluatorType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">fc::signal&lt;void(const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&amp;)&gt; graphene::chain::database::on_pending_transaction</td>
+          <td class="memname">fc::signal&lt;void(const <a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a>&amp;)&gt; graphene::chain::database::on_pending_transaction</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>This signal is emitted any time a new transaction is added to the pending block state. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00190">190</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00188">188</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2935,7 +2995,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><div class="memdoc">
 <p>this signal is emitted any time an object is removed and contains a pointer to the last value of every object that was removed. </p>
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00207">207</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00205">205</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
 
 </div>
 </div>
@@ -2956,7 +3016,7 @@ template&lt;typename EvaluatorType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:15 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:24 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

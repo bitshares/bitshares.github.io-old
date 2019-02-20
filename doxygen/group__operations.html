@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -211,7 +211,7 @@ Typedefs</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>A set of valid comands for mutating the globally shared state. </p>
 <p>An operation can be thought of like a function that will modify the global shared state of the blockchain. The members of each struct are like function arguments and each operation can potentially generate a return value.</p>
-<p>Operations can be grouped into transactions (<a class="el" href="structgraphene_1_1chain_1_1transaction.html">transaction</a>) to ensure that they occur in a particular order and that all operations apply successfully or no operations apply.</p>
+<p>Operations can be grouped into transactions (<a class="el" href="classgraphene_1_1chain_1_1transaction.html">transaction</a>) to ensure that they occur in a particular order and that all operations apply successfully or no operations apply.</p>
 <p>Each operation is a fully defined state transition and can exist in a transaction on its own.</p>
 <h1><a class="anchor" id="operation_design_principles"></a>
 Design Principles</h1>
@@ -243,7 +243,7 @@ Explicit Relevant Accounts</h2>
 <p>A flat_set is used to make sure that only one extension of each type is added and that they are added in order.</p>
 <dl class="section note"><dt>Note</dt><dd>static_variant compares only the type tag and not the content. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00116">116</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00119">119</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 
 </div>
 </div>
@@ -260,7 +260,7 @@ Explicit Relevant Accounts</h2>
 </div><div class="memdoc">
 <p>For future expansion many structus include a single member of type extensions_type that can be changed when updating a protocol. You can always add new types to a static_variant without breaking backward compatibility. </p>
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00107">107</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00110">110</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 
 </div>
 </div>
@@ -293,14 +293,14 @@ Explicit Relevant Accounts</h2>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00084">84</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00086">86</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:23 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

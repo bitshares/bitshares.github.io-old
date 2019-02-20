@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -101,17 +101,17 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a33713868b546fe67bd32323ec1745ee7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a33713868b546fe67bd32323ec1745ee7">network_broadcast_api</a> (<a class="el" href="classgraphene_1_1app_1_1application.html">application</a> &amp;a)</td></tr>
 <tr class="separator:a33713868b546fe67bd32323ec1745ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaf4e22733a59e28dc7cef6ba5530562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#aaaf4e22733a59e28dc7cef6ba5530562">broadcast_transaction</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
-<tr class="memdesc:aaaf4e22733a59e28dc7cef6ba5530562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast a transaction to the network.  <a href="#aaaf4e22733a59e28dc7cef6ba5530562">More...</a><br /></td></tr>
-<tr class="separator:aaaf4e22733a59e28dc7cef6ba5530562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67737f03620587eed68b91184c753c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a67737f03620587eed68b91184c753c2e">broadcast_transaction_with_callback</a> (<a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a386f5b3156ac36437597c3119de4d242">confirmation_callback</a> cb, const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
-<tr class="separator:a67737f03620587eed68b91184c753c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18acee341d90fb8d392d5aa5e8d2649d"><td class="memItemLeft" align="right" valign="top">fc::variant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a18acee341d90fb8d392d5aa5e8d2649d">broadcast_transaction_synchronous</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;trx)</td></tr>
-<tr class="separator:a18acee341d90fb8d392d5aa5e8d2649d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a547818c9883ad1299b9e00cdcf635fed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a547818c9883ad1299b9e00cdcf635fed">broadcast_block</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;block)</td></tr>
+<tr class="memitem:a42a632b599dafb0d893bd46d7dfbd0c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a42a632b599dafb0d893bd46d7dfbd0c1">broadcast_transaction</a> (const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;trx)</td></tr>
+<tr class="memdesc:a42a632b599dafb0d893bd46d7dfbd0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast a transaction to the network.  <a href="#a42a632b599dafb0d893bd46d7dfbd0c1">More...</a><br /></td></tr>
+<tr class="separator:a42a632b599dafb0d893bd46d7dfbd0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c4b208e2d22fd681738f5e5c832a99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#af2c4b208e2d22fd681738f5e5c832a99">broadcast_transaction_with_callback</a> (<a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a386f5b3156ac36437597c3119de4d242">confirmation_callback</a> cb, const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;trx)</td></tr>
+<tr class="separator:af2c4b208e2d22fd681738f5e5c832a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0a971278e597cc9f4f9b1739324285"><td class="memItemLeft" align="right" valign="top">fc::variant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a9a0a971278e597cc9f4f9b1739324285">broadcast_transaction_synchronous</a> (const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;trx)</td></tr>
+<tr class="separator:a9a0a971278e597cc9f4f9b1739324285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547818c9883ad1299b9e00cdcf635fed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#a547818c9883ad1299b9e00cdcf635fed">broadcast_block</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;block)</td></tr>
 <tr class="memdesc:a547818c9883ad1299b9e00cdcf635fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcast a signed block to the network.  <a href="#a547818c9883ad1299b9e00cdcf635fed">More...</a><br /></td></tr>
 <tr class="separator:a547818c9883ad1299b9e00cdcf635fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acadde8137fccf6d482ce7f94bb8c0cbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#acadde8137fccf6d482ce7f94bb8c0cbe">on_applied_block</a> (const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;b)</td></tr>
+<tr class="memitem:acadde8137fccf6d482ce7f94bb8c0cbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1app_1_1network__broadcast__api.html#acadde8137fccf6d482ce7f94bb8c0cbe">on_applied_block</a> (const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;b)</td></tr>
 <tr class="memdesc:acadde8137fccf6d482ce7f94bb8c0cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not reflected, thus not accessible to API clients.  <a href="#acadde8137fccf6d482ce7f94bb8c0cbe">More...</a><br /></td></tr>
 <tr class="separator:acadde8137fccf6d482ce7f94bb8c0cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -153,7 +153,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00133">133</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00132">132</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -167,7 +167,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void graphene::app::network_broadcast_api::broadcast_block </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
           <td class="paramname"><em>block</em></td><td>)</td>
           <td></td>
         </tr>
@@ -182,12 +182,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00180">180</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00179">179</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aaaf4e22733a59e28dc7cef6ba5530562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf4e22733a59e28dc7cef6ba5530562">&#9670;&nbsp;</a></span>broadcast_transaction()</h2>
+<a id="a42a632b599dafb0d893bd46d7dfbd0c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a632b599dafb0d893bd46d7dfbd0c1">&#9670;&nbsp;</a></span>broadcast_transaction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,7 +195,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void graphene::app::network_broadcast_api::broadcast_transaction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td></td>
         </tr>
@@ -211,12 +211,12 @@ Public Member Functions</h2></td></tr>
 </dl>
 <p>The transaction will be checked for validity in the local database prior to broadcasting. If it fails to apply locally, an error will be thrown and the transaction will not be broadcast. </p>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00162">162</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00161">161</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a18acee341d90fb8d392d5aa5e8d2649d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18acee341d90fb8d392d5aa5e8d2649d">&#9670;&nbsp;</a></span>broadcast_transaction_synchronous()</h2>
+<a id="a9a0a971278e597cc9f4f9b1739324285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0a971278e597cc9f4f9b1739324285">&#9670;&nbsp;</a></span>broadcast_transaction_synchronous()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +224,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">fc::variant graphene::app::network_broadcast_api::broadcast_transaction_synchronous </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em></td><td>)</td>
           <td></td>
         </tr>
@@ -232,12 +232,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>this version of broadcast transaction registers a callback method that will be called when the transaction is included into a block. The callback method includes the transaction id, block number, and transaction number in the block. </p>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00170">170</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00169">169</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a67737f03620587eed68b91184c753c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67737f03620587eed68b91184c753c2e">&#9670;&nbsp;</a></span>broadcast_transaction_with_callback()</h2>
+<a id="af2c4b208e2d22fd681738f5e5c832a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2c4b208e2d22fd681738f5e5c832a99">&#9670;&nbsp;</a></span>broadcast_transaction_with_callback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +251,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>trx</em>&#160;</td>
         </tr>
         <tr>
@@ -276,7 +276,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void graphene::app::network_broadcast_api::on_applied_block </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
           <td></td>
         </tr>
@@ -287,7 +287,7 @@ Public Member Functions</h2></td></tr>
 <p>This function is registered to receive the applied_block signal from the chain database when a block is received. It then dispatches callbacks to clients who have requested to be notified when a particular txid is included in a block. </p>
 <p>we need to ensure the <a class="el" href="classgraphene_1_1app_1_1database__api.html" title="The database_api class implements the RPC API for the chain database. ">database_api</a> is not deleted for the life of the async operation </p>
 
-<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00138">138</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="api_8cpp_source.html#l00137">137</a> of file <a class="el" href="api_8cpp_source.html">api.cpp</a>.</p>
 
 </div>
 </div>
@@ -298,7 +298,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:24 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

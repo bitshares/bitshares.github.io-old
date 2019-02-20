@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -225,6 +225,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1balance__object.html">balance_object</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1balances__by__account__index.html">balances_by_account_index</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This secondary index will allow fast access to the balance objects that belonging to an account.  <a href="classgraphene_1_1chain_1_1balances__by__account__index.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1base__operation.html">base_operation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1bid__collateral__evaluator.html">bid_collateral_evaluator</a></td></tr>
@@ -253,7 +256,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1block__database.html">block_database</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1block__header.html">block_header</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1block__header.html">block_header</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1block__id__predicate.html">block_id_predicate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,7 +264,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tracks minimal information about past blocks to implement TaPOSWhen attempting to calculate the validity of a transaction we need to lookup a past block and check its block hash and the time it occurred so we can calculate whether the current transaction is valid and at what time it should expire.  <a href="classgraphene_1_1chain_1_1block__summary__object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1budget__record.html">budget_record</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A budget record struct to be used in initialize_budget_record and process_budget.  <a href="structgraphene_1_1chain_1_1budget__record.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1budget__record__object.html">budget_record_object</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1burn__worker__initializer.html">burn_worker_initializer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -377,6 +381,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1graphene__extension__unpack__visitor.html">graphene_extension_unpack_visitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1hardfork__visitor__1479.html">hardfork_visitor_1479</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1hardfork__visitor__214.html">hardfork_visitor_214</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1immutable__chain__parameters.html">immutable_chain_parameters</a></td></tr>
@@ -437,6 +443,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1p10_3_010_01_4.html">p10&lt; 0 &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">precomputable_transaction</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1predicate__evaluator.html">predicate_evaluator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1predicate__validator.html">predicate_validator</a></td></tr>
@@ -472,6 +480,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1pts__address.html">pts_address</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1pubkey__comparator.html">pubkey_comparator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1public__key__type.html">public_key_type</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1push__proposal__nesting__guard.html">push_proposal_nesting_guard</a></td></tr>
@@ -488,12 +498,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1sign__state.html">sign_state</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__block.html">signed_block</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1signed__block.html">signed_block</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__block__header.html">signed_block_header</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1signed__block__header.html">signed_block_header</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a signature to a transaction  <a href="structgraphene_1_1chain_1_1signed__transaction.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">signed_transaction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a signature to a transaction  <a href="classgraphene_1_1chain_1_1signed__transaction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1special__authority__evaluate__visitor.html">special_authority_evaluate_visitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -505,8 +515,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1top__holders__special__authority.html">top_holders_special_authority</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1transaction.html">transaction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">groups operations that should be applied atomically  <a href="structgraphene_1_1chain_1_1transaction.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1transaction.html">transaction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">groups operations that should be applied atomically  <a href="classgraphene_1_1chain_1_1transaction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1transaction__evaluation__state.html">transaction_evaluation_state</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -614,9 +624,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a9804a0f0630b758e8705712232eaf1d7"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_maintenance_flag &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, bool, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a90e3eb098578572f0b888daeacb81f92">account_balance_object::maintenance_flag</a> &gt; &gt;, ordered_unique&lt; tag&lt; by_account_asset &gt;, composite_key&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a924cc4b7671eaca7c3318284d3ea2fa0">account_balance_object::owner</a> &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a088eddd05089d6e86ffdfbca30618ffa">account_balance_object::asset_type</a> &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_asset_balance &gt;, composite_key&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a088eddd05089d6e86ffdfbca30618ffa">account_balance_object::asset_type</a> &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#aa3541b73c253bcd3d8c85a638846db8f">account_balance_object::balance</a> &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a924cc4b7671eaca7c3318284d3ea2fa0">account_balance_object::owner</a> &gt; &gt;, composite_key_compare&lt; std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &gt;, std::greater&lt; <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> &gt;, std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a9804a0f0630b758e8705712232eaf1d7">account_balance_object_multi_index_type</a></td></tr>
-<tr class="separator:a9804a0f0630b758e8705712232eaf1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c78c201450b21a1df4539d4fc3165c7"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a9804a0f0630b758e8705712232eaf1d7">account_balance_object_multi_index_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a4c78c201450b21a1df4539d4fc3165c7">account_balance_index</a></td></tr>
+<tr class="memitem:ae4b5486b79c95a308081e5b8f3cc309b"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_maintenance_flag &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, bool, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a90e3eb098578572f0b888daeacb81f92">account_balance_object::maintenance_flag</a> &gt; &gt;, ordered_unique&lt; tag&lt; by_asset_balance &gt;, composite_key&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a088eddd05089d6e86ffdfbca30618ffa">account_balance_object::asset_type</a> &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#aa3541b73c253bcd3d8c85a638846db8f">account_balance_object::balance</a> &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a924cc4b7671eaca7c3318284d3ea2fa0">account_balance_object::owner</a> &gt; &gt;, composite_key_compare&lt; std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &gt;, std::greater&lt; <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> &gt;, std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ae4b5486b79c95a308081e5b8f3cc309b">account_balance_object_multi_index_type</a></td></tr>
+<tr class="separator:ae4b5486b79c95a308081e5b8f3cc309b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c78c201450b21a1df4539d4fc3165c7"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#ae4b5486b79c95a308081e5b8f3cc309b">account_balance_object_multi_index_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a4c78c201450b21a1df4539d4fc3165c7">account_balance_index</a></td></tr>
 <tr class="separator:a4c78c201450b21a1df4539d4fc3165c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cb69664c48f3d41eb5ac8b6bc4847cc"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_unique&lt; tag&lt; <a class="el" href="structgraphene_1_1chain_1_1by__name.html">by_name</a> &gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a>, string, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__object.html#a9eeeba87995190284d93bd3d7fabc639">account_object::name</a> &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a2cb69664c48f3d41eb5ac8b6bc4847cc">account_multi_index_type</a></td></tr>
 <tr class="separator:a2cb69664c48f3d41eb5ac8b6bc4847cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -754,6 +764,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0c16f45fde84151d6801f2e5dd26be4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a1619b5658f5eac4f0d13df44f58659"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; <a class="el" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">implementation_ids</a>, <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a344ace874a02d31a31651328e080e91a">impl_witness_schedule_object_type</a>, <a class="el" href="classgraphene_1_1chain_1_1witness__schedule__object.html">witness_schedule_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a0a1619b5658f5eac4f0d13df44f58659">witness_schedule_id_type</a></td></tr>
 <tr class="separator:a0a1619b5658f5eac4f0d13df44f58659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099a839fe65d5b1148f713db000f08db"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; <a class="el" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">implementation_ids</a>, <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a8b4ffc45235b1f894dd7cb703cfde831">impl_budget_record_object_type</a>, <a class="el" href="classgraphene_1_1chain_1_1budget__record__object.html">budget_record_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a099a839fe65d5b1148f713db000f08db">budget_record_id_type</a></td></tr>
+<tr class="separator:a099a839fe65d5b1148f713db000f08db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fedd4e326e2b143e0188eb79cd7183e"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; <a class="el" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">implementation_ids</a>, <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a2277aa0cdb0fda1e3f2c7e6d1cafb7c0">impl_blinded_balance_object_type</a>, <a class="el" href="classgraphene_1_1chain_1_1blinded__balance__object.html">blinded_balance_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a2fedd4e326e2b143e0188eb79cd7183e">blinded_balance_id_type</a></td></tr>
 <tr class="separator:a2fedd4e326e2b143e0188eb79cd7183e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a887b63c98193b3b654edfd6ef6bd4a77"><td class="memItemLeft" align="right" valign="top">typedef object_id&lt; <a class="el" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">implementation_ids</a>, <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a9d63a3647a2db0610d19742509c51e32">impl_special_authority_object_type</a>, <a class="el" href="classgraphene_1_1chain_1_1special__authority__object.html">special_authority_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a887b63c98193b3b654edfd6ef6bd4a77">special_authority_id_type</a></td></tr>
@@ -814,8 +826,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab6499fee45a9563fe61a7a0b0d39dbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01669f00e62a01a3ccd3760c803f30d0"><td class="memItemLeft" align="right" valign="top">typedef boost::multiprecision::int128_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a01669f00e62a01a3ccd3760c803f30d0">int128_t</a></td></tr>
 <tr class="separator:a01669f00e62a01a3ccd3760c803f30d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f54b9d7e4d252c4a30259fcf5edc987"><td class="memItemLeft" align="right" valign="top">typedef fc::smart_ref&lt; <a class="el" href="structgraphene_1_1chain_1_1fee__schedule.html">fee_schedule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a3f54b9d7e4d252c4a30259fcf5edc987">smart_fee_schedule</a></td></tr>
-<tr class="separator:a3f54b9d7e4d252c4a30259fcf5edc987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -887,7 +897,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a06c5be035f391ce73d06d976c6881027">impl_chain_property_object_type</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a344ace874a02d31a31651328e080e91a">impl_witness_schedule_object_type</a>, 
-<a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73ad25a47c10c7aec0265c290c7fd48ab7f">impl_reserved1_object_type</a>, 
+<a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a8b4ffc45235b1f894dd7cb703cfde831">impl_budget_record_object_type</a>, 
 <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a9d63a3647a2db0610d19742509c51e32">impl_special_authority_object_type</a>, 
 <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a7a94b2d29fe39e6d30d5b3c5eb7ec42b">impl_buyback_object_type</a>, 
 <br />
@@ -956,7 +966,7 @@ Functions</h2></td></tr>
 <tr class="separator:ac5b70c454163ad4446dcb6b4ec18f225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0fc6fc333d4278240f010266e862c03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ab0fc6fc333d4278240f010266e862c03">operation_get_impacted_accounts</a> (const <a class="el" href="group__operations.html#gac47176a69808d4ca769092ca957db937">graphene::chain::operation</a> &amp;op, fc::flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a> &gt; &amp;result)</td></tr>
 <tr class="separator:ab0fc6fc333d4278240f010266e862c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0041628a0dc6307232f77d54213e9b8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a0041628a0dc6307232f77d54213e9b8a">transaction_get_impacted_accounts</a> (const <a class="el" href="structgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a> &amp;tx, fc::flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a> &gt; &amp;result)</td></tr>
+<tr class="memitem:a0041628a0dc6307232f77d54213e9b8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a0041628a0dc6307232f77d54213e9b8a">transaction_get_impacted_accounts</a> (const <a class="el" href="classgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a> &amp;tx, fc::flat_set&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">graphene::chain::account_id_type</a> &gt; &amp;result)</td></tr>
 <tr class="separator:a0041628a0dc6307232f77d54213e9b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5329db165e64c97305196002b5030bb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a5329db165e64c97305196002b5030bb3">is_authorized_asset</a> (const <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;d, const <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &amp;acct, const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;asset_obj)</td></tr>
 <tr class="separator:a5329db165e64c97305196002b5030bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1076,7 +1086,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00222">222</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00223">223</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1087,28 +1097,28 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef generic_index&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a9804a0f0630b758e8705712232eaf1d7">account_balance_object_multi_index_type</a>&gt; <a class="el" href="namespacegraphene_1_1chain.html#a4c78c201450b21a1df4539d4fc3165c7">graphene::chain::account_balance_index</a></td>
+          <td class="memname">typedef generic_index&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#ae4b5486b79c95a308081e5b8f3cc309b">account_balance_object_multi_index_type</a>&gt; <a class="el" href="namespacegraphene_1_1chain.html#a4c78c201450b21a1df4539d4fc3165c7">graphene::chain::account_balance_index</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00382">382</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00392">392</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a9804a0f0630b758e8705712232eaf1d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9804a0f0630b758e8705712232eaf1d7">&#9670;&nbsp;</a></span>account_balance_object_multi_index_type</h2>
+<a id="ae4b5486b79c95a308081e5b8f3cc309b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4b5486b79c95a308081e5b8f3cc309b">&#9670;&nbsp;</a></span>account_balance_object_multi_index_type</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt;by_id&gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt;by_maintenance_flag&gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, bool, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a90e3eb098578572f0b888daeacb81f92">account_balance_object::maintenance_flag</a> &gt; &gt;, ordered_unique&lt; tag&lt;by_account_asset&gt;, composite_key&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a924cc4b7671eaca7c3318284d3ea2fa0">account_balance_object::owner</a>&gt;, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a088eddd05089d6e86ffdfbca30618ffa">account_balance_object::asset_type</a>&gt; &gt; &gt;, ordered_unique&lt; tag&lt;by_asset_balance&gt;, composite_key&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a088eddd05089d6e86ffdfbca30618ffa">account_balance_object::asset_type</a>&gt;, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#aa3541b73c253bcd3d8c85a638846db8f">account_balance_object::balance</a>&gt;, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a924cc4b7671eaca7c3318284d3ea2fa0">account_balance_object::owner</a>&gt; &gt;, composite_key_compare&lt; std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &gt;, std::greater&lt; <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> &gt;, std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &gt; &gt; &gt; &gt; <a class="el" href="namespacegraphene_1_1chain.html#a9804a0f0630b758e8705712232eaf1d7">graphene::chain::account_balance_object_multi_index_type</a></td>
+          <td class="memname">typedef multi_index_container&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, indexed_by&lt; ordered_unique&lt; tag&lt;by_id&gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt;by_maintenance_flag&gt;, member&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, bool, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a90e3eb098578572f0b888daeacb81f92">account_balance_object::maintenance_flag</a> &gt; &gt;, ordered_unique&lt; tag&lt;by_asset_balance&gt;, composite_key&lt; <a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a088eddd05089d6e86ffdfbca30618ffa">account_balance_object::asset_type</a>&gt;, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#aa3541b73c253bcd3d8c85a638846db8f">account_balance_object::balance</a>&gt;, member&lt;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html">account_balance_object</a>, <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a>, &amp;<a class="el" href="classgraphene_1_1chain_1_1account__balance__object.html#a924cc4b7671eaca7c3318284d3ea2fa0">account_balance_object::owner</a>&gt; &gt;, composite_key_compare&lt; std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &gt;, std::greater&lt; <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> &gt;, std::less&lt; <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &gt; &gt; &gt; &gt; &gt; <a class="el" href="namespacegraphene_1_1chain.html#ae4b5486b79c95a308081e5b8f3cc309b">graphene::chain::account_balance_object_multi_index_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00346">346</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00363">363</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1140,7 +1150,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00400">400</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00410">410</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1156,7 +1166,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00395">395</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00405">405</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1172,7 +1182,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00223">223</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00224">224</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1188,7 +1198,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00427">427</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00437">437</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1204,7 +1214,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00403">403</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__object_8hpp_source.html#l00413">413</a> of file <a class="el" href="account__object_8hpp_source.html">account_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -1220,7 +1230,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00229">229</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00230">230</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1268,7 +1278,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00221">221</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00222">222</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1316,7 +1326,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00220">220</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00221">221</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1428,7 +1438,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00232">232</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00234">234</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1476,7 +1486,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00238">238</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00240">240</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1492,7 +1502,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00225">225</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00226">226</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a099a839fe65d5b1148f713db000f08db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099a839fe65d5b1148f713db000f08db">&#9670;&nbsp;</a></span>budget_record_id_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef object_id&lt; <a class="el" href="namespacegraphene_1_1chain.html#a92e55d4242187696c5e2c5eaafbd9400a81f35c04f1d3f3109dacaa6f2bef33c7">implementation_ids</a>, <a class="el" href="namespacegraphene_1_1chain.html#ad3bef2f100b722a6c30fada38f6dcd73a8b4ffc45235b1f894dd7cb703cfde831">impl_budget_record_object_type</a>, <a class="el" href="classgraphene_1_1chain_1_1budget__record__object.html">budget_record_object</a> &gt; <a class="el" href="namespacegraphene_1_1chain.html#a099a839fe65d5b1148f713db000f08db">graphene::chain::budget_record_id_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00233">233</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1508,7 +1534,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00234">234</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00236">236</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1620,7 +1646,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00230">230</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00231">231</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1636,7 +1662,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00239">239</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00241">241</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1652,7 +1678,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00236">236</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00238">238</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1764,7 +1790,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00241">241</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00243">243</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1780,7 +1806,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00219">219</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00220">220</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1796,7 +1822,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00235">235</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00237">237</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1812,7 +1838,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fee__schedule_8hpp_source.html#l00035">35</a> of file <a class="el" href="fee__schedule_8hpp_source.html">fee_schedule.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fee__schedule_8hpp_source.html#l00036">36</a> of file <a class="el" href="fee__schedule_8hpp_source.html">fee_schedule.hpp</a>.</p>
 
 </div>
 </div>
@@ -1828,7 +1854,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fee__schedule_8hpp_source.html#l00151">151</a> of file <a class="el" href="fee__schedule_8hpp_source.html">fee_schedule.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fee__schedule_8hpp_source.html#l00152">152</a> of file <a class="el" href="fee__schedule_8hpp_source.html">fee_schedule.hpp</a>.</p>
 
 </div>
 </div>
@@ -1892,7 +1918,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00216">216</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00217">217</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2149,7 +2175,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00243">243</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00245">245</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2165,23 +2191,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00242">242</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3f54b9d7e4d252c4a30259fcf5edc987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f54b9d7e4d252c4a30259fcf5edc987">&#9670;&nbsp;</a></span>smart_fee_schedule</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef fc::smart_ref&lt;<a class="el" href="structgraphene_1_1chain_1_1fee__schedule.html">fee_schedule</a>&gt; <a class="el" href="namespacegraphene_1_1chain.html#a3f54b9d7e4d252c4a30259fcf5edc987">graphene::chain::smart_fee_schedule</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="fee__schedule_8cpp_source.html#l00042">42</a> of file <a class="el" href="fee__schedule_8cpp_source.html">fee_schedule.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00244">244</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2213,7 +2223,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00233">233</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00235">235</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2261,7 +2271,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00240">240</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00242">242</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2309,7 +2319,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00224">224</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00225">225</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2421,7 +2431,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00244">244</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00246">246</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2533,7 +2543,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00231">231</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8hpp_source.html#l00232">232</a> of file <a class="el" href="types_8hpp_source.html">types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2686,7 +2696,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a2277aa0cdb0fda1e3f2c7e6d1cafb7c0"></a>impl_blinded_balance_object_type&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a06c5be035f391ce73d06d976c6881027"></a>impl_chain_property_object_type&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a344ace874a02d31a31651328e080e91a"></a>impl_witness_schedule_object_type&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73ad25a47c10c7aec0265c290c7fd48ab7f"></a>impl_reserved1_object_type&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a8b4ffc45235b1f894dd7cb703cfde831"></a>impl_budget_record_object_type&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a9d63a3647a2db0610d19742509c51e32"></a>impl_special_authority_object_type&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a7a94b2d29fe39e6d30d5b3c5eb7ec42b"></a>impl_buyback_object_type&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad3bef2f100b722a6c30fada38f6dcd73a7734519967f0d47d3613ccfccb4ab0d7"></a>impl_fba_accumulator_object_type&#160;</td><td class="fielddoc"></td></tr>
@@ -2845,7 +2855,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00713">713</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00692">692</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -2925,7 +2935,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00789">789</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00762">762</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -2945,7 +2955,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00706">706</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00685">685</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -3509,7 +3519,7 @@ Variables</h2></td></tr>
 <p>Appends required authorites to the result vector. The authorities appended are not the same as those returned by get_required_auth</p>
 <dl class="section return"><dt>Returns</dt><dd>a set of required authorities for op </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="operations_8cpp_source.html#l00079">79</a> of file <a class="el" href="operations_8cpp_source.html">operations.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="operations_8cpp_source.html#l00085">85</a> of file <a class="el" href="operations_8cpp_source.html">operations.cpp</a>.</p>
 
 </div>
 </div>
@@ -3529,7 +3539,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="operations_8cpp_source.html#l00074">74</a> of file <a class="el" href="operations_8cpp_source.html">operations.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="operations_8cpp_source.html#l00080">80</a> of file <a class="el" href="operations_8cpp_source.html">operations.cpp</a>.</p>
 
 </div>
 </div>
@@ -4495,7 +4505,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00961">961</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00940">940</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -4515,7 +4525,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l01065">1065</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l01044">1044</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -4563,7 +4573,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00627">627</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00606">606</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -4614,7 +4624,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void graphene::chain::transaction_get_impacted_accounts </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a> &amp;&#160;</td>
           <td class="paramname"><em>tx</em>, </td>
         </tr>
         <tr>
@@ -4650,7 +4660,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>market issued </p>
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00870">870</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00849">849</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -4670,7 +4680,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00588">588</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00567">567</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -4720,7 +4730,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__evaluator_8cpp_source.html#l00060">60</a> of file <a class="el" href="account__evaluator_8cpp_source.html">account_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__evaluator_8cpp_source.html#l00058">58</a> of file <a class="el" href="account__evaluator_8cpp_source.html">account_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -4750,7 +4760,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="account__evaluator_8cpp_source.html#l00044">44</a> of file <a class="el" href="account__evaluator_8cpp_source.html">account_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="account__evaluator_8cpp_source.html#l00042">42</a> of file <a class="el" href="account__evaluator_8cpp_source.html">account_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -4948,7 +4958,7 @@ template&lt;typename Visitor &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00570">570</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__maint_8cpp_source.html#l00549">549</a> of file <a class="el" href="db__maint_8cpp_source.html">db_maint.cpp</a>.</p>
 
 </div>
 </div>
@@ -4965,7 +4975,7 @@ template&lt;typename Visitor &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00108">108</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transaction_8cpp_source.html#l00105">105</a> of file <a class="el" href="transaction_8cpp_source.html">transaction.cpp</a>.</p>
 
 </div>
 </div>
@@ -4988,7 +4998,7 @@ template&lt;typename Visitor &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:24 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

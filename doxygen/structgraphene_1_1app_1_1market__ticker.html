@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">2.0.190219</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -65,6 +65,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structgraphene_1_1app_1_1market__ticker-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -74,6 +75,13 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="database__api_8hpp_source.html">database_api.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aac8446e8d175180399eecc5098a7c9e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1market__ticker.html#aac8446e8d175180399eecc5098a7c9e7">market_ticker</a> ()</td></tr>
+<tr class="separator:aac8446e8d175180399eecc5098a7c9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae850ca07975efc38539207fae3cf7ac9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1market__ticker.html#ae850ca07975efc38539207fae3cf7ac9">market_ticker</a> (const market_ticker_object &amp;mto, const fc::time_point_sec &amp;now, const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;asset_base, const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;asset_quote, const <a class="el" href="structgraphene_1_1app_1_1order__book.html">order_book</a> &amp;orders)</td></tr>
+<tr class="separator:ae850ca07975efc38539207fae3cf7ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa935d5133c12332b9c749372e1a27063"><td class="memItemLeft" align="right" valign="top">time_point_sec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1app_1_1market__ticker.html#aa935d5133c12332b9c749372e1a27063">time</a></td></tr>
@@ -98,7 +106,83 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="database__api_8hpp_source.html#l00082">82</a> of file <a class="el" href="database__api_8hpp_source.html">database_api.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aac8446e8d175180399eecc5098a7c9e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac8446e8d175180399eecc5098a7c9e7">&#9670;&nbsp;</a></span>market_ticker() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">graphene::app::market_ticker::market_ticker </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="database__api_8hpp_source.html#l00094">94</a> of file <a class="el" href="database__api_8hpp_source.html">database_api.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae850ca07975efc38539207fae3cf7ac9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae850ca07975efc38539207fae3cf7ac9">&#9670;&nbsp;</a></span>market_ticker() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">graphene::app::market_ticker::market_ticker </td>
+          <td>(</td>
+          <td class="paramtype">const market_ticker_object &amp;&#160;</td>
+          <td class="paramname"><em>mto</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fc::time_point_sec &amp;&#160;</td>
+          <td class="paramname"><em>now</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;&#160;</td>
+          <td class="paramname"><em>asset_base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;&#160;</td>
+          <td class="paramname"><em>asset_quote</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1app_1_1order__book.html">order_book</a> &amp;&#160;</td>
+          <td class="paramname"><em>orders</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="database__api_8cpp_source.html#l00381">381</a> of file <a class="el" href="database__api_8cpp_source.html">database_api.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a1b081d7add2171cbb6f39987027822ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b081d7add2171cbb6f39987027822ec">&#9670;&nbsp;</a></span>base</h2>
 
@@ -243,13 +327,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li>libraries/app/include/graphene/app/<a class="el" href="database__api_8hpp_source.html">database_api.hpp</a></li>
+<li>libraries/app/<a class="el" href="database__api_8cpp_source.html">database_api.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 11:03:24 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
